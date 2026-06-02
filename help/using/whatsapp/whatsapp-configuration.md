@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 88%
+source-wordcount: 1328
+ht-degree: 82%
 
 ---
 
@@ -44,6 +44,21 @@ Bevor Sie Ihre WhatsApp-Nachricht senden, müssen Sie Ihre Adobe Journey Optimiz
 Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/administrator.md) durchgeführt werden.
 
 ## Erstellen von WhatsApp-API-Anmeldedaten {#whatsapp-credentials}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_name"
+>title="Name"
+>abstract="Geben Sie einen eindeutigen Namen für diesen API-Berechtigungssatz ein. Sie wählen es aus, wenn Sie WhatsApp-Webhooks und Kanalkonfigurationen konfigurieren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_api_token"
+>title="API-Token"
+>abstract="Verwenden Sie ein Meta-Zugriffstoken eines Systembenutzers im selben Business Manager wie Ihre WhatsApp-Assets. Dieser Benutzer benötigt die Berechtigungen whatsapp_business_management, whatsapp_business_messaging und business_management sowie Zugriff auf Ihr WhatsApp Business-Konto auf Asset-Ebene. Meta-Token laufen nach etwa 60 Tagen ab. Verlängern Sie das Token, bevor es verfällt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_business_account_id"
+>title="Geschäftskonto-ID"
+>abstract="Geben Sie Ihre Meta Business Portfolio-ID ein, auch Business Manager-ID genannt. Geben Sie in diesem Feld nicht Ihre WhatsApp Business Account ID ein."
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]** aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
