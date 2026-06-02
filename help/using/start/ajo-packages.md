@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: Journey Optimizer, Paket, Lizenz, auswählen, Prime, Ultimate, Funktionen, Funktionen, modular, Kanäle
 hide: true
-source-git-commit: fc7f2801bb13ac6cc531fb51612b0abde0778e69
+source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
@@ -27,40 +27,46 @@ Die Verfügbarkeit kann auch von der Kanalkonfiguration, den Implementierungsvor
 
 >[!TAB Journey und Kampagnen]
 
-Diese Registerkarte gilt für Kundinnen und Kunden, die unter dem aktuellen modularen [!DNL Adobe Journey Optimizer]-Verpackungsmodell lizenziert sind (AJO-Journey, AJO-Kampagnen oder AJO-Kampagnen und -Journey).
+Diese Registerkarte gilt für Kundinnen und Kunden, die unter dem aktuellen modularen [!DNL Adobe Journey Optimizer]-Verpackungsmodell (Journey Optimizer - Kampagnen, Journey Optimizer - Journey oder Journey Optimizer - Kampagnen und Journey) lizenziert sind.
 
 ## Basispakete {#current-packages}
 
-| Paket | Am besten geeignet für |
+| Paket | Was es enthält |
 |---------|----------------|
-| **AJO-Kampagnen** | Geplante, Batch- und Transaktionsnachrichten über ausgehende Kanäle hinweg. |
-| **AJO Journey** | Ereignisgesteuerte Orchestrierung und Automatisierung von Journey in Echtzeit. |
-| **AJO-Kampagnen und -Journey** | Die gesamte Plattform - geplanter Messaging und Echtzeit-Orchestrierung kombiniert. |
+| **Journey Optimizer - Kampagnen** | Kampagnenorchestrierung: Ein- oder mehrstufige Zielgruppen-Workflows für Batch-Interaktionen. Transaktionsnachrichten per E-Mail, Push und SMS enthalten. |
+| **Journey Optimizer - Journey** | Echtzeit-Journey Orchestration: ereignisgesteuerte Journey mit Unterstützung für Streaming und Batch-Verarbeitung. Transaktionsnachrichten per E-Mail, Push und SMS enthalten. |
+| **Journey Optimizer - Kampagnen und Journey** | Kampagnenorchestrierung und Real-time Journey Orchestration kombiniert. Transaktionsnachrichten per E-Mail, Push und SMS enthalten. |
 
-Die folgenden Add-ons erweitern die Kanal- und Funktionsabdeckung zusätzlich zu jedem Basispaket:
+>[!NOTE]
+>
+>Die Berechtigung für das gesamte Datenvolumen variiert je nach Paket: **Kampagnen**-Kunden haben Anspruch auf 15 KB pro adressierbarem Profil; **Journey** und **Kampagnen und Journey**-Kunden haben Anspruch auf 75 KB pro adressierbarem Profil.
 
-| Add-on | Was es freischaltet |
+Die folgenden Add-ons erweitern die Kanalabdeckung zusätzlich zu jedem Basispaket. Das **Alle Kanäle**-Add-on bündelt ausgehende Sendungen, Mobile Apps und Web zusammen.
+
+| Add-on | Kanäle entsperrt |
 |--------|----------------|
-| **Outbound** | E-Mail, SMS/MMS, Push-Benachrichtigungen und Briefpost |
-| **Mobile App** | In-App-Messaging und mobiles Push |
-| **Web** | Webkanal, Code-basierte Erlebnisse und Inhaltskarten |
+| **Ausgehender Versand** | E-Mail, Push-Benachrichtigungen, Briefpost. Umfasst die Grundlagen der Zustellbarkeit. |
+| **Mobile** | In-App-Messaging, Push-Benachrichtigungen, Inhaltskarten und Code-basierte Kanäle für mobile Oberflächen |
+| **Web** | Webkanal und codebasierte Kanäle für Weboberflächen |
+| **Alle Kanäle** | Bundles Ausgehender Versand + Mobile + Web |
 | **Entscheidungsfindung** | Echtzeit-Angebotsentscheidung und KI-gestützte Optimierung |
 
 ## Funktionsmatrix {#capability-matrix-current}
 
-| Funktion | Mögliche Optionen | AJO-Kampagnen | Journey von AJO | AJO-Kampagnen und -Journey | Add-on erforderlich | Weitere Informationen |
-|-----------|----------------|:-------------:|:------------:|:------------------------:|:---------------:|-----------|
-| **E-Mail** | Gestalten und Senden personalisierter E-Mail-Nachrichten | ✓ | ✓ | ✓ | Outbound | [Erfahren Sie, wie Sie E-Mails senden](../email/get-started-email.md) |
-| **SMS/MMS** | Senden von Text- und Multimedia-Nachrichten | ✓ | ✓ | ✓ | Outbound | [Erfahren Sie, wie Sie Nachrichten an Mobilgeräte senden](../mobile/get-started-mobile.md) |
-| **Push-Benachrichtigungen** | Mobile Push-Benachrichtigungen senden | ✓ | ✓ | ✓ | Outbound | [Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) |
-| **Briefpost** | Erstellen und Senden von physischen Postsendungen | ✓ | ✓ | ✓ | Outbound | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) |
-| **In-App-Messaging** | Anzeigen von Nachrichten in Ihrer Mobile App | ✓ | ✓ | ✓ | Mobile App | [Erfahren Sie, wie Sie In-App-Messaging verwenden](../in-app/get-started-in-app.md) |
+| Funktion | Mögliche Optionen | Journey Optimizer - Kampagnen | JOURNEY OPTIMIZER - JOURNEY | Journey Optimizer - Kampagnen und Journey | Add-on erforderlich | Weitere Informationen |
+|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
+| **Transaktionsnachrichten** | Senden von Nachrichten, die in Echtzeit ausgelöst werden, per E-Mail, Push oder SMS | ✓ | ✓ | ✓ | — | [Erfahren Sie mehr über Transaktionsnachrichten](../building-journeys/journey-gs.md) |
+| **E-Mail** | Gestalten und Senden personalisierter E-Mail-Nachrichten | ✓ | ✓ | ✓ | Ausgehender Versand | [Erfahren Sie, wie Sie E-Mails senden](../email/get-started-email.md) |
+| **Push-Benachrichtigungen** | Mobile Push-Benachrichtigungen senden | ✓ | ✓ | ✓ | Ausgehender Versand | [Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) |
+| **Briefpost** | Erstellen und Senden von physischen Postsendungen | ✓ | ✓ | ✓ | Ausgehender Versand | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) |
+| **SMS/MMS** | Senden von Text- und Multimedia-Nachrichten | ✓ | ✓ | ✓ | Ausgehender Versand | [Erfahren Sie, wie Sie Nachrichten an Mobilgeräte senden](../mobile/get-started-mobile.md) |
+| **In-App-Messaging** | Anzeigen von Nachrichten in Ihrer Mobile App | ✓ | ✓ | ✓ | Mobile | [Erfahren Sie, wie Sie In-App-Messaging verwenden](../in-app/get-started-in-app.md) |
+| **Inhaltskarten** | Versand persistenter, nicht aufdringlicher produktinterner Nachrichten | ✓ | ✓ | ✓ | Mobile | [Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) |
 | **Web-Kanal** | Web-Seiten in Echtzeit personalisieren | ✓ | ✓ | ✓ | Web | [Erfahren Sie, wie Sie den Web-Kanal verwenden](../web/get-started-web.md) |
-| **Code-basierte Erlebnisse** | Jede Oberfläche über API oder SDK personalisieren | ✓ | ✓ | ✓ | Web | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md) |
-| **Inhaltskarten** | Versand persistenter, nicht aufdringlicher produktinterner Nachrichten | ✓ | ✓ | ✓ | Web | [Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) |
+| **Code-basierte Erlebnisse** | Jede Oberfläche über API oder SDK personalisieren | ✓ | ✓ | ✓ | Mobil oder Web | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md) |
 | **WhatsApp** | Nachrichten über WhatsApp Business senden | ✓ | ✓ | ✓ | WhatsApp | [Erfahren Sie, wie Sie WhatsApp verwenden](../whatsapp/get-started-whatsapp.md) |
-| **Batch-Kampagnen** | Planen einmaliger oder wiederkehrender Nachrichten für eine Audience | ✓ | — | ✓ | – | [Erfahren Sie, wie Sie Kampagnen erstellen](../campaigns/get-started-with-campaigns.md) |
-| **Automated Journey** | Entwerfen mehrstufiger, ereignisgesteuerter Kunden-Journey | — | ✓ | ✓ | – | [Erfahren Sie, wie Sie Journey bauen](../building-journeys/journey-gs.md) |
+| **Orchestrierte Kampagnen** | Entwerfen Sie mehrstufige Zielgruppen-Workflows für Batch-Interaktionen. Unterstützte Kanäle: nur E-Mail, SMS, Push und Briefpost. | ✓ | — | ✓ | – | [Erfahren Sie, wie Sie orchestrierte Kampagnen verwenden](../orchestrated/gs-orchestrated-campaigns.md) |
+| **Automated Journey** | Entwerfen von ereignisgesteuerten Echtzeit-Kunden-Journey | — | ✓ | ✓ | – | [Erfahren Sie, wie Sie Journey bauen](../building-journeys/journey-gs.md) |
 | **Echtzeit-Trigger** | Auf Kundenereignisse reagieren, sobald sie auftreten | — | ✓ | ✓ | – | [Erfahren Sie mehr über Journey-Ereignisse](../event/about-events.md) |
 | **Entscheidungsfindung** | Das beste Angebot für jeden Kunden in Echtzeit auswählen | Hängt von Ihrer Lizenz ab | Hängt von Ihrer Lizenz ab | Hängt von Ihrer Lizenz ab | Entscheidungsfindung | [Erfahren Sie, wie Sie Decisioning verwenden](../experience-decisioning/gs-experience-decisioning.md) |
 | **KI-gestützte Rangfolge** | Angebotsauswahl mithilfe von maschinellem Lernen optimieren | Hängt von Ihrer Lizenz ab | Hängt von Ihrer Lizenz ab | Hängt von Ihrer Lizenz ab | Entscheidungsfindung | [Erfahren Sie mehr über KI-Modelle](../offers/ranking/ai-models.md) |
