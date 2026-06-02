@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 493d9822091427d03c012f7f9c72d0650ce625ee
 workflow-type: tm+mt
-source-wordcount: 4622
-ht-degree: 64%
+source-wordcount: 4463
+ht-degree: 71%
 
 ---
 
@@ -44,36 +35,6 @@ Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der 
 >
 >* Siehe auch [Leitlinien für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
-## Die wichtigsten Limits auf einen Blick {#quick-reference}
-
-Verwenden Sie diese Tabelle, um vor der Erstellung oder Veröffentlichung die wichtigsten numerischen Grenzwerte nachzuschlagen. Ausführliche Informationen und Kontext finden Sie in den folgenden Abschnitten.
-
-| Bereich | Limit | Wert |
-|---|---|---|
-| **Journeys** | [Max. Aktivitäten pro Journey](#journeys-guardrails-journeys) | **50** |
-| **Journeys** | [Max. Live/Paused/Dry-Run-Journey &#x200B;](#journeys-guardrails-journeys) | **100** |
-| **Journeys** | [Journey-Instanzgröße](#journeys-guardrails-journeys) | **MB** |
-| **Journeys** | [Journey-Payload-Größe (Veröffentlichung)](#journey-payload-size) | **2 MB** (bei 90 % WARNUNG) |
-| **Journeys** | [Globale Journey-Zeitüberschreitung](#journeys-guardrails-journeys) | **91 Tage** |
-| **Journeys** | [Warteschlange ausstehender Ereignisse pro Profil](#journeys-guardrails-journeys) | **10-Ereignisse** |
-| **Journeys** | [Gleichzeitige Instanzen von Zielgruppen lesen](#read-segment-g) | **5** in allen Sandboxes |
-| **Journeys** | [Durchsatz der Zielgruppen-Sandbox lesen](#read-segment-g) | **20.000 Profile/Sek** (freigegeben) |
-| **Journeys** | [Zeitüberschreitung beim Audience-Vorgang lesen](#read-segment-g) | **12 Stunden** |
-| **Kanäle** | [Eingehende Anfragen pro Sekunde](#inbound-guardrails) | **5.000 RPS** |
-| **Kanäle** | [Max. aktive eingehende Aktionen](#inbound-guardrails) | **500** |
-| **Kanäle** | [Transaktionsnachrichten/Sek. (Kampagnen)](#transactional-message-guardrails) | **500** |
-| **Kanäle** | [Eingehende Journey-Ereignisse pro Sekunde](#events-g) | **5,000** |
-| **Benutzerdefinierte Aktionen** | [Aufrufe pro Minute (Antwort &lt; 0,75 s)](#custom-actions-g) | **300.000/min** pro Host/Sandbox |
-| **Benutzerdefinierte Aktionen** | [Aufrufe pro 30 s (Antwort > 0,75 s)](#custom-actions-g) | **150.000/30 s** pro Host/Sandbox |
-| **Inhalt** | [E-Mail-Nachrichteninhalt bei der Veröffentlichung](#message-content-size) | **2 MB** (Autor unter 1 MB) |
-| **Inhalt** | [In-App-Nachrichteninhalt](#in-app-activity-limitations) | **MB** |
-| **Inhalt** | [Größe visueller Fragmente](#fragments-guardrails) | **100 KB** |
-| **Inhalt** | [Größe des Ausdrucksfragments](#fragments-guardrails) | **200 KB** |
-| **Inhalt** | [Journey-Fragmentknoten](#fragments-journey-g) | **20 Knoten/Fragment**, 200 aktiv/Sandbox |
-| **Zielgruppen** | [Zielgruppenkompositionen pro Sandbox](#audience) | **10** |
-| **Datensätze** | [TTL des Profilspeichers (neue Organisationen/Sandboxes)](#datasets-guardrails) | **90 Tage** |
-| **Datensätze** | [Data Lake TTL (neue Organisationen/Sandboxes)](#datasets-guardrails) | **13 Monate** |
-
 
 ## System und Plattform {#system-platform}
 
@@ -89,6 +50,272 @@ Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für sys
 * **13 Monate** für Daten im Data Lake
 
 Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Weitere Informationen zu Limits für die Time-to-Live (TTL) als Schutzmechanismen für Datensätze](../data/datasets-ttl.md)
+
+## Journeys {#journeys-guardrails}
+
+In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschrieben, einschließlich allgemeiner Journey-Einschränkungen, Journey-Komponenten (Aktionen, Ereignisse, Datenquellen), Journey-Aktivitäten und spezifischer Funktionen wie benutzerdefinierten Aktionen und Ausdruckseditor.
+
+### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
+
+* Die Anzahl der Aktivitäten in einer Journey ist auf **50%**. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
+
+  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[ in kleinere Unterversionen auf ](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
+
+* Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journey auf einmal auf **100** begrenzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
+
+  Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
+
+* Bei Verwendung einer Zielgruppen-Qualifizierungsaktivität auf einer Journey kann es bis zu **10 Minuten dauern, bis diese Zielgruppen-Qualifizierungsaktivität** ist und Profile überwacht werden, die in die Zielgruppe eintreten oder diese verlassen.
+
+* Eine Journey-Instanz für ein Profil hat eine Maximalgröße von **1 MB**. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, Antworten auf benutzerdefinierte Aktionen usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, beim Start eines Journey mit einem Ereignis die maximale Größe dieser Ereignis-Payload (z. B. unter **800 KB**) zu begrenzen, um zu vermeiden, dass dieser Grenzwert nach einigen Aktivitäten bei der Journey-Ausführung erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
+
+* Für jede Profil- und Journey-Version speichert die Journey-Laufzeitumgebung eine interne Warteschlange von bis zu **10 ausstehenden**, während ein Ereignis verarbeitet wird. Wenn dieses Limit erreicht ist, werden zusätzliche Ereignisse mit dem Grund `maxInstanceStackEventsReached` verworfen, bis wieder Plätze im Stapel frei sind. Weitere Informationen finden Sie unter [Aufgrund von blockierter Journey-Instanz verworfene Ereignisse](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+
+* Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
+
+>[!TIP]
+>
+>**Was dies für Sie bedeutet:** Das **50-Aktivitätslimit** und **100-live-Journey-Limit** sind die beiden Leitplanken, auf die die meisten Teams als erste beim Skalieren stoßen. Planen Sie die Journey-Aufteilung frühzeitig und verteilen Sie die Startzeiten für „Zielgruppe lesen“ im Abstand von mindestens 5-10 Minuten, um Sandbox-Durchsatzkonflikte zu vermeiden.
+
+#### Validieren der Journey-Payload-Größe {#journey-payload-size}
+
+Beim Speichern oder Veröffentlichen einer Journey validiert Journey Optimizer die gesamte Journey-Payload-Größe, um Stabilität und Leistung zu erhalten.
+
+| Szenario | Schwellenwert | Verhalten |
+|---|---|---|
+| Payload &lt; 90 % des Limits | Warnhinweis unten | Journey speichert und veröffentlicht erfolgreich. Keine Warnungen oder Fehler angezeigt. |
+| Payload 90-99 % des Limits | Warnung (weich) | Journey speichert und veröffentlicht mit einem Warnhinweis: **Warnung** Die Größe der Journey-Payload liegt nahe am Grenzwert. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte). |
+| Payload ≥ 100 % des Limits | **Fehler (hart)** | Speichern oder Veröffentlichen ist blockiert. Gibt **HTTP 413-Anfrageentität zu groß** zurück. Fehler: Journey-Payload überschreitet das Limit. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte). |
+
+**Standardkonfiguration**
+
+* **Standardmäßige maximale Anfragengröße**: **2 MB** (2.000.000 Byte). Einige Organisationen verfügen möglicherweise über benutzerdefinierte Limits, die von Adobe konfiguriert werden.
+* **Warnhinweisschwelle:** 90 % des Limits.
+* **Fehlerschwelle:** 100 % des Limits.
+
+**Fehlerbehebung und Empfehlungen**
+
+* Überprüfen Sie den größten Knoten, der im Warnhinweis oder in der Fehlermeldung angegeben ist.
+* Vereinfachen Sie Bedingungen, reduzieren Sie Datenzuordnungen und entfernen Sie unnötige Schritte oder Parameter.
+* Erwägen Sie bei Bedarf, die Journey in kleinere Journeys aufzuteilen.
+* Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
+
+Um die aktuelle Payload-Größe des Journey vor der Veröffentlichung zu überwachen, verwenden Sie die Anzeige **[!UICONTROL Aktuelle Journey-Payload-]**&quot; im Bedienfeld &quot;Journey-Eigenschaften“. [Erfahren Sie, wie Sie die Größe Ihrer Journey-Payload überprüfen](../building-journeys/journey-properties.md#journey-payload-size)
+
+### Vergleich von Lizenzpaketen {#select-package-limitations}
+
+>[!NOTE]
+>
+>Die folgenden Paketeinschränkungen auswählen gelten nicht für Journey vom Typ „Zielgruppe lesen“ oder „Geschäftsereignis“. Wenn Sie eine komplexere Journey-Logik mit mehreren Aktionen, Bedingungen oder Warteaktivitäten benötigen, sollten Sie ein Upgrade Ihres Lizenzpakets in Erwägung ziehen oder gegebenenfalls Journeys vom Typ „Zielgruppe lesen“ verwenden.
+
+Für Kunden, die das **Select**-Lizenzpaket verwenden, gelten die folgenden zusätzlichen Einschränkungen speziell für unitäre Journey (Journey, die mit einer Veranstaltung oder einer Zielgruppen-Qualifizierung beginnen):
+
+| Einschränkung | Fehler-Code | Beschreibung |
+|---|---|---|
+| Nur eine Aktion zulässig | `ERR_PKG_SELECT_8` | Einzelne Journey können nur **eine** Aktionsaktivität enthalten. Mehrere E-Mail-, Push-, SMS- oder andere Aktionsaktivitäten sind innerhalb derselben Journey nicht zulässig. |
+| Keine Bedingungen zulässig | `ERR_PKG_SELECT_7` | Bedingungsaktivitäten können nicht in unitären Journey verwendet werden. Die Journey muss einem einzigen, linearen Pfad ohne Verzweigungslogik folgen. |
+| Keine Warteaktivitäten | `ERR_PKG_SELECT_6` | Warteaktivitäten können nicht zu einheitlichen Journey hinzugefügt werden. Aktionen müssen sofort und ohne Verzögerungen ausgeführt werden. |
+| Die Zeitüberschreitungs-/Fehlerübergänge müssen zum Endknoten gehen. | `ERR_PKG_SELECT_2` | Wenn Sie Zeitüberschreitung oder Fehlerübergänge für eine Aktion (z. B. eine E-Mail-Aktion) konfigurieren, müssen diese Pfade direkt auf einen Endknoten verweisen. Sie können keine Verbindung zu anderen Aktivitäten oder Aktionen in der Journey herstellen. |
+
+>[!TIP]
+>
+>**Was dies für Sie bedeutet:** Wenn Sie das Paket „Auswählen“ verwenden und Verzweigungslogik, Warteaktivitäten oder mehrere Aktionen benötigen, müssen Sie stattdessen eine „Zielgruppe lesen“-Journey verwenden oder sich an den Adobe-Support wenden, um ein Upgrade für Ihr Paket durchzuführen.
+
+### Journey-Versionen {#journey-versions-g}
+
+Für [Journey-Versionen](../start/user-interface.md) gelten die folgenden Schutzmechanismen:
+
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Zielgruppen-Qualifizierungsereignis** beginnen.
+* Eine Journey, die in Version 1 mit einer Aktivität vom Typ **Zielgruppen-Qualifizierung** beginnt, muss in weiteren Versionen immer mit einer **Zielgruppen-Qualifizierung** beginnen.
+* Die Zielgruppe und der Namespace, die unter **Zielgruppen-Qualifizierung** (dem ersten Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
+* Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
+* Eine Journey, die mit **Zielgruppe lesen** beginnt, kann in Folgeversionen nicht mit einem anderen Ereignis beginnen.
+* Sie können keine neue Version einer „Zielgruppe lesen“-Journey mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
+
+### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
+
+In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenz ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von **20K Anfragen pro Sekunde (RPS)**.
+
+Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
+
+Sie können aus einer der beiden folgenden Lösungen wählen:
+
+* Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, um Adobe Experience Platform ausreichend Zeit zu geben, um die Aufnahme in den Profil-Service durchzuführen.
+
+* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
+
+### Ereignisse {#events-g}
+
+Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
+
+* Journey Optimizer unterstützt ein Spitzenvolumen von **5.000 eingehenden Journey-Ereignissen pro Sekunde** über alle Sandboxes hinweg. Weitere Informationen zu dieser Einschränkung finden Sie [auf dieser Seite](../event/about-events.md#event-thoughput).
+* Die Verarbeitung der ersten Aktion auf der Journey kann bis zu **5 Minuten**, bis ereignisausgelöste Journey-Aktionen ausgeführt werden.
+* Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
+* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
+* Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig **5 Minuten lang vorübergehend blockiert**. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über den **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppenqualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
+
+### Datenquellen {#data-sources-g}
+
+Für [Datenquellen](../datasource/about-data-sources.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
+
+* Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+* Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
+
+>[!NOTE]
+>
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
+
+### Allgemeine Aktionen {#general-actions-g}
+
+Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
+
+* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
+* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
+* Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
+* Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey für alle aktiven [Journey-Versionen](../building-journeys/publish-journey.md#journey-create-new-version) vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
+
+### Benutzerdefinierte Aktionen {#custom-actions-g}
+
+Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
+
+* Eine Begrenzung von **300.000 Aufrufen über eine Minute** wird für alle benutzerdefinierten Aktionen pro Host und pro Sandbox definiert. Diese Begrenzung wird als bewegliches Fenster pro Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von **150.000 Aufrufen pro 30** (ebenfalls ein gleitendes Fenster).
+* Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
+* POST-, PUT- und GET-Aufrufmethoden werden unterstützt.
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;.
+* IP-Adressen sind in URLs nicht zulässig. Hostnamen verwenden.
+* Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
+* Integrierte benutzerdefinierte Aktionen können nicht entfernt werden.
+* Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von Anfrage- oder Antwort-Payloads. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#custom-actions-limitations).
+* Jeder Endpunkt, auf den eine benutzerdefinierte Aktion abzielt, muss mindestens **200 TPS** unterstützen. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Je nach erwartetem Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
+
+>[!TIP]
+>
+>**Was das für Sie bedeutet:** Die standardmäßige Begrenzung auf 300.000 Aufrufe/Min. schützt Ihre externen Endpunkte davor, durch den Journey-Durchsatz überlastet zu werden. Wenn Ihr Endpunkt mehr Last verarbeiten kann, können Sie diese Grenze mit der [Begrenzungs-API](../configuration/capping.md) oder der [Drosselungs-API](../configuration/throttling.md) erhöhen. Einen umfassenden Überblick darüber, wie Journey Optimizer eine Verbindung zu externen Systemen herstellt, finden Sie [dieser Seite](../configuration/external-systems.md). Wenden Sie sich an den Adobe-Support-Mitarbeiter, wenn Sie ein höheres organisatorisches Limit benötigen.
+
+### Zusätzliche Kennungen {#supplemental}
+
+Für die Verwendung zusätzlicher Kennungen in Journeys gelten spezifische Leitlinien. Sie sind auf [dieser Seite](../building-journeys/supplemental-identifier.md#guardrails) aufgeführt.
+
+### Ausdruckseditor {#expression-editor}
+
+Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gelten die folgenden Leitlinien:
+
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine `inaudience`-Bedingung in der Journey verwenden.
+* `timeSeriesEvents`-Attribute können nicht im Ausdruckseditor verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`-Schema.
+
+### Journey-Aktivitäten {#activities}
+
+#### Aktivität des Typs „Zielgruppen-Qualifizierung“ {#audience-qualif-g}
+
+Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md) gilt der folgende Schutzmechanismus:
+
+* Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
+* Zusätzliche Kennungen werden für Journeys des Typs „Zielgruppen-Qualifizierung“ nicht unterstützt.
+
+Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
+
+Weitere Leitplanken - einschließlich Empfehlungen zu Streaming vs. Batch-Zielgruppen und Einschränkungen bei der Komposition von Zielgruppen - sind auf [ Seite ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
+#### Kampagnenaktivitäten {#ac-g}
+
+Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
+
+* Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
+* **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
+* **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten in derselben Journey verwendet werden.
+
+#### Reaktionsereignisse {#reaction-events-g}
+
+Spezifische Leitplanken gelten für **[!UICONTROL Reaktion]**-Ereignisse, einschließlich der Anforderung, die Aktivität unmittelbar nach einer Kanalaktion zu platzieren, und der Unfähigkeit, Nachrichten zu verfolgen, die auf einer anderen Journey gesendet werden. Sie sind auf [dieser Seite](../building-journeys/reaction-events.md#guardrails-limitations) aufgeführt.
+
+#### In-App-Aktivität {#in-app-activity-limitations}
+
+Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzmechanismen: Weitere Informationen zu In-App-Nachrichten finden Sie auf [dieser Seite](../in-app/create-in-app.md).
+
+* Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
+
+* Personalisierung kann nur Profilattribute enthalten.
+
+* Die In-App-Aktivität kann nicht mit **[!UICONTROL Campaign Standard]**-Aktivitäten verwendet werden.
+
+* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt. Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, damit die In-App-Nachrichten nicht mehr im Profil angezeigt werden.
+
+* Im Testmodus hängt die In-App-Anzeige von der Journey-Lebensdauer ab. Um zu verhindern, dass die Journey während des Tests zu früh endet, passen Sie den **[!UICONTROL Wartezeit]**-Wert für Ihre **[!UICONTROL Warten]**-Aktivitäten an.
+
+* **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
+
+* Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
+
+* Die Größe des Inhalts von In-App-Nachrichten ist auf **2 MB** beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
+
+#### Aktivität „Inhaltsentscheidung“ {#content-decision-g}
+
+Spezifische Leitplanken gelten für die Aktivität **[!UICONTROL Inhaltsentscheidung]**, einschließlich einer 48-stündigen Verzögerung, bevor aktualisierte Einverständnisrichtlinien in Entscheidungsrichtlinien wirksam werden. Sie sind auf [dieser Seite](../building-journeys/content-decision.md#guardrails) aufgeführt.
+
+#### Aktivität „Springen“ {#jump-g}
+
+Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/jump.md#jump-limitations) aufgeführt.
+
+#### Aktivität des Typs „Zielgruppe lesen“ {#read-segment-g}
+
+Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) gelten die folgenden Schutzmechanismen:
+
+* Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.
+* Beim Journey-Eintritt verwenden Profile Attributwerte aus dem Snapshot der Batch-Zielgruppe. Wenn ein Profil jedoch eine Aktivität vom Typ **Warten** erreicht, aktualisiert die Journey Profilattribute automatisch, indem sie die neuesten Daten aus dem einheitlichen Profildienst (UPS) abruft. Dies bedeutet, dass sich Profilattribute während der Journey-Ausführung ändern können.
+* Die Aktivität **Zielgruppe lesen** kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
+* Die Aktivität **Zielgruppe lesen** kann nur als erste Aktivität in einer Journey oder nach einer Aktivität vom Typ „Geschäftsereignis“ verwendet werden.
+* Eine Journey kann nur über eine Aktivität **Zielgruppe lesen** verfügen.
+* Die Aktivität **Zielgruppe lesen** kann nur eine Zielgruppe pro Journey ansprechen. Wenn mehrere Zielgruppen erforderlich sind, führen Sie sie zuerst zu einer einzigen Zielgruppe zusammen. [Erfahren Sie mehr zum Kombinieren von Zielgruppen mithilfe von Kompositions-Workflows](../audience/get-started-audience-orchestration.md).
+* Jede Organisation kann bis zu **5****Zielgruppe lesen**-Instanzen gleichzeitig ausführen (geplant oder durch ein Geschäftsereignis ausgelöst), und zwar in allen Sandboxes und Journey. Vermeiden Sie es, dass mehr als fünf Journeys des Typs **Zielgruppe lesen** zum exakt gleichen Zeitpunkt beginnen. Planen Sie die Startzeiten im Abstand von 5 bis 10 Minuten voneinander. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
+* Sandbox-Durchsatz: Das System verwaltet die Verarbeitung pro Sandbox mit maximal **20.000 Profilen pro Sekunde** die für alle Aktivitäten des Typs **Zielgruppe lesen** freigegeben sind. Einzelne Aktivitäten können mit zwischen **500 und 20.000 Profilen pro Sekunde konfiguriert**. Wenn Sandbox-Limits erreicht werden, können Aufträge in die Warteschlange gestellt werden.
+* Maximale Wartezeit bei der Auftragsverarbeitung: **Zielgruppe lesen** Aufträge, die nicht innerhalb von **12 Stunden verarbeitet werden können** werden automatisch bereinigt und werden nicht ausgeführt.
+* Wiederholungsversuche werden beim Abrufen des Exportvorgangs standardmäßig auf zielgruppenausgelöste Journey angewendet. Wenn bei der Erstellung des Exportvorgangs ein Fehler auftritt, werden weitere Zustellversuche alle 10 Minuten unternommen, maximal **1 Stunde**. Danach gilt die Journey als fehlgeschlagen und kann daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden.
+* Bei Journey, die zusätzliche IDs verwenden, ist die Leserate der Aktivität **Zielgruppe lesen** für jede Journey-Instanz auf maximal **500 Profile pro Sekunde** beschränkt.
+
+>[!TIP]
+>
+>**Was dies für Sie bedeutet:** Das Limit für 5 gleichzeitige Instanzen ist eine feste Obergrenze für Ihr gesamtes Unternehmen. Wenn Sie mehrere Teams haben, die die Journey zum Lesen von Zielgruppen planen, sollten Sie die Startzeiten sorgfältig koordinieren. Aufträge, bei denen das 12-Stunden-Verarbeitungsfenster verpasst wird, werden im Hintergrund gelöscht. Bestätigen Sie die erfolgreiche Ausführung immer in den Journey-Protokollen.
+
+Weitere Informationen zur Aktivität „Zielgruppe lesen“ finden Sie unter [Empfehlungen und Konfiguration](../building-journeys/read-audience.md#must-read).
+
+#### Profilaktivität aktualisieren {#update-profile-g}
+
+Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/update-profiles.md) aufgeführt.
+
+#### Journey Pause {#pause-g}
+
+Spezifische Leitplanken gelten für **pausierende Journey**, einschließlich einer maximalen Pausendauer von **14 Tagen** und einer **10 Millionen Profilbegrenzung** für alle pausierten Journey in Ihrem Unternehmen. Sie sind auf [dieser Seite](../building-journeys/journey-pause.md#journey-pause-guardrails) aufgeführt.
+
+#### Journey-Probelauf {#dry-run-g}
+
+Spezifische Leitplanken gelten für den **Journey-Probelauf** einschließlich der Zählung für kontaktierbare Profil- und Live-Journey-Kontingente. Sie sind auf [dieser Seite](../building-journeys/journey-dry-run.md#journey-dry-run-limitations) aufgeführt.
+
+#### Journey Fragments {#fragments-journey-g}
+
+Spezifische Leitplanken gelten für **Journey-Fragmente**, einschließlich maximal **20 Knoten pro Fragment** und **200 aktive Fragmente pro Sandbox**. Sie sind auf [dieser Seite](../building-journeys/journey-fragments.md#guardrails) aufgeführt.
+
+#### Versenden in Schüben {#waves-g}
+
+Spezifische Leitplanken gelten für **Wellenversand in Journey**, einschließlich eines Wellenbereichs von 2-10 und eines **30-minütigen**. Sie sind auf [dieser Seite](../building-journeys/send-using-waves.md#limitations-guardrails) aufgeführt.
+
+#### Journey-Simulation {#simulation-g}
+
+Spezifische Leitplanken gelten für die **Journey-Simulation**. Sie sind auf [dieser Seite](../building-journeys/simulate-journey.md#limitations) aufgeführt.
+
+## Zielgruppen und Profile {#audiences-profiles}
+
+In diesem Abschnitt werden Leitlinien für die Verwaltung von Zielgruppen, die Behandlung von Profilen und Überlegungen zu ansprechbaren Profilen behandelt.
+
+### Leitlinien für Zielgruppen und Profile {#audience}
+
+* Sie können bis zu **10 Audience-Kompositionen** einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+
+  Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
+
+* Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
+
+* Wenn pseudonyme Profile (nicht authentifizierte Besuchende) mit Inbound-Kanälen angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-inbound)
 
 ## Kanäle und Messaging {#channel-guardrails}
 
@@ -196,20 +423,6 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 * Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
-## Zielgruppen und Profile {#audiences-profiles}
-
-In diesem Abschnitt werden Leitlinien für die Verwaltung von Zielgruppen, die Behandlung von Profilen und Überlegungen zu ansprechbaren Profilen behandelt.
-
-### Leitlinien für Zielgruppen und Profile {#audience}
-
-* Sie können bis zu **10 Audience-Kompositionen** einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
-
-  Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
-
-* Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
-
-* Wenn pseudonyme Profile (nicht authentifizierte Besuchende) mit Inbound-Kanälen angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-inbound)
-
 ## Entscheidungs-Management {#decision-management}
 
 ### Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
@@ -218,266 +431,6 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 
 * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
 * [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
-
-## Journeys {#journeys-guardrails}
-
-In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschrieben, einschließlich allgemeiner Journey-Einschränkungen, Journey-Komponenten (Aktionen, Ereignisse, Datenquellen), Journey-Aktivitäten und spezifischer Funktionen wie benutzerdefinierten Aktionen und Ausdruckseditor.
-
-### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
-
-* Die Anzahl der Aktivitäten in einer Journey ist auf **50%**. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
-
-  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[&#x200B; in kleinere Unterversionen auf &#x200B;](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
-
-* Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journey auf einmal auf **100** begrenzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
-
-  Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
-
-* Bei Verwendung einer Zielgruppen-Qualifizierungsaktivität auf einer Journey kann es bis zu **10 Minuten dauern, bis diese Zielgruppen-Qualifizierungsaktivität** ist und Profile überwacht werden, die in die Zielgruppe eintreten oder diese verlassen.
-
-* Eine Journey-Instanz für ein Profil hat eine Maximalgröße von **1 MB**. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, Antworten auf benutzerdefinierte Aktionen usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, beim Start eines Journey mit einem Ereignis die maximale Größe dieser Ereignis-Payload (z. B. unter **800 KB**) zu begrenzen, um zu vermeiden, dass dieser Grenzwert nach einigen Aktivitäten bei der Journey-Ausführung erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
-
-* Für jede Profil- und Journey-Version speichert die Journey-Laufzeitumgebung eine interne Warteschlange von bis zu **10 ausstehenden**, während ein Ereignis verarbeitet wird. Wenn dieses Limit erreicht ist, werden zusätzliche Ereignisse mit dem Grund `maxInstanceStackEventsReached` verworfen, bis wieder Plätze im Stapel frei sind. Weitere Informationen finden Sie unter [Aufgrund von blockierter Journey-Instanz verworfene Ereignisse](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
-
-* Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
-
->[!TIP]
->
->**Was dies für Sie bedeutet:** Das **50-Aktivitätslimit** und **100-live-Journey-Limit** sind die beiden Leitplanken, auf die die meisten Teams als erste beim Skalieren stoßen. Planen Sie die Journey-Aufteilung frühzeitig und verteilen Sie die Startzeiten für „Zielgruppe lesen“ im Abstand von mindestens 5-10 Minuten, um Sandbox-Durchsatzkonflikte zu vermeiden.
-
-#### Validieren der Journey-Payload-Größe {#journey-payload-size}
-
-Beim Speichern oder Veröffentlichen einer Journey validiert Journey Optimizer die gesamte Journey-Payload-Größe, um Stabilität und Leistung zu erhalten.
-
-| Szenario | Schwellenwert | Verhalten |
-|---|---|---|
-| Payload &lt; 90 % des Limits | Warnhinweis unten | Journey speichert und veröffentlicht erfolgreich. Keine Warnungen oder Fehler angezeigt. |
-| Payload 90-99 % des Limits | Warnung (weich) | Journey speichert und veröffentlicht mit einem Warnhinweis: **Warnung** Die Größe der Journey-Payload liegt nahe am Grenzwert. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte). |
-| Payload ≥ 100 % des Limits | **Fehler (hart)** | Speichern oder Veröffentlichen ist blockiert. Gibt **HTTP 413-Anfrageentität zu groß** zurück. Fehler: Journey-Payload überschreitet das Limit. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte). |
-
-**Standardkonfiguration**
-
-* **Standardmäßige maximale Anfragengröße**: **2 MB** (2.000.000 Byte). Einige Organisationen verfügen möglicherweise über benutzerdefinierte Limits, die von Adobe konfiguriert werden.
-* **Warnhinweisschwelle:** 90 % des Limits.
-* **Fehlerschwelle:** 100 % des Limits.
-
-**Fehlerbehebung und Empfehlungen**
-
-* Überprüfen Sie den größten Knoten, der im Warnhinweis oder in der Fehlermeldung angegeben ist.
-* Vereinfachen Sie Bedingungen, reduzieren Sie Datenzuordnungen und entfernen Sie unnötige Schritte oder Parameter.
-* Erwägen Sie bei Bedarf, die Journey in kleinere Journeys aufzuteilen.
-* Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
-
-Um die aktuelle Payload-Größe des Journey vor der Veröffentlichung zu überwachen, verwenden Sie die Anzeige **[!UICONTROL Aktuelle Journey-Payload-]**&quot; im Bedienfeld &quot;Journey-Eigenschaften“. [Erfahren Sie, wie Sie die Größe Ihrer Journey-Payload überprüfen](../building-journeys/journey-properties.md#journey-payload-size)
-
-### Vergleich von Lizenzpaketen {#select-package-limitations}
-
->[!NOTE]
->
->Die folgenden Paketeinschränkungen auswählen gelten nicht für Journey vom Typ „Zielgruppe lesen“ oder „Geschäftsereignis“. Wenn Sie eine komplexere Journey-Logik mit mehreren Aktionen, Bedingungen oder Warteaktivitäten benötigen, sollten Sie ein Upgrade Ihres Lizenzpakets in Erwägung ziehen oder gegebenenfalls Journeys vom Typ „Zielgruppe lesen“ verwenden.
-
-Für Kunden, die das **Select**-Lizenzpaket verwenden, gelten die folgenden zusätzlichen Einschränkungen speziell für unitäre Journey (Journey, die mit einer Veranstaltung oder einer Zielgruppen-Qualifizierung beginnen):
-
-| Einschränkung | Fehler-Code | Beschreibung |
-|---|---|---|
-| Nur eine Aktion zulässig | `ERR_PKG_SELECT_8` | Einzelne Journey können nur **eine** Aktionsaktivität enthalten. Mehrere E-Mail-, Push-, SMS- oder andere Aktionsaktivitäten sind innerhalb derselben Journey nicht zulässig. |
-| Keine Bedingungen zulässig | `ERR_PKG_SELECT_7` | Bedingungsaktivitäten können nicht in unitären Journey verwendet werden. Die Journey muss einem einzigen, linearen Pfad ohne Verzweigungslogik folgen. |
-| Keine Warteaktivitäten | `ERR_PKG_SELECT_6` | Warteaktivitäten können nicht zu einheitlichen Journey hinzugefügt werden. Aktionen müssen sofort und ohne Verzögerungen ausgeführt werden. |
-| Die Zeitüberschreitungs-/Fehlerübergänge müssen zum Endknoten gehen. | `ERR_PKG_SELECT_2` | Wenn Sie Zeitüberschreitung oder Fehlerübergänge für eine Aktion (z. B. eine E-Mail-Aktion) konfigurieren, müssen diese Pfade direkt auf einen Endknoten verweisen. Sie können keine Verbindung zu anderen Aktivitäten oder Aktionen in der Journey herstellen. |
-
->[!TIP]
->
->**Was dies für Sie bedeutet:** Wenn Sie das Paket „Auswählen“ verwenden und Verzweigungslogik, Warteaktivitäten oder mehrere Aktionen benötigen, müssen Sie stattdessen eine „Zielgruppe lesen“-Journey verwenden oder sich an den Adobe-Support wenden, um ein Upgrade für Ihr Paket durchzuführen.
-
-### Allgemeine Aktionen {#general-actions-g}
-
-Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
-
-* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. Mit Ausnahme von HTTP 401, 403 und 404 werden weitere Zustellversuche für alle HTTP-Fehler durchgeführt.
-* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
-* Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey für alle aktiven [Journey-Versionen](../building-journeys/publish-journey.md#journey-create-new-version) vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
-
-### Journey-Versionen {#journey-versions-g}
-
-Für [Journey-Versionen](../start/user-interface.md) gelten die folgenden Schutzmechanismen:
-
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Zielgruppen-Qualifizierungsereignis** beginnen.
-* Eine Journey, die in Version 1 mit einer Aktivität vom Typ **Zielgruppen-Qualifizierung** beginnt, muss in weiteren Versionen immer mit einer **Zielgruppen-Qualifizierung** beginnen.
-* Die Zielgruppe und der Namespace, die unter **Zielgruppen-Qualifizierung** (dem ersten Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
-* Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit **Zielgruppe lesen** beginnt, kann in Folgeversionen nicht mit einem anderen Ereignis beginnen.
-* Sie können keine neue Version einer „Zielgruppe lesen“-Journey mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
-
-### Benutzerdefinierte Aktionen {#custom-actions-g}
-
-Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
-
-| Leitplanke | Wert | Anmerkungen |
-|---|---|---|
-| Begrenzungsgrenze — Ansprechzeit &lt; 0,75 s | **300.000 Aufrufe/** pro Host und Sandbox | Schiebefenster Erzwungen pro Sandbox und pro Endpunkt. |
-| Begrenzungsgrenze — Antwort > 0,75 s | **150.000 Aufrufe/30 s** pro Host und Sandbox | Schiebefenster Separates Limit wird angewendet, wenn die Endpunkt-Latenz 0,75 s überschreitet. |
-| URL-Typ | Nur statisch | Dynamische Parameter in der URL der benutzerdefinierten Aktion werden nicht unterstützt. |
-| Unterstützte HTTP-Methoden | POST, PUT, GET | Andere Methoden werden nicht unterstützt. |
-| Format des Abfrageparameters/Kopfzeilennamen | Darf nicht mit `.` oder `$` beginnen | Namen, die mit diesen Zeichen beginnen, werden abgelehnt. |
-| IP-Adressen in URL | Nicht zulässig | Hostnamen anstelle von IP-Adressen verwenden. |
-| Interne Adobe-Adressen | Nicht zulässig | `.adobe.*` Adressen sind in URLs und APIs nicht zulässig. |
-| Integrierte benutzerdefinierte Aktionen | Kann nicht entfernt werden | Integrierte benutzerdefinierte Aktionen sind dauerhaft. |
-| Payload-Format | Nur JSON | Das JSON-Format ist sowohl für Anfrage- als auch für Antwort-Payloads erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#custom-actions-limitations). |
-| Minimaler Endpunktdurchsatz | 200 TPS | Jeder Endpunkt, auf den eine benutzerdefinierte Aktion abzielt, muss mindestens 200 TPS unterstützen. |
-
->[!TIP]
->
->**Was das für Sie bedeutet:** Die standardmäßige Begrenzung auf 300.000 Aufrufe/Min. schützt Ihre externen Endpunkte davor, durch den Journey-Durchsatz überlastet zu werden. Wenn Ihr Endpunkt mehr Last verarbeiten kann, können Sie diese Grenze mit der [Begrenzungs-API](../configuration/capping.md) oder der [Drosselungs-API](../configuration/throttling.md) erhöhen. Wenden Sie sich an den Adobe-Support-Mitarbeiter, wenn Sie ein höheres organisatorisches Limit benötigen.
-
-Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API ein höheres Limit für die Begrenzung/Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
-
-### Ereignisse {#events-g}
-
-Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
-
-* Journey Optimizer unterstützt ein Spitzenvolumen von **5.000 eingehenden Journey-Ereignissen pro Sekunde** über alle Sandboxes hinweg. Weitere Informationen zu dieser Einschränkung finden Sie [auf dieser Seite](../event/about-events.md#event-thoughput).
-* Die Verarbeitung der ersten Aktion auf der Journey kann bis zu **5 Minuten**, bis ereignisausgelöste Journey-Aktionen ausgeführt werden.
-* Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
-* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
-* Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig **5 Minuten lang vorübergehend blockiert**. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über den **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppenqualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
-
-### Datenquellen {#data-sources-g}
-
-Für [Datenquellen](../datasource/about-data-sources.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
-
-* Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
-* Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
-
->[!NOTE]
->
->Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.
-
-### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
-
-In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenz ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von **20K Anfragen pro Sekunde (RPS)**.
-
-Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
-
-Sie können aus einer der beiden folgenden Lösungen wählen:
-
-* Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, um Adobe Experience Platform ausreichend Zeit zu geben, um die Aufnahme in den Profil-Service durchzuführen.
-
-* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
-
-### Zusätzliche Kennungen {#supplemental}
-
-Für die Verwendung zusätzlicher Kennungen in Journeys gelten spezifische Leitlinien. Sie sind auf [dieser Seite](../building-journeys/supplemental-identifier.md#guardrails) aufgeführt.
-
-### Ausdruckseditor {#expression-editor}
-
-Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gelten die folgenden Leitlinien:
-
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine `inaudience`-Bedingung in der Journey verwenden.
-* `timeSeriesEvents`-Attribute können nicht im Ausdruckseditor verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`-Schema.
-
-### Journey-Aktivitäten {#activities}
-
-#### Aktivität des Typs „Zielgruppen-Qualifizierung“ {#audience-qualif-g}
-
-Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md) gilt der folgende Schutzmechanismus:
-
-* Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
-* Zusätzliche Kennungen werden für Journeys des Typs „Zielgruppen-Qualifizierung“ nicht unterstützt.
-
-Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
-
-Weitere Leitplanken - einschließlich Empfehlungen zu Streaming vs. Batch-Zielgruppen und Einschränkungen bei der Komposition von Zielgruppen - sind auf [&#x200B; Seite &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
-
-#### Kampagnenaktivitäten {#ac-g}
-
-Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
-
-* Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
-* **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
-* **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten in derselben Journey verwendet werden.
-
-#### Reaktionsereignisse {#reaction-events-g}
-
-Spezifische Leitplanken gelten für **[!UICONTROL Reaktion]**-Ereignisse, einschließlich der Anforderung, die Aktivität unmittelbar nach einer Kanalaktion zu platzieren, und der Unfähigkeit, Nachrichten zu verfolgen, die auf einer anderen Journey gesendet werden. Sie sind auf [dieser Seite](../building-journeys/reaction-events.md#guardrails-limitations) aufgeführt.
-
-#### In-App-Aktivität {#in-app-activity-limitations}
-
-Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzmechanismen: Weitere Informationen zu In-App-Nachrichten finden Sie auf [dieser Seite](../in-app/create-in-app.md).
-
-* Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
-
-* Personalisierung kann nur Profilattribute enthalten.
-
-* Die In-App-Aktivität kann nicht mit **[!UICONTROL Campaign Standard]**-Aktivitäten verwendet werden.
-
-* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt. Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, damit die In-App-Nachrichten nicht mehr im Profil angezeigt werden.
-
-* Im Testmodus hängt die In-App-Anzeige von der Journey-Lebensdauer ab. Um zu verhindern, dass die Journey während des Tests zu früh endet, passen Sie den **[!UICONTROL Wartezeit]**-Wert für Ihre **[!UICONTROL Warten]**-Aktivitäten an.
-
-* **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
-
-* Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
-
-* Die Größe des Inhalts von In-App-Nachrichten ist auf **2 MB** beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
-
-#### Aktivität „Inhaltsentscheidung“ {#content-decision-g}
-
-Spezifische Leitplanken gelten für die Aktivität **[!UICONTROL Inhaltsentscheidung]**, einschließlich einer 48-stündigen Verzögerung, bevor aktualisierte Einverständnisrichtlinien in Entscheidungsrichtlinien wirksam werden. Sie sind auf [dieser Seite](../building-journeys/content-decision.md#guardrails) aufgeführt.
-
-#### Aktivität „Springen“ {#jump-g}
-
-Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/jump.md#jump-limitations) aufgeführt.
-
-#### Aktivität des Typs „Zielgruppe lesen“ {#read-segment-g}
-
-Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) gelten die folgenden Schutzmechanismen:
-
-| Leitplanke | Wert | Anmerkungen |
-|---|---|---|
-| Gleichzeitige Instanzen (alle Sandboxes + Journey) | **5** | Vermeiden Sie es, mehr als 5 Journey mit „Zielgruppe lesen“ gleichzeitig zu planen, verteilen Sie sie im Abstand von 5-10 Minuten. |
-| Sandbox-Durchsatz | **20.000 Profile/Sek** (freigegeben) | Freigegeben für alle Aktivitäten des Typs „Zielgruppe lesen“ in der Sandbox. Wenn die Beschränkungen erreicht werden, können Aufträge in die Warteschlange gestellt werden. |
-| Konfigurierbarer Durchsatz pro Aktivität | **500-20.000 Profile/Sek** | Konfigurieren Sie die Aktivität innerhalb des freigegebenen Sandbox-Limits. |
-| Maximale Wartezeit bei Auftragsverarbeitung | **12 Stunden** | Aufträge, die nicht innerhalb von 12 Stunden verarbeitet werden können, werden automatisch bereinigt und nicht ausgeführt. |
-| Fenster erneut versuchen | Bis zu **1 Stunde** (10-Minuten-Intervalle) | Beim Abrufen des Exportvorgangs werden weitere Zustellversuche durchgeführt. Journey können bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden. |
-| Zusätzliche ID-Leserate | **500 Profile/Sek** pro Journey-Instanz | Gilt, wenn zusätzliche IDs verwendet werden. |
-| Audience-Instanzen pro Journey lesen | **1** | Eine Journey kann nur eine Aktivität vom Typ „Zielgruppe lesen“ aufweisen. |
-| Zielgruppentypen | Gestreamte Zielgruppen sind immer aktuell | Batch-Zielgruppen werden nur einmal täglich zur täglichen Batch-Auswertungszeit ausgewertet. |
-| Aktualisierung des Profilattributs | Aktualisierung bei **Warten**-Aktivitäten | Beim Journey-Eintrag verwenden Profile Batch-Momentaufnahmen-Werte. Attribute werden aktualisiert, wenn ein Profil eine Warteaktivität erreicht. |
-| Positionierung im Journey | Erste Aktivität oder nach einem Geschäftsereignis | Die Aktivität „Zielgruppe lesen“ kann nur als erste Aktivität auf einer Journey oder nach einer Geschäftsereignisaktivität verwendet werden. |
-| Verwenden von mit Adobe Campaign | Nicht unterstützt | Die Aktivität Zielgruppe lesen kann nicht mit Adobe Campaign-Aktivitäten verwendet werden. |
-| Mehrere Zielgruppen | Nicht direkt unterstützt | Die Aktivität „Zielgruppe lesen“ kann nur eine Zielgruppe pro Journey ansprechen. Um mehrere Zielgruppen zu verwenden, führen Sie sie zuerst zusammen. [Weitere Informationen](../audience/get-started-audience-orchestration.md) |
-
->[!TIP]
->
->**Was dies für Sie bedeutet:** Das Limit für 5 gleichzeitige Instanzen ist eine feste Obergrenze für Ihr gesamtes Unternehmen. Wenn Sie mehrere Teams haben, die die Journey zum Lesen von Zielgruppen planen, sollten Sie die Startzeiten sorgfältig koordinieren. Aufträge, bei denen das 12-Stunden-Verarbeitungsfenster verpasst wird, werden im Hintergrund gelöscht. Bestätigen Sie die erfolgreiche Ausführung immer in den Journey-Protokollen.
-
-Weitere Informationen zur Aktivität „Zielgruppe lesen“ finden Sie unter [Empfehlungen und Konfiguration](../building-journeys/read-audience.md#must-read).
-
-#### Profilaktivität aktualisieren {#update-profile-g}
-
-Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/update-profiles.md) aufgeführt.
-
-#### Journey Pause {#pause-g}
-
-Spezifische Leitplanken gelten für **pausierende Journey**, einschließlich einer maximalen Pausendauer von **14 Tagen** und einer **10 Millionen Profilbegrenzung** für alle pausierten Journey in Ihrem Unternehmen. Sie sind auf [dieser Seite](../building-journeys/journey-pause.md#journey-pause-guardrails) aufgeführt.
-
-#### Journey-Probelauf {#dry-run-g}
-
-Spezifische Leitplanken gelten für den **Journey-Probelauf** einschließlich der Zählung für kontaktierbare Profil- und Live-Journey-Kontingente. Sie sind auf [dieser Seite](../building-journeys/journey-dry-run.md#journey-dry-run-limitations) aufgeführt.
-
-#### Journey Fragments {#fragments-journey-g}
-
-Spezifische Leitplanken gelten für **Journey-Fragmente**, einschließlich maximal **20 Knoten pro Fragment** und **200 aktive Fragmente pro Sandbox**. Sie sind auf [dieser Seite](../building-journeys/journey-fragments.md#guardrails) aufgeführt.
-
-#### Versenden in Schüben {#waves-g}
-
-Spezifische Leitplanken gelten für **Wellenversand in Journey**, einschließlich eines Wellenbereichs von 2-10 und eines **30-minütigen**. Sie sind auf [dieser Seite](../building-journeys/send-using-waves.md#limitations-guardrails) aufgeführt.
-
-#### Journey-Simulation {#simulation-g}
-
-Spezifische Leitplanken gelten für die **Journey-Simulation**. Sie sind auf [dieser Seite](../building-journeys/simulate-journey.md#limitations) aufgeführt.
 
 ## Kampagnenorchestrierung {#campaign-orchestration}
 
