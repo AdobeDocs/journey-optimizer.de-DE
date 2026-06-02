@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 30%
+source-wordcount: 1712
+ht-degree: 21%
 
 ---
 
@@ -62,25 +62,33 @@ Wenn ein Inhaltsfragment in Adobe Experience Manager veröffentlicht wird, wird 
 >
 >Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [den Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}.
 
-Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Tag speziell für Journey Optimizer erstellen:
+Journey Optimizer zeigt ein Inhaltsfragment nur dann in der Inhaltsfragmentauswahl an, wenn es ein Tag für Ihr **Unternehmen** und **Sandbox** enthält. Diese Anforderung ist absichtlich: Nicht verwandte oder nicht genehmigte Experience Manager-Inhalte werden von Journey Optimizer ferngehalten.
 
-1. Greifen Sie auf Ihre **Experience Manager**-Umgebung zu.
+Weisen Sie ein Tag zu, dessen ID `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}` folgt, indem Sie Ihre Journey Optimizer-Organisations-ID und den Sandbox-Namen anstelle der Platzhalter verwenden, z. B. `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-1. Wählen Sie im Menü **Tools** die Option **Tagging** aus.
+So erstellen Sie das Tag in Experience Manager:
+
+1. Navigieren Sie **Tools** > **Tagging**.
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. Klicken Sie auf **Tag erstellen**.
+1. Erstellen Sie eine verschachtelte Tag-Struktur, sodass die vollständige Tag-ID dem oben genannten Format entspricht:
 
-1. Stellen Sie sicher, dass die ID der folgenden Syntax entspricht: `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
+   1. Erstellen Sie auf der Stammebene einen Ordner mit dem Namen `ajo-enabled`.
 
-1. Klicken Sie auf **Erstellen**.
+   1. Erstellen Sie unter `ajo-enabled` ein Tag für Ihre Organisations-ID, z. B. `123A12A123A123A12A@AdobeOrg`.
 
-1. Definieren Sie Ihr Inhaltsfragmentmodell, wie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} beschrieben und weisen Sie Ihr neu erstelltes Journey Optimizer-Tag zu.
+   1. Erstellen Sie unter diesem Organisations-Tag ein Tag für Ihre Sandbox, z. B. `prod`.
 
-Diese Echtzeitverbindung stellt sicher, dass Ihre Inhalte immer aktuell sind, bedeutet aber auch, dass alle Änderungen an veröffentlichten Fragmenten sofort aktive Kampagnen und Journey betreffen.
+   Der kombinierte Pfad liefert eine Tag-ID wie `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-Sie können jetzt mit der Erstellung und Konfiguration Ihres Inhaltsfragments zur späteren Verwendung in Journey Optimizer beginnen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+1. Um es auf ein Inhaltsfragment anzuwenden, öffnen Sie das Inhaltsfragment im Editor.
+
+1. Fügen **in „Eigenschaften** das von Ihnen erstellte Tag hinzu.
+
+1. Speichern Sie das Fragment.
+
+➡️ [Weitere Informationen zu Tags finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## Hinzufügen von Experience Manager-Inhaltsfragmenten {#aem-add}
 
@@ -159,8 +167,8 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
 
    1. **Statische Zeichenfolgenzuordnung**: Weisen Sie einen festen Zeichenfolgenwert zu, indem Sie ihn in doppelte Anführungszeichen setzen, z. B. name = „John“.
 
-   1. **Variablenzuordnung**: Verweisen Sie auf eine Variable, die zuvor innerhalb derselben HTML deklariert wurde, z. B. name = &#39;variableName&#39;.
-Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName_** deklariert wird, bevor Sie die Fragment-ID hinzufügen:
+   1. **Variablenzuordnung** Verweisen Sie auf eine Variable, die zuvor innerhalb derselben HTML deklariert wurde, z. B. name = &#39;variableName&#39;.
+Stellen Sie in diesem Fall sicher&#x200B;**_dass „variableName_** deklariert wird, bevor Sie die Fragment-ID mit der folgenden Syntax hinzufügen:
 
       ```html
       {% let variableName = attribute name %} 

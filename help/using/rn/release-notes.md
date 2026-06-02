@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
+source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 18%
+source-wordcount: 2561
+ht-degree: 21%
 
 ---
 
@@ -97,19 +97,20 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 
 Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwartet.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Pfadoptimierung - Targeting (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
-<p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
-<p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung.</p>
-<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
+<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -118,19 +119,20 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Schlichtung - Rangfolgeformeln (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
-<p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung.</p>
-<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
+<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -250,13 +252,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Standard-Ausführungsfeld in Kampagnen überschreiben** - Zuvor auf Journey-Ebene verfügbar, können Sie jetzt das Standard-Ausführungsfeld überschreiben, das in den Kampagnenparametern global für Ihre E-Mail-, SMS- und WhatsApp-Sendungen festgelegt ist.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
-  Verfügbarkeitsdatum: 22. Mai 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Entscheidungsfindung {#may-26-decisioning}
 
@@ -309,7 +313,7 @@ Die folgende Entscheidungsfunktion wird in den kommenden Tagen oder Wochen erwar
 <td>
 <p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
+<p>Verfügbarkeitsdatum: Anfang Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -457,23 +461,15 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
+* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
 
-  Verfügbarkeitsdatum: 1. Juni 2026
-
-+++
-
-### Berichterstellung {#may-26-reporting}
-
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
-
-* **Bot-Klicks für E-Mail- und SMS-Reporting ausschließen** - Neue geschätzte Metriken sind jetzt verfügbar, mit denen Sie nicht menschliche (Bot-)Interaktionen aus E-Mail- und SMS-Berichten herausfiltern können. Dazu gehören geschätzte Klicks, Clickthrough-Raten (CTR) und Clickto-Open-Raten (CTOR), die eine genauere Darstellung der echten Kundeninteraktion bieten. Vorhandene Metriken bleiben unverändert, und diese neuen Metriken können zusammen mit dem aktuellen Reporting für eine verbesserte Analyse verwendet werden.
-
-  Verfügbarkeitsdatum: 1. Juni 2026
+  Availability date: June 1, 2026
 
 +++
+-->
 
 ### Verbesserungen der Benutzerfreundlichkeit {#may-26-usability}
 
@@ -509,6 +505,6 @@ Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden ebenfalls im Mai 
 
 * **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
 
-  Verfügbarkeitsdatum: 2. Juni 2026
+  Verfügbarkeitsdatum: Anfang Juni 2026
 
 +++
