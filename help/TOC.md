@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3346'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
       + {hide-from-toc}[Frühere Versionshinweise](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
-      + [2024](using/rn/release-notes-2024.md)
+      + {hide-from-toc}[2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
@@ -38,6 +38,7 @@ ht-degree: 95%
       + [KI und intelligente Funktionen](using/start/ai-features.md)
       + [Wichtige Terminologie](using/start/terminology.md)
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
+      + {hide-from-toc}[Funktionen nach Paket](using/start/ajo-packages.md)
    + Erste Schritte nach Rolle {#by-role}
       + [Rollen und Verantwortlichkeiten](using/start/quick-start.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
