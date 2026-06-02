@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1028
+source-wordcount: 1031
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf
 
 Adobe Journey Optimizer bietet zwei Möglichkeiten zum Testen und Validieren Ihres Journey:
 
-* **[Simulation](#test-users)**: Verwenden Sie die **[!UICONTROL Simulation]** Journey-Funktion und simulierte Benutzende für Schnellausführungen ohne vorab erstellte Profile in Adobe Experience Platform.
+* **[Simulation](#test-users)**: Verwenden Sie die **[!UICONTROL Simulation]** Journey-Funktion und simulierte Benutzende ohne vorab erstellte Profile in Adobe Experience Platform, wobei sowohl KI-gestützte als auch manuell erstellte Benutzende unterstützt werden.
 
 * **[Testmodus](testing-the-journey.md)**: Verwenden Sie beständige Profile, die in Adobe Experience Platform als Testprofile gekennzeichnet und sitzungsübergreifend wiederverwendet werden. Wählen Sie diesen Ansatz, wenn Sie konsistente, vordefinierte Daten benötigen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
 
@@ -91,8 +91,7 @@ Wenn eine Journey einen der folgenden Knoten enthält, kann sie nicht in „Simu
 | Zusätzliche ID (mehrfacher Wiedereintritt) | Der gleichzeitige erneute Eintritt (mehrere aktive Instanzen für denselben simulierten Benutzer) verhindert, dass **[!UICONTROL Simulation]** gestartet wird. |
 | Knoten für Inhaltsentscheidung | Diese Aktivität muss entfernt oder geändert werden, bevor Sie das Journey simulieren können. |
 | Datensatzsuche | Die Suche nach Kundendatensätzen anhand des Schlüssels wird nicht unterstützt. Journey, die diese Aktivität enthalten, können nicht in „Simulation **[!UICONTROL ausgeführt]**. |
-| Experimentierpfad (optimieren — Experimentvariante) | Nicht unterstützt in **[!UICONTROL Simulation]**. Sie können weiterhin **[!UICONTROL Optimieren]** für Flüsse verwenden, die zuvor unter **[!UICONTROL Bedingung]** lebten (z. B. Datenquellenbedingungen). |
-| Pfad-Targeting (Optimieren, Targeting-Regelvariante) | Nicht unterstützt in **[!UICONTROL Simulation]**. |
+| **[!UICONTROL Optimieren]** Aktivität | Die folgenden **[!UICONTROL Optimieren]**-Methoden werden in **[!UICONTROL Simulation]** nicht unterstützt: **[!UICONTROL Experiment]**, **[!UICONTROL Targeting-Regel]**, **[!UICONTROL Prozentuale Aufspaltung]**, **[!UICONTROL Zeitbedingung]**, **[!UICONTROL Bedingung]**, **[!UICONTROL Datumsbedingung]**, **[!UICONTROL Profilbegrenzung]** und **[!UICONTROL External Data Source]**. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren. |
 | Anreicherung externer Zielgruppenattribute | Journey, die personalisierte Attribute aus externen Zielgruppenquellen verwenden, beginnen nicht in **[!UICONTROL Simulation]**, wenn diese Validierung aktiv ist. |
 
 +++

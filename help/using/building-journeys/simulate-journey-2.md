@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 4%
 
 ---
@@ -91,7 +91,7 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
    +++ Aus Formular erstellen
 
-   1. Geben Sie einen **[!UICONTROL Anzeigenamen]** und **[!UICONTROL Beschreibung]** ein, um diesen simulierten Benutzer zu identifizieren.
+   1. Geben Sie einen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Beschreibung]** ein, um diesen simulierten Benutzer zu identifizieren.
 
       ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
    1. Klicken Sie **[!UICONTROL Zielgruppenzugehörigkeit hinzufügen]** um Segmentzugehörigkeiten zu simulieren.
 
-   1. Klicken Sie **[!UICONTROL Profil hinzufügen]**, um mehrere simulierte Benutzer in einer Sitzung zu erstellen.
+   1. Klicken Sie im Fenster **[!UICONTROL Simulierte Benutzer erstellen]** auf **[!UICONTROL Simulierten Benutzer hinzufügen]**, um mehrere simulierte Benutzer in einer Sitzung zu definieren.
 
-   1. Verwenden Sie im Menü **[!UICONTROL Duplizieren]** um einen Benutzer zu kopieren, **[!UICONTROL Auf alle anwenden]** um die Attribute eines Benutzers zu jedem anderen Benutzer in der Sitzung zu kopieren, oder **[!UICONTROL Löschen]** um einen Benutzer zu entfernen.
+      Sie können ändern, wie Benutzer in der Liste angezeigt werden, jede Karte in der gestapelten Ansicht ausblenden oder die Attributmetadaten eines Benutzers öffnen.
+
+      ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-form-3.png)
+
+   1. Verwenden Sie im simulierten Benutzermenü **[!UICONTROL Duplizieren]** um einen Benutzer zu kopieren, **[!UICONTROL alle Attribute auf andere Benutzer anwenden]** um die Attribute eines Benutzers auf jeden anderen Benutzer in der Sitzung zu kopieren, oder **[!UICONTROL Löschen]** um einen Benutzer zu entfernen.
 
       ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-form-2.png)
 
