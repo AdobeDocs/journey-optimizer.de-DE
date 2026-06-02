@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ Journey Optimizer unterstützt ein Spitzenvolumen von 500 Transaktionsnachrichte
 ## Inhalte und Assets {#content-assets}
 
 Dieser Abschnitt enthält Leitlinien für die Erstellung und Verwaltung von Inhalten, einschließlich Landingpages, Subdomains und Fragmenten.
+
+### Leitplanken des KI-Assistenten {#ai-assistant-g}
+
+Leitplanken und Einschränkungen für die **KI-Assistenten zur Inhaltserstellung** - einschließlich unterstützter Kanäle (E-Mail, Push, Web, SMS) und Einschränkungen des Personalisierungseditors - sind auf [dieser Seite](../content-management/gs-generative.md#generative-guardrails) aufgeführt.
 
 ### Schutzmechanismen für Landingpages {#lp-guardrails}
 
@@ -336,7 +340,7 @@ Für die Verwendung zusätzlicher Kennungen in Journeys gelten spezifische Leitl
 Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) gelten die folgenden Leitlinien:
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine `inaudience`-Bedingung in der Journey verwenden.
-* `timeSeriesEvents`-Attribute können nicht im Ausdruckseditor verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`-Schema.
+* `timeSeriesEvents` Attribute können im Ausdruckseditor nicht verwendet werden. Um auf Erlebnisereignisse auf Profilebene zuzugreifen, erstellen Sie eine neue Feldergruppe basierend auf einem `XDM ExperienceEvent`.
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### Journey-Aktivitäten {#activities}
@@ -350,6 +354,8 @@ Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/au
 
 Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 
+Weitere Leitplanken - einschließlich Empfehlungen zu Streaming vs. Batch-Zielgruppen und Einschränkungen bei der Komposition von Zielgruppen - sind auf [&#x200B; Seite &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
 #### Kampagnenaktivitäten {#ac-g}
 
 Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
@@ -357,6 +363,10 @@ Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
 * **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
 * **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten in derselben Journey verwendet werden.
+
+#### Reaktionsereignisse {#reaction-events-g}
+
+Spezifische Leitplanken gelten für **[!UICONTROL Reaktion]**-Ereignisse, einschließlich der Anforderung, die Aktivität unmittelbar nach einer Kanalaktion zu platzieren, und der Unfähigkeit, Nachrichten zu verfolgen, die auf einer anderen Journey gesendet werden. Sie sind auf [dieser Seite](../building-journeys/reaction-events.md#guardrails-limitations) aufgeführt.
 
 #### In-App-Aktivität {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzm
 * Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
 
 * Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
+
+#### Aktivität „Inhaltsentscheidung“ {#content-decision-g}
+
+Spezifische Leitplanken gelten für die Aktivität **[!UICONTROL Inhaltsentscheidung]**, einschließlich einer 48-stündigen Verzögerung, bevor aktualisierte Einverständnisrichtlinien in Entscheidungsrichtlinien wirksam werden. Sie sind auf [dieser Seite](../building-journeys/content-decision.md#guardrails) aufgeführt.
 
 #### Aktivität „Springen“ {#jump-g}
 
@@ -403,6 +417,26 @@ Weitere Informationen zur Aktivität „Zielgruppe lesen“ finden Sie unter [Em
 #### Profilaktivität aktualisieren {#update-profile-g}
 
 Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/update-profiles.md) aufgeführt.
+
+#### Journey Pause {#pause-g}
+
+Spezifische Leitplanken gelten für **pausierende Journey**, einschließlich einer maximalen Pausendauer von 14 Tagen und einer Profilbegrenzung von 10 Millionen für alle pausierten Journey in Ihrem Unternehmen. Sie sind auf [dieser Seite](../building-journeys/journey-pause.md#journey-pause-guardrails) aufgeführt.
+
+#### Journey-Probelauf {#dry-run-g}
+
+Spezifische Leitplanken gelten für den **Journey-Probelauf** einschließlich der Zählung für kontaktierbare Profil- und Live-Journey-Kontingente. Sie sind auf [dieser Seite](../building-journeys/journey-dry-run.md#journey-dry-run-limitations) aufgeführt.
+
+#### Journey Fragments {#fragments-journey-g}
+
+Spezifische Leitplanken gelten für **Journey-Fragmente**, einschließlich maximal 20 Knoten pro Fragment und 200 aktiven Fragmenten pro Sandbox. Sie sind auf [dieser Seite](../building-journeys/journey-fragments.md#guardrails) aufgeführt.
+
+#### Versenden in Schüben {#waves-g}
+
+Spezifische Leitplanken gelten für **Wellenversand in Journey**, einschließlich eines Wellenbereichs von 2-10 und eines Mindestintervalls von 30 Minuten zwischen den Schüben. Sie sind auf [dieser Seite](../building-journeys/send-using-waves.md#limitations-guardrails) aufgeführt.
+
+#### Journey-Simulation {#simulation-g}
+
+Spezifische Leitplanken gelten für die **Journey-Simulation**. Sie sind auf [dieser Seite](../building-journeys/simulate-journey.md#limitations) aufgeführt.
 
 ## Kampagnenorchestrierung {#campaign-orchestration}
 
