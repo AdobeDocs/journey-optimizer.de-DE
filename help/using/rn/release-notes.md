@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
+source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -146,7 +146,7 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 <p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
 <p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Verfügbarkeitsdatum: 2. Juni 2026</p>
+<p>Verfügbarkeitsdatum: Anfang Juni 2026</p>
 </td>
 </tr>
 </tbody>
