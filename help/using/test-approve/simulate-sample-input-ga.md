@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 39%
@@ -87,7 +78,7 @@ Um Varianten für Ihren Inhalt zu erstellen, klicken Sie auf die Schaltfläche *
 
 Sie können Varianten wie folgt erstellen:
 
-* [Varianten manuell oder aus einer Datei &#x200B;](#profiles).
+* [Varianten manuell oder aus einer Datei ](#profiles).
 * [Varianten automatisch generieren](#auto-generate-variants) mit KI.
 * [Auswahl von Varianten aus vorhandenen simulierten Benutzern](#simulated-users).
 
@@ -144,19 +135,15 @@ Sie können eine Datei mit vordefinierten Varianten und Werten hochladen, um den
 
 ### Inhaltsvarianten automatisch generieren {#auto-generate-variants}
 
-[!DNL Journey Optimizer] können eine KI-basierte Simulation verwenden, um automatisch eine Inhaltsvariante zu generieren, sodass Sie Ihre Personalisierungslogik validieren können, ohne Varianten von Hand zu erstellen.
+[!DNL Journey Optimizer] können eine KI-basierte Simulation verwenden, um automatisch eine Inhaltsvariante zu generieren, sodass Sie Ihre Personalisierungslogik validieren können, ohne Varianten von Hand zu erstellen. Beim Rendern von Inhalten für die Simulation oder das Proofing analysiert das System Ihre Inhalte, identifiziert Personalisierungsfelder und ersetzt sie durch aussagekräftige Werte für eine nahezu realistische Vorschau.
 
-Beim Rendern von Inhalten für die Simulation oder das Proofing analysiert das System Ihre Inhalte, identifiziert Personalisierungsfelder und ersetzt sie durch aussagekräftige Werte für eine nahezu realistische Vorschau.
+Um eine Variante automatisch zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]** und warten Sie, bis das System die Variante generiert. Überprüfen Sie die generierte Variante in der Variantenliste und ihr Rendering.
 
-Um eine Variante automatisch zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]** und warten Sie, bis das System die Variante generiert.
-
-![Schaltfläche „Varianten generieren“](assets/simulate-generate-variant.png)
+![Schaltfläche „Varianten generieren“](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >Die Generierung erzeugt eine einzelne Variante. Durch Klicken **[!UICONTROL Generieren]** werden alle in der Liste vorhandenen Inhaltsvarianten, einschließlich manuell oder aus einer Datei hinzugefügter, durch eine einzige generierte Variante ersetzt.
-
-Überprüfen Sie die generierte Variante in der Variantenliste und ihr Rendering.
 
 ### Auswahl von Varianten aus simulierten Benutzern {#simulated-users}
 
