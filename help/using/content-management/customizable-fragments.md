@@ -172,13 +172,13 @@ Gehen Sie dazu wie folgt vor:
 >id="ajo_editable_field_compatibility"
 >title="Legacy-Fragment"
 >abstract="Dieses bearbeitbare Feld befindet sich im schreibgeschützten Modus. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>In den HTML-Modus wechseln</b>, um die Rich-Text-Bearbeitung zu aktivieren."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Legacy-Fragment"
 >abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Öffnen Sie dazu den Fragment-Editor und klicken Sie auf <b>In den HTML-Modus wechseln</b>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 
 Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem anpassbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 <!--
