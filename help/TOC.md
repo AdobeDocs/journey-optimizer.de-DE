@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
+source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -197,7 +197,7 @@ ht-degree: 95%
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
          + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
-         + [Reporting](using/orchestrated/reporting-campaigns.md)
+         + [Berichterstellung](using/orchestrated/reporting-campaigns.md)
       + Abfragen der Datenbank {#query-database}
          + [Abfragen der Datenbank](/help/rp_landing_pages/query-database-landing-page.md)
          + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
@@ -255,6 +255,7 @@ ht-degree: 95%
       + [Durchführen von Testsendungen mit Testprofildaten](using/content-management/proofs.md)
       + [Testen des E-Mail-Renderings](using/content-management/rendering.md)
       + [Simulieren von Inhaltsvarianten](using/test-approve/simulate-sample-input.md)
+      + {hide-from-toc}[Inhaltsvarianten simulieren (GA-Prüfung)](using/test-approve/simulate-sample-input-ga.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
       + [Genehmigen von Journeys und Kampagnen](/help/rp_landing_pages/approve-landing-page.md)
@@ -587,7 +588,7 @@ ht-degree: 95%
       + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
-+ Reporting {#reporting}
++ Berichterstellung {#reporting}
    + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
    + [Erste Schritte mit Berichten](using/reports/gs-reports.md)
    + Live-Bericht {#live-report}
