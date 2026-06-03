@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
 workflow-type: tm+mt
-source-wordcount: 8083
+source-wordcount: 8114
 ht-degree: 88%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 88%
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
+
+## Juni 2026 {#june-2026}
+
+* In der **Absenderkopfzeilen**-Dokumentation wird nun klargestellt, dass **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt oder beide leer gelassen werden müssen, da sonst Journey und Kampagnen nicht veröffentlicht werden können. [Weitere Informationen](../email/header-parameters.md#sender-header)
 
 ## Mai 2026 {#may-2026}
 
