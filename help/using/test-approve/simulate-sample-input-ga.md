@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 39%
@@ -144,19 +144,15 @@ Sie können eine Datei mit vordefinierten Varianten und Werten hochladen, um den
 
 ### Inhaltsvarianten automatisch generieren {#auto-generate-variants}
 
-[!DNL Journey Optimizer] können eine KI-basierte Simulation verwenden, um automatisch eine Inhaltsvariante zu generieren, sodass Sie Ihre Personalisierungslogik validieren können, ohne Varianten von Hand zu erstellen.
+[!DNL Journey Optimizer] können eine KI-basierte Simulation verwenden, um automatisch eine Inhaltsvariante zu generieren, sodass Sie Ihre Personalisierungslogik validieren können, ohne Varianten von Hand zu erstellen. Beim Rendern von Inhalten für die Simulation oder das Proofing analysiert das System Ihre Inhalte, identifiziert Personalisierungsfelder und ersetzt sie durch aussagekräftige Werte für eine nahezu realistische Vorschau.
 
-Beim Rendern von Inhalten für die Simulation oder das Proofing analysiert das System Ihre Inhalte, identifiziert Personalisierungsfelder und ersetzt sie durch aussagekräftige Werte für eine nahezu realistische Vorschau.
+Um eine Variante automatisch zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]** und warten Sie, bis das System die Variante generiert. Überprüfen Sie die generierte Variante in der Variantenliste und ihr Rendering.
 
-Um eine Variante automatisch zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]** und warten Sie, bis das System die Variante generiert.
-
-![Schaltfläche „Varianten generieren“](assets/simulate-generate-variant.png)
+![Schaltfläche „Varianten generieren“](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >Die Generierung erzeugt eine einzelne Variante. Durch Klicken **[!UICONTROL Generieren]** werden alle in der Liste vorhandenen Inhaltsvarianten, einschließlich manuell oder aus einer Datei hinzugefügter, durch eine einzige generierte Variante ersetzt.
-
-Überprüfen Sie die generierte Variante in der Variantenliste und ihr Rendering.
 
 ### Auswahl von Varianten aus simulierten Benutzern {#simulated-users}
 
