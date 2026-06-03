@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 95%
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
       + [Erstellen von Ausdrücken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Arbeiten mit dem erweiterten Ausdruckseditor](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[Ausdrucksassistent](using/building-journeys/expression/expression-agent.md)
+      + [Generieren von Ausdrücken mit dem Ausdrucksassistenten](using/building-journeys/expression/expression-agent.md)
       + Syntax {#syntax}
          + [Syntax](/help/rp_landing_pages/syntax-landing-page.md)
          + [Syntax des erweiterten Ausdruckseditors](using/building-journeys/expression/generalities.md)
@@ -197,7 +197,7 @@ ht-degree: 95%
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
          + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
-         + [Berichterstellung](using/orchestrated/reporting-campaigns.md)
+         + [Reporting](using/orchestrated/reporting-campaigns.md)
       + Abfragen der Datenbank {#query-database}
          + [Abfragen der Datenbank](/help/rp_landing_pages/query-database-landing-page.md)
          + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
@@ -588,7 +588,7 @@ ht-degree: 95%
       + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
-+ Berichterstellung {#reporting}
++ Reporting {#reporting}
    + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
    + [Erste Schritte mit Berichten](using/reports/gs-reports.md)
    + Live-Bericht {#live-report}

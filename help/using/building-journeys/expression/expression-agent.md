@@ -4,15 +4,14 @@ product: journey optimizer
 title: Generieren von Ausdrücken mit dem Ausdrucksassistenten
 description: Erfahren Sie, wie Sie mit dem Ausdrucksassistenten in Adobe Journey Optimizer Ausdrücke direkt im erweiterten Ausdruckseditor von Journey mithilfe natürlicher Sprachaufforderungen generieren können.
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="Öffentliche Betaversion" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
