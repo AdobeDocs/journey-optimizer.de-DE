@@ -10,24 +10,15 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Absender-Header, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 64%
+source-wordcount: 1137
+ht-degree: 61%
 
 ---
 
@@ -87,19 +78,20 @@ In diesem Fall können Sie einen anderen **Absender**-Namen und eine andere E-Ma
 
 >[!NOTE]
 >
->Diese Felder sind optional. Sie können [&#x200B; wie &#x200B;](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
+>Diese Felder sind optional. Sie können [ wie ](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
 
 Wenn **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt sind, fügt [!DNL Journey Optimizer] der E-Mail eine **Absender**-SMTP-Kopfzeile hinzu<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. E-Mail-Clients, die dies unterstützen, können Formulierungen wie **Absender im Auftrag von** oder einen **über**-Indikator anzeigen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Wenn Sie **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** leer lassen oder wenn der aufgelöste **Absender** identisch mit **Von** ist, wird kein **Absender**-Header hinzugefügt.
+>**[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** müssen zusammen konfiguriert werden. Entweder sind beide Felder ausgefüllt oder beide Felder sind leer. Wenn Sie nur eine davon ausfüllen, wird verhindert, dass Journey und Kampagnen mit dieser Kanalkonfiguration veröffentlicht werden.
 
-Hinweise:
+Beachten Sie beim Konfigurieren der **Absender**-Header Folgendes:
 
+* Wenn Sie beide Felder **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** leer lassen oder wenn der aufgelöste **Absender** identisch mit **From** ist, wird kein **Absender**-Header hinzugefügt.
 * Die **Absenderadresse** wird nicht für die Ausrichtung von SPF, DKIM oder DMARC verwendet, sondern nur **format**-Validierung. SPF, DKIM und DMARC sind weiterhin auf die Felder **Von** angewiesen. Die [delegierte Subdomain](../configuration/about-subdomain-delegation.md) die für die Konfiguration ausgewählt wurde, bleibt die für diese Prüfungen verwendete Versand-Domain.
 
-* Wenn **Absender** konfiguriert ist und die Personalisierung nicht auf einen Wert für einen Empfänger aufgelöst wird, wird die Nachricht nicht an diesen Empfänger gesendet.
+* Wenn die **Absender**-Kopfzeilen konfiguriert sind und die Personalisierung nicht in einen Wert für einen Empfänger aufgelöst wird, wird die Nachricht nicht an diesen Empfänger gesendet.
 
 ## Antwort auf E-Mail {#reply-to-email}
 
