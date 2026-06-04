@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 87%
+source-wordcount: 2077
+ht-degree: 76%
 
 ---
 
@@ -250,6 +250,48 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 >
 >* Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
 >
+
+### Zertifikatbasierte benutzerdefinierte Authentifizierung {#certificate-credential}
+
+Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID, können Sie die zertifikatbasierte benutzerdefinierte Authentifizierung konfigurieren, indem Sie `"subType": "certificateCredential"` zu Ihrer benutzerdefinierten Autorisierungs-Payload hinzufügen. Journey Optimizer verwendet das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
+
+Mit dieser Option werden dem `customAuthorization` zwei optionale Felder hinzugefügt: `subType` und `aud`. Alle anderen Felder (`endpoint`, `method`, Hauptteilparameter, `tokenInResponse`) bleiben unverändert. Wenn `subType` fehlt, ist das Verhalten mit der standardmäßigen benutzerdefinierten Authentifizierung identisch - vorhandene Konfigurationen sind davon nicht betroffen.
+
+* **`subType`**: Legen Sie die Einstellung auf `"certificateCredential"` fest, um die zertifikatbasierte Authentifizierung zu aktivieren.
+* **`aud`**: Der in der JWT-Client-Bestätigung enthaltene Zielgruppenwert. Standardmäßig wird die `endpoint`-URL verwendet, wenn sie nicht festgelegt ist. Geben Sie dieses Feld nur an, wenn Ihr Identitätsanbieter einen anderen Zielgruppenwert erwartet.
+
+Die Felder `client_assertion` und `client_assertion_type` werden nie vom Benutzer verfasst. Sie werden zur Laufzeit automatisch von der Plattform eingefügt, unmittelbar vor dem Token-Endpunkt-Aufruf.
+
+Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifikatberechtigung:
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "authorizationType": "bearer",
+  "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "https://api.example.com/.default"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
+>[!CAUTION]
+>
+>Beachten Sie die folgenden Leitplanken beim Konfigurieren der zertifikatbasierten benutzerdefinierten Authentifizierung:
+>
+>* **Token-Endpunkt-URL**: Muss HTTPS sein. Vermeiden Sie URLs, die `?` enthalten - dies ist ein Zeichen, bei dem der Autorisierungsendpunkt anstelle des Token-Endpunkts eingefügt wurde.
+>* **`client_id`**: Darf nicht leer sein und darf keine führenden oder nachfolgenden Leerzeichen enthalten. Ein leerer Wert erzeugt einen gültig aussehenden JWT, den der Identitätsanbieter mit einem deckenden Fehler zurückweist.
+>* **`scope`**: Wird in `bodyParams` als einzelne, durch Leerzeichen getrennte Zeichenfolge ausgedrückt. Insgesamt maximal 1000 Zeichen.
+>* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** (nicht die Stamm-CA) bei Ihrem Identitätsanbieter registrieren.
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 

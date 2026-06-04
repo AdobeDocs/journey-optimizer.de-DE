@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 88%
+source-wordcount: 2332
+ht-degree: 83%
 
 ---
 
@@ -67,6 +67,11 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Die Anzahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys, die diese Aktion verwenden, anzuzeigen.
 1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfigurations]**-Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
 1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen.  Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
+
+   >[!NOTE]
+   >
+   >Wenn Ihr Endpunkt OpenID Connect verwendet und sowohl ein `access_token` als auch ein `id_token` zurückgibt - ein Muster, das in Bank- und Finanzdienstleistungs-APIs häufig vorkommt -, verwenden Sie das optionale Feld `idTokenInResponse` in der Payload der benutzerdefinierten Authentifizierung. Dadurch wird Journey Optimizer angewiesen, das ID-Token anstelle des Zugriffstokens als Authentifizierungsberechtigung zu verwenden. [Weitere Informationen zur benutzerdefinierten Authentifizierung](../datasource/external-data-sources.md#custom-authentication-mode).
+
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -194,6 +199,14 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 >* Konfigurieren Sie Ihren Endpunkt so, dass **sich überschneidende Zertifikate** akzeptiert werden (das alte und das neue Zertifikat gleichzeitig), sodass während der Rotation keine Verbindungslücke besteht.
 >* Adobe sendet derzeit keine proaktiven Benachrichtigungen, wenn ein Zertifikat rotiert wird. Sie sind dafür verantwortlich, Zertifikataktualisierungen zu überwachen und Ihren Trust Store auf dem neuesten Stand zu halten.
 >* Die Vertrauensvalidierung sollte auf der Zertifikatskette bis zur Root CA (DigiCert) basieren, anstatt an einen bestimmten Fingerabdruck des Blattzertifikats anzuheften.
+
+### Zertifikatbasierte benutzerdefinierte Authentifizierung {#certificate-based-auth}
+
+Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID, unterstützen benutzerdefinierte Aktionen **zertifikatbasierte benutzerdefinierte Authentifizierung**. Um sie zu aktivieren, legen Sie `"subType": "certificateCredential"` in der benutzerdefinierten Autorisierungs-Payload fest, die im Abschnitt **[!UICONTROL Authentifizierung]** konfiguriert ist.
+
+Journey Optimizer verwendet das von Adobe verwaltete Zertifikat, um eine JWT-Client-Bestätigung zu signieren und sie automatisch gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
+
+Eine vollständige Payload-Struktur, Feldbeschreibungen und Konfigurationsleitplanken finden Sie unter [Zertifikatbasierte benutzerdefinierte Authentifizierung](../datasource/external-data-sources.md#certificate-credential).
 
 ## Definieren der Payload-Parameter {#define-the-message-parameters}
 

@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
 workflow-type: tm+mt
-source-wordcount: 1199
-ht-degree: 85%
+source-wordcount: 1201
+ht-degree: 87%
 
 ---
 
@@ -128,9 +128,9 @@ Weitere Informationen hierzu finden Sie in diesem [Abschnitt](../event/about-cre
 
 ## „Zielgruppe lesen“-Journeys {#entry-read-audience}
 
-**Zielgruppe lesen** Journey können wiederkehrend oder nicht wiederkehrend sein:
+**Zielgruppe-lesen**-Journeys können wiederkehrend oder einmalig sein:
 
-* Für nicht wiederkehrende Journey: Das Profil tritt nur einmal auf der Journey ein.
+* Für nicht wiederkehrende/einmalige Journeys: Das Profil tritt nur einmal in die Journey ein.
 
 * Für wiederkehrende Journeys: Standardmäßig treten bei jedem Intervall alle Profile der Zielgruppe in die Journey ein. Sie müssen die Journey beenden, bevor sie in einer anderen Instanz wieder eintreten können.
 
