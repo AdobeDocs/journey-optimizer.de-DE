@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 76%
 
 ---
@@ -81,7 +81,7 @@ Nach dem **globalen Journey-Timeout von 91 Tagen** wird der Status der Journey 
 
 ### Automatischer Journey-Stopp für nicht wiederkehrende Zielgruppen {#auto-stop-non-recurring}
 
-Eine **nicht wiederkehrende Journey mit dem Schritt „Zielgruppe lesen** wechselt jetzt automatisch in den Status **[!UICONTROL Angehalten]**, sobald das letzte Profil die Journey verlässt. Dadurch wird das vorherige Verhalten eliminiert, bei dem nicht wiederkehrende Journey von „Zielgruppe lesen **bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit im Status „Live** blieben, obwohl keine Profile aktiv durch sie hindurch strömten.
+Eine **nicht wiederkehrende Journey mit dem Schritt „Zielgruppe lesen** wechselt automatisch in den Status **[!UICONTROL Angehalten]**, sobald das letzte Profil die Journey verlässt. Dadurch wird das vorherige Verhalten eliminiert, bei dem nicht wiederkehrende Journey von „Zielgruppe lesen **bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit im Status „Live** blieben, obwohl keine Profile aktiv durch sie hindurch strömten.
 
 **Funktionsweise:**
 
