@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
 workflow-type: tm+mt
-source-wordcount: 3767
+source-wordcount: 3793
 ht-degree: 60%
 
 ---
@@ -215,7 +215,7 @@ Standardmäßig sind Journeys so konfiguriert, dass sie nur einmal ausgeführt w
 >
 >**Journey-Status und die globale Zeitüberschreitung von 91 Tagen:**
 >
->* **Einmalige** Journey aus der Zielgruppe lesen wechseln 91 Tage nach der Journey-Ausführung in den **Abgeschlossen**-Status ([Globale Zeitüberschreitung nach Journey](journey-properties.md#global_timeout).
+>* **Nicht wiederkehrend** Der Status „Zielgruppe lesen“ wechselt automatisch in den **Angehalten**-Status, sobald das letzte aktive Profil beendet wird - es sei denn, die Journey enthält Journey, die Wartezeiten verursachen (Warteknoten, Reaktionsknoten oder ereignisausgelöste Übergänge). In diesem Fall gilt die standardmäßige globale Zeitüberschreitung von 91 Tagen. [Weitere Informationen](end-journey.md#auto-stop-non-recurring)
 >* **Wiederkehrend** Zielgruppen-Journey mit keinem Enddatum lesen **Live bleiben** solange die Journey veröffentlicht wird. Sie wechseln 91 **nach der Ausführung ihres** Vorkommens in den Status **Beendet**.
 >* Die 91-tägige maximale Wartezeit gilt für einzelne **Profile**, die die Journey durchlaufen (maximale Zeit, während der ein Profil aktiv bleiben kann), nicht für den Live-Status der Journey.
 >* Das 91-tägige **Reporting-Fenster** ist ein separates Konzept: die Benutzeroberfläche zeigt Leistungsdaten für etwa die letzten 91 Tage an. Auf ältere Daten kann nicht über die Benutzeroberfläche zugegriffen werden, die Journey läuft jedoch weiter. [Weitere Informationen](journey-properties.md#global_timeout)
