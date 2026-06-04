@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 82%
+source-wordcount: 732
+ht-degree: 78%
 
 ---
 
@@ -106,7 +97,13 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
    ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, folgen Sie den Implementierungsschritten in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
 
-## Zusätzliche Ressourcen
+## Entscheidungsprozess {#process}
+
+Das folgende Diagramm fasst den Entscheidungsprozess von Anfang bis Ende zusammen - von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in ein codebasiertes Erlebnis-Journey oder eine Kampagne.
+
+![](assets/decisioning-process.png)
+
+## Zusätzliche Ressourcen {#additional-resources}
 
 * **[Erstellen von Entscheidungselementen](items.md)**: Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angebote, Inhaltsvarianten und Erlebnisse erstellen und verwalten.
 * **[Konfigurieren von Entscheidungskatalogen](catalogs.md)**: Erfahren Sie, wie Sie Entscheidungselemente zur Verbesserung der Verwaltung in Katalogen organisieren.
@@ -121,4 +118,4 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
