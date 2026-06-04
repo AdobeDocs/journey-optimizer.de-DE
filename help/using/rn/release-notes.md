@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
 workflow-type: tm+mt
-source-wordcount: 2649
-ht-degree: 21%
+source-wordcount: 2755
+ht-degree: 20%
 
 ---
 
@@ -63,11 +63,15 @@ ht-degree: 21%
 <p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/expression/expression-agent.md">entsprechenden Handbuch</a>.</p>
-<p>Verfügbarkeitsdatum: 3. Juni 2026</p>
+<p>Verfügbarkeitsdatum: 3. Juni 2026</p> 
 </td>
 </tr>
 </tbody>
 </table>
+
+* **Automatischer Abschluss für nicht wiederkehrende Journey des Typs „Zielgruppe lesen** - Nicht wiederkehrende **Zielgruppe lesen** Journey wechseln jetzt automatisch in den Status **Angehalten**, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-**bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit** Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.
+
+  Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung. [Weitere Informationen](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
@@ -335,7 +339,7 @@ Die folgende Entscheidungsfunktion wird in den kommenden Tagen oder Wochen erwar
 <td>
 <p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Verfügbarkeitsdatum: 3. Juni 2026</p>
+<p>Verfügbarkeitsdatum: 4. Juni 2026</p>
 </td>
 </tr>
 </tbody>
