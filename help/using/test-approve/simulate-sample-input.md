@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 89%
+source-wordcount: 990
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
   >[!NOTE]
   >
-  >Zurzeit sind Inbox-Rendering- und Spam-Berichte im aktuellen Erlebnis nicht verfügbar. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus und greifen Sie auf die vorherige Benutzeroberfläche zu.
+  >Zurzeit sind Inbox-Rendering- und Spam-Berichte im aktuellen Erlebnis nicht verfügbar. Um diese Funktionen zu verwenden, klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um auf die vorherige Benutzeroberfläche zuzugreifen.
 
 * **Attribute**: Sowohl Profil- als auch kontextuelle Attribute werden unterstützt.
 
@@ -71,9 +71,9 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
 ## Hinzufügen und Vorschau von Inhaltsvarianten
 
-Um Varianten für Ihren Inhalt zu erstellen und in einer Vorschau anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** und wählen Sie **[!UICONTROL Inhaltsvarianten simulieren]** aus.
+Um Varianten für Ihren Inhalt zu erstellen und eine Vorschau davon anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-![Option „Inhaltsvarianten simulieren“](assets/simulate-sample.png)
+![Schaltfläche „Inhalte simulieren“](assets/simulate-sample.png)
 
 Die wichtigsten Schritte zum Testen Ihrer Inhalte sind:
 

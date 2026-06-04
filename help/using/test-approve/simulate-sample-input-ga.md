@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 39%
+source-wordcount: 1321
+ht-degree: 37%
 
 ---
 
@@ -43,7 +43,7 @@ Wenn Ihr Inhalt Personalisierung oder bedingte Logik enthält, müssen Sie über
 
 Das Erlebnis **[!UICONTROL Inhaltsvarianten simulieren]** in [!DNL Journey Optimizer] löst dies, indem Sie mehrere Varianten Ihres Inhalts von einem einzigen Bildschirm aus testen können, automatisch mit KI generiert, manuell eingegeben, aus einer Datei importiert oder auf der Grundlage wiederverwendbarer simulierter Benutzer. Sie können eine Vorschau davon anzeigen, wie jede Variante gerendert wird, und einen Testversand durchführen, ohne zuvor persistente Profile in Adobe Experience Platform zu erstellen.
 
-Wählen Sie in Ihren Inhalten **[!UICONTROL Inhalt simulieren]** und dann **[!UICONTROL Inhaltsvarianten simulieren]** aus, um ein einzelnes Erlebnis zu öffnen, in dem Sie:
+Klicken Sie in Ihrem Inhalt auf **[!UICONTROL Inhalt simulieren]**, um ein einzelnes Erlebnis zu öffnen, in dem Sie:
 
 * **Varianten automatisch generieren** mithilfe von KI Personalisierungs- und bedingte Verzweigungen abdecken
 * **Varianten manuell hinzufügen** oder aus einer CSV- oder JSON-Datei
@@ -63,7 +63,8 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 * **Kanäle**: Eine Simulation von Inhaltsvarianten ist verfügbar für:
 
    * die Kanäle E-Mail, SMS und Push-Benachrichtigungen;
-   * alle Inbound-Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten).
+   * alle eingehenden Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten);
+   * Orchestrierte Kampagnen.
 
 * **Unterstützte Funktionen**: Inhaltsvarianten können mit [!DNL Journey Optimizer]-Funktionen für mehrsprachige Inhalte und Inhaltsexperimente verwendet werden. Auf diese Weise können Sie Nachrichten in mehreren Sprachen testen und den Inhalt durch Experimentieren optimieren.
 
@@ -71,19 +72,19 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
   >[!NOTE]
   >
-  >Zurzeit sind Inbox-Rendering- und Spam-Berichte im aktuellen Erlebnis nicht verfügbar. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus und greifen Sie auf die vorherige Benutzeroberfläche zu.
+  >Zurzeit sind Inbox-Rendering- und Spam-Berichte im aktuellen Erlebnis nicht verfügbar. Um diese Funktionen zu verwenden, klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um auf die vorherige Benutzeroberfläche zuzugreifen.
 
 * **Attribute**: Sowohl Profil- als auch kontextuelle Attribute werden unterstützt.
 
 * **Datentypen** - Bei der Eingabe von Daten für Varianten werden nur die folgenden Datentypen unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenfolge, Boolescher Wert und Datentyp. Bei allen anderen Datentypen wird eine Fehlermeldung angezeigt.
 
-* **Anzahl der**: Sie können bis zu 30 Varianten hinzufügen, um Ihren Inhalt zu testen, entweder mithilfe einer Datei, manuell oder durch automatische Generierung.
+* **Anzahl der**: Sie können bis zu 30 Varianten hinzufügen, um Ihren Inhalt zu testen, entweder mithilfe einer Datei, manuell oder durch automatische Generierung. Bei Verwendung der automatischen KI-Generierung werden maximal 20 Varianten generiert.
 
 ## Inhaltsvarianten erstellen
 
-Um Varianten für Ihren Inhalt zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** und wählen Sie **[!UICONTROL Inhaltsvarianten simulieren]**.
+Um Varianten für Ihren Inhalt zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-![Option „Inhaltsvarianten simulieren“](assets/simulate-sample.png)
+![Schaltfläche „Inhalte simulieren“](assets/simulate-sample.png)
 
 Sie können Varianten wie folgt erstellen:
 

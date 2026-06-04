@@ -8,10 +8,10 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 100%
+source-wordcount: 166
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ Nutzen Sie Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um das **E-Mail-Ren
 
 Gehen Sie wie folgt vor, um das E-Mail-Rendering zu überprüfen:
 
-1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
+1. Klicken Sie auf dem Bildschirm Inhalt bearbeiten Ihrer Nachricht oder in der E-Mail-Designer auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus.
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL E-Mail rendern]** aus.
 

@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 100%
+source-wordcount: 575
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Sobald der Inhalt der definiert wurde, können Sie ihn vor dem Senden der Nachri
 
 Darüber hinaus können Sie auch Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen bzw. Empfänger oder Abonnentinnen bzw. Abonnenten zum Testen und Validieren senden sowie ihr Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients überprüfen. Darüber hinaus können Sie allgemeine Aspekte der Inhaltsqualität wie Lesbarkeit und Effektivität bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](brands-score.md#validate-quality)
 
-Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt werden, auf die Sie über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- bzw. Web-Kanäle zugreifen können.
+Alle diese Aktionen können mithilfe der Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- und Web-Kanäle zugegriffen werden kann. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mithilfe von Beispieleingabedaten zu testen. Um eine Vorschau mit Testprofilen anzuzeigen, einen Testversand durchzuführen oder das E-Mail-Rendering zu überprüfen, wählen **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus.
 
 ![](../email/assets/email-preview-button.png)
 
