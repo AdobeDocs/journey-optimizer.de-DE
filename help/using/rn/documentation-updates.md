@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 8114
+source-wordcount: 8153
 ht-degree: 88%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 88%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die **„Erste Schritte mit der**&quot; wurde mit einem Prozessdiagramm aktualisiert, das den gesamten Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
 
 * In der **Absenderkopfzeilen**-Dokumentation wird nun klargestellt, dass **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt oder beide leer gelassen werden müssen, da sonst Journey und Kampagnen nicht veröffentlicht werden können. [Weitere Informationen](../email/header-parameters.md#sender-header)
 

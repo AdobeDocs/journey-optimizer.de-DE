@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 82%
+source-wordcount: 732
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,13 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
    ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, folgen Sie den Implementierungsschritten in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
 
-## Zusätzliche Ressourcen
+## Entscheidungsprozess {#process}
+
+Das folgende Diagramm fasst den Entscheidungsprozess von Anfang bis Ende zusammen - von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in ein codebasiertes Erlebnis-Journey oder eine Kampagne.
+
+![](assets/decisioning-process.png)
+
+## Zusätzliche Ressourcen {#additional-resources}
 
 * **[Erstellen von Entscheidungselementen](items.md)**: Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angebote, Inhaltsvarianten und Erlebnisse erstellen und verwalten.
 * **[Konfigurieren von Entscheidungskatalogen](catalogs.md)**: Erfahren Sie, wie Sie Entscheidungselemente zur Verbesserung der Verwaltung in Katalogen organisieren.
