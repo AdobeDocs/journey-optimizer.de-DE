@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3363'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 95%
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
       + {hide-from-toc}[Funktionen nach Paket](using/start/ajo-packages.md)
       + {hide-from-toc}[Pakete und Funktionen (v2)](using/start/ajo-packages-v2.md)
+      + {hide-from-toc}[Pakete und Funktionen (v3)](using/start/ajo-packages-v3.md)
    + Erste Schritte nach Rolle {#by-role}
       + [Rollen und Verantwortlichkeiten](using/start/quick-start.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
@@ -197,7 +198,7 @@ ht-degree: 95%
          + [Erstellen und Planen der Kampagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrieren von Aktivitäten](using/orchestrated/orchestrate-activities.md)
          + [Starten und Überwachen der Kampagne](using/orchestrated/start-monitor-campaigns.md)
-         + [Reporting](using/orchestrated/reporting-campaigns.md)
+         + [Berichterstellung](using/orchestrated/reporting-campaigns.md)
       + Abfragen der Datenbank {#query-database}
          + [Abfragen der Datenbank](/help/rp_landing_pages/query-database-landing-page.md)
          + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
@@ -589,7 +590,7 @@ ht-degree: 95%
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
 + Reporting {#reporting}
-   + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
+   + [Berichterstellung](/help/rp_landing_pages/reporting-landing-page.md)
    + [Erste Schritte mit Berichten](using/reports/gs-reports.md)
    + Live-Bericht {#live-report}
       + [Live-Bericht](/help/rp_landing_pages/live-report-landing-page.md)
