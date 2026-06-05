@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: Batch-Entscheidung, Briefpost, Entscheidung
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Dies unterstützt Anwendungsfälle für Batch-Entscheidungen über den Briefpost
 * [Entscheidungsrichtlinien erstellen](create-decision-policy.md#add) - Fügen Sie auf der Registerkarte „Briefpost“ eine Entscheidungsrichtlinie hinzu.
 * [Konfiguration von Briefpost](../direct-mail/direct-mail-configuration.md) - Datei-Routing und Kanalkonfiguration
 * [Erste Schritte mit Decisioning](gs-experience-decisioning.md) - Konzepte und Schutzmechanismen
+
