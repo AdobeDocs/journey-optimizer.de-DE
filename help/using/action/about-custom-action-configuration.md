@@ -10,29 +10,14 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 83%
 
 ---
@@ -70,7 +55,11 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
    >[!NOTE]
    >
-   >Wenn Ihr Endpunkt OpenID Connect verwendet und sowohl ein `access_token` als auch ein `id_token` zurückgibt - ein Muster, das in Bank- und Finanzdienstleistungs-APIs häufig vorkommt -, verwenden Sie das optionale Feld `idTokenInResponse` in der Payload der benutzerdefinierten Authentifizierung. Dadurch wird Journey Optimizer angewiesen, das ID-Token anstelle des Zugriffstokens als Authentifizierungsberechtigung zu verwenden. [Weitere Informationen zur benutzerdefinierten Authentifizierung](../datasource/external-data-sources.md#custom-authentication-mode).
+   >Wenn Ihr Endpunkt sowohl ein `access_token` als auch ein `id_token` zurückgibt, verwenden Sie das Feld `tokenInResponse` , um anzugeben, welches Token Journey Optimizer als Authentifizierungsberechtigung verwenden soll:
+   >* `"tokenInResponse": "json://access_token"` - Verwenden des Zugriffstokens (Standard für OAuth 2.0)
+   >* `"tokenInResponse": "json://id_token"` - ID-Token verwenden (häufig in OpenID Connect-Flüssen)
+   >
+   >[Erfahren Sie mehr über benutzerdefinierte Authentifizierung](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -202,7 +191,7 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 
 ### Zertifikatbasierte benutzerdefinierte Authentifizierung {#certificate-based-auth}
 
-Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID, unterstützen benutzerdefinierte Aktionen **zertifikatbasierte benutzerdefinierte Authentifizierung**. Um sie zu aktivieren, legen Sie `"subType": "certificateCredential"` in der benutzerdefinierten Autorisierungs-Payload fest, die im Abschnitt **[!UICONTROL Authentifizierung]** konfiguriert ist.
+Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID, unterstützen benutzerdefinierte Aktionen **zertifikatbasierte benutzerdefinierte Authentifizierung**. Um sie zu aktivieren, legen Sie `"subType": "certificateCredential"` in der benutzerdefinierten Autorisierungs-Payload fest, die im Abschnitt **[!UICONTROL Authentifizierung]** konfiguriert ist.
 
 Journey Optimizer verwendet das von Adobe verwaltete Zertifikat, um eine JWT-Client-Bestätigung zu signieren und sie automatisch gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
 
@@ -222,7 +211,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%"}
 

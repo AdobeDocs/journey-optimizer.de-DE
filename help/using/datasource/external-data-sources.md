@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
-ht-degree: 76%
+source-wordcount: 2084
+ht-degree: 75%
 
 ---
 
@@ -253,12 +243,12 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 ### Zertifikatbasierte benutzerdefinierte Authentifizierung {#certificate-credential}
 
-Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID, können Sie die zertifikatbasierte benutzerdefinierte Authentifizierung konfigurieren, indem Sie `"subType": "certificateCredential"` zu Ihrer benutzerdefinierten Autorisierungs-Payload hinzufügen. Journey Optimizer verwendet das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
+Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID, können Sie die zertifikatbasierte benutzerdefinierte Authentifizierung konfigurieren, indem Sie `"subType": "certificateCredential"` zu Ihrer benutzerdefinierten Autorisierungs-Payload hinzufügen. Journey Optimizer verwendet das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
 
-Mit dieser Option werden dem `customAuthorization` zwei optionale Felder hinzugefügt: `subType` und `aud`. Alle anderen Felder (`endpoint`, `method`, Hauptteilparameter, `tokenInResponse`) bleiben unverändert. Wenn `subType` fehlt, ist das Verhalten mit der standardmäßigen benutzerdefinierten Authentifizierung identisch - vorhandene Konfigurationen sind davon nicht betroffen.
+Mit dieser Option werden dem `customAuthorization` zwei Pflichtfelder hinzugefügt: `subType` und `aud`. Alle anderen Felder (`endpoint`, `method`, Hauptteilparameter, `tokenInResponse`) bleiben unverändert. Wenn `subType` fehlt, ist das Verhalten mit der standardmäßigen benutzerdefinierten Authentifizierung identisch - vorhandene Konfigurationen sind davon nicht betroffen.
 
 * **`subType`**: Legen Sie die Einstellung auf `"certificateCredential"` fest, um die zertifikatbasierte Authentifizierung zu aktivieren.
-* **`aud`**: Der in der JWT-Client-Bestätigung enthaltene Zielgruppenwert. Standardmäßig wird die `endpoint`-URL verwendet, wenn sie nicht festgelegt ist. Geben Sie dieses Feld nur an, wenn Ihr Identitätsanbieter einen anderen Zielgruppenwert erwartet.
+* **`aud`**: Der in der JWT-Client-Bestätigung enthaltene Zielgruppenwert. Bei der Microsoft-Eintrags-ID ist dies dasselbe wie bei der `endpoint`-URL, es muss jedoch immer explizit festgelegt werden.
 
 Die Felder `client_assertion` und `client_assertion_type` werden nie vom Benutzer verfasst. Sie werden zur Laufzeit automatisch von der Plattform eingefügt, unmittelbar vor dem Token-Endpunkt-Aufruf.
 
@@ -269,7 +259,7 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifik
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +279,7 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifik
 >Beachten Sie die folgenden Leitplanken beim Konfigurieren der zertifikatbasierten benutzerdefinierten Authentifizierung:
 >
 >* **Token-Endpunkt-URL**: Muss HTTPS sein. Vermeiden Sie URLs, die `?` enthalten - dies ist ein Zeichen, bei dem der Autorisierungsendpunkt anstelle des Token-Endpunkts eingefügt wurde.
+>* **`method`**: Muss `POST` sein. OAuth-Token-Endpunkte akzeptieren nur POST-Anfragen.
 >* **`client_id`**: Darf nicht leer sein und darf keine führenden oder nachfolgenden Leerzeichen enthalten. Ein leerer Wert erzeugt einen gültig aussehenden JWT, den der Identitätsanbieter mit einem deckenden Fehler zurückweist.
 >* **`scope`**: Wird in `bodyParams` als einzelne, durch Leerzeichen getrennte Zeichenfolge ausgedrückt. Insgesamt maximal 1000 Zeichen.
 >* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** (nicht die Stamm-CA) bei Ihrem Identitätsanbieter registrieren.
