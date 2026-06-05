@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 61%
+source-wordcount: 2372
+ht-degree: 58%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 61%
 Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie Ihrem Inhalt in einer Kampagne oder auf einer Journey eine Entscheidungsrichtlinie hinzu. Konfigurieren Sie dann die zurückzugebenden Elemente und die zu verwendende Auswahlstrategie. Gehen Sie dazu wie folgt vor:
 
 1. [Hinzufügen einer Entscheidungsrichtlinie](#add)
-1. [Entscheidungsrichtlinie konfigurieren](#configure) - Fügen Sie einen Namen hinzu und geben Sie die Anzahl der Elemente an, die für den E-Mail-Kanal zurückgegeben werden sollen.
+1. [Entscheidungsrichtlinie konfigurieren](#configure) - Fügen Sie einen Namen hinzu und geben Sie für die Kanäle „E-Mail“ und „Briefpost“ die Anzahl der zurückzugebenden Elemente an.
 1. [Einrichten einer Strategiesequenz](#strategy): Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
 1. [Auswählen von Fallback-Angeboten](#fallback) (optional): Wählen Sie Elemente aus, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
 1. [Überprüfen und Speichern](#review) der Auswahlstrategie
@@ -55,13 +55,11 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 
 >[!AVAILABILITY]
 >
->Entscheidungsrichtlinien sind für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung**, **SMS** und **E** verfügbar.
+>Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **Push**, **SMS** und **Briefpost** zur Verfügung.
 
 ## Hinzufügen einer Entscheidungsrichtlinie {#add}
 
-Öffnen Sie eine Journey oder Kampagne, wählen Sie [Kanalaktion](../building-journeys/journey-action.md) und bearbeiten Sie den Inhalt Ihrer Nachricht.
-
-Bearbeiten Sie den Inhalt Ihrer Nachricht und navigieren Sie zu den folgenden Registerkarten, um weitere Informationen zum Hinzufügen der Entscheidungsrichtlinie basierend auf dem ausgewählten Kanal zu erhalten.
+Greifen Sie auf eine konfigurierte Kanalaktion in Ihrer Journey oder Kampagne zu und bearbeiten Sie den Inhalt Ihrer Nachricht. Auf den folgenden Registerkarten finden Sie weitere Informationen darüber, wie Sie die Entscheidungsrichtlinie basierend auf dem ausgewählten Kanal hinzufügen.
 
 >[!BEGINTABS]
 
@@ -195,6 +193,22 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 +++
 
+>[!TAB Briefpost]
+
+Fügen Sie für Briefpost eine Entscheidungsrichtlinie aus der Konfiguration **Extraktionsdatei“**. [Erfahren Sie, wie Sie eine Briefpostnachricht &#x200B;](../direct-mail/create-direct-mail.md).
+
+1. Wählen Sie **[!UICONTROL Abschnitt &quot;]**&quot; eine Spalte aus oder klicken Sie auf **[!UICONTROL Hinzufügen]** um eine Spalte zu erstellen.
+
+1. Öffnen Sie im Formatierungsbereich den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. Verwenden Sie im Konfigurationsbildschirm der Entscheidungsrichtlinie das Feld **[!UICONTROL Anzahl der Elemente]**, um festzulegen, wie viele Entscheidungselemente für jedes Profil zurückgegeben werden sollen (z. B. 2 zum Exportieren der zwei geeignetsten Angebote). Fahren Sie mit [Strategieeinrichtung](#strategy) und [Personalisierung](use-decision-policy.md) in den Spalten der Extraktionsdatei fort.
+
 >[!ENDTABS]
 
 ## Konfigurieren der Entscheidungsrichtlinie {#configure}
@@ -209,7 +223,7 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
    >[!NOTE]
    >
-   >Diese Option ist nur für die Kanäle E-Mail und Code-basiertes Erlebnis verfügbar. Für alle anderen Kanäle kann pro Aktion nur ein Entscheidungselement zurückgegeben werden.
+   >Das Feld **[!UICONTROL Anzahl der Elemente]** ist für die Kanäle **E**, **Code-basiertes Erlebnis** und **Briefpost** verfügbar. Bei **SMS**- und **Push**-Kanälen kann pro Aktion nur ein Entscheidungselement zurückgegeben werden.
 
    Um mehrere Elemente für den E-Mail-Kanal zurückzugeben, müssen Sie die Entscheidungsrichtlinie innerhalb einer **[!UICONTROL Wiederholungsraster]**-Komponente hinzufügen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 

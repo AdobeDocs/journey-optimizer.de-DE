@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 74%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 78%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente werden nahtlos in Nachrichten und Erlebnisse auf [!DNL Adobe Journey Optimizer] Kanälen integriert: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), E-Mail, SMS und Push-Benachrichtigungen.
+Diese Entscheidungselemente werden nahtlos in Nachrichten und Erlebnisse auf [!DNL Adobe Journey Optimizer] Kanälen integriert: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), E-Mail, SMS, Push-Benachrichtigungen und [Briefpost](batch-decisioning-direct-mail.md) für Batch-Entscheidungen und personalisierte Briefpost-Exporte. Die Unterstützung von Experience Decisioning für Briefpost ist eine neue Funktion. Zuvor war die Decisioning-Engine nicht für Briefpost-Extraktionsdateien verfügbar.
 
 >[!IMPORTANT]
 >
->Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **Push-Benachrichtigung** und **SMS** zur Verfügung. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **Push-**, **SMS** und **Briefpost** zur Verfügung.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 

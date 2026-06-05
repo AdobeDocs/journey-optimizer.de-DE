@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 83%
+source-wordcount: 458
+ht-degree: 79%
 
 ---
 
@@ -53,10 +53,11 @@ Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
 ![Animierte Übersicht über den Briefpostkanal in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 * **[Erstellen von Direkt-Mail](create-direct-mail.md)** – Erfahren Sie, wie Sie Direkt-Mail-Sendungen erstellen und Extraktionsdateien für Offline-Kanäle konfigurieren.
 * **[Konfigurieren des Direkt-Mail-Kanals](direct-mail-configuration.md)** – Richten Sie Direkt-Mail-Oberflächen und Datei-Routing-Konfigurationen ein.
+* **[Batch Decisioning in Briefpost](../experience-decisioning/batch-decisioning-direct-mail.md)** - Verwenden Sie Decisioning, um Extraktionsdateien für Briefpost zu personalisieren oder um Entscheidungsdaten für nachgelagerte Systeme zu exportieren.
 * **[Testen und Senden von Direkt-Mail](test-send-direct-mail.md)** – Erfahren Sie, wie Sie Ihre Direkt-Mail-Sendungen testen, validieren und veröffentlichen.
 * **[Tutorials zu Direkt-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** – Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen von Direkt-Mail und Best Practices.
 

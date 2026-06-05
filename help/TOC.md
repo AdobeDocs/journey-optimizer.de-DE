@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: '3363'
+source-wordcount: '3368'
 ht-degree: 95%
 
 ---
@@ -589,7 +589,7 @@ ht-degree: 95%
       + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
-+ Reporting {#reporting}
++ Berichterstellung {#reporting}
    + [Berichterstellung](/help/rp_landing_pages/reporting-landing-page.md)
    + [Erste Schritte mit Berichten](using/reports/gs-reports.md)
    + Live-Bericht {#live-report}
@@ -726,6 +726,7 @@ ht-degree: 95%
          + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision-policy.md)
          + [Verwenden von Entscheidungsrichtlinien in Nachrichten](using/experience-decisioning/use-decision-policy.md)
          + [Nutzen von Fragmenten in Entscheidungsrichtlinien](using/experience-decisioning/fragments-decision-policies.md)
+         + [Batch-Entscheidung in Briefpost](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
       + [Anwendungsfall für die Entscheidungsfindung](using/experience-decisioning/experience-decisioning-uc.md)
       + Erfassen von Ereignisdaten {#experience-decisioning-collect-event-data}
