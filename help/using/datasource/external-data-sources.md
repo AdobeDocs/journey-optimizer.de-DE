@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 75%
@@ -261,6 +261,10 @@ Mit dieser Option werden dem `customAuthorization` zwei Pflichtfelder hinzugefü
 * **`aud`**: Der in der JWT-Client-Bestätigung enthaltene Zielgruppenwert. Bei der Microsoft-Eintrags-ID ist dies dasselbe wie bei der `endpoint`-URL, es muss jedoch immer explizit festgelegt werden.
 
 Die Felder `client_assertion` und `client_assertion_type` werden nie vom Benutzer verfasst. Sie werden zur Laufzeit automatisch von der Plattform eingefügt, unmittelbar vor dem Token-Endpunkt-Aufruf.
+
+<!--
+rebuild
+-->
 
 Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifikatberechtigung:
 
