@@ -30,9 +30,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 83%
 
 ---
@@ -70,7 +70,11 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
    >[!NOTE]
    >
-   >Wenn Ihr Endpunkt OpenID Connect verwendet und sowohl ein `access_token` als auch ein `id_token` zurückgibt - ein Muster, das in Bank- und Finanzdienstleistungs-APIs häufig vorkommt -, verwenden Sie das optionale Feld `idTokenInResponse` in der Payload der benutzerdefinierten Authentifizierung. Dadurch wird Journey Optimizer angewiesen, das ID-Token anstelle des Zugriffstokens als Authentifizierungsberechtigung zu verwenden. [Weitere Informationen zur benutzerdefinierten Authentifizierung](../datasource/external-data-sources.md#custom-authentication-mode).
+   >Wenn Ihr Endpunkt sowohl ein `access_token` als auch ein `id_token` zurückgibt, verwenden Sie das Feld `tokenInResponse` , um anzugeben, welches Token Journey Optimizer als Authentifizierungsberechtigung verwenden soll:
+   >* `"tokenInResponse": "json://access_token"` - Verwenden des Zugriffstokens (Standard für OAuth 2.0)
+   >* `"tokenInResponse": "json://id_token"` - ID-Token verwenden (häufig in OpenID Connect-Flüssen)
+   >
+   >[Erfahren Sie mehr über benutzerdefinierte Authentifizierung](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -202,7 +206,7 @@ Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktion
 
 ### Zertifikatbasierte benutzerdefinierte Authentifizierung {#certificate-based-auth}
 
-Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID, unterstützen benutzerdefinierte Aktionen **zertifikatbasierte benutzerdefinierte Authentifizierung**. Um sie zu aktivieren, legen Sie `"subType": "certificateCredential"` in der benutzerdefinierten Autorisierungs-Payload fest, die im Abschnitt **[!UICONTROL Authentifizierung]** konfiguriert ist.
+Für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID, unterstützen benutzerdefinierte Aktionen **zertifikatbasierte benutzerdefinierte Authentifizierung**. Um sie zu aktivieren, legen Sie `"subType": "certificateCredential"` in der benutzerdefinierten Autorisierungs-Payload fest, die im Abschnitt **[!UICONTROL Authentifizierung]** konfiguriert ist.
 
 Journey Optimizer verwendet das von Adobe verwaltete Zertifikat, um eine JWT-Client-Bestätigung zu signieren und sie automatisch gegen ein Zugriffstoken einzutauschen. Es ist kein Client-Geheimnis erforderlich.
 
