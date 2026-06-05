@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb22b573041e33cf7a831e193ad87ded473ca247
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: 2743
 ht-degree: 20%
@@ -47,6 +47,9 @@ ht-degree: 20%
 >[!NOTE]
 >
 >Die in diesen Versionshinweisen aufgeführten Funktionen umfassen ein **Verfügbarkeitsdatum** das angibt, wann jede Änderung in Ihrer Umgebung verfügbar wird. Einträge in den **Bald verfügbar** Akkordeons werden in den kommenden Tagen oder Wochen erwartet. Die Informationen in diesen Abschnitten können sich ändern.
+<!--
+Rebuild
+-->
 
 ## Updates vom 26. Juni {#june-26-updates}
 
@@ -59,7 +62,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können.</p>
+<p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können. </p>
 <p><img src="assets/do-not-localize/exd-dm.gif"></p>
 <p>Weitere Informationen finden Sie im <a href="../experience-decisioning/use-decision-policy.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 3. Juni 2026</p>
