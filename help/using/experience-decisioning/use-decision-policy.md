@@ -9,23 +9,14 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 7%
 
 ---
@@ -36,7 +27,7 @@ Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, könne
 
 >[!CAUTION]
 >
->Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **SMS**, **Push-Benachrichtigung** und **E** zur Verfügung.
+>Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **SMS**, **Push-Benachrichtigung** und **Briefpost** zur Verfügung.
 
 ## Einfügen des Entscheidungsrichtlinien-Codes {#insert}
 
@@ -104,19 +95,29 @@ Sie können den Entscheidungsrichtlinien-Code auch einfügen, wenn Sie den Modus
 >
 >Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"} anzeigen.
 
+>[!TAB Briefpost]
+
+1. Öffnen Sie in der Konfiguration der Extraktionsdatei den **Personalization** Editor (z. B. im Feld **[!UICONTROL Daten]** einer Spalte).
+
+2. Navigieren Sie zu **[!UICONTROL Entscheidungsrichtlinien]** und wählen Sie **[!UICONTROL Richtlinie einfügen]** aus, um den Code für Ihre Entscheidungsrichtlinie hinzuzufügen.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. Verwenden Sie die zurückgegebenen Entscheidungselementattribute als Spaltendaten, damit die ausgewählten Angebotsinformationen in der Extraktionsdatei für jedes Profil enthalten sind.
+
 >[!ENDTABS]
 
 Der Entscheidungsrichtlinien-Code wird hinzugefügt. Sie können jetzt Attribute aus den zurückgegebenen Entscheidungselementen verwenden, um Ihren Inhalt zu personalisieren.
 
 >[!NOTE]
 >
->Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen &#x200B;](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
+>Für Code-basierte Erlebnis-, E-Mail- und Briefpost-Kanäle wiederholen Sie diese Sequenz einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen ](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
 
 ## Mit Entscheidungselementattributen personalisieren {#attributes}
 
-Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung &#x200B;](../personalization/personalize.md).
+Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung ](../personalization/personalize.md).
 
-Attribute werden im „Angebote“ ([) &#x200B;](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
+Attribute werden im „Angebote“ ([) ](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
 * **Benutzerdefinierte Attribute**: `_\<imsOrg\>` Ordner
 * **Standardattribute**: `_experience` Ordner
 
@@ -126,7 +127,7 @@ Entscheidungselementattribute und kontextuelle Attribute werden in [!DNL Journey
 
 Um ein Attribut hinzuzufügen, klicken Sie auf das **`+`** neben dem Attribut. Sie können beliebig viele Attribute hinzufügen. Sie können auch andere Personalisierungsattribute wie Profildaten einbeziehen.
 
-* Umschließen **bei**- und **Code-basierten**-Kanälen die Attribute in der `#each` Schleife mithilfe von eckigen Klammern `[ ]` und fügen Sie ein Komma vor dem schließenden `/each`-Tag hinzu.
+* Umschließen **für** E-Mail **, Code-** und **Briefpost**-Kanäle die Attribute innerhalb der `#each` Schleife mit eckigen Klammern `[ ]` und fügen Sie ein Komma vor dem schließenden `/each`-Tag hinzu.
 
   +++Siehe Beispiel
 
@@ -168,7 +169,7 @@ Sie können auch auf die technischen Details jeder Entscheidungsrichtlinie zugre
 
 +++ Gehen Sie wie folgt vor, um auf Details zur Entscheidungsrichtlinie und technische Informationen zuzugreifen.
 
-1. Öffnen Sie die Kampagnenzusammenfassung, indem Sie während der [Konfiguration“ auf **&#x200B;**&#x200B;Zum Aktivieren überprüfen](../campaigns/review-activate-campaign.md#action-campaign-review) klicken oder eine Kampagne aus der Liste **[!UICONTROL Kampagnen]** öffnen.
+1. Öffnen Sie die Kampagnenzusammenfassung, indem Sie während der [Konfiguration“ auf **** Zum Aktivieren überprüfen](../campaigns/review-activate-campaign.md#action-campaign-review) klicken oder eine Kampagne aus der Liste **[!UICONTROL Kampagnen]** öffnen.
 
 1. Im Abschnitt **[!UICONTROL Entscheidungsrichtlinien]** werden alle in der Kampagne verwendeten Richtlinien aufgelistet.
 

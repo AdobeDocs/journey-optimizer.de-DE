@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 74%
 
 ---
 
@@ -41,11 +32,11 @@ ht-degree: 78%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente werden nahtlos in Nachrichten und Erlebnisse auf [!DNL Adobe Journey Optimizer] Kanälen integriert: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), E-Mail, SMS und Push-Benachrichtigungen.
+Diese Entscheidungselemente werden nahtlos in Nachrichten und Erlebnisse auf [!DNL Adobe Journey Optimizer] Kanälen integriert: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), E-Mail, SMS, Push-Benachrichtigungen und [Briefpost](batch-decisioning-direct-mail.md) für Batch-Entscheidungen und personalisierte Briefpost-Exporte. Die Unterstützung von Experience Decisioning für Briefpost ist eine neue Funktion. Zuvor war die Decisioning-Engine nicht für Briefpost-Extraktionsdateien verfügbar.
 
 >[!IMPORTANT]
 >
->Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **Push-Benachrichtigung** und **SMS** zur Verfügung. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **E-Mail**, **Push-**, **SMS** und **Briefpost** zur Verfügung.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -127,4 +118,4 @@ Das folgende Diagramm fasst den Entscheidungsprozess von Anfang bis Ende zusamme
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -10,23 +10,16 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 84%
+source-wordcount: 1190
+ht-degree: 74%
 
 ---
 
@@ -125,7 +118,15 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 
 Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden. Gehen Sie wie folgt vor, um die Konfiguration der Extraktionsdatei zu definieren:
 
-1. Klicken Sie zum Konfigurieren des Inhalts der Extraktionsdatei im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+1. Klicken Sie im Konfigurationsbildschirm der Kampagne oder des Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Extraktionsdatei zu konfigurieren.
+
+1. Um Ihrer Briefpostnachricht Entscheidungsrichtlinien hinzuzufügen, wählen Sie eine Spalte im Abschnitt **[!UICONTROL Datenfelder]** aus und öffnen Sie den Personalisierungseditor mithilfe des ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]**, um eine Entscheidungsrichtlinie zu erstellen und einzufügen. Anschließend können Sie Entscheidungselementattribute als Spaltendaten in der Extraktionsdatei verwenden.
+
+   >[!AVAILABILITY]
+   >
+   >Experience Decisioning in Briefpost ist eine neue Funktion. Zuvor konnten Briefpost-Extraktionsdateien die Decisioning-Engine nicht verwenden. Sie können jetzt Entscheidungsrichtlinien hinzufügen und Entscheidungsattributen als Spaltendaten in den Export einschließen.
+
+   [Erfahren Sie, wie Sie eine Entscheidungsrichtlinie in Briefpost hinzufügen](../experience-decisioning/create-decision-policy.md#add). Informationen zu Batch-Entscheidungs-Workflows und Beispielen (personalisierte Briefpost oder Export in nachgelagerte Systeme) finden Sie unter [Batch-Entscheidung in Briefpost](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Passen Sie die Eigenschaften der Extraktionsdatei an:
 
