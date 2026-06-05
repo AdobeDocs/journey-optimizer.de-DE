@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 ### Orchestrierte Kampagnen {#may-26-oc}
 
 Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestrierten Kampagnen hinzugefügt. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet.
-
-<table>
-<thead>
-<tr>
-<th><strong>KI-Assistent für Journey-Ausdrücke</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
-<p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/expression/expression-agent.md">entsprechenden Handbuch</a>.</p>
-<p>Verfügbarkeitsdatum: 20. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
