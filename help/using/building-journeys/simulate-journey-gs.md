@@ -12,20 +12,24 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
+source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
 workflow-type: tm+mt
-source-wordcount: 1031
-ht-degree: 4%
+source-wordcount: 1491
+ht-degree: 3%
 
 ---
 
 # Erste Schritte mit der Journey-Simulation {#simulate-journey-gs}
 
+>[!IMPORTANT]
+>
+>Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
+
 Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf**, **Testmodus** und **Live** einstellen. In der Simulation testen Sie mit **simulierten Benutzern** temporären profilähnlichen Entitäten, die Sie hinzufügen, ohne persistente Testprofile in Adobe Experience Platform zu verwenden.
 
 Adobe Journey Optimizer bietet zwei Möglichkeiten zum Testen und Validieren Ihres Journey:
 
-* **[Simulation](#test-users)**: Verwenden Sie die **[!UICONTROL Simulation]** Journey-Funktion und simulierte Benutzende ohne vorab erstellte Profile in Adobe Experience Platform, wobei sowohl KI-gestützte als auch manuell erstellte Benutzende unterstützt werden.
+* **[Simulation](simulate-journey.md#test-users)**: Verwenden Sie die **[!UICONTROL Simulation]** Journey-Funktion und simulierte Benutzende ohne vorab erstellte Profile in Adobe Experience Platform, wobei sowohl KI-gestützte als auch manuell erstellte Benutzende unterstützt werden.
 
 * **[Testmodus](testing-the-journey.md)**: Verwenden Sie beständige Profile, die in Adobe Experience Platform als Testprofile gekennzeichnet und sitzungsübergreifend wiederverwendet werden. Wählen Sie diesen Ansatz, wenn Sie konsistente, vordefinierte Daten benötigen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
 
@@ -37,9 +41,13 @@ Weitere Informationen finden Sie unter [Journey simulieren](simulate-journey.md)
 
 +++ Batch-Journey mit einer „Zielgruppe lesen“
 
-Die Journey wird von einer „Zielgruppe lesen **ausgelöst**. Die Arbeitsfläche hat keine unitären Ereignisaktivitäten, Profile durchlaufen nur Bedingungen, Wartezeiten und Kanalaktionen.
 
-Mit **Batch-Journey mit einer gelesenen Zielgruppe** können Sie auf die Schnellsimulation oder die manuelle Simulation zugreifen.
+Das Journey wird von „Zielgruppe lesen **[!UICONTROL ausgelöst]** und die Arbeitsfläche hat keine unitären Ereignisaktivitäten. Während der Simulation wird die Zielgruppen-Population nicht ausgelöst. Nur simulierte Benutzende treten in die Journey ein.
+Die für die Simulation ausgewählten simulierten Benutzer werden im Abschnitt **Testbenutzer** angezeigt:
+
+![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch.png)
+
+Für Journey mit einer **[!UICONTROL Zielgruppe lesen]** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-14.png)
 
@@ -47,9 +55,12 @@ Mit **Batch-Journey mit einer gelesenen Zielgruppe** können Sie auf die Schnell
 
 +++ Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen
 
-Eine Segment-Trigger-Journey, die ein oder mehrere unitäre Ereignisse entlang des Pfads enthält. Nach dem Senden von Benutzerereignissen in können Sie Benutzerereignisse für die Trigger erstellen, die auf einen Ereignisknoten warten.
+Eine Segment-Trigger-Journey, die ein oder mehrere unitäre Ereignisse entlang des Pfads enthält. Sie simulieren zuerst Trigger, die in die Simulation eintreten sollen, und dann Trigger-Ereignisse für die Benutzer, die auf einen Ereignisknoten warten.
+Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereignisse werden in den Abschnitten Testbenutzende und Testereignisse angezeigt. Der Abschnitt Testereignisse wird erst angezeigt, wenn ein simulierter Benutzer auf die Journey zugreift.
 
-Mit **Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen** können Sie auf die Schnellsimulation oder die manuelle Simulation zugreifen.
+![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-2.png)
+
+Mit **Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
 
 ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/simulate-12.png)
 
@@ -57,7 +68,10 @@ Mit **Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen** k
 
 +++ Unitäres Journey
 
-Die Journey **startet** mit einem unitären Ereignis, nicht mit einer gelesenen Zielgruppe. Ein simulierter Benutzer gibt die Journey erst dann ein, wenn dieses Startereignis für ihn ausgelöst wird.
+Die Journey beginnt mit einem unitären Ereignis, nicht mit der Aktivität „Zielgruppe lesen“. Ein simulierter Benutzer gibt die Journey erst dann ein, wenn dieses Startereignis für ihn ausgelöst wird.
+Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereignisse werden in den Abschnitten **Testbenutzende** und **Testereignisse** angezeigt. Der Abschnitt **Testbenutzer** enthält keine Aktion zum Trigger eines simulierten Benutzers auf die Journey. Trigger-Eintrag von **Testereignisse**.
+
+![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-3.png)
 
 Mit **Unitäres Journey** greifen Sie direkt auf das Menü Manuelle Simulation zu.
 
@@ -67,7 +81,7 @@ Mit **Unitäres Journey** greifen Sie direkt auf das Menü Manuelle Simulation z
 
 ## Simulation starten {#launch}
 
-Wechseln Sie die Journey zu **[!UICONTROL Simulation]**, um sie mit simulierten Benutzenden zu testen. Eine schrittweise Anleitung finden Sie unter [Journey simulieren](simulate-journey.md).
+Wechseln Sie die Journey zu **[!UICONTROL Simulation]**, um sie mit simulierten Benutzenden zu testen. Eine schrittweise Anleitung finden Sie unter [Journey simulieren](simulate-journey-2.md).
 
 1. Klicken Sie auf Ihrem Journey auf **[!UICONTROL Simulieren]** und wählen Sie **[!UICONTROL Simulation]**.
 
@@ -79,20 +93,25 @@ Wechseln Sie die Journey zu **[!UICONTROL Simulation]**, um sie mit simulierten 
 
 In dieser Version unterstützt **[!UICONTROL Simulation]** möglicherweise nicht alle Aktivitäten, Kanäle oder Integrationen, die **[!UICONTROL Testmodus]** oder eine Live-Journey unterstützt, und das Verhalten kann sich ändern, wenn die Funktion ausgereift ist. Verwenden Sie diesen Artikel für unterstützte Workflows.
 
-Weitere Informationen zu den Simulationsbeschränkungen finden Sie in den folgenden Dropdown-Listen.
+Weitere Informationen zu den Einschränkungen bei der Simulation finden Sie in den folgenden Dropdown-Listen.
 
 +++ Einschränkungen auf Knotenebene
 
-Wenn eine Journey einen der folgenden Knoten enthält, kann sie nicht in „Simulation **[!UICONTROL gestartet]**. Bevor die Simulation ausgeführt werden kann, muss der Journey geändert oder der entsprechende Knoten entfernt werden.
+Einige Knoten verhindern, **[!UICONTROL Simulation]** gestartet wird. Andere führen eine Simulation mit dem unten beschriebenen Verhalten durch. Wenn ein Knoten vor der Simulation entfernt oder geändert werden muss, aktualisieren Sie zuerst die Journey.
 
 | Eingeschränkter Knoten | Anmerkungen |
 | --- | --- |
-| Geschäftsereignisse | Journey, die mit einem Geschäftsereignis beginnen, können nicht in „Simulation **[!UICONTROL ausgeführt]**. |
-| Zusätzliche ID (mehrfacher Wiedereintritt) | Der gleichzeitige erneute Eintritt (mehrere aktive Instanzen für denselben simulierten Benutzer) verhindert, dass **[!UICONTROL Simulation]** gestartet wird. |
-| Knoten für Inhaltsentscheidung | Diese Aktivität muss entfernt oder geändert werden, bevor Sie das Journey simulieren können. |
-| Datensatzsuche | Die Suche nach Kundendatensätzen anhand des Schlüssels wird nicht unterstützt. Journey, die diese Aktivität enthalten, können nicht in „Simulation **[!UICONTROL ausgeführt]**. |
-| **[!UICONTROL Optimieren]** Aktivität | Die folgenden **[!UICONTROL Optimieren]**-Methoden werden in **[!UICONTROL Simulation]** nicht unterstützt: **[!UICONTROL Experiment]**, **[!UICONTROL Targeting-Regel]**, **[!UICONTROL Prozentuale Aufspaltung]**, **[!UICONTROL Zeitbedingung]**, **[!UICONTROL Bedingung]**, **[!UICONTROL Datumsbedingung]**, **[!UICONTROL Profilbegrenzung]** und **[!UICONTROL External Data Source]**. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren. |
-| Anreicherung externer Zielgruppenattribute | Journey, die personalisierte Attribute aus externen Zielgruppenquellen verwenden, beginnen nicht in **[!UICONTROL Simulation]**, wenn diese Validierung aktiv ist. |
+| Geschäftsereignisse | Sie können keine Journey ausführen, die mit einem Geschäftsereignis in **[!UICONTROL Simulation]** beginnen. |
+| Zusätzliche ID (mehrfacher Wiedereintritt) | **[!UICONTROL Simulation]** startet nicht, wenn mehrere erneute Zugriffe aktiviert sind und derselbe simulierte Benutzer mehrere aktive Instanzen gleichzeitig haben könnte. |
+| Knoten für Inhaltsentscheidung | Entfernen oder ändern Sie diese Aktivität, bevor Sie das Journey simulieren. |
+| Datensatzsuche | **[!UICONTROL Simulation]** unterstützt keine Suche nach Kundendatensätzen anhand von Schlüsseln. Entfernen oder ändern Sie diese Aktivität, bevor Sie eine Simulation ausführen. |
+| **[!UICONTROL Optimieren]** Aktivität | **[!UICONTROL Experiment]** und **[!UICONTROL Targeting-Regel]** werden nicht unterstützt. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren.<br><br>Andere **[!UICONTROL Optimieren]**-Methoden verhalten sich wie folgt:<br><br>**[!UICONTROL Prozentuale Aufspaltung &#x200B;]**: Journey Agent erstellt pro Verzweigung einen simulierten Benutzer und nicht gemäß den Prozentsätzen der Verzweigung. Zur Laufzeit wählt die Live-Auswertung die Verzweigung aus und sie kann sich vom generierten Pfad unterscheiden. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt.<br><br>**[!UICONTROL Zeitbedingung]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise können Benutzer bei einem Fenster von 8 :00 20 :00 nur durchlaufen, während die Simulation in diesem Fenster ausgeführt wird. Sie können die Ausführungszeit nicht verspotten. Stellen Sie die Bedingung so ein, dass sie mit der aktuellen Zeit beim Testen übereinstimmt.<br><br>**[!UICONTROL Date condition &#x200B;]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise ermöglicht ein Datum vom 8. Juni 2026 Benutzenden nur die Durchführung von Simulationen, die an diesem Datum ausgeführt werden. Sie können das Ausführungsdatum nicht nachahmen. Legen Sie die Bedingung beim Testen auf das aktuelle Datum fest.<br><br>**[!UICONTROL Profilbegrenzung]**: Begrenzungen werden während der Simulation nicht erzwungen. Journey Agent erstellt pro Verzweigung einen simulierten Benutzer. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt. |
+| Verzweigungen für Zeitüberschreitung und Fehler | Journey Agent generiert keine Benutzenden für Aktivitäts-Timeout oder Fehler-Verzweigungen. Benutzende geben diese Pfade nur ein, wenn während der Simulation eine echte Zeitüberschreitung oder ein Fehler auftritt. |
+| Verzweigung für maximale Wartezeit (Ereignisaktivitäten) | Es werden simulierte Benutzende erstellt, aber bei **[!UICONTROL Manuellen Simulation]** entscheidet die Journey Agent nicht, wer in eine Verzweigung für die maximale Wartezeit für Ereignisse eintritt. Steuern Sie den Pfad, indem Sie das Ereignis senden oder nicht. Um beispielsweise eine Verzweigung für die maximale Wartezeit zu testen, warten Sie die konfigurierte maximale Wartezeit und senden Sie das Ereignis nicht. **[!UICONTROL Schnellsimulation]** kann Ereignisse automatisch senden oder zurückhalten, um Zeitüberschreitungszweige abzudecken. |
+| Reaktionsereignisse | Reaktionsereignisse werden in der Simulation ausgeführt, aber die Aktion muss im wirklichen Leben geschehen. Beispiel: Für eine E-Mail-**Öffnen**-Reaktion muss die Korrekturabzugsnachricht geöffnet werden. Sie können Reaktionen in der Simulations-Benutzeroberfläche nicht nachahmen. |
+| Externe Datenquellen | Aufrufe werden während der Simulation auf die gleiche Weise wie bei einer Live-Journey ausgeführt. Nachgelagerte Aktivitäten können die Antwort verwenden, sie jedoch nicht verspotten. Wenn ein Antwortwert eine **[!UICONTROL Optimieren]**-Aktivität einspeist, kann der Journey Agent diese Ausgabe nicht erfinden. Es werden nur Eingaben für den Aufruf generiert. Wenn ein Aufruf beispielsweise eine Profilstadt annimmt und Wetter zurückgibt, legt der Agent eine Stadt für den simulierten Benutzer fest und der Live-Aufruf gibt das Wetter zurück. |
+| Benutzerdefinierte Aktionen | Das Verhalten entspricht externen Datenquellen. Ausgehende Anrufe werden real ausgeführt. Der Journey Agent füllt die Eingaben aus. Die Ergebnisse stammen aus der Live-Antwort. Antworten dürfen nicht verspottet werden. |
+| Anreicherung externer Zielgruppenattribute | Journey, die personalisierte Attribute aus externen Zielgruppenquellen verwenden, beginnen nicht in **[!UICONTROL Simulation]**, wenn diese Validierung gilt. |
 
 +++
 
@@ -105,19 +124,17 @@ Die folgenden Funktionen werden in „Simulation **[!UICONTROL nicht]**.
 | Funktion | Anmerkungen |
 | --- | --- |
 | Ausstiegskriterien | Beim Ausführen von „Simulation“ werden **[!UICONTROL Beendigungskriterien]**. |
-| [!DNL Adobe Journey Optimizer] von Entscheidungen innerhalb einer Aktion (z. B. E-Mail-Inhalt mit Adobe Journey Optimizer Decisioning) | Es werden keine Aktions-Korrekturabzüge für Inhalte generiert, die [!DNL Adobe Journey Optimizer] Decisioning verwenden. |
+| [!DNL Adobe Journey Optimizer] von Entscheidungen innerhalb einer Aktion, z. B. E-Mail-Inhalt mit Adobe Journey Optimizer Decisioning | Es werden keine Aktions-Korrekturabzüge für Inhalte generiert, die [!DNL Adobe Journey Optimizer] Decisioning verwenden. |
 | Pseudo-Antwort für benutzerdefinierte Aktionen | [!UICONTROL Benutzerdefinierte Aktionen] führen standardmäßig einen echten ausgehenden Aufruf aus. Das Mocking der Antwort, sodass kein externer Aufruf ausgeführt wird, wird nicht unterstützt. |
-| Auswertung der Einverständnisrichtlinie | Das Einverständnis kann nicht auf der Ebene des simulierten Benutzers verspottet werden. |
-| Journey-Begrenzung und Schlichtung | Nicht unterstützt in **[!UICONTROL Simulation]**. |
-| Frequenzlimitierung (nach Kanal oder Kommunikationstyp) | Nicht unterstützt in **[!UICONTROL Simulation]**. |
-| Opt-out-Verwaltung, Unterdrückung und Zulassungslisten | Folgt der Messaging-Routing-Konfiguration, wo sie gilt. |
-| Dynamische Subdomain und dynamische Attribute in Kanalkonfigurationen | Folgt der Messaging-Routing-Konfiguration, wo sie gilt. |
-| Sendezeitoptimierung (STO) | Nicht unterstützt in **[!UICONTROL Simulation]**. |
+| Auswertung der Einverständnisrichtlinie | Das Einverständnis kann nicht auf der Ebene des simulierten Benutzers verspottet werden, und die Einverständnisrichtlinien werden während der Simulation nicht ausgewertet. |
+| Journey-Begrenzung und Schlichtung | Während der Simulation weder ausgewertet noch durchgesetzt. |
+| Frequenzlimitierung (nach Kanal oder Kommunikationstyp) | Während der Simulation weder ausgewertet noch durchgesetzt. |
+| Opt-out-Verwaltung, Unterdrückung und Zulassungslisten | Wird während der Simulation weder ausgewertet noch angewendet. |
+| Dynamische Subdomain und dynamische Attribute in Kanalkonfigurationen | Nicht unterstützt. |
+| Sendezeitoptimierung (STO) | Wird während der Simulation weder ausgewertet noch angewendet. |
 | Sandbox-Tools (simulierte Benutzer in Sandboxes kopieren) | Nicht unterstützt. |
 | Senden von Schüben in Journey | Nicht unterstützt. |
-| Ruhezeiten | Nicht unterstützt. |
-| Opt-out-Verwaltung, Unterdrückung und Zulassungslisten | Nicht unterstützt. |
-| Dynamische Subdomain und dynamische Attribute in Kanalkonfigurationen | Nicht unterstützt. |
+| Ruhezeiten | Wird während der Simulation weder ausgewertet noch angewendet. |
 | Privacy Service | Simulierte Benutzer sind nicht mit der DSGVO konform und haben keine persistenten Profile. Schließen Sie keine echten Kundendaten in simulierte Benutzende ein. |
 
 +++
@@ -126,11 +143,12 @@ Die folgenden Funktionen werden in „Simulation **[!UICONTROL nicht]**.
 
 +++ Quantitative Schutzmaßnahmen 
 
-Diese Schutzmaßnahmen gelten für **[!UICONTROL Simulation]**. Numerische Begrenzungen werden in der Journey-Oberfläche und zur Laufzeit erzwungen. Die Grenzwerte können sich in einer späteren Version ändern. Wenn Sie in der Nähe einer Decke ausgeführt werden, überprüfen Sie das Verhalten in Ihrer Sandbox.
+Diese Schutzmaßnahmen gelten für **[!UICONTROL Simulation]**. Numerische Begrenzungen werden in der Journey-Oberfläche und zur Laufzeit erzwungen. Die Beschränkungen können sich in einer späteren Version ändern. Wenn Sie in der Nähe einer Decke laufen, überprüfen Sie das Verhalten in Ihrer Sandbox.
 
 | Leitplanke | Limit | Anmerkungen |
 | --- | --- | --- |
-| Maximal simulierte Benutzende, die in einem Batch ausgewählt und ausgelöst werden können (Batch-Journey, ereignisgesteuerte Flüsse und Zielgruppen-Qualifizierungs-Flüsse) | 20 | Wird für jedes **[!UICONTROL Alle senden]** oder **[!UICONTROL vom Trigger ausgewählte]** gezählt; keine kumulative Begrenzung für die gesamte Journey. |
+| Maximal simulierte Benutzende, die in einem Batch ausgewählt und ausgelöst werden können (Batch-Journey, ereignisgesteuerte Flüsse und Zielgruppen-Qualifizierungs-Flüsse) | 20 | Wird für jedes **[!UICONTROL Alle senden]** oder **[!UICONTROL vom Trigger ausgewählte]** gezählt, keine kumulative Begrenzung für die gesamte Journey. |
+| Maximale Anzahl simulierter Benutzer pro Generierungsanfrage | 50 | Maximale Anzahl simulierter Benutzer, die Journey Agent in einer Anfrage durch **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Generieren mit KI]** in **[!UICONTROL Manuelle Simulation]** generiert Wenn die Journey mehr als **50 Pfade**, wählt die Journey Agent nach dem Zufallsprinzip Pfade aus, um diese **50** simulierten Benutzenden zu erzeugen. |
 | Maximale Anzahl an eindeutigen simulierten Benutzern, die in einem einzigen Simulationslauf getestet werden | 100 | Erreichen von **100** eindeutigen Benutzern in einem Ausführungsblock **[!UICONTROL Wählen Sie simulierte]** aus) für neue simulierte Benutzer. Wenn Sie bei **90** sind, können Sie vor demselben Block höchstens **10** mehr hinzufügen. |
 | Maximale Anzahl von Journey, die gleichzeitig in **[!UICONTROL Simulation]** in einer Sandbox ausgeführt werden können | 20 | Die Begrenzung wird von jeder **[!UICONTROL Simulation]**-Journey in dieser Sandbox gleichzeitig verwendet. |
 | Maximale Anzahl aktiver simulierter Benutzer in einer Sandbox | 2,000 | Maximale Anzahl an simulierten Benutzern, die gleichzeitig in der Sandbox vorhanden sein können. Adobe kann diese Grenze auf der Grundlage von Kunden-Feedback anpassen. |
