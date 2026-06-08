@@ -5,18 +5,14 @@ title: Verwenden der Aktivität „Datei laden“
 description: Erfahren Sie, wie Sie mit der Aktivität „Datei laden“ eine orchestrierte Kampagnenzielgruppe aus einer CSV- oder TXT-Datei ansprechen können, ohne die Datei in Adobe Experience Platform aufzunehmen
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Aktivität „Datei laden“"
->abstract="Die Aktivität **Datei laden** ist eine Aktivität **Daten-Management** . Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei auf der orchestrierten Kampagnen-Arbeitsfläche gespeichert sind, und um die Kampagnen-Audience zu definieren. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten."
+>abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei auf der Arbeitsfläche für orchestrierte Kampagnen gespeichert sind, und um die Kampagnenzielgruppe zu definieren. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz persistiert."
 
-Die Aktivität **[!UICONTROL Datei laden]** ist eine Aktivität **[!UICONTROL Daten-Management]** . Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Es unterstützt **dateibasiertes Targeting** in orchestrierten Kampagnen, wenn Ihre Empfängerliste von einem externen System stammt (z. B. einem CRM-Export oder einer Partnerdatei) und Sie eine Kampagne ausführen möchten, ohne zuvor eine vollständige Adobe Experience Platform-Aufnahme-Pipeline zu erstellen.
+Die Aktivität **[!UICONTROL Datei laden]** ist eine **[!UICONTROL Daten-Management]**-Aktivität. Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Es unterstützt **dateibasiertes Targeting** in orchestrierten Kampagnen, wenn Ihre Empfängerliste von einem externen System stammt (z. B. einem CRM-Export oder einer Partnerdatei) und Sie eine Kampagne ausführen möchten, ohne zuvor eine vollständige Adobe Experience Platform-Aufnahme-Pipeline zu erstellen.
 
 >[!AVAILABILITY]
 >
