@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 3%
 
 ---
@@ -47,10 +47,6 @@ Die für die Simulation ausgewählten simulierten Benutzer werden im Abschnitt *
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch.png)
 
-Für Journey mit einer **[!UICONTROL Zielgruppe lesen]** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
-
-![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-14.png)
-
 +++
 
 +++ Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen
@@ -60,10 +56,6 @@ Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereigni
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-2.png)
 
-Mit **Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
-
-![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/simulate-12.png)
-
 +++
 
 +++ Unitäres Journey
@@ -72,10 +64,6 @@ Die Journey beginnt mit einem unitären Ereignis, nicht mit der Aktivität „Zi
 Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereignisse werden in den Abschnitten **Testbenutzende** und **Testereignisse** angezeigt. Der Abschnitt **Testbenutzer** enthält keine Aktion zum Trigger eines simulierten Benutzers auf die Journey. Trigger-Eintrag von **Testereignisse**.
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-3.png)
-
-Mit **Unitäres Journey** greifen Sie direkt auf das Menü Manuelle Simulation zu.
-
-![Simulationsfeld für eine unitäre Journey](assets/simulate-13.png)
 
 +++
 
