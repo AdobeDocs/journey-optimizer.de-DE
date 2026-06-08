@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
-ht-degree: 14%
+source-wordcount: 920
+ht-degree: 13%
 
 ---
 
@@ -90,21 +90,23 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 * **Sequenzielle Herausforderungen**: Kunden führen Aufgaben in einer definierten Reihenfolge aus. Verwenden Sie diesen Typ, um Kunden durch einen bestimmten Journey- oder Onboarding-Prozess zu führen.\
   *Beispiel: „New Member Journey&quot; - Melden Sie sich für E-Mails an → tätigen Sie Ihren ersten Kauf → schreiben Sie eine Produktbewertung → Empfehlen Sie einem Freund (in dieser exakten Bestellung vollständig)*
 
-* **Bringen Sie Ihre eigenen Datenherausforderungen** (eingeschränkte Verfügbarkeit): Das Challenge-Framework (Aufgaben und Belohnungen) wird aus Ihrer Datenintegration für die Treueprogramm-Herausforderungen zusammengestellt. Sie konfigurieren Inhalt, Messaging und Zielgruppe so, wie Sie es für jeden anderen Herausforderungstyp tun würden.
+* **Bringen Sie Ihre eigenen Datenherausforderungen** (eingeschränkte Verfügbarkeit): Das Challenge-Framework (Aufgaben und Belohnungen) wird aus Ihrer Datenintegration für die Treueprogramm-Herausforderungen zusammengestellt. Sie konfigurieren Einstellungen, Inhalte und Nachrichten wie für jeden anderen Herausforderungstyp.
+
+* **Wiederholbare Herausforderungen**: Konfigurieren Sie, wie oft Mitglieder dieselbe Herausforderung bewältigen und wieder Belohnungen sammeln können. [Erfahren Sie mehr über Wiederholungsbeschränkungen](create-challenges.md#repeat-limits)
 
 ## Funktionsweise {#how-it-works}
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
+1. **Challenge erstellen** - Wählen Sie den Challenge-Typ aus (Standard, Streak, Sequenziell oder bringen Sie Ihre eigenen Daten mit, falls verfügbar). [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
 
-1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben oder benutzerdefiniertes Ereignis), Mengen, Produktfiltern und Belohnungen.
+1. **Einstellungen konfigurieren** - Definieren Sie auf der Registerkarte „Einstellungen“ Challenge-Details, Zielgruppe, Zeitplan, Regeln (Opt-in, Fortschrittsverfolgung, Wiederholungsbeschränkungen) und optionale Metadaten. [Erfahren Sie mehr über Challenge-Einstellungen](create-challenges.md#settings).
 
-1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
+1. **Aufgaben und Belohnungen hinzufügen** - Definieren Sie auf der Registerkarte Struktur Aufgaben und Belohnungen (nicht erforderlich, um Ihre eigenen Datenherausforderungen zu stellen).
+
+1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden.
 
 1. **Messaging konfigurieren** (optional) - Richten Sie Multi-Channel-Nachrichten (In-App, E-Mail, Push) für die wichtigsten Lebenszyklusphasen ein: Start, in Bearbeitung und Abschluss.
-
-1. **Ziel-Audience auswählen** - Definieren Sie, welche Kunden an Ihrer Challenge teilnehmen können, indem Sie eine Audience aus Adobe Experience Platform auswählen.
 
 1. **Challenge starten** - Veröffentlichen Sie die Challenge und generieren Sie dann eine Journey. Journey Optimizer erstellt automatisch die Journey für Ihre Challenge. Veröffentlichen Sie die automatisch generierte Journey, um die Challenge für Kunden verfügbar zu machen.
 

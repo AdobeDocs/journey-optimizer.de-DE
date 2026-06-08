@@ -11,12 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
-Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung für das Treueprogramm behandelt, von der Auswahl des Challenge-Typs und der Konfiguration der Eigenschaften bis hin zur Erstellung und Veröffentlichung der Journey, die die Herausforderung an Ihre Kunden richtet.
+Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung für das Treueprogramm behandelt, von der Auswahl des Challenge-Typs und der Konfiguration von Einstellungen, Struktur, Inhalten und Messaging bis hin zur Erstellung und Veröffentlichung der Journey, die die Herausforderung für Ihre Kunden darstellt.
 
 ## Herausforderung erstellen {#create-the-challenge}
 
@@ -79,58 +77,104 @@ Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung f
    * **[!UICONTROL Sequenziell]**: Kunden führen Aufgaben in einer definierten Reihenfolge aus\
      *Beispiel: → erwerben → überprüfen (muss in dieser Reihenfolge ausgefüllt werden)*
 
-   * **[!UICONTROL Eigene Daten einbringen]**: Wählen Sie **[!UICONTROL Eigene Daten einbringen]**, wenn Sie möchten, dass das Challenge-Framework, z. B. Aufgaben und Belohnungen, aus Ihrer Loyalty Challenges-Datenintegration zusammengestellt wird. Wenn dieser Typ ausgewählt ist, müssen Sie die Challenge-Struktur nicht konfigurieren. Sie konfigurieren nur **[!UICONTROL Content]**, **[!UICONTROL Messaging]** und **[!UICONTROL Audience]** wie andere Challenges.
+   * **[!UICONTROL Eigene Daten einbringen]**: Wählen Sie **[!UICONTROL Eigene Daten einbringen]**, wenn Sie möchten, dass das Challenge-Framework, z. B. Aufgaben und Belohnungen, aus Ihrer Loyalty Challenges-Datenintegration zusammengestellt wird. Wenn dieser Typ ausgewählt ist **[!UICONTROL ist]** Registerkarte „Struktur“ schreibgeschützt. Konfigurieren Sie **[!UICONTROL Einstellungen]**, **[!UICONTROL Inhalt]** und **[!UICONTROL Messaging]** auf dieselbe Weise wie andere Herausforderungstypen.
 
      >[!AVAILABILITY]
      >
      >Der Challenge **[!UICONTROL Typ „Eigene Daten]**&quot; steht derzeit einer begrenzten Anzahl von Organisationen zur Verfügung und wird in einer zukünftigen Version breiter verfügbar gemacht.
 
-   Nach Auswahl eines Challenge-Typs wird die Benutzeroberfläche zur Challenge-Erstellung mit mehreren Konfigurations-Registerkarten geöffnet. Beginnen Sie bei allen Typen außer **[!UICONTROL Eigene Daten einbringen]** mit der Konfiguration der Challenge-Struktur.
+   Nach Auswahl eines Challenge-Typs wird der Challenge-Editor mit den folgenden Registerkarten geöffnet **[!UICONTROL „Einstellungen]**, **[!UICONTROL Struktur]**, **[!UICONTROL Inhalt]** und **[!UICONTROL Messaging]**. Beginnen Sie mit **[!UICONTROL Einstellungen]** um Challenge-Details, Audience, Zeitplan und Regeln zu definieren. Konfigurieren Sie dann **[!UICONTROL Struktur]** (Aufgaben und Belohnungen) für alle Typen außer **[!UICONTROL Eigene Daten einbringen]**.
 
-## Konfiguration der Challenge-Struktur {#structure}
+## Konfigurieren der Challenge-Einstellungen {#settings}
 
-Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“, wie Ihre Herausforderung organisiert ist: Eigenschaften, Zeitplan, abzuschließende Aufgaben und Belohnungen.
+Konfigurieren Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ Eigenschaften auf Challenge-Ebene: Wer kann teilnehmen, wann die Challenge ausgeführt wird, wie sich Mitglieder anmelden und Fortschritte erzielen, sowie optionale Metadaten.
 
-### Definieren der Challenge-Eigenschaften und Verwenden benutzerdefinierter Metadaten {#properties}
+### Challenge-Details {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="Challenge-Eigenschaften"
->abstract="Legen Sie im Bereich „Challenge-Eigenschaften“ den Namen und die Beschreibung der Challenge fest und fügen Sie benutzerdefinierte Schlüssel/Wert-Metadaten für das Tracking oder externe Integrationen hinzu."
+>title="Challenge-Details"
+>abstract="Legen Sie den Namen und die Beschreibung der Herausforderung fest. Die Challenge-ID wird beim Erstellen der Challenge automatisch zugewiesen und kann für die API- oder Integrationsverwendung kopiert werden."
 
-1. Definieren Sie **[!UICONTROL Bereich &quot;]**&quot; globale Einstellungen für die Herausforderung:
+1. Definieren **[!UICONTROL im Abschnitt]** Challenge-Details“ Folgendes:
 
    * **[!UICONTROL Name]**: Geben Sie einen beschreibenden Namen für Ihre Challenge ein. Dieser Name wird im Challenges-Inventar angezeigt.
+   * **[!UICONTROL Challenge ID]**: Eine eindeutige Kennung, die zugewiesen wird, wenn die Challenge erstellt wird. Verwenden Sie das Kopiersteuerelement, um auf diese ID in APIs oder externen Systemen zu verweisen.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung ein, die den Zweck und die Ziele der Herausforderung erklärt.
 
-1. Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Metadaten]**, um benutzerdefinierte Metadaten mithilfe von Schlüssel/Wert-Paaren hinzuzufügen. Diese Metadaten können für das Tracking oder die Integration mit externen Systemen verwendet werden.
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### Zielgruppe {#audience}
 
-### Planen der Challenge {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="Zielgruppe"
+>abstract="Entscheiden Sie, wer an der Challenge teilnehmen kann. Fügen Sie eine Adobe Experience Platform-Zielgruppe hinzu oder lassen Sie die Zielgruppe leer, damit alle Mitglieder des Treueprogramms berechtigt sind. Optional erfordern Sie als Voraussetzung den Abschluss anderer Challenges."
+
+Definieren Sie, wer an Ihrer Herausforderung zur Treue teilnehmen kann.
+
+1. Wählen Sie im **[!UICONTROL Audience]** die Option **[!UICONTROL Audience hinzufügen]** aus, um die Challenge auf eine bestimmte Adobe Experience Platform-Audience zu beschränken. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
+
+   ![](assets/challenge-create-audience.png)
+
+1. Wählen Sie unter **[!UICONTROL Challenge-Voraussetzungen]** die Option **[!UICONTROL Challenge-Abschluss erforderlich]** aus, um die Berechtigung auf Mitglieder zu beschränken, die bereits eine oder mehrere ausgewählte Challenges abgeschlossen haben.
+
+### Zeitplan {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Challenge-Zeitplan"
->abstract="Verwenden Sie den Zeitplan, um festzulegen, wann die Challenge live ist: Legen Sie das Startdatum und die Startzeit fest, wann die Challenge für Kundinnen und Kunden verfügbar sein wird, sowie das Enddatum und die Endzeit, wann keine Abschlüsse mehr angenommen werden. Wählen Sie eine Zeitzone aus und wählen Sie im Abschnitt **[!UICONTROL Fenster zum Abschluss von Aufgaben]** aus, wann Kundinnen und Kunden Aufgaben abschließen können."
+>abstract="Legen Sie den Zeitpunkt der Herausforderung mit dem Start- und Enddatum und der Uhrzeit sowie einer Zeitzone fest. Wählen Sie im Fenster „Aufgabenabschluss“, wann Kunden Aufgaben während des Challenge-Zeitraums erledigen können."
 
 Konfigurieren Sie, wann Ihre Challenge ausgeführt wird:
 
-1. Wählen Sie das Symbol **[!UICONTROL Zeitplan öffnen]** aus:
+1. Legen Sie **[!UICONTROL Abschnitt &quot;]**&quot; Folgendes fest:
+
+   * **[!UICONTROL Startdatum und -uhrzeit]**: Wenn die Challenge für Kunden verfügbar wird.
+   * **[!UICONTROL Enddatum und -uhrzeit]**: Wenn die Challenge abläuft und keine neuen Abschlüsse mehr akzeptiert.
+   * **[!UICONTROL Zeitzone]**: Die für den Zeitplan der Herausforderung verwendete Zeitzone.
 
    ![](assets/challenge-create-schedule.png)
 
-1. Konfigurieren Sie die folgenden Planungsoptionen:
+1. Wählen **[!UICONTROL im Fenster „Aufgabenabschluss]** aus, wann Kunden Aufgaben abschließen können:
 
-   * **[!UICONTROL Startdatum und -uhrzeit]**: Legen Sie fest, wann die Challenge für Kunden verfügbar sein soll.
-   * **[!UICONTROL Enddatum und -uhrzeit]**: Legt fest, wann die Challenge abläuft und keine neuen Abschlüsse mehr akzeptiert.
-   * **[!UICONTROL Zeitzone]**: Bei der Challenge wird standardmäßig die lokale Zeitzone des Empfängers verwendet.
-   * **[!UICONTROL Aufgaben müssen abgeschlossen sein]**: Wählen Sie aus, wann Kunden Aufgaben abschließen können:
+   * **[!UICONTROL Jederzeit während der Herausforderung]**: Kunden können Aufgaben jederzeit zwischen dem Start- und dem Enddatum der Herausforderung abschließen.
+   * **[!UICONTROL Während bestimmter Tageszeiten:]** Sie den Aufgabenabschluss auf bestimmte tägliche Stunden ein, indem Sie **[!UICONTROL Startzeit]** und **[!UICONTROL Endzeit“]**.
 
-      * **[!UICONTROL Jederzeit während der Herausforderung]**: Kunden können Aufgaben jederzeit zwischen dem Start- und dem Enddatum der Herausforderung abschließen.
-      * **[!UICONTROL Während bestimmter Tageszeiten:]** Sie den Aufgabenabschluss auf bestimmte tägliche Stunden ein, indem Sie die **[!UICONTROL Startzeit]** und **[!UICONTROL Endzeit“]**.
+### Regeln {#rules}
 
-Der Zeitplan für die Challenge ist jetzt konfiguriert. Fügen Sie als Nächstes die Aufgaben hinzu, die Kunden abschließen müssen.
+Konfigurieren Sie, wie Mitglieder sich anmelden, wann der Aufgabenfortschritt für die Herausforderung zählt und wie oft die Herausforderung abgeschlossen werden kann.
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL Opt-in-Trigger]**:
+
+   * **[!UICONTROL Opt-in-Methode]** Wählen Sie aus, ob Kunden der Challenge manuell oder über einen Ereignis-Trigger beitreten möchten.
+   * **[!UICONTROL Ereignis]**: Wählen Sie für das ereignisbasierte Opt-in das Ereignis aus, an dem sich Trigger anmelden. Administratoren können auf die Schaltfläche ![Zahnrad](assets/do-not-localize/settings-icon.svg) klicken, um eine Ereignisdefinition zu erstellen. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL Fortschritt verfolgen]**:
+
+   * **[!UICONTROL Verfolgung des Aufgabenfortschritts beginnt]**: Wählen Sie aus, wann Aufgabenabschlüsse auf den Challenge-Fortschritt angerechnet werden sollen. Wählen Sie beispielsweise **[!UICONTROL Wenn die Herausforderung beginnt (nach dem Opt-in)]** sodass der Fortschritt beginnt, nachdem das Mitglied sich angemeldet hat und die Herausforderung aktiv ist.
+
+     Sie können entkoppeln, wenn eine Herausforderung für Mitglieder sichtbar ist, und den Fortschritt verfolgen. Beispielsweise kann eine Challenge-Karte angezeigt werden und Opt-ins akzeptieren, bevor der Abschluss einer Aufgabe zu einem späteren Zeitpunkt auf den Fortschritt gezählt wird.
+
+   * **[!UICONTROL Start]**: Wenn Sie eine benutzerdefinierte Startoption auswählen, legen Sie das Datum und die Uhrzeit fest, zu der die Fortschrittsverfolgung beginnt.
+
+* **[!UICONTROL Wiederholungsbeschränkungen]**:
+
+   * **[!UICONTROL Herausforderung kann abgeschlossen werden]** Wählen Sie aus, ob die Herausforderung ein- oder mehrmals abgeschlossen werden kann. Beispiel: **[!UICONTROL Einmal]** oder eine definierte Anzahl von Abschlüssen.
+
+   * **[!UICONTROL Häufigkeit, mit der die Aufgabe abgeschlossen werden kann]**: Wenn die Wiederholung aktiviert ist, geben Sie an, wie oft ein Mitglied die Herausforderung abschließen kann.
+
+### Benutzerdefinierte Metadaten {#custom-metadata}
+
+Wählen Sie im Abschnitt **[!UICONTROL Benutzerdefinierte Metadaten]** die Option **[!UICONTROL Schlüssel/Wert-Paar hinzufügen]** aus, um benutzerdefinierte Metadaten hinzuzufügen. Verwenden Sie Metadaten für das Tracking oder die Integration mit externen Systemen.
+
+![](assets/challenge-create-metadata.png)
+
+## Konfiguration der Challenge-Struktur {#structure}
+
+Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“ die Aufgaben, die Kundinnen und Kunden erledigen müssen, und die Belohnungen, die sie verdienen. Diese Registerkarte wird nicht für Herausforderungen **[!UICONTROL Eigene Daten mitbringen]** verwendet.
 
 ### Aufgaben hinzufügen {#add-tasks}
 
@@ -181,7 +225,7 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
    +++
 
-1. Standardmäßig können Kunden mit standardmäßigen und sequenziellen Herausforderungen Aufgaben über mehrere Transaktionen hinweg ausführen. Wenn alle Aufgaben in einer Transaktion ausgeführt werden sollen, wählen Sie das Symbol **[!UICONTROL Einstellungen]** und aktivieren Sie die folgende Option.
+1. Standardmäßig können Kunden mit standardmäßigen und sequenziellen Herausforderungen Aufgaben über mehrere Transaktionen hinweg ausführen. Um alle Aufgaben in einer Transaktion auszuführen, öffnen Sie das Menü Aufgabenoptionen und aktivieren Sie die Option Einzeltransaktion .
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Cha
 
 In diesen Abschnitten erfahren Sie, wie Sie Nachrichten für bestimmte Kanäle erstellen: [In-App-Nachrichten](../in-app/get-started-in-app.md) - [E-Mail-Nachrichten](../email/get-started-email.md) - [Push-Benachrichtigungen](../push/get-started-push.md)
 
-Legen Sie nach Abschluss der Messaging-Konfiguration fest, welche Kunden für die Teilnahme an der Challenge infrage kommen.
-
-## Auswählen der Zielgruppe für die Challenge {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="Zielgruppe"
->abstract="Wählen Sie auf der Registerkarte „Zielgruppe“ aus den verfügbaren Adobe Experience Platform-Zielgruppen aus, wer an der Challenge teilnehmen kann."
-
-Definieren Sie, welche Kundinnen und Kunden an Ihrer Herausforderung der Treue teilnehmen können.
-
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Audience]** und klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
-
-   ![](assets/challenge-create-audience.png)
-
-1. Wählen Sie im Dialogfeld für die Zielgruppenauswahl Ihre Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen und wählen Sie **[!UICONTROL Zielgruppe hinzufügen]**. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
-
-Ihre Challenge ist jetzt mit Struktur, Inhalt, Messaging und Zielgruppe vollständig konfiguriert. Um ihn zu starten, müssen Sie die Challenge und die zugehörige Journey veröffentlichen.
+Ihre Challenge ist jetzt mit den Einstellungen, der Struktur, dem Inhalt und dem Messaging vollständig konfiguriert. Um ihn zu starten, müssen Sie die Challenge und die zugehörige Journey veröffentlichen.
 
 ## Challenge starten {#launch}
 
