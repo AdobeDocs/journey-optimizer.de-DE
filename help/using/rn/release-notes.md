@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: 2564
 ht-degree: 21%
 
 ---
@@ -383,7 +383,7 @@ Die folgenden Verbesserungen wurden in dieser Version zum WhatsApp-Kanal hinzuge
 
 * **Unterstützung und Tracking von WhatsApp-Schaltflächen** - WhatsApp-Vorlagen unterstützen jetzt **Schnellantwort**, **Call to action - URL** und **Call to action - Telefon**, **Code kopieren** wird nicht unterstützt. Journey Optimizer sendet unterstützte Schaltflächen und verfolgt Interaktionen zusammen mit Ihren anderen Kanalberichten.
 
-* **WhatsApp-Kanal-Kontextdaten** - Journey Optimizer erfasst jetzt zusätzliche Interaktionsdaten, die vom WhatsApp-Kanal zurückgegeben werden, und speichert sie im **AJO EmailTrackingExperienceEvent-** unter der `whatsAppChannelContext`.
+* **WhatsApp-Kanal-Kontextdaten** - Journey Optimizer erfasst jetzt zusätzliche Interaktionsdaten, die vom WhatsApp-Kanal zurückgegeben werden, und speichert sie im **AJO EmailTrackingExperienceEvent-** unter der `whatsAppChannelContext`. [Weitere Informationen](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
 
   +++ Die folgenden Felder werden erfasst und können verwendet werden, um Zielgruppen zu erstellen und die WhatsApp-Interaktion zu analysieren
 
