@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
 source-wordcount: 1703
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -165,18 +165,18 @@ Gehen Sie dazu wie folgt vor:
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
->title="Legacy-Fragment"
+>title="Veraltetes Fragment"
 >abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Dies bedeutet, dass Sie nur Text eingeben können, wenn Sie dieses Fragment in E-Mails bearbeiten. Rich-Text wie fett, kursiv, Hyperlinks und Zeilenumbrüche werden nicht unterstützt. Klicken Sie <b>Wechseln zum HTML-Modus</b>, um Rich-Text in bearbeitbaren Feldern zu aktivieren, wenn Sie das Fragment in einer E-Mail verwenden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
->title="Legacy-Fragment"
+>title="Veraltetes Fragment"
 >abstract="Dieses bearbeitbare Feld befindet sich im schreibgeschützten Modus. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>In den HTML-Modus wechseln</b>, um die Rich-Text-Bearbeitung zu aktivieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
->title="Legacy-Fragment"
+>title="Veraltetes Fragment"
 >abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Öffnen Sie dazu den Fragment-Editor und klicken Sie auf <b>In den HTML-Modus wechseln</b>."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 

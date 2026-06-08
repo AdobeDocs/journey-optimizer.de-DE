@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Aktivität „Datei laden“"
->abstract="Die Aktivität **Datei laden** ist eine Aktivität **Targeting**. Verwenden Sie diese Option, um eine CSV- oder TXT-Datei auf die orchestrierte Kampagnen-Arbeitsfläche hochzuladen und als Kampagnen-Audience zu verwenden. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Zeilen werden mithilfe einer Identitätsspalte und einer Zielgruppendimension mit vorhandenen Empfängern abgeglichen."
+>abstract="Die Aktivität **Datei laden** ist eine Aktivität zur **Zielgruppenbestimmung**. Verwenden Sie sie, um eine CSV- oder TXT-Datei auf die Arbeitsfläche für orchestrierte Kampagnen hochzuladen und als Kampagnenzielgruppe zu verwenden. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz persistiert. Zeilen werden anhand einer Identitätsspalte und einer Zielgruppendimension mit vorhandenen Empfängerinnen und Empfängern abgeglichen."

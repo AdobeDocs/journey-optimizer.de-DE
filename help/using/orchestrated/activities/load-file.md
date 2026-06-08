@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Aktivität „Datei laden“"
->abstract="Die Aktivität **Datei laden** ist eine Aktivität **Daten-Management** . Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei auf der orchestrierten Kampagnen-Arbeitsfläche gespeichert sind, und um die Kampagnen-Audience zu definieren. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten."
+>abstract="Die Aktivität **Datei laden** ist eine **Daten-Management**-Aktivität. Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei auf der Arbeitsfläche für orchestrierte Kampagnen gespeichert sind, und um die Kampagnenzielgruppe zu definieren. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz persistiert."
 
-Die Aktivität **[!UICONTROL Datei laden]** ist eine Aktivität **[!UICONTROL Daten-Management]** . Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Es unterstützt **dateibasiertes Targeting** in orchestrierten Kampagnen, wenn Ihre Empfängerliste von einem externen System stammt (z. B. einem CRM-Export oder einer Partnerdatei) und Sie eine Kampagne ausführen möchten, ohne zuvor eine vollständige Adobe Experience Platform-Aufnahme-Pipeline zu erstellen.
+Die Aktivität **[!UICONTROL Datei laden]** ist eine **[!UICONTROL Daten-Management]**-Aktivität. Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Es unterstützt **dateibasiertes Targeting** in orchestrierten Kampagnen, wenn Ihre Empfängerliste von einem externen System stammt (z. B. einem CRM-Export oder einer Partnerdatei) und Sie eine Kampagne ausführen möchten, ohne zuvor eine vollständige Adobe Experience Platform-Aufnahme-Pipeline zu erstellen.
 
 >[!AVAILABILITY]
 >

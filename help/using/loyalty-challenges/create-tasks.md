@@ -15,8 +15,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 11%
+source-wordcount: 1130
+ht-degree: 12%
 
 ---
 
@@ -67,7 +67,7 @@ Jede Aufgabe stellt eine messbare Aktion dar, die zum Abschluss der Herausforder
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Erstellen einer Aufgabe"
->abstract="Wählen Sie eine Kundenaktivität aus (Kauf, Ausgaben oder benutzerspezifisches Ereignis) und konfigurieren Sie dann aktivitätsspezifische Attribute. Legen Sie im Bereich „Eigenschaften“ den Namen und die Beschreibung der Aufgabe fest."
+>abstract="Wählen Sie eine Kundenaktivität aus (Kauf-, Ausgaben- oder benutzerspezifisches Ereignis) und konfigurieren Sie dann aktivitätsspezifische Attribute. Legen Sie im Bereich „Eigenschaften“ den Namen und die Beschreibung der Aufgabe fest."
 
 Sie können Aufgaben aus zwei Einstiegspunkten erstellen. Der Konfigurationsprozess ist unabhängig davon, wo Sie beginnen, identisch.
 
