@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 97a1387dbac4443f3c9bb0fb21334a8071505961
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 1841
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
    Adobe Journey Optimizer generiert aus der Journey-Definition eine Reihe simulierter Benutzender.
 
-   Bei Journey mit einem E-Mail- oder SMS-Knoten fordert Sie die KI auf, die zu verwendende E-Mail-Adresse oder Telefonnummer zu bestätigen. Die simulierten Benutzer werden anhand dieser definierten Werte generiert. Klicken Sie abschließend auf **[!UICONTROL Generieren]**.
+   Bei Journey mit einem E-Mail-, Push- oder SMS-Knoten fordert Sie die KI auf, die zu verwendende E-Mail-Adresse oder Telefonnummer zu bestätigen. Die simulierten Benutzer werden anhand dieser definierten Werte generiert. Klicken Sie abschließend auf **[!UICONTROL Generieren]**.
 
    ![Dialogfeld „Simulierte Benutzer generieren“ mit den Feldern „Ausführungs-E-Mail“ und „Telefonnummer“ und „Generieren“](assets/simulate-generate.png)
 
