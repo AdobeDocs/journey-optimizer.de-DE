@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 3%
 
 ---
@@ -47,10 +47,6 @@ Die für die Simulation ausgewählten simulierten Benutzer werden im Abschnitt *
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch.png)
 
-Für Journey mit einer **[!UICONTROL Zielgruppe lesen]** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
-
-![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-14.png)
-
 +++
 
 +++ Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen
@@ -60,10 +56,6 @@ Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereigni
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-2.png)
 
-Mit **Batch-Journey mit einer gelesenen Zielgruppe und unitären Ereignissen** können Sie auf **[!UICONTROL Schnellsimulation]** oder **[!UICONTROL Manuelle Simulation]** zugreifen.
-
-![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/simulate-12.png)
-
 +++
 
 +++ Unitäres Journey
@@ -72,10 +64,6 @@ Die Journey beginnt mit einem unitären Ereignis, nicht mit der Aktivität „Zi
 Für die Simulation ausgewählte simulierte Benutzende und konfigurierte Ereignisse werden in den Abschnitten **Testbenutzende** und **Testereignisse** angezeigt. Der Abschnitt **Testbenutzer** enthält keine Aktion zum Trigger eines simulierten Benutzers auf die Journey. Trigger-Eintrag von **Testereignisse**.
 
 ![Simulationsbereich für eine Batch-Journey mit schreibgeschützter Zielgruppe](assets/simulate-batch-3.png)
-
-Mit **Unitäres Journey** greifen Sie direkt auf das Menü Manuelle Simulation zu.
-
-![Simulationsfeld für eine unitäre Journey](assets/simulate-13.png)
 
 +++
 
@@ -105,7 +93,7 @@ Einige Knoten verhindern, **[!UICONTROL Simulation]** gestartet wird. Andere fü
 | Zusätzliche ID (mehrfacher Wiedereintritt) | **[!UICONTROL Simulation]** startet nicht, wenn mehrere erneute Zugriffe aktiviert sind und derselbe simulierte Benutzer mehrere aktive Instanzen gleichzeitig haben könnte. |
 | Knoten für Inhaltsentscheidung | Entfernen oder ändern Sie diese Aktivität, bevor Sie das Journey simulieren. |
 | Datensatzsuche | **[!UICONTROL Simulation]** unterstützt keine Suche nach Kundendatensätzen anhand von Schlüsseln. Entfernen oder ändern Sie diese Aktivität, bevor Sie eine Simulation ausführen. |
-| **[!UICONTROL Optimieren]** Aktivität | **[!UICONTROL Experiment]** und **[!UICONTROL Targeting-Regel]** werden nicht unterstützt. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren.<br><br>Andere **[!UICONTROL Optimieren]**-Methoden verhalten sich wie folgt:<br><br>**[!UICONTROL Prozentuale Aufspaltung &#x200B;]**: Journey Agent erstellt pro Verzweigung einen simulierten Benutzer und nicht gemäß den Prozentsätzen der Verzweigung. Zur Laufzeit wählt die Live-Auswertung die Verzweigung aus und sie kann sich vom generierten Pfad unterscheiden. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt.<br><br>**[!UICONTROL Zeitbedingung]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise können Benutzer bei einem Fenster von 8 :00 20 :00 nur durchlaufen, während die Simulation in diesem Fenster ausgeführt wird. Sie können die Ausführungszeit nicht verspotten. Stellen Sie die Bedingung so ein, dass sie mit der aktuellen Zeit beim Testen übereinstimmt.<br><br>**[!UICONTROL Date condition &#x200B;]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise ermöglicht ein Datum vom 8. Juni 2026 Benutzenden nur die Durchführung von Simulationen, die an diesem Datum ausgeführt werden. Sie können das Ausführungsdatum nicht nachahmen. Legen Sie die Bedingung beim Testen auf das aktuelle Datum fest.<br><br>**[!UICONTROL Profilbegrenzung]**: Begrenzungen werden während der Simulation nicht erzwungen. Journey Agent erstellt pro Verzweigung einen simulierten Benutzer. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt. |
+| **[!UICONTROL Optimieren]** Aktivität | **[!UICONTROL Experiment]** und **[!UICONTROL Targeting-Regel]** werden nicht unterstützt. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren.<br><br>Andere **[!UICONTROL Optimieren]**-Methoden verhalten sich wie folgt:<br><br>**[!UICONTROL Prozentuale Aufspaltung ]**: Journey Agent erstellt pro Verzweigung einen simulierten Benutzer und nicht gemäß den Prozentsätzen der Verzweigung. Zur Laufzeit wählt die Live-Auswertung die Verzweigung aus und sie kann sich vom generierten Pfad unterscheiden. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt.<br><br>**[!UICONTROL Zeitbedingung]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise können Benutzer bei einem Fenster von 8 :00 20 :00 nur durchlaufen, während die Simulation in diesem Fenster ausgeführt wird. Sie können die Ausführungszeit nicht verspotten. Stellen Sie die Bedingung so ein, dass sie mit der aktuellen Zeit beim Testen übereinstimmt.<br><br>**[!UICONTROL Date condition ]**: Bedingungen gelten zur Laufzeit wie auf einer Live-Journey. Beispielsweise ermöglicht ein Datum vom 8. Juni 2026 Benutzenden nur die Durchführung von Simulationen, die an diesem Datum ausgeführt werden. Sie können das Ausführungsdatum nicht nachahmen. Legen Sie die Bedingung beim Testen auf das aktuelle Datum fest.<br><br>**[!UICONTROL Profilbegrenzung]**: Begrenzungen werden während der Simulation nicht erzwungen. Journey Agent erstellt pro Verzweigung einen simulierten Benutzer. Sie können eine Verzweigungsauswahl nicht verspotten. Um Benutzer zu steuern, verlassen Sie sich auf der Arbeitsfläche auf die Reihenfolge der Verzweigungen. Die oberste Verzweigung wird immer ausgewählt. |
 | Verzweigungen für Zeitüberschreitung und Fehler | Journey Agent generiert keine Benutzenden für Aktivitäts-Timeout oder Fehler-Verzweigungen. Benutzende geben diese Pfade nur ein, wenn während der Simulation eine echte Zeitüberschreitung oder ein Fehler auftritt. |
 | Verzweigung für maximale Wartezeit (Ereignisaktivitäten) | Es werden simulierte Benutzende erstellt, aber bei **[!UICONTROL Manuellen Simulation]** entscheidet die Journey Agent nicht, wer in eine Verzweigung für die maximale Wartezeit für Ereignisse eintritt. Steuern Sie den Pfad, indem Sie das Ereignis senden oder nicht. Um beispielsweise eine Verzweigung für die maximale Wartezeit zu testen, warten Sie die konfigurierte maximale Wartezeit und senden Sie das Ereignis nicht. **[!UICONTROL Schnellsimulation]** kann Ereignisse automatisch senden oder zurückhalten, um Zeitüberschreitungszweige abzudecken. |
 | Reaktionsereignisse | Reaktionsereignisse werden in der Simulation ausgeführt, aber die Aktion muss im wirklichen Leben geschehen. Beispiel: Für eine E-Mail-**Öffnen**-Reaktion muss die Korrekturabzugsnachricht geöffnet werden. Sie können Reaktionen in der Simulations-Benutzeroberfläche nicht nachahmen. |
