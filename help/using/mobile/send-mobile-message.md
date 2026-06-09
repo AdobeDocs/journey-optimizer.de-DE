@@ -9,27 +9,16 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 TQID: https://experienceleague.adobe.com/JPjBxyZzo13tgSLo0dqd5bFOwn9C6MHkA-DjLzlAdEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c41e8697-e629-4c38-96b3-564faaa17acfid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 63%
+source-wordcount: 534
+ht-degree: 54%
 
 ---
 
@@ -37,9 +26,10 @@ ht-degree: 63%
 
 ## Mobile-Nachricht in der Vorschau anzeigen {#preview-sms}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten (aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt) eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+Sobald der Nachrichteninhalt definiert wurde, können Sie den Inhalt mit einer der beiden Simulationsmethoden in der Vorschau anzeigen:
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +37,7 @@ Detaillierte Informationen zur Vorschau und zum Test des Inhalts finden Sie im A
 
 ### Zeichenkodierung und Beschränkungen {#sms-character-limits}
 
-Beim Zugriff auf das Menü **[!UICONTROL Inhalt simulieren]** wird eine Zeichenanzahl angezeigt, um die Planung und Verwaltung Ihrer Mobile-Nachrichten zu unterstützen.
+Beim Zugriff auf eine der Simulationsmethoden über „Inhalt simulieren **[!UICONTROL wird eine]** angezeigt, um die Planung und Verwaltung Ihrer Nachrichten auf Mobilgeräten zu erleichtern.
 
 ![](assets/sms_preview_3.png)
 
@@ -93,5 +83,5 @@ Wenn Ihre Mobile-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../build
 
 * [Konfigurieren des SMS-Kanals](mobile-configuration.md)
 * [SMS-/RCS-/MMS-Berichte](../reports/journey-global-report-cja-sms.md)
-* [Erstellen einer Mobile-Nachricht](create-mobile-message.md)
+* [Erstellen einer Mobilnachricht](create-mobile-message.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journey-action.md)

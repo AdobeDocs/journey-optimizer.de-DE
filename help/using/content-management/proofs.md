@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 98%
+source-wordcount: 479
+ht-degree: 89%
 
 ---
 
@@ -19,9 +18,10 @@ ht-degree: 98%
 
 Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Zielgruppe gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 
->[!NOTE]
->
->Mit [!DNL Journey Optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+Testsendungen können mit beiden Simulationsmethoden durchgeführt werden:
+
+* Klicken Sie **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um einen Testversand mit Testprofilen durchzuführen.
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Testsendungen für Inhaltsvarianten durchzuführen, die mit Beispieleingabedaten oder einer automatischen KI-Generierung erstellt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md#proofs)
 
 ## Wichtige Informationen {#must-read}
 

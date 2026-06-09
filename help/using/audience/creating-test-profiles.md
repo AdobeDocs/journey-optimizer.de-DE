@@ -9,24 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 TQID: https://experienceleague.adobe.com/kqNGPnCDU-yeMvOX-L55POHs1-vmQCEcq4Psky8wSfs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1360
-ht-degree: 83%
+source-wordcount: 1264
+ht-degree: 78%
 
 ---
 
@@ -36,7 +28,7 @@ Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../buil
 
 >[!NOTE]
 >
->Mit [!DNL Journey Optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer] bietet zwei Möglichkeiten zur Simulation von Inhalten: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 
 Sie können Testprofile erstellen, indem Sie [eine CSV-Datei hochladen](#create-test-profiles-csv) oder [API-Aufrufe](#create-test-profiles-api) verwenden. [!DNL Adobe Journey Optimizer] bietet außerdem einen speziellen [produktinternen Anwendungsfall](#use-case-1), um die Erstellung von Testprofilen zu ermöglichen.
 
@@ -63,9 +55,9 @@ Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
    ![Auswahl eines Schematyps mit der Option „Individuelles Profil“](assets/test-profiles-1.png)
 1. Geben Sie einen Namen für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![Dialogfeld zum Benennen und Speichern eines Schemas](assets/test-profiles-1-bis.png)
-1. Klicken Sie links im Bereich **Feldergruppen** auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldergruppe **[!UICONTROL Profiltestdetails]** hinzufügen.
-   ![Abschnitt „Feldergruppen“ mit der Schaltfläche „Hinzufügen“](assets/test-profiles-1-ter.png)
-Klicken Sie abschließend **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste der Feldergruppen wird im Bildschirm „Schemaübersicht“ angezeigt.
+1. Klicken **im Abschnitt** auf der linken Seite auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die **[!UICONTROL Profil-Testdetails]** hinzufügen.
+   ![Abschnitt „Feldergruppen“ mit Schaltfläche „Hinzufügen“](assets/test-profiles-1-ter.png)
+Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste der Feldergruppen wird im Bildschirm der Schemaübersicht angezeigt.
    ![Schemaübersicht mit der Liste der Feldergruppen](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -74,7 +66,7 @@ Klicken Sie abschließend **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste 
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![Liste der Schemafelder zur Auswahl der primären Identität](assets/test-profiles-3.png)
-1. Markieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Übernehmen]**.
+1. Markieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]** aus. Klicken Sie **[!UICONTROL Apply]**.
    ![Panel „Feldeigenschaften“ mit den Optionen „Identität“ und „Primäre Identität“](assets/test-profiles-4bis.png)
 1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** im Bereich **[!UICONTROL Schemaeigenschaften]**.
    ![Bereich „Schemaeigenschaften“ mit aktivierter Option „Profil“](assets/test-profiles-5.png)
@@ -193,13 +185,13 @@ In [!DNL Adobe Experience Platform] können Sie Profile erstellen, indem Sie ein
    ![Menü „Workflows“ in Adobe Experience Platform](assets/test-profiles-14.png)
 1. Wählen Sie **[!UICONTROL CSV-Datei einem XDM-Schema zuordnen]** und klicken Sie dann auf **Starten**.
    ![Workflow-Option „CSV-Datei einem XDM-Schema zuordnen“](assets/test-profiles-16.png)
-1. Wählen Sie den Datensatz aus, in den Sie die Profile importieren möchten. Klicken Sie auf **Weiter**.
+1. Wählen Sie den Datensatz aus, in den Sie die Profile importieren möchten. Klicken Sie **Weiter**.
    ![Bildschirm zur Datensatzauswahl für den CSV-Import](assets/test-profiles-17.png)
-1. Klicken Sie auf **Datei auswählen** und wählen Sie Ihre CSV-Datei aus. Klicken Sie nach dem Hochladen der Datei auf **Weiter**.
+1. Klicken Sie **Dateien auswählen** und wählen Sie Ihre CSV-Datei aus. Klicken Sie beim Hochladen der Datei auf **Weiter**.
    ![Bildschirm „Datei hochladen“ mit der Schaltfläche „Dateien auswählen“](assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **Beenden**.
    ![CSV-Feldzuordnungsoberfläche mit Quell- und Zielfeldern](assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitung läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
+1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitung** zu **Erfolg**. Klicken Sie **oben** auf „Datensatz in der Vorschau anzeigen“.
    ![Importstatus zeigt Erfolg an mit der Schaltfläche „Datensatz in der Vorschau ansehen“](assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![Datensatzvorschau mit importierten Testprofilen](assets/test-profiles-21.png)

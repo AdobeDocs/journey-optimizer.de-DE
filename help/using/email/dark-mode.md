@@ -10,26 +10,16 @@ level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 98%
+source-wordcount: 1553
+ht-degree: 95%
 
 ---
 
@@ -227,11 +217,11 @@ Gehen Sie wie folgt vor, um die Einstellungen für den benutzerdefinierten dunkl
    >
    >Die Live-Ansicht ist eine allgemeine Vorschau, die vergleicht, wie das Rendering über verschiedene Gerätegrößen hinweg aussehen könnte. Das endgültige Rendering kann je nach E-Mail-Client der Empfängerinnen und Empfänger variieren.
 
-1. Wenn Sie mit den Änderungen für den dunklen Modus zufrieden sind, klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
+1. Wenn Sie mit den Änderungen für den Dunkelmodus zufrieden sind, klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um das E-Mail-Rendering zu überprüfen.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Wählen Sie **[!UICONTROL E-Mail rendern]** und verbinden Sie sich mit Ihrem Litmus-Konto. Sie können das endgültige Rendering des dunklen Modus für verschiedene E-Mail-Clients sehen. Erfahren Sie mehr zum [E-Mail-Rendering](../content-management/rendering.md).
+1. Wählen Sie **[!UICONTROL E-Mail rendern]** und verbinden Sie sich mit Ihrem Litmus-Konto. Sie können das endgültige Rendering des dunklen Modus für verschiedene E-Mail-Clients sehen. Erfahren Sie mehr zum [E-Mail-Rendering](../content-management/rendering.md). Um Inhaltsvarianten stattdessen mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, klicken Sie auf **[!UICONTROL Inhalt simulieren]** direkt. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

@@ -10,23 +10,16 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 TQID: https://experienceleague.adobe.com/j9jmVxc9Pn53hghR-2sUGXjcczfQibs5XTGuD7gwiI4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: e51e8901-97d9-4f7d-a835-503025a90e32
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 655
-ht-degree: 100%
+source-wordcount: 686
+ht-degree: 93%
 
 ---
 
@@ -56,7 +49,7 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Sobald Ihr Inhalt fertig ist, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** eine Vorschau der verschiedenen Varianten anzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../content-management/preview-test.md)
+1. Sobald Ihr Inhalt fertig ist, können Sie verschiedene Varianten mit einer der Simulationsmethoden in der Vorschau anzeigen: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 
