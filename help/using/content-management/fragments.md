@@ -9,28 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 TQID: https://experienceleague.adobe.com/2XVXr3MjYnD-7o0C2ARXQ8j3sJOFfJfvjfCEZdkV50I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 97%
+source-wordcount: 382
+ht-degree: 88%
 
 ---
 
@@ -52,6 +40,15 @@ So nutzen Sie Fragmente am besten:
 
 * **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](create-fragments.md). Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Wiederverwenden eigener Fragmente:** Diese können beliebig oft in Ihren Inhalten verwendet werden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+
+
+>[!NOTE]
+>
+>Die **[!UICONTROL Fragmente]** die auf dieser Seite beschrieben werden, sind wiederverwendbare **Inhalts** Komponenten. Sie unterscheiden sich von:
+>
+>* **[Journey-Fragmente](../building-journeys/journey-fragments.md)** - wiederverwendbare Sets von Journey-Knoten, die in Journey eingefügt wurden.
+>* **[AEM-Inhaltsfragmente](../integrations/aem-fragments.md)** - Inhalte, die in Adobe Experience Manager verfasst und in [!DNL Journey Optimizer] verwendet werden.
+
 
 ## Bevor Sie beginnen {#fragment-prerequisites}
 
@@ -79,8 +76,8 @@ Alle Fragmente sind links über das Menü **[!UICONTROL Content-Management]** > 
 
 Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451191/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438927/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
