@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 41%
+source-wordcount: 854
+ht-degree: 36%
 
 ---
 
@@ -46,6 +46,12 @@ Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich Communication- (RCS) u
 In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-/RCS-/MMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abonnement einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
 
 ## Mobile-Nachricht hinzufügen {#create-sms-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_sms"
+>title="Aktion für Mobilnachrichten"
+>abstract="Eine Mobile-Nachrichten-Kanalaktion sendet eine Text- (SMS), Multimedia- (MMS) oder Rich-Communication- (RCS) Nachricht an Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Mobile-Nachrichtenkonfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Mobile-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
 

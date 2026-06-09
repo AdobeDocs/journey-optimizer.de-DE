@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 58%
+source-wordcount: 1908
+ht-degree: 56%
 
 ---
 
@@ -199,7 +199,10 @@ Einen detaillierten Überblick über die Verwendung des Personalisierungseditors
 
 ### Überprüfen und Testen der Inhalte {#simulate-content-test-profiles}
 
-Sobald der Inhalt erstellt ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
+Sobald der Inhalt erstellt wurde, können Sie ihn mit einer der beiden Simulationsmethoden in der Vorschau anzeigen und testen:
+
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau anzuzeigen und Ihren Inhalt mit Testprofilen zu testen. [Weitere Informationen](../../content-management/preview-test.md)
 
 ![Bild, das die Schaltfläche „Inhalte simulieren“ zeigt](../assets/channel-simulate.png)
 

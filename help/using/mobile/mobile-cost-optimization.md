@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
-ht-degree: 100%
+source-wordcount: 545
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Vermeiden Sie den Einsatz von Rich-Text-Anwendungen, da es hier verborgene Zeich
 
 ## Prüfen der Zeichenanzahl vor dem Senden {#check-character-count}
 
-Verwenden Sie Nur-Text-Anwendungen oder das Journey Optimizer-Menü **[!UICONTROL Inhalt simulieren]**, um die Zeichenanzahl zu prüfen.
+Verwenden Sie Klartext-Anwendungen oder eine der Simulationsmethoden in **[!UICONTROL Inhalt simulieren]** um die Zeichenanzahl zu überprüfen.
 
 Journey Optimizer zeigt bei der Inhaltssimulation zwar eine Zeichenanzahl einschließlich Leerzeichen an, doch Sie sollten Folgendes beachten:
 
@@ -91,6 +91,6 @@ Journey Optimizer zeigt bei der Inhaltssimulation zwar eine Zeichenanzahl einsch
 
 Dynamische Personalisierung kann die Länge einer Nachricht erhöhen. Wenn Sie beispielsweise eine Variable durch einen langen Vornamen ersetzen, werden ggf. weitere Zeichen hinzugefügt.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 Weitere Informationen zu unterstützten Zeichen und Kodierungsregeln finden Sie im [Handbuch zur Unterstützung von Zeichen in Sinch](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)

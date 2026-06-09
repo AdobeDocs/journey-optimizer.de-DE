@@ -18,10 +18,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
-ht-degree: 43%
+source-wordcount: 1599
+ht-degree: 42%
 
 ---
 
@@ -76,7 +76,7 @@ Das Symbol **[!UICONTROL Warnhinweise]**/**[!UICONTROL Warnung]** in der Symboll
 
 Außerdem können Sie fehlgeschlagene Aktivitäten schnell mithilfe der [visuellen Statusindikatoren](#activities) erkennen, die direkt auf jeder Aktivität angezeigt werden. Eine ausführliche Fehlerbehebung finden Sie in den [Kampagnenprotokollen](#logs-tasks), die detaillierte Informationen zum Fehler und seinem Kontext enthalten.
 
-Wenn Sie Kanalaktivitäten in der Arbeitsfläche hinzugefügt haben, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** den Inhalt Ihrer Nachrichten in der Vorschau anzeigen und testen. [Erfahren Sie, wie Sie mit Kanalaktivitäten arbeiten und Inhalte simulieren](activities/channels.md#simulate-content-test-profiles).
+Wenn Sie Kanalaktivitäten in der Arbeitsfläche hinzugefügt haben, können Sie den Inhalt Ihrer Nachrichten in der Vorschau anzeigen und testen. [Erfahren Sie, wie Sie mit Kanalaktivitäten arbeiten und Inhalte simulieren](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

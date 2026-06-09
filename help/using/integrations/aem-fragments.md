@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 21%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 21%
 Die vorhandenen **Asset** und **Inhaltsfragment-Selektor** Erlebnisse in Adobe Journey Optimizer-Workflows werden durch &quot;**&quot;**. Content Advisor bietet eine KI-gestützte, einheitliche Oberfläche zur Erkennung und Auswahl von Assets, Inhaltsfragmenten und Dynamic Media direkt in Ihren AJO-Authoring-Workflows. Bestehende Integrationen funktionieren während der Übergangszeit weiterhin.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**AEM-Inhaltsfragmente** werden in Adobe Experience Manager verfasst und in [!DNL Journey Optimizer] verwendet. Sie unterscheiden sich von:
+>
+>* **[Fragments](../content-management/fragments.md)** - wiederverwendbare Inhaltskomponenten, die in [!DNL Journey Optimizer] erstellt und in E-Mails in Kampagnen und Journey verwendet werden.
+>* **[Journey-Fragmente](../building-journeys/journey-fragments.md)** - wiederverwendbare Sets von Journey-Knoten, die in Journey eingefügt wurden.
 
 Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt diesem Datenfluss:
 

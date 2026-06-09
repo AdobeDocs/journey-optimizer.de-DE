@@ -2,12 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Simulieren von Inhaltsvarianten
-description: Erfahren Sie, wie Sie mithilfe von Beispieleingabedaten aus einer CSV- oder JSON-Datei oder mit manuell hinzugefügten Beispieleingabedaten eine Vorschau der Inhalte anzeigen und den E-Mail-Testversand durchführen.
+description: Erfahren Sie, wie Sie mit dem Erlebnis Inhaltsvarianten simulieren eine Vorschau von Inhaltsvarianten anzeigen, Varianten mit KI automatisch generieren, Testprofile verwalten und Testsendungen durchführen können.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+hide: true
+exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
@@ -24,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 86%
+source-wordcount: 1362
+ht-degree: 36%
 
 ---
 
@@ -36,11 +37,20 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulationen mit Beispieleingaben"
->abstract="Auf diesem Bildschirm können verschiedene Varianten der Inhalte getest werden, indem  Werte für Personalisierungsfelder über eine CSV- oder JSON-Vorlage bereitgestellt oder die Werte manuell eingegeben werden."
+>abstract="Auf diesem Bildschirm können Sie Inhaltsvarianten testen, indem Sie sie automatisch mit KI generieren, Werte über eine CSV- oder JSON-Vorlage hinzufügen, manuell eingeben oder Testprofile verwenden."
 
-[!DNL Journey Optimizer] können Sie verschiedene Varianten Ihres Inhalts anhand von Beispieleingabedaten in der Vorschau anzeigen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden.
+Wenn Ihr Inhalt Personalisierung oder bedingte Logik enthält, müssen Sie überprüfen, ob er für jeden Empfängertyp korrekt gerendert wird, bevor Sie ihn senden.
 
-Alle Attribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden. Eine Variante bezieht sich auf eine Version des Inhalts mit unterschiedlichen Werten für die zugehörigen Attribute.
+Das Erlebnis **[!UICONTROL Inhaltsvarianten simulieren]** in [!DNL Journey Optimizer] löst dies, indem Sie mehrere Varianten Ihres Inhalts von einem einzigen Bildschirm aus testen können, automatisch mit KI generiert, manuell eingegeben, aus einer Datei importiert oder auf der Grundlage wiederverwendbarer simulierter Benutzer. Sie können eine Vorschau davon anzeigen, wie jede Variante gerendert wird, und einen Testversand durchführen, ohne zuvor persistente Profile in Adobe Experience Platform zu erstellen.
+
+Klicken Sie in Ihrem Inhalt auf **[!UICONTROL Inhalt simulieren]**, um ein einzelnes Erlebnis zu öffnen, in dem Sie:
+
+* **Varianten automatisch generieren** mithilfe von KI Personalisierungs- und bedingte Verzweigungen abdecken
+* **Varianten manuell hinzufügen** oder aus einer CSV- oder JSON-Datei
+* **Verwenden von simulierten Benutzern** um eine Vorschau anzuzeigen und einen Testversand mit gespeicherten, wiederverwendbaren Testdaten durchzuführen
+* **Vorschau** Rendering und **E-Mail-Testversand durchführen** für ausgewählte Varianten
+
+Alle Attribute, die in Ihrem Inhalt für die Personalisierung verwendet werden, werden automatisch erkannt. Eine Variante ist eine Version des Inhalts mit unterschiedlichen Werten für die Attribute.
 
 >[!NOTE]
 >
@@ -53,7 +63,8 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 * **Kanäle**: Eine Simulation von Inhaltsvarianten ist verfügbar für:
 
    * die Kanäle E-Mail, SMS und Push-Benachrichtigungen;
-   * alle Inbound-Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten).
+   * alle eingehenden Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten);
+   * Orchestrierte Kampagnen.
 
 * **Unterstützte Funktionen**: Inhaltsvarianten können mit [!DNL Journey Optimizer]-Funktionen für mehrsprachige Inhalte und Inhaltsexperimente verwendet werden. Auf diese Weise können Sie Nachrichten in mehreren Sprachen testen und den Inhalt durch Experimentieren optimieren.
 
@@ -67,51 +78,51 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
 * **Datentypen** - Bei der Eingabe von Daten für Varianten werden nur die folgenden Datentypen unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenfolge, Boolescher Wert und Datentyp. Bei allen anderen Datentypen wird eine Fehlermeldung angezeigt.
 
-* **Variantenanzahl**: Sie können bis zu 30 Varianten entweder mithilfe einer Datei oder manuell hinzufügen, um Ihre Inhalte zu testen.
+* **Anzahl der Varianten** - Sie können bis zu 30 Varianten hinzufügen, um Ihren Inhalt zu testen, wenn Sie sie mithilfe einer Datei oder manuell hinzufügen. Bei Verwendung der automatischen Generierung von KI bestimmt das System, wie viele Varianten basierend auf Ihrem Inhalt (Personalisierungsfelder und bedingte Verzweigungen) erstellt werden sollen, bis zu maximal 40 Varianten.
 
-## Hinzufügen und Vorschau von Inhaltsvarianten
+## Inhaltsvarianten erstellen
 
-Um Varianten für Ihren Inhalt zu erstellen und eine Vorschau davon anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
+Um Varianten für Ihren Inhalt zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-![Schaltfläche „Inhalte simulieren“](assets/simulate-sample.png)
+Sie können Varianten wie folgt erstellen:
 
-Die wichtigsten Schritte zum Testen Ihrer Inhalte sind:
+* [Varianten manuell oder aus einer Datei &#x200B;](#profiles).
+* [Varianten automatisch generieren](#auto-generate-variants) mit KI.
+* [Auswahl von Varianten aus vorhandenen simulierten Benutzern](#simulated-users).
 
-1. **Varianten hinzufügen**: Fügen Sie bis zu 30 Varianten mit Beispieleingabedaten hinzu, entweder durch Hochladen einer Datei oder durch manuelles Hinzufügen von Daten. [Informationen zum Hinzufügen von Varianten](#profiles)
-1. **Vorschau von Inhaltsvarianten**: Überprüfen Sie die Vorschau Ihres Inhalts mit den verschiedenen Varianten. [Informationen zur Vorschau von Inhalten](#preview)
-1. **E-Mail-Testsendungen durchführen**: Senden Sie für E-Mail-Inhalte bis zu 10 Testsendungen an E-Mail-Adressen unter Verwendung der verschiedenen Varianten. [Informationen zum Durchführen eines Testversands](#proofs)
+Sobald Ihre Varianten erstellt sind, können Sie [Vorschau Ihres Inhalts anzeigen und Testsendungen durchführen](#preview-proofs).
 
-### Hinzufügen von Varianten {#profiles}
+### Varianten manuell oder aus einer Datei hinzufügen {#profiles}
 
-Beim Zugriff auf das Erlebnis mit den Inhaltsvarianten werden alle in Ihren Inhalten verwendeten Personalisierungsfelder automatisch erkannt und in einer Liste leerer Varianten angezeigt.
+Beim Zugriff auf das Erlebnis „Inhaltsvarianten“ werden alle in Ihren Inhalten verwendeten Personalisierungsfelder automatisch erkannt und in einer leeren Variante angezeigt.
 
-Wenn Ihre E-Mail beispielsweise die beiden Personalisierungsfelder „Stadt“ und „Guthaben an Programmpunkten“ enthält, werden diese in der Liste angezeigt. Zunächst werden keine Werte eingegeben und im Vorschaufenster wird kein personalisierter Inhalt angezeigt.
+Wenn Ihre E-Mail beispielsweise zwei Personalisierungsfelder „Vorname“ und „Stadt“ enthält, werden diese in der Liste angezeigt. Zunächst werden keine Werte eingegeben und im Vorschaufenster wird kein personalisierter Inhalt angezeigt.
 
 ![Liste der Eingabevarianten](assets/simulate-custom-variants-list.png)
 
-So bearbeiten Sie den Wert einer Variante:
+Sie können Varianten manuell hinzufügen oder aus einer Datei hochladen.
 
-1. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben der Variante.
-1. Wählen Sie **[!UICONTROL Bearbeiten]** aus, um benutzerdefinierte Werte für jedes Personalisierungsfeld anzugeben.
-1. Der Vorschaubereich wird aktualisiert und zeigt an, wie Ihr Inhalt mit den eingegebenen Werten gerendert wird.
++++ Varianten manuell hinzufügen
 
-So fügen Sie eine neue Variante hinzu:
+Um den Wert der Standardvariante zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**, um benutzerdefinierte Werte für jedes Personalisierungsfeld anzugeben. Der Vorschaubereich wird aktualisiert und zeigt an, wie Ihr Inhalt mit den eingegebenen Werten gerendert wird.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Beispieleingabe erstellen]**.
-1. Es wird eine neue leere Variante angezeigt, die alle erkannten Personalisierungsfelder enthält.
-1. Bearbeiten Sie die neue Variante nach Bedarf.
+Um eine neue Variante hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Beispiel erstellen]**. Es wird eine neue leere Variante angezeigt, die alle erkannten Personalisierungsfelder enthält. Sie können die neue Variante nach Bedarf bearbeiten.
 
 ![Beispiel-Eingabeschaltfläche erstellen](assets/simulate-custom-add.png)
 
-Sie können auch eine Datei mit vordefinierten Varianten und Werten hochladen, um den Vorgang zu beschleunigen.
++++
 
-1. Klicken Sie auf **[!UICONTROL Beispiel herunterladen]**, um eine Dateivorlage herunterzuladen.
-1. Wählen Sie ein Dateiformat aus: CSV, JSON oder JSONLINES.
++++ Hinzufügen von Varianten aus einer Datei
+
+Sie können eine Datei mit vordefinierten Varianten und Werten hochladen, um den Prozess zu beschleunigen.
+
+1. Klicken Sie auf die **[!UICONTROL Daten hochladen]**, um den Bildschirm „Datei-Upload“ zu öffnen.
+1. Wählen Sie **[!UICONTROL Beispiel herunterladen]**, um eine CSV-, JSON- oder JSONLINES-Dateivorlage herunterzuladen.
 1. Öffnen Sie die Vorlagendatei und geben Sie die gewünschten Werte für jedes Profilattribut ein. Die Vorlage enthält eine Spalte für jedes Profilattribut, das in Ihrem Inhalt zur Personalisierung verwendet wird.
 
    Beispiel für JSON-Syntax:
 
-   ```
+   ```json
    {
    "profile": {
        "attributes": {
@@ -126,22 +137,42 @@ Sie können auch eine Datei mit vordefinierten Varianten und Werten hochladen, u
    }
    ```
 
-1. Wenn Ihre Datei fertig ist, klicken Sie auf **[!UICONTROL Eingabedaten hochladen]**, um sie zu laden.
-1. Nach dem Hochladen wird der Liste für jeden Eintrag in der Datei eine neue Variante hinzugefügt.
+1. Wenn Ihre Datei fertig ist, wählen Sie **[!UICONTROL Bestätigen]** aus, um sie zu laden. Nach dem Hochladen wird der Liste für jeden Eintrag in der Datei eine neue Variante hinzugefügt.
 
-   ![Hochgeladene Beispiel-Eingabevarianten](assets/simulate-custom-variants.png)
++++
+
+### Inhaltsvarianten automatisch generieren {#auto-generate-variants}
+
+[!DNL Journey Optimizer] können KI-basierte Simulation verwenden, um automatisch Inhaltsvarianten zu generieren, sodass Sie Ihre Personalisierungslogik validieren können, ohne Varianten von Hand zu erstellen. Das System analysiert Ihre Inhalte, identifiziert Personalisierungsfelder und bedingte Verzweigungen und erstellt so viele Varianten wie nötig, um sie mit aussagekräftigen Werten für eine nahezu realistische Vorschau abzudecken.
+
+Um Varianten automatisch zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]** und warten Sie, bis das System die Generierung abgeschlossen hat. Überprüfen Sie die generierten Varianten in der Variantenliste und ihr Rendering im Vorschaubereich.
+
+![Schaltfläche „Varianten generieren“](assets/simulate-variants-generate.png)
+
+>[!NOTE]
+>
+>Die Anzahl der erstellten Varianten hängt von Ihrem Inhalt ab. Nachrichten mit einfacher Personalisierung können eine einzelne Variante erzeugen, während Inhalte mit mehreren bedingten Verzweigungen mehrere Varianten erzeugen können. Durch Klicken **[!UICONTROL Generieren]** werden alle vorhandenen Inhaltsvarianten in der Liste, einschließlich manuell oder aus einer Datei hinzugefügter, durch die KI-generierten Varianten ersetzt.
+
+### Auswahl von Varianten aus simulierten Benutzern {#simulated-users}
+
+In **[!UICONTROL Inhaltsvarianten simulieren]** können Sie Ihre Varianten auf **simulierten Benutzern“**. Simulierte Benutzende sind temporäre, profilähnliche Entitäten, die zum Testen ohne die Verwendung persistenter Profile in Adobe Experience Platform erstellt werden. Im Gegensatz zu Varianten, die nur für die aktuelle Browser-Sitzung hinzugefügt wurden, werden simulierte Benutzende gespeichert und können in allen Journey und von anderen Benutzenden wiederverwendet werden.
+
+Die simulierten Benutzenden werden über die Journey-Funktion **[!UICONTROL Simulation]** erstellt und verwaltet. Eine vollständige Anleitung zum Erstellen, Speichern und Wiederverwenden finden Sie unter [Erstellen und Verwalten simulierter Benutzer](../building-journeys/simulate-journey.md#test-users).
+
+Nachdem die simulierten Benutzer erstellt wurden, können Sie sie zur Vorschau Ihres Inhalts verwenden. Gehen Sie dazu wie folgt vor:
+
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Varianten]**&quot;.
+1. Wählen Sie in der Liste der vorhandenen simulierten Benutzer die gewünschten Benutzer aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
+
+   ![Wählen Sie simulierte Benutzer aus, die als Inhaltsvarianten verwendet werden sollen](assets/simulate-custom-simulated.png)
+
+1. Die ausgewählten simulierten Benutzer werden Ihrer Liste der Inhaltsvarianten hinzugefügt, in der Sie eine Vorschau Ihres Inhalts mit ihren Attributwerten anzeigen können. Sie können die Werte einer Variante zum Testen auch manuell bearbeiten, aber diese Änderungen werden nicht an den simulierten Benutzer zurückgespeichert.
+
+## Vorschau von Inhalten und Durchführen von Testsendungen {#preview-proofs}
 
 Sobald Varianten hinzugefügt wurden, können Sie diese verwenden, um im rechten Bereich eine Vorschau Ihres Inhalts anzuzeigen und E-Mail-Testsendungen durchzuführen.
 
 ### Vorschau von Inhaltsvarianten {#preview}
-
-<!--
-The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
-
-![](assets/simulation-preview-redesign.png)
-
-To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
--->
 
 Um eine Vorschau Ihrer Inhalte mit einer Variante anzuzeigen, wählen Sie die entsprechende Variante aus der Liste aus, um die Inhalte im Vorschaufenster mit den für diese Variante eingegebenen Informationen zu aktualisieren.
 
@@ -151,11 +182,11 @@ Im folgenden Beispiel haben wir zwei Varianten für die E-Mail-Betreffzeile hinz
 |----------|-------------|
 | ![Auswahl Variante 1](assets/simulate-custom-boxes.png) | ![Auswahl Variante 2](assets/simulate-custom-boxes2.png) |
 
-Für mehrsprachige Inhalte und Experimente steht eine Dropdown-Liste zur Verfügung, über die zwischen den verschiedenen Sprachvarianten oder Abwandlungen gewechselt werden kann.
+<!--
+For multilingual content and experimentation, a dropdown is available to switch between the different language variants or treatments.
 
-![Sprach- oder Abwandlungsselektor](assets/simulate-custom-experiment.png)
-
-Sie können eine Variante jederzeit entfernen, indem Sie oben rechts auf die Schaltfläche mit den Auslassungspunkten klicken und **[!UICONTROL Entfernen]** auswählen. Um Informationen für eine Variante zu bearbeiten, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen **[!UICONTROL Bearbeiten]** aus.
+![Language or treatment selector](assets/simulate-custom-experiment.png)
+-->
 
 ### Durchführen von Testsendungen {#proofs}
 

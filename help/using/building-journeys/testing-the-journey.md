@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 74%
+source-wordcount: 2308
+ht-degree: 72%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Testen der Journey"
->abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
+>abstract="Mit Testprofilen können Sie Ihren Journey vor der Veröffentlichung testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Journey-Probelauf"
 
 Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. [!DNL Adobe Journey Optimizer] bietet den „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, während sie sich auf der Journey bewegen, und potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
@@ -148,7 +148,7 @@ So validieren Sie das Journey End-to-End:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Konfigurieren des Testmodus"
->abstract="Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands."
+>abstract="Wenn eine Journey mehrere Ereignisse enthält, wird ein Ereignis über die Dropdown-Liste ausgewählt. Für jedes Ereignis werden die übergebenen Felder und die Ausführung des Ereignisversands konfiguriert."
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Ereignis zu konfigurieren, das eine Person zum Eintritt in eine Journey veranlasst.
 

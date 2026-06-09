@@ -28,10 +28,10 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 94%
+source-wordcount: 1347
+ht-degree: 81%
 
 ---
 
@@ -130,9 +130,12 @@ Nachdem eine Endbenutzerin oder ein Endbenutzer eine Beschwerde generiert hat, d
 
 >[!IMPORTANT]
 >
->Nicht alle ISPs bieten eine herkömmliche FBL, z. B. Gmail. Gmail bietet kein Feedback auf individueller Ebene und kann nicht dazu verwendet werden, Spam-Beschwerden bis hin zu einzelnen Empfängerinnen oder Empfängern nachzuverfolgen, sondern konzentriert sich stattdessen auf die Berichterstellung auf aggregierter Ebene in den Google Postmaster Tools. [Weitere Informationen](https://support.google.com/a/answer/6254652?hl=de){target="_blank"}
+>Nicht alle ISPs bieten eine herkömmliche FBL, z. B. Gmail. Gmail bietet kein Feedback auf individueller Ebene und kann nicht dazu verwendet werden, Spam-Beschwerden bis hin zu einzelnen Empfängerinnen oder Empfängern nachzuverfolgen, sondern konzentriert sich stattdessen auf die Berichterstellung auf aggregierter Ebene in den Google Postmaster Tools. [Weitere Informationen](#providers-no-fbl)
+
 
 Alle Adobe-Kundinnen und -Kunden werden automatisch in die herkömmlichen FBLs der folgenden ISPs eingeschrieben:
+
++++ ISPs, die ein herkömmliches FBL bereitstellen
 
 * 1&amp;1
 
@@ -190,7 +193,21 @@ Alle Adobe-Kundinnen und -Kunden werden automatisch in die herkömmlichen FBLs d
 
 * Ziggo
 
-Adobe überprüft diese FBLs regelmäßig, um sicherzustellen, dass die neuesten verfügbaren FBLs hinzugefügt werden.
++++
+
+Adobe führt regelmäßige Audits durch, um sicherzustellen, dass die neuesten verfügbaren FBLs hinzugefügt werden.
+
+### Anbieter ohne FBL pro Empfänger {#providers-no-fbl}
+
+Nicht alle ISPs bieten ein traditionelles FBL. Mehrere große Postfachanbieter geben keine Spam-Beschwerden pro Empfänger zurück. Das bedeutet, dass für Empfänger, die diese Anbieter verwenden, kein Eintrag in der Unterdrückungsliste erwartet wird.
+
+| Postfachanbieter | Pro-Empfänger-Beschwerde FBL? |
+|---|---|
+| **Gmail / Google Workspace** | Nein — aggregiertes Reporting nur über Google Postmaster-Tools (Feedback-ID; nicht pro Empfänger). [Weitere Informationen](https://support.google.com/a/answer/6254652?hl=de){target="_blank"} |
+| **Apple iCloud** (icloud.com, me.com, mac.com) | Nein — [Weitere Informationen](https://support.apple.com/en-us/102322){target="_blank"} |
+| **Corporate Microsoft 365 / Exchange Online** | Nein - Das Junk Mail Reporting Program (JMRP) deckt nur das Privatkunden-Netzwerk Outlook.com ab. Mandanten-Junk-Berichte aus Unternehmens-M365-Umgebungen werden nicht an den Absender zurückgesendet. [Weitere Informationen](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+
+Zusammen stellen diese Anbieter die Mehrheit der Posteingänge von Privatkunden und Unternehmen dar. Da keiner von ihnen Beschwerden pro Empfänger zurückgibt, wird ein Empfänger, der einen dieser Dienste verwendet und eine Nachricht als Spam markiert, **nicht** automatisch in der Unterdrückungsliste angezeigt.
 
 ## Verwenden von SMTP-Relais {#smtp-relay}
 

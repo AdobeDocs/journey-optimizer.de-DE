@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1646
-ht-degree: 89%
+source-wordcount: 1741
+ht-degree: 81%
 
 ---
 
 # Erstellen von Web-Erlebnissen {#create-web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_web"
+>title="Web-Aktion"
+>abstract="Bei einer eingehenden Aktion für ein Web-Erlebnis wird Profilen ein Web-Erlebnis angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Web-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Web-Erlebnis anzuzeigen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, das Web-Erlebnis, das Sie Ihrer Kundschaft bieten, durch eingehende Journeys oder Kampagnen zu personalisieren.
 
@@ -166,9 +172,10 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
 >title="Vorschau des Web-Erlebnisses"
 >abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
-Sobald Sie mit dem Web-Designer [das Web-Erlebnis erstellt haben](web-visual-editor.md), können Sie mithilfe der Testprofile eine Vorschau der geänderten Web-Seiten anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte angezeigt werden.
+Nachdem Sie [&#x200B; Web-Erlebnis mit &#x200B;](web-visual-editor.md) Web-Designer erstellt haben, können Sie Ihre geänderten Web-Seiten mit einer der beiden Simulationsmethoden in der Vorschau anzeigen:
 
-Klicken Sie dazu entweder im Bildschirm zur Inhaltsbearbeitung einer Journey oder einer Kampagne auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Web-Seite mithilfe der Testprofildaten zu überprüfen.
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen und ein Testprofil hinzuzufügen, um Ihre Web-Seite zu überprüfen.
 
 ![](assets/web-designer-preview.png)
 

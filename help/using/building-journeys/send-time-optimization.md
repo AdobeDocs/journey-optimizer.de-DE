@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 77%
+source-wordcount: 1624
+ht-degree: 74%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Wählen Sie mithilfe des entsprechenden Radiobuttons aus, ob E-Mail-Öffnungen oder E-Mail-Click-Throughs optimiert werden sollen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+>abstract="Ein Optionsfeld bestimmt, ob E-Mail-Öffnungen oder E-Mail-Clickthroughs optimiert werden sollen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+>abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
 
 Die Funktion zur Optimierung des Versandzeitpunkts von [!DNL Adobe Journey Optimizer] basiert auf den Journey-KI-Services von Adobe und wählt basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kunden den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion zu maximieren.
 

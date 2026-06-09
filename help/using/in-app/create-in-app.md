@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
-ht-degree: 91%
+source-wordcount: 2405
+ht-degree: 87%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 91%
 >id="ajo_campaigns_inapp_triggers"
 >title="Verwalten von In-App-Triggern"
 >abstract="Kontrollieren Sie Ihre Trigger effizient, indem Sie die spezifischen Ereignisse und Kriterien auswählen, mit denen Ihre Nachrichten aktiviert werden. Mit dem Regel-Builder können Benutzende genaue Bedingungen und Werte definieren. Wenn diese Bedingungen erfüllt sind, initiieren sie eine Reihe von Aktionen, einschließlich des Versandes von In-App-Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="In-App-Nachrichtenaktion"
+>abstract="Eine In-App-Nachricht mit einer eingehenden Aktion zeigt eine In-App-Nachricht an Profile an, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine In-App-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die In-App-Nachricht anzuzeigen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
 
@@ -126,7 +132,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 
       ![](assets/in_app_create_8.png)
 
-   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
 
       ![](assets/in_app_journey_3.png)
 
@@ -232,7 +238,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
       ![](assets/in_app_create_8.png)
 
-   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
 
 1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist. Die folgenden Optionen sind verfügbar:
 

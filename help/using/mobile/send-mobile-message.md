@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 63%
+source-wordcount: 534
+ht-degree: 54%
 
 ---
 
@@ -37,9 +37,10 @@ ht-degree: 63%
 
 ## Mobile-Nachricht in der Vorschau anzeigen {#preview-sms}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten (aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt) eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+Sobald der Nachrichteninhalt definiert wurde, können Sie den Inhalt mit einer der beiden Simulationsmethoden in der Vorschau anzeigen:
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +48,7 @@ Detaillierte Informationen zur Vorschau und zum Test des Inhalts finden Sie im A
 
 ### Zeichenkodierung und Beschränkungen {#sms-character-limits}
 
-Beim Zugriff auf das Menü **[!UICONTROL Inhalt simulieren]** wird eine Zeichenanzahl angezeigt, um die Planung und Verwaltung Ihrer Mobile-Nachrichten zu unterstützen.
+Beim Zugriff auf eine der Simulationsmethoden über „Inhalt simulieren **[!UICONTROL wird eine]** angezeigt, um die Planung und Verwaltung Ihrer Nachrichten auf Mobilgeräten zu erleichtern.
 
 ![](assets/sms_preview_3.png)
 
@@ -93,5 +94,5 @@ Wenn Ihre Mobile-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../build
 
 * [Konfigurieren des SMS-Kanals](mobile-configuration.md)
 * [SMS-/RCS-/MMS-Berichte](../reports/journey-global-report-cja-sms.md)
-* [Erstellen einer Mobile-Nachricht](create-mobile-message.md)
+* [Erstellen einer Mobilnachricht](create-mobile-message.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journey-action.md)

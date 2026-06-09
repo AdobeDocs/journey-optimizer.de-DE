@@ -8,16 +8,16 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 90%
+source-wordcount: 231
+ht-degree: 86%
 
 ---
 
 # Anzeigen des Inhalts in der Vorschau mithilfe von Testprofilen {#preview}
 
-Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie mit deren Daten eine Vorschau Ihres Inhalts anzeigen. Führen Sie folgende Schritte aus:
+Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie mit deren Daten eine Vorschau Ihres Inhalts anzeigen. Sie können beide Simulationsmethoden verwenden:
 
 1. Klicken Sie auf dem Bildschirm Inhalt bearbeiten Ihrer Nachricht oder in der E-Mail-Designer auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus.
 
@@ -46,7 +46,3 @@ Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie mit deren Date
    >Wenn in den Konfigurationsdetails ein Fehler gefunden wird, klicken Sie auf die Schaltfläche **[!UICONTROL Konfigurationsdetails anzeigen]**. [Weitere Informationen](../email/surface-personalization.md#check-configuration)
 
 Beim Erstellen Code-basierter Erlebnisse können Sie eine Vorschau Ihrer personalisierten Inhalte direkt in Ihrem Browser oder auf Ihren Mobilgeräten anzeigen, um eine authentische Simulation zu sehen. [Weitere Informationen](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->Mit [!DNL Journey optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)

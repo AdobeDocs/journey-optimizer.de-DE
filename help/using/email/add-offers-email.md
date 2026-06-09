@@ -25,10 +25,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 100%
+source-wordcount: 652
+ht-degree: 93%
 
 ---
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
    1. Wählen Sie im sich öffnenden Fenster die Platzierung aus, die den anzuzeigenden Angeboten entspricht.
 
-      [Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. ](../offers/offer-library/creating-placements.md) In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
+      [Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. &#x200B;](../offers/offer-library/creating-placements.md) In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
 
    1. Entscheidungen, die mit der ausgewählten Platzierung übereinstimmen, werden angezeigt. Wählen Sie die in der Inhaltskomponente zu verwendende Entscheidung aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
 1. Wählen Sie die Testprofile aus, die für die Angebotsvorschau verwendet werden sollen:
 
-   1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Inhalt simulieren“]** und wählen Sie dann den Namespace, der zur Identifizierung von Testprofilen verwendet werden soll, aus dem **[!UICONTROL Identity-Namespace]**-Feld aus.
+   1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus und wählen Sie den Namespace, der zur Identifizierung von Testprofilen verwendet werden soll, aus dem **[!UICONTROL Identity-Namespace]** Feld aus. Um Inhaltsvarianten stattdessen mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, klicken Sie auf **[!UICONTROL Inhalt simulieren]** direkt. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

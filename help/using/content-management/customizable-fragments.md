@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
-ht-degree: 88%
+source-wordcount: 1735
+ht-degree: 86%
 
 ---
 
@@ -221,7 +221,7 @@ Beim Hinzufügen des Fragments zu Ihrer E-Mail können Sie jetzt den von Ihnen e
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Sie können auf **[!UICONTROL Inhalte simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Informationen zur Vorschau von Inhalten](preview-test.md)
+1. Verwenden Sie eine der Simulationsmethoden, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen. [Informationen zur Vorschau von Inhalten](preview-test.md)
 
 1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus.
 

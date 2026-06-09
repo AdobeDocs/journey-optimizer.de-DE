@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1214
-ht-degree: 95%
+source-wordcount: 1191
+ht-degree: 89%
 
 ---
 
@@ -181,15 +181,12 @@ Wenn Sie eine Konfiguration mit personalisierten Einstellungen in einer Kampagne
 
 ## Überprüfen Ihrer Konfiguration {#check-configuration}
 
-Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können Sie nun eine Vorschau Ihrer E-Mail-Inhalte mithilfe von Testprofilen anzeigen, um nach potenziellen Fehlern bei den von Ihnen definierten dynamischen Einstellungen zu suchen. Gehen Sie wie folgt vor.
+Bei Verwendung einer personalisierten Konfiguration in einer Kampagne oder auf einer Journey können Sie mit den von Ihnen definierten dynamischen Einstellungen Ihren E-Mail-Inhalt in der Vorschau anzeigen, um nach potenziellen Fehlern zu suchen. Sie können beide Simulationsmethoden verwenden:
 
->[!NOTE]
->
->Zusätzlich zu Testprofilen, können Sie mit [!DNL Journey optimizer] auch verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
 
 Gehen Sie wie folgt vor, um die Vorschau von Inhalten mithilfe von Testprofilen anzuzeigen:
-
-1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**. [Weitere Informationen](../content-management/preview.md)
 
 1. Wählen Sie ein [Testprofil](../content-management/test-profiles.md) aus.
 

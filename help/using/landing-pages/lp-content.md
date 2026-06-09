@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 84%
+source-wordcount: 1630
+ht-degree: 82%
 
 ---
 
@@ -57,7 +57,7 @@ Mit dem Inhalt-Designer für Landingpages können auch kontextbezogene Daten aus
 
 >[!NOTE]
 >
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
@@ -177,7 +177,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen, z. B. die Farbe des Labels der Schaltfläche, wenn der Mauszeiger darüber bewegt wird, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
+   Sie können einige Ihrer Einstellungen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, in der Vorschau anzeigen, indem Sie eine der Simulationsmethoden verwenden. [Erfahren Sie mehr über das Testen von Landingpages](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 

@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1863
-ht-degree: 92%
+source-wordcount: 1861
+ht-degree: 90%
 
 ---
 
@@ -68,7 +68,7 @@ Sie können eine Bedingung auch auf der Zielgruppenzugehörigkeit basieren. Sieh
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Informationen zum einfachen Ausdruckseditor"
->abstract="Im einfachen Ausdruckseditor können einfache Abfragen anhand einer Kombination von Feldern durchgeführt werden. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder per Drag-and-Drop in den Hauptbereich ziehen. Um die verschiedenen Elemente zu kombinieren, diese verschachteln, um Gruppen und/oder Gruppenebenen zu erstellen. Dann einen logischen Operator zwischen Elementen desselben Niveaus definieren."
+>abstract="Im einfachen Ausdruckseditor können einfache Abfragen anhand einer Kombination von Feldern durchgeführt werden. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder werden per Drag-and-Drop in den Hauptbereich gezogen. Um die verschiedenen Elemente zu kombinieren, werden sie miteinander verkettet, um verschiedene Gruppen und/oder Gruppenebenen zu erstellen. Ein logischer Operator kombiniert dann Elemente auf derselben Ebene."
 
 Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Labels definieren, um sie leichter zu identifizieren.
 

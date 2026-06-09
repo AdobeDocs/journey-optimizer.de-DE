@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 90%
+source-wordcount: 1080
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Veröffentlichen einer Journey im Probelauf-Modus"
->abstract="Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in [!DNL Adobe Journey Optimizer], der es Journey-Nutzenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen. Nachdem die Journey entworfen wurde, kann ein Probelauf ausgeführt werden, um deren Funktionalität zu bestätigen und sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus kann eine Journey getestet werden, ohne Mitteilungen an ein Profil zu senden."
+>abstract="Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in [!DNL Adobe Journey Optimizer], der es Journey-Nutzenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen. Sobald eine Journey entworfen wurde, bestätigt ein Probelauf, dass sie funktioniert, und stellt sicher, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus kann eine Journey getestet werden, ohne Mitteilungen an ein Profil zu senden."
 
 Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in [!DNL Adobe Journey Optimizer], der es Journey-Nutzenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne dabei echte Kundschaft zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten.
 

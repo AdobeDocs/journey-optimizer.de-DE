@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 60%
+source-wordcount: 3891
+ht-degree: 56%
 
 ---
 
@@ -48,7 +48,7 @@ Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielg
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
->abstract="Fügen Sie alle qualifizierten Profile einer ausgewählten Zielgruppe von [!DNL Adobe Experience Platform] zu dieser Journey hinzu. Einmal oder nach Zeitplan ausführen."
+>abstract="Fügt alle qualifizierten Profile einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu dieser Journey hinzu. Wird einmal oder nach einem Zeitplan ausgeführt."
 
 Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, die alle Profile aus einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu einer Journey hinzufügt. Sie können den Eintritt einmal oder nach einem wiederkehrenden Zeitplan ausführen. In -APIs und technischen Referenzen wird diese Aktivität auch als segmentbasierter oder zielgruppenbasierter Journey-Trigger bezeichnet.
 
@@ -94,12 +94,12 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Zielgruppe"
->abstract="Wählen Sie die Zielgruppe von [!DNL Adobe Experience Platform] aus, deren Profile auf diese Journey zugreifen werden."
+>abstract="Die [!DNL Adobe Experience Platform] Zielgruppe, deren Profile in diese Journey eintreten. Alle qualifizierten Profile werden eingelesen. Batch-Zielgruppen werden für eine zuverlässige, konsistente Zählung empfohlen, und pro Aktivität kann nur eine Zielgruppe gelesen werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Wählen Sie aus, welche Identität (z. B. E-Mail, ECID) zur Identifizierung der Personen verwendet wird, die in die Journey eintreten. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
+>abstract="Die Identität (z. B. E-Mail, ECID), die zur Identifizierung von Personen verwendet wird, die die Journey betreten. Es sind nur personenbasierte Namespaces verfügbar, und Profile ohne diese Identität können nicht eingeben. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -177,17 +177,17 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Startdatum/Uhrzeit"
->abstract="Legen Sie fest, wann diese Journey gestartet werden soll."
+>abstract="Das Datum und die Uhrzeit, zu der die Journey mit dem Lesen der Zielgruppe beginnt und Profile eintreten. Kombinieren Sie dies mit den unten stehenden Wiederholungsoptionen, um wiederkehrende Ausführungen zu planen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Wiederholen bis"
->abstract="Definieren Sie das Enddatum für wiederkehrende Ausführungen."
+>abstract="Das Datum, an dem wiederkehrende Ausführungen beendet werden. Nach diesem Datum liest die Journey die Zielgruppe nicht mehr und nimmt keine neuen Profile mehr auf."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Wiederholen alle"
->abstract="Wie oft die Journey ausgeführt wird (z. B. täglich, wöchentlich)."
+>abstract="Wie oft die Journey die Zielgruppe erneut liest und erneut ausgeführt wird, z. B. täglich oder wöchentlich. Bestimmt das Wiederholungsintervall zwischen Ausführungen, bis das Wiederholungsdatum erreicht ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Erneuten Eintritt erzwingen"
->abstract="Löschen Sie alle Teilnehmenden aus der Journey, bevor die neuen Zielgruppen gelesen werden."
+>abstract="Löscht alle Teilnehmer vom Journey, bevor jede neue Zielgruppe gelesen wird, sodass jeder Durchgang neu gestartet wird und Profile bei jedem Vorkommen erneut eintreten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Nach Batch-Zielgruppenauswertung auslösen"
->abstract="Führen Sie die Journey erst aus, nachdem die Batch-Zielgruppe neu ausgewertet wurde."
+>abstract="Verzögert jede Ausführung, bis die Batch-Zielgruppe neu ausgewertet wurde, sodass die Journey den aktuellsten Zielgruppen-Schnappschuss und nicht veraltete Daten liest. Wird für wiederkehrende Journey empfohlen, die von den neuesten Segmentierungsergebnissen abhängen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ Wenn beispielsweise eine Journey für täglich 18 Uhr geplant ist, können Sie 
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

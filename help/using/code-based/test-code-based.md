@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 87%
+source-wordcount: 877
+ht-degree: 82%
 
 ---
 
@@ -40,9 +40,14 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie in der Journey oder Kampagne entweder im Personalisierungseditor oder im Bildschirm „Inhalt bearbeiten“ die Option **[!UICONTROL Inhalt simulieren]**.
+Verwenden Sie auf dem Journey- oder Kampagnenbearbeitungsbildschirm oder im Personalisierungseditor eine der beiden Simulationsmethoden:
 
-   ![](assets/code-based-campaign-simulate.png)
+* Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
+* Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
+
+![](assets/code-based-campaign-simulate.png)
+
+**Um eine Vorschau mit Testprofilen anzuzeigen** führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein oder mehrere Testprofile auszuwählen.
 

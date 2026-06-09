@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 98%
+source-wordcount: 743
+ht-degree: 95%
 
 ---
 
@@ -83,7 +83,7 @@ Verwenden Sie den E-Mail-Designer von [!DNL Adobe Journey Optimizer], um die Str
 
 >[!NOTE]
 >
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](accessible-content.md).
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](accessible-content.md).
 
 Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
@@ -142,7 +142,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
    >
    >Nach dem Wechsel zum Code-Editor können Sie für diese E-Mail nicht mehr zum visuellen Designer zurückkehren.
 
-1. Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
+1. Sobald Ihr Inhalt fertig ist, verwenden Sie eine der Simulationsmethoden, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. Detaillierte Informationen finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md) .
 
    ![](assets/email_designer_simulate_content.png)
 
