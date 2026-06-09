@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 9%
 
 ---
@@ -55,7 +52,7 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 
 >[!NOTE]
 >
->Eingehende Keyword-Daten werden im Systemdatensatz _Eingehende Aktivitätsereignisse von AJO gespeichert_ es sei denn, ein benutzerdefinierter Datensatz wird konfiguriert. Mindestens eine Nachricht eines Profils muss von [!DNL Journey Optimizer] gesendet werden, bevor eingehende Nachrichten erfasst werden. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
+>Eingehende Keyword-Daten werden im Systemdatensatz _AJO-E-Mail_ Tracking-Datensatz gespeichert, es sei denn, ein benutzerdefinierter Datensatz wird konfiguriert. Mindestens eine Nachricht eines Profils muss von [!DNL Journey Optimizer] gesendet werden, bevor eingehende Nachrichten erfasst werden. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
 
 Je nach Anbieter werden unterschiedliche Erwartungen an die Komponenten gestellt, die für eine erfolgreiche SMS-Implementierung eingerichtet werden müssen:
 
