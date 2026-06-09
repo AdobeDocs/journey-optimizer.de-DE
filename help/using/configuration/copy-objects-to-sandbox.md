@@ -33,10 +33,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 2418
-ht-degree: 67%
+source-wordcount: 2447
+ht-degree: 66%
 
 ---
 
@@ -196,6 +196,12 @@ Beachten Sie beim Import in die Produktion das folgende Verhalten und die folgen
 * Fragmente können über mehrere Status verfügen, z. B. „Live“, „Entwurf“ und „Live mit Entwurf in Bearbeitung“. Beim Exportieren eines Fragments wird sein letzter Entwurfsstatus in die Ziel-Sandbox kopiert.
 
 * Beim Exportieren eines Fragments werden auch alle verschachtelten Fragmente mitkopiert.
+
++++
+
++++ Journey Fragments
+
+* [Journey-Fragmente](../building-journeys/journey-fragments.md) (wiederverwendbare Sets von Journey-Knoten) werden für das Sandbox-Tooling unterstützt. Beim Exportieren eines Journey-Fragments wird dessen aktueller Entwurfsstatus in die Ziel-Sandbox kopiert.
 
 +++
 

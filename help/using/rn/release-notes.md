@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
+source-git-commit: d5b5559d40411d2c66e0b7144a9ce6945c491391
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2694
 ht-degree: 21%
 
 ---
@@ -92,6 +92,25 @@ ht-degree: 21%
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
   Verfügbarkeitsdatum: 4. Juni 2026
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Fragments (allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten, ohne dieselbe Logik jedes Mal von Grund auf neu zu erstellen.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allgemein allen Kunden zur Verfügung. Journey-Fragmente unterstützen auch <strong>Sandbox-Tools</strong> mit denen Sie Fragmente über Sandboxes hinweg verpacken und exportieren können.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/journey-fragments.md">entsprechenden Handbuch</a>.</p>
+<p>Verfügbarkeitsdatum: 9. Juni 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Mai &#39;26 - Versionshinweise {#may-26-rn}
 
