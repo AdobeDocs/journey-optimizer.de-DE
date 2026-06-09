@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +91,6 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
   *Beispiel: „New Member Journey&quot; - Melden Sie sich für E-Mails an → tätigen Sie Ihren ersten Kauf → schreiben Sie eine Produktbewertung → Empfehlen Sie einem Freund (in dieser exakten Bestellung vollständig)*
 
 * **Bringen Sie Ihre eigenen Datenherausforderungen** (eingeschränkte Verfügbarkeit): Das Challenge-Framework (Aufgaben und Belohnungen) wird aus Ihrer Datenintegration für die Treueprogramm-Herausforderungen zusammengestellt. Sie konfigurieren Einstellungen, Inhalte und Nachrichten wie für jeden anderen Herausforderungstyp.
-
-* **Wiederholbare Herausforderungen**: Konfigurieren Sie, wie oft Mitglieder dieselbe Herausforderung bewältigen und wieder Belohnungen sammeln können. [Erfahren Sie mehr über Wiederholungsbeschränkungen](create-challenges.md#repeat-limits)
 
 ## Funktionsweise {#how-it-works}
 
