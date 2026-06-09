@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` allein auf einer Linie schließt das Akkordeon
 - Leerzeile vor dem `+++` und nach dem `+++`
 
----
+&#x200B;---
 
 ## Workflow
 
@@ -58,7 +58,7 @@ Hängen Sie ganz am Ende der Datei an. Ändern Sie keine anderen Inhalte.
 - Dateien ✓ geändert
 - Dateien übersprungen + Grund (hat bereits Akkordeon / leer / Indexseite)
 
----
+&#x200B;---
 
 ## Regeln zur Inhaltserstellung
 
@@ -130,7 +130,7 @@ Kanonische Namen, Akronyme, akzeptierte Varianten, Synonyme, Uneindeutigkeit. Ha
 
 - **nicht** den Hauptteilinhalt neu schreiben oder zusammenfassen (er befindet sich bereits auf der Seite)
 - **keine** schrittweisen Anweisungen enthalten
-- Erfinden **** Inhalte, die von der Seite nicht unterstützt werden
+- Erfinden **&#x200B;**&#x200B;Inhalte, die von der Seite nicht unterstützt werden
 
 ### Vollständige Vorlage
 
@@ -159,7 +159,7 @@ Kanonische Namen, Akronyme, akzeptierte Varianten, Synonyme, Uneindeutigkeit. Ha
 +++
 ```
 
----
+&#x200B;---
 
 ## Anmerkungen
 
