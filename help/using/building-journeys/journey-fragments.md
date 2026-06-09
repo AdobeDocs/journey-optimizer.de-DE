@@ -11,10 +11,10 @@ keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 10%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,14 @@ ht-degree: 10%
 
 Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 
-Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
+Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente} in]** Journey eingefügt werden.
+
+>[!NOTE]
+>
+>**Journey-Fragmente** sind wiederverwendbare Sets von Journey-Knoten. Sie unterscheiden sich von:
+>
+>* **[Fragments](../content-management/fragments.md)** - wiederverwendbare Inhaltskomponenten, die in E-Mails in Kampagnen und Journey verwendet werden.
+>* **[AEM-Inhaltsfragmente](../integrations/aem-fragments.md)** - Inhalte, die in Adobe Experience Manager verfasst und in [!DNL Journey Optimizer] verwendet werden.
 
 >[!NOTE]
 >Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
@@ -46,7 +53,7 @@ Sie können die Liste nach Fragmentname, Status, Erstellungsdatum, Ersteller, Da
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Speichern als Journey-Fragment"
->abstract="Geben Sie einen eindeutigen Namen für Ihr Fragment ein und klicken Sie auf „Speichern“. Die ausgewählten Knoten werden als wiederverwendbares Fragment gespeichert, das im Fragmentinventar verfügbar ist."
+>abstract="Vor dem Speichern wird ein eindeutiger Fragmentname eingegeben. Die ausgewählten Knoten werden als wiederverwendbares Fragment gespeichert, das im Fragmentinventar verfügbar ist."
 
 Sie können ein Journey-Fragment auf zwei Arten erstellen: direkt über die Journey-Arbeitsfläche (empfohlen) oder über das Fragmentinventar.
 
@@ -69,7 +76,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 >[!TIP]
 >
->Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [ (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
@@ -91,7 +98,7 @@ So erstellen Sie ein Fragment direkt aus dem Inventar:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Journey-Fragmenteigenschaften"
->abstract="Öffnen Sie ein Fragment aus dem Inventar, um seine Knoten, Eigenschaften, Tags oder Label zu ändern. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
+>abstract="Wenn Sie ein Fragment aus dem Inventar öffnen, können dessen Knoten, Eigenschaften, Tags oder Beschriftungen geändert werden. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
 
 Um ein Fragment zu bearbeiten, öffnen Sie es über das **[!UICONTROL Fragmentinventar]** indem Sie auf seinen Namen klicken. In der Benutzeroberfläche zum Erstellen von Fragmenten haben Sie folgende Möglichkeiten:
 

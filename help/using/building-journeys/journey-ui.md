@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 96%
+source-wordcount: 1482
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="Listen- und Kalenderansicht von Journeys"
->abstract="Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journeys mit einer übersichtlichen Darstellung ihrer Zeitpläne. Über diese Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
+>abstract="Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journeys mit einer übersichtlichen Darstellung ihrer Zeitpläne. Mit diesen Schaltflächen können Sie jederzeit zwischen der Listen- und Kalenderansicht wechseln."
 
 ## Journey-Dashboard {#dashboard-jo}
 

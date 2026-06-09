@@ -11,44 +11,29 @@ keywords: Aktivität, Journey, Zielgruppe lesen, Zielgruppe, Segment, Batch, Ein
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 60%
+source-wordcount: 3891
+ht-degree: 56%
 
 ---
 
 # Verwenden einer Zielgruppe in einer Journey {#segment-trigger-activity}
 
-Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [&#x200B; Pfad jedes Profils mit &#x200B;](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
+Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [ Pfad jedes Profils mit ](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
 
 ## Über die Aktivität „Zielgruppe lesen“ {#about-segment-trigger-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
->abstract="Fügen Sie alle qualifizierten Profile einer ausgewählten Zielgruppe von [!DNL Adobe Experience Platform] zu dieser Journey hinzu. Einmal oder nach Zeitplan ausführen."
+>abstract="Fügt alle qualifizierten Profile einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu dieser Journey hinzu. Wird einmal oder nach einem Zeitplan ausgeführt."
 
 Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, die alle Profile aus einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu einer Journey hinzufügt. Sie können den Eintritt einmal oder nach einem wiederkehrenden Zeitplan ausführen. In -APIs und technischen Referenzen wird diese Aktivität auch als segmentbasierter oder zielgruppenbasierter Journey-Trigger bezeichnet.
 
@@ -94,12 +79,12 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Zielgruppe"
->abstract="Wählen Sie die Zielgruppe von [!DNL Adobe Experience Platform] aus, deren Profile auf diese Journey zugreifen werden."
+>abstract="Die [!DNL Adobe Experience Platform] Zielgruppe, deren Profile in diese Journey eintreten. Alle qualifizierten Profile werden eingelesen. Batch-Zielgruppen werden für eine zuverlässige, konsistente Zählung empfohlen, und pro Aktivität kann nur eine Zielgruppe gelesen werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Wählen Sie aus, welche Identität (z. B. E-Mail, ECID) zur Identifizierung der Personen verwendet wird, die in die Journey eintreten. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
+>abstract="Die Identität (z. B. E-Mail, ECID), die zur Identifizierung von Personen verwendet wird, die die Journey betreten. Es sind nur personenbasierte Namespaces verfügbar, und Profile ohne diese Identität können nicht eingeben. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -148,7 +133,7 @@ Alle Leitplanken und Einschränkungen für die Aktivität **Zielgruppe lesen** (
 **Recommendations**
 
 * Verwenden Sie als Best Practice Batch-Zielgruppen in einer Aktivität vom Typ **Zielgruppe lesen**, um eine zuverlässige und konsistente Zählung zu erzielen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn für Ihren Anwendungsfall Echtzeitdaten benötigt werden, verwenden Sie stattdessen die Aktivität [Zielgruppen](audience-qualification-events.md)Qualifizierung.
-* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 * Informationen zur Momentaufnahme der Zielgruppe, zu den Batch-Segmentierungs-Fertigstellungsfenstern und dazu, wie Sie sicherstellen, dass Ihr Journey immer mit den aktuellsten Daten ausgeführt wird, finden Sie unter [Timing und Datenweitergabe](#timing-and-data-propagation). Bei wiederkehrenden Journey sollten Sie die Option **[!UICONTROL Trigger nach Batch-Zielgruppenbewertung aktivieren]** um die Ausführung automatisch zu verzögern, bis der letzte Zielgruppen-Schnappschuss bereit ist. [Weitere Informationen](#schedule).
 
 >[!CAUTION]
@@ -177,17 +162,17 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Startdatum/Uhrzeit"
->abstract="Legen Sie fest, wann diese Journey gestartet werden soll."
+>abstract="Das Datum und die Uhrzeit, zu der die Journey mit dem Lesen der Zielgruppe beginnt und Profile eintreten. Kombinieren Sie dies mit den unten stehenden Wiederholungsoptionen, um wiederkehrende Ausführungen zu planen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Wiederholen bis"
->abstract="Definieren Sie das Enddatum für wiederkehrende Ausführungen."
+>abstract="Das Datum, an dem wiederkehrende Ausführungen beendet werden. Nach diesem Datum liest die Journey die Zielgruppe nicht mehr und nimmt keine neuen Profile mehr auf."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Wiederholen alle"
->abstract="Wie oft die Journey ausgeführt wird (z. B. täglich, wöchentlich)."
+>abstract="Wie oft die Journey die Zielgruppe erneut liest und erneut ausgeführt wird, z. B. täglich oder wöchentlich. Bestimmt das Wiederholungsintervall zwischen Ausführungen, bis das Wiederholungsdatum erreicht ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +182,12 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Erneuten Eintritt erzwingen"
->abstract="Löschen Sie alle Teilnehmenden aus der Journey, bevor die neuen Zielgruppen gelesen werden."
+>abstract="Löscht alle Teilnehmer vom Journey, bevor jede neue Zielgruppe gelesen wird, sodass jeder Durchgang neu gestartet wird und Profile bei jedem Vorkommen erneut eintreten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Nach Batch-Zielgruppenauswertung auslösen"
->abstract="Führen Sie die Journey erst aus, nachdem die Batch-Zielgruppe neu ausgewertet wurde."
+>abstract="Verzögert jede Ausführung, bis die Batch-Zielgruppe neu ausgewertet wurde, sodass die Journey den aktuellsten Zielgruppen-Schnappschuss und nicht veraltete Daten liest. Wird für wiederkehrende Journey empfohlen, die von den neuesten Segmentierungsergebnissen abhängen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +260,7 @@ Wenn beispielsweise eine Journey für täglich 18 Uhr geplant ist, können Sie 
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 
@@ -430,10 +415,10 @@ Eine vollständige Liste der Leitplanken für „Zielgruppe lesen“ (einschlie�
 * [Journey testen](testing-the-journey.md) - Validieren Sie Ihre Journey-Logik mithilfe von Testprofilen, bevor Sie live gehen.
 * [Journey veröffentlichen](../building-journeys/publish-journey.md) - Aktivieren Sie Ihren Journey und überwachen Sie die Erstausführung.
 * [Nachricht an Abonnenten senden](message-to-subscribers-uc.md) - End-to-End-Anwendungsfall: Eine Abonnement-Liste mit der Journey „Zielgruppe lesen“ vom Setup bis zum Versand ansprechen.
-* [Best Practices für Journey von Zielgruppen lesen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=de){target="_blank"} - Community-Blog, der häufige Fallstricke, Diskrepanzen bei der Zählung und bewährte Best Practices behandelt.
+* [Best Practices für Journey von Zielgruppen lesen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} - Community-Blog, der häufige Fallstricke, Diskrepanzen bei der Zählung und bewährte Best Practices behandelt.
 
 ## Anleitungsvideo {#video}
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

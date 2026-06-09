@@ -11,27 +11,16 @@ keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 75%
+source-wordcount: 3657
+ht-degree: 71%
 
 ---
 
@@ -42,7 +31,7 @@ Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="Konfigurieren Sie globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Datumsangaben, Zeitüberschreitung und Konflikt-Management. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
+>abstract="Die Journey-Eigenschaften enthalten globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Daten, Zeitüberschreitung und Konfliktmanagement. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
@@ -109,7 +98,7 @@ Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Inform
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Erneuten Eintritt erlauben"
->abstract="Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Die Option **Erneuten Eintritt erlauben** kann deaktiviert werden, z. B. wenn ein einmaliges Geschenk angeboten werden soll, wenn eine Person einen Shop betritt."
+>abstract="Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Wenn Sie die Option **Erneuten Eintritt erlauben** deaktivieren, kann eine Person die Journey nicht erneut betreten, z. B. um ein einmaliges Geschenk anzubieten, wenn eine Person einen Shop betritt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
@@ -119,7 +108,7 @@ Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit bis zum erneuten Eintritt"
->abstract="Legen Sie die Wartezeit fest, bevor Sie in einheitlichen Journeys einem Profil erlauben, erneut in die Journey einzutreten. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
+>abstract="Die Wartezeit für den erneuten Eintritt ist die Zeit, die gewartet wird, bevor ein Profil in unitären Journey erneut auf die Journey zugreifen kann. Dadurch wird verhindert, dass Benutzer für eine bestimmte Dauer erneut auf die Journey zugreifen. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
@@ -137,7 +126,7 @@ Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie au
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Aktuelle Journey-Payload-Größe"
->abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Verwenden Sie diesen Indikator, um die Journey-Komplexität vor dem Veröffentlichen zu überwachen und Fehler zu vermeiden, die durch eine Überschreitung des Limits der Payload-Größe verursacht werden."
+>abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Dieser Indikator hilft Ihnen, die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung des Payload-Größenlimits verursacht werden."
 
 Das Feld **[!UICONTROL Aktuelle Journey-Payload]** im Bedienfeld Journey-Eigenschaften zeigt die aktuelle Payload-Größe Ihrer Journey im Verhältnis zum konfigurierten Limit an - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator ist in jeder Phase des Journey-Authorings sichtbar.
 
@@ -160,12 +149,12 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Startdatum"
->abstract="Wählen Sie das Datum aus, ab dem Profile in die Journey eintreten können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
+>abstract="Das Startdatum ist der Zeitpunkt, an dem Profile mit dem Eintritt in die Journey beginnen können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Enddatum"
->abstract="Legen Sie das Datum fest, an dem die Journey endet. An diesem Datum verlassen aktive Profile automatisch die Journey und es wird kein neuer Eintritt mehr zugelassen."
+>abstract="Das Enddatum ist das Ende der Journey. An diesem Datum verlassen aktive Profile automatisch die Journey und es wird kein neuer Eintritt mehr zugelassen."
 
 Standardmäßig können Profile in eine Journey sofort nach ihrer Veröffentlichung eintreten und so lange bleiben, bis das [globale Journey-Timeout](#global_timeout) erreicht ist. Die einzige Ausnahme sind wiederkehrende „Zielgruppe lesen“-Journeys, bei denen die Option **Bei wiederholter Ausführung erneuten Eintritt erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
@@ -198,7 +187,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -356,7 +345,7 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [[!DNL Ad
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Ausstiegskriterien"
->abstract="In diesem Abschnitt werden die Optionen für Ausstiegskriterien angezeigt. Sie können für die Ausstiegskriterien Ihrer Journey ein oder mehrere Regeln und Filter erstellen."
+>abstract="In diesem Abschnitt werden die Optionen für Exitkriterien angezeigt, bei denen für das Journey ein oder mehrere Exitkriterienregeln und -filter definiert werden können."
 
 ### Kriterien für den Journey-Ausstieg {#exit-criteria-desc}
 
