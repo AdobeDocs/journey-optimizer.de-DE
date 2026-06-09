@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +78,9 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journe
 
 * **Angehalten oder Anhaltende Journey direkt schließen** - Sie können jetzt **eine Journey anhalten oder bei neuen Eintritten schließen** direkt aus dem Status **Angehalten**. Zuvor musste eine angehaltene Journey wieder live geschaltet werden, bevor sie angehalten oder geschlossen werden konnte.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Link zur DOCAC JIRA-Aufgabe</a>
+
+* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Orchestrierte Kampagnen {#june-26-oc}
 
