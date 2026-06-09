@@ -9,155 +9,211 @@ role: User
 level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
+source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
 workflow-type: tm+mt
-source-wordcount: 1910
-ht-degree: 5%
+source-wordcount: 1891
+ht-degree: 1%
 
 ---
 
-# Simulieren der Journey{#simulate-journey}
+# Simulieren der Journey {#simulate-journey}
 
 >[!IMPORTANT]
 >
-> Die Hauptfunktionen dieser Funktion sind derzeit eingeschränkt für alle Benutzenden verfügbar.
+>Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
+>
+>Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
 
-Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf**, **Testmodus** und **Live** einstellen. In der Simulation testen Sie mit **simulierten Benutzern** temporären profilähnlichen Entitäten, die Sie hinzufügen, ohne persistente Testprofile in Adobe Experience Platform zu verwenden.
+Verwenden Sie **[!UICONTROL Simulation]**, um Ihren Journey mit **simulierten Benutzern** vor der Veröffentlichung zu validieren. Diese Seite führt Sie durch **[!UICONTROL Schnellsimulation]** und **[!UICONTROL Manuelle Simulation]**, das Erstellen und Senden simulierter Benutzer, das Auslösen von Einzelereignissen, wenn Ihr Journey sie benötigt, und das **[!UICONTROL Ergebnisse]**-Protokoll.
 
-Adobe Journey Optimizer bietet zwei Möglichkeiten zum Testen und Validieren Ihres Journey:
+Einen Überblick nach Journey-Typ finden Sie unter [Erste Schritte mit der Journey-Simulation](simulate-journey-gs.md).
 
-* **[Simulation](#test-users)**: Verwenden Sie die **[!UICONTROL Simulation]** Journey-Funktion und simulierte Benutzende für Schnellausführungen ohne vorab erstellte Profile in Adobe Experience Platform.
+## Simulationstypen {#simulation-types}
 
-* **[Testmodus](testing-the-journey.md)**: Verwenden Sie beständige Profile, die in Adobe Experience Platform als Testprofile gekennzeichnet und sitzungsübergreifend wiederverwendet werden. Wählen Sie diesen Ansatz, wenn Sie konsistente, vordefinierte Daten benötigen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
+Nach der Aktivierung bieten Batch-Journey mit dem Eintrag Zielgruppe lesen zwei Möglichkeiten, eine Simulation auszuführen:
 
-Beachten Sie, dass Journey Simulation in **Eingeschränkte Verfügbarkeit** ist. Um Feedback zu geben und uns zu helfen, das Erlebnis zu verbessern, öffnen Sie **[!UICONTROL Feedback]** in der oberen Leiste.
+* **[!UICONTROL Schnellsimulation]** wird End-to-End mit generierten Benutzern, generierten Ereigniswerten und standardmäßigen Testeinstellungen ausgeführt, unterstützt durch die Journey Agent. Es ist eine schnelle Möglichkeit, ein Journey End-to-End mit minimalem Eingriff zu simulieren. Sobald Sie diese Option auswählen, startet die Schnellsimulation.
 
-![Beta-Feedback-Menü](assets/beta-feedback.png)
+* **[!UICONTROL Manuelle Simulation]** ermöglicht die manuelle Ausführung einer Simulation Schritt für Schritt. Erstellen Sie simulierte Benutzende (manuell oder mit der Journey Agent), fügen Sie sie in die Journey ein, definieren Sie Ereignis-Payloads (manuell oder mit der Journey Agent) und überschreiben Sie Wartezeiten.
+
+![Bedienfeld „Simulationseinstellungen“ mit den Optionen „Schnellsimulation“ und „Manuelle Simulation“ neben der Journey-Arbeitsfläche](assets/quick-simulation-1.png)
+
+### Schnellsimulation {#quick-simulation}
+
+Auf jedem Journey in **[!UICONTROL Simulation]**, **[!UICONTROL Schnellsimulation]** wird die Journey mit generierten Benutzerinnen und Benutzern, Ereigniswerten und vorausgefüllten Einstellungen ausgeführt.
+
+1. Wählen Sie **[!UICONTROL Schnellsimulation]** aus.
+
+1. Überprüfen Sie die Felder, die Adobe Journey Optimizer für den Durchlauf gesammelt hat. Klicken Sie **[!UICONTROL Werte aktualisieren]**, um Testeinstellungen und Ausführungsadressen zu ändern oder ohne Änderungen fortzufahren.
+
+   Dieser Schritt wird nur angezeigt, wenn die Journey Waits oder Channels verwendet. Sie können alle Wartezeiten und Ausführungsadressen für simulierte Benutzer anpassen, z. B. indem Sie Ihre eigene E-Mail verwenden, damit Nachrichten aus der Ausführung in Ihren Posteingang gelangen.
+
+   ![Dialogfeld „Schnellsimulation“ zum Schritt Sammeln von Informationen mit den Werten „Aktualisieren“ und zum nächsten Schritt](assets/quick-simulation-2.png)
+
+1. Wenn Sie **[!UICONTROL Werte aktualisieren]** geöffnet haben, bearbeiten Sie die Einstellungen, z. B. die für Testsendungen verwendete Adresse, und bestätigen Sie dann, dass Sie die Simulation starten möchten.
+
+   ![Schritt „Schnellsimulation - Werte aktualisieren“ mit den Feldern „Wartezeit überschreiben“ und „E-Mail-Adresse und Telefonnummer prüfen“](assets/quick-simulation-3.png)
+
+1. Der Journey Agent generiert aus der Journey-Definition eine Reihe simulierter Benutzender.
+
+   Bei Journey mit einem E-Mail-, SMS- oder Push-Knoten fordert Sie der Agent auf, die zu verwendende E-Mail-Adresse, Telefonnummer oder das Push-Token zu bestätigen. Simulierte Benutzer werden anhand dieser Werte generiert. Klicken Sie abschließend auf **[!UICONTROL Generieren]**.
+
+1. Klicken Sie nach Abschluss des Durchgangs **[!UICONTROL Ergebnisse anzeigen]**, um Pfade, Fehler und aufgedeckte Verzweigungen zu überprüfen. Siehe [Ergebnisse anzeigen](#viewing-results).
+
+   ![Schnellsimulation wurde mit allen erfolgreichen Schritten abgeschlossen und die Ergebnisse sind verfügbar](assets/quick-simulation-4.png)
+
+Die Schnellsimulation unterstützt auch ereignisausgelöste Journey und Journey, die Ereignisaktivitäten enthalten. Ereigniswerte werden automatisch für jeden generierten simulierten Benutzer festgelegt und ausgelöst. Sobald ein Anwender die Journey betritt, wird jedes Ereignis ausgelöst, sobald er die entsprechende Wartezeit erreicht.
+
+### Manuelle Simulation {#manual-simulation}
+
+Wählen Sie **[!UICONTROL Manuelle Simulation]** aus, wenn Sie jeden simulierten Benutzer auswählen, die Versandreihenfolge steuern, Ereignis-Payloads konfigurieren und **[!UICONTROL Wartezeiten]** für die Ausführung überschreiben müssen.
+
+Fahren Sie mit [Erstellen und Verwalten simulierter Benutzer](#test-users), [Trigger Ihrer Ereignisse](#firing-events) und [Ergebnisse anzeigen](#viewing-results) fort.
 
 ## Erstellen und Verwalten simulierter Benutzer {#test-users}
 
 >[!IMPORTANT]
 >
 >Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
+>
+>Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
 
-Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie über die Benutzeroberfläche oder eine JSON-Datei erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
+Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
 
-### Erstellen simulierter Benutzer
+1. Füllen Sie zunächst die Liste **[!UICONTROL Testbenutzer]** aus:
 
-Die folgenden Schritte zeigen Ihnen, wie Sie simulierte Benutzer über die Benutzeroberfläche oder durch Importieren einer JSON-Datei erstellen.
+   +++ Benutzer mit KI generieren
 
-1. Öffnen Sie auf Ihrem Journey **[!UICONTROL Simulieren]** und wählen Sie **[!UICONTROL Simulation]**.
+   Adobe Journey Optimizer generiert aus der Journey-Definition eine Reihe simulierter Benutzender.
 
-   ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/test-mode-simulated.png)
+   Bei Journey mit einem E-Mail-, Push- oder SMS-Knoten fordert Sie die KI auf, die zu verwendende E-Mail-Adresse oder Telefonnummer zu bestätigen. Die simulierten Benutzer werden anhand dieser definierten Werte generiert. Klicken Sie abschließend auf **[!UICONTROL Generieren]**.
 
-1. Klicken Sie **[!UICONTROL Simulierte Benutzer erstellen]**, um neue Benutzer zu erstellen, und wählen Sie aus, ob Benutzer über die Benutzeroberfläche erstellt oder aus JSON importiert werden sollen.
+   ![Dialogfeld „Simulierte Benutzer generieren“ mit den Feldern „Ausführungs-E-Mail“ und „Telefonnummer“ und „Generieren“](assets/simulate-generate.png)
 
-   Um stattdessen simulierte Benutzer wiederzuverwenden, klicken Sie auf **[!UICONTROL Simulierte Benutzer auswählen]** und wählen Sie zuvor gespeicherte Einträge aus.
+   +++
 
-   ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-2.png)
+   +++ Durchsuchen des Inventars
 
-1. Wenn Sie simulierte Benutzer aus JSON erstellen, aktualisieren Sie die entsprechenden Felder mit Ihren simulierten Benutzerdaten.
+   Wählen Sie **[!UICONTROL Inventar durchsuchen]**, um bereits gespeicherte simulierte Benutzer hinzuzufügen, z. B. Benutzer, die Sie aus einem Formular oder JSON erstellt haben, oder Benutzer, die Sie nach einer Ausführung der KI-Generierung behalten haben.
 
-1. Wenn Sie simulierte Benutzer über die Benutzeroberfläche erstellen, geben Sie einen **[!UICONTROL Anzeigenamen]** und **[!UICONTROL Beschreibung]** ein, um diesen simulierten Benutzer zu identifizieren. Wählen Sie dann die Attribute aus dem Vereinigungsschema aus, die Sie für diesen Benutzer ausfüllen möchten.
+   ![Dialogfeld „Simulierte Benutzerinventare“ mit der Schaltfläche „Suchen“, „Benutzertabelle“ und „Auswählen“](assets/simulate-inventory.png)
 
-   ![Attributauswahl aus Vereinigungsschema](assets/simulate-3.png)
+   +++
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppenzugehörigkeit]**, um Segmentzugehörigkeiten zu simulieren.
+   +++ Aus Formular erstellen
 
-1. Klicken Sie **[!UICONTROL Profil hinzufügen]**, um mehrere simulierte Benutzer in einer Sitzung zu erstellen.
+   1. Geben Sie einen **[!UICONTROL Anzeigenamen]**, **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Beschreibung]** ein, um diesen simulierten Benutzer zu identifizieren.
 
-1. Für jeden simulierten Benutzer, den Sie in dieser Sitzung hinzugefügt haben, können Sie die folgenden Aktionen verwenden:
+      ![Erstellen eines Formulars für simulierte Benutzer mit Anzeigenamen, Identity-Namespace, Beschreibung und Vereinigungsschemaattributen](assets/simulate-form.png)
 
-   * **[!UICONTROL Duplizieren]**: Fügt einen neuen simulierten Benutzer hinzu, der die abgeschlossene Konfiguration eines vorhandenen Eintrags repliziert. Anschließend können Sie das Duplikat nach Bedarf bearbeiten.
-   * **[!UICONTROL Auf alle anwenden]**: Gibt die Attributwerte oder -einstellungen von einem simulierten Benutzer an jeden anderen simulierten Benutzer in der Liste weiter.
-   * **[!UICONTROL Löschen]**: Entfernt den ausgewählten simulierten Benutzer aus der Liste.
+   1. Wählen Sie dann die Attribute aus dem Vereinigungsschema aus, die Sie für diesen Benutzer ausfüllen möchten.
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um einen oder mehrere simulierte Benutzer für die zukünftige Verwendung zu speichern.
+   1. Klicken Sie **[!UICONTROL Zielgruppenzugehörigkeit hinzufügen]** um Segmentzugehörigkeiten zu simulieren.
 
-1. Nach dem Speichern werden die erstellten simulierten Benutzer in der Liste **[!UICONTROL Testbenutzer]** angezeigt. Öffnen Sie für jeden Eintrag das Optionsmenü und wählen Sie eine der folgenden Optionen aus:
+   1. Klicken Sie im Fenster **[!UICONTROL Simulierte Benutzer erstellen]** auf **[!UICONTROL Simulierten Benutzer hinzufügen]**, um mehrere simulierte Benutzer in einer Sitzung zu definieren.
+
+      Sie können ändern, wie Benutzer in der Liste angezeigt werden, jede Karte in der gestapelten Ansicht ausblenden oder die Attributmetadaten eines Benutzers öffnen.
+
+      ![Erstellen der Fußzeile für simulierte Benutzer mit den Steuerelementen „Simulierten Benutzer hinzufügen“, „Alle reduzieren“ und „Layout-Ansicht“](assets/simulate-form-3.png)
+
+   1. Verwenden Sie im simulierten Benutzermenü **[!UICONTROL Duplizieren]** um einen Benutzer zu kopieren, **[!UICONTROL alle Attribute auf andere Benutzer anwenden]** um die Attribute eines Benutzers auf jeden anderen Benutzer in der Sitzung zu kopieren, oder **[!UICONTROL Löschen]** um einen Benutzer zu entfernen.
+
+      ![Erstellen Sie simulierte Benutzerkarten mit Duplikaten, wenden Sie alle Attribute auf andere Benutzer an und löschen Sie sie bei jedem Benutzer](assets/simulate-form-2.png)
+
+   1. Klicken Sie **[!UICONTROL Speichern]** wenn Sie die Konfiguration der Benutzer in dieser Sitzung abgeschlossen haben.
+
+   +++
+
+   +++ Aus JSON erstellen
+
+   Definieren Sie neue simulierte Benutzer, indem Sie die entsprechenden Felder mit Ihren simulierten Benutzerdaten aktualisieren.
+
+   ![Erstellen Sie den JSON-Editor für simulierte Benutzer mit der Benutzervorlage und dem JSON-Steuerelement „Format“](assets/simulate-json.png)
+
+   +++
+
+1. Die von Ihnen erstellten simulierten Benutzer werden in der Liste **[!UICONTROL Testbenutzer]** angezeigt. Wählen Sie für jeden Eintrag eine der folgenden Optionen aus:
 
    * ![Bearbeiten-Symbol](assets/do-not-localize/Smock_Edit_18_N.svg): Aktualisieren Sie die Details des simulierten Benutzers.
    * ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg): Führen Sie die Simulation nur für diesen simulierten Benutzer aus.
+
+     Diese Option ist nicht für Journey verfügbar, die mit einem Ereignis beginnen, da der simulierte Benutzereintritt durch das gesendete Ereignis ausgelöst wird. [Weitere Informationen](#firing-events)
+
    * ![Symbol entfernen](assets/do-not-localize/Smock_Close_18_N.svg): Entfernen Sie den Benutzer aus dieser Liste. Der simulierte Benutzer wird nicht gelöscht und bleibt in der Auswahl Simulierte Benutzer verfügbar.
 
-   ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-4.png)
+   ![Benutzerliste mit auf der Arbeitsfläche hervorgehobenen Aktionen „Bearbeiten“, „Senden“ und „Entfernen“ sowie dem simulierten Pfad testen](assets/simulate-4-2.png)
 
-1. Wenn Ihr Journey eine Aktivität **[!UICONTROL Warten]** enthält, öffnen Sie die Registerkarte **[!UICONTROL Testeinstellungen]**, um die Dauer dieser Wartezeit während der Simulation genau abzustimmen.
+1. Um die Liste nach Ihrer Auswahl zu ändern, klicken Sie auf **[!UICONTROL Benutzer verwalten]**, um weitere simulierte Benutzer aus dem Inventar oder durch Erstellen neuer hinzuzufügen. Um jeden Benutzer für diese Ausführung aus der Liste **[!UICONTROL Benutzer testen]** zu entfernen, wählen Sie **[!UICONTROL Alle Benutzer löschen]**.
 
-1. Klicken Sie **[!UICONTROL Alle senden]**, um alle simulierten Benutzenden in der Liste auf die Journey zu senden. Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Simulated users have been sent successfully.`-Bestätigungsmeldung angezeigt.
+   ![Menü „Benutzer verwalten“ mit Optionen für zusätzliche Benutzer öffnen und „Alle Benutzer löschen“](assets/simulate-manage.png)
 
-   ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-5.png)
+1. Wenn Ihr Journey eine Aktivität **[!UICONTROL Warten]** enthält, öffnen Sie die Registerkarte **[!UICONTROL Testeinstellungen]**, um die Dauer dieser Wartezeit während der Simulation genau abzustimmen. Wenn die Live-Aktivität **[!UICONTROL Warten]** beispielsweise für mehrere Tage konfiguriert ist, können Sie sie auf 10 Sekunden überschreiben, sodass der simulierte Benutzer nur diese Zeit auf dem Knoten verbringt, bevor er zur nächsten Aktivität wechselt.
 
-1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
+1. Klicken Sie auf **[!UICONTROL Alle senden]**, um jeden simulierten Benutzer in der Liste auf die Journey zu senden, oder klicken Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg) in einer Zeile, um nur diesen Benutzer zu senden. Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Simulated users have entered the journey successfully.`-Bestätigungsmeldung angezeigt.
 
-Nachdem Sie die Journey in **[!UICONTROL Simulation]** validiert haben, überprüfen Sie das **[!UICONTROL Ergebnisse]**-Protokoll. Wenn Fehler auftreten, lassen Sie **[!UICONTROL Simulation]**, wenden Sie die erforderlichen Änderungen auf die Journey an und führen Sie **[!UICONTROL Simulation]** erneut aus, bis der Durchlauf korrekt aussieht. Sie können dann die Journey veröffentlichen. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
+   ![Registerkarte „Testen von Benutzern“, nachdem Benutzer die Journey mit Erfolgsmeldung und Pfad auf der Arbeitsfläche eingegeben haben](assets/simulate-5-2.png)
 
-### Simulierte Benutzer auswählen
-
-Die von Ihnen manuell erstellten simulierten Benutzenden werden gespeichert und können aus dieser Liste ausgewählt werden, wenn die Simulation für andere Journey aktiviert ist.
-
-1. Stellen Sie die Journey auf **[!UICONTROL Simulation]** ein. Öffnen Sie den Einstiegspunkt **[!UICONTROL Simulieren]** und wählen Sie **[!UICONTROL Simulation]** aus, sodass die Journey je nach Arbeitsbereich die Simulationsfunktion verwendet, z. B. neben dem Testmodus oder Live.
-
-   ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/test-mode-simulated.png)
-
-1. Im Bedienfeld **[!UICONTROL Simulationseinstellungen]** können Sie entweder zuvor erstellte simulierte Benutzer auswählen und auf **[!UICONTROL Simulierte Benutzer auswählen]** klicken.
-
-   ![Testmodus in der Journey-Schnittstelle](assets/simulate-11.png)
-
-1. Wählen Sie aus der Liste der simulierten Benutzer, die zuvor erstellt und gespeichert wurden.
-
-1. Nachdem Sie die simulierten Benutzer ausgewählt haben, sind sie jetzt in der Liste **[!UICONTROL Testbenutzer]** verfügbar. Wählen Sie im Optionsmenü eine der folgenden Optionen aus:
-
-   * ![Bearbeiten-Symbol](assets/do-not-localize/Smock_Edit_18_N.svg), um Benutzer zu bearbeiten und ihre Details zu ändern.
-   * ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg), um Ihre Simulation nur an einen simulierten Benutzer zu senden.
-   * ![Symbol „Löschen](assets/do-not-localize/Smock_Close_18_N.svg), um die simulierten Benutzer aus der Liste zu löschen. Beachten Sie, dass durch Löschen der Schaltfläche sie nicht gelöscht wird, sie dennoch aus der Liste „Simulierte Benutzer“ ausgewählt werden kann.
-
-   ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-4.png)
-
-1. Klicken Sie **[!UICONTROL Alle senden]**, um alle simulierten Benutzenden in der Liste auf die Journey zu senden. Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Simulated users entered the journey successfully.`-Bestätigungsmeldung angezeigt.
-
-   ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-5.png)
+1. Wenn die Journey unitäre Ereignisse enthält, müssen Sie das Ereignis zum Trigger auswählen. Siehe [Trigger Ihrer Ereignisse](#firing-events).
 
 1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
 
+1. Öffnen Sie nach Abschluss des Tests das Menü **[!UICONTROL Simulation verwalten]**:
+
+   * **[!UICONTROL Simulation schließen]**, um die aktuelle Simulationssitzung zu beenden.
+   * **[!UICONTROL Simulation zurücksetzen]** um alle Daten aus dem aktuellen Durchgang, ausgewählten simulierten Benutzern, definierten Ereigniswerten und anderen Testeinstellungen zu löschen, damit Sie eine neue Simulation von Grund auf neu starten können.
+
+     ![Menü Simulation verwalten mit den Optionen Simulation zurücksetzen und Simulation schließen öffnen](assets/simulate-15.png)
+
 Nachdem Sie die Journey in **[!UICONTROL Simulation]** validiert haben, überprüfen Sie das **[!UICONTROL Ergebnisse]**-Protokoll. Wenn Fehler auftreten, lassen Sie **[!UICONTROL Simulation]**, wenden Sie die erforderlichen Änderungen auf die Journey an und führen Sie **[!UICONTROL Simulation]** erneut aus, bis der Durchlauf korrekt aussieht. Sie können dann die Journey veröffentlichen. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
 
-## Auslösen Ihrer Ereignisse {#firing_events}
+## Auslösen Ihrer Ereignisse {#firing-events}
 
-Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit einem Trigger versehen, während die Simulation aktiv ist.
+Wenn Ihr Journey ein oder mehrere unitäre Ereignisse enthält, können Sie diese mit einem Trigger versehen, während die Simulation aktiv ist. Für Journey, die nicht mit einem Ereignis beginnen, aber eines beinhalten, wird dieser Abschnitt erst angezeigt, wenn ein simulierter Benutzer auf die Journey zugreift.
 
 1. Wählen **[!UICONTROL unter „Ereignistyp]**&quot; das Ereignis aus, das für diese Simulation ausgelöst werden soll.
 
-   ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-10.png)
+   ![Wählen Sie das Dropdown-Menü Ereignistyp aus, das im Abschnitt Testereignisse der Simulationseinstellungen geöffnet ist](assets/simulate-10-2.png)
 
-1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![&#x200B; „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
+1. Um dieselbe Änderung auf alle Benutzenden in der Liste anzuwenden, verwenden Sie die Option **[!UICONTROL Ereignisse verwalten]** für:
 
-   ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-9.png)
+   * **[!UICONTROL Ereigniswerte generieren]** damit die Journey Agent alle Payloads mithilfe von KI generieren kann. Wenn Werte generiert werden, wird der Benutzer als **[!UICONTROL Bereit zum Senden]** markiert.
+   * **[!UICONTROL Ereignisdaten bearbeiten]**, um die Payload für jeden simulierten Benutzer in der Liste zu ändern.
 
-1. Geben Sie in der Ansicht **&#x200B;**&#x200B;Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
+   ![Menü „Ereignisse verwalten“ in „Testereignisse mit den Optionen „Mit KI generieren“ und „Alle bearbeiten“](assets/simulate-9-2.png)
 
-   ![Ereigniskonfiguration mit Listen- und Ereignisfeldern von Testbenutzenden](assets/simulate-8.png)
+1. Konfigurieren Sie die Ereignis-Payload für jeden Benutzer, indem Sie auf das ![Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben einem Benutzer klicken, um:
 
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
+   * **[!UICONTROL Ereigniswerte generieren]** damit die Journey Agent die Payload mithilfe von KI generieren kann. Wenn Werte generiert werden, wird der Benutzer als **[!UICONTROL Bereit zum Senden]** markiert.
+   * **[!UICONTROL Ereignisdaten bearbeiten]**, um die Payload nur für diesen simulierten Benutzer zu ändern.
 
-1. Wählen Sie dann **[!UICONTROL Testereignisse]** entweder die Option **[!UICONTROL Alle senden]** aus, um jeden unter **[!UICONTROL Testbenutzer]** aufgelisteten simulierten Benutzer auf die Journey zu senden, oder wählen Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg) aus, damit ein einzelner Benutzer die Simulation nur für diesen Benutzer ausführt.
+   ![Menü pro Benutzer in Testereignissen mit den Optionen Ereigniswerte generieren und Ereignisdaten bearbeiten](assets/simulate-8-2.png)
+
+1. Wählen Sie **[!UICONTROL Testereignisse]** entweder die Option **[!UICONTROL Alle senden]**, um dieses Ereignis für alle simulierten Benutzer zu senden, die unter **[!UICONTROL Testbenutzer]** aufgeführt sind, oder wählen Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg), damit ein einzelnes Ereignis nur für diesen Benutzer ausgelöst wird.
+
+   ![Testen von Ereignissen mit den Steuerelementen „Alle senden“ und „Pro Benutzer senden“ für als bereit markierte Benutzer](assets/simulate-11-2.png)
+
+1. Nachdem Ereignisse ausgelöst wurden, wird die Arbeitsfläche aktualisiert, um den Fortschritt jedes Benutzers widerzuspiegeln.
 
 1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
+
+1. Öffnen Sie nach Abschluss des Tests das Menü **[!UICONTROL Simulation verwalten]**:
+
+   * **[!UICONTROL Simulation schließen]**, um die aktuelle Simulationssitzung zu beenden.
+   * **[!UICONTROL Simulation zurücksetzen]** um alle Daten aus dem aktuellen Durchgang, ausgewählten simulierten Benutzern, definierten Ereigniswerten und anderen Testeinstellungen zu löschen, damit Sie eine neue Simulation von Grund auf neu starten können.
+
+     ![Menü Simulation verwalten mit den Optionen Simulation zurücksetzen und Simulation schließen öffnen](assets/simulate-15.png)
 
 ## Anzeigen von Ergebnissen {#viewing-results}
 
 Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Wählen **[!UICONTROL in der Dropdown]** Liste Testbenutzer den simulierten Benutzer aus, dessen Ausführung Sie überprüfen möchten.
 
-<!--
-* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
--->
+Wählen Sie **[!UICONTROL Alle]** aus, um die Ergebnisse für jeden simulierten Benutzer in der Ausführung aggregiert anzuzeigen. In dieser Ansicht können Sie die gesamte Simulation auf einen Blick scannen, einschließlich Aktivitäten, Ergebnisse und Fehler, ohne zuerst einen einzelnen simulierten Benutzer auszuwählen.
+
+![Registerkarte „Ergebnisse“ mit Simulationszusammenfassung, Testbenutzerfilter und Pfadabdeckung auf der Journey-Arbeitsfläche](assets/simulate-6-2.png)
 
 Für jede Aktivität kann das Protokoll anzeigen, ob der simulierte Benutzer in den Schritt eingetreten ist oder ihn verlassen hat, sowie auf Fehler, die während der Simulation aufgetreten sind.
-
-![Protokolle für Testbenutzer](assets/simulate-6.png)
 
 Bei **Warten**-Aktivitäten enthält das Protokoll zwei durationsbezogene Werte:
 
@@ -165,66 +221,3 @@ Bei **Warten**-Aktivitäten enthält das Protokoll zwei durationsbezogene Werte:
 * **Tatsächliche Dauer**: Die verstrichene Zeit, die der simulierte Benutzer auf der **Warten**-Aktivität verblieb. Dieser Wert wird auf der Registerkarte **[!UICONTROL Testeinstellungen]** festgelegt.
 
 Wenn Fehler im Protokoll angezeigt werden, verlassen Sie **Simulation**, wenden Sie die erforderlichen Änderungen an der Journey an und führen Sie **Simulation** erneut aus. Nach erfolgreicher Validierung veröffentlichen Sie die Journey. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
-
-## Einschränkungen {#limitations}
-
-In dieser Version unterstützt **[!UICONTROL Simulation]** möglicherweise nicht alle Aktivitäten, Kanäle oder Integrationen, die **[!UICONTROL Testmodus]** oder eine Live-Journey unterstützt, und das Verhalten kann sich ändern, wenn die Funktion ausgereift ist. Verwenden Sie die Verfahren in diesem Artikel für unterstützte Workflows.
-
-Weitere Informationen zu den Simulationsbeschränkungen finden Sie in den folgenden Dropdown-Listen.
-
-+++ Einschränkungen auf Knotenebene
-
-Wenn eine Journey einen der folgenden Knoten enthält, kann sie nicht in „Simulation **[!UICONTROL gestartet]**. Bevor die Simulation ausgeführt werden kann, muss der Journey geändert oder der entsprechende Knoten entfernt werden.
-
-| Eingeschränkter Knoten | Anmerkungen |
-| --- | --- |
-| Geschäftsereignisse | Journey, die mit einem Geschäftsereignis beginnen, können nicht in „Simulation **[!UICONTROL ausgeführt]**. |
-| Zusätzliche ID (mehrfacher Wiedereintritt) | Der gleichzeitige erneute Eintritt (mehrere aktive Instanzen für denselben simulierten Benutzer) verhindert, dass **[!UICONTROL Simulation]** gestartet wird. |
-| Knoten für Inhaltsentscheidung | Diese Aktivität muss entfernt oder geändert werden, bevor Sie das Journey simulieren können. |
-| Datensatzsuche | Die Suche nach Kundendatensätzen anhand des Schlüssels wird nicht unterstützt. Journey, die diese Aktivität enthalten, können nicht in „Simulation **[!UICONTROL ausgeführt]**. |
-| **[!UICONTROL Optimieren]** Aktivität | Die folgenden **[!UICONTROL Optimieren]**-Methoden werden in **[!UICONTROL Simulation]** nicht unterstützt: **[!UICONTROL Experiment]**, **[!UICONTROL Targeting-Regel]**, **[!UICONTROL Prozentuale Aufspaltung]**, **[!UICONTROL Zeitbedingung]**, **[!UICONTROL Bedingung]**, **[!UICONTROL Datumsbedingung]**, **[!UICONTROL Profilbegrenzung]** und **[!UICONTROL External Data Source]**. Entfernen oder ändern Sie den Knoten, bevor Sie simulieren. |
-| Anreicherung externer Zielgruppenattribute | Journey, die personalisierte Attribute aus externen Zielgruppenquellen verwenden, beginnen nicht in **[!UICONTROL Simulation]**, wenn diese Validierung aktiv ist. |
-
-+++
-
-</br>
-
-+++ Funktionale Einschränkungen
-
-Die folgenden Funktionen werden in „Simulation **[!UICONTROL nicht]**.
-
-| Funktion | Anmerkungen |
-| --- | --- |
-| Ausstiegskriterien | Beim Ausführen von „Simulation“ werden **[!UICONTROL Beendigungskriterien]**. |
-| [!DNL Adobe Journey Optimizer] von Entscheidungen innerhalb einer Aktion (z. B. E-Mail-Inhalt mit Adobe Journey Optimizer Decisioning) | Es werden keine Aktions-Korrekturabzüge für Inhalte generiert, die [!DNL Adobe Journey Optimizer] Decisioning verwenden. |
-| Pseudo-Antwort für benutzerdefinierte Aktionen | [!UICONTROL Benutzerdefinierte Aktionen] führen standardmäßig einen echten ausgehenden Aufruf aus. Das Mocking der Antwort, sodass kein externer Aufruf ausgeführt wird, wird nicht unterstützt. |
-| Auswertung der Einverständnisrichtlinie | Das Einverständnis kann nicht auf der Ebene des simulierten Benutzers verspottet werden. |
-| Journey-Begrenzung und Schlichtung | Nicht unterstützt in **[!UICONTROL Simulation]**. |
-| Frequenzlimitierung (nach Kanal oder Kommunikationstyp) | Nicht unterstützt in **[!UICONTROL Simulation]**. |
-| Opt-out-Verwaltung, Unterdrückung und Zulassungslisten | Folgt der Messaging-Routing-Konfiguration, wo sie gilt. |
-| Dynamische Subdomain und dynamische Attribute in Kanalkonfigurationen | Folgt der Messaging-Routing-Konfiguration, wo sie gilt. |
-| Sendezeitoptimierung (STO) | Nicht unterstützt in **[!UICONTROL Simulation]**. |
-| Sandbox-Tools (simulierte Benutzer in Sandboxes kopieren) | Nicht unterstützt. |
-| Senden von Schüben in Journey | Nicht unterstützt. |
-| Ruhezeiten | Nicht unterstützt. |
-| Opt-out-Verwaltung, Unterdrückung und Zulassungslisten | Nicht unterstützt. |
-| Dynamische Subdomain und dynamische Attribute in Kanalkonfigurationen | Nicht unterstützt. |
-| Privacy Service | Simulierte Benutzer sind nicht mit der DSGVO konform und haben keine persistenten Profile. Schließen Sie keine echten Kundendaten in simulierte Benutzende ein. |
-
-+++
-
-</br>
-
-+++ Quantitative Schutzmaßnahmen 
-
-Diese Schutzmaßnahmen gelten für **[!UICONTROL Simulation]**. Numerische Begrenzungen werden in der Journey-Oberfläche und zur Laufzeit erzwungen. Die Grenzwerte können sich in einer späteren Version ändern. Wenn Sie in der Nähe einer Decke ausgeführt werden, überprüfen Sie das Verhalten in Ihrer Sandbox.
-
-| Leitplanke | Limit | Anmerkungen |
-| --- | --- | --- |
-| Maximal simulierte Benutzende, die in einem Batch ausgewählt und ausgelöst werden können (Batch-Journey, ereignisgesteuerte Flüsse und Zielgruppen-Qualifizierungs-Flüsse) | 20 | Wird für jedes **[!UICONTROL Alle senden]** oder **[!UICONTROL vom Trigger ausgewählte]** gezählt; keine kumulative Begrenzung für die gesamte Journey. |
-| Maximale Anzahl an eindeutigen simulierten Benutzern, die in einem einzigen Simulationslauf getestet werden | 100 | Erreichen von **100** eindeutigen Benutzern in einem Ausführungsblock **[!UICONTROL Wählen Sie simulierte]** aus) für neue simulierte Benutzer. Wenn Sie bei **90** sind, können Sie vor demselben Block höchstens **10** mehr hinzufügen. |
-| Maximale Anzahl von Journey, die gleichzeitig in **[!UICONTROL Simulation]** in einer Sandbox ausgeführt werden können | 20 | Die Begrenzung wird von jeder **[!UICONTROL Simulation]**-Journey in dieser Sandbox gleichzeitig verwendet. |
-| Maximale Anzahl aktiver simulierter Benutzer in einer Sandbox | 2,000 | Maximale Anzahl an simulierten Benutzern, die gleichzeitig in der Sandbox vorhanden sein können. Adobe kann diese Grenze auf der Grundlage von Kunden-Feedback anpassen. |
-| Vorausfüllen des Ereignisses (nur Browser) | — | Sie können Payload-Felder für Ereignisse nur in der Browser-basierten Simulationsoberfläche vorab ausfüllen. Vorausgefüllte Werte bleiben in diesem Browser und werden nicht mit anderen Browsern, Geräten oder Sitzungen synchronisiert, sodass möglicherweise an jedem Ort, den Sie testen, andere Daten zum Vorbefüllen angezeigt werden. |
-
-+++
