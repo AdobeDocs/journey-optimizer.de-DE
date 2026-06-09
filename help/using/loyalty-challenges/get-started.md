@@ -12,7 +12,8 @@ badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
 source-wordcount: 900
@@ -95,7 +96,7 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Challenge erstellen** - Wählen Sie den Challenge-Typ aus (Standard, Streak, Sequenziell oder bringen Sie Ihre eigenen Daten mit, falls verfügbar). [Erfahren Sie, wie Sie einen Challenge-Typ ](create-challenges.md#create-the-challenge).
+1. **Challenge erstellen** - Wählen Sie den Challenge-Typ aus (Standard, Streak, Sequenziell oder bringen Sie Ihre eigenen Daten mit, falls verfügbar). [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
 
 1. **Einstellungen konfigurieren** - Definieren Sie auf der Registerkarte „Einstellungen“ Challenge-Details, Zielgruppe, Zeitplan, Regeln (Opt-in, Fortschrittsverfolgung, Wiederholungsbeschränkungen) und optionale Metadaten. [Erfahren Sie mehr über Challenge-Einstellungen](create-challenges.md#settings).
 
@@ -211,7 +212,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>Herausforderungen im Zusammenhang mit der Treue konfigurieren</strong></a>
     </div>
     <p>
