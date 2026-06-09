@@ -28,10 +28,10 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 1347
-ht-degree: 81%
+source-wordcount: 1348
+ht-degree: 80%
 
 ---
 
@@ -133,9 +133,9 @@ Nachdem eine Endbenutzerin oder ein Endbenutzer eine Beschwerde generiert hat, d
 >Nicht alle ISPs bieten eine herkömmliche FBL, z. B. Gmail. Gmail bietet kein Feedback auf individueller Ebene und kann nicht dazu verwendet werden, Spam-Beschwerden bis hin zu einzelnen Empfängerinnen oder Empfängern nachzuverfolgen, sondern konzentriert sich stattdessen auf die Berichterstellung auf aggregierter Ebene in den Google Postmaster Tools. [Weitere Informationen](#providers-no-fbl)
 
 
-Alle Adobe-Kundinnen und -Kunden werden automatisch in die herkömmlichen FBLs der folgenden ISPs eingeschrieben:
+Alle Adobe-Kunden werden automatisch in den herkömmlichen FBLs der unten aufgeführten ISPs registriert.
 
-+++ ISPs, die ein herkömmliches FBL bereitstellen
++++ ISPs, die ein herkömmliches FBL bereitstellen:
 
 * 1&amp;1
 

@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die **„Erste Schritte mit der Zustellbarkeit** wurde mit einem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger** aktualisiert. Sie listet die wichtigsten Postfachanbieter auf, die keine Spam-Beschwerden pro Empfänger zurückgeben - Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online - und erklärt, warum für Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioning ist jetzt für den Briefpost-Kanal verfügbar.** Auf einer neuen Seite **Batch Decisioning in Briefpost** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Briefpost-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Briefpost** wurde als unterstützter Kanal zur gesamten Entscheidungsdokumentation hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
 
