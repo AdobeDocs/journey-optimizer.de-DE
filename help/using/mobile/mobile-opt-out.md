@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 80%
 
 ---
@@ -63,7 +63,7 @@ Wenn ein Kunde auf eine Mobile-Nachricht antwortet, blockiert der Provider alle 
 
 >[!NOTE]
 >
->Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Anbieter-Anmeldeinformationen verhindern, dass das Benutzerprofil durch eingehende Keywords aktualisiert wird. Dies führt zu fehlenden oder verzögerten Opt-out-Einträgen. Eingehende Antworten werden im Systemdatensatz _Eingehende Aktivitätsereignisse von AJO_ gespeichert. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
+>Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Anbieter-Anmeldeinformationen verhindern, dass das Benutzerprofil durch eingehende Keywords aktualisiert wird. Dies führt zu fehlenden oder verzögerten Opt-out-Einträgen. Eingehende Antworten werden im Systemdatensatz _AJO-E-Mail_ Tracking-Datensatz gespeichert. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
 
 
 ## Blockierungslisten {#sms-blocklists}
