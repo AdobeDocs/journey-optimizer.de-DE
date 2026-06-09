@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
+source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
 workflow-type: tm+mt
-source-wordcount: 947
-ht-degree: 79%
+source-wordcount: 1046
+ht-degree: 72%
 
 ---
 
@@ -91,6 +91,12 @@ Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutz
 1. Aktivieren Sie die Option **[!UICONTROL mTLS-Unterstützung]**, um sicherzustellen, dass sich sowohl der Client als auch der Server gegenseitig authentifizieren, bevor eine sichere Verbindung hergestellt wird.
 
    Um nur mTLS zu verwenden, wählen Sie die Option **[!UICONTROL Keine Authentifizierung]** aus der Dropdown-Liste **[!UICONTROL Authentifizierungstyp]** aus und aktivieren Sie dann die **[!UICONTROL mTLS-Unterstützung]**.
+
+   Beachten Sie, dass TLS nur für den SMS-Provider-Endpunkt (Nachrichtenversand) gilt. Der OAuth-Token-Endpunkt darf keine TLS verwenden. Stellen Sie vor dem Testen sicher, dass mTLS für den Token-Endpunkt deaktiviert ist.
+
+   >[!IMPORTANT]
+   >
+   >Konfigurieren Sie den SMS-Sendeendpunkt so, dass er der Adobe Experience Platform-Zertifikatskette vertraut, indem Sie das öffentliche Zertifikat von der [MTLS Public Certificate API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) herunterladen und dem Server-Trust Store hinzufügen (erwartete Client-KN: `ajo-sms.aep-mtls.adobe.com`). Andernfalls lässt Journey Optimizer das Client-Zertifikat aus und die SMS-Bereitstellung schlägt fehl.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Neuen Parameter hinzufügen]**, um die HTTP-Header der Anfragenachricht anzugeben, die an den externen Service gesendet werden soll.
 
@@ -179,6 +185,8 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt haben, füllen Sie die Felder aus, di
 * **[!UICONTROL OAuth-URL]**: Geben Sie die URL zum Abrufen des OAuth-Tokens ein.
 
 * **[!UICONTROL OAuth-Text]**: Stellen Sie den OAuth-Anfragetext im JSON-Format bereit, einschließlich Parametern wie `grant_type`, `client_id` und `client_secret`.
+
+Journey Optimizer aktualisiert OAuth-Token dynamisch nach Ablauf des benutzerdefinierten SMS-Connectors.
 
 ![](assets/sms-byop-oauth.png)
 
