@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* **Experience Decisioning ist jetzt für den Briefpost-Kanal verfügbar.** Auf einer neuen Seite **Batch Decisioning in Briefpost** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Briefpost-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Briefpost** wurde als unterstützter Kanal zur gesamten Entscheidungsdokumentation hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* Die Dokumentation zu **Journey Fragments** wird nicht mehr als Eingeschränkte Verfügbarkeit gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus Inhalten **[!UICONTROL Fragments]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-**, **Audit-** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journey** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
+
+* Die **Externe Datenquellen** und **Benutzerdefinierte Aktion** wurde für die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob die `access_token` oder `id_token` als Authentifizierungsberechtigung verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` werden und Verweise auf die &quot;Azure Entra ID“ wurden in &quot;Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
 * Die **„Erste Schritte mit der**&quot; wurde mit einem Prozessdiagramm aktualisiert, das den gesamten Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
 
