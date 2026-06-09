@@ -8,13 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar, Wiederverwendbar
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1482
 ht-degree: 10%
 
 ---
@@ -22,12 +21,9 @@ ht-degree: 10%
 
 # Journey Fragments {#journey-fragments}
 
->[!AVAILABILITY]
->Diese Funktion ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
-
 Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 
-Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
+Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente} in]** Journey eingefügt werden.
 
 >[!NOTE]
 >Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
@@ -73,7 +69,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 >[!TIP]
 >
->Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [ (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
@@ -187,6 +183,7 @@ Die folgenden Leitplanken gelten für Journey-Fragmente:
 * [Tags](tags.md) und **Labels** werden für Fragmente unterstützt.
 * [Audit-](../privacy/audit-logs.md)) werden unterstützt.
 * Journey, die auf dem alten Stack (unter Verwendung von Inline-Kampagnen) ausgeführt werden, unterstützen keine Journey-Fragmente. Duplizieren Sie eine solche Journey, um sie auf den neuen Stapel zu verschieben, bevor Sie diese Funktion verwenden.
+* Journey-Fragmente unterstützen [Sandbox-](../configuration/copy-objects-to-sandbox.md). Fragmente können gepackt und in eine andere Sandbox exportiert werden.
 
 ## Beispiele für Anwendungsfälle {#examples}
 
