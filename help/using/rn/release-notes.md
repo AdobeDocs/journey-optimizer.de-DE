@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
+source-git-commit: f9fbf21341466e71c0e6b3580659b6261a828bd6
 workflow-type: tm+mt
 source-wordcount: 2842
 ht-degree: 21%
@@ -89,6 +89,29 @@ ht-degree: 21%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulieren von Inhaltsvarianten - Generieren aktualisierter Erlebnisse und KI-Varianten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Für den Workflow <strong>Inhalt simulieren“ sind jetzt zwei </strong> verfügbar:</p>
+<ul>
+<li><strong>Neuer Standardpfad</strong> - Wenn Sie auf <strong>Inhalt simulieren</strong> klicken, wird jetzt <strong> Erlebnis „Inhaltsvarianten simulieren</strong> geöffnet. Sie können auf einem einzigen Bildschirm Beispieleingaben manuell oder aus einer CSV-/JSON-Datei hinzufügen, simulierte Benutzer wiederverwenden, das Rendering in der Vorschau anzeigen und Testsendungen durchführen. Um eine Vorschau mit Adobe Experience Platform-Testprofilen anzuzeigen, Testsendungen mit Testprofildaten durchzuführen oder E-Mail-Posteingang - Rendering und Spam-Berichte zu überprüfen, klicken Sie auf <strong>Inhalt simulieren</strong> und wählen Sie dann <strong>Inhalt simulieren (AEP-Profile)</strong> aus der Dropdown-Liste aus.</li>
+<li><strong>KI-generierte Inhaltsvarianten</strong> - Klicken Sie im Erlebnis <strong>Inhaltsvarianten simulieren</strong> auf <strong>Generieren</strong>, um KI zum automatischen Erstellen von Inhaltsvarianten zu verwenden. Das System analysiert Ihre Nachricht, erkennt Personalisierungsfelder und bedingte Verzweigungen und füllt realistische Werte aus, sodass Sie das Rendering überprüfen können, ohne jede Variante von Hand erstellen zu müssen.</li>
+</ul>
+<p>Weitere Informationen finden Sie im <a href="../test-approve/simulate-sample-input.md">entsprechenden Handbuch</a>.</p>
+<p>Verfügbarkeitsdatum: 9. Juni 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -126,36 +149,16 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Simulieren von Inhaltsvarianten - Generieren aktualisierter Erlebnisse und KI-Varianten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Für den Workflow <strong>Inhalt simulieren“ sind jetzt zwei </strong> verfügbar:</p>
-<ul>
-<li><strong>Neuer Standardpfad</strong> - Wenn Sie auf <strong>Inhalt simulieren</strong> klicken, wird jetzt <strong> Erlebnis „Inhaltsvarianten simulieren</strong> geöffnet. Sie können auf einem einzigen Bildschirm Beispieleingaben manuell oder aus einer CSV-/JSON-Datei hinzufügen, simulierte Benutzer wiederverwenden, das Rendering in der Vorschau anzeigen und Testsendungen durchführen. Um eine Vorschau mit Adobe Experience Platform-Testprofilen anzuzeigen, Testsendungen mit Testprofildaten durchzuführen oder E-Mail-Posteingang - Rendering und Spam-Berichte zu überprüfen, klicken Sie auf <strong>Inhalt simulieren</strong> und wählen Sie dann <strong>Inhalt simulieren (AEP-Profile)</strong> aus der Dropdown-Liste aus.</li>
-<li><strong>KI-generierte Inhaltsvarianten</strong> - Klicken Sie im Erlebnis <strong>Inhaltsvarianten simulieren</strong> auf <strong>Generieren</strong>, um KI zum automatischen Erstellen von Inhaltsvarianten zu verwenden. Das System analysiert Ihre Nachricht, erkennt Personalisierungsfelder und bedingte Verzweigungen und füllt realistische Werte aus, sodass Sie das Rendering überprüfen können, ohne jede Variante von Hand erstellen zu müssen.</li>
-</ul>
-<p>Weitere Informationen finden Sie im <a href="../test-approve/simulate-sample-input.md">entsprechenden Handbuch</a>.</p>
-<p>Verfügbarkeitsdatum: 9. Juni 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
-
-  Verfügbarkeitsdatum: 4. Juni 2026
-
 * **Automatischer Stopp für nicht wiederkehrende Journey des Typs „Zielgruppe lesen** - Nicht wiederkehrende **Zielgruppe lesen** Journey wechseln jetzt automatisch in den Status **Angehalten**, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-**bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit** Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.
 
   Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung. [Weitere Informationen](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   Verfügbarkeitsdatum: 9. Juni 2026
+
+* **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
+
+  Verfügbarkeitsdatum: 4. Juni 2026
+
 
 * **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene. [Weitere Informationen](../reports/alerts.md)
 
