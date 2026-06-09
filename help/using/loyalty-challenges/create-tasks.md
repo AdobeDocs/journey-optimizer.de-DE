@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 12%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ Verfügbare Attribute für Aktivitäten **[!UICONTROL benutzerdefiniertes Ereign
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Geeignete Artikel und Ausschlüsse"
->abstract="Sowohl für die Aktivität **Kauf** als auch für die Aktivität **Ausgaben** können Sie das Attribut **[!UICONTROL Geeignete Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen zulässig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Sie können beispielsweise eine Aufgabe des Typs „Ausgaben“ auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Anrechnung auf die Erledigung der Aufgabe ausschließen."
+>abstract="Verwenden Sie sowohl für **Kauf** als **Ausgaben** das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]**, um festzulegen, welche Artikel und Gruppen für die Aufgabenfertigstellung zählen und welche ausgeschlossen werden. Suchen Sie nach Elementen oder Gruppen aus dem Produktinventar, die von Administratoren konfiguriert wurden, und schließen Sie sie dann nach Bedarf ein oder aus."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-Für **Kauf** und **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig sind und welche ausgeschlossen werden. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Produktgruppen und Ausschlussgruppen, die im Menü **[!UICONTROL Treueprogramm-Admin]** hochgeladen wurden, sind verfügbar, wenn Sie dieses Attribut konfigurieren. [Erfahren Sie, wie Sie den Produktbestand und Ausschlüsse konfigurieren](loyalty-admin.md#product-inventory)
+Für Aktivitäten **Kauf** und **Ausgaben** können Sie im Abschnitt **[!UICONTROL Mögliche Artikel und Ausschlüsse]** definieren, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen.
+
+Die in der Auswahl verfügbaren Elemente und Gruppen werden von Admin-Benutzern im Menü **[!UICONTROL Treueprogramm-Admin]** definiert. Administratoren laden das Produktinventar hoch, das für geeignete Artikel verwendet wird, und konfigurieren organisationsweite Ausschlüsse, die automatisch angewendet werden, wenn Marketer Aufgaben erstellen. [Erfahren Sie, wie Sie das Produktinventar konfigurieren](loyalty-admin.md#product-inventory) und [Ausschlüsse](loyalty-admin.md#exclusions)
 
 **[!UICONTROL Benutzerspezifisches Ereignis]** Aufgaben verwenden keine zulässigen Elemente und Ausschlüsse. Der Abschluss wird durch die von Ihnen **[!UICONTROL benutzerdefinierten Ereigniswerte]** gesteuert.
 
 Sie können beispielsweise eine Aufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenfertigstellung ausschließen.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### Zulässige Elemente für die Aufgabe festlegen
 
-Um geeignete Artikel zu definieren, geben Sie bestimmte Artikel-IDs, Kategorien oder Ziel-IDs ein, getrennt durch Kommas im Feld **[!UICONTROL Mögliche Aufgabenkäufe sind auf das folgende Feld beschränkt]**. Wenn Sie dieses Feld leer lassen, sind standardmäßig alle Käufe berechtigt. Sie können auch `*` eingeben, um alle Käufe explizit als geeignet festzulegen.
+Um geeignete Elemente zu definieren, wählen Sie **[!UICONTROL Hinzufügen]** im Abschnitt **[!UICONTROL Mögliche Elemente und Ausschlüsse]** aus.
 
-Beispiel: `SKU001, SKU002, CategoryA`
+Wählen Sie in der Auswahl die Elemente oder Gruppen aus, die für den Abschluss der Aufgabe gezählt werden sollen, und wählen Sie dann **[!UICONTROL Einschließen]**. Eingeschlossene Elemente und Gruppen werden der entsprechenden Liste hinzugefügt.
+
+![](assets/task-create-eligible-add.png)
+
+Wenn keine geeigneten Artikel oder Gruppen ausgewählt sind, sind Käufe nicht auf einen bestimmten Bestand beschränkt, es sei denn, es sind Ausschlüsse konfiguriert.
 
 ### Elemente aus der Aufgabe ausschließen
 
-Um Elemente aus der Aufgabe auszuschließen, geben Sie bestimmte Element-IDs, Kategorien oder Ziel-IDs in das Feld **[!UICONTROL Folgendes ist von dieser Aufgabe ausgeschlossen]** ein.
+Um Elemente aus der Aufgabe auszuschließen, wählen Sie **[!UICONTROL Hinzufügen]** im Abschnitt **[!UICONTROL Mögliche Elemente und Ausschlüsse]** aus.
 
-Beispiel: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+Wählen Sie die Elemente oder Gruppen aus, die nicht für den Abschluss der Aufgabe gezählt werden sollen, und wählen Sie dann **[!UICONTROL Ausschließen]**.
+
+![](assets/task-create-exclusion-add.png)
+
+Elemente aus der globalen Ausschlussliste werden automatisch als Ausschlüsse hinzugefügt. Ausschlüsse haben Vorrang vor Einschlüssen: Als ausgeschlossen aufgeführte Elemente werden nicht gezählt, selbst wenn sie ebenfalls zu einer eingeschlossenen Gruppe gehören.
 
 ### Eigene Daten für Berechtigung und Ausschlüsse einbringen {#byod-personalization}
 
@@ -170,7 +180,7 @@ Beispiel: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 >
 >Die **[!UICONTROL Eigene Daten einbringen]** ist derzeit für eine begrenzte Anzahl von Organisationen verfügbar und wird in einer zukünftigen Version auf breiterer Basis verfügbar gemacht.
 
-Zusätzlich zur Eingabe von Element-IDs, um sie als berechtigt oder ausgeschlossen festzulegen, können Sie die Berechtigung auch zur Laufzeit aus Ihren externen Treueprogramm-Challenges mithilfe der Option **[!UICONTROL Eigene Daten]**.
+Zusätzlich zur Auswahl von Elementen und Gruppen in Journey Optimizer können Sie die Eignung auch zur Laufzeit aus Ihren externen Treueprogramm-Challenges steuern, indem Sie die Option **[!UICONTROL Eigene Daten]**.
 
 Wenn **[!UICONTROL Eigene Daten einbringen]** ausgewählt ist, wird die Berechtigung pro Teilnehmer zur Laufzeit aus Daten aufgelöst, die mit Ihrer Umgebung für Treueprogramm-Herausforderungen synchronisiert sind, anstatt aus einer Liste von Element-IDs.
 
