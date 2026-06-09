@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +33,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 ### Treue {#june-26-loyalty}
 
 Die folgende Funktion wird in dieser Version auf „Treue“ angewendet.
-
-<table>
-<thead>
-<tr>
-<th><strong>Herausforderungen bezüglich der Treue</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Herausforderungen im Zusammenhang mit der Kundentreue machen aus Treueinitiativen ansprechende <strong>gamifizierte Erlebnisse</strong> die Kundinnen und Kunden zu wertvollen Aktionen motivieren, z. B. Käufe tätigen, Bewertungen schreiben, in sozialen Medien interagieren oder Freunde verweisen.</p>
-<p>Administratoren können das Menü „Treueprogramm-Admin“ verwenden, um Journey Optimizer mit Ihrem Treueprogramm-Ökosystem zu verbinden, einschließlich APIs für die Belohnungserfüllung, Ereignisdefinitionen, Produktinventar, Ausschlüsse und Identitätseinstellungen. Marketer können dann standardmäßige, Streak- oder sequenzielle Herausforderungen entwerfen, Aufgaben und Belohnungen definieren, eigene Inhaltskarten und Nachrichten bereitstellen und die Leistung mit integrierten Reporting-Dashboards überwachen. Journey Optimizer generiert die Journey, die jede Challenge im Hintergrund koordinieren, sodass sich die Teams auf das Kundenerlebnis und die Geschäftsziele konzentrieren können.</p>
-<p>Diese Funktion ist jetzt für alle Umgebungen verfügbar (allgemeine Verfügbarkeit).</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Journeys {#june-26-journeys}
 
