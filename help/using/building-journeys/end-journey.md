@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 76%
@@ -93,9 +93,9 @@ Dieses Verhalten gilt nur für **nicht wiederkehrende Journey des Typs „Zielgr
 
 >[!NOTE]
 >
->Dieses automatische Stopp-Verhalten gilt **nicht** für nicht wiederkehrende Journey, die Knoten enthalten, die Wartezeiten verursachen, wie **Warten**-Knoten (zeitgeberbasiert), **Reaktion**-Knoten (Warten auf Ereignisse wie E-Mail-Öffnungen oder -Klicks) oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.
+>* Dieses automatische Stopp-Verhalten gilt **nicht** für nicht wiederkehrende Journey, die Knoten enthalten, die Wartezeiten verursachen, wie **Warten**-Knoten (zeitgeberbasiert), **Reaktion**-Knoten (Warten auf Ereignisse wie E-Mail-Öffnungen oder -Klicks) oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen [91-tägigen globalen Zeitüberschreitung](../building-journeys/journey-properties.md#global_timeout).
 >
->Sie können eine nicht wiederkehrende Journey mit dem Schritt Zielgruppe lesen jederzeit manuell schließen, indem Sie die Option [**[!UICONTROL Für neue Eintritte schließen]**](#close-to-new-entrances) verwenden. Das automatische Stopp-Verhalten stellt lediglich sicher, dass die Journey automatisch stoppt, wenn sie nicht mehr benötigt wird, ohne dass ein manuelles Eingreifen erforderlich ist.
+>* Sie können eine nicht wiederkehrende Journey mit dem Schritt Zielgruppe lesen jederzeit manuell schließen, indem Sie die Option [**[!UICONTROL Für neue Eintritte schließen]**](#close-to-new-entrances) verwenden. Das automatische Stopp-Verhalten stellt lediglich sicher, dass die Journey automatisch stoppt, wenn sie nicht mehr benötigt wird, ohne dass ein manuelles Eingreifen erforderlich ist.
 
 ### Wann gilt eine Journey als „fertig“? {#journey-finished-definition}
 
@@ -125,8 +125,6 @@ Alternativ können Sie auch folgendermaßen vorgehen:
    ![Optionsmenü „Beenden“ mit „Journey beenden“ und alternativen Aktionen](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]** und bestätigen Sie diese Auswahl im Dialogfeld.
-
-
 
 
 ## Stoppen einer Journey {#stop-journey}
