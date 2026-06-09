@@ -5,7 +5,7 @@ title: Verwalten von Journeys
 description: Verwalten von Journeys
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -84,5 +84,5 @@ Erfahren Sie, wie Journeys in Adobe Journey Optimizer enden, einschließlich Sch
 
 ## Weitere Ressourcen
 
-- **[Kopieren einer Journey in eine andere Sandbox](../using/building-journeys/copy-to-sandbox.md)** – Erfahren Sie, wie Sie Journeys und abhängige Objekte mithilfe von Paketexporten und -importen zwischen Sandbox-Umgebungen übertragen.
-- **[Integration mit Intelligent Services](../using/building-journeys/ai-services-overview.md)** – Nutzen Sie KI und maschinelles Lernen für die Prognose des Kundenverhaltens und die Messung der Kampagnenauswirkungen mit Adobe Intelligent Services.
+- **[Kopieren einer Journey in eine andere Sandbox](../using/configuration/copy-objects-to-sandbox.md#objects)** – Erfahren Sie, wie Sie Journeys und abhängige Objekte mithilfe von Paketexporten und -importen zwischen Sandbox-Umgebungen übertragen.
+- **[Integration mit Intelligent Services](../using/integrations/intelligent-services.md)** – Nutzen Sie KI und maschinelles Lernen für die Prognose des Kundenverhaltens und die Messung der Kampagnenauswirkungen mit Adobe Intelligent Services.
