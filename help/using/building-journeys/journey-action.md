@@ -11,30 +11,16 @@ keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 1570
-ht-degree: 80%
+source-wordcount: 1736
+ht-degree: 73%
 
 ---
 
@@ -72,6 +58,27 @@ Alte native Kanalaktivitäten werden auch in diesen Fällen beibehalten:
 * **Kopieren und Einfügen von Legacy-Aktivitäten auf einer Journey** — Eingefügte Aktivitäten bleiben Legacy-Aktivitäten. Sie können sie unverändert bearbeiten und veröffentlichen. Es ist keine Migration erforderlich.
 
 ## Hinzufügen einer integrierten Kanalaktion zu einer Journey  {#add-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_auto_wait"
+>title="Automatischer Warteknoten"
+>abstract="Bei eingehenden Kanalaktionen (In-App-Nachricht, Web, Inhaltskarte und Code-basiertes Erlebnis) wird nach der Aktion automatisch ein **Warten**-Knoten eingefügt (standardmäßig 3 Tage). Dadurch haben die Profile Zeit, das eingehende Erlebnis anzuzeigen, bevor die Journey mit dem nächsten Schritt fortfährt."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_optimization"
+>title="Optimierung"
+>abstract="Im **Optimierung** werden einer Kanalaktion Inhaltsexperimente, Zielgruppenbestimmungsregeln oder beides hinzugefügt. Sie ermöglicht es Ihnen, Varianten zu testen und den effektivsten Inhalt für jedes Mitglied der Zielgruppe bereitzustellen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Verwenden der Aktivität Optimieren"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_multilingual"
+>title="Mehrsprachig"
+>abstract="Der **Multilingual**-Abschnitt liefert die Kanalaktionsinhalte in mehreren Sprachen auf einer einzigen Journey. Eine Spracheinstellungskonfiguration definiert die unterstützten Gebietsschemata und die Standardsprache für diese Aktion."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Erste Schritte mit mehrsprachigen Inhalten"
+
 
 Gehen Sie wie folgt vor, um Ihrer Journey mithilfe der Aktivität **[!UICONTROL Aktion]** eine integrierte Kanalaktion hinzuzufügen.
 

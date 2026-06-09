@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 81%
+source-wordcount: 1130
+ht-degree: 73%
 
 ---
 
@@ -67,6 +59,12 @@ Beachten Sie **dass interaktive Schaltflächen** Code kopieren“ nicht unterst�
 +++
 
 ## Hinzufügen einer WhatsApp-Nachricht {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="WhatsApp-Aktion"
+>abstract="Eine WhatsApp-Kanalaktion sendet eine WhatsApp-Nachricht an Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine WhatsApp-Konfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine WhatsApp-Nachricht in einer Kampagne oder Journey hinzufügen können.
 
@@ -169,7 +167,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
    ![](assets/whatsapp-design-4.png)
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau des Inhalts Ihrer WhatsApp-Nachricht, der gekürzten URLs und der personalisierten Inhalte anzuzeigen. [Weitere Informationen](send-whatsapp.md)
+1. Verwenden Sie **[!UICONTROL Inhalt simulieren]**, um den Inhalt Ihrer WhatsApp-Nachricht, die gekürzten URLs und den personalisierten Inhalt in der Vorschau anzuzeigen. [Weitere Informationen](send-whatsapp.md)
 
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie [Ihre WhatsApp-Nachricht](send-whatsapp.md) an Ihre Zielgruppe senden und die Leistung mit [Reporting](../reports/campaign-global-report-cja.md) überwachen. Informationen zu den in Experience Platform gespeicherten WhatsApp-Interaktionsdaten finden Sie unter [Analysieren von WhatsApp-Interaktionen](send-whatsapp.md#whatsapp-channel-context).
 
@@ -192,7 +190,7 @@ Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -206,7 +204,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -220,6 +218,6 @@ Das folgende Video zeigt, wie sich mit Adobe Journey Optimizer eine mehrstufige 
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470291/?captions=ger&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

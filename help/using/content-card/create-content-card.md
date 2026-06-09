@@ -6,19 +6,27 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 86%
+source-wordcount: 1755
+ht-degree: 76%
 
 ---
 
 # Erstellen von Inhaltskarten {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="Inhaltskarten-Aktion"
+>abstract="Bei einer eingehenden Inhaltskartenaktion wird Profilen eine Inhaltskarte angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Inhaltskartenkonfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach dieser Aktivität wird **Knoten** Warten“ automatisch eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die Inhaltskarte anzuzeigen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+
+
+Inhaltskarten sind eingehende In-App-Erlebnisse, die personalisierte Inhalte wie Werbeaktionen, Ankündigungen oder Empfehlungen direkt auf einer dedizierten Oberfläche Ihrer Mobile App anzeigen. Im Gegensatz zu unterbrechenden Nachrichten bleiben sie in der App verfügbar, bis der Benutzer sie schließt oder sie durch Ihre Versandregeln ausgeblendet werden.
+
+Auf dieser Seite wird beschrieben, wie Sie eine Inhaltskarte erstellen und ihren Inhalt definieren, entweder als Teil einer [Journey](../building-journeys/journey-gs.md) oder einer [Kampagne](../campaigns/create-campaign.md). Nach dem Hinzufügen können Sie die Karte entwerfen, zusätzliche Versandregeln festlegen, die steuern, wann sie angezeigt, abgelehnt oder dauerhaft ausgeblendet wird, und Inhaltsexperimente durchführen, um ihre Leistung zu optimieren.
 
 >[!IMPORTANT]
 >
