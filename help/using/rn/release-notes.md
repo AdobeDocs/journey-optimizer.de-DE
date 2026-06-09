@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee485d872299b592e27cf40cd3cde9b362bc85d2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a36a488ae85052375ed31ad7efa644bd9fba58ea
 workflow-type: tm+mt
-source-wordcount: 2694
-ht-degree: 21%
+source-wordcount: 2424
+ht-degree: 23%
 
 ---
 
@@ -61,7 +49,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten, ohne dieselbe Logik jedes Mal von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allgemein allen Kunden zur Verfügung. Journey-Fragmente unterstützen auch <strong>Sandbox-Tools</strong> mit denen Sie Fragmente über Sandboxes hinweg verpacken und exportieren können.</p>
 <p>Weitere Informationen finden Sie im <a href="../building-journeys/journey-fragments.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 9. Juni 2026</p>
@@ -108,11 +96,32 @@ ht-degree: 21%
 </table>
 
 
+
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Microsoft Entra ID. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
   Verfügbarkeitsdatum: 4. Juni 2026
 
+* **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene. [Weitere Informationen](../reports/alerts.md)
 
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+* **URL-Parameterverschlüsselung** - Sie können jetzt URL-Parameter in Tracking- und Landingpage-Links verschlüsseln, die Ihren E-Mail-Nachrichten hinzugefügt werden. Dies bietet eine zusätzliche Sicherheitsebene für vertrauliche Parameterdaten. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). [Weitere Informationen](../personalization/url-parameter-encryption.md)
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+* **Neue Berechtigungen für die Schlüsselregistrierung** - Für den Zugriff auf und die Verwaltung der für die URL-Parameterverschlüsselung erforderlichen Schlüssel sind jetzt zwei neue Berechtigungen erforderlich: **Schlüsselregistrierung verwalten** und **Schlüsselregistrierung anzeigen**. [Weitere Informationen](../administration/high-low-permissions.md#administration-permissions)
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+<!--
++++ Coming soon — **Information below is subject to change.**
+
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+
+  Availability date: Early June, 2026
+
++++
+-->
 
 ## Mai &#39;26 - Versionshinweise {#may-26-rn}
 
@@ -130,7 +139,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten, ohne dieselbe Logik jedes Mal von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -159,9 +168,10 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 </tbody>
 </table>
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwartet.
+The following journey capabilities are expected in the upcoming days or weeks.
 
 <!--
 <table>
@@ -200,33 +210,35 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 </table>
 -->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Simulation (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey Simulation (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Simulation wurde bisher nur in begrenztem Umfang veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit können Sie jetzt Journey Agent verwenden, um simulierte Benutzende und Ereignisse direkt im Simulationsmenü zu generieren.</p>
-<p>Verfügbarkeitsdatum: Anfang Juni 2026</p>
+<p>Previously released in Limited Availability, Journey Simulation is now available to all environments. With this General Availability release, you can now use Journey Agent to generate simulated users and events directly in the Simulation menu.</p>
+<p>Availability date: Early June, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Automatischer Abschluss für nicht wiederkehrende Journey des Typs „Zielgruppe lesen** - Nicht wiederkehrende **Zielgruppe lesen** Journey wechseln jetzt automatisch in den Status **Angehalten**, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-**bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit** Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.
+* **Automatic completion for non-recurring Read Audience journeys** - Non-recurring **Read Audience** journeys now automatically transition to **Stopped** status once the last active profile exits. Previously, these journeys remained **Live** until the 91-day global timeout expired — even when no profiles were flowing through them anymore. With this improvement, journey status reflects actual execution state as soon as it completes, keeping your journey inventory accurate without manual intervention.
 
-  Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.
+  Note that this behavior does not apply to journeys that include nodes causing waiting periods, such as Wait nodes, Reaction nodes, or event-triggered transitions. These journeys remain subject to the standard 91-day global timeout.
 
-  Verfügbarkeitsdatum: Anfang Juni 2026
+  Availability date: Early June, 2026
 
-* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
 
-  Verfügbarkeitsdatum: Anfang Juni 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Orchestrierte Kampagnen {#may-26-oc}
 
@@ -284,22 +296,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
 
   Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
-
-  Availability date: Early June, 2026
-
-+++
--->
-
-### Kampagnen {#may-26-campaigns}
-
-* **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene. [Weitere Informationen](../reports/alerts.md)
-
-  Verfügbarkeitsdatum: 1. Juni 2026
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
   Availability date: Early June, 2026
 
@@ -472,16 +468,6 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 
 * **Organisationsübergreifender Repository-Zugriff im Assets-Selektor** - Sie können jetzt Assets aus Repositorys über mehrere Organisationen hinweg direkt im Adobe Experience Manager-Asset-Selektor auswählen.
 
-### Administration {#may-26-admin}
-
-* **URL-Parameterverschlüsselung** - Sie können jetzt URL-Parameter in Tracking- und Landingpage-Links verschlüsseln, die Ihren E-Mail-Nachrichten hinzugefügt werden. Dies bietet eine zusätzliche Sicherheitsebene für vertrauliche Parameterdaten. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). [Weitere Informationen](../personalization/url-parameter-encryption.md)
-
-  Verfügbarkeitsdatum: 1. Juni 2026
-
-* **Neue Berechtigungen für die Schlüsselregistrierung** - Für den Zugriff auf und die Verwaltung der für die URL-Parameterverschlüsselung erforderlichen Schlüssel sind jetzt zwei neue Berechtigungen erforderlich: **Schlüsselregistrierung verwalten** und **Schlüsselregistrierung anzeigen**. [Weitere Informationen](../administration/high-low-permissions.md#administration-permissions)
-
-  Verfügbarkeitsdatum: 1. Juni 2026
-
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -522,11 +508,13 @@ Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden ebenfalls im Mai 
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
+* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders to improve navigation and management in the interface.
 
-  Verfügbarkeitsdatum: Anfang Juni 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
