@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
 workflow-type: tm+mt
-source-wordcount: 2942
+source-wordcount: 2943
 ht-degree: 21%
 
 ---
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* **AJO-Nachrichten-Feedback-Ereignisdatensatz, der zur Batch-Aufnahme** wird - Der **AJO-Nachrichten-Feedback** Ereignisdatensatz wechselt von der Streaming-Aufnahme zur Batch-Aufnahme. Erwarten Sie daher für diesen Datensatz eine Datenlatenz von bis zu 2 Stunden. Wenn Sie Berichte in Customer Journey Analytics erstellt haben oder Abfragen mithilfe dieses Datensatzes ausführen, berücksichtigen Sie in Zukunft diese erhöhte Latenz. [Weitere Informationen](../data/get-started-datasets.md)
+[!BADGE Wichtig]{type=Informative} **&#x200B;**&#x200B;AJO-Nachrichten-Feedback-Ereignisdatensatz, der zur Batch-Aufnahme **wird - Der** AJO-Nachrichten-Feedback-**Ereignisdatensatz) wechselt von der Streaming-Aufnahme zur Batch-Aufnahme. Erwarten Sie daher für diesen Datensatz eine Datenlatenz von bis zu 2 Stunden. Wenn Sie Berichte in Customer Journey Analytics erstellt haben oder Abfragen mithilfe dieses Datensatzes ausführen, berücksichtigen Sie in Zukunft diese erhöhte Latenz. [Weitere Informationen](../data/get-started-datasets.md)
 
-  Verfügbarkeitsdatum: 10. Juni 2026
+Verfügbarkeitsdatum: 10. Juni 2026
 
 * **Automatischer Stopp für nicht wiederkehrende Journey des Typs „Zielgruppe lesen** - Nicht wiederkehrende **Zielgruppe lesen** Journey wechseln jetzt automatisch in den Status **Angehalten**, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-**bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit** Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.
 
