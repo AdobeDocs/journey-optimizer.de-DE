@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 ### Journeys {#june-26-journeys}
 
 In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journey implementiert.
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey-Pfadoptimierung - Targeting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die <strong>Aktivität Optimieren</strong> unterstützt jetzt <strong>Targeting-Regeln</strong>. Mit Targeting-Regeln können Sie bestimmte Kriterien definieren, die Kundinnen und Kunden erfüllen müssen, um sich basierend auf Zielgruppensegmenten oder Profilattributen für einen bestimmten Journey-Pfad zu qualifizieren.</p>
-<p>Im Gegensatz zu Experimenten, bei denen Kundinnen und Kunden nach dem Zufallsprinzip Pfaden zugewiesen werden, verwendet das Targeting deterministische Logik, um sicherzustellen, dass die entsprechende Zielgruppe oder das entsprechende Kundenprofil zum gewünschten Pfad weitergeleitet wird.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Link zur JIRA-Aufgabe DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -239,7 +221,7 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsfragmente mit Adobe Experience Manager</strong><br/></th>
+<th><strong>Verbesserungen an Adobe Experience Manager-Inhaltsfragmenten in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +233,12 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 <li>Sobald ein Fragment ausgewählt wurde, wird sein Kontext in der gesamten Nachricht beibehalten, sodass Autoren Fragmentfelder über Inhaltsblöcke hinweg wiederverwenden können, ohne die Auswahl erneut durchzuführen.</li>
 <li>In Journey Optimizer wurde eine neue spezielle Seite zur Auflistung von Inhaltsfragmenten eingeführt, um die Lebenszyklusverwaltung zu verbessern. Benutzende können nicht synchronisierte Fragmente und manuelle Synchronisierungen von Triggern identifizieren, um auf dem neuesten Stand zu bleiben.</li>
 <li>Die Unterstützung von Gebietsschemata und Varianten ermöglicht es Marketing-Experten jetzt, gezielter mit alternativen Versionen desselben Inhaltsfragments zu arbeiten.</li>
+<li>Sie können jetzt flexibel darauf zugreifen, wie Adobe Journey Optimizer auf Ihre Adobe Experience Manager-Inhalte zugreift. Diese Version bietet die Möglichkeit, <strong> Quell-Repository für Inhaltsfragmente </strong> wechseln, die in Ihren Journey und Kampagnen verwendet werden.</li>
+<li>Jetzt, mit <b>Managed Services</b> kompatibel, können Sie Adobe Experience Manager-Inhaltsfragmente direkt in Journey Optimizer anzeigen, darauf zugreifen und sie zur Personalisierung verwenden. Fügen Sie einfach Ihre Adobe Experience Manager Managed Services-Repository-URL in den Konfigurationseinstellungen als einmaliges Setup hinzu.</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">Link zur JIRA-Aufgabe DOCAC</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Link zur JIRA-Aufgabe DOCAC</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Link zur JIRA-Aufgabe DOCAC</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +247,18 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager-Repository-Konfiguration</strong><br/></th>
+<th><strong>Integration des KI-Assistenten mit Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt flexibel darauf zugreifen, wie Adobe Journey Optimizer auf Ihre Adobe Experience Manager-Inhalte zugreift. Diese Version bietet die Möglichkeit, <strong> Quell-Repository für Inhaltsfragmente </strong> wechseln, die in Ihren Journey und Kampagnen verwendet werden.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Link zur JIRA-Aufgabe DOCAC</a></p>
+<p>Der KI-Assistent ruft jetzt automatisch <b>markenbestätigte Bilder</b> direkt aus Ihrer Adobe Experience Manager Assets ab, wenn E-Mails, Web-Seiten und Push-Benachrichtigungen generiert werden. Dadurch entfällt die Notwendigkeit, die Assets manuell zu durchsuchen oder sich auf generische KI-Fallbacks zu verlassen, um sicherzustellen, dass jedes Bild perfekt präzise und markenkonform ist.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Link zur JIRA-Aufgabe DOCAC</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* **Integration nativer Adobe Experience Manager-Inhaltsfragmente (Managed Services)** - Jetzt kompatibel mit **Managed Services** können Sie Adobe Experience Manager-Inhaltsfragmente direkt in Journey Optimizer zur Personalisierung anzeigen, darauf zugreifen und sie verwenden. Fügen Sie einfach Ihre Adobe Experience Manager Managed Services-Repository-URL in den Konfigurationseinstellungen als einmaliges Setup hinzu.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Link zur DOCAC JIRA-Aufgabe</a>
-
-* **KI-Assistentenintegration mit Adobe Experience Manager Asset Essentials** - Der KI-Assistent ruft jetzt automatisch **markenbestätigte Bilder“** der Generierung von E-Mails, Web-Seiten und Push-Benachrichtigungen direkt aus Ihrer Adobe Experience Manager Assets ab. Dadurch entfällt die Notwendigkeit, die Assets manuell zu durchsuchen oder sich auf generische KI-Fallbacks zu verlassen, um sicherzustellen, dass jedes Bild perfekt präzise und markenkonform ist.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Benutzerdefinierte Kanäle {#june-26-channels}
 
