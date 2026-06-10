@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +85,11 @@ Orchestrierte Kampagnen in dieser Version weisen die folgenden Funktionen und Ve
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Unterstützung der ruhigen Stunden für koordinierte Kampagnen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt <strong>ruhige Stunden</strong> auf koordinierte Kampagnen anwenden. Mit „Ruhige Stunden“ können Sie <strong>zeitbasierte Ausschlüsse“ definieren</strong> um zu verhindern, dass Nachrichten während bestimmter Zeiträume gesendet werden. So können Sie Kundenpräferenzen und Compliance-Anforderungen in allen Anwendungsfällen der Kampagnenorchestrierung erfüllen.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">Link zur JIRA-Aufgabe DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Schleifenbasierte Personalisierung für relationale Daten in orchestrierten Kampagnen** - Der Personalisierungseditor unterstützt jetzt einen **Schleifenblock**, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">Link zur DOCAC JIRA-Aufgabe</a>
 
 * **Personalisieren von E-Mail-Absenderdetails pro Empfänger und Kampagne** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von **E-Mail-Header-Feldern**, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten. Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Link zur DOCAC JIRA-Aufgabe</a>
-
-* **Vereinfachung der Zielgruppendimension in orchestrierten Kampagnen** - Die aktive **Zielgruppendimension** wird jetzt auf der Workflow-Arbeitsfläche angezeigt, sodass Sie sehen können, welche Dimension von einer Kanalaktivität verwendet wird. Der Segmentierungsfluss für mehrere Entitäten ist einfacher, da Sie keine separate Aktivität vom Typ „Dimensionsänderung“ mehr benötigen. Darüber hinaus können Sie jetzt explizit auswählen, ob Nachrichten auf Profilebene oder auf sekundärer Dimensionsebene gesendet werden sollen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link zur DOCAC JIRA-Aufgabe</a>
 
 * **Überschreiben des Standard-Ausführungsfelds in Kampagnen** - Zuvor auf Journey-Ebene verfügbar, können Sie jetzt das Standard-**Ausführungsfeld** überschreiben, das in den Kampagnenparametern global für Ihre E-Mail-, SMS- und WhatsApp-Sendungen festgelegt ist.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Link zur DOCAC JIRA-Aufgabe</a>
@@ -211,7 +187,7 @@ In dieser Version wurden folgende Verbesserungen für Mobile Messaging vorgenomm
 * **LINE-Kanal - Authoring-**: Die Benutzeroberfläche des LINE-Kanals wurde um erweiterte Funktionen zur Nachrichtenerstellung erweitert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Karussell und Flex (JSON-Editor) sowie Gerätevorschauen in Echtzeit. Benutzer können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen Hinzufügen, Entfernen und Neu anordnen) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**&#x200B;SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
+* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Inhalte und Integrationen {#june-26-content}
