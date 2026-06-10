@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 ### Journeys {#june-26-journeys}
 
 In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journey implementiert.
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey-Schlichtung - Formeln</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt <strong>Formeln</strong> verwenden, um Journey basierend </strong> Kundenprofilattributen und Kontextfaktoren automatisch <strong>zu priorisieren und zu schlichten), um sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Link zur JIRA-Aufgabe DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Erhöhte Live-Journey-Grenze und neue**: Sie können jetzt bis zu **200 aktive Journey-** haben, die gegenüber der vorherigen Grenze von 100 erhöht wurden.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Link zur DOCAC JIRA-Aufgabe</a>
