@@ -24,7 +24,7 @@ ht-degree: 76%
 >id="ajo_journey_action_content_card"
 >title="Inhaltskarten-Aktion"
 >abstract="Bei einer eingehenden Inhaltskartenaktion wird Profilen eine Inhaltskarte angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Inhaltskartenkonfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach dieser Aktivität wird **Knoten** Warten“ automatisch eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die Inhaltskarte anzuzeigen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 
 Inhaltskarten sind eingehende In-App-Erlebnisse, die personalisierte Inhalte wie Werbeaktionen, Ankündigungen oder Empfehlungen direkt auf einer dedizierten Oberfläche Ihrer Mobile App anzeigen. Im Gegensatz zu unterbrechenden Nachrichten bleiben sie in der App verfügbar, bis der Benutzer sie schließt oder sie durch Ihre Versandregeln ausgeblendet werden.
