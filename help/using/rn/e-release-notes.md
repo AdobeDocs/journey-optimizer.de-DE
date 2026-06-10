@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +49,8 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journe
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen <strong>Optimizer-Knoten</strong>, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
-<p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
+<p>Die <strong>Aktivität Optimieren</strong> unterstützt jetzt <strong>Targeting-Regeln</strong>. Mit Targeting-Regeln können Sie bestimmte Kriterien definieren, die Kundinnen und Kunden erfüllen müssen, um sich basierend auf Zielgruppensegmenten oder Profilattributen für einen bestimmten Journey-Pfad zu qualifizieren.</p>
+<p>Im Gegensatz zu Experimenten, bei denen Kundinnen und Kunden nach dem Zufallsprinzip Pfaden zugewiesen werden, verwendet das Targeting deterministische Logik, um sicherzustellen, dass die entsprechende Zielgruppe oder das entsprechende Kundenprofil zum gewünschten Pfad weitergeleitet wird.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Link zur JIRA-Aufgabe DOCAC</a></p>
 </td>
@@ -67,7 +67,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journe
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt <strong>Formeln</strong> verwenden, um die <strong>Journey-Prioritätswerte automatisch zu erhöhen</strong> basierend auf Kundenprofilattributen und Kontextfaktoren, um sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
+<p>Sie können jetzt <strong>Formeln</strong> verwenden, um Journey basierend </strong> Kundenprofilattributen und Kontextfaktoren automatisch <strong>zu priorisieren und zu schlichten), um sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Link zur JIRA-Aufgabe DOCAC</a></p>
 </td>
@@ -229,7 +229,7 @@ In dieser Version wurden folgende Verbesserungen für Mobile Messaging vorgenomm
 * **LINE-Kanal - Authoring-**: Die Benutzeroberfläche des LINE-Kanals wurde um erweiterte Funktionen zur Nachrichtenerstellung erweitert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Karussell und Flex (JSON-Editor) sowie Gerätevorschauen in Echtzeit. Benutzer können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen Hinzufügen, Entfernen und Neu anordnen) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **Journey Optimizer Resell - Nutzungsmetriken anzeigen** - Für Kunden, die SMS direkt über Adobe Journey Optimizer kaufen, wurde ein neues **SMS-**) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
+* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**&#x200B;SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Inhalte und Integrationen {#june-26-content}
@@ -305,7 +305,7 @@ In dieser Version stehen den Kanälen die folgenden Funktionen zur Verfügung.
 
 In dieser Version werden die folgenden Verbesserungen beim Reporting vorgenommen.
 
-* **Bot-Klicks für E-Mail- und SMS-Reporting ausschließen** - Um eine genauere Übersicht über die tatsächliche Kundeninteraktion zu erhalten, sind jetzt neue Schätzmetriken für die Journey-, Kampagnen- und Kanalberichte verfügbar. Diese Metriken helfen beim Filtern nicht-menschlicher Interaktionen (NHI) und Bot-Klicks aus Berichtsdaten:
+* **Neue geschätzte Klickmetriken für E-Mail- und SMS-Reporting** - Um eine genauere Übersicht über die tatsächliche Kundeninteraktion zu erhalten, sind jetzt neue geschätzte Metriken in Journey-, Kampagnen- und Kanalberichten verfügbar. Diese Metriken helfen beim Filtern nicht-menschlicher Interaktionen (NHI) und Bot-Klicks aus Berichtsdaten:
    * Geschätzte Klicks: Gesamtzahl der gezählten Klicks nach der Entfernung von identifiziertem Traffic, der nicht von Personen oder Bots stammt.
    * Geschätzte CTR: Geschätzte Klicks im Verhältnis zu den gesamten Sendungen.
    * Geschätzter CTOR nur für E-Mail: Geschätzte Klicks im Verhältnis zu den geschätzten Öffnungen.

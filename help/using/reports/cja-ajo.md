@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 91%
+source-wordcount: 475
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können
 
    Die folgenden [!DNL Journey Optimizer] können konfiguriert werden:
    * [Journey-Schritt-Ereignis](../data/datasets-query-examples.md#journey-step-event): Ermöglicht Ihnen zu sehen, wer in Ihre Journeys eintritt und wie weit sie kommen.
-   * [Nachrichten-Feedback/Tracking von Datensätzen](../data/datasets-query-examples.md#message-feedback-event-dataset): Ermöglicht Ihnen, Versandinformationen bezüglich Ihrer Nachrichten, die über [!DNL Journey Optimizer] gesendet worden sind, anzuzeigen.
+   * [Nachrichten-Feedback/Tracking von Datensätzen](../data/datasets-query-examples.md#message-feedback-event-dataset): Ermöglicht Ihnen, Versandinformationen bezüglich Ihrer Nachrichten, die über [!DNL Journey Optimizer] gesendet worden sind, anzuzeigen. Beachten Sie, dass der Nachrichten-Feedback-Ereignisdatensatz die Batch-Aufnahme verwendet - erwarten Sie in Ihren CJA-Berichten eine Datenlatenz von bis zu 2 Stunden.
    * [Entitäts- und Journey-Datensätze](../data/datasets-query-examples.md#entity-dataset): Ermöglicht Ihnen, Anzeigenamen zu suchen und diese in Ihrem Reporting zu verwenden.
 
 1. [Erstellen Sie eine Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} für die Konfiguration von Abmessungen und Metriken, die Sie für Ihren Bericht verwenden möchten.
@@ -73,7 +73,7 @@ Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics]
 
 * **In [!DNL Journey Optimizer]-Berichten schließt die Metrik „Gesendet“ auch die Metrik „Erneut versuchen“ ein.**
 
-  **[!UICONTROL Erneute Zustellversuche]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass die Metriken **[!UICONTROL Gesendet]** von [!DNL Customer Journey Analytics] niedrigere Werte anzeigen als in [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder die **[!UICONTROL Bounces]**-Metrik einbezogen.
+  **[!UICONTROL Wiederholungen]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass [!DNL Customer Journey Analytics] Metriken **[!UICONTROL Gesendet]** niedrigere Werte anzeigen als [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder **[!UICONTROL Bounces]** einbezogen.
 Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
 
 * **Berichte werden aus einer unterschiedlichen Datenquelle bereitgestellt.**

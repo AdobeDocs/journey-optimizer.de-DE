@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1041
-ht-degree: 92%
+source-wordcount: 1055
+ht-degree: 91%
 
 ---
 
@@ -70,9 +70,9 @@ In diesem Abschnitt werden die von [!DNL Journey Optimizer] verwendeten Systemda
 >
 > Systemdatensätze **dürfen nicht geändert werden**. Jede Änderung wird bei jeder Produktaktualisierung automatisch rückgängig gemacht.
 
-* Reporting
+* Berichterstellung
 
-   * _Reporting – Datensatz mit Nachrichten-Feedback-Ereignissen_: Versand-Logs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
+   * _Reporting – Datensatz mit Nachrichten-Feedback-Ereignissen_: Versand-Logs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. **Dieser Datensatz verwendet die Batch-Aufnahme - rechnen Sie mit einer Datenlatenz von bis zu 2 Stunden.**
    * _Reporting - E-Mail-Tracking-Erlebnis_ Ereignisdatensatz: Interaktionsprotokolle für den E-Mail-Kanal und WhatsApp-Kanal-Kontextdaten unter der `whatsAppChannelContext` Feldergruppe. Wird für das Reporting und die Erstellung von Zielgruppen verwendet. Zu den gespeicherten Informationen gehören vom Endbenutzer bei E-Mails durchgeführte Aktionen (Öffnungen, Klicks usw.) und WhatsApp-Interaktionen.
    * _Reporting – Push-Tracking-Erlebnisereignis-Datensatz_: Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen bei Push-Benachrichtigungen.
    * _Reporting – Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. Auch wichtig für die Erstellung von Berichten in Customer Journey Analytics für die Jahresanalyse. An Journey-Metadaten gebunden.
