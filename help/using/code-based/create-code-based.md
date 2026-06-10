@@ -7,17 +7,11 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 TQID: https://experienceleague.adobe.com/sXmKdCTKfU1Kjq2k7CeibiUw6z1DlW3J2vVOtCSiVFQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -31,7 +25,7 @@ ht-degree: 74%
 >id="ajo_journey_action_code_based"
 >title="Code-basierte Erlebnisaktion"
 >abstract="Eine Code-basierte Inbound-Erlebnisaktion bietet Profilen ein Code-basiertes Erlebnis, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Code-basierte Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach dieser Aktivität wird **Knoten** Warten“ automatisch eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Erlebnis anzuzeigen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 In [!DNL Journey Optimizer] können Sie Code-basierte Erlebnisse in einer Journey oder Kampagne erstellen.
 
@@ -111,7 +105,7 @@ Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne 
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie eine Code-basierte Erlebniskampagne erstellen.](#video)
 
@@ -171,4 +165,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

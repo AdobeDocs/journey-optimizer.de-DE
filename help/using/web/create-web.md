@@ -7,24 +7,12 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
 source-wordcount: 1741
@@ -38,7 +26,7 @@ ht-degree: 81%
 >id="ajo_journey_action_web"
 >title="Web-Aktion"
 >abstract="Bei einer eingehenden Aktion für ein Web-Erlebnis wird Profilen ein Web-Erlebnis angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Web-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Web-Erlebnis anzuzeigen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, das Web-Erlebnis, das Sie Ihrer Kundschaft bieten, durch eingehende Journeys oder Kampagnen zu personalisieren.
 
@@ -172,7 +160,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
 >title="Vorschau des Web-Erlebnisses"
 >abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
-Nachdem Sie [&#x200B; Web-Erlebnis mit &#x200B;](web-visual-editor.md) Web-Designer erstellt haben, können Sie Ihre geänderten Web-Seiten mit einer der beiden Simulationsmethoden in der Vorschau anzeigen:
+Nachdem Sie [ Web-Erlebnis mit ](web-visual-editor.md) Web-Designer erstellt haben, können Sie Ihre geänderten Web-Seiten mit einer der beiden Simulationsmethoden in der Vorschau anzeigen:
 
 * Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md)
 * Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen und ein Testprofil hinzuzufügen, um Ihre Web-Seite zu überprüfen.
@@ -300,4 +288,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
