@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1838
 ht-degree: 10%
 
 ---
@@ -120,7 +115,29 @@ In dieser Version wird die folgende Funktion zur Entscheidungsfindung verwendet.
 </tbody>
 </table>
 
-### E-Mail-Kanal {#june-26-email}
+### Kanäle {#june-26-channels}
+
+In dieser Version wird die folgende Funktion eingeführt.
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte ausgehende Kanäle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer führt jetzt <strong>Benutzerdefinierte Kanäle</strong> ein, eine neue Funktion, mit der Administratoren ausgehende HTTP-basierte Nachrichtenkanäle - wie WeChat, Kakao Talk, Messenger oder ein proprietärer Anbieter - über einen Kanal-Builder ohne Code direkt in Journey Optimizer importieren können.</p>
+<p>Nach der Konfiguration sind benutzerdefinierte Kanäle kampagnenübergreifend, über Journey-Kanäle und über orchestrierte Kampagnen hinweg verfügbar und verfügen über die gleichen umfassenden Funktionen wie native Kanäle: Personalisierung mit dem Ausdruckseditor, Inhaltsexperimentierung, Vorschau und Testversand, vorkonfiguriertes Reporting sowie Durchsetzung von Einverständnis und Governance. Dadurch wird die Lücke gefüllt, die zuvor durch benutzerdefinierte Aktionen geschlossen wurde, die auf Journey beschränkt waren und denen es an dediziertem Inhaltserstellen fehlte.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">Link zur JIRA-Aufgabe DOCAC</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### E-Mail {#june-26-email}
 
 In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-Mail-Kanal bereitgestellt.
 
@@ -181,12 +198,6 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 * **Unterstützung des Textmodus in Fragmenten** - Um textbasierte E-Mail-Workflows zu unterstützen, können Sie jetzt Textversionen Ihrer visuellen Fragmente erstellen und verwalten, um sie optimal in der Nur-Text-Version von E-Mails zu verwenden, die dieses Fragment enthalten. Bei Verwendung eines Fragments, das vor der aktuellen Version erstellt wurde, kann die Textversion des Fragments falsch gerendert werden - sowohl in der E-Mail-Designer als auch in der endgültigen E-Mail, die an Ihre Empfängerinnen und Empfänger gesendet wird. Um optimale Ergebnisse mit älteren Fragmenten zu erzielen, bearbeiten, speichern und veröffentlichen Sie jedes Fragment erneut.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **Benchmarks für den Batch-Versand wurden mit kundenorientierten Szenarien aktualisiert** - Die Benchmarks für den Batch-Versand von Adobe Journey Optimizer wurden aktualisiert, um die Leistung in Produktionsqualität für mehrere Personalisierungsszenarien widerzuspiegeln - von einfachen Sendungen bis hin zu komplexen dynamischen Inhalten mit bedingter Logik. Die aktualisierten Metriken sind jetzt in der Produktdokumentation verfügbar, damit Kunden ihre Messaging-Volumes genau planen können.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">Link zur DOCAC JIRA-Aufgabe</a>
-
-* **Feedback Loop OTP-Prozess für benutzerdefinierte Subdomains** - Der Konfigurationsprozess für benutzerdefinierte Subdomains (FBL) wurde verbessert, indem der Yahoo Sender Hub **One-Time Password (OTP)** direkt in der Produktoberfläche angezeigt wird. Benutzer können jetzt automatisch das OTP abrufen und anzeigen, das während der Verifizierung der Eigentümerschaft der Yahoo Sender Hub-Domain generiert wurde.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">Link zur DOCAC JIRA-Aufgabe</a>
-
 ### Mobile Messaging (SMS, MMS, RCS und LINE) {#june-26-mobile}
 
 In dieser Version wurden folgende Verbesserungen für Mobile Messaging vorgenommen.
@@ -197,7 +208,7 @@ In dieser Version wurden folgende Verbesserungen für Mobile Messaging vorgenomm
 * **LINE-Kanal - Authoring-**: Die Benutzeroberfläche des LINE-Kanals wurde um erweiterte Funktionen zur Nachrichtenerstellung erweitert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Karussell und Flex (JSON-Editor) sowie Gerätevorschauen in Echtzeit. Benutzer können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen Hinzufügen, Entfernen und Neu anordnen) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**&#x200B;SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
+* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Inhalte und Integrationen {#june-26-content}
@@ -246,28 +257,6 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 </tbody>
 </table>
 
-### Benutzerdefinierte Kanäle {#june-26-channels}
-
-In dieser Version stehen den Kanälen die folgenden Funktionen zur Verfügung.
-
-<table>
-<thead>
-<tr>
-<th><strong>Benutzerdefinierter ausgehender Kanal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer führt jetzt <strong>Benutzerdefinierte Kanäle</strong> ein, eine neue Funktion, mit der Administratoren ausgehende HTTP-basierte Nachrichtenkanäle - wie WeChat, Kakao Talk, Messenger oder ein proprietärer Anbieter - über einen Kanal-Builder ohne Code direkt in Journey Optimizer importieren können.</p>
-<p>Nach der Konfiguration sind benutzerdefinierte Kanäle kampagnenübergreifend, über Journey-Kanäle und über orchestrierte Kampagnen hinweg verfügbar und verfügen über die gleichen umfassenden Funktionen wie native Kanäle: Personalisierung mit dem Ausdruckseditor, Inhaltsexperimentierung, Vorschau und Testversand, vorkonfiguriertes Reporting sowie Durchsetzung von Einverständnis und Governance. Dadurch wird die Lücke gefüllt, die zuvor durch benutzerdefinierte Aktionen geschlossen wurde, die auf Journey beschränkt waren und denen es an dediziertem Inhaltserstellen fehlte.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">Link zur JIRA-Aufgabe DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Kampagnen {#june-26-campaigns}
 
 In dieser Version werden Kampagnen mit der folgenden Verbesserung vorgenommen.
@@ -292,6 +281,12 @@ In dieser Version werden die folgenden Verbesserungen bei der Konfiguration und 
 
 * **Web Application Firewall (WAF) IP-Zulassungslisten** - Adobe Journey Optimizer unterstützt jetzt die WAF-IP-Zulassungsliste für Landingpages, sodass Unternehmen durchsetzen können, dass alle eingehenden Anfragen ausschließlich über die konfigurierte WAF-Infrastruktur weitergeleitet werden. Mit dieser Verbesserung können Kundinnen und Kunden Journey Optimizer so konfigurieren, dass direkte Anfragen, die die WAF-Ebene umgehen, abgelehnt werden. So wird sichergestellt, dass in Tools wie Imperva definierte Sicherheitsrichtlinien konsistent angewendet werden. Diese Funktion verbessert die Sicherheitslage für Unternehmen mit strengen Anforderungen an den Netzwerkzugriff und gibt ihnen die volle Kontrolle über den Traffic-Fluss zu ihren von Journey Optimizer gehosteten Landingpages.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">Link zur DOCAC JIRA-Aufgabe</a>
+
+* **Feedback Loop OTP-Prozess für benutzerdefinierte Subdomains** - Der Konfigurationsprozess für benutzerdefinierte Subdomains (FBL) wurde verbessert, indem der Yahoo Sender Hub **One-Time Password (OTP)** direkt in der Produktoberfläche angezeigt wird. Benutzer können jetzt automatisch das OTP abrufen und anzeigen, das während der Verifizierung der Eigentümerschaft der Yahoo Sender Hub-Domain generiert wurde.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">Link zur DOCAC JIRA-Aufgabe</a>
+
+* **Benchmarks für den Batch-Versand wurden mit kundenorientierten Szenarien aktualisiert** - Die Benchmarks für den Batch-Versand von Adobe Journey Optimizer wurden aktualisiert, um die Leistung in Produktionsqualität für mehrere Personalisierungsszenarien widerzuspiegeln - von einfachen Sendungen bis hin zu komplexen dynamischen Inhalten mit bedingter Logik. Die aktualisierten Metriken sind jetzt in der Produktbeschreibung verfügbar, damit Kunden ihre Messaging-Volumes genau planen können.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">Link zur DOCAC JIRA-Aufgabe</a>
 
 * **Datensatz wechselt vom Streaming- in den Batch** Modus - Der AJO-Nachrichten-Feedback-Ereignisdatensatz wechselt vom Streaming- in **Batch-Erfassungsmodus**. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14771">Link zur DOCAC JIRA-Aufgabe</a>
