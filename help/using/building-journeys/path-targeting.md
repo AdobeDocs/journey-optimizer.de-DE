@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 88%
+source-wordcount: 797
+ht-degree: 89%
 
 ---
 
@@ -25,10 +25,6 @@ ht-degree: 88%
 >id="ajo_path_targeting_fallback"
 >title="Was ist ein Fallback-Pfad?"
 >abstract="Mit Fallback-Pfaden kann Ihre Zielgruppe einen alternativen Pfad beschreiten, falls keine der Targeting-Regeln erfüllt ist. </br>Wenn diese Option nicht ausgewählt ist, wird die Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, nicht in den Fallback-Pfad aufgenommen und die Journey wird beendet."
-
->[!AVAILABILITY]
->
->Diese Funktion ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
 
 Mit Targeting-Regeln können Sie auf der Grundlage bestimmter Zielgruppensegmente bestimmte Regeln oder Qualifizierungen festlegen, die erfüllt sein müssen, damit eine Kundin oder ein Kunde zum Eintritt in einen der Journey-Pfade berechtigt ist<!-- depending on profile attributes or contextual attributes-->.
 
