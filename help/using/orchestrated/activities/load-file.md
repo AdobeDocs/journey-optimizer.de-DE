@@ -5,18 +5,14 @@ title: Verwenden der Aktivität „Datei laden“
 description: Erfahren Sie, wie Sie mit der Aktivität „Datei laden“ eine orchestrierte Kampagnenzielgruppe aus einer CSV- oder TXT-Datei ansprechen können, ohne die Datei in Adobe Experience Platform aufzunehmen
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +31,15 @@ Die Aktivität **[!UICONTROL Datei laden]** ist eine **[!UICONTROL Daten-Managem
 >
 >Die Aktivität ist derzeit nicht für die Verwendung mit **Healthcare Shield** verfügbar.
 
+## Berechtigungen {#permissions}
+
+Um die Aktivität **[!UICONTROL Datei laden]** in einer orchestrierten Kampagne verwenden zu können, müssen Benutzenden die richtigen Berechtigungen zugewiesen werden. Beide Berechtigungen sind in der Benutzeroberfläche für Berechtigungen unter **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Orchestrierte]**) verfügbar.
+
+* **[!UICONTROL Datei in orchestrierten Kampagnen anzeigen]** - Gewährt schreibgeschützten Zugriff. Benutzer mit dieser Berechtigung können die Ergebnisse einer orchestrierten Kampagne, die eine Aktivität **[!UICONTROL Datei laden]** enthält, in der Vorschau anzeigen, aber keine Aktivität hinzufügen oder eine Datei hochladen.
+* **[!UICONTROL Datei in orchestrierten Kampagnen verwalten]** - Erforderlich, um eine Aktivität **[!UICONTROL Datei laden]** zur Kampagnenfläche hinzuzufügen und Dateien hochzuladen. Weisen Sie diese Berechtigung allen Benutzern zu, die eine Aktivität vom Typ „Datei laden **[!UICONTROL erstellen oder]** müssen.
+
+Anweisungen zum Zuweisen von Berechtigungen finden Sie unter [Verwalten von Benutzern und Rollen](../../administration/permissions.md).
+
 ## Leitlinien und Einschränkungen {#limitations}
 
 Die folgenden Einschränkungen gelten für die Aktivität Datei laden :
@@ -44,6 +49,42 @@ Die folgenden Einschränkungen gelten für die Aktivität Datei laden :
 * Hochgeladene Daten werden bei der Kampagnenausführung verwendet und nicht als Adobe Experience Platform-Datensatz gespeichert.
 
 Einschränkungen für Kanal- und Arbeitsflächen-Aktivitäten finden Sie unter [Leitplanken und Einschränkungen](../guardrails.md#activities-limitations).
+
+## Voraussetzungen {#prerequisites}
+
+Bevor Sie eine Aktivität **[!UICONTROL Datei laden]** zu einer orchestrierten Kampagne hinzufügen und sie mit einer Nachrichtenaktivität verbinden können, muss ein Administrator die folgende einmalige Einrichtung durchführen.
+
+### Erstellen einer Zieldimension vom Typ Datei {#file-target-dimension}
+
+Mit **[!UICONTROL Profil-Ziel-Dimension]** vom Typ **[!UICONTROL Datei]** können orchestrierte Kampagnen Empfänger aus einer hochgeladenen Datei anstelle eines Adobe Experience Platform-Schemas auflösen. Er definiert den Identity-Namespace und das Kennungsfeld, die bei der Verarbeitung der Audience-Datei bei der Kampagnenausführung verwendet werden.
+
+Erstellen Sie eine Zieldimension unter **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]** > **[!UICONTROL Campaign Target Dimension]**. [Erfahren Sie mehr über Zieldimensionen](../target-dimension.md)
+
+Achten Sie beim Erstellen der Zieldimension für dateibasiertes Targeting auf Folgendes:
+
+* Legen Sie **[!UICONTROL Dimension-Quelle]** auf &quot;**[!UICONTROL &quot;]**.
+* Wählen Sie den **[!UICONTROL Identity-Namespace]** aus, der der Kennungsspalte in Ihren Dateien entspricht, z. B **[!UICONTROL „E-Mail]**.
+* Geben Sie den **[!UICONTROL Identitätsfeldpfad]** ein. Verwenden Sie das Dateifeld, das die Kennung enthält, z. B. `email` wenn Ihre hochgeladenen Dateien eine `email` Spalte enthalten.
+
+>[!CAUTION]
+>
+>Die Schema- und Identitätswerte können nach dem Speichern der Zieldimension nicht mehr geändert werden. Überprüfen Sie den Identity-Namespace und den Identitätsfeldpfad, bevor Sie speichern.
+
+### Erstellen einer Kanalkonfiguration für den dateibasierten Versand {#file-channel-configuration}
+
+Erstellen Sie eine dedizierte Kanalkonfiguration, die die Zieldimension vom Typ Datei verwendet. Diese Konfiguration wird in der Nachrichtenaktivität ausgewählt, die der Aktivität **[!UICONTROL Datei laden]** auf der Kampagnen-Arbeitsfläche folgt.
+
+1. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Kanalkonfigurationen]** und erstellen Sie eine neue Konfiguration.
+
+1. Wählen **[!UICONTROL unter „Ausführungsdetails]** die Registerkarte **[!UICONTROL Orchestrierte Kampagnen]** und aktivieren Sie die Konfiguration für orchestrierte Kampagnen.
+
+1. Wählen Sie **[!UICONTROL Feld Profil-Dimension]** die im vorherigen Schritt erstellte Zieldimension „Dateityp“ aus.
+
+1. Füllen Sie die verbleibenden Kanalkonfigurationsfelder aus und speichern Sie. [Erfahren Sie mehr über Kanalkonfigurationen für orchestrierte Kampagnen](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>Standardmäßige profilbasierte Kanalkonfigurationen funktionieren nicht mit einer dateibasierten Zielgruppe. Verwenden Sie eine Kanalkonfiguration, die auf die Dimension Dateityp für jede Nachrichtenaktivität abzielt, die einer Aktivität vom Typ **[!UICONTROL Datei laden]** folgt.
 
 ## Konfigurieren der Aktivität „Datei laden“ {#load-file-configuration}
 
@@ -168,7 +209,7 @@ Verwenden Sie eine Beispieldatei zum Konfigurieren von **[!UICONTROL Spalten]** 
 
 Geben Sie die Datei an, die bei der Kampagnenausführung geladen werden soll, und wie jede Zeile mit den vorhandenen Empfängern abgeglichen werden soll.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Target]** die CSV- oder TXT-Datei aus, die Folgendes enthält:
+1. Wählen Sie im Abschnitt **[!UICONTROL Target]** die CSV- oder TXT-Datei aus, die die anzusprechende Audience enthält.
 
    ![](../assets/load-file-target.png)
 
