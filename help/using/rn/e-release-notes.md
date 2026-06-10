@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
+source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
 workflow-type: tm+mt
-source-wordcount: 1838
+source-wordcount: 1791
 ht-degree: 10%
 
 ---
@@ -200,8 +200,10 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 * **Rich-Text in bearbeitbaren Feldern für Fragmente** - Sie können jetzt anpassbaren Fragmenten, die in Ihren E-Mail-Inhalten verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **Unterstützung des Textmodus in Fragmenten** - Um textbasierte E-Mail-Workflows zu unterstützen, können Sie jetzt Textversionen Ihrer visuellen Fragmente erstellen und verwalten, um sie optimal in der Nur-Text-Version von E-Mails zu verwenden, die dieses Fragment enthalten. Bei Verwendung eines Fragments, das vor der aktuellen Version erstellt wurde, kann die Textversion des Fragments falsch gerendert werden - sowohl in der E-Mail-Designer als auch in der endgültigen E-Mail, die an Ihre Empfängerinnen und Empfänger gesendet wird. Um optimale Ergebnisse mit älteren Fragmenten zu erzielen, bearbeiten, speichern und veröffentlichen Sie jedes Fragment erneut.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link zur DOCAC JIRA-Aufgabe</a>
+<!--
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link to DOCAC JIRA task</a>
+-->
 
 ### Mobile Messaging (SMS, MMS, RCS und LINE) {#june-26-mobile}
 
