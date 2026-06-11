@@ -6,17 +6,12 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
 workflow-type: tm+mt
-source-wordcount: 1660
+source-wordcount: 1815
 ht-degree: 6%
 
 ---
@@ -96,6 +91,13 @@ In dieser Version wird die folgende Funktion zur Entscheidungsfindung verwendet.
 </tbody>
 </table>
 
+* **Dynamische Angebotsattribute** - Angebotsattribute in Decisioning können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketer weniger, flexiblere Entscheidungselemente verwalten können.
+
+* **Frequenzlimitierung auf Platzierungsebene in Decisioning** - Frequenzlimitierungsregeln in Decisioning können jetzt auf einzelne Platzierungen angewendet werden, sodass Sie besser steuern können, wie oft ein Angebot auf einer bestimmten Oberfläche angezeigt wird. Zwei Modi sind verfügbar:
+
+   * Platzierungsspezifische Begrenzung: Definieren Sie eine Begrenzung, die nur gilt, wenn das Angebot an einer ausgewählten Platzierung angezeigt wird.
+   * Begrenzung pro Platzierung: Wenden Sie eine Begrenzung unabhängig auf jede Platzierung an, an der das Angebot angezeigt wird, sodass jede Platzierung ihren eigenen Begrenzungszähler beibehält.
+
 ### E-Mail {#june-26-email}
 
 In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-Mail-Kanal bereitgestellt.
@@ -145,6 +147,8 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 </tbody>
 </table>
 
+* **Erweiterter Konverter von Bildern zu HTML** - Eine neue Version der Funktion „Konverter von Bildern zu HTML&quot; ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Erstellung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
+
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 <table>
@@ -156,7 +160,8 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tbody>
 <tr>
 <td>
-<p>Die E-Mail-Designer enthält jetzt eine Bibliothek mit einsatzbereiten Layout-Komponenten - wie Kopf- und Produktkarten (1, 2 oder 3 Spalten), Informationsblöcke und Fußzeilen -, die Sie direkt in die E-Mail-Arbeitsfläche ziehen und dort ablegen können. Jede Komponente verfügt über vorkonfigurierte bearbeitbare Eigenschaften (Bild, Titel, Text, Schaltfläche, Links) und kann über die WYSIWYG-Benutzeroberfläche vollständig angepasst werden, wodurch die E-Mail-Erstellung beschleunigt wird, ohne dass Sie Strukturen von Grund auf neu erstellen müssen.</p>
+<p>E-Mail-Designer enthält jetzt eine Bibliothek einsatzbereiter Layout-Module - wie Kopf- und Produktkarten, Informationsblöcke und Fußzeilen -, die Sie per Drag-and-Drop direkt in Ihre E-Mail-Arbeitsfläche ziehen können.</p>
+<p>Jedes Modul ist mit bearbeitbaren Eigenschaften (Bild, Titel, Text, Schaltfläche, Links) vorkonfiguriert und kann über die WYSIWYG-Benutzeroberfläche vollständig angepasst werden, wodurch die E-Mail-Erstellung beschleunigt wird, ohne dass Sie Strukturen von Grund auf neu erstellen müssen.</p>
 <p>Verfügbarkeitsdatum: 22. Juni 2026</p>
 </td>
 </tr>
