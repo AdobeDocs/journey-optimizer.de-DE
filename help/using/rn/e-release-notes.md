@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
+source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
 workflow-type: tm+mt
-source-wordcount: 1756
-ht-degree: 7%
+source-wordcount: 1557
+ht-degree: 8%
 
 ---
 
@@ -245,12 +245,6 @@ In dieser Version werden die folgenden Verbesserungen beim Reporting vorgenommen
 ### Konfiguration {#june-26-configuration}
 
 In dieser Version werden die folgenden Verbesserungen bei der Konfiguration und Administration vorgenommen.
-
-* **Web Application Firewall (WAF) IP-Zulassungslisten** - Adobe Journey Optimizer unterstützt jetzt die WAF-IP-Zulassungsliste für Landingpages, sodass Unternehmen durchsetzen können, dass alle eingehenden Anfragen ausschließlich über die konfigurierte WAF-Infrastruktur weitergeleitet werden. Mit dieser Verbesserung können Kundinnen und Kunden Journey Optimizer so konfigurieren, dass direkte Anfragen, die die WAF-Ebene umgehen, abgelehnt werden. So wird sichergestellt, dass in Tools wie Imperva definierte Sicherheitsrichtlinien konsistent angewendet werden. Diese Funktion verbessert die Sicherheitslage für Unternehmen mit strengen Anforderungen an den Netzwerkzugriff und gibt ihnen die volle Kontrolle über den Traffic-Fluss zu ihren von Journey Optimizer gehosteten Landingpages.
-
-* **Feedback Loop OTP-Prozess für benutzerdefinierte Subdomains** - Der Konfigurationsprozess für benutzerdefinierte Subdomains (FBL) wurde verbessert, indem der Yahoo Sender Hub **One-Time Password (OTP)** direkt in der Produktoberfläche angezeigt wird. Benutzer können jetzt automatisch das OTP abrufen und anzeigen, das während der Verifizierung der Eigentümerschaft der Yahoo Sender Hub-Domain generiert wurde.
-
-* **Benchmarks für den Batch-Versand wurden mit kundenorientierten Szenarien aktualisiert** - Die Benchmarks für den Batch-Versand von Adobe Journey Optimizer wurden aktualisiert, um die Leistung in Produktionsqualität für mehrere Personalisierungsszenarien widerzuspiegeln - von einfachen Sendungen bis hin zu komplexen dynamischen Inhalten mit bedingter Logik. Die aktualisierten Metriken sind jetzt in der Produktbeschreibung verfügbar, damit Kunden ihre Messaging-Volumes genau planen können.
 
 * **Datensatz wechselt vom Streaming- in den Batch** Modus - Der AJO-Nachrichten-Feedback-Ereignisdatensatz wechselt vom Streaming- in **Batch-Erfassungsmodus**. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
 
