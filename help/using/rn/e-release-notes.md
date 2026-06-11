@@ -6,18 +6,13 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +91,9 @@ In dieser Version wird die folgende Funktion zur Entscheidungsfindung verwendet.
 </tbody>
 </table>
 
-### Kanäle {#june-26-channels}
-
-In dieser Version wird die folgende Funktion eingeführt.
-
-<table>
-<thead>
-<tr>
-<th><strong>Benutzerdefinierte ausgehende Kanäle</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer führt jetzt <strong>Benutzerdefinierte Kanäle</strong> ein, eine neue Funktion, mit der Administratoren ausgehende HTTP-basierte Nachrichtenkanäle - wie WeChat, Kakao Talk, Messenger oder ein proprietärer Anbieter - über einen Kanal-Builder ohne Code direkt in Journey Optimizer importieren können.</p>
-<p>Nach der Konfiguration sind benutzerdefinierte Kanäle kampagnenübergreifend, über Journey-Kanäle und über orchestrierte Kampagnen hinweg verfügbar und verfügen über die gleichen umfassenden Funktionen wie native Kanäle: Personalisierung mit dem Ausdruckseditor, Inhaltsexperimentierung, Vorschau und Testversand, vorkonfiguriertes Reporting sowie Durchsetzung von Einverständnis und Governance. Dadurch wird die Lücke gefüllt, die zuvor durch benutzerdefinierte Aktionen geschlossen wurde, die auf Journey beschränkt waren und denen es an dediziertem Inhaltserstellen fehlte.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### E-Mail {#june-26-email}
 
 In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-Mail-Kanal bereitgestellt.
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +120,45 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tr>
 <td>
 <p>Mit dieser neuen Option können Sie <strong>Größe der HTML reduzieren</strong> in einer E-Mail, indem Sie unnötige Leerzeichen, Kommentare und redundanten Code entfernen - ohne das Aussehen der E-Mail zu ändern. Dies verbessert die Zustellbarkeit (einige E-Mail-Anbieter lehnen übergroße E-Mails ab oder kennzeichnen sie) und kann die Ladezeit für Empfänger verkürzen.</p>
-<p>Verfügbarkeitsdatum: 10. Juni 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Rich-Text in bearbeitbaren Feldern für Fragmente** - Sie können jetzt anpassbaren Fragmenten, die in Ihren E-Mail-Inhalten verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
+<table>
+<thead>
+<tr>
+<th><strong>Rich-Text in bearbeitbaren Feldern für Fragmente</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Rich-Text zu anpassbaren Fragmenten hinzufügen, die in Ihren E-Mail-Inhalten verwendet werden. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Module in der E-Mail-Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die E-Mail-Designer enthält jetzt eine Bibliothek mit einsatzbereiten Layout-Komponenten - wie Kopf- und Produktkarten (1, 2 oder 3 Spalten), Informationsblöcke und Fußzeilen -, die Sie direkt in die E-Mail-Arbeitsfläche ziehen und dort ablegen können. Jede Komponente verfügt über vorkonfigurierte bearbeitbare Eigenschaften (Bild, Titel, Text, Schaltfläche, Links) und kann über die WYSIWYG-Benutzeroberfläche vollständig angepasst werden, wodurch die E-Mail-Erstellung beschleunigt wird, ohne dass Sie Strukturen von Grund auf neu erstellen müssen.</p>
+<p>Verfügbarkeitsdatum: 22. Juni 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Mobile Messaging (SMS, MMS, RCS und LINE) {#june-26-mobile}
 
