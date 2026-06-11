@@ -6,15 +6,10 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +149,7 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 
 * **Erweiterter Konverter von Bildern zu HTML** - Eine neue Version der Funktion „Konverter von Bildern zu HTML&quot; ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Erstellung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar **Informationen unten können sich ändern**
 
 <table>
 <thead>
@@ -239,7 +234,7 @@ In dieser Version werden die folgenden Verbesserungen beim Reporting vorgenommen
 
 * **Geschätzte Klicks für E-Mail- und SMS-Berichte** - Eine neue **Geschätzte Klicks**-Metrik ist jetzt in Journey-, Kampagnen- und Kanalberichten für E-Mail und SMS verfügbar. Diese Metrik schließt identifizierten Traffic von sowohl als auch Nicht-Human Interaction (NHI) aus, um einen klareren Überblick über die echte Kundeninteraktion zu erhalten. Die Metrik Bestehende Klicks bleibt verfügbar und zeigt weiterhin die Gesamtklicks an.
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar **Informationen unten können sich ändern**
 
 * **Neue geschätzte Klickmetriken für E-Mail- und SMS-Reporting** - Um eine genauere Übersicht über die tatsächliche Kundeninteraktion zu erhalten, sind jetzt neue geschätzte Metriken in Journey-, Kampagnen- und Kanalberichten verfügbar. Diese Metriken helfen beim Filtern nicht-menschlicher Interaktionen (NHI) und Bot-Klicks aus Berichtsdaten:
 
@@ -256,7 +251,7 @@ In dieser Version werden die folgenden Verbesserungen bei der Konfiguration und 
 
 * **Datensatz wechselt vom Streaming- in den Batch** Modus - Der AJO-Nachrichten-Feedback-Ereignisdatensatz wechselt vom Streaming- in **Batch-Erfassungsmodus**. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar **Informationen unten können sich ändern**
 
 * **Web Application Firewall (WAF) IP Whitelisting** - Adobe Journey Optimizer unterstützt jetzt die IP-Whitelisting von Web Application Firewall (WAF) für Landingpages, sodass Unternehmen durchsetzen können, dass alle eingehenden Anfragen ausschließlich über ihre konfigurierte WAF-Infrastruktur weitergeleitet werden. Mit dieser Verbesserung können Kundinnen und Kunden Journey Optimizer so konfigurieren, dass direkte Anfragen, die die WAF-Ebene umgehen, abgelehnt werden. So wird sichergestellt, dass in Tools wie Imperva definierte Sicherheitsrichtlinien konsistent angewendet werden. Diese Funktion verbessert die Sicherheitslage für Unternehmen mit strengen Anforderungen an den Netzwerkzugriff und gibt ihnen die volle Kontrolle über den Traffic-Fluss zu ihren von AJO gehosteten Landingpages.
 
