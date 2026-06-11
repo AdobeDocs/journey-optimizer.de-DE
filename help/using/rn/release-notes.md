@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
+source-git-commit: b7554a029037a3e5d31b824b6b36343daa6728e9
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,7 +169,7 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* [!BADGE Wichtig]{type=Informative} **AJO-Nachrichten-Feedback-Ereignisdatensatz, der zur Batch-Aufnahme** wird - Der **AJO-Nachrichten-Feedback-** Ereignisdatensatz) wechselt von der Streaming-Aufnahme zur Batch-Aufnahme. Erwarten Sie daher für diesen Datensatz eine Datenlatenz von bis zu 2 Stunden. Wenn Sie Berichte in Customer Journey Analytics erstellt haben oder Abfragen mithilfe dieses Datensatzes ausführen, berücksichtigen Sie in Zukunft diese erhöhte Latenz. [Weitere Informationen](../data/get-started-datasets.md)
+* [!BADGE Wichtig]{type=Informative} **AJO-Nachrichten-Feedback-Ereignisdatensatz, der zur Batch-Aufnahme** wird - Der **AJO-Nachrichten-Feedback-** Ereignisdatensatz) wechselt von der Streaming-Aufnahme zur Batch-Aufnahme. Erwarten Sie daher für diesen Datensatz eine Datenlatenz von bis zu 2 Stunden. Wenn Sie Berichte in Customer Journey Analytics erstellt haben oder Abfragen mithilfe dieses Datensatzes ausführen, berücksichtigen Sie in Zukunft diese erhöhte Latenz. [Weitere Informationen](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   Verfügbarkeitsdatum: 10. Juni 2026
 
