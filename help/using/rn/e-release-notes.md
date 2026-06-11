@@ -6,18 +6,13 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 6%
+source-wordcount: 1921
+ht-degree: 5%
 
 ---
 
@@ -55,20 +50,20 @@ Orchestrierte Kampagnen in dieser Version weisen die folgenden Funktionen und Ve
 <table>
 <thead>
 <tr>
-<th><strong>Laden der Dateiaktivität in orchestrierten Kampagnen</strong><br/></th>
+<th><strong>Dateibasiertes Targeting in koordinierten Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Orchestrierte Kampagnen unterstützen jetzt das Laden einer <strong>CSV- oder TXT-Datei</strong> direkt in die Kampagnen-Arbeitsfläche als Zielgruppe, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Dies unterstützt Ad-hoc-Sendungen oder Partnerlisten-Kampagnen, bei denen der Aufbau einer vollständigen Aufnahme-Pipeline nicht praktisch ist.</p>
+<p>Orchestrierte Kampagnen unterstützen jetzt das Laden einer <strong>CSV- oder TXT-Datei</strong> direkt in die Kampagnen-Arbeitsfläche als Zielgruppe, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Zeilen, die bei der Validierung fehlschlagen, werden abgelehnt und protokolliert, bevor die Kampagne ausgeführt wird. Dadurch wird die Zielgruppe ohne manuelle Vorverarbeitung sauber gehalten. Dies eignet sich besonders für Ad-hoc-Sendungen oder Partnerlisten-Kampagnen, bei denen der Aufbau einer vollständigen Aufnahme-Pipeline nicht praktisch ist.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Schleifenbasierte Personalisierung für relationale Daten in orchestrierten Kampagnen** - Der Personalisierungseditor unterstützt jetzt einen **Schleifenblock**, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss.
+* **Schleifenbasierte Personalisierung für relationale Daten in orchestrierten Kampagnen** - Der Personalisierungseditor unterstützt jetzt einen **Schleifenblock**, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss. Sie können eine Vorschau davon anzeigen, wie Schleifenblöcke mit Beispieldaten gerendert werden, bevor die Kampagne live geschaltet wird, einschließlich der Verarbeitung leerer Sammlungen.
 
 * **Personalisieren von E-Mail-Absenderdetails pro Empfänger und Kampagne** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von **E-Mail-Header-Feldern**, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten. Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
@@ -110,13 +105,13 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsprüfung in der E-Mail-Designer</strong><br/></th>
+<th><strong>Qualitätsprüfungen von Inhalten in der E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Journey Optimizer können Benutzer jetzt ihre <strong>E-Mail-Inhaltsqualität</strong> einschließlich Lesbarkeit, Effektivität und Inhaltskohärenz direkt in der Benutzeroberfläche von E-Mail-Designer überprüfen.</p>
+<p>Journey Optimizer bietet jetzt eine direkte Bewertung der Inhaltsqualität in Email Designer, das Ihre E-Mail vor dem Launch dreidimensional analysiert: Rechtschreibung, Grammatik und Zeichensetzung, Lesbarkeit und Ton, einschließlich Kennzeichnungen für lange Sätze, Passivstimme und Jargon sowie Betreffzeile und CTA-Effektivität, bewertet aus Gründen der Klarheit, Dringlichkeit und Struktur. Bei jeder Prüfung werden umsetzbare Vorschläge angezeigt, sodass Teams Probleme erkennen und lösen können, ohne die Authoring-Oberfläche verlassen zu müssen.</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +126,7 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tbody>
 <tr>
 <td>
-<p>Mit dieser neuen Option können Sie <strong>Größe der HTML reduzieren</strong> in einer E-Mail, indem Sie unnötige Leerzeichen, Kommentare und redundanten Code entfernen - ohne das Aussehen der E-Mail zu ändern. Dies verbessert die Zustellbarkeit (einige E-Mail-Anbieter lehnen übergroße E-Mails ab oder kennzeichnen sie) und kann die Ladezeit für Empfänger verkürzen.</p>
+<p>Journey Optimizer bietet jetzt eine Option, die HTML Ihrer E-Mail zu verkleinern, indem unnötige Leerzeichen, Kommentare und redundanter Code entfernt werden - ohne die Darstellung der E-Mail zu beeinflussen. Dies kann die Zustellbarkeit verbessern, indem Größenschwellen vermieden werden, die einige E-Mail-Anbieter zum Kennzeichnen oder Ablehnen von Nachrichten verwenden, und kann die Ladezeit für Empfänger verkürzen.</p>
 </td>
 </tr>
 </tbody>
@@ -237,7 +232,7 @@ In dieser Version werden Kampagnen mit der folgenden Verbesserung vorgenommen.
 
 In dieser Version werden die folgenden Verbesserungen beim Reporting vorgenommen.
 
-* **Geschätzte Klickmetriken für E-Mail- und SMS**-Berichte - **Geschätzte Klicks** sind jetzt in Journey-, Kampagnen- und Kanalberichten verfügbar. Diese Metrik spiegelt die Gesamtzahl der Klicks nach dem Ausschluss von identifiziertem Traffic, der sowohl als auch nicht menschlicher (NHI) Art erfolgt, wider und gibt Ihnen einen klareren Überblick über die echte Kundeninteraktion.
+* **Geschätzte Klicks für E-Mail- und SMS-Berichte** - Eine neue **Geschätzte Klicks**-Metrik ist jetzt in Journey-, Kampagnen- und Kanalberichten für E-Mail und SMS verfügbar. Diese Metrik schließt identifizierten Traffic von sowohl als auch Nicht-Human Interaction (NHI) aus, um einen klareren Überblick über die echte Kundeninteraktion zu erhalten. Die Metrik Bestehende Klicks bleibt verfügbar und zeigt weiterhin die Gesamtklicks an.
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
