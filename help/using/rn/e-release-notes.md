@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 9%
+source-wordcount: 1658
+ht-degree: 10%
 
 ---
 
@@ -49,8 +44,10 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen für Journe
 * **Angehalten oder Anhaltende Journey direkt schließen** - Sie können jetzt **eine Journey anhalten oder bei neuen Eintritten schließen** direkt aus dem Status **Angehalten**. Zuvor musste eine angehaltene Journey wieder live geschaltet werden, bevor sie angehalten oder geschlossen werden konnte.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link zur DOCAC JIRA-Aufgabe</a>
+<!--
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
+-->
 
 ### Orchestrierte Kampagnen {#june-26-oc}
 
@@ -79,8 +76,10 @@ Orchestrierte Kampagnen in dieser Version weisen die folgenden Funktionen und Ve
 * **Personalisieren von E-Mail-Absenderdetails pro Empfänger und Kampagne** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von **E-Mail-Header-Feldern**, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten. Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **Vereinfachung der Zielgruppendimension in orchestrierten Kampagnen** - Die aktive **Zielgruppendimension** wird jetzt auf der Workflow-Arbeitsfläche angezeigt, sodass Sie sehen können, welche Dimension von einer Kanalaktivität verwendet wird. Der Segmentierungsfluss für mehrere Entitäten ist einfacher, da Sie keine separate Aktivität vom Typ „Dimensionsänderung“ mehr benötigen. Darüber hinaus können Sie jetzt explizit auswählen, ob Nachrichten auf Profilebene oder auf sekundärer Dimensionsebene gesendet werden sollen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link zur DOCAC JIRA-Aufgabe</a>
+<!--
+* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
+-->
 
 ### Entscheidungsfindung {#june-26-decisioning}
 
@@ -198,7 +197,7 @@ In dieser Version wurden folgende Verbesserungen für Mobile Messaging vorgenomm
 * **LINE-Kanal - Authoring-**: Die Benutzeroberfläche des LINE-Kanals wurde um erweiterte Funktionen zur Nachrichtenerstellung erweitert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Karussell und Flex (JSON-Editor) sowie Gerätevorschauen in Echtzeit. Benutzer können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen Hinzufügen, Entfernen und Neu anordnen) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Link zur DOCAC JIRA-Aufgabe</a>
 
-* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**&#x200B;SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
+* **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues**SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Link zur DOCAC JIRA-Aufgabe</a>
 
 ### Inhalte und Integrationen {#june-26-content}
