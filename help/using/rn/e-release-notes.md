@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +237,18 @@ In dieser Version werden Kampagnen mit der folgenden Verbesserung vorgenommen.
 
 In dieser Version werden die folgenden Verbesserungen beim Reporting vorgenommen.
 
+* **Geschätzte Klickmetriken für E-Mail- und SMS**-Berichte - **Geschätzte Klicks** sind jetzt in Journey-, Kampagnen- und Kanalberichten verfügbar. Diese Metrik spiegelt die Gesamtzahl der Klicks nach dem Ausschluss von identifiziertem Traffic, der sowohl als auch nicht menschlicher (NHI) Art erfolgt, wider und gibt Ihnen einen klareren Überblick über die echte Kundeninteraktion.
+
++++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+
 * **Neue geschätzte Klickmetriken für E-Mail- und SMS-Reporting** - Um eine genauere Übersicht über die tatsächliche Kundeninteraktion zu erhalten, sind jetzt neue geschätzte Metriken in Journey-, Kampagnen- und Kanalberichten verfügbar. Diese Metriken helfen beim Filtern nicht-menschlicher Interaktionen (NHI) und Bot-Klicks aus Berichtsdaten:
-   * Geschätzte Klicks: Gesamtzahl der gezählten Klicks nach der Entfernung von identifiziertem Traffic, der nicht von Personen oder Bots stammt.
+
    * Geschätzte CTR: Geschätzte Klicks im Verhältnis zu den gesamten Sendungen.
    * Geschätzter CTOR nur für E-Mail: Geschätzte Klicks im Verhältnis zu den geschätzten Öffnungen.
+
+  Verfügbarkeitsdatum: Ende Juni 2026
+
++++
 
 ### Konfiguration {#june-26-configuration}
 
