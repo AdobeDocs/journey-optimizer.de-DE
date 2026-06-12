@@ -11,9 +11,9 @@ keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1644
 ht-degree: 7%
 
 ---
@@ -23,14 +23,7 @@ ht-degree: 7%
 
 Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 
-Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
-
->[!NOTE]
->
->**Journey-Fragmente** sind wiederverwendbare Sets von Journey-Knoten. Sie unterscheiden sich von:
->
->* **[Fragments](../content-management/fragments.md)** - wiederverwendbare Inhaltskomponenten, die in E-Mails in Kampagnen und Journey verwendet werden.
->* **[AEM-Inhaltsfragmente](../integrations/aem-fragments.md)** - Inhalte, die in Adobe Experience Manager verfasst und in [!DNL Journey Optimizer] verwendet werden.
+Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente} in]** Journey eingefügt werden.
 
 >[!NOTE]
 >Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
@@ -76,7 +69,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 >[!TIP]
 >
->Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [ (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
@@ -219,3 +212,17 @@ Eine zeitgesteuerte Willkommenssequenz - z. B. eine Reihe von drei Nachrichten, 
 Ein Fragment kann eine E-Mail -Aktivität gefolgt von einer [Reaktion](reaction-events.md) einkapseln, darauf warten, dass das Profil die E-Mail innerhalb einer bestimmten Anzahl von Tagen öffnet, und eine Erinnerung senden, wenn dies nicht der Fall war. Diese Logik wird häufig in der Pflege von Journey und im Versuch der Konversionsflüsse wiederverwendet. Das Fragment kann die E-Mail- und Reaktionsaktivitäten enthalten.
 
 ![Beispiel für ein reaktionsbasiertes Erinnerungsfragment](assets/journey-fragments-uc-reminder.png)
+
+## Häufig gestellte Fragen {#faq}
+
+**Wie unterscheidet sich ein Journey-Fragment von einem Fragment (Inhaltsfragment)?**
+
+**Journey-Fragmente** sind wiederverwendbare Sets von Journey-Knoten - wie z. B. Eignungsprüfungen oder Kanalrouting-Logik -, die Sie mit der Aktivität **[!UICONTROL Journey-Fragmente]** in eine Journey einfügen. **[Fragmente](../content-management/fragments.md)** sind wiederverwendbare Inhaltskomponenten (z. B. Kopf- oder Fußzeilen), die in E-Mails in Kampagnen und Journey verwendet werden. Kurz gesagt: Journey-Fragmente sind wiederverwendbar ** Logik), während Inhaltsfragmente wiederverwendbare *Inhalte* sind.
+
+**Wie unterscheidet sich ein Journey-Fragment von einem AEM-Inhaltsfragment?**
+
+**[AEM-Inhaltsfragmente](../integrations/aem-fragments.md)** sind Inhalte, die in Adobe Experience Manager verfasst und in [!DNL Journey Optimizer] wiederverwendet werden. Sie sind keine Journey-Logik. Journey-Fragmente dagegen werden in [!DNL Journey Optimizer] erstellt und gespeichert und stellen Sets von verbundenen Journey-Knoten dar.
+
+**Wenn ich ein Journey-Fragment aktualisiere, werden auch bestehende Journey aktualisiert?**
+
+Nein. Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments wird eine statische Kopie seiner Knoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.

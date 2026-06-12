@@ -10,32 +10,16 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 89%
+source-wordcount: 1377
+ht-degree: 70%
 
 ---
 
@@ -148,7 +132,7 @@ Links zu den letzten 24 Stunden und allen Zeitberichten sind im Bestätigungsbil
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ &#x200B;](../audience/license-usage.md)
+* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ ](../audience/license-usage.md)
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -169,8 +153,42 @@ Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausfüh
 
 Bei der Analyse von **Journey** Berichtsmetriken mithilfe [!DNL Adobe Experience Platform] Abfrage-Service müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Schließen Sie dazu Schrittereignisse aus, bei denen `inDryRun` `true` ist (d. h. schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist).
 
+## Häufig gestellte Fragen {#faq}
+
+**Sendet ein Probelauf Nachrichten an echte Kunden?**
+
+Nein. Dry Run verwendet echte Produktionsdaten, kontaktiert jedoch keine Profile und aktualisiert keine Profilinformationen. Kanalaktionen (E-Mail, SMS, Push) werden nicht ausgeführt, und benutzerdefinierte Aktionen werden deaktiviert, wobei ihre Antworten auf `null` gesetzt sind.
+
+**Welche Berechtigungen benötige ich, um einen Probelauf zu starten oder zu stoppen?**
+
+Zum Starten eines Probelaufs ist die Berechtigung **[!DNL Publish journeys]** auf hoher Ebene erforderlich. Zum Anhalten eines Probelaufs ist die Berechtigung **[!DNL Manage journeys]** auf hoher Ebene erforderlich. Weitere Informationen finden Sie [ Abschnitt „Berechtigungen](../administration/permissions-overview.md).
+
+**Auf welchen Journey kann ich einen Probelauf durchführen?**
+
+Sie können Probelauf auf jeder (Entwurfs **[!UICONTROL -Journey verwenden]** die keinen Fehler aufweist.
+
+**Wie lange dauert ein Probelauf?**
+
+Nach 14 Tagen wechseln die Probelauf-Journey automatisch zurück in den Status **[!UICONTROL Entwurf]**. Sie können einen Probelauf auch jederzeit manuell anhalten.
+
+**Werden Warteaktivitäten und externe Datenquellen während eines Probelaufs ausgeführt?**
+
+Standardmäßig sind **Warten**-Aktivitäten und **Datenquellen** (einschließlich externer Datenquellen) während eines Probelaufs deaktiviert. Sie können dieses Verhalten ändern, wenn [den Probelauf-Modus aktivieren](#journey-dry-run-start).
+
+**Werden Probelauf-Profile und Journey auf meine Kontingente angerechnet?**
+
+Ja. Die Anzahl der Profile im Dry-Run-Modus für [Engageable Profiles](../audience/license-usage.md) und der Journey im Dry-Run-Modus zählt zum Live-Journey-Kontingent. Dry Run-Journey haben jedoch keine Auswirkungen auf Geschäftsregeln.
+
+**Kann ich nach dem Stoppen des Tests weiterhin auf Dry Run-Berichte zugreifen?**
+
+Nein. Berichtsdaten sind nur verfügbar, wenn der Probelauf **aktiv** ist. Nach dem Stoppen sind die Daten nicht mehr zugänglich. Verwenden Sie die Schaltfläche **Exportieren** über den Berichten, um sie bei Bedarf vorher herunterzuladen.
+
+**Wie schließe ich Probelauf-Daten aus meinen Berichten aus?**
+
+Dry Run generiert **stepEvents**, die mit `inDryRun` und einem `dryRunID` gekennzeichnet sind. Schließen Sie bei der Analyse von Journey-Berichtsmetriken mit [!DNL Adobe Experience Platform] Abfrage-Service Schrittereignisse aus, bei denen `inDryRun` `true` ist (schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist).
+
 ## Anleitungsvideo {#dry-run-video}
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
