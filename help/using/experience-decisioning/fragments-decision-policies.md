@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1177
 ht-degree: 20%
 
 ---
@@ -163,6 +163,8 @@ Bevor Sie AEM-Inhaltsfragmente in einer Entscheidungsrichtlinie nutzen, stellen 
 
 Im Personalisierungseditor sind alle AEM-Inhaltsfragmente verfügbar, die mit den von der Richtlinie ausgewählten Entscheidungselementen verknüpft sind. Pro Fragmentschlüsselname wird ein Ordner angezeigt.
 
+➡️ [Im Video erfahren Sie, wie Sie AEM-Inhaltsfragmente mit Journey Optimizer Decisioning verwenden](#video)
+
 In diesem Beispiel enthält die Entscheidungsrichtlinie zwei Entscheidungselemente, an die AEM-Fragmente über ihren Referenznamen gebunden sind.
 
 ![](assets/aem-fragment-select.png)
@@ -176,3 +178,9 @@ In diesem Beispiel enthält die Entscheidungsrichtlinie zwei Entscheidungselemen
    ![](assets/aem-fragment-attribute.png)
 
 1. Verwenden Sie vor der Aktivierung Ihrer Kampagne oder Ihres Journey eine der Simulationsmethoden, um eine Vorschau der Darstellung der Feldwerte für AEM-Inhaltsfragmente anzuzeigen: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit einem bestimmten Testprofil anzuzeigen. [Erfahren Sie mehr über die Simulation von Inhalten](../content-management/preview-test.md)
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Adobe Experience Manager-Inhaltsfragmente mit Journey Optimizer Decisioning verwenden, um Inhalte zu personalisieren und zu optimieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492222/?captions=ger&learn=on&enablevpops)
