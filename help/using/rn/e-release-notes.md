@@ -6,17 +6,12 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +213,27 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 <tr>
 <td>
 <p>Der KI-Assistent ruft jetzt automatisch <b>markenbestätigte Bilder</b> direkt aus Ihrer Adobe Experience Manager Assets ab, wenn E-Mails, Web-Seiten und Push-Benachrichtigungen generiert werden. Dadurch entfällt die Notwendigkeit, die Assets manuell zu durchsuchen oder sich auf generische KI-Fallbacks zu verlassen, um sicherzustellen, dass jedes Bild perfekt präzise und markenkonform ist.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbesserungen am KI-Assistenten für die Inhaltserstellung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Diese Version verbessert das <strong>KI-Assistent</strong> Erlebnis der Inhaltserstellung mit stärkerer Bildbearbeitung, zuverlässigerer Markenextraktion und Unterstützung der Inhaltsauthentizität im Bildfluss:</p>
+<ul>
+<li><strong>KI-Bildbearbeitung</strong> ist jetzt im Bildgenerierungsfluss verfügbar, einschließlich Unterstützung für Firefly-Drittanbietermodelle, sodass Sie Quellbilder verfeinern können, ohne den Assistenten zu verlassen.</li>
+<li><strong>Markensignalextraktion</strong> liefert bessere Ergebnisse. Wenn für ausgewählte Seiten kein ausreichendes Signal vorhanden ist, werden durch verbesserte Fallbacks nun Farben, Typografie, Schreibrichtlinien und andere Markenattribute aufgefüllt.</li>
+<li><strong>Web-basierte Markenextraktion</strong> ist zuverlässiger. Die verbesserte Zeitüberschreitungsverwaltung verhindert, dass langsame Seiten, Popups und Cookie-Banner die Extraktion blockieren.</li>
+<li><strong>Inhaltsauthentizität (CAI</strong> wird jetzt im Bildfluss unterstützt. Diese Version behebt außerdem Probleme beim Hochladen von Referenzbildern und verbessert die Handhabung für Bilder ohne vorhandenes C2PA-Manifest.</li>
+</ul>
 </td>
 </tr>
 </tbody>
