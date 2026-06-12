@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -48,17 +48,17 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="Name"
->abstract="Geben Sie einen eindeutigen Namen für diesen API-Berechtigungssatz ein. Sie wählen es aus, wenn Sie WhatsApp-Webhooks und Kanalkonfigurationen konfigurieren."
+>abstract="Geben Sie einen eindeutigen Namen für diesen API-Anmeldedatensatz ein. Sie wählen diesen aus, wenn Sie WhatsApp-Webhooks konfigurieren und Kanalkonfigurationen durchführen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
 >title="API-Token"
->abstract="Verwenden Sie ein Meta-Zugriffstoken eines Systembenutzers im selben Business Manager wie Ihre WhatsApp-Assets. Dieser Benutzer benötigt die Berechtigungen whatsapp_business_management, whatsapp_business_messaging und business_management sowie Zugriff auf Ihr WhatsApp Business-Konto auf Asset-Ebene. Meta-Token laufen nach etwa 60 Tagen ab. Verlängern Sie das Token, bevor es verfällt."
+>abstract="Verwenden Sie ein Meta-Zugriffstoken eines bzw. einer Systembenutzenden im selben Business Manager wie Ihre WhatsApp-Assets. Diese Person benötigt die Berechtigungen „whatsapp_business_management“, „whatsapp_business_messaging“ und „business_management“ sowie Zugriff auf Ihr WhatsApp Business-Konto auf Asset-Ebene. Meta-Token laufen nach etwa 60 Tagen ab. Verlängern Sie das Token, bevor es verfällt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
->title="Geschäftskonto-ID"
->abstract="Geben Sie Ihre Meta Business Portfolio-ID ein, auch Business Manager-ID genannt. Geben Sie in diesem Feld nicht Ihre WhatsApp Business Account ID ein."
+>title="Business-Konto-ID"
+>abstract="Geben Sie Ihre Meta Business-Portfolio-ID ein, auch Business-Manager-ID genannt. Geben Sie in dieses Feld nicht Ihre WhatsApp Business-Konto-ID ein."
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]** aus. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 

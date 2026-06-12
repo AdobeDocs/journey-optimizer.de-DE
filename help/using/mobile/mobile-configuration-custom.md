@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Anbieter-Payload"
->abstract="Stellen Sie die Anfrage-Payload bereit, damit die korrekten Daten zur Verarbeitung und Antworterstellung gesendet werden."
+>abstract="Geben Sie die Anfrage-Payload an, um sicherzustellen, dass die richtigen Daten zur Verarbeitung und Antworterstellung gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Anbieter-Payload"
->abstract="Gibt an, wie Journey Optimizer eine eindeutige Nachrichten-ID aus der Versandantwort Ihres Anbieters extrahiert. </br>Feldübereinstimmung: Geben Sie den Feldnamen ein (z. B. messageId). AJO scannt die Antwort und gibt den ersten übereinstimmenden Wert zurück. </br>Punktnotation: Geben Sie den Pfad zum Feld ein (z. B. messages.0.id). Verwenden Sie numerische Segmente für Arrays. Kein $-Präfix.</br> Lassen Sie das Feld leer, wenn Ihr Anbieter stattdessen die Übergabe eines Callback-Datenfelds unterstützt."
+>abstract="Gibt an, wie Journey Optimizer eine eindeutige Nachrichten-ID aus der Versandantwort Ihres Anbieters extrahiert. </br>Feldübereinstimmung: Geben Sie den Feldnamen ein (z. B. „messageId“). AJO durchsucht die Antwort und gibt den ersten übereinstimmenden Wert zurück. </br>Punktnotation: Geben Sie den Pfad zum Feld ein (z. B. „messages.0.id“). Verwenden Sie numerische Segmente für Arrays. Kein $-Präfix.</br> Lassen Sie das Feld leer, wenn Ihr Anbieter stattdessen die Übergabe eines Callback-Datenfelds unterstützt."
 
 Diese Funktion ermöglicht es Ihnen, Ihre eigenen Messaging-Anbieter zu integrieren und zu konfigurieren, und bietet Flexibilität über die Standardanbieter (Sinch, Twilio und Infobip) hinaus. Dies ermöglicht die nahtlose Erstellung, Bereitstellung, Berichterstellung und Einverständnisverwaltung für mobile Nachrichten.
 
