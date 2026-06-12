@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 89%
+source-wordcount: 1377
+ht-degree: 70%
 
 ---
 
@@ -168,6 +168,40 @@ Ein Journey-Probelauf generiert **stepEvents**. Diese stepEvents haben eine best
 Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausführungen von Probeläufen mit der Markierung `inDryRun` filtern.
 
 Bei der Analyse von **Journey** Berichtsmetriken mithilfe [!DNL Adobe Experience Platform] Abfrage-Service müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Schließen Sie dazu Schrittereignisse aus, bei denen `inDryRun` `true` ist (d. h. schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist).
+
+## Häufig gestellte Fragen {#faq}
+
+**Sendet ein Probelauf Nachrichten an echte Kunden?**
+
+Nein. Dry Run verwendet echte Produktionsdaten, kontaktiert jedoch keine Profile und aktualisiert keine Profilinformationen. Kanalaktionen (E-Mail, SMS, Push) werden nicht ausgeführt, und benutzerdefinierte Aktionen werden deaktiviert, wobei ihre Antworten auf `null` gesetzt sind.
+
+**Welche Berechtigungen benötige ich, um einen Probelauf zu starten oder zu stoppen?**
+
+Zum Starten eines Probelaufs ist die Berechtigung **[!DNL Publish journeys]** auf hoher Ebene erforderlich. Zum Anhalten eines Probelaufs ist die Berechtigung **[!DNL Manage journeys]** auf hoher Ebene erforderlich. Weitere Informationen finden Sie [&#x200B; Abschnitt „Berechtigungen](../administration/permissions-overview.md).
+
+**Auf welchen Journey kann ich einen Probelauf durchführen?**
+
+Sie können Probelauf auf jeder (Entwurfs **[!UICONTROL -Journey verwenden]** die keinen Fehler aufweist.
+
+**Wie lange dauert ein Probelauf?**
+
+Nach 14 Tagen wechseln die Probelauf-Journey automatisch zurück in den Status **[!UICONTROL Entwurf]**. Sie können einen Probelauf auch jederzeit manuell anhalten.
+
+**Werden Warteaktivitäten und externe Datenquellen während eines Probelaufs ausgeführt?**
+
+Standardmäßig sind **Warten**-Aktivitäten und **Datenquellen** (einschließlich externer Datenquellen) während eines Probelaufs deaktiviert. Sie können dieses Verhalten ändern, wenn [den Probelauf-Modus aktivieren](#journey-dry-run-start).
+
+**Werden Probelauf-Profile und Journey auf meine Kontingente angerechnet?**
+
+Ja. Die Anzahl der Profile im Dry-Run-Modus für [Engageable Profiles](../audience/license-usage.md) und der Journey im Dry-Run-Modus zählt zum Live-Journey-Kontingent. Dry Run-Journey haben jedoch keine Auswirkungen auf Geschäftsregeln.
+
+**Kann ich nach dem Stoppen des Tests weiterhin auf Dry Run-Berichte zugreifen?**
+
+Nein. Berichtsdaten sind nur verfügbar, wenn der Probelauf **aktiv** ist. Nach dem Stoppen sind die Daten nicht mehr zugänglich. Verwenden Sie die Schaltfläche **Exportieren** über den Berichten, um sie bei Bedarf vorher herunterzuladen.
+
+**Wie schließe ich Probelauf-Daten aus meinen Berichten aus?**
+
+Dry Run generiert **stepEvents**, die mit `inDryRun` und einem `dryRunID` gekennzeichnet sind. Schließen Sie bei der Analyse von Journey-Berichtsmetriken mit [!DNL Adobe Experience Platform] Abfrage-Service Schrittereignisse aus, bei denen `inDryRun` `true` ist (schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist).
 
 ## Anleitungsvideo {#dry-run-video}
 

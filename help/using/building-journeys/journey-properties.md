@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 3657
-ht-degree: 71%
+source-wordcount: 4152
+ht-degree: 63%
 
 ---
 
@@ -454,6 +454,36 @@ Im Abschnitt **[!UICONTROL Konflikt-Management]** in den Eigenschaften der Journ
   In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das zuletzt geänderte Element ausgewählt.
 
 * **Zeigen Sie Konflikte** mit anderen Journeys, Kampagnen oder Kanalkonfigurationen an. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration oder Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen. [Informationen zum Identifizieren potenzieller Konflikte in Journeys und Kampagnen](../conflict-prioritization/conflicts.md)
+
+## Häufig gestellte Fragen {#faq}
+
+**Wo finde ich die Eigenschaften einer Journey?**
+
+Eigenschaften befinden sich in der rechten Leiste der Journey-Arbeitsfläche. Sie werden standardmäßig angezeigt, wenn Sie eine neue Journey erstellen. Klicken Sie bei einer bestehenden Journey auf das Stiftsymbol neben dem Namen der Journey, um sie zu öffnen. Bei Live-Journey zeigt das Bedienfeld nur das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. Siehe [Zugriff auf die Eigenschaften einer Journey](#access-properties).
+
+**Kann ich die Eigenschaften auf einer Live-Journey ändern?**
+
+Die meisten Eigenschaften sind schreibgeschützt, sobald eine Journey live ist. Um sie zu ändern, erstellen Sie eine neue Journey-Version oder duplizieren Sie die Journey, nehmen Sie Ihre Änderungen am Entwurf vor und [&#x200B; Sie sie erneut &#x200B;](publish-journey.md).
+
+**Was ist der Unterschied zwischen der Einstellung für den erneuten Eintritt und der Wartezeit für den erneuten Eintritt?**
+
+**[Erneuten Eintritt erlauben](#allow-reentrance)** steuert, ob ein Profil die Journey mehrmals betreten kann. Die **[Wartezeit bis zum erneuten Eintritt](#reentrance-wait)** (wird nur angezeigt, wenn der erneute Eintritt erlaubt ist) legt fest, wie lange gewartet werden soll, bevor dasselbe Profil erneut auf eine unitäre Journey zugreifen kann. Der Standardwert ist 5 Minuten und der Höchstwert 90 Tage. Weitere Informationen finden Sie unter [Verwaltung des Profileintritts](entry-management.md).
+
+**Wie lange kann ein Profil auf einer Journey bleiben?**
+
+Ein [globales Journey-Timeout](#global_timeout) stoppt ein Profil **91 Tage** nachdem es eingetreten ist - die Journey einer Person kann nicht länger als diese dauern. Diese maximale Wartezeit wird nicht auf der Benutzeroberfläche angezeigt und kann nicht geändert werden. Da Profildaten nach 91 Tagen entfernt werden, kann die Sperrung des erneuten Eintritts nach Ablauf dieses Zeitraums nicht mehr garantiert werden. Siehe auch [Wie Journey enden](end-journey.md#journey-finished-definition).
+
+**Warum kann mein Journey aufgrund der Payload-Größe nicht veröffentlicht werden?**
+
+Der Indikator **[!UICONTROL Aktuelle Journey-Payload]** zeigt die Payload Ihrer Journey im konfigurierten Limit an (standardmäßig 4 MB). Wenn die Payload das Limit erreicht oder überschreitet, schlägt die Veröffentlichung fehl. Verringern Sie die Größe, indem Sie die Journey-Logik vereinfachen oder die Anzahl der Aktivitäten reduzieren, oder wenden Sie sich an die Adobe-Kundenunterstützung, um eine höhere Begrenzung anzufordern. Siehe [Journey-Payload-Größe](#journey-payload-size), [Validierung der Journey-Payload](../start/guardrails.md#journey-payload-size) und [Allgemeine Journey-Leitplanken](../start/guardrails.md#journeys-guardrails-journeys).
+
+**Welche Zusammenführungsrichtlinie verwendet mein Journey?**
+
+Es hängt vom Journey-Typ ab: [Zielgruppe lesen](read-audience.md) und [Zielgruppen-Qualifizierung](audience-qualification-events.md) Journey verwenden die Zusammenführungsrichtlinie der Zielgruppe, [Einzelereignis](../event/about-events.md) Journey verwenden die standardmäßige Zusammenführungsrichtlinie und [Geschäftsereignis](../event/about-creating-business.md) Journey verwenden die Zusammenführungsrichtlinie der Zielgruppe in der folgenden Aktivität Zielgruppe lesen . Dieselbe Zusammenführungsrichtlinie gilt für die gesamte Journey. Wenn eine Zielgruppen-Zusammenführungsrichtlinie aktualisiert wird, müssen alle aktiven Journey, die auf diese Zielgruppe verweisen, erneut veröffentlicht oder dupliziert werden. Siehe [Zusammenführungsrichtlinie](#merge-policies).
+
+**Was ist der Unterschied zwischen der 91-tägigen Journey-Zeitüberschreitung und dem 91-tägigen Berichtsfenster?**
+
+Dies sind separate Konzepte. Das globale Zeitlimit von **[Journey](#global_timeout)** (91 Tage) ist die maximale Zeit, die ein einzelnes Profil auf einer Journey aktiv bleiben kann. Danach wird das Profil beendet und seine Daten werden gelöscht. Das **Reporting-Fenster** (ca. 91 Tage) ist ein Anzeigelimit der Benutzeroberfläche: Leistungsdaten, die älter als ~91 Tage sind, sind nicht mehr sichtbar, aber die Journey läuft weiter und neue Profile treten immer wieder ein. Informationen zu TTL und Datenaufbewahrung finden Sie unter [Time-to-Live (TTL) und Häufig gestellte Fragen zur Datenaufbewahrung](#timeout-faq).
 
 ## Verwandte Themen {#related-topics}
 
