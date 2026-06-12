@@ -11,12 +11,17 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
 workflow-type: tm+mt
 source-wordcount: 1272
@@ -38,7 +43,7 @@ Beim Veröffentlichen wird eine Journey aktiviert: Sie wechselt in den **[!UICON
 
 Stellen Sie vor dem Veröffentlichen sicher, dass Ihr Journey die folgenden Voraussetzungen erfüllt:
 
-* **Keine Validierungsfehler** - Sie können keine fehlerhafte Journey veröffentlichen. [Testen Sie zunächst ](testing-the-journey.md) Journey und [beheben Sie etwaige Aktivitätsfehler](../building-journeys/troubleshooting.md#activity-errors).
+* **Keine Validierungsfehler** - Sie können keine fehlerhafte Journey veröffentlichen. [Testen Sie zunächst &#x200B;](testing-the-journey.md) Journey und [beheben Sie etwaige Aktivitätsfehler](../building-journeys/troubleshooting.md#activity-errors).
 * **Veröffentlichungsberechtigung** - Für die Veröffentlichung ist die Berechtigung **[!DNL Publish journeys]** auf hoher Ebene erforderlich. Weitere Informationen zu [Verwalten von Zugriffsrechten](../administration/permissions-overview.md).
 * **Payload im Limit** - Die Journey-Payload muss innerhalb des konfigurierten Limits (standardmäßig 4 MB) liegen. Siehe [Validierung der Journey-Payload-Größe](../start/guardrails.md#journey-payload-size).
 * **Genehmigung eingeholt** - Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, fordern Sie vor der Veröffentlichung eine Genehmigung an. [Weitere Informationen](../test-approve/gs-approval.md).
@@ -55,7 +60,7 @@ Stellen Sie vor dem Veröffentlichen sicher, dass Ihr Journey die folgenden Vora
 
 Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
-1. Stellen Sie sicher, dass die Journey gültig und fehlerfrei ist und die (oben genannten [) ](#before-you-publish).
+1. Stellen Sie sicher, dass die Journey gültig und fehlerfrei ist und die (oben genannten [) &#x200B;](#before-you-publish).
 
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
 
@@ -129,11 +134,11 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 **Warum kann ich meinen Journey nicht veröffentlichen?**
 
-Der häufigste Grund ist, dass die Journey Validierungsfehler enthält - Sie können keine Journey mit Fehlern veröffentlichen. Andere Blocker umfassen das Überschreiten [Payload-Größenbeschränkung](../start/guardrails.md#journey-payload-size), das Fehlen der **[!DNL Publish journeys]** oder eine ausstehende [Genehmigung](../test-approve/gs-approval.md). Siehe [Vor der Veröffentlichung](#before-you-publish) und [Fehlerbehebung bei ](../building-journeys/troubleshooting.md#activity-errors).
+Der häufigste Grund ist, dass die Journey Validierungsfehler enthält - Sie können keine Journey mit Fehlern veröffentlichen. Andere Blocker umfassen das Überschreiten [Payload-Größenbeschränkung](../start/guardrails.md#journey-payload-size), das Fehlen der **[!DNL Publish journeys]** oder eine ausstehende [Genehmigung](../test-approve/gs-approval.md). Siehe [Vor der Veröffentlichung](#before-you-publish) und [Fehlerbehebung bei &#x200B;](../building-journeys/troubleshooting.md#activity-errors).
 
 **Kann ich eine Journey nach ihrer Veröffentlichung bearbeiten?**
 
-Eine veröffentlichte Journey befindet sich im schreibgeschützten Modus. Sie können nur Aktivitätsbeschriftungen und -beschreibungen, den Namen der Journey und die Beschreibung der Journey ändern. Für jede andere Änderung [ Sie (eine neue Version erstellen](#journey-create-new-version) der Journey.
+Eine veröffentlichte Journey befindet sich im schreibgeschützten Modus. Sie können nur Aktivitätsbeschriftungen und -beschreibungen, den Namen der Journey und die Beschreibung der Journey ändern. Für jede andere Änderung [&#x200B; Sie (eine neue Version erstellen](#journey-create-new-version) der Journey.
 
 **Was passiert mit Profilen, die sich bereits auf der Journey befinden, wenn ich eine neue Version veröffentliche?**
 
