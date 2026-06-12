@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1734
-ht-degree: 73%
+source-wordcount: 1777
+ht-degree: 71%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 73%
 >title="Aktivität „Aktion“"
 >abstract="Die Aktivität **Aktion** ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
 
-Die **Action**-Aktivität ist der zentrale Einstiegspunkt für alle Kanalaktionen auf der Journey-Arbeitsfläche.
+Die **Action**-Aktivität ist der zentrale Einstiegspunkt für die Bereitstellung von Inhalten für Ihre Kunden von der Journey-Arbeitsfläche aus. Anstatt für jeden Kanal aus einer separaten Aktivität auszuwählen, ziehen Sie eine einzelne **[!UICONTROL Aktion]**-Aktivität auf die Arbeitsfläche und wählen Sie den zu verwendenden Kanal aus.
 
-Es ersetzt die vorherigen individuellen integrierten Kanalaktivitäten und fasst E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarten in einem einheitlichen Aktivitätstyp zusammen.
+Alle älteren nativen Kanäle - E-Mail, Push, SMS, In-App, Web, Code-basierte Erlebnisse und Inhaltskarten - werden in einem einheitlichen Aktivitätstyp zusammengefasst, der die zuvor verwendeten individuellen Kanalaktivitäten ersetzt.
 
-Verwenden Sie ihn, um:
+Verwenden Sie die Aktivität **Aktion** für Folgendes:
 
 * Konfigurieren Sie jede integrierte Kanalaktion über eine zentrale, optimierte Benutzeroberfläche.
-* Erstellen Sie eingehende Aktionsgruppen mit mehreren Aktionen.
-* Wendet die Optimierung auf jede Kanalaktion an.
+* Mehrere eingehende Erlebnisse in einer ([&#x200B; Aktionsgruppe) &#x200B;](#multi-action).
+* Wenden Sie [Optimierung](../content-management/gs-message-optimization.md), [mehrsprachige Inhalte](../content-management/multilingual-gs.md) und kanalspezifische Einstellungen auf jede Aktion an.
 
 >[!NOTE]
 >
