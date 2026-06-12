@@ -77,21 +77,21 @@ Alte native Kanalaktivitäten werden auch in diesen Fällen beibehalten:
 >id="ajo_journey_action_auto_wait"
 >title="Automatischer Warteknoten"
 >abstract="Bei eingehenden Kanalaktionen (In-App-Nachricht, Web, Inhaltskarte und Code-basiertes Erlebnis) wird nach der Aktion automatisch ein **Warten**-Knoten eingefügt (standardmäßig 3 Tage). Dadurch haben die Profile Zeit, das eingehende Erlebnis anzuzeigen, bevor die Journey mit dem nächsten Schritt fortfährt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimierung"
 >abstract="Im **Optimierung** werden einer Kanalaktion Inhaltsexperimente, Zielgruppenbestimmungsregeln oder beides hinzugefügt. Sie ermöglicht es Ihnen, Varianten zu testen und den effektivsten Inhalt für jedes Mitglied der Zielgruppe bereitzustellen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Verwenden der Aktivität Optimieren"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Verwenden der Aktivität Optimieren"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Mehrsprachig"
 >abstract="Der **Multilingual**-Abschnitt liefert die Kanalaktionsinhalte in mehreren Sprachen auf einer einzigen Journey. Eine Spracheinstellungskonfiguration definiert die unterstützten Gebietsschemata und die Standardsprache für diese Aktion."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Erste Schritte mit mehrsprachigen Inhalten"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Erste Schritte mit mehrsprachigen Inhalten"
 
 
 Gehen Sie wie folgt vor, um Ihrer Journey mithilfe der Aktivität **[!UICONTROL Aktion]** eine integrierte Kanalaktion hinzuzufügen.
