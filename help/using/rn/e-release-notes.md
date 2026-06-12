@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1876
 ht-degree: 5%
 
 ---
@@ -223,11 +223,13 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 </tbody>
 </table>
 
-### Kampagnen {#june-26-campaigns}
+<!--
+### Campaigns {#june-26-campaigns}
 
-In dieser Version werden Kampagnen mit der folgenden Verbesserung vorgenommen.
+The following improvement is coming to campaigns in this release.
 
-* **Überschreiben des Standard-Ausführungsfelds in Kampagnen** - Zuvor auf Journey-Ebene verfügbar, können Sie jetzt das Standard-**Ausführungsfeld** überschreiben, das in den Kampagnenparametern global für Ihre E-Mail-, SMS- und WhatsApp-Sendungen festgelegt ist.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+-->
 
 ### Berichterstellung {#june-26-reporting}
 
