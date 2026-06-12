@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 55%
 
 ---
@@ -139,7 +139,7 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 
 Optional können Sie **Zusätzliche Kennung verwenden** aktivieren, um die Journey zusätzlich zur Profil-ID im Kontext einer sekundären Kennung (z. B. einer Auftrags-ID oder Buchungs-ID) auszuführen. Dies ermöglicht mehrere Eintritte desselben Profils, wenn die zusätzliche Kennung unterschiedlich ist.
 
-[Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden](supplemental-identifier.md). Bei Journey des Typs „Zielgruppe lesen“ muss die zusätzliche Kennung ein Profilattribut sein. Die Leserate ist auf 500 Profile pro Sekunde beschränkt, wenn eine zusätzliche ID verwendet wird.
+[Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden](supplemental-identifier.md). Bei Journey-Dateien vom Typ „Zielgruppe lesen“ wird die zusätzliche Kennung aus dem **Vereinigungs-/Profilschema** für Zielgruppen vom Typ **Unified Profile Service** vorbereitet oder aus geeigneten Attributen für **externe Zielgruppen** ausgewählt (z. B. Zielgruppen [&#x200B; aus einer CSV-Datei &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md)). Die Leserate ist auf 500 Profile pro Sekunde pro Journey-Instanz beschränkt, wenn eine zusätzliche ID verwendet wird.
 
 ### Schutzmechanismen und Empfehlungen {#must-read}
 
