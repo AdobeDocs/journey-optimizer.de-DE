@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -112,7 +112,10 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer bietet jetzt eine direkte Bewertung der Inhaltsqualität in Email Designer, das Ihre E-Mail vor dem Launch dreidimensional analysiert: Rechtschreibung, Grammatik und Zeichensetzung, Lesbarkeit und Ton, einschließlich Kennzeichnungen für lange Sätze, Passivstimme und Jargon sowie Betreffzeile und CTA-Effektivität, bewertet aus Gründen der Klarheit, Dringlichkeit und Struktur. Bei jeder Prüfung werden umsetzbare Vorschläge angezeigt, sodass Teams Probleme erkennen und lösen können, ohne die Authoring-Oberfläche verlassen zu müssen.</p>
+<p>Journey Optimizer bietet jetzt eine automatisierte technische Validierung direkt in der E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.</p>
+<p>Die Prüfungen umfassen nicht unterstützte Elemente wie <code>&lt;script&gt;</code>- und <code>&lt;base&gt;</code>-Tags, leere div-Tags, die das Layout in Microsoft Outlook beschädigen können, Meta-Aktualisierungs-Tags von HTML und CSS- oder HTML-Größenschwellen, die Trigger-Rendering-Fehler in Gmail verursachen.</p>
+<p>Ergebnisse werden direkt im Authoring-Bereich als Fehler, Warnungen oder informative Hinweise angezeigt. Dort sind kontextuelle Details und Fehlerbehebungen mit einem Klick verfügbar, sodass Probleme gelöst werden können, ohne den Editor zu verlassen.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/content-check.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +130,8 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer bietet jetzt eine Option, die HTML Ihrer E-Mail zu verkleinern, indem unnötige Leerzeichen, Kommentare und redundanter Code entfernt werden - ohne die Darstellung der E-Mail zu beeinflussen. Dies kann die Zustellbarkeit verbessern, indem Größenschwellen vermieden werden, die einige E-Mail-Anbieter zum Kennzeichnen oder Ablehnen von Nachrichten verwenden, und kann die Ladezeit für Empfänger verkürzen.</p>
+<p>Journey Optimizer bietet jetzt eine Option, die HTML Ihrer E-Mail zu verkleinern, indem unnötige Leerzeichen, Kommentare und redundanter Code entfernt werden - ohne die Darstellung der E-Mail zu beeinflussen.</p>
+<p>Dies kann die Zustellbarkeit verbessern, indem Größenschwellen vermieden werden, die einige E-Mail-Anbieter zum Kennzeichnen oder Ablehnen von Nachrichten verwenden, und kann die Ladezeit für Empfänger verkürzen.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +146,8 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Rich-Text zu anpassbaren Fragmenten hinzufügen, die in Ihren E-Mail-Inhalten verwendet werden. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
+<p>Sie können jetzt Rich-Text zu anpassbaren Fragmenten hinzufügen, die in Ihren E-Mail-Inhalten verwendet werden.</p>
+<p>Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
 </td>
 </tr>
 </tbody>
