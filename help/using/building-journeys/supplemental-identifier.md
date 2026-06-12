@@ -4,21 +4,14 @@ description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 97%
+source-wordcount: 2009
+ht-degree: 47%
 
 ---
 
@@ -27,7 +20,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Verwenden einer zusätzlichen Kennung"
->abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Es besteht aus dem Feld , das als zusätzliche Kennung verwendet wird, und einem damit verbundenen Namespace."
+>abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um es zu definieren, wählen Sie ein beliebiges Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) aus der Zielgruppe oder dem Ereignis aus, das als zusätzliche Kennung verwendet werden soll."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +42,9 @@ ht-degree: 97%
 
 * **Unterstützte Journeys**: Zusätzliche Kennungen werden bei den Journeys **Ereignisgesteuert** und **Zielgruppe lesen** unterstützt. Sie werden **nicht unterstützt** bei Journeys zur Zielgruppenqualifizierung (d. h. bei Journeys, die mit einer Aktivität des Typs „Zielgruppenqualifizierung“ beginnen).
 
-* **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
+* **Eingehende Aktionen**: Zusätzliche Kennungen werden derzeit für eingehende Aktionen wie In-App- und Web-Aktionen nicht unterstützt.
 
-* **Häufigkeitsregeln**: Jede Journey-Instanz, die über die Nutzung der zusätzlichen Kennung erstellt wurde, wird der Frequenzbegrenzung angerechnet, auch wenn ein einzelnes Ereignis zu mehreren Journey-Instanzen führt.
+* **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
 
 * **Datentyp und Schemastruktur**: Die zusätzliche Kennung muss vom Typ `string` sein. Dabei kann es sich um ein unabhängiges Zeichenfolgenattribut oder um ein Zeichenfolgenattribut in einem Array von Objekten handeln. Das unabhängige Zeichenfolgenattribut führt zu einer einzelnen Journey-Instanz, wohingegen das Zeichenfolgenattribut innerhalb eines Arrays von Objekten zu einer eindeutigen Journey-Instanz pro Iteration des Objekt-Arrays führt. Zeichenfolgen-Arrays und Zuordnungen werden nicht unterstützt.
 
@@ -70,10 +63,10 @@ ht-degree: 97%
 
 * **Journeys vom Typ „Zielgruppe lesen“**
 
-   * Die zusätzliche Kennung ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
-   * Die zusätzliche Kennung muss ein Feld aus dem Profil sein (d. h. kein Ereignis-/Kontextfeld).
-   * Bei Journeys vom Typ „Zielgruppe lesen“, die zusätzliche Kennungen nutzen, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
-   * Bei Verwendung von Journeys des Typs „Zielgruppe lesen“ mit zusätzlichen IDs werden nur Zielgruppen des einheitlichen Profildienstes unterstützt.
+   * **Geschäftsereignisse**: Die zusätzliche ID ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
+   * **Ereignis- und Kontextfelder**: Die zusätzliche Kennung darf nicht aus einem Ereignis- oder Journey-Kontextfeld bezogen werden.
+   * **Attributauswahl**: Jedes Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) kann als zusätzliche ID für alle Zielgruppentypen (Unified Profile Service, CSV-Import und Federated Audience Composition) verwendet werden. Personenbasierte Identitätsattribute sind nicht zulässig. Informationen zu externen Zielgruppen finden Sie [Zusätzliche Kennungen mit externen Zielgruppen](#external-audiences) unter Unterstützte Datenmuster und Konfigurationsanforderungen.
+   * **Leserate**: Bei Journey vom Typ „Zielgruppe lesen“, die ein zusätzliches ID-Feld vom Array-Typ verwenden, ist die Leserate der Aktivität „Zielgruppe lesen“ auf maximal 500 Profile pro Sekunde beschränkt.
 
 ## Verhalten von Ausstiegskriterien mit zusätzlichen Kennungen {#exit-criteria}
 
@@ -95,37 +88,19 @@ In der folgenden Tabelle wird das Verhalten von Profilen in einer für eine zus�
 
 Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer durch ein Ereignis ausgelösten Journey zu verwenden:
 
-1. **Markieren des Attributs als Kennung im Ereignisschema**
-
-   1. Greifen Sie auf das Ereignisschema zu, suchen Sie nach dem Attribut, das Sie als zusätzliche Kennung verwenden möchten (z. B. Buchungs-ID, Abonnement-ID), und markieren Sie es als ID. [Informationen zur Arbeit mit Schemata](../data/get-started-schemas.md)
-
-   1. Markieren Sie die Kennung als **[!UICONTROL Identität]**.
-
-      ![Schemakonfiguration mit Feldgruppe für zusätzliche Kennung](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >Stellen Sie sicher, dass Sie das Attribut nicht als **Primäre Identität** markieren.
-
-   1. Wählen Sie den Namespace aus, der mit der zusätzlichen ID verknüpft werden soll. Dies muss ein Namespace ohne Personenkennung sein.
-
-      Nachdem Sie den nicht personenbezogenen Identity-Namespace auf ein Schema angewendet haben, müssen Sie ein neues Ereignis erstellen, um die zusätzliche Kennung verwenden zu können. Bestehende Entitäten können nicht aktualisiert werden, um die neue Kennung zu erkennen.
-
 1. **Hinzufügen der zusätzlichen ID zum Ereignis**
 
    1. Erstellen oder bearbeiten Sie das gewünschte Ereignis. [Informationen zum Konfigurieren eines unitären Ereignisses](../event/about-creating.md)
 
    1. Aktivieren Sie im Bildschirm „Ereigniskonfiguration“ die Option **[!UICONTROL Zusätzliche Kennung verwenden]**.
 
-      ![Ereigniskonfiguration mit Namespace-Auswahl für zusätzliche Kennung](assets/supplemental-ID-event.png)
+      ![Ereigniskonfiguration mit zusätzlicher ID-Option](assets/supplemental-ID-event.png)
 
-   1. Verwenden Sie den Ausdruckseditor, um das Attribut auszuwählen, das Sie als zusätzliche ID markiert haben.
+   1. Verwenden Sie den Ausdruckseditor, um das Feld auszuwählen, das Sie als zusätzliche ID verwenden möchten (z. B. Buchungs-ID, Abonnement-ID).
 
       >[!NOTE]
       >
       >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL erweiterten Modus]** verwenden, um das Attribut auszuwählen.
-
-   1. Nach Auswahl der zusätzlichen ID wird der zugehörige Namespace im Bildschirm „Ereigniskonfiguration“ als schreibgeschützt angezeigt.
 
 1. **Hinzufügen des Ereignisses zur Journey**
 
@@ -137,32 +112,6 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer durch ein Ereigni
 
 Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ „Zielgruppe lesen“ zu verwenden:
 
-1. **Markieren des Attributs als Kennung im Vereinigungs-/Profilschema**
-
-   1. Greifen Sie auf das Vereinigungs-/Profilschema zu, suchen Sie nach dem Attribut, das Sie als zusätzliche Kennung verwenden möchten (z. B. Buchungs-ID, Abonnement-ID), und markieren Sie es als ID. [Informationen zur Arbeit mit Schemata](../data/get-started-schemas.md)
-
-   1. Markieren Sie die Kennung als **[!UICONTROL Identität]**.
-
-      ![Profilschema mit konfiguriertem Feld für zusätzliche Kennung](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >Stellen Sie sicher, dass Sie das Attribut nicht als **Primäre Identität** markieren.
-
-   1. Wählen Sie den Namespace aus, der mit der zusätzlichen ID verknüpft werden soll. Dies muss ein Namespace ohne Personenkennung sein.
-
-      Nachdem Sie den nicht personenbezogenen Identity-Namespace auf ein Schema angewendet haben, müssen Sie eine neue Feldergruppe erstellen, um die zusätzliche Kennung verwenden zu können. Bestehende Entitäten können nicht aktualisiert werden, um die neue Kennung zu erkennen.
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **Hinzufügen und Konfigurieren einer Aktivität „Zielgruppe lesen“ in der Journey**
 
    1. Ziehen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** in Ihre Journey.
@@ -171,14 +120,14 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
 
       ![Aktivität „Zielgruppe lesen“ mit Konfiguration zusätzlicher Kennung](assets/supplemental-ID-read-audience.png)
 
-   1. Verwenden Sie im Feld **[!UICONTROL Zusätzliche Kennung]** den Ausdruckseditor, um das Attribut auszuwählen, das Sie als zusätzliche Kennung markiert haben.
+   1. Wählen Sie im Feld **[!UICONTROL Ergänzende Kennung]** im Ausdruckseditor das zusätzliche Kennungsattribut aus.
 
-      >[!NOTE]
-      >
-      >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL erweiterten Modus]** verwenden, um das Attribut auszuwählen.
+   Wenn Ihre CSV-Zielgruppe für [aus einer CSV-Datei importierte](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} mehrere Zeilen pro Profil-ID enthält, stellen Sie sicher, dass zuerst die Express-Aktivierung aktiviert ist. Weitere Informationen finden Sie [Zusätzliche Kennungen mit externen Zielgruppen](#external-audiences).
 
-   1. Nach Auswahl der zusätzlichen Kennung wird der zugehörige Namespace im Feld **[!UICONTROL Zusätzlicher Namespace]** als schreibgeschützt angezeigt.
-
+       >[!NOTE]
+     >
+     >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL Erweiterten Modus]** verwenden, um das Attribut auszuwählen.
+   
 >[!ENDTABS]
 
 ## Nutzen der Attribute der zusätzlichen Kennung
@@ -230,6 +179,113 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 +++
 
+## Zusätzliche ID- und Journey-Schlichtung {#arbitration}
+
+Die Journey-Schlichtung (einschließlich Begrenzungen für gleichzeitige Eingaben und die Zählung der Einträge in Regelsätzen) erfolgt auf der Ebene der Profilkennung und nicht auf der Ebene der Paare (Profilkennung, zusätzliche ID). Dies bedeutet, dass eine Begrenzung für gleichzeitige Nutzung von 1 eine zweite Journey-Instanz für dasselbe Profil blockieren kann, selbst wenn dieses Profil einen anderen zusätzlichen ID-Wert aufweist.
+
+Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Informationen zum Schlichtungsverhalten zu erhalten, bevor Sie sich auf bestimmte Schlichtungseinstellungen in der Produktion verlassen.
+
+**Verwandte Dokumentation:**
+
+* [Journey-Begrenzung und -Steuerung](../conflict-prioritization/journey-capping.md)
+* [Arbeiten mit Regelsätzen](../conflict-prioritization/rule-sets.md)
+* [Konflikt-Management und Priorisierung](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Zusätzliche Kennungen mit externen Zielgruppen {#external-audiences}
+
+Zusätzliche ID wird für externe Zielgruppen unterstützt, einschließlich Zielgruppen ([ aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} und Zielgruppen, die mit [Federated Audience Composition](../audience/get-started-audience-orchestration.md) erstellt wurden. Beim Konfigurieren einer Journey, die aus einer CSV- oder Federated Audience Composition-Zielgruppe liest, können Sie jedes Nicht-Identitätsattribut in dieser Zielgruppe als zusätzliche ID festlegen. Journey Optimizer erstellt dann für jede eindeutige Profilkombination + zusätzliche ID-Kombination eine separate Journey-Instanz.
+
+* Anwendungsfall 1: Eine Zeile pro eindeutigem Profil + zusätzliches ID-Paar
+
+  Dies ist der primäre Anwendungsfall für CSV- und Federated Audience Composition-Zielgruppen. Die Zielgruppe enthält mehrere Zeilen, wobei jede Zeile eine eindeutige Kombination aus einem Profil (z. B. einem Kunden) und einer zusätzlichen ID (z. B. einem Konto oder einer Auftrags-ID) darstellt. Jede Zeile wird als unabhängiger Aktivierungsdatensatz behandelt.
+
+  | profile_id | account_id *(Supplemental ID)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | ACC-1001 | … |
+  | customer_001 | ACC-1002 | … |
+  | customer_002 | ACC-2001 | … |
+
+  In diesem Beispiel hat `customer_001` zwei Konten. Journey Optimizer erstellt für jedes eindeutige Profilpaar + `account_id` eine separate Journey-Instanz.
+
+* Anwendungsfall 2: Eine Zeile pro Profil mit einem Array zusätzlicher IDs
+
+  Dieser Anwendungsfall ist für Zielgruppentypen verfügbar, die Arrays unterstützen. Eine einzelne Zeile in der Zielgruppe enthält ein Profil mit einem Array-Attribut, das mehrere zusätzliche ID-Werte enthält. Journey Optimizer erstellt für jeden Wert im Array eine Journey-Instanz.
+
+  | profile_id | account_ids *(array, Supplemental ID)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001, ACC-1002] | … |
+  | customer_002 | [ACC-2001] | … |
+
+  In diesem Beispiel generiert Journey Optimizer zwei Journey-Instanzen für `customer_001` (eine pro Konto-ID) und eine Instanz für `customer_002`. Dies verhält sich konsistent mit der Funktionsweise der zusätzlichen ID für Zielgruppen des einheitlichen Profildienstes.
+
+### Konfigurieren von {#external-configuration}
+
+Für CSV-Zielgruppen, die Anwendungsfall 1 verwenden (bei dem die Zielgruppe absichtlich mehrere Zeilen für dieselbe Profil-ID enthält), müssen Sie die Express-Aktivierung aktivieren, bevor Sie die Journey konfigurieren. Siehe die Voraussetzungen unten. Konfigurieren Sie in allen anderen Fällen die Journey direkt.
+
++++ Voraussetzung: Aktivieren der Express Activation für CSV-Zielgruppen über die API
+
+>[!IMPORTANT]
+>
+>Diese Voraussetzung gilt nur für CSV-Zielgruppen, bei denen die Zielgruppe mehrere Zeilen für dieselbe Profil-ID enthält (Anwendungsfall 1). Für Zielgruppenkomposition-Zielgruppen ist die Express-Aktivierung standardmäßig aktiviert und dieser Schritt ist nicht erforderlich. Die Benutzeroberfläche von Audience Portal unterstützt nicht die `expressActivation` von Einstellungen. Sie müssen die externe Zielgruppen-API verwenden.
+
+Sie müssen die `expressActivation` für die Zielgruppe zum Zeitpunkt der Erstellung aktivieren. Dadurch wird Journey Optimizer angewiesen, jeden Datensatz unabhängig und ohne Deduplizierung nach Profil-ID zu aktivieren. Dieses Flag kann nach der Erstellung der Zielgruppe nicht mehr geändert werden.
+
+Verwenden Sie beim Erstellen der Zielgruppe den folgenden API-Aufruf:
+
+Endpunkt:
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+Erforderliche Kopfzeilen:
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+Anfragetext (`expressActivation: true` festgelegt):
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation` Standardwert ist `false`. Sie muss zur Erstellungszeit der Zielgruppe festgelegt werden und kann nach der Erstellung nicht mehr geändert werden. Für alle Zielgruppenkomposition-Zielgruppen ist die Express-Aktivierung standardmäßig aktiviert und dieses Flag ist nicht erforderlich.
+
+Die vollständige Referenz finden [ in der Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} Erstellen einer externen Zielgruppen-API .
+
++++
+
+So konfigurieren Sie die Journey:
+
+1. Öffnen oder erstellen Sie eine Journey mit dem Knoten **[!UICONTROL Zielgruppe lesen]**.
+1. Wählen Sie in **[!UICONTROL Knoteneinstellungen]** Zielgruppe lesen“ Ihre CSV- oder Federated Audience Composition-Zielgruppe aus.
+1. Schalten Sie die Option **[!UICONTROL Zusätzliche Kennung verwenden]** ein und wählen Sie dann im Feld **[!UICONTROL Zusätzliche Kennung]** im **[!UICONTROL Erweiterter Modus]** das Attribut aus, das Sie als sekundäre Kennung verwenden möchten (z. B. `account_id`, `order_number`).
+1. Das ausgewählte Attribut wird als zusätzliche ID für die Journey behandelt - es ist keine Identitätsregistrierung erforderlich.
+
+### Deduplizierungsverhalten {#external-dedup}
+
+Wenn für eine Zielgruppe die Express-Aktivierung aktiviert ist (für die Federated-Audience-Komposition immer „true“ - muss explizit für CSV festgelegt werden), verarbeitet Journey Optimizer die Deduplizierung basierend auf der Konfiguration der Journey:
+
+| Szenario | Beispiel für Zielgruppenzeilen | Verhalten |
+| --- | --- | --- |
+| **Journey mit zusätzlicher ID - keine doppelten (Profil-ID, zusätzliche ID) Paare** | (P1, S1), (P1, S2) | Vorgesehener Anwendungsfall. Journey Optimizer erstellt für jede eindeutige Profilkombination + zusätzliche ID-Kombination eine separate Journey-Instanz. Alle Zeilen sind zugelassen. |
+| **Journey mit zusätzlicher ID - Es gibt doppelte (Profil-ID, zusätzliche ID) Paare** | (P1, S1), (P1, S1), (P1, S2) | Zeilen mit derselben Kombination (Profil-ID, zusätzliche ID) werden durch die normale Journey-Wiedereintrittslogik herausgefiltert. Es wird nur die erste übereinstimmende Zeile pro eindeutiger Kombination zugelassen. |
+| **Journey ohne konfigurierte zusätzliche ID** | (P1, S1), (P1, S2) | Ohne zusätzliche ID behandelt Journey Optimizer alle Zeilen für dieselbe Profil-ID als dasselbe Profil. Pro Profil-ID ist nur eine Journey-Instanz zulässig. Zusätzliche Zeilen für dasselbe Profil werden verworfen. |
+
 ## Beispielhafte Anwendungsfälle
 
 Diese Beispiele zeigen, wie zusätzliche Kennungen mehrere verwandte Datensätze unterstützen.
@@ -262,4 +318,4 @@ Diese Beispiele zeigen, wie zusätzliche Kennungen mehrere verwandte Datensätze
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
