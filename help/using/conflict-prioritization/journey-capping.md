@@ -5,28 +5,26 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 TQID: https://experienceleague.adobe.com/8QpErWykIh4UPZIZpe43QS2RDkjgWdvrOMK52At3tWM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 98%
+source-wordcount: 993
+ht-degree: 95%
 
 ---
 
 # Journey-Begrenzung und -Steuerung {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie ein, wie viele Journey ein Profil gleichzeitig betreten oder dafür registriert sein kann, um Kommunikationsüberlastungen zu vermeiden und die wichtigsten Journey zu priorisieren.
+
+>[!ENDSHADEBOX]
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an denen ein Profil teilnehmen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
@@ -130,8 +128,8 @@ Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-A
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie auch den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Abfragebeispiele, einschließlich des Untergrundes zum Verwerfen (`CAP_REACHED` oder `LOWER_PRIORITY`), finden [&#x200B; in diesem Abschnitt](../reports/query-examples.md#business-rules-queries).
+Darüber hinaus können Sie auch den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Abfragebeispiele, einschließlich des Untergrundes zum Verwerfen (`CAP_REACHED` oder `LOWER_PRIORITY`), finden [ in diesem Abschnitt](../reports/query-examples.md#business-rules-queries).
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
