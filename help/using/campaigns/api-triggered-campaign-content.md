@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 88%
+source-wordcount: 480
+ht-degree: 82%
 
 ---
 
 # Bearbeiten des Inhalts einer Kampagne, die durch API ausgelöst wird {#api-content}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Gestalten und personalisieren Sie Ihren API-ausgelösten Kampagneninhalt mit kontextuellen Daten, die in der API-Payload übergeben werden, sodass jede Nachricht in Echtzeit für jeden Empfänger zugeschnitten ist.
+
+>[!ENDSHADEBOX]
 
 Um den Nachrichteninhalt zu konfigurieren, navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** oder klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 

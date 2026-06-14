@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 100%
+source-wordcount: 330
+ht-degree: 91%
 
 ---
 
 # Definieren der Eigenschaften einer Kampagne, die durch API ausgelöst wird {#api-properties}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erstellen Sie eine von einer API ausgelöste Kampagne und legen Sie den Typ, den Namen, die Tags und die Zugriffskennzeichnungen fest, damit sie den korrekten Umfang hat und von Anfang an leicht zu finden ist.
+
+>[!ENDSHADEBOX]
 
 Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen, die durch API ausgelöst wird:
 

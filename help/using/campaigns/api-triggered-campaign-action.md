@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7c48f88df2a2607d23eefe95998ce6b7fe9689ae
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 94%
+source-wordcount: 494
+ht-degree: 88%
 
 ---
 
 # Konfigurieren der Aktion einer Kampagne, die durch API ausgelöst wird {#api-action}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Wählen Sie die Kanal- und Kanalkonfiguration, die Ihre von einer API ausgelöste Kampagne sendet, und legen Sie Tracking-, Inhaltsexperiment- und mehrsprachige Optionen fest, damit die richtige Nachricht für den richtigen Kanal bereitgestellt wird.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
 

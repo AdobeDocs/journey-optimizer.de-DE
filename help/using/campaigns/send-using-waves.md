@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 813
 ht-degree: 2%
 
 ---
 
 # In Kampagnen mithilfe von Schüben versenden {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Sie den Versand ausgehender Kampagnen in geplante Batches, so genannte Schübe, aufteilen, sodass Sie eine ausgewogene Last erzielen, die Reputation der Absender schützen und die Zustellbarkeit für Sendungen mit hohem Volumen verbessern können.
+
+>[!ENDSHADEBOX]
 
 Sie können den Versand von ausgehenden Kampagnennachrichten in mehrere Batches (Schübe) unterteilen und im Zeitverlauf planen. Der Wave-Versand trägt dazu bei, die Auslastung auszugleichen, überlastete nachgelagerte Systeme (wie Callcenter oder Landingpages) zu vermeiden und die Zustellbarkeit und die Reputation des Absenders zu unterstützen - insbesondere bei Sendungen mit hohem Volumen.
 

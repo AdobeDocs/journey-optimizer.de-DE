@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 100%
+source-wordcount: 666
+ht-degree: 95%
 
 ---
 
 # Aktivieren des Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Aktivieren Sie den Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen, damit Sie sehr große Echtzeit-Transaktions-E-Mails mit bis zu 5.000 Transaktionen pro Sekunde senden können, ohne auf Profile angewiesen zu sein.
+
+>[!ENDSHADEBOX]
 
 Der Modus mit hohem Durchsatz wurde für Unternehmen entwickelt, die **sehr umfangreiches Echtzeit-Transaktions-Messaging** (bis zu 5.000 Transaktionen pro Sekunde) benötigen. Im Gegensatz zu regulären durch API ausgelösten Kampagnen werden Kampagnen mit hohem Durchsatz unabhängig von Adobe-Profilen ausgeführt und erfordern ein anderes Konfigurationsmodell.
 

@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 91%
+source-wordcount: 1797
+ht-degree: 89%
 
 ---
 
 # Aufrufen und Verwalten von Kampagnen {#manage-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Sie auf Ihre Kampagnen zugreifen, sie durchsuchen und organisieren, verstehen jeden Lebenszyklusstatus und verwenden den Kalender und die allgemeinen Vorgänge, damit Sie Ihren Kampagnenarbeitsbereich effizient nutzen und auf jede Kampagne zur richtigen Zeit reagieren können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

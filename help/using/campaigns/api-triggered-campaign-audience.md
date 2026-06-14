@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 98%
+source-wordcount: 571
+ht-degree: 93%
 
 ---
 
 # Definieren der Zielgruppe einer Kampagne, die durch API ausgelöst wird {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Definieren Sie die Zielgruppe, den Identitätstyp, die automatische Profilerstellung und Webhooks, damit Ihre API-ausgelöste Kampagne die richtigen Personen erreicht und den Echtzeit-Versandstatus zurückgibt.
+
+>[!ENDSHADEBOX]
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zielgruppe]** die Zielgruppe der Kampagne.
 

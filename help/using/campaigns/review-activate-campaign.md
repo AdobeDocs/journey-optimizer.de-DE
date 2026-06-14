@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 92%
+source-wordcount: 340
+ht-degree: 84%
 
 ---
 
 # Überprüfen und Aktivieren der Aktionskampagne {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie die Konfiguration und den Inhalt Ihrer Aktionskampagne, um Fehler zu erfassen, bevor Sie sie aktivieren. Auf diese Weise können Sie Ihre Nachricht sofort oder am geplanten Datum senden.
+
+>[!ENDSHADEBOX]
 
 Sobald Ihre Aktionskampagne konfiguriert ist, müssen Sie deren Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor.
 

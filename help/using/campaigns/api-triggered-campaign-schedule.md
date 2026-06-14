@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 100%
+source-wordcount: 345
+ht-degree: 91%
 
 ---
 
 # Planen der Kampagne, die durch API ausgelöst wird {#api-schedule}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Legen Sie auf der Registerkarte „Zeitplan“ das Start- und Enddatum sowie die Ratensteuerung fest, damit Ihre API-ausgelöste Kampagne zum richtigen Zeitpunkt gesendet wird, ohne die nachgelagerten Systeme zu überfordern.
+
+>[!ENDSHADEBOX]
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 

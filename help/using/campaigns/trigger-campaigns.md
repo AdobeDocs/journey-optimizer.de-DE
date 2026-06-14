@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 95%
+source-wordcount: 584
+ht-degree: 89%
 
 ---
 
 # Ausführen einer Kampagne, die durch API ausgelöst wird {#execute}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Rufen Sie die generierte cURL-Anfrage ab und verwenden Sie sie, um den Trigger Ihrer durch die APIs ausgelösten Live-API-Kampagne mit Anleitungen zur Fehlerbehebung durchzuführen, damit Sie Versandverzögerungen und Authentifizierungsfehler beheben können.
+
+>[!ENDSHADEBOX]
 
 Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-Anfrage abrufen und im API verwenden, um Ihre Payload zu erstellen und die Kampagne auszulösen.
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 97%
+source-wordcount: 890
+ht-degree: 93%
 
 ---
 
 # Konfigurieren der Kampagnenaktion {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Konfigurieren Sie die Kampagnenaktion, indem Sie eine Kanal- und Kanalkonfiguration sowie Optimierung und mehrsprachige Inhalte auswählen und mehrere eingehende Aktionen hinzufügen, damit Ihre Kampagne kanalübergreifend die richtigen Erlebnisse bereitstellt.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
 

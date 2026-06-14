@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 92%
+source-wordcount: 248
+ht-degree: 80%
 
 ---
 
 # Arbeiten mit Aktionskampagnen {#gs-action-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, was Aktionskampagnen sind, und führen Sie die wichtigsten Schritte aus, um eine Kampagne zu erstellen, damit Sie einfache geplante Batch-Nachrichten wie Werbeangebote, Ankündigungen oder Richtlinienaktualisierungen senden können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"

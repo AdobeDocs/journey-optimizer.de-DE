@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 92%
+source-wordcount: 345
+ht-degree: 84%
 
 ---
 
 # Überprüfen und Aktivieren der Kampagne, die durch API ausgelöst wird {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie die Konfiguration und den Inhalt Ihrer von einer API ausgelösten Kampagne, um Fehler vor der Aktivierung zu erkennen. Auf diese Weise können Sie die Kampagne sicher live schalten und über APIs für den Trigger bereitstellen.
+
+>[!ENDSHADEBOX]
 
 Sobald Ihre API-ausgelöste Kampagne konfiguriert ist, müssen Sie deren Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 

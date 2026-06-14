@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 60%
+source-wordcount: 857
+ht-degree: 57%
 
 ---
 
 # Planen der Aktionskampagne {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie Ihre Aktionskampagne, indem Sie Start- und Enddatum, Versand in der Zeitzone der Empfänger, Ausführungshäufigkeit und Ratenkontrolle festlegen, damit Ihre Nachrichten die richtige Zielgruppe zur richtigen Zeit erreichen, ohne die nachgelagerten Systeme zu überlasten.
+
+>[!ENDSHADEBOX]
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 
