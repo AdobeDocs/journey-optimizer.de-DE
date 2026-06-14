@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 96%
+source-wordcount: 1688
+ht-degree: 93%
 
 ---
 
 # Konfigurieren eines unitären Ereignisses {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Konfigurieren Sie ein unitäres Ereignis, damit Sie für eine bestimmte Person in Echtzeit einen Journey-Trigger auf Grundlage ihres Verhaltens ausführen können, z. B. einen Kauf oder einen Treuemeilenstein.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -138,7 +144,7 @@ Sie können entweder einen vorhandenen Identitätstyp verwenden oder mit Identit
 
 Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Identitätstyp aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Identitätstyp]**) mit _identityMap > id_ vorausgefüllt.
 
-Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
+Bei der Auswahl von Feldern werden primäre Identitätsfelder mit Tags versehen.
 
 ![](assets/primary-identity.png)
 
@@ -160,7 +166,7 @@ Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwend
 
 Mit der Profilkennung kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > ID_ als Primärschlüssel aus. Wählen Sie dann einen Identitätstyp aus und der Schlüssel wird automatisch mit _identityMap > id_ vorausgefüllt.
 
-Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
+Bei der Auswahl von Feldern werden primäre Identitätsfelder mit Tags versehen.
 
 ![](assets/primary-identity.png)
 
@@ -172,8 +178,8 @@ Wenn Sie einen anderen Schlüssel verwenden müssen, z. B. eine CRM-ID oder ein
 
 1. Wählen Sie das als Schlüssel ausgewählte Feld in der Liste der Payload-Felder aus.
 
-Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Mit dem Schlüssel, der einem [Identitätstyp](../event/about-creating.md#select-the-namespace) zugeordnet ist, können Abfragen auf Adobe Experience Platform durchgeführt werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
-Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
+Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Der Schlüssel ist einem [Identitätstyp](../event/about-creating.md#select-the-namespace) zugeordnet und kann zum Ausführen von Abfragen in Adobe Experience Platform verwendet werden. Siehe [diese Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
+Die Taste wird auch verwendet, um zu überprüfen, ob sich eine Person auf einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen auf derselben Journey befindet.
 
 ## Der erweiterte Ausdruckseditor {#adv-exp-editor}
 

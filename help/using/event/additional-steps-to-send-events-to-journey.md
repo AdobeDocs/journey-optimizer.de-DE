@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 95%
+source-wordcount: 347
+ht-degree: 87%
 
 ---
 
 # Zusätzliche Schritte zum Senden von Ereignissen {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Richten Sie Ihr Datensystem so ein, dass Ereignisse an die Streaming-Aufnahme-APIs gepusht werden. Die von Ihnen konfigurierten Ereignisse erreichen dann tatsächlich Journey Optimizer und geben den Trigger an Ihre Journey weiter.
+
+>[!ENDSHADEBOX]
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
