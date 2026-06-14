@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 649
-ht-degree: 100%
+source-wordcount: 682
+ht-degree: 95%
 
 ---
 
 # Verwalten der Standard-Ausführungsfelder {#change-primary-email}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie die Ausführungsfelder definieren und überschreiben, die bestimmen, welche E-Mail-Adresse oder Telefonnummer Adobe Journey Optimizer für den Versand priorisiert, wenn mehrere in einem Profil verfügbar sind.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

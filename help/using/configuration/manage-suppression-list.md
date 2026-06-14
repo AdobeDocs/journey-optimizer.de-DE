@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 99%
+source-wordcount: 1643
+ht-degree: 97%
 
 ---
 
 # Verwalten der Unterdrückungsliste {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie auf Einträge in der Adobe Journey Optimizer-Unterdrückungsliste zugreifen, filtern, hinzufügen, entfernen und herunterladen können, um zu steuern, welche E-Mail-Adressen und Domains vom Versand ausgeschlossen werden.
+
+>[!ENDSHADEBOX]
 
 Mit [!DNL Journey Optimizer] können Sie alle E-Mail-Adressen überwachen, die in einer Journey oder einer Kampagne automatisch vom Versand ausgeschlossen werden, z. B. Hard Bounces, Soft Bounces und Spam-Beschwerden.
 

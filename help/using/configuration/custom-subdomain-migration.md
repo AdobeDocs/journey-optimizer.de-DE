@@ -13,14 +13,20 @@ exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 20%
+source-wordcount: 1301
+ht-degree: 19%
 
 ---
 
 # E-Mail-Subdomain von CNAME zur benutzerdefinierten Delegierung migrieren {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie eine E-Mail- oder Landingpage-Subdomain von der CNAME-Delegierung zur benutzerdefinierten Delegierung in Adobe Journey Optimizer migrieren, indem Sie die vorhandenen DNS-Einträge löschen, Ihr SSL-Zertifikat hochladen, die Feedback-Schleife abschließen und die neuen DNS-Einträge erstellen.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

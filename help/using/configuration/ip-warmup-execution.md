@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 93%
+source-wordcount: 2795
+ht-degree: 92%
 
 ---
 
 # Ausführen des IP-Aufwärmplans {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Phasen und Ausführungen Ihres IP-Aufwärmplans definieren, aktivieren und den Fortschritt über Status und Berichte überwachen.
+
+>[!ENDSHADEBOX]
 
 Wenn Sie [einen IP-Aufwärmplan erstellt haben](ip-warmup-plan.md) und die Datei hochgeladen haben, die Sie mit Ihren Fachleuten für Zustellbarkeit vorbereitet haben, können Sie die Phasen und Ausführungen Ihres Plans definieren.
 

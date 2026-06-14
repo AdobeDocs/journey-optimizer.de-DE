@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
-ht-degree: 96%
+source-wordcount: 1028
+ht-degree: 93%
 
 ---
 
 # Verwenden von Testadressenlisten {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie in Adobe Journey Optimizer Testadressen erstellen und verwenden, um automatisch interne Testadressen in Ihre E-Mail-Sendungen aufzunehmen, um die Überwachung und den Schutz der Mailing-Liste zu gewährleisten.
+
+>[!ENDSHADEBOX]
 
 Testadressenlisten in [!DNL Journey Optimizer] ermöglichen es Ihnen, automatisch bestimmte Testadressen in Ihre Sendungen einzubeziehen.
 

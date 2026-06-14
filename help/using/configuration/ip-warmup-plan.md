@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
-ht-degree: 83%
+source-wordcount: 1853
+ht-degree: 82%
 
 ---
 
 # Erstellen eines IP-Aufwärmplans {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die erforderlichen Berechtigungen einrichten, die Excel-Plandatei mit Domain-Gruppen vorbereiten und einen IP-Aufwärmplan in Adobe Journey Optimizer erstellen.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Konfiguration und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 

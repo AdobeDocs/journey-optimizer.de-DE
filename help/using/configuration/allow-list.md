@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
-ht-degree: 73%
+source-wordcount: 1371
+ht-degree: 71%
 
 ---
 
 # Einrichten einer Zulassungsliste {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Zulassungsliste in Adobe Journey Optimizer aktivieren, ausfüllen und verwalten können, um den E-Mail-Versand auf Sandbox-Ebene auf vertrauenswürdige Adressen und Domains zu beschränken.
+
+>[!ENDSHADEBOX]
 
 Die Zulassungsliste ist eine Sicherheitsliste für den Versand, die Sie auf der Ebene [Sandbox](../administration/sandboxes.md) definieren können. Dadurch wird der E-Mail-Versand auf bestimmte Adressen oder Domains beschränkt, sodass nur explizit aufgeführte Empfänger Nachrichten von einer bestimmten Sandbox empfangen können.
 

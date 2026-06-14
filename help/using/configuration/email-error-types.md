@@ -23,14 +23,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 94%
 
 ---
 
 # E-Mail-Fehlertypen {#email-error-types}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie die vollständige Liste der E-Mail-Versandfehler in Adobe Journey Optimizer, jeweils mit Fehlerbezeichnung, Fehlertyp, technischem Wert und Beschreibung.
+
+>[!ENDSHADEBOX]
 
 Es gibt viele mögliche Ursachen für einen fehlgeschlagenen Versand. In der folgenden Tabelle sind alle Fehler, die beim Senden von E-Mail-Sendungen mit [!DNL Journey Optimizer] auftreten können, zusammen mit ihrer Beschreibung und dem Fehlertyp aufgeführt.
 

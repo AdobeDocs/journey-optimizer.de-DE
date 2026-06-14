@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
-ht-degree: 97%
+source-wordcount: 1860
+ht-degree: 95%
 
 ---
 
 # Integration mit externen Systemen {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie mehr über die Leitplanken und Best Practices für die Integration von Adobe Journey Optimizer mit externen Systemen, einschließlich Begrenzungs- und Einschränkungs-APIs, Journey-Timeouts und Wiederholungsversuche.
+
+>[!ENDSHADEBOX]
 
 Auf dieser Seite werden die verschiedenen Leitplanken vorgestellt, die Journey Optimizer für die Integration eines externen Systems bietet. Zusätzlich erhalten Sie Best Practices dazu, wie Sie den Schutz Ihres externen Systems mithilfe der Begrenzungs-API optimieren können, wie Journey-Zeitüberschreitungen konfiguriert werden und wie erneute Versuche funktionieren.
 

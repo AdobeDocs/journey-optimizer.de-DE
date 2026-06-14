@@ -22,14 +22,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
-ht-degree: 100%
+source-wordcount: 605
+ht-degree: 94%
 
 ---
 
 # Weitere Zustellversuche {#retries}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Adobe Journey Optimizer E-Mail-Nachrichten, bei denen ein Softbounce aufgetreten ist, erneut versucht, wie der Fehlerschwellenwert und der Zeitraum für weitere Zustellversuche funktionieren und wie Sie sie anpassen können, bevor eine Adresse zur Unterdrückungsliste hinzugefügt wird.
+
+>[!ENDSHADEBOX]
 
 Wenn die Zustellung einer E-Mai-Nachricht an eine bestimmte Adresse aufgrund eines temporären Fehlers vom Typ **Softbounce** fehlschlägt, werden mehrere weitere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die E-Mail-Adresse der Unterdrückungsliste hinzugefügt.
 

@@ -30,14 +30,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 100%
+source-wordcount: 1139
+ht-degree: 97%
 
 ---
 
 # Handbuch zur IP-Aufwärmzustellbarkeit {#ip-warmup-deliverability-guide}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Sie die Grundlagen der Zustellbarkeit, die Reputationsbildung, Prüfungen vor dem Flug, Beispielkalender für die Aufwärmphase und Überwachungsmetriken, um eine erfolgreiche IP-Aufwärmphase in Adobe Journey Optimizer durchzuführen.
+
+>[!ENDSHADEBOX]
 
 Beim Starten von E-Mail-Kampagnen mit neuen IP-Adressen oder Domains in Adobe Journey Optimizer sind die Grundlagen der Zustellbarkeit von entscheidender Bedeutung für den Aufbau einer guten Reputation der Absendenden. In diesem Handbuch werden die wichtigsten Konzepte, Vorbereitungsschritte und Best Practices behandelt, die Ihnen beim Übergang von keiner Reputation zu einer erfolgreichen Platzierung im Posteingang helfen.
 

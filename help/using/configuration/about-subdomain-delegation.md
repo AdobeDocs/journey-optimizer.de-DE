@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1019
-ht-degree: 83%
+source-wordcount: 1052
+ht-degree: 80%
 
 ---
 
 # Subdomain-Delegierung in [!DNL Journey Optimizer] {#subdomain-delegation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, warum und wie Sie Subdomains für den E-Mail-Versand in Adobe Journey Optimizer einrichten, und vergleichen Sie die Methoden der vollständigen Delegierung, des CNAME und der benutzerdefinierten Delegierung, um die Reputation Ihrer Domain und die Zustellbarkeit zu schützen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"

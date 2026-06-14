@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 100%
+source-wordcount: 489
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit IP-Aufwärmplänen {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie IP-Aufwärmpläne Ihnen dabei helfen, das Versandvolumen schrittweise zu erhöhen, um die Reputation der Absender aufzubauen, und lernen Sie die wichtigsten Schritte zur Implementierung eines Pfades in Adobe Journey Optimizer kennen.
+
+>[!ENDSHADEBOX]
 
 Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benutzeroberfläche aus auf standardisierte und effiziente Weise durchführen, die den Best Practices für optimale Zustellbarkeit folgt. Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
 
