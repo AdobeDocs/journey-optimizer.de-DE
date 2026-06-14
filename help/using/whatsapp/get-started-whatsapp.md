@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # Erste Schritte mit WhatsApp-Nachrichten {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie der WhatsApp-Kanal in Journey Optimizer funktioniert und welche Voraussetzungen und Einschränkungen er bietet, damit Sie entscheiden können, wie Sie Ihren Journey und Kampagnen WhatsApp hinzufügen.
+
+>[!ENDSHADEBOX]
 
 Sie können jetzt direkt in Journey Optimizer WhatsApp-Nachrichten über das [Cloud-API](https://developers.facebook.com/docs/whatsapp/cloud-api/) von Meta senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp in Journeys und Kampagnen und verbessert die Kommunikation und Interaktion mit Empfängerinnen und Empfängern.
 
@@ -70,7 +70,7 @@ Das folgende Video zeigt, wie Sie WhatsApp als nativen Kanal in Adobe Journey Op
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470253?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
