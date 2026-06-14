@@ -63,7 +63,7 @@ Erstellen Sie zum Erstellen von Briefpostnachrichten eine geplante Kampagne oder
 >id="ajo_journey_action_direct_mail"
 >title="Briefpost-Aktion"
 >abstract="Eine Briefpost-Kanalaktion generiert den Briefpost-Inhalt für Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Briefpostkonfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Briefpostnachricht zu einer Kampagne oder einer Journey hinzufügen.
 
