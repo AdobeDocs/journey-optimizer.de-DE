@@ -27,14 +27,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
-ht-degree: 97%
+source-wordcount: 1117
+ht-degree: 93%
 
 ---
 
 # Voraussetzungen und Konfiguration {#inapp-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Versandvoraussetzungen einrichten und eine In-App-Kanalkonfiguration erstellen, um In-App-Nachrichten mit Adobe Journey Optimizer zu senden.
+
+>[!ENDSHADEBOX]
 
 ## Konfigurationsschritte {#inapp-steps}
 
@@ -107,7 +113,7 @@ Gehen Sie wie folgt vor, um in Journey Optimizer eine In-App-Konfiguration zu er
 
    >[!NOTE]
    >
-   >Bei iOS- und Android-Plattformen basiert der Versand ausschließlich auf der App-ID. Wenn beide Apps dieselbe App-ID verwenden, werden Inhalte für beide bereitgestellt, unabhängig von der in der **[!UICONTROL Kanalkonfiguration]** ausgewählten Plattform.
+   >Bei iOS- und Android-Plattformen basiert die Bereitstellung ausschließlich auf der App-ID. Wenn beide Apps dieselbe App-ID verwenden, werden Inhalte für beide bereitgestellt, unabhängig von der in der **[!UICONTROL Kanalkonfiguration“ ausgewählten Plattform]**.
    >Um den In-App-Nachrichtenversand auf eine bestimmte Plattform zu beschränken, müssen Sie gerätespezifische Regeln in Ihrer Journey- oder Kampagnenlogik implementieren.
 
    ![](assets/inapp_config_10.png)
