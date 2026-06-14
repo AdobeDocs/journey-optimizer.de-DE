@@ -8,25 +8,25 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2372
+source-wordcount: 2404
 ht-degree: 58%
 
 ---
 
 # Erstellen von Entscheidungsrichtlinien {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Fügen Sie in Ihren Kampagnen- oder Journey-Inhalten eine Entscheidungsrichtlinie hinzu und konfigurieren Sie sie, damit Sie für jedes Profil die besten Entscheidungselemente zurückgeben und in den unterstützten Kanälen nach ihnen ordnen können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -195,7 +195,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 >[!TAB Briefpost]
 
-Fügen Sie für Briefpost eine Entscheidungsrichtlinie aus der Konfiguration **Extraktionsdatei“**. [Erfahren Sie, wie Sie eine Briefpostnachricht &#x200B;](../direct-mail/create-direct-mail.md).
+Fügen Sie für Briefpost eine Entscheidungsrichtlinie aus der Konfiguration **Extraktionsdatei“**. [Erfahren Sie, wie Sie eine Briefpostnachricht ](../direct-mail/create-direct-mail.md).
 
 1. Wählen Sie **[!UICONTROL Abschnitt &quot;]**&quot; eine Spalte aus oder klicken Sie auf **[!UICONTROL Hinzufügen]** um eine Spalte zu erstellen.
 

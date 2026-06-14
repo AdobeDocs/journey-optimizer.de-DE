@@ -10,29 +10,26 @@ level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mmplq31zfIn3ieSWbe4Kc3EeJoMJ45vjI51t8GsgGgs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 92%
+source-wordcount: 806
+ht-degree: 88%
 
 ---
 
 # Erstellen von KI-Modellen {#create-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erstellen Sie KI-Modelle für die automatische Optimierung oder personalisierte Optimierung und verbinden Sie sie mit Ihren Konversionsdatensätzen, damit die Decisioning-Engine automatisch Angebote ordnen und für jedes Profil das Angebot mit der höchsten Konversionsrate bereitstellen kann.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht Ihnen die Erstellung von **KI-Modellen**, um Angebote nach Ihren Geschäftszielen zu ordnen.
 
@@ -122,7 +119,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >Sie können bis zu 5 Zielgruppen auswählen.
 
-1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung &#x200B;](ai-model-observability.md).
+1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung ](ai-model-observability.md).
 
 <!--
 At this point, you must have:
@@ -141,5 +138,5 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
 -->
