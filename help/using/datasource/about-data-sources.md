@@ -10,12 +10,23 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
 source-wordcount: 948
@@ -76,7 +87,7 @@ Stellen Sie zur Journey-Laufzeit eine direkte Verbindung zu einer externen API h
 * Die Daten sind nur innerhalb des Journey-Kontexts nützlich und anderswo nicht benötigt.
 * Auf das externe System kann über einen API-Endpunkt zugegriffen werden, der die erforderlichen Attribute zurückgibt.
 
-Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte ](../action/action-response.md).
+Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte &#x200B;](../action/action-response.md).
 
 >[!TIP]
 >
@@ -95,7 +106,7 @@ Nehmen Sie Daten in einen Datensatz auf, um Journey auf der Grundlage kontextuel
 >
 >Diese Option eignet sich gut, wenn Sie **beiden Fragen** ja“ beantworten:
 >* Enthalten Datensätze ein Identitätsfeld, das für den Zugriff auf Profile verwendet werden kann, die bereits in Experience Platform gespeichert sind? Andernfalls können Journey nicht auf Profile zugreifen und sie nicht an sie senden.
->* Werden die Daten NICHT für die Erstellung [ Zielgruppe oder ](../audience/about-audiences.md) Identitätszuordnung außerhalb von Journey Optimizer benötigt? Ist dies der Fall, verwenden Sie stattdessen Option 3.
+>* Werden die Daten NICHT für die Erstellung [&#x200B; Zielgruppe oder &#x200B;](../audience/about-audiences.md) Identitätszuordnung außerhalb von Journey Optimizer benötigt? Ist dies der Fall, verwenden Sie stattdessen Option 3.
 
 **Option 3 - Profil-aktivierter Datensatz im Data Lake**
 
@@ -108,7 +119,7 @@ Nehmen Sie Daten in einen [profilaktivierten Datensatz](https://experienceleague
 >
 >**Bevor Sie einen Datensatz für Profil aktivieren** sollten Sie die folgenden Bereiche bewerten:
 >* **Datensynchronisation** - Externe Datenbanken müssen mit Warnhinweisen synchronisiert werden, um Aufnahmefehler zu identifizieren.
->* **[Profil-](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}**: Profilspezifische Leitplanken gelten zusätzlich zu den &quot;[ Leitplanken für die Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"} für Experience Platform.
+>* **[Profil-](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}**: Profilspezifische Leitplanken gelten zusätzlich zu den &quot;[&#x200B; Leitplanken für die Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"} für Experience Platform.
 >* **Identitätsintegrität** - Identitätsdaten in Ihren Quellsystemen müssen sorgfältig geplant werden, um gesunde Identitätsdiagramme zu erhalten.
 >* **Data Lake-Nutzung** - Der gesamte Speicherverbrauch, Tabellenbeziehungen und adressierbare Profile müssen vor der Aufnahme bewertet werden.
 
