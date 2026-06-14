@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 78%
+source-wordcount: 2111
+ht-degree: 77%
 
 ---
 
 # Verwenden von Formularen in Ihren Landingpages {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Formulare erstellen und in Landingpages zur Datenerfassung einbetten, um Profilattribute von Besuchern zu erfassen und die Übermittlungen in Ihre Experience Platform-Datensätze zu schreiben.
+
+>[!ENDSHADEBOX]
 
 Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen. Eine Übersicht über Datenerfassungsszenarien und -anforderungen finden Sie unter [Datenerfassung mit Landingpages](get-started-lp.md#data-capture-lp).
 

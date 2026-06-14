@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
 workflow-type: tm+mt
-source-wordcount: 1630
-ht-degree: 82%
+source-wordcount: 1668
+ht-degree: 80%
 
 ---
 
 # Definieren von Landingpage-spezifischen Inhalten {#lp-content}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Die Formularkomponente wandelt eine statische Landingpage in ein interaktives Erlebnis um. Fügen Sie sie hinzu, damit sich Besuchende abmelden oder abmelden, ihre Abonnements verwalten oder Daten senden können, die direkt in Ihre Experience Platform-Datensätze fließen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"

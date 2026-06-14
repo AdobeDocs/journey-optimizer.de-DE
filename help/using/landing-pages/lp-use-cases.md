@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
-ht-degree: 100%
+source-wordcount: 1263
+ht-degree: 98%
 
 ---
 
 # Anwendungsfälle für Landingpages {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über praktische Beispiele, die Landingpages verwenden, um zu Abonnements, Opt-outs und Trigger-Follow-up-Journey aus Formularübermittlungen zu gelangen.
+
+>[!ENDSHADEBOX]
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer]-Landingpages zum kundenseitigen Opt-in/Opt-out für bestimmte oder alle Ihre Nachrichten.
 

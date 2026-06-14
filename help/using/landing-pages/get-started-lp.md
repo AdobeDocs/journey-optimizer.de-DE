@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit Landingpages {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Landingpages wandeln einen Klick aus einer E-Mail, Anzeige oder Kampagne in ein dediziertes Web-Ziel um, an dem sich Kundinnen und Kunden anmelden oder abmelden, ihre Voreinstellungen verwalten und Profildaten freigeben - so können Sie einverstandene Zielgruppen erweitern und die Erstanbieter-Daten erfassen, die der Personalisierung dienen.
+
+>[!ENDSHADEBOX]
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er auf eine E-Mail, eine Website, eine Anzeige oder einen anderen digitalen Ort geklickt hat.
 
@@ -75,7 +81,7 @@ Im Folgenden finden Sie Beispiele für Anwendungsfälle:
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Erstellen von Landingpages</strong>
+<div><a href="create-lp.md"><strong>Landingpages erstellen</strong>
 </div>
 <p>
 </td>

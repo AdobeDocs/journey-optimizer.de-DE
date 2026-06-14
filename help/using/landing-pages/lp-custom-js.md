@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 100%
+source-wordcount: 596
+ht-degree: 95%
 
 ---
 
 # Verwenden von benutzerdefiniertem JavaScript in einer Landingpage {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erweitern Sie Ihre Landingpages mit benutzerdefiniertem JavaScript, um Eingaben zu validieren, benutzerdefinierte Formularübermittlungen auszuführen, Analytics-Ereignisse auszulösen oder dynamische Verhaltensweisen zu erstellen, die über den Standardeditor hinausgehen.
+
+>[!ENDSHADEBOX]
 
 Sie können den Inhalt Ihrer Landingpage mit benutzerdefiniertem JavaScript definieren. Wenn Sie beispielsweise erweiterte Stile oder benutzerdefinierte Verhaltensweisen zu Ihren Landingpages hinzufügen möchten, können Sie Ihre eigenen Steuerelemente erstellen und in [!DNL Journey Optimizer] ausführen.
 

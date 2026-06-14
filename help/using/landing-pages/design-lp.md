@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 88%
+source-wordcount: 280
+ht-degree: 77%
 
 ---
 
 # Erstellen der Landingpage-Inhalte {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Entdecken Sie, wie Sie Ihre Landingpage-Inhalte im Content Designer gestalten können - von Grund auf mit dem KI-Assistenten, mit Ihrer eigenen HTML oder aus einer gespeicherten Vorlage - für ein markeninternes Besuchererlebnis.
+
+>[!ENDSHADEBOX]
 
 Um Inhalte für die [Primärseite](create-lp.md#configure-primary-page) oder [Unterseite](create-lp.md#configure-subpages) Ihrer Landingpage zu erstellen, bewegen Sie den Mauszeiger über die Seiteninhalte und klicken Sie auf **[!UICONTROL Designer öffnen]**. Sie können auch in der rechten Palette auf die entsprechende Schaltfläche klicken.
 
