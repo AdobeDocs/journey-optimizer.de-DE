@@ -6,8 +6,12 @@ description: Erfahren Sie, wie Sie Live-Aktivitäten in Journey Optimizer für e
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
 source-wordcount: 4641
@@ -80,7 +84,7 @@ Aus Ihrer API-Anfrage können Sie Folgendes abrufen:
 * Profil-Namespace, z. B. ECID, E-Mail, Kunden-ID
 * Im API-Aufruf verwendete Profil-ID
 
-Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [ Dokumentation zu Experience Platform, wie Sie ein Profil ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
+Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [&#x200B; Dokumentation zu Experience Platform, wie Sie ein Profil &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
 
 +++
 
@@ -198,12 +202,12 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
 * `content-state` und `attributes` stimmen nicht mit der Implementierung der iOS-`ActivityAttributes` überein.
 * Veraltete `timestamp` (wichtig für Aktualisierung/Ende).
 
-**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem ](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
+**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem &#x200B;](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
 
 #### Vorab-Prüfungen
 
 * Campaign ist **API-ausgelöste Transaktion** (unitäres) oder **API-ausgelöstes Marketing** (Broadcast) und **Hoher Durchsatz** Option muss **nicht** aktiviert sein, da sie mit Live-Aktivität nicht kompatibel ist.
-* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [ Szenario korrekt synchronisiert ](#profile-issue).
+* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [&#x200B; Szenario korrekt synchronisiert &#x200B;](#profile-issue).
 
 #### Debugging-Schritte
 
@@ -347,7 +351,7 @@ Stellen Sie sicher, dass Ihre API-Payload mit der `ActivityAttributes` Implement
 | Einschließen von `attributes` in Aktualisierung/Ende | Unnötig, aber normalerweise ignoriert | Nur `attributes` in Startereignis einbeziehen |
 | Veralteter Zeitstempel bei Aktualisierung/Ende | Update/Ende vom Gerät ignoriert | Immer neuen Zeitstempel erzeugen |
 
-Weitere Beispiele finden Sie auf [ Seite „Live-Aktivität erstellen](create-mobile-live.md).
+Weitere Beispiele finden Sie auf [&#x200B; Seite „Live-Aktivität erstellen](create-mobile-live.md).
 
 +++
 
@@ -722,7 +726,7 @@ Die Struktur der Broadcast-Payload unterscheidet sich von unitären Kampagnen. V
 * `dismissal-date`: Unix-Epochenzeit für automatische Abweisung (nur relevant für `end` Ereignisse)
 * `alert`: Objekt mit `title` und `body` zur Benachrichtigung
 
-Vollständige API-Spezifikationen finden Sie in der ](https://developer.adobe.com/journey-optimizer-apis/references/messaging) zur Adobe Journey Optimizer Messaging-API [.
+Vollständige API-Spezifikationen finden Sie in der [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) zur Adobe Journey Optimizer Messaging-API .
 
 +++
 
