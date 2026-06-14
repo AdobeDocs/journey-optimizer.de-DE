@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 16%
+source-wordcount: 770
+ht-degree: 15%
 
 ---
 
 # Erste Schritte mit Inhaltsoptimierung {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie die Inhaltsoptimierung in Adobe Journey Optimizer mithilfe von Targeting, Experimenten oder beidem die besten personalisierten Inhalte für Ihre Kampagnen und Journey bereitstellt.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
@@ -130,7 +136,7 @@ Sobald Ihr Journey oder Ihre Kampagne live ist, werden die Profile anhand der vo
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie die Inhaltsoptimierung in durch eine Aktion oder API ausgelösten Kampagnen nutzen können. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird außerdem beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
+Erfahren Sie, wie Sie die Inhaltsoptimierung in durch eine Aktion oder API ausgelösten Kampagnen nutzen können. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3470377?captions=ger&quality=12)
 

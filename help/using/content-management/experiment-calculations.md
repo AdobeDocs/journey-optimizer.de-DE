@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 98%
+source-wordcount: 1080
+ht-degree: 93%
 
 ---
 
 # Verstehen von statistischen Berechnungen {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Machen Sie sich mit der statistischen Methodik hinter Experimenten in Adobe Journey Optimizer vertraut, einschließlich jederzeit gültiger Konfidenzsequenzen und Konfidenz, mit denen Sie die Ergebnisse kontinuierlich überwachen und bestimmen können, wann ein Experiment schlüssig ist.
+
+>[!ENDSHADEBOX]
 
 Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden.
 
@@ -55,7 +61,7 @@ Für wirksame Experimente müssen verschiedene Fehlertypen berücksichtigt werde
 
 Die obige Tabelle zeigt die verschiedenen Fehlertypen:
 
-* **Falsch-Positiv (Fehler vom Typ I)**: ist eine falsche Zurückweisung der Nullhypothese, obwohl sie in Wirklichkeit wahr ist. Im Kontext von Online-Experimenten bedeutet dies, dass wir fälschlicherweise zu dem Schluss kommen, dass die Ergebniskennzahl zwischen den einzelnen Abwandlungen unterschiedlich ist, obwohl sie identisch war.
+* **Falsch-Positiv (Fehler vom Typ I)** ist eine falsche Zurückweisung der Nullhypothese, obwohl sie in Wirklichkeit wahr ist. Im Kontext von Online-Experimenten bedeutet dies, dass wir fälschlicherweise zu dem Schluss kommen, dass die Ergebniskennzahl zwischen den einzelnen Behandlungen unterschiedlich ist, obwohl sie identisch war.
   </br>Bevor wir das Experiment durchführen, wählen wir normalerweise einen Schwellenwert `\alpha`. Nachdem das Experiment ausgeführt wurde, wird der `p-value` berechnet, und wenn er über dem Schwellenwert liegt, weisen wir die Nullhypothese zurück (nicht `null if p < \alpha`). Die Wahl von `/alpha` basiert auf den Konsequenzen einer falschen Antwort, so könnte man sich z. B. in einer klinischen Studie, in der das Leben eines Menschen betroffen sein könnte, für ein `\alpha = 0.005` entscheiden. Ein häufig verwendeter Schwellenwert bei Online-Experimenten ist `\alpha = 0.05`, was bedeutet, dass auf lange Sicht 5 von 100 Experimenten als falsch-positiv eingestuft werden.
 
 * **Falsch-Negativ (Fehler vom Typ II)**: bedeutet, dass wir die Nullhypothese nicht zurückweisen, obwohl sie falsch ist. Bei Experimenten bedeutet dies, dass wir die Nullhypothese nicht ablehnen, obwohl sie in Wirklichkeit anders ist. Um diesen Fehlertyp zu kontrollieren, müssen wir im Allgemeinen genügend Teilnehmende in unserem Experiment haben, um eine bestimmte Aussagekraft (Power) zu gewährleisten, die als `1 - \beta` (d. h. 1 minus die Wahrscheinlichkeit eines Fehlers vom Typ II) definiert ist.

@@ -12,14 +12,20 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1113
 ht-degree: 4%
 
 ---
 
 # KI-Assistent für Personalisierungsausdrücke{#generative-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem KI-Assistenten in Adobe Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache im Personalization-Editor und in E-Mail-Designer generieren, korrigieren und erklären können.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

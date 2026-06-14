@@ -10,14 +10,20 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 593
 ht-degree: 2%
 
 ---
 
 # Erstellen und Verwalten generativer Modelle {#generative-models}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die integrierten, Partnermodelle und benutzerdefinierten generativen Firefly-Modelle hinzufügen, konfigurieren und verwalten, die für die KI-Bildgenerierung in Adobe Journey Optimizer verwendet werden.
+
+>[!ENDSHADEBOX]
 
 Erweitern Sie Ihre KI-Bilderstellungsfunktionen mit integrierten Modellen, benutzerdefinierten Firefly-Modellen und Drittanbietern von Bildgenerierungsdiensten, um Ihre spezifischen Anforderungen zu erfüllen und die Markenausrichtung zu verbessern.
 

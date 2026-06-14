@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 92%
+source-wordcount: 1771
+ht-degree: 90%
 
 ---
 
 # Anpassbare Fragmente {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie bestimmte Felder in visuellen und Ausdrucksfragmenten bearbeiten können, damit Benutzer sie beim Hinzufügen des Fragments zu einer Kampagne oder Journey anpassen können, ohne die Vererbung vom Originalfragment aufzuheben.
+
+>[!ENDSHADEBOX]
 
 Wenn Fragmente in einer Journey- oder Kampagnenaktion verwendet werden, sind sie aus Gründen der Vererbung standardmäßig gesperrt. Das bedeutet, dass alle an einem Fragment vorgenommenen Änderungen automatisch an alle Kampagnen und Journeys weitergegeben werden, in denen das Fragment verwendet wird.
 

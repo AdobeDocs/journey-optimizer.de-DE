@@ -22,14 +22,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 72%
+source-wordcount: 323
+ht-degree: 65%
 
 ---
 
 # Verwenden von Experimenten {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit Inhaltsexperimenten mehrere Inhaltsvarianten innerhalb einer Journey oder Kampagne testen und ermitteln können, welche Variante mit Ihren Erfolgsmetriken am besten abschneidet.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

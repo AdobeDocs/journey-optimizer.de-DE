@@ -8,14 +8,20 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 89%
+source-wordcount: 508
+ht-degree: 84%
 
 ---
 
 # Durchführen von Testsendungen mit Testprofildaten {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie E-Mail-Testsendungen mithilfe von Testprofildaten durchführen können, damit Empfängerinnen und Empfänger Rendering, Inhalte und Personalisierung überprüfen können, bevor die Nachricht an Ihre Hauptzielgruppe gesendet wird.
+
+>[!ENDSHADEBOX]
 
 Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Zielgruppe gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 

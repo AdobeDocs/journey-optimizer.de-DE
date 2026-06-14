@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 218
-ht-degree: 95%
+source-wordcount: 247
+ht-degree: 84%
 
 ---
 
 # Testen von E-Mail-Inhaltsvorlagen {#test-template}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie das Rendering Ihrer E-Mail-Inhaltsvorlagen in Adobe Journey Optimizer in der Vorschau anzeigen und testen und einen Testversand durchführen können, um sie vor der Verwendung genehmigen zu lassen.
+
+>[!ENDSHADEBOX]
 
 Sie können das Rendering einiger Ihrer E-Mail-Vorlagen testen, unabhängig davon, ob diese von Grund auf neu oder aus vorhandenen Inhalten erstellt wurde. Gehen Sie dazu wie folgt vor.
 

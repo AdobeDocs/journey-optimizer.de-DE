@@ -31,14 +31,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 99%
+source-wordcount: 1988
+ht-degree: 95%
 
 ---
 
 # Erste Schritte mit Inhaltsexperimenten {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Inhaltsexperimente in Adobe Journey Optimizer randomisierte Tests verwenden, um Nachrichtenvarianten zu testen, wie Ergebnisse berechnet werden und wie Berichte interpretiert werden, um Ihre Kampagnen zu optimieren.
+
+>[!ENDSHADEBOX]
 
 ## Was ist ein Inhaltsexperiment?
 
@@ -113,13 +119,13 @@ So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrich
 
 +++Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
-Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Abwandlungen können Sie in der Zielmetrik erkennen. Wenn der Baseline-Wert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
-Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
+Wenn Sie Ihre Tests länger durchführen, können Sie kleinere Unterschiede in der Zielmetrik zwischen Behandlungen erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie größere Stichprobengrößen.
+Die Anzahl der Benutzenden, die in Ihr Experiment aufgenommen werden müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch positive und falsch negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner) verwenden](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++ 
 
 +++Verstehen Sie statistische Unsicherheiten
 
-Nehmen wir an, Sie haben ein Experiment durchgeführt, bei dem 1000 Benutzende eine Abwandlung gesehen haben, und die Konversionsrate liegt bei 5 %. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Was wäre die tatsächliche Konversionsrate?
+Wenn Sie ein Experiment durchführen, bei dem 1.000 Benutzende eine Behandlung gesehen haben, und die Konversionsrate auf 5 % eingestellt ist. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Wie hoch wäre die tatsächliche Konversionsrate?
 Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das Sie bei der Durchführung von Online-Experimenten verstehen müssen, ist, dass die beobachteten Konversionsraten mit einem Bereich zugrunde liegender realer Konversionsraten konsistent sind. Das bedeutet, dass Sie warten müssen, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
 +++
 

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 100%
+source-wordcount: 203
+ht-degree: 87%
 
 ---
 
 # Verwenden von Inhaltsvorlagen {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Inhaltsvorlagen beim Erstellen von Inhalten für einen beliebigen Kanal außer Web in Adobe Journey Optimizer anwenden, um Nachrichten schneller zu erstellen.
+
+>[!ENDSHADEBOX]
 
 Beim Erstellen von Inhalten für einen beliebigen Kanal (außer Web) in [!DNL Journey Optimizer] können Sie eine benutzerdefinierte Vorlage verwenden, die Sie entweder:
 
@@ -46,7 +52,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer dieser Vo
 
    ![](assets/content-template-button.png)
 
-1. Wählen Sie aus der Liste die gewünschte Vorlage aus. Es werden nur Vorlagen angezeigt, die mit dem ausgewählten Kanal und/oder Typ kompatibel sind.
+1. Wählen Sie die gewünschte Vorlage aus der Liste aus. Es werden nur Vorlagen angezeigt, die mit dem ausgewählten Kanal und/oder Typ kompatibel sind.
 
    ![](assets/content-template-select.png)
 

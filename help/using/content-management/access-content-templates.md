@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 65%
+source-wordcount: 923
+ht-degree: 64%
 
 ---
 
 # Zugreifen auf und Verwalten von Inhaltsvorlagen {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie in Adobe Journey Optimizer auf Inhaltsvorlagen zugreifen, sie durchsuchen, in Ordnern organisieren sowie bearbeiten, löschen und exportieren können.
+
+>[!ENDSHADEBOX]
 
 ## Voraussetzungen {#prerequisites}
 

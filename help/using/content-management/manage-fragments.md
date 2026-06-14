@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
-ht-degree: 95%
+source-wordcount: 1551
+ht-degree: 94%
 
 ---
 
 # Verwalten von Fragmenten {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie auf Ihre Inhaltsfragmente zugreifen, sie organisieren, bearbeiten, archivieren und exportieren können, einschließlich der Verwendung von Ordnern, der Verfolgung des Fragmentstatus und der Untersuchung, wo auf jedes Fragment verwiesen wird.
+
+>[!ENDSHADEBOX]
 
 ## Zugeifen auf Fragmente {#access-fragments}
 

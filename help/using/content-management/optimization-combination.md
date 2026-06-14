@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 92%
+source-wordcount: 331
+ht-degree: 85%
 
 ---
 
 # Kombinieren von Targeting und Experimenten {#combination}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Zielgruppenbestimmungen und Experimente in einer Journey oder Kampagne kombinieren, sodass die Experimente spezifisch für jede Zielgruppenbestimmungsregel bleiben.
+
+>[!ENDSHADEBOX]
 
 Mit Journey Optimizer können Sie auch Targeting und Experimente innerhalb einer einzigen Journey oder Kampagne kombinieren, um komplexere Strategien zu entwickeln.
 

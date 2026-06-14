@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 100%
+source-wordcount: 1319
+ht-degree: 97%
 
 ---
 
 # Sperren von Inhalten in E-Mail-Vorlagen {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren können - sei es auf Struktur- oder Komponentenebene oder schreibgeschützt -, um unbeabsichtigte Bearbeitungen zu verhindern, wenn Marketing-Experten Ihre Vorlagen in Adobe Journey Optimizer wiederverwenden.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"

@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 22%
 
 ---
 
 # Konvertieren von Bildern in E-Mail-Inhaltsvorlagen {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem KI-gestützten Konvertierer für Bilder in HTML in Adobe Journey Optimizer statische Bildentwürfe in bearbeitbare, wiederverwendbare E-Mail-Inhaltsvorlagen umwandeln können.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] können Sie die E-Mail-Erstellung erheblich beschleunigen, indem Sie statische Bilddesigns in vollständig anpassbare, modulare E-Mail-Inhaltsvorlagen umwandeln.
 
@@ -75,7 +81,7 @@ Um auf diese Funktion zugreifen zu können, muss Ihr Unternehmen das [!DNL Gener
 
 **Vereinbarung**
 
-Bevor Sie diese Funktion nutzen können, müssen Sie einer Benutzervereinbarung zustimmen, die angezeigt wird, wenn Sie Generative AI in [!DNL Journey Optimizer] zum ersten Mal verwenden. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Bevor Sie diese Funktion nutzen können, müssen Sie einer Benutzervereinbarung zustimmen, die angezeigt wird, wenn Sie Generative AI in [!DNL Journey Optimizer] zum ersten Mal verwenden. Weitere Informationen finden Sie in den [Benutzerrichtlinien für generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 ## Schutzmechanismen und Empfehlungen {#limitations}
 

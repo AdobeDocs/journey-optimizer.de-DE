@@ -29,14 +29,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2063
-ht-degree: 98%
+source-wordcount: 2099
+ht-degree: 97%
 
 ---
 
 # Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung {#multilingual-automated}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mehrsprachige Inhalte mit automatisierter Übersetzung erstellen, indem Sie ein Übersetzungsprojekt und Spracheinstellungen einrichten und dann Ihre Kampagnen- oder Journey-Inhalte zur Überprüfung und Veröffentlichung an einen Übersetzungsanbieter senden.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
