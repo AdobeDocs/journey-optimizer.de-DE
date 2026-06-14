@@ -16,14 +16,20 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit Journey- und Kampagnengenehmigungen {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Ein eingebetteter Genehmigungsprozess sorgt dafür, dass Journey und Kampagnen während der Überprüfung gesperrt bleiben, sodass die richtigen Stakeholder abzeichnen, bevor etwas live geht, wobei jede Anfrage zentral verwaltet und verfolgt wird.
+
+>[!ENDSHADEBOX]
 
 ## Erste Schritte mit Genehmigungsrichtlinien {#gs}
 

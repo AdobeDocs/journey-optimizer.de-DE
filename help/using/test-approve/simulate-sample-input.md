@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1362
-ht-degree: 36%
+source-wordcount: 1399
+ht-degree: 37%
 
 ---
 
 # Simulieren von Inhaltsvarianten {#custom-profiles}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie, dass Ihre personalisierten Inhalte für jeden Empfängertyp korrekt wiedergegeben werden, indem Sie Varianten testen, die mit KI generiert wurden, manuell eingegeben, aus einer Datei importiert oder auf der Grundlage simulierter Benutzer erstellt wurden, und sie dann in der Vorschau anzeigen und Testsendungen durchführen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

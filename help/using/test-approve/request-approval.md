@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
-ht-degree: 77%
+source-wordcount: 476
+ht-degree: 70%
 
 ---
 
 # Anfragen einer Genehmigung {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verschieben Sie Ihren Journey oder Ihre Kampagne mit Zuversicht in die Live-Schaltung, indem Sie ihn an die richtigen Validierungsverantwortlichen senden, und behalten Sie die Kontrolle, während er/sie überprüft wird - brechen Sie ab, bearbeiten Sie ihn/sie erneut und senden Sie ihn/sie nach Bedarf erneut, sodass nur genehmigte, markeninterne Inhalte je bei Ihren Kunden ankommen.
+
+>[!ENDSHADEBOX]
 
 Der Zugriff auf den Genehmigungs-Workflow hängt vom jeweiligen Anwendungsfall ab:
 
