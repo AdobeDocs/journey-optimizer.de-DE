@@ -44,7 +44,7 @@ ht-degree: 79%
 >id="ajo_journey_action_web"
 >title="Web-Aktion"
 >abstract="Bei einer eingehenden Aktion für ein Web-Erlebnis wird Profilen ein Web-Erlebnis angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Web-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Web-Erlebnis anzuzeigen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, das Web-Erlebnis, das Sie Ihrer Kundschaft bieten, durch eingehende Journeys oder Kampagnen zu personalisieren.
 
