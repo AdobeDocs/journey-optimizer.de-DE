@@ -38,7 +38,7 @@ Führen Sie aus dem Repository-Stamm aus (`journey-optimizer.en/`).
 
 2. **Verfeinern Sie den Wortlaut.** Der Startpunkt des Testversands ist — jeden Satz so bearbeiten, dass er erscheint
 Liest als Zielsetzung (ein Satz, einfacher Text, amerikanisches Englisch). **Leitung
-Mit dem**: Geben Sie das Ergebnis/den Nutzen des Lesers an (“…so können Sie <outcome>„), nicht
+Mit dem**: Geben Sie das Ergebnis/den Nutzen des Lesers an (“…so können Sie &lt;outcome>„), nicht
 Nur eine Liste der Inhalte der Seite. Passen Sie Funktionsnamen im Hausstil an (z. B.
 „Orchestrierte Kampagne“ (In-App). Siehe `.cursor/rules/on-this-page-box.mdc`. Wenn Sie
 `--seed-from-description` überspringen wird stattdessen ein `{{TODO...}}` Platzhalter eingefügt und
