@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 91%
+source-wordcount: 401
+ht-degree: 85%
 
 ---
 
 # Direkt-Mail-Journey-Bericht {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Briefpostmetriken im Journey-Bericht lesen, einschließlich Versandstatistiken, Versandstatus, Fehlerursachen und Ausschlussgründen für Ihre Briefpostnachrichten.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 98%
+source-wordcount: 967
+ht-degree: 95%
 
 ---
 
 # Arbeiten mit Journey-Schrittereignissen {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, was Journey-Schrittereignisse in Adobe Journey Optimizer sind, warum sie wichtig sind und wie Sie sie über Adobe Experience Platform für Analysen, Überwachung und Optimierung verwenden können.
+
+>[!ENDSHADEBOX]
 
 Journey-Schrittereignisse sind automatisch generierte Ereignisse, die detaillierte Informationen zu jedem Schritt erfassen, den ein [Profil](../audience/get-started-profiles.md) beim Fortschreiten in einer [Journey](../building-journeys/journey.md) in Adobe Journey Optimizer durchläuft. Diese Ereignisse bieten umfassende Einblicke in die [Journey-Leistung](../building-journeys/report-journey.md) und ermöglichen leistungsstarke Analysefunktionen.
 
@@ -204,7 +210,7 @@ Journey-Schrittereignisse können mit [Customer Journey Analytics](cja-ajo.md) a
 
 Erfahren Sie, wie Sie [Customer Journey Analytics](report-gs-cja.md) für Journey Optimizer-Daten konfigurieren.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 ### Links zur Dokumentation {#documentation-links}
 

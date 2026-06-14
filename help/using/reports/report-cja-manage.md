@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Reporting
+title: Berichterstellung
 description: Erste Schritte mit Reporting
 feature: Reporting
 topic: Content Management
@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1441
-ht-degree: 99%
+source-wordcount: 1424
+ht-degree: 96%
 
 ---
 
 # Verwalten Ihrer Berichte {#channel-cja-manage}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verwalten Sie Ihre Adobe Journey Optimizer-Berichte, indem Sie Daten in Customer Journey Analytics analysieren, Berichtszeiträume festlegen, Berichte exportieren und planen, benutzerdefinierte Metriken erstellen und Zielgruppen erstellen.
+
+>[!ENDSHADEBOX]
 
 ## Durchführen von Analysen in Customer Journey Analytics {#analyze}
 
@@ -211,8 +217,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
-> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
+>Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Darüber hinaus können Benutzer maximal 5 Zielgruppen pro Stunde und 20 Zielgruppen pro Tag veröffentlichen.
+> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können zusätzliche Zielgruppen daher erst nach Ablauf des 48-Stunden-Zeitraums veröffentlicht werden.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

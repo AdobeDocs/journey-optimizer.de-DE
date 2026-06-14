@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
-ht-degree: 100%
+source-wordcount: 824
+ht-degree: 96%
 
 ---
 
 # Landingpage-Bericht {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Analysieren Sie die Leistung von Landingpages in Adobe Journey Optimizer mithilfe von Customer Journey Analytics, einschließlich Konversions- und Bounce-Raten, Ansichten und Traffic nach Journey, Kampagne und Kanal.
+
+>[!ENDSHADEBOX]
 
 Der Bericht zu **Landingpages** bietet wertvolle Einblicke in Benutzerverhalten, Interaktionsmuster, Konversionsraten und andere Schlüsselmetriken, sodass Sie fundierte Entscheidungen treffen und die Performance Ihrer Landingpage effektiv optimieren können.
 

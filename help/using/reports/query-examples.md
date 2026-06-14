@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
-ht-degree: 71%
+source-wordcount: 3763
+ht-degree: 70%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** finden Sie einsatzbereite SQL-Abfragebeispiele zur Analyse und Fehlerbehebung bei Journey-Schrittereignissen im Data Lake von Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 In diesem Abschnitt werden häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen in Journey-Ereignisdaten verwendet werden.
 

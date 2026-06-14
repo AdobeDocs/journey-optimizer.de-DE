@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
-ht-degree: 96%
+source-wordcount: 1061
+ht-degree: 94%
 
 ---
 
 # Journey-Bericht {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erkunden Sie den Adobe Journey Optimizer Journey-Bericht in Customer Journey Analytics, um Journey-KPIs, Statistiken, Ausschlüsse, die Aktions- und Ereignisleistung sowie die Journey-Arbeitsfläche zu analysieren.
+
+>[!ENDSHADEBOX]
 
 Der **Journey-Bericht** dient als allumfassendes Dashboard, das eine Analyse der wichtigsten Metriken bereitstellt, die mit Ihrer Journey verknüpft sind. Dies umfasst Details wie die Anzahl der eingetretenen Profile und Instanzen fehlgeschlagener individueller Journeys und bietet einen umfassenden Einblick in die Effektivität Ihrer Journey und den Grad der Interaktion.
 

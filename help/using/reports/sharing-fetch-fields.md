@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 377
-ht-degree: 100%
+source-wordcount: 405
+ht-degree: 93%
 
 ---
 
 # Datenabruffelder für journeyStep-Ereignisse {#sharing-fetch-fields}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verweisen Sie auf die Datenabruffelder, die zum Journey von Schrittereignissen hinzugefügt wurden, wenn während der Schrittverarbeitung Daten aus Adobe Experience Platform oder einer benutzerdefinierten Quelle angereichert werden.
+
+>[!ENDSHADEBOX]
 
 Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
 

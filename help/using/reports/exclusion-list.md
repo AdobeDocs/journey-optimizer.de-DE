@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 892
-ht-degree: 96%
+source-wordcount: 920
+ht-degree: 93%
 
 ---
 
 # Ausschlussgründe {#exclusion-list}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über die Ausschlussgründe, Fehler-Codes und betroffenen Kanäle, die den Versand von Nachrichten verhindern, und lernen Sie, wie Ausschlüsse in Ihren Kampagnenberichten gezählt werden.
+
+>[!ENDSHADEBOX]
 
 ## Wie Ausschlüsse in Kampagnenberichten gezählt werden
 

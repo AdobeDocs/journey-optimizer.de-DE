@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 100%
+source-wordcount: 526
+ht-degree: 92%
 
 ---
 
 # Erste Schritte mit den Reporting-Funktionen {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erste Schritte mit den Reporting-Funktionen in Adobe Journey Optimizer, einschließlich der letzten 24-Stunden-Live-Berichte und Echtzeitberichte auf Basis von Customer Journey Analytics für Ihre Kampagnen, Journey, Landingpages und Abonnementlisten.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer bietet durch seine zuverlässigen Reporting-Funktionen verwertbare Erkenntnisse. Berichte sind für Kampagnen, Journeys, Landingpages, Abonnement-Listen und mehr verfügbar. Die verfügbaren Berichte sind unten aufgeführt:
 

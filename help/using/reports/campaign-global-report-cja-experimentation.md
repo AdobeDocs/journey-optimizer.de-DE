@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 339
-ht-degree: 100%
+source-wordcount: 356
+ht-degree: 84%
 
 ---
 
 # Experimente – Kampagnenbericht {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie den Bericht zur Experimentierkampagne in Adobe Journey Optimizer lesen, um die Variantenleistung mithilfe von Metriken wie Steigerung, Konfidenz und Konversionsrate für die ausgewählte Erfolgsmetrik zu vergleichen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
@@ -66,7 +72,7 @@ Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** diene
 
 ![](assets/cja-experimentation-variants.png)
 
-Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie die einzelnen Varianten bezüglich der Erfolgsmetrik abschneiden, die beim Einrichten des Experiments ausgewählt wurde.
+Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie jede Variante basierend auf der Erfolgsmetrik funktioniert, die beim Einrichten des Experiments ausgewählt wurde.
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Weitere Informationen zu Varianten nach Erfolgsmetrik

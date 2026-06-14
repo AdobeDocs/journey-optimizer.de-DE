@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 100%
+source-wordcount: 159
+ht-degree: 81%
 
 ---
 
 # Journey-Felder {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verweisen Sie auf die Journey-Felder, die im Journey-Schema verwendet werden, um jede Journey im Journey-Schrittereignisbericht zu beschreiben, z. B. Journey-ID, Version, Name und Beschreibung.
+
+>[!ENDSHADEBOX]
 
 Diese Feldergruppe wird im **Journey**-Schema verwendet (in Verbindung mit **journeyStepEvent**). Sie enthält die unten aufgeführten Felder.
 

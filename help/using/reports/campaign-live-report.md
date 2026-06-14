@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3575
-ht-degree: 98%
+source-wordcount: 3613
+ht-degree: 96%
 
 ---
 
 # Kampagnen-Live-Bericht {#campaign-live-report}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie den Live-Bericht zu Campaign in Adobe Journey Optimizer lesen, um die Echtzeit-Kampagnenleistung in den letzten 24 Stunden über die Kanäle E-Mail, In-App, Push, SMS, Web und Briefpost zu überwachen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
@@ -621,7 +627,7 @@ Die Graphen und die Tabelle **[!UICONTROL Briefpost – Fehlergründe]** veransc
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)

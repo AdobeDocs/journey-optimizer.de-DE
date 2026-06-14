@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
-ht-degree: 80%
+source-wordcount: 1375
+ht-degree: 78%
 
 ---
 
 # Erste Schritte mit der Zustellbarkeit {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über die Best Practices zur Zustellbarkeit für Adobe Journey Optimizer, einschließlich der Reduzierung von Beschwerderaten, der Nutzung von Unterdrückungslisten, der Einrichtung einer Absender-Reputation, der Implementierung von DMARC und des Verständnisses von Feedback-Schleifen.
+
+>[!ENDSHADEBOX]
 
 Die Zustellbarkeit ist ein Maßstab für den Erfolg Ihrer Sendungen, die Posteingänge Ihrer Empfänger zu erreichen.
 

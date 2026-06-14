@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 100%
+source-wordcount: 489
+ht-degree: 93%
 
 ---
 
 # Live-Bericht zu Landingpages {#lp-report-live}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Messen Sie die Leistung Ihrer Landingpage in Echtzeit über die letzten 24 Stunden mit dem Adobe Journey Optimizer-Live-Bericht, einschließlich Besuche, Konversionen, Bounces und Besuchsquellen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"

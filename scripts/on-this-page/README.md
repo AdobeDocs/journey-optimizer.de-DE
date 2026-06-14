@@ -1,0 +1,64 @@
+---
+source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
+
+---
+# Box-Tools „Auf dieser Seite“
+
+Tools zum Hinzufügen und Überprüfen des **„Auf dieser Seite** schattierten Felds oben in
+Dokumentationsseiten zu AJO. Siehe die Spezifikation in `.cursor/rules/on-this-page-box.mdc`.
+Der Rollout wird unter episch verfolgt **DOCAC-14936** (eine Aufgabe pro Ordner der obersten Ebene).
+
+## Wie die Kiste aussieht
+
+```text
+# Page Title {#anchor}
+
+>[!BEGINSHADEBOX]
+
+**On this page:** <one clear sentence describing the page's purpose>
+
+>[!ENDSHADEBOX]
+```
+
+## Empfohlener Workflow (pro Ordner/Jira-Aufgabe)
+
+Führen Sie aus dem Repository-Stamm aus (`journey-optimizer.en/`).
+
+1. **Felder einfügen** (Übergabe eines Satzes im ersten Entwurf aus der Frontansicht jeder Seite)
+   `description`). Mechanisch, idempotent, berührt nie die Schriftart:
+
+   ```bash
+   python scripts/on-this-page/add_on_this_page.py help/using/reports --seed-from-description
+   ```
+
+   Vorschau zuerst mit `--dry-run`.
+
+2. **Verfeinern Sie den Wortlaut.** Der Startpunkt des Testversands ist — jeden Satz so bearbeiten, dass er erscheint
+Liest als Zielsetzung (ein Satz, einfacher Text, amerikanisches Englisch). Wenn Sie
+`--seed-from-description` überspringen wird stattdessen ein `{{TODO...}}` Platzhalter eingefügt und
+Der Validator kennzeichnet alle verbleibenden Elemente.
+
+3. **Validieren** vor dem Öffnen des PR:
+
+   ```bash
+   python scripts/on-this-page/validate_on_this_page.py help/using/reports --require
+   ```
+
+   Bei einem Fehler ist der Exitcode ungleich null, sodass eine CI-Abfrage durchgeführt werden kann.
+
+## Umfang/Ausschlüsse
+
+Referenz- und Syntaxseiten sind standardmäßig ausgeschlossen (Pfadteile `api-reference`,
+`expression`, `functions`). Überschreiben Sie bei Bedarf mit `--exclude ...`.
+
+## Repo-weite Fortschrittsüberprüfung
+
+```bash
+python scripts/on-this-page/validate_on_this_page.py help
+```
+
+Ohne `--require` werden Seiten, denen noch ein Feld fehlt, als `pending` (nicht als
+Fehler), sodass Sie den Rollout-Fortschritt über den gesamten Guide hinweg verfolgen können.

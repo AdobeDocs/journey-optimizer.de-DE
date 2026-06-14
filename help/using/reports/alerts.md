@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 46%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie Systemwarnungen in Adobe Journey Optimizer aufrufen, abonnieren und verwalten können, um Journey- und Kampagnenlebenszyklusereignisse, benutzerdefinierte Aktionsfehler, Profilprobleme und die E-Mail-Zustellbarkeit proaktiv zu überwachen.
+
+>[!ENDSHADEBOX]
 
 ## Überblick
 
@@ -63,7 +69,7 @@ Vor der Arbeit mit Warnhinweisen:
 
 * **Sandbox-**: Warnhinweis-Abonnements sind Sandbox-spezifisch. Wenn Sie Warnhinweise abonnieren, gelten diese nur für die aktuelle Sandbox. Wenn eine Sandbox zurückgesetzt wird, werden auch alle Warnhinweis-Abonnements zurückgesetzt.
 
-* **Benachrichtigungseinstellungen**: Konfigurieren Sie, wie Sie Warnhinweise (E-Mail und/oder In-App) in Ihren [Adobe Experience Cloud-Einstellungen erhalten](../start/user-interface.md#in-product-uc).
+* **Benachrichtigungseinstellungen**: Konfigurieren Sie, wie Sie Warnhinweise (E-Mail und/oder In-App) in Ihren [Adobe Experience Cloud-Voreinstellungen](../start/user-interface.md#in-product-uc) erhalten.
 
 
 ## Verfügbare Warnhinweise {#available-alerts}

@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 100%
+source-wordcount: 676
+ht-degree: 95%
 
 ---
 
 # Erstellen von Journey-Berichten {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Journey Optimizer automatisch Journey-Schritt-Ereignisdaten an Adobe Experience Platform streamt, damit Sie sie mit anderen Daten kombinieren und die Journey-Leistung in Customer Journey Analytics analysieren können.
+
+>[!ENDSHADEBOX]
 
 Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Reporting-Funktionen](report-gs-cja.md) kann [!DNL Journey Optimizer] Journey-Performance-Daten automatisch an Adobe Experience Platform senden, damit sie zu Analysezwecken mit anderen Daten kombiniert werden können.
 

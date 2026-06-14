@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 100%
+source-wordcount: 407
+ht-degree: 86%
 
 ---
 
 # Experimente-Journey-Bericht {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Experimentmetriken im Journey-Bericht lesen, einschließlich Experiment-KPIs, Steigerung und Konfidenz sowie Variantenleistung nach Erfolgsmetrik für Ihre Inhalts- und Pfadexperimente.
+
+>[!ENDSHADEBOX]
 
 Ihr Journey-Bericht bietet Ihnen einen vollständigen Überblick über das Abschneiden Ihres Experiments sowie die wichtigsten Metriken, die Sie benötigen, um die Auswirkungen zu verstehen.
 
@@ -69,7 +75,7 @@ Die **KPIs zum Experimentieren** dienen als allumfassendes Dashboard und liefern
 
 ![](assets/cja-experimentation-variants.png)
 
-Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie die einzelnen Varianten bezüglich der Erfolgsmetrik abschneiden, die beim Einrichten des Experiments ausgewählt wurde.
+Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie jede Variante basierend auf der Erfolgsmetrik funktioniert, die beim Einrichten des Experiments ausgewählt wurde.
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Weitere Informationen zu Varianten nach Erfolgsmetrik

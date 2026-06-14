@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 274
-ht-degree: 100%
+source-wordcount: 300
+ht-degree: 91%
 
 ---
 
 # Live-Bericht zu Abonnements {#subscription-report-live}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem Abonnement-Live-Bericht die An- und Abmeldungen Ihrer Abonnenten in den letzten 24 Stunden in Echtzeit überwachen können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"

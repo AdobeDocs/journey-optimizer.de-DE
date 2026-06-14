@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 100%
+source-wordcount: 84
+ht-degree: 71%
 
 ---
 
 # Identitätsfelder für journeyStep-Ereignisse {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verweisen Sie auf die Identitätsfelder, die Journey-Schrittereignisse verwenden, um die Profilidentität zu beschreiben, einschließlich der Profilkennung und ihres Namespace.
+
+>[!ENDSHADEBOX]
 
 Diese Feldergruppe gilt speziell für journeyStepEvent: Das Ereignis bezieht sich auf die Journey und verfügt nicht über identityMap zur Beschreibung der Profilidentität (sofern vorhanden).
 
