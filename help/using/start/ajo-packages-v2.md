@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Journey Optimizer, Paket, Lizenz, Kampagnen, Journey, Kanäle, Decisioning, Outbound, Mobile, Web, modular
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 3%
 
 ---
 
 
 # Adobe Journey Optimizer-Pakete und -Funktionen {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie die modulare Adobe Journey Optimizer-Paketerstellung für Basisangebote, Kanal-Add-ons und das Decisioning-Add-on funktioniert, damit Sie die Kombination auswählen können, die zu Ihren Interaktions-Anwendungsfällen und Ihrem Budget passt.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] verwendet ein modulares Verpackungsmodell. Beginnen Sie mit dem Basisangebot, das Ihrem primären Anwendungsfall entspricht, und fügen Sie dann die benötigten Kanäle und erweiterten Funktionen hinzu.
 

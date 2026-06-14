@@ -9,30 +9,27 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 493d9822091427d03c012f7f9c72d0650ce625ee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4463
-ht-degree: 71%
+source-wordcount: 4489
+ht-degree: 70%
 
 ---
 
 
 # Leitlinien und Einschränkungen {#limitations}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Überprüfen Sie die System-, Journey-, Zielgruppen-, Kanal- und Inhaltsbeschränkungen von Adobe Journey Optimizer, damit Sie Bereitstellungen planen können, die skaliert werden können, ohne Fehler zu verursachen.
+
+>[!ENDSHADEBOX]
 
 Unten finden Sie Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
@@ -68,7 +65,7 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
 * Die Anzahl der Aktivitäten in einer Journey ist auf **50%**. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
 
-  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[&#x200B; in kleinere Unterversionen auf &#x200B;](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
+  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[ in kleinere Unterversionen auf ](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
 
 * Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journey auf einmal auf **100** begrenzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 
@@ -224,7 +221,7 @@ Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/au
 
 Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 
-Weitere Leitplanken - einschließlich Empfehlungen zu Streaming vs. Batch-Zielgruppen und Einschränkungen bei der Komposition von Zielgruppen - sind auf [&#x200B; Seite &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+Weitere Leitplanken - einschließlich Empfehlungen zu Streaming vs. Batch-Zielgruppen und Einschränkungen bei der Komposition von Zielgruppen - sind auf [ Seite ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
 
 #### Kampagnenaktivitäten {#ac-g}
 
@@ -276,7 +273,7 @@ Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audienc
 * Die Aktivität **Zielgruppe lesen** kann nur als erste Aktivität in einer Journey oder nach einer Aktivität vom Typ „Geschäftsereignis“ verwendet werden.
 * Eine Journey kann nur über eine Aktivität **Zielgruppe lesen** verfügen.
 * Die Aktivität **Zielgruppe lesen** kann nur eine Zielgruppe pro Journey ansprechen. Wenn mehrere Zielgruppen erforderlich sind, führen Sie sie zuerst zu einer einzigen Zielgruppe zusammen. [Erfahren Sie mehr zum Kombinieren von Zielgruppen mithilfe von Kompositions-Workflows](../audience/get-started-audience-orchestration.md).
-* Jede Organisation kann bis zu **5**&#x200B;**Zielgruppe lesen**-Instanzen gleichzeitig ausführen (geplant oder durch ein Geschäftsereignis ausgelöst), und zwar in allen Sandboxes und Journey. Vermeiden Sie es, dass mehr als fünf Journeys des Typs **Zielgruppe lesen** zum exakt gleichen Zeitpunkt beginnen. Planen Sie die Startzeiten im Abstand von 5 bis 10 Minuten voneinander. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
+* Jede Organisation kann bis zu **5****Zielgruppe lesen**-Instanzen gleichzeitig ausführen (geplant oder durch ein Geschäftsereignis ausgelöst), und zwar in allen Sandboxes und Journey. Vermeiden Sie es, dass mehr als fünf Journeys des Typs **Zielgruppe lesen** zum exakt gleichen Zeitpunkt beginnen. Planen Sie die Startzeiten im Abstand von 5 bis 10 Minuten voneinander. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 * Sandbox-Durchsatz: Das System verwaltet die Verarbeitung pro Sandbox mit maximal **20.000 Profilen pro Sekunde** die für alle Aktivitäten des Typs **Zielgruppe lesen** freigegeben sind. Einzelne Aktivitäten können mit zwischen **500 und 20.000 Profilen pro Sekunde konfiguriert**. Wenn Sandbox-Limits erreicht werden, können Aufträge in die Warteschlange gestellt werden.
 * Maximale Wartezeit bei der Auftragsverarbeitung: **Zielgruppe lesen** Aufträge, die nicht innerhalb von **12 Stunden verarbeitet werden können** werden automatisch bereinigt und werden nicht ausgeführt.
 * Wiederholungsversuche werden beim Abrufen des Exportvorgangs standardmäßig auf zielgruppenausgelöste Journey angewendet. Wenn bei der Erstellung des Exportvorgangs ein Fehler auftritt, werden weitere Zustellversuche alle 10 Minuten unternommen, maximal **1 Stunde**. Danach gilt die Journey als fehlgeschlagen und kann daher bis zu 1 Stunde nach der geplanten Zeit ausgeführt werden.

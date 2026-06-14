@@ -11,30 +11,26 @@ keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, 
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
-ht-degree: 59%
+source-wordcount: 1832
+ht-degree: 58%
 
 ---
 
 # Journey vs. Kampagnen: Wählen Sie den richtigen Ansatz {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Vergleichen Sie Journey mit Aktionen, API-ausgelösten und orchestrierten Kampagnen, damit Sie für jeden Marketing-Anwendungsfall in Adobe Journey Optimizer den richtigen Ansatz wählen können.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] bietet zwei Möglichkeiten, Ihre Kunden zu erreichen und zu kontaktieren: **Journey** und **Kampagnen**. Journey sind für eine mehrstufige Orchestrierung in Echtzeit konzipiert, die vom Kundenverhalten gesteuert wird, während Kampagnen sich besser für einmalige oder geplante Sendungen an eine definierte Zielgruppe eignen. Sobald Sie sich für eine Kampagne entschieden haben, können Sie den Kampagnentyp auswählen, der Ihrem Anwendungsfall am besten entspricht.
 
@@ -80,7 +76,7 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 
 ### Schritt 1: Was ist Ihre Ausführungsanforderung?
 
-**Individuelle Antworten in Echtzeit auf das Kundenverhalten?**
+**Individuelle Reaktionen in Echtzeit auf das Kundenverhalten?**
 → **Journey verwenden**
 * Profile müssen sich in ihrem eigenen Tempo bewegen
 * Bedingte Logik basierend auf dem Verhalten

@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Journey Optimizer, Paket, Lizenz, Kampagnen, Journey, Kanäle, Decisioning, Outbound, Mobile, Web, modular
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Adobe Journey Optimizer-Pakete und -Funktionen {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Gehen Sie Schritt für Schritt durch das modulare Adobe Journey Optimizer-Package, wählen Sie ein Basisangebot aus, fügen Sie Kanäle hinzu und fügen Sie erweiterte Funktionen hinzu, damit Sie die richtige Konfiguration für Ihre Kundeninteraktion auswählen können.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] verwendet ein modulares Verpackungsmodell. Beginnen Sie mit dem Basisangebot, das Ihrem primären Orchestrierungsanwendungsfall entspricht, und fügen Sie dann den Kanal und die erweiterten Funktionen hinzu, die Sie benötigen.
 
@@ -94,7 +100,7 @@ Zielgruppen über ausgehende Nachrichtenkanäle erreichen.
 - Benachrichtigungsoberflächen für Mobilgeräte
 - Workflows für den Postversand
 
-[Erfahren Sie, wie Sie E](../email/get-started-email.md)Mails senden[&#x200B; | Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) | [Erfahren Sie mehr über die Zustellbarkeit](../reports/deliverability.md)
+[Erfahren Sie, wie Sie E](../email/get-started-email.md)Mails senden[ | Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) | [Erfahren Sie mehr über die Zustellbarkeit](../reports/deliverability.md)
 
 >[!TAB Mobile]
 
@@ -118,7 +124,7 @@ Interagieren Sie App-Benutzer mit mobilen Erlebnissen.
 - Beständige Inhaltsplatzierungen
 - Benutzerdefinierte Programmoberflächen über SDK
 
-[Erfahren Sie, wie Sie In-App](../in-app/get-started-in-app.md)Messaging verwenden[&#x200B; | Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md)
+[Erfahren Sie, wie Sie In-App](../in-app/get-started-in-app.md)Messaging verwenden[ | Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md)
 
 >[!TAB Web]
 

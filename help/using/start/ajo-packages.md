@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Journey Optimizer, Paket, Lizenz, auswählen, Prime, Ultimate, Funktionen, Funktionen, modular, Kanäle
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1007'
 ht-degree: 6%
 
 ---
 
 
 # Was ist in meinem [!DNL Adobe Journey Optimizer] Paket verfügbar? {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, welche Adobe Journey Optimizer-Funktionen Ihr Paket freischaltet, unabhängig davon, ob Sie das aktuelle Kampagnenmodell und Journey-Modell oder ältere Select-, Prime- und Ultimate-Lizenzen verwenden. Sie können also bestätigen, was verfügbar ist, und zu den einzelnen Funktionen springen.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] Funktionen variieren je nach Lizenzvereinbarung, aktivierten Kanälen und Benutzerberechtigungen. Verwenden Sie dieses Handbuch, um zu verstehen, welche Funktionen normalerweise in Ihrem Paket verfügbar sind, und navigieren Sie direkt zur Produktdokumentation für die einzelnen Funktionen.
 

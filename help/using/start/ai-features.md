@@ -9,34 +9,26 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
-ht-degree: 70%
+source-wordcount: 2216
+ht-degree: 69%
 
 ---
 
 # KI und intelligente Funktionen {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erkunden Sie die KI- und maschinellen Lernfunktionen in Adobe Journey Optimizer, vom KI-Assistenten und Agenten bis zur Inhaltserstellung, Sendezeitoptimierung und Entscheidungsfindung, damit Sie schneller arbeiten und relevantere Kundenerlebnisse bereitstellen können.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen, um die Erstellung, Optimierung und Bereitstellung von Kundenerlebnissen zu transformieren. Von der Generierung personalisierter Inhalte bis hin zur Vorhersage der optimalen Versandzeit: KI-Funktionen optimieren Ihren Workflow und maximieren die Wirkung. Anwendungsfall-Playbooks bieten vorkonfigurierte Vorlagen zur schnellen Implementierung gängiger Marketing-Szenarien.
 
@@ -127,7 +119,7 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Wichtige Funktionen**
 
@@ -251,7 +243,7 @@ Erstellen Sie intelligente Rangfolgenmodelle, die automatisch optimieren, welche
 
 ## KI-gestützte Regel- und Formeloptimierung {#decisioning-optimization}
 
-Adobe Journey Optimizer kann automatisch [Entscheidungsregeln](../experience-decisioning/rules.md) und [Rangfolgeformeln) analysieren, &#x200B;](../experience-decisioning/ranking/ranking-formulas.md) in der PQL-Syntax ausgedrückt werden, und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Wenn eine Vereinfachung gefunden wird, wird neben der Regel oder Formel ein roter **[!UICONTROL Optimieren]**-Indikator angezeigt, der einen direkten Vergleich des ursprünglichen und der von KI vorgeschlagenen Ausdrücke öffnet, mit einer herunterladbaren Analyse, um zu überprüfen, ob sich beide identisch verhalten.
+Adobe Journey Optimizer kann automatisch [Entscheidungsregeln](../experience-decisioning/rules.md) und [Rangfolgeformeln) analysieren, ](../experience-decisioning/ranking/ranking-formulas.md) in der PQL-Syntax ausgedrückt werden, und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Wenn eine Vereinfachung gefunden wird, wird neben der Regel oder Formel ein roter **[!UICONTROL Optimieren]**-Indikator angezeigt, der einen direkten Vergleich des ursprünglichen und der von KI vorgeschlagenen Ausdrücke öffnet, mit einer herunterladbaren Analyse, um zu überprüfen, ob sich beide identisch verhalten.
 
 ### Wichtige Funktionen
 

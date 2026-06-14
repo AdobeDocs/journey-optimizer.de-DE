@@ -11,31 +11,26 @@ hide: true
 keywords: Inhalt, Design, E-Mail, Push, SMS, Personalisierung, Vorlagen
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
 TQID: https://experienceleague.adobe.com/bpZArBcEF0xy-M10Ds1CIou3hr4lcK-9wWTD-eROkbA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 96%
+source-wordcount: 647
+ht-degree: 92%
 
 ---
 
 # Gestalten von Nachrichteninhalten{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erkunden Sie die Tools und Best Practices zum Entwerfen personalisierter E-Mail-, Push-, SMS- und In-App-Inhalte, damit Sie markeninterne Nachrichten bereitstellen können, die die Interaktion fördern.
+
+>[!ENDSHADEBOX]
 
 Das Gestalten von Nachrichteninhalten in Adobe Journey Optimizer ermöglicht es Ihnen, ansprechende, personalisierte Kommunikation über alle Kanäle hinweg zu erstellen. Unabhängig davon, ob Sie E-Mails mit komplexen visuellen Layouts, für Mobilgeräte optimierte Push-Benachrichtigungen, interaktive In-App-Erlebnisse oder SMS-Nachrichten erstellen, bietet dieser Abschnitt umfassende Anleitungen zu Best Practices bei der Inhaltserstellung. Erfahren Sie, wie Sie Vorlagen und Fragmente für wiederverwendbare Inhalte nutzen, Personalisierung und dynamische Inhalte zum Anpassen von Nachrichten für alle Empfangenden anwenden und die Einhaltung der Barrierefreiheit sicherstellen. Sie erhalten Informationen zu Design-Prinzipien und der Implementierung von Optionen für erweiterte Formatierung und lernen Tools kennen, die bei der Bereitstellung überzeugender, markenkonformer Erlebnisse erforderlich sind und Interaktion und Konversionen fördern.
 
@@ -43,7 +38,7 @@ Das Gestalten von Nachrichteninhalten in Adobe Journey Optimizer ermöglicht es 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestalten von E-Mail-Inhalten
 
@@ -53,7 +48,7 @@ Erfahren Sie mehr zum E-Mail-Design mit dem E-Mail-Designer, erstellen Sie respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Gestalten von Push-Benachrichtigungen
 
@@ -63,7 +58,7 @@ Erstellen Sie überzeugende Push-Benachrichtigungen für iOS und Android, konfig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Gestalten von SMS- und MMS-Nachrichten
 
@@ -73,7 +68,7 @@ Erstellen Sie personalisierte mobile Nachrichten mit SMS, verbessern Sie die Kom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Gestalten von In-App-Nachrichten
 
@@ -83,7 +78,7 @@ Erstellen Sie ansprechende In-App-Erlebnisse mit mehreren Layout-Optionen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalisieren von Inhalten
 
@@ -93,7 +88,7 @@ Fügen Sie Nachrichten mithilfe von Profilattributen Personalisierung hinzu, nut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwenden von Vorlagen und Fragmenten
 
