@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 92%
+source-wordcount: 299
+ht-degree: 83%
 
 ---
 
 # Berichten über Entscheidungsfindung {#decisioning-report}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Greifen Sie auf dedizierte Entscheidungsberichte zu und erstellen Sie Customer Journey Analytics-Dashboards, damit Sie wichtige Leistungsindikatoren überwachen und analysieren können, wie Kunden mit Ihren Entscheidungselementen interagieren.
+
+>[!ENDSHADEBOX]
 
 ## Reporting zur Entscheidungsfindung {#campaigns}
 

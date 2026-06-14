@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 74%
+source-wordcount: 779
+ht-degree: 72%
 
 ---
 
 # Erste Schritte mit der Entscheidungsfindung {#get-started-experience-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, was Entscheidungsfindung ist, und befolgen Sie die wichtigsten Einrichtungsschritte, damit Sie jedem Einzelnen über Ihre Kanäle hinweg die relevantesten Entscheidungselemente bereitstellen können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"

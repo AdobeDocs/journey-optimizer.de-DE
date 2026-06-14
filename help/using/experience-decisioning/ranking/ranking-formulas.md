@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 64%
+source-wordcount: 1775
+ht-degree: 63%
 
 ---
 
 # Erstellen von Ranglistenformeln {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erstellen Sie mit dem KI-Formelgenerator Rangfolgeformeln, die KI-Modellwerte, Angebotsprioritäten, Profilattribute und kontextuelle Signale kombinieren, damit Sie steuern können, welches Angebot zuerst angezeigt wird, und die Entscheidungsfindung sowohl an Ihren Geschäftszielen als auch an den Anforderungen Ihrer Kunden ausrichten können.
+
+>[!ENDSHADEBOX]
 
 **Rangfolgeformeln** ermöglichen es Ihnen, Regeln zu definieren, die bestimmen, welches Angebot zuerst unterbreitet werden soll, anstatt die Prioritätswerte zu berücksichtigen.
 

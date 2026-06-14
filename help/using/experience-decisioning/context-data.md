@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 98%
+source-wordcount: 352
+ht-degree: 88%
 
 ---
 
 # Verwendung von Kontextdaten bei der Entscheidungsfindung {#context}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Definieren und speisen Sie Kontextdaten aus Adobe Experience Platform in Decisioning ein, damit Sie Echtzeitinformationen, die zum Zeitpunkt der Entscheidungsanfrage gesendet werden, in Ihren Entscheidungsregeln und Rangfolgeformeln verwenden können.
+
+>[!ENDSHADEBOX]
 
 Mit der Entscheidungsfindung können Sie alle in Adobe Experience Platform verfügbaren Informationen nutzen, um verschiedene Aktionen auszuführen, wie z. B. die Erstellung von [Entscheidungsregeln](rules.md) oder [Rangfolgenformeln](ranking/ranking.md).
 

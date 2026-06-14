@@ -26,14 +26,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 89%
+source-wordcount: 367
+ht-degree: 82%
 
 ---
 
 # Erste Schritte mit KI-Modellen {#ai-models}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Machen Sie sich mit den KI-Modelltypen für automatische Optimierung und personalisierte Optimierung und den Schritten zu ihrer Erstellung vertraut, damit Sie Angebote nach Ihren Geschäftszielen ordnen können.
+
+>[!ENDSHADEBOX]
 
 Mit [!DNL Journey Optimizer] können Sie ein System mit trainierten Modellen verwenden, das die für ein Profil anzuzeigenden Angebote in eine bestimmte Reihenfolge bringt.
 

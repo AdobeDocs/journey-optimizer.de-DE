@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
-ht-degree: 96%
+source-wordcount: 938
+ht-degree: 91%
 
 ---
 
 # Modell zur personalisierten Optimierung {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie das Modell der personalisierten Optimierung maschinelles Lernen nutzt, um aus Kunden-, Angebots- und kontextuellen Daten zu lernen, einschließlich seiner Datensatzanforderungen, Annahmen und Kaltstartverhalten, sodass Sie entscheiden können, wann es zur Bereitstellung personalisierter Angebote und zur Maximierung Ihrer KPIs verwendet wird.
+
+>[!ENDSHADEBOX]
 
 ## Überblick {#overview}
 

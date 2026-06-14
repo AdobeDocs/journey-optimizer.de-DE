@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
-ht-degree: 84%
+source-wordcount: 2374
+ht-degree: 83%
 
 ---
 
 # Erstellen Ihres ersten Entscheidungselements {#items}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erstellen und verwalten Sie Entscheidungselemente, einschließlich ihrer Attribute, Eignung und Begrenzungsregeln, damit Sie den richtigen Profilen die richtigen Marketing-Angebote unterbreiten können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"

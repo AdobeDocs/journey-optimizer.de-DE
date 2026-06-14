@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 7%
 
 ---
 
 # Verwenden von Entscheidungsrichtlinien in Nachrichten {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Fügen Sie Entscheidungsrichtlinien-Code in Ihr Code-basiertes Erlebnis, in Ihre E-Mail, SMS, Push-Benachrichtigung und Ihren Briefpost-Inhalt ein, damit Sie Nachrichten mit Attributen aus den zurückgegebenen Entscheidungselementen personalisieren können.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, können Sie Attribute aus zurückgegebenen Entscheidungselementen zur Personalisierung verwenden. Fügen Sie dazu zunächst den Entscheidungsrichtlinien-Code in Ihren Inhalt ein.
 

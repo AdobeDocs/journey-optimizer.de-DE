@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # Überwachen Ihrer KI-Modelle {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Überwachen Sie den Zustand, Trainings-Status und die Leistung Ihrer KI-Rangfolgemodelle, damit Sie bestätigen können, dass sie Ihre Geschäftsergebnisse verbessern, und führen Sie eine Fehlerbehebung durch, wenn dies nicht der Fall ist.
+
+>[!ENDSHADEBOX]
 
 Egal, ob Sie Marketing-Experte, Datenwissenschaftler oder Entscheidungs-Administrator sind, wenn Sie verstehen, wie Ihre personalisierten Optimierungsmodelle funktionieren und sich verhalten, können Sie mit KI für jeden Kunden die besten Angebote auswählen.
 

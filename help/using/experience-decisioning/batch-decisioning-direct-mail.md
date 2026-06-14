@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: Batch-Entscheidung, Briefpost, Entscheidung
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # Batch-Entscheidung in Briefpost {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verwenden Sie Batch Decisioning im Briefpostkanal, um die Extraktionsdatei jedes Empfängers mit den besten Entscheidungselementen zu personalisieren oder Profil- und Entscheidungsdaten in nachgelagerte Systeme zu exportieren.
+
+>[!ENDSHADEBOX]
 
 Bei der Batch-Entscheidung wählt Decisioning die besten Entscheidungselemente für jedes Profil aus und nimmt diese Ergebnisse in die Briefpost-Extraktionsdatei auf. Sie können mehrere Elemente pro Profil zurückgeben, indem Sie **[!UICONTROL Anzahl der Elemente]** beim Konfigurieren der Entscheidungsrichtlinie festlegen. Die exportierte Datei kann für die Personalisierung von Briefpost oder für Batch-Anwendungsfälle verwendet werden, bei denen Sie Profile und Entscheidungsattribute in ein anderes System exportieren.
 

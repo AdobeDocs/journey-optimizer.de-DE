@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 20%
 
 ---
 
 # Nutzen von Fragmenten in Entscheidungsrichtlinien {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Nutzen Sie Journey Optimizer-Inhaltsfragmente und AEM-Inhaltsfragmente innerhalb von Entscheidungsrichtlinien, um die Bereitstellung von Inhalten kanalübergreifend zu personalisieren und zu optimieren.
+
+>[!ENDSHADEBOX]
 
 Entscheidungselemente unterstützen zwei Arten von Fragmentinhalten, die beim Verfassen von Nachrichten innerhalb einer Entscheidungsrichtlinie genutzt werden können:
 
