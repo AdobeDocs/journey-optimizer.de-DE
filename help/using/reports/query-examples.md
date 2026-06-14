@@ -9,30 +9,25 @@ role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO0Qps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
-ht-degree: 71%
+source-wordcount: 3763
+ht-degree: 70%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** finden Sie einsatzbereite SQL-Abfragebeispiele zur Analyse und Fehlerbehebung bei Journey-Schrittereignissen im Data Lake von Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 In diesem Abschnitt werden häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen in Journey-Ereignisdaten verwendet werden.
 
@@ -1149,7 +1144,7 @@ Diese Abfrage hilft Ihnen zu verstehen, wie viele eindeutige Profile eine bestim
 
 +++Anzahl der in den letzten 12 Monaten pro Journey eingesetzten Profile
 
-Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ &#x200B;](../audience/license-usage.md).
+Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ ](../audience/license-usage.md).
 
 ```sql
 SELECT 
@@ -1204,13 +1199,13 @@ _Beispielausgabe_
 | 2024-11-22 | 9.230 |
 | 2024-11-21 | 8.670 |
 
-Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht &#x200B;](../audience/license-usage.md).
+Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht ](../audience/license-usage.md).
 
 +++
 
 +++Identifizieren von Journey, die kürzlich große Zielgruppen angesprochen haben
 
-Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ &#x200B;](../audience/license-usage.md) kann.
+Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ ](../audience/license-usage.md) kann.
 
 ```sql
 SELECT 
