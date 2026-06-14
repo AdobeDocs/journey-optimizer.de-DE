@@ -10,16 +10,21 @@ level: Experienced
 keywords: CC, Kopie, E-Mail, Kanalkonfiguration, E-Mail-Kopfzeilen, BCC
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 12%
+source-wordcount: 937
+ht-degree: 11%
 
 ---
 
 # Hinzufügen eines CC-Felds zu E-Mails {#cc-email-field}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie in einer Adobe Journey Optimizer-Kanalkonfiguration ein sichtbares CC-Feld zu E-Mails hinzufügen, wie es sich von BCC unterscheidet und welche Empfehlungen und Einschränkungen damit verbunden sind.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
@@ -82,7 +87,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 >[!CAUTION]
 >
->Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](channel-surfaces.md#create-channel-surface).
+>Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](channel-surfaces.md#create-channel-surface).
 
 ## Empfehlungen und Einschränkungen {#cc-recommendations-limitations}
 
@@ -92,11 +97,11 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 * **Posteingangsverwaltung:** Ihr Posteingang, der für CC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden einige E-Mails möglicherweise nicht empfangen.
 
-* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[&#x200B; gekommen &#x200B;](../reports/suppression-list.md#delivery-failures).
+* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[ gekommen ](../reports/suppression-list.md#delivery-failures).
 
 * **Einverständnis und Unterdrückung:** Die CC-E-Mail-Adresse wird nicht mit dem Einverständnis oder der Unterdrückung abgeglichen.
 
-* **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnen oder klicken Sie nicht durch die an die CC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Dies könnte in [Berichten) zu falschen Berechnungen &#x200B;](../reports/report-gs-cja.md).
+* **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnen oder klicken Sie nicht durch die an die CC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Dies könnte in [Berichten) zu falschen Berechnungen ](../reports/report-gs-cja.md).
 
 * **Spam:** Nachrichten im CC-Posteingang nicht als Spam kennzeichnen, da sich dies auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 

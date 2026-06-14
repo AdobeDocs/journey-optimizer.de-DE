@@ -9,16 +9,21 @@ role: Admin
 level: Experienced
 keywords: Export, Nachrichten, Datensatz, Schema, E-Mails, SMS
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 37%
+source-wordcount: 447
+ht-degree: 35%
 
 ---
 
 # AJO-Nachrichtenexportschema {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erkunden Sie die Struktur und die einzelnen Felder des AJO-Nachrichtenexport-Datensatzes, in dem gesendete E-Mail- und SMS-Nachrichteninhalte in Adobe Experience Platform gespeichert werden.
+
+>[!ENDSHADEBOX]
 
 Wenn **Nachrichtenexport** für eine E-Mail- oder SMS-Kanalkonfiguration aktiviert ist, wird der Inhalt der gesendeten Nachricht in den **AJO-** in [!DNL Adobe Experience Platform] geschrieben.
 

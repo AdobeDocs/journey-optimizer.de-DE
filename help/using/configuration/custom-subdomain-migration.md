@@ -11,16 +11,21 @@ keywords: Subdomain, Zuweisung, Migration, CNAME, benutzerdefinierte Zuweisung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 20%
+source-wordcount: 1301
+ht-degree: 19%
 
 ---
 
 # E-Mail-Subdomain von CNAME zur benutzerdefinierten Delegierung migrieren {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie eine E-Mail- oder Landingpage-Subdomain von der CNAME-Delegierung zur benutzerdefinierten Delegierung in Adobe Journey Optimizer migrieren, indem Sie die vorhandenen DNS-Einträge löschen, Ihr SSL-Zertifikat hochladen, die Feedback-Schleife abschließen und die neuen DNS-Einträge erstellen.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +48,7 @@ Bevor Sie mit dem Migrationsprozess beginnen, lesen Sie die folgenden wichtigen 
 
 >[!IMPORTANT]
 >
->Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert &#x200B;](delegate-subdomain.md#cname-subdomain-setup).
+>Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert ](delegate-subdomain.md#cname-subdomain-setup).
 
 * Stellen Sie sicher, dass die **Methode der benutzerdefinierten Delegierung“ für** Unternehmen aktiviert ist (diese Funktion ist derzeit nur eingeschränkt verfügbar. Bitte den Adobe-Support kontaktieren, um Zugang zu erhalten). [Weitere Informationen](delegate-custom-subdomain.md)
 * Stellen Sie sicher, dass diese Subdomain nicht von aktiven Kanalkonfigurationen verwendet wird. Der Migrationsprozess unterbricht ihre Funktionalität.
@@ -135,7 +140,7 @@ Im Abschnitt **[!UICONTROL SSL-Zertifikat]** müssen Sie ein neues SSL-Zertifika
 
 Überprüfen Sie davor Folgendes:
 
-* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet &#x200B;](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
+* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet ](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
 
 * Wenn Sie dies noch nicht getan haben, führen Sie die Schritte zum [Generieren, Herunterladen und Senden der CSR](#send-csr-to-ca) aus.
 

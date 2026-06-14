@@ -9,30 +9,25 @@ level: Intermediate
 keywords: Zulassungsliste, sichere Liste, E-Mail, Zustellbarkeit, Sandbox, Domains, Unterdrückung, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
-ht-degree: 73%
+source-wordcount: 1371
+ht-degree: 71%
 
 ---
 
 # Einrichten einer Zulassungsliste {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Zulassungsliste in Adobe Journey Optimizer aktivieren, ausfüllen und verwalten können, um den E-Mail-Versand auf Sandbox-Ebene auf vertrauenswürdige Adressen und Domains zu beschränken.
+
+>[!ENDSHADEBOX]
 
 Die Zulassungsliste ist eine Sicherheitsliste für den Versand, die Sie auf der Ebene [Sandbox](../administration/sandboxes.md) definieren können. Dadurch wird der E-Mail-Versand auf bestimmte Adressen oder Domains beschränkt, sodass nur explizit aufgeführte Empfänger Nachrichten von einer bestimmten Sandbox empfangen können.
 
@@ -72,7 +67,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Aktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit.png)
+   ![Umschalter zum Aktivieren der Zulassungsliste ](assets/allow-list-edit.png)
 
 1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus. Die Zulassungsliste ist jetzt aktiv.
 
@@ -81,7 +76,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
    >[!NOTE]
    >
    >* Nach der Aktivierung dauert es 10 Minuten, bis die Zulassungsliste in Journey und Kampagnen wirksam wird. Es kann bis zu 10 Minuten dauern, bis Aktualisierungen sowohl der Zulassungslisten- als auch der Unterdrückungsliste angezeigt werden.
-   >* Wenn diese Option aktiviert ist, wird die Zulassungsliste nicht nur in Live-Journey[&#x200B; sondern auch beim Testen von Nachrichten mit „Testsendungen](../content-management/proofs.md) und Journey im [Testmodus](../building-journeys/testing-the-journey.md) durchgesetzt.
+   >* Wenn diese Option aktiviert ist, wird die Zulassungsliste nicht nur in Live-Journey[ sondern auch beim Testen von Nachrichten mit „Testsendungen](../content-management/proofs.md) und Journey im [Testmodus](../building-journeys/testing-the-journey.md) durchgesetzt.
 
 Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
@@ -93,7 +88,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Deaktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit-active.png)
+   ![Umschalter zum Deaktivieren der Zulassungsliste ](assets/allow-list-edit-active.png)
 
 1. Wählen Sie die Option **[!UICONTROL Zulassungsliste deaktivieren]** aus. Die Zulassungsliste ist nicht mehr aktiv.
 
@@ -171,7 +166,7 @@ Führen Sie die folgenden Schritte aus, um die Zulassungsliste als CSV-Datei zu 
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
-   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste &#x200B;](assets/allowed-list-download-csv.png)
+   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste ](assets/allowed-list-download-csv.png)
 
 1. Warten Sie, bis die Datei generiert wurde.
 

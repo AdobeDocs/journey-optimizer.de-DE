@@ -10,31 +10,26 @@ level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 TQID: https://experienceleague.adobe.com/eec0MMgNbimonw-XcC7mA39iPu36GJ5WDqfy0rLx4ZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
-ht-degree: 96%
+source-wordcount: 1028
+ht-degree: 93%
 
 ---
 
 # Verwenden von Testadressenlisten {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie in Adobe Journey Optimizer Testadressen erstellen und verwenden, um automatisch interne Testadressen in Ihre E-Mail-Sendungen aufzunehmen, um die Überwachung und den Schutz der Mailing-Liste zu gewährleisten.
+
+>[!ENDSHADEBOX]
 
 Testadressenlisten in [!DNL Journey Optimizer] ermöglichen es Ihnen, automatisch bestimmte Testadressen in Ihre Sendungen einzubeziehen.
 

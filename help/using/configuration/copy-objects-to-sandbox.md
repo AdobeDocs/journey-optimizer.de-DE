@@ -10,37 +10,25 @@ level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
-ht-degree: 66%
+source-wordcount: 2475
+ht-degree: 65%
 
 ---
 
 # Exportieren von Objekten in eine andere Sandbox {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Adobe Journey Optimizer-Objekte wie Journeys, Kampagnen, benutzerdefinierte Aktionen, Inhaltsvorlagen und Fragmente zwischen Sandboxes mithilfe des Package-Exports und -Imports kopieren.
+
+>[!ENDSHADEBOX]
 
 Mithilfe der Package-Export- und -Importfunktionen können Sie Objekte wie Journeys, Kampagnen, benutzerdefinierte Aktionen, Inhaltsvorlagen oder Fragmente über mehrere Sandboxes kopieren. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
 
@@ -119,11 +107,11 @@ Stellen Sie beim Kopieren **(**- oder **API-ausgelösten)** sicher, dass das unt
 
 Sie können orchestrierte Kampagnen mithilfe von Package-Export und -Import zwischen Sandboxes kopieren. Orchestrierte Kampagnen folgen demselben Muster wie andere Objekte, aber was im Paket enthalten ist und was Sie in der Ziel-Sandbox vorbereiten müssen, unterscheidet sich von durch eine Aktion oder API ausgelösten Kampagnen.
 
-Um eine orchestrierte Kampagne zu exportieren, [&#x200B; Sie sie (einem Sandbox-Paket &#x200B;](#add-objects-as-a-package-export)) in der Quell-Sandbox (unabhängig vom Status) [veröffentlichen Sie das &#x200B;](#publish) und [importieren Sie dann das Paket](#import) in die Ziel-Sandbox.
+Um eine orchestrierte Kampagne zu exportieren, [ Sie sie (einem Sandbox-Paket ](#add-objects-as-a-package-export)) in der Quell-Sandbox (unabhängig vom Status) [veröffentlichen Sie das ](#publish) und [importieren Sie dann das Paket](#import) in die Ziel-Sandbox.
 
 >[!IMPORTANT]
 >
->Duplizieren Sie direkt nach [&#x200B; Import die orchestrierte Kampagne in &#x200B;](../campaigns/manage-campaigns.md#duplicate-a-campaign) Ziel-Sandbox und verwenden Sie dieses Duplikat für die Konfiguration, Tests und Ausführung. Wenn Sie stattdessen die importierte Kopie ausführen oder veröffentlichen, werden in den Kampagnenberichten möglicherweise keine Feedback- und Tracking-Daten angezeigt. Diese Einschränkung wird in einer zukünftigen Version entfernt.
+>Duplizieren Sie direkt nach [ Import die orchestrierte Kampagne in ](../campaigns/manage-campaigns.md#duplicate-a-campaign) Ziel-Sandbox und verwenden Sie dieses Duplikat für die Konfiguration, Tests und Ausführung. Wenn Sie stattdessen die importierte Kopie ausführen oder veröffentlichen, werden in den Kampagnenberichten möglicherweise keine Feedback- und Tracking-Daten angezeigt. Diese Einschränkung wird in einer zukünftigen Version entfernt.
 
 Beachten Sie beim Import in die Produktion das folgende Verhalten und die folgenden Einschränkungen:
 

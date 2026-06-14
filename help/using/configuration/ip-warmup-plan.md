@@ -10,28 +10,25 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
-ht-degree: 83%
+source-wordcount: 1853
+ht-degree: 82%
 
 ---
 
 # Erstellen eines IP-Aufwärmplans {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die erforderlichen Berechtigungen einrichten, die Excel-Plandatei mit Domain-Gruppen vorbereiten und einen IP-Aufwärmplan in Adobe Journey Optimizer erstellen.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Konfiguration und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 
@@ -221,7 +218,7 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 1. Fügen Sie alle Hotmail-Domains in derselben Zeile hinzu.
 
-   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [&#x200B; „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
+   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [ „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
 
 1. Fügen Sie eine weitere Zeile hinzu.
 
