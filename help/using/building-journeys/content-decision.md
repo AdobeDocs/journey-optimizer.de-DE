@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
-ht-degree: 74%
+source-wordcount: 1286
+ht-degree: 73%
 
 ---
 
 # Aktivität „Inhaltsentscheidung“ {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Aktivität Inhaltsentscheidung personalisierte Angebote in Ihre Journey einbeziehen und an geeignete Profile senden können.
+
+>[!ENDSHADEBOX]
 
 Mit [!DNL Journey Optimizer] können Sie über die dedizierte Aktivität **Inhaltsentscheidung“ auf der Journey-** Angebote in Ihre Journey einbeziehen. Anschließend können Sie Ihren Journeys weitere Aktivitäten (wie [benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md)) hinzufügen, um Ihre Zielgruppen mit diesen personalisierten Angeboten anzusprechen.
 

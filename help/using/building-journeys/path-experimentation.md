@@ -11,14 +11,20 @@ keywords: Experimentieren, Experimentieren, Journey, Pfad, Optimierung, A/B-Test
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 78%
+source-wordcount: 1186
+ht-degree: 76%
 
 ---
 
 # Verwenden von Pfadexperimenten {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Pfadexperimente mit der Aktivität Optimieren einrichten, um verschiedene Journey-Pfade mithilfe von A/B- oder Multi-Armed-Bandit-Experimenten zu testen, die beste Abwandlung anhand einer Erfolgsmetrik zu identifizieren und den Gewinner zu skalieren.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"

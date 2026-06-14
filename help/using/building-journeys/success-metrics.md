@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 96%
+source-wordcount: 623
+ht-degree: 92%
 
 ---
 
 # Konfigurieren und Verfolgen der Journey-Metriken {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie Journey-Metriken konfigurieren und zuweisen, um die Performance anhand Ihrer KPIs zu verfolgen und die Effektivität Ihrer Kunden-Journey in Echtzeit zu messen.
+
+>[!ENDSHADEBOX]
 
 Mit Journey-Metriken erhalten Sie einen klaren Einblick in die Effektivität Ihrer Customer Journeys. Dank dieser Funktion können Sie die Leistung anhand definierter KPIs verfolgen, Erkenntnisse zur Funktionsweise gewinnen und Bereiche mit Optimierungspotenzial identifizieren. Indem Sie die Wirkung in Echtzeit messen, haben Sie die Möglichkeit, kontinuierliche Verbesserungen zu fördern und datengestützte Entscheidungen zu treffen, die die Kundeninteraktion verbessern.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 93%
+source-wordcount: 829
+ht-degree: 90%
 
 ---
 
 # Anwendungsfall: Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie die Journey-Verarbeitung mit benutzerdefinierten Aktionen und externen Datenquellen einschränken können, damit externe Systeme nicht über die unterstützte Anzahl von Anfragen pro Sekunde hinaus überfordert werden.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie diesen Anwendungsfall, um die Journey-Verarbeitung zu drosseln, wenn externe Systeme eine begrenzte Anzahl von Anfragen pro Sekunde verarbeiten müssen.
 

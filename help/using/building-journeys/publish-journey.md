@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 48%
 
 ---
 
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Journey veröffentlichen, um sie live zu schalten, einschließlich der Voraussetzungen, des Veröffentlichungsprozesses, der Versionsverwaltung und der Anforderungen für die erneute Veröffentlichung.
+
+>[!ENDSHADEBOX]
 
 Beim Veröffentlichen wird eine Journey aktiviert: Sie wechselt in den **[!UICONTROL Live]**-Status, wird für neue Profile verfügbar und wechselt in den schreibgeschützten Modus. Sie können keine fehlerhafte Journey veröffentlichen.
 

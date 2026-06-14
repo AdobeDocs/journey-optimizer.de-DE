@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 82%
+source-wordcount: 1009
+ht-degree: 80%
 
 ---
 
 # Journey Orchestration - vollständiges Handbuch{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erhalten Sie eine vollständige Anleitung zum Journey-Orchestrieren in Adobe Journey Optimizer, die beschreibt, wie Sie mehrstufige Multi-Channel-Kunden-Journey entwerfen, verwalten und verfeinern, die sich in Echtzeit anpassen.
+
+>[!ENDSHADEBOX]
 
 Journey in [!DNL Adobe Journey Optimizer] ermöglichen es Ihnen, personalisierte, mehrstufige Kunden-Journey zu erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
 

@@ -26,18 +26,24 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 79%
+source-wordcount: 932
+ht-degree: 76%
 
 ---
 
 # Warteaktivität {#wait-activity}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Warteaktivität so konfigurieren, dass sie einen Pfad für eine relative Dauer oder bis zu einem benutzerdefinierten berechneten Datum anhält, bevor die nächste Aktivität ausgeführt wird.
+
+>[!ENDSHADEBOX]
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Warteaktivität"
+>title="Aktivität „Warten“"
 >abstract="Die Aktivität Warten ermöglicht es, zu warten, bevor die nächste Aktivität im Pfad ausgeführt wird. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
 Mit einer Aktivität vom Typ **[!UICONTROL Warten]** können Sie eine Dauer definieren, nach deren Ablauf die nächste Aktivität ausgeführt wird.  Die maximale Wartezeit beträgt **90 Tage**.

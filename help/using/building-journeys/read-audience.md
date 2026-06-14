@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 55%
 
 ---
 
 # Verwenden einer Zielgruppe in einer Journey {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ so konfigurieren, dass Profile von einer Adobe Experience Platform-Zielgruppe bei Bedarf oder zeitlich geplant auf eine Journey übertragen und der Pfad jedes Profils personalisiert wird.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [&#x200B; Pfad jedes Profils mit &#x200B;](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
 

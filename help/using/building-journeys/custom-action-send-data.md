@@ -11,14 +11,20 @@ keywords: Journey, Anwendungsfall
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 74%
+source-wordcount: 324
+ht-degree: 66%
 
 ---
 
 # Anwendungsfall: Erstellen einer benutzerdefinierten Aktion zum Senden von Daten an [!DNL Adobe Experience Platform]{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit der Aktivität Optimieren mit einer Profilbegrenzungsbedingung Ihr E-Mail-Volumen schrittweise erhöhen können, um Ihre IP-Adresse aufzuwärmen und Ihre Reputation als Absender zu schützen.
+
+>[!ENDSHADEBOX]
 
 Wenn Sie kürzlich Ihren E-Mail-Dienstleister, Ihre IP-Adresse, Ihre E-Mail-Domain oder Ihre Subdomain gewechselt haben, sollten Sie Ihre Reputation als Absender aufbauen. Andernfalls können Sendungen blockiert oder in die Spam-Ordner der Empfänger verschoben werden. Eine Anleitung finden Sie im [Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de){target="_blank"}.
 

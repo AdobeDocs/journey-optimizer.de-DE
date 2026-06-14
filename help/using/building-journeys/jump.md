@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1405
-ht-degree: 60%
+source-wordcount: 1358
+ht-degree: 56%
 
 ---
 
 # Springen zwischen Journeys {#jump}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Sprungaktivität Einzelanwender von einer Journey zur anderen pushen, komplexe Designs vereinfachen und wiederverwendbare, gängige Journey-Muster erstellen können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
@@ -136,8 +142,8 @@ Erstellen Sie jede Phase als separate Journey in Journey Optimizer und verwenden
 
    ![Dropdown-Liste zur Auswahl der Ziel-Journey in der Konfiguration der Sprungaktivität](assets/jump2.png)
 
-1. Klicken Sie in das Feld **Ziel-Journey**.
-Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Zielgruppen-Qualifizierungsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+1. Klicken Sie in das Feld **Target-Journey**.
+Die Liste zeigt alle Journey-Versionen an, die entweder den Entwurfs-, Live- oder den Testmodus aufweisen. Journey, die einen anderen Namespace verwenden oder mit einem „Zielgruppen&#x200B;**Qualifizierungsereignis** beginnen, sind nicht verfügbar. Target-Journey, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![Sprungaktivität mit Ziel-Journey und Aktionsparametern](assets/jump3.png)
 
@@ -146,7 +152,7 @@ Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Tes
    >Sie können rechts auf das Symbol **Zielgruppen-Journey öffnen** klicken, um die Ziel-Journey in einem neuen Tab zu öffnen.
 
 1. Wählen Sie die Ziel-Journey aus, zu der Sie springen möchten.
-Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der Ziel-Journey gefüllt. Wenn Ihre Ziel-Journey mehrere Ereignisse umfasst, ist der **[!UICONTROL Sprung]** nur zum ersten Ereignis zulässig.
+Das Feld **Erstes**) ist mit dem Namen des ersten Zielereignisses der Journey vorausgefüllt. Wenn Ihr Ziel-Journey mehrere Ereignisse enthält, ist **[!UICONTROL Springen]** nur beim ersten Ereignis erlaubt.
 
    ![Konfiguration der Parameterzuordnung für Sprungaktivität mit Ausdruckseditor](assets/jump4.png)
 

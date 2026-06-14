@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
-ht-degree: 89%
+source-wordcount: 1109
+ht-degree: 87%
 
 ---
 
 # Senden von E-Mails nur an Wochentagen {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie eine Journey konfigurieren, die E-Mails nur an Wochentagen sendet und Wochenendeinträge für den Montag-Versand mithilfe einer Bedingungsaktivität in die Warteschlange stellt. Außerdem erfahren Sie, wie Sie Aktivitäten mit benutzerdefinierten Formeln abwarten können.
+
+>[!ENDSHADEBOX]
 
 Dieser Anwendungsfall zeigt, wie Sie eine Journey in [!DNL Adobe Journey Optimizer] konfigurieren, die E-Mails nur an Werktagen (Montag bis Freitag) sendet. Bei Profilen, die an Wochenenden (Samstag oder Sonntag) in die Journey eintreten, werden E-Mails automatisch in die Warteschlange gestellt und am Montag zu einer festgelegten Zeit versendet. Dies gewährleistet optimale Interaktion, da Nachrichten während der Arbeitswoche versendet werden.
 

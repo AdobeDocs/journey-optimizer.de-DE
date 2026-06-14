@@ -24,20 +24,26 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 100%
+source-wordcount: 382
+ht-degree: 92%
 
 ---
 
 # Senden einer Nachricht an Abonnenten auf einer Liste {#send-a-message-to-the-subscribers-of-a-list}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Journey erstellen, die eine Nachricht an die Abonnenten auf einer Liste mithilfe der Feldergruppe Einverständnis und Voreinstellungsdetails sendet.
+
+>[!ENDSHADEBOX]
+
 In diesem Anwendungsbeispiel soll eine Journey erstellt werden, um eine Nachricht an die Abonnenten auf einer Liste zu senden.
 
 In diesem Beispiel wird die Feldergruppe **[!UICONTROL Einverständnis und Präferenzdetails]** aus [!DNL Adobe Experience Platform] verwendet. Um diese Feldergruppe zu finden, wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schemata]**. Geben Sie auf der Registerkarte **[!UICONTROL Feldergruppen]** im Suchfeld den Namen der Feldergruppe ein.
 
-![Diese Feldergruppe enthält das Abonnement-Element ](assets/consent-and-preference-details-field-group.png)
+![Diese Feldergruppe enthält das Abonnement-Element &#x200B;](assets/consent-and-preference-details-field-group.png)
 
 Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 

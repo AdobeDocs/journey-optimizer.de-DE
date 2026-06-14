@@ -11,15 +11,21 @@ keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 7%
 
 ---
 
 
 # Journey Fragments {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Journey-Fragmente - wiederverwendbare Sets von Journey-Knoten - erstellen, verwalten und wiederverwenden, um Journey schneller zu erstellen und in Ihrer Sandbox konsistent zu bleiben.
+
+>[!ENDSHADEBOX]
 
 Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 

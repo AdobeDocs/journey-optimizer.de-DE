@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
-ht-degree: 78%
+source-wordcount: 953
+ht-degree: 80%
 
 ---
 
 # [!DNL Adobe Campaign] Standard-Aktionen {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die integrierten Aktionsaktivitäten für E-Mails, Push-Benachrichtigungen und SMS in Adobe Campaign Standard in Ihren Journey verwenden können, indem Sie sich auf die Transaktionsnachrichten-Vorlagen von Campaign Standard verlassen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -73,7 +79,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 >[!NOTE]
 >
 >Bei Verwendung der Transaktionsvorlage eines Profils für E-Mails wird der Abmeldemechanismus automatisch von [!DNL Adobe Campaign] Standard gehandhabt.
->Fügen Sie einen Inhaltsbaustein **[!UICONTROL Abmelde-Link]** in die [Transaktions-E-Mail-Vorlage](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de) ein.
+>Fügen Sie einen **[!UICONTROL Abmelde-Link]** Inhaltsbaustein in die [Transaktions-E-Mail-Vorlage](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de) ein.
 >Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, fügen Sie einen Link in die Nachricht ein, der die E-Mail-Adresse des Empfängers als URL-Parameter weitergibt und zu einer Landingpage zur Abmeldung weiterleitet.
 >Erstellen Sie die Landingpage und stellen Sie sicher, dass die Abmeldeentscheidung der Empfängerin bzw. des Empfängers an Adobe übermittelt wird.
 

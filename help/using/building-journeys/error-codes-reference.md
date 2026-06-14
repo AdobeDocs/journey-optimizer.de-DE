@@ -11,14 +11,20 @@ keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 84%
 
 ---
 
 # Referenz für Fehler-Codes {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Adobe Journey Optimizer-Fehler-Codes strukturiert sind, wo Sie sie finden und wie Sie häufige Fehler in Journey-, Kampagnen- und Nachrichtenkonfigurationen beheben können.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] verwendet standardisierte Fehlercodes, um Probleme in Journey-, Kampagnen- und Nachrichtenkonfigurationen schnell zu identifizieren und zu beheben. Wenn Sie diese Fehler-Codes verstehen, können Sie die Zeit für die Fehlerbehebung erheblich verkürzen und die optimale Kampagnen-Leistung aufrechterhalten.
 

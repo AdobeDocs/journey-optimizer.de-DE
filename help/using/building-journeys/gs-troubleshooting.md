@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 92%
+source-wordcount: 255
+ht-degree: 89%
 
 ---
 
 # Fehlerbehebung bei Journeys {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** finden Sie nach allgemeinen Problembereichen geordnete Ressourcen zur Fehlerbehebung, mit denen Sie Journey-Fehler, Ausführungsinkonsistenzen, Probleme mit eingehenden Aktionen und Probleme mit benutzerdefinierten Aktionen diagnostizieren und beheben können.
+
+>[!ENDSHADEBOX]
 
 Wenn sich eine Customer Journey nicht wie erwartet verhält, kann es schwierig sein, die zugrunde liegende Ursache zu ermitteln. Damit Sie Probleme effizient beheben können, finden Sie im Folgenden Ressourcen zur Fehlerbehebung in den häufigsten Problembereichen. Unabhängig davon, ob Sie Journey-Fehler, Ausführungsinkonsistenzen oder Probleme auf Aktionsebene sehen, bietet jeder Abschnitt eine gezielte Anleitung zur Untersuchung und Lösung dieser Probleme.
 
@@ -77,7 +83,7 @@ Auf den folgenden Seiten erfahren Sie mehr über bestimmte Fehlerbehebungsthemen
     <div>
     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de">
     <img alt="Informationen zu häufigen Fehler-Codes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Sehen Sie sich außerdem <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de" target="_blank">diesen Blogpost der Adobe-Community</a> an, der <strong>allgemeine Fehlercodes</strong> und wie Sie sie effektiv beheben können.
+    <br>Sehen Sie sich außerdem <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de" target="_blank">diesen Blog-Beitrag der Adobe-Community</a> zu <strong>allgemeinen Fehler-Codes</strong> und deren effektiver Behebung an.
     </div>
   </td>
 </tr>

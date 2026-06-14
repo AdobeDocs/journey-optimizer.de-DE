@@ -26,14 +26,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 78%
+source-wordcount: 943
+ht-degree: 75%
 
 ---
 
 # Verwenden von [!DNL Adobe Experience Platform]-Daten in Journeys {#datalookup}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Aktivität „Datensatzsuche“ zur Laufzeit dynamisch Daten aus Adobe Experience Platform-Datensätzen abrufen und Ihre Journey mit externen Daten anreichern können, um sie zu personalisieren und Entscheidungen zu treffen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"

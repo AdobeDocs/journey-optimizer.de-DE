@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1825
-ht-degree: 63%
+source-wordcount: 1854
+ht-degree: 62%
 
 ---
 
 # Zielgruppen-Qualifizierungsereignisse {#segment-qualification}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Zielgruppen-Qualifizierungsereignisse verwenden und konfigurieren können, um den Eintritt oder Fortschritt von Journey-Triggern zu verhindern, wenn sich Profile für eine Adobe Experience Platform-Zielgruppe qualifizieren oder diese verlassen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"

@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 94%
+source-wordcount: 816
+ht-degree: 91%
 
 ---
 
 # Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen {#passing-collection}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie einfache - und -Objektsammlungen in benutzerdefinierte Aktionsparameter übergeben, damit sie zur Laufzeit dynamisch aufgefüllt werden.
+
+>[!ENDSHADEBOX]
 
 Sie können eine Sammlung in Parametern benutzerdefinierter Aktionen übergeben, die zur Laufzeit dynamisch gefüllt wird.
 

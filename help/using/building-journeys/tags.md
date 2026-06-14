@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 41%
+source-wordcount: 670
+ht-degree: 39%
 
 ---
 
 # Verwalten von Tags in Journeys {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie Journey mit Tags und Tag-Kategorien organisieren können, damit Sie Ihre Journey einfacher klassifizieren, filtern und finden können als mit Namenskonventionen.
+
+>[!ENDSHADEBOX]
 
 Mit Journey Optimizer können Sie Ihre Journeys mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern.
 

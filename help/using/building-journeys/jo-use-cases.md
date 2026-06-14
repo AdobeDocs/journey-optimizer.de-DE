@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 73%
+source-wordcount: 1054
+ht-degree: 76%
 
 ---
 
 # Lernen durch Anwendungsfälle {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Hier finden Sie eine Bibliothek mit praktischen Adobe Journey Optimizer-Anwendungsfällen und End-to-End-Szenarien, die Sie beim Entwerfen von Journeys, Modellieren von Daten und Erstellen von Aktivierungslogik unterstützen.
+
+>[!ENDSHADEBOX]
 
 In diesem Abschnitt finden Sie eine Sammlung praktischer Anwendungsfälle, die Ihnen helfen, [!DNL Adobe Journey Optimizer] optimal zu nutzen. Unabhängig davon, ob Sie nach taktischen Mustern wie Unterdrückungslogik, Personalisierungstechniken oder Journey-Ausstiegsstrategien suchen oder nach kompletten End-to-End-Szenarien, die Marketing- und technische Workflows abdecken, finden Sie unten Links zu entsprechenden Beispielen.
 
@@ -56,7 +62,7 @@ Verwenden Sie diese Bibliothek als Referenzpunkt beim Entwerfen von Journeys, Mo
     <div>
     <a href="exp-event-lookup.md">
     <img alt="Best Practices für die Suche nach Erlebnisereignissen" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Erfahren Sie mehr über gängige Muster und skalierbare Ansätze, mit denen Sie das Meiste aus Erlebnisereignissen in [!DNL Adobe Journey Optimizer] machen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
+    <br>Erfahren Sie mehr über gängige Muster und skalierbare Ansätze, mit denen Sie das Meiste aus Erlebnisereignissen in [!DNL Adobe Journey Optimizer] machen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
     </div>
       <div>
      <a href="exp-event-lookup.md">Weitere Informationen</a></div>
@@ -169,18 +175,18 @@ Sehen Sie sich Video-Tutorials an, um die wichtigsten Schritte zum Erstellen der
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
-    <br/>
-      <strong>Kunden-Onboarding</strong><br/><p>Erfahren Sie, wie Sie in Journey Optimizer eine Kunden-Onboarding-Journey implementieren.</p> - <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Video zu Anwendungsfällen ansehen</a>
+    <br/>
+      <strong>Onboarding von Kundinnen und Kunden</strong><br/><p>Erfahren Sie, wie Sie in Journey Optimizer eine Kunden-Onboarding-Journey implementieren.</p> - <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Video zu Anwendungsfällen ansehen</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
-    <br/>
-      <strong>Transaktionsabbruch</strong><br/><p>Erfahren Sie, wie Sie den Anwendungsfall „Transaktionsabbruch“ mithilfe der Playbook-Funktion in [!DNL Adobe Journey Optimizer] implementieren.</p><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Video zu Anwendungsfällen ansehen</a>
+    <br/>
+      <strong>Abgebrochener Warenkorb</strong><br/><p>Erfahren Sie, wie Sie den Anwendungsfall „Transaktionsabbruch“ mithilfe der Playbook-Funktion in [!DNL Adobe Journey Optimizer] implementieren.</p><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Video zu Anwendungsfällen ansehen</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong>Erneute Interaktion</strong><br/><p>Erfahren Sie, wie Adobe den Anwendungsfall „Intelligente Wiederaufnahme der Interaktion“ für die Zusammenarbeit mit der Demo-Site von Luma angepasst hat. Er basiert auf der im Tutorial für Fachleute aus den Bereichen Datenarchitektur und Data Engineering und im Tutorial zu Experience Platform Web SDK dokumentierten Grundlagenimplementierung.</p><a href="https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">Videos zu Anwendungsfällen ansehen</a> 
+      <strong>Wiederaufnahme der Interaktion</strong><br/><p>Erfahren Sie, wie Adobe den Anwendungsfall „Intelligente Wiederaufnahme der Interaktion“ für die Zusammenarbeit mit der Demo-Site von Luma angepasst hat. Er basiert auf der im Tutorial für Fachleute aus den Bereichen Datenarchitektur und Data Engineering und im Tutorial zu Experience Platform Web SDK dokumentierten Grundlagenimplementierung.</p><a href="https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">Videos zu Anwendungsfällen ansehen</a> 
     </td>
   </tr>
   <tr style="border: 0;">
@@ -192,7 +198,7 @@ Sehen Sie sich Video-Tutorials an, um die wichtigsten Schritte zum Erstellen der
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>Angebote verfolgen und melden, die über Decisioning bereitgestellt werden</strong><br/><p>Reporting und Leistungsanalysen für Angebote aktivieren, die über [!DNL Adobe Journey Optimizer] bereitgestellt werden: Wenn Angebote anhand kontextueller Signale personalisiert und bereitgestellt werden, müssen sowohl Impressionen als auch Benutzerinteraktionen verfolgt werden, um ihre Effektivität zu bewerten.</p><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Schrittweises Tutorial befolgen</a> 
+      <strong>Angebote verfolgen und in Berichten erfassen, die über die Entscheidungsfindung bereitgestellt werden</strong><br/><p>Reporting und Leistungsanalysen für Angebote aktivieren, die über [!DNL Adobe Journey Optimizer] bereitgestellt werden: Wenn Angebote anhand kontextueller Signale personalisiert und bereitgestellt werden, müssen sowohl Impressionen als auch Benutzerinteraktionen verfolgt werden, um ihre Effektivität zu bewerten.</p><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Schrittweises Tutorial befolgen</a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">

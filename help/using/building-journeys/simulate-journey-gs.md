@@ -11,14 +11,20 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 3%
 
 ---
 
 # Erste Schritte mit der Journey-Simulation {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Journey-Simulation mit simulierten Benutzenden testen können und wie das Simulationserlebnis je nach Journey-Typ vor der Veröffentlichung variiert.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

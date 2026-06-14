@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
-ht-degree: 92%
+source-wordcount: 1700
+ht-degree: 91%
 
 ---
 
 # Arbeiten mit Journey-Eintritts- und -Ausstiegskriterien {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie anhand von realen Beispielen und Best Practices, wie Sie steuern können, wann Journey-Eintritts- und -Austrittskriterien in Ihre Journey eintreten und wann sie verlassen werden, und wie Sie diese konfigurieren.
+
+>[!ENDSHADEBOX]
 
 Damit Sie bei der Orchestrierung von Kundenerlebnissen die richtige Botschaft zur richtigen Zeit bereitstellen können, müssen Sie genau steuern können, wann Kundinnen und Kunden in Ihre Journey eintreten und aus dieser aussteigen. Das Verständnis und die richtige Konfiguration der Eintritts- und Ausstiegskriterien können den Unterschied zwischen einer erfolgreichen, ansprechenden Kampagne und verpassten Gelegenheiten oder der Nachrichtenermüdung ausmachen.
 

@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
-ht-degree: 85%
+source-wordcount: 501
+ht-degree: 80%
 
 ---
 
 # Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine E-Mail von einer Journey mithilfe der Integration mit Adobe Campaign v7 und v8 senden, einschließlich der Erstellung der Transaktionsvorlage, des Ereignisses und der Aktion.
+
+>[!ENDSHADEBOX]
 
 In diesem Anwendungsbeispiel werden alle Schritte erläutert, die zum Senden einer E-Mail mithilfe der Integration mit [!DNL Adobe Campaign] v7 und [!DNL Adobe Campaign] v8 erforderlich sind.
 

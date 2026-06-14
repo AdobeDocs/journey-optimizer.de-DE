@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 85%
+source-wordcount: 442
+ht-degree: 81%
 
 ---
 
 # Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit benutzerdefinierten Aktionen und authentifizierten API-Aufrufen benutzerdefinierte Journey-Ereignisse von Ihren Journey in Adobe Experience Platform schreiben.
+
+>[!ENDSHADEBOX]
 
 In diesem Anwendungsbeispiel wird erläutert, wie benutzerspezifische Ereignisse mithilfe von benutzerdefinierten Aktionen und authentifizierten Aufrufen von Journey in [!DNL Adobe Experience Platform] geschrieben werden.
 

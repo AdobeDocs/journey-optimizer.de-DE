@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 96%
+source-wordcount: 1030
+ht-degree: 93%
 
 ---
 
 # Journey-Typen und Auswahlrichtlinien {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie die vier Journey-Typen - Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung und Geschäftsereignis - vergleichen und das Entscheidungshandbuch und die Funktionskompatibilitätsmatrix verwenden können, um den richtigen für Ihren Anwendungsfall auszuwählen.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden. Dieser Leitfaden hilft Ihnen, die Unterschiede zu verstehen und den richtigen Typ für Ihren Anwendungsfall auszuwählen.
 
@@ -122,7 +128,7 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Journey-Typ für Ihren Anw
 
 >[!NOTE]
 >
->Sie wissen nicht genau, welchen Typ sie wählen sollen? Beginnen Sie mit **unitären Journeys** für ereignisbasierte Erlebnisse oder **Journeys des Typs „Zielgruppe lesen“** für geplante Kampagnen. Diese decken die häufigsten Anwendungsfälle ab.
+>Sie sind nicht sicher, welchen Typ Sie auswählen sollen? Beginnen Sie mit **unitären Journeys** für ereignisbasierte Erlebnisse oder **Journeys des Typs „Zielgruppe lesen“** für geplante Kampagnen. Diese decken die häufigsten Anwendungsfälle ab.
 
 ## Detailvergleich der Journey-Typen {#journey-types-comparison}
 

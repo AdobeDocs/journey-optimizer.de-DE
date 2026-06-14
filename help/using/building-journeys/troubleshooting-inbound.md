@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
-ht-degree: 95%
+source-wordcount: 1840
+ht-degree: 93%
 
 ---
 
 # Fehlerbehebung bei eingehenden Aktionen in Journeys {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie häufige Probleme mit eingehenden Aktionen - wie In-App-, Web- und Code-basierten Erlebnissen - in einer Journey debuggen und beheben, bevor Sie sich an den Support wenden.
+
+>[!ENDSHADEBOX]
 
 Eingehende Aktionen wie In-App-, Web- und Code-basierte Erlebnisse sind wichtige Komponenten von [!DNL Journey Optimizer], da sie während der Journey eine personalisierte Interaktion mit Benutzenden ermöglichen. Es kann jedoch zu unerwartetem Verhalten kommen, z. B. fehlende eingehende Inhalte oder die Fortsetzung des Versands nach dem Verlassen der Journey durch ein Profil.
 

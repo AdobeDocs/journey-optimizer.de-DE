@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
-ht-degree: 63%
+source-wordcount: 4186
+ht-degree: 62%
 
 ---
 
 # Festlegen der Journey-Eigenschaften {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie globale Eigenschaften einer Journey - einschließlich Name, Eintrittsregeln, Zeitzone, Start- und Enddatum, Zeitüberschreitung, Ausstiegskriterien und Konfliktmanagement - während des Verfassens über die rechte Leiste festlegen.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey zu konfigurieren, einschließlich Name, Eintrittsregeln, Zeitzone, Start- und Enddatum, Zeitüberschreitungsdauer, Ausstiegskriterien und Konfliktmanagement. Eigenschaften können in jeder Phase des Journey-Authorings über die rechte Leiste aufgerufen werden.
 
