@@ -188,6 +188,6 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
 
 ➡️ **In der Praxis:** Erfahren Sie in diesem Community[&#128279;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}Anwendungsfall, wie Sie tägliche Frequenzlimitierung in Adobe Journey Optimizer&quot; implementieren.
