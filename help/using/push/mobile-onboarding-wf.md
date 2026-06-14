@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 98%
+source-wordcount: 401
+ht-degree: 90%
 
 ---
 
 # Schnellstart-Workflow für Mobile-Onboarding {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem Schnellstart-Workflow für das Mobile-Onboarding die Adobe Experience Platform Mobile SDK schnell konfigurieren, Mobile-Ereignisdaten erfassen und validieren und Push-Benachrichtigungen senden können.
+
+>[!ENDSHADEBOX]
 
 Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist eine neue Produktfunktion, die dazu dient, das Mobile SDK schnell zu konfigurieren, mit dem Erfassen und Überprüfen von Mobile-Ereignisdaten zu beginnen und Push-Benachrichtigungen mit [!DNL Journey Optimizer] zu senden.
 

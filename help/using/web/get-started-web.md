@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit dem Web-Kanal {#get-started-web}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erste Schritte mit dem Web-Kanal in Adobe Journey Optimizer, um personalisierte Web-Erlebnisse für Ihre Kunden-Journey und -Kampagnen visuell zu erstellen und bereitzustellen.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht Ihnen, für Ihre Kundinnen und Kunden personalisierte Web-Erlebnisse visuell zu erstellen und bereitzustellen.
 

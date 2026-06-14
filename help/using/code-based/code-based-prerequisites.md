@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
-ht-degree: 97%
+source-wordcount: 832
+ht-degree: 95%
 
 ---
 
 # Voraussetzungen für Code-basierte Erlebnisse {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie die Voraussetzungen für Implementierung, Bereitstellung und Reporting, die erforderlich sind, um Code-basierte Erlebnisse für Ihre Apps und Web-Seiten bereitzustellen.
+
+>[!ENDSHADEBOX]
 
 Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 

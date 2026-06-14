@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
-ht-degree: 100%
+source-wordcount: 1273
+ht-degree: 97%
 
 ---
 
 # Verwenden bearbeitbarer Formularfelder in Code-basierten Erlebnissen {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie bearbeitbare Formularfelder zu Code-basierten Erlebnis-Inhaltsvorlagen hinzufügen können, damit Marketing-Experten Inhalte in Kampagnen und Journey anpassen können, ohne Code zu bearbeiten.
+
+>[!ENDSHADEBOX]
 
 Um sowohl die Flexibilität zu erhöhen als auch die Kontrolle über die Code-basierten Erlebnisse zu verbessern, ermöglicht [!DNL Journey Optimizer] Ihrem Entwicklungs-Team die Erstellung von JSON- oder HTML-Inhaltsvorlagen mit bestimmten vordefinierten bearbeitbaren Feldern.
 

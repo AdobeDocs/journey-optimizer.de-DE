@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 96%
+source-wordcount: 955
+ht-degree: 93%
 
 ---
 
 # Konfigurieren Ihrer Web-Erlebnisse {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie eine Web-Kanalkonfiguration in Adobe Journey Optimizer erstellen und entweder eine Einzelseiten-URL oder mehrere Seiten mit einer Matching-Regel für Seiten und den verfügbaren Operatoren ansprechen.
+
+>[!ENDSHADEBOX]
 
 ## Erstellen einer Web-Kanalkonfiguration {#create-web-configuration}
 
@@ -116,7 +122,7 @@ Beim Erstellen einer [Regel, die mehrere Seiten abgleicht](#web-page-matching-ru
   | Gleich  | Exakte Übereinstimmung mit der Domain.  | |
   | Beginnt mit  | Gleicht alle Domains (einschließlich Subdomains) ab, die mit der eingegebenen Zeichenfolge beginnen.  | Beispiel: „Beginnt mit: dev“-> gleicht alle Domains und Subdomains ab, die mit „dev“ beginnen, wie: dev.example.com, dev.products.example.com, developer.example.com  |
   | Endet mit  | Gleicht alle Domains ab (einschließlich Subdomains), die mit der eingegebenen Zeichenfolge enden.  | Beispiel: „Endet mit: example.com“-> gleicht alle Domains und Subdomains ab, die mit „example.com“ enden, wie: stage.example.com, prod.example.com, myexample.com  |
-  | Platzhalterabgleich  | Mit dem Operator „Platzhalterabgleich“ können Benutzende eine Platzhalterabgleichung in der Mitte der Zeichenfolge definieren, z. B. „dev.*.example.com“. Die Validierungsregeln bestehen darin, dass der Wert einen und nur einen Platzhalter (Sternchen) enthalten darf, wenn der Operator „Platzhalterabgleich“ ist.  | Beispiel: „Wildcard match: dev.*.example.com“ -> stimmt überein mit Domains wie: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
+  | Platzhalterabgleich  | Mit dem Operator „Platzhalterabgleich“ können Benutzende eine Platzhalterabgleichung in der Mitte der Zeichenfolge definieren, z. B. „dev.*.example.com“. Die Validierungsregeln lauten, dass der Wert genau einen Platzhalter (Sternchen) enthalten darf, wenn der Operator „Platzhalterabgleich“ ist.  | Beispiel: „Wildcard match: dev.*.example.com“ -> stimmt überein mit Domains wie: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
   | Beliebige  | Gleicht alle Domains ab: nützlich beim Domain-übergreifenden Testen eines bestimmten Pfads  |  |
 
 

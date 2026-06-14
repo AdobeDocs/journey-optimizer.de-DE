@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 92%
+source-wordcount: 856
+ht-degree: 89%
 
 ---
 
 # Datenfluss und Komponenten von Push-Benachrichtigungen {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über den Datenfluss von Push-Benachrichtigungen, die wichtigsten Services und Komponenten, die beteiligt sind, und wie Benachrichtigungen mit Adobe Journey Optimizer durchgängig bereitgestellt werden.
+
+>[!ENDSHADEBOX]
 
 Diese Seite hilft Ihnen, wichtige Services und Workflows einzurichten und zu verstehen, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind.
 

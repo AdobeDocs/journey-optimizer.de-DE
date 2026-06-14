@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
-ht-degree: 91%
+source-wordcount: 2210
+ht-degree: 89%
 
 ---
 
 # Konfigurieren des Push-Benachrichtigungskanals für Mobile Apps {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie den Push-Benachrichtigungskanal für Mobile Apps in Adobe Journey Optimizer konfigurieren, einschließlich Berechtigungen, Push-Anmeldeinformationen, Kanalkonfiguration und der Integration Ihrer Mobile App in Adobe Experience Platform Mobile SDK.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Journeys zu erstellen und Nachrichten an eine ausgewählte Zielgruppe zu senden. Bevor Sie mit dem Versand von Push-Benachrichtigungen über [!DNL Journey Optimizer] beginnen, müssen Sie sicherstellen, dass in der Mobile App und für Tags in Adobe Experience Platform Konfigurationen und Integrationen vorhanden sind. Informationen zum Datenfluss von Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] finden Sie auf [dieser Seite](push-gs.md).
 
@@ -114,7 +120,7 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
 
    >[!NOTE]
    >
-   >Wenn die Benutzerin bzw. der Benutzer nicht zuvor in der Admin Console erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzerinnen und Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Wenn der Benutzer vorher noch nicht in der Admin Console erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -182,7 +188,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
          >[!NOTE]
          >
-         > Es werden nur .p8-Apple-Push-Benachrichtigungsschlüssel unterstützt. Verwenden Sie ein anderes Apple-Entwicklerkonto, wenn Sie das Limit für .p8-Schlüssel erreicht haben.
+         > Es werden nur Push-Benachrichtigungsschlüssel für .p8 Apple unterstützt. Verwenden Sie ein anderes Apple-Entwicklerkonto, wenn Sie das Limit für .p8-Schlüssel erreicht haben.
          >Weitere Informationen zu Apple-Schlüsselbeschränkungen finden Sie in der [Apple-Entwicklerdokumentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 

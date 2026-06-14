@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 317
+ht-degree: 90%
 
 ---
 
 # Überwachen Ihrer Web-Erlebnisse {#monitor-web-experiences}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Ihre Live-Web-Erlebnisse in Adobe Journey Optimizer überwachen können, indem Sie die Web-Berichte überprüfen und das Klick-Tracking für bestimmte Seitenelemente einrichten.
+
+>[!ENDSHADEBOX]
 
 ## Überprüfen der Web-Berichte {#check-web-reports}
 

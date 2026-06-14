@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 77%
+source-wordcount: 1164
+ht-degree: 75%
 
 ---
 
 # Konfigurieren des Kanals für Web-Push-Benachrichtigungen {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie den Web-Push-Benachrichtigungskanal in Adobe Journey Optimizer konfigurieren, einschließlich Berechtigungen, Datensätzen, Push-Anmeldeinformationen, Kanalkonfiguration und Testen Ihres Setups.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Journeys zu erstellen und Nachrichten an eine ausgewählte Zielgruppe zu senden. Bevor Sie mit dem Versand von Web-Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie sicherstellen, dass in Adobe Experience Platform Konfigurationen und Integrationen vorhanden sind. Informationen zum Datenfluss von Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] finden Sie auf [dieser Seite](push-gs.md).
 
@@ -112,7 +118,7 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
 
    >[!NOTE]
    >
-   >Wenn die Benutzerin bzw. der Benutzer nicht zuvor in der Admin Console erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzerinnen und Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Wenn der Benutzer vorher noch nicht in der Admin Console erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 

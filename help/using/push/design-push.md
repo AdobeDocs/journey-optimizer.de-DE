@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 61%
 
 ---
 
 # Gestalten einer Push-Benachrichtigung {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Push-Benachrichtigungs-Inhalte für iOS, Android und das Web entwerfen, einschließlich Titel und Textkörper, Klickverhalten, Medien, Schaltflächen und erweiterten Optionen.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie eine Push-Benachrichtigung erstellt haben, können Sie ihren Inhalt für iOS, Android und Web-Plattformen entwerfen. Auf dieser Seite erfahren Sie, wie Sie Ihre Nachricht erstellen, das Klickverhalten konfigurieren, Medien und Schaltflächen hinzufügen und erweiterte Optionen festlegen, um ansprechende Push-Benachrichtigungen zu erstellen, die Ihre Audience ansprechen.
 

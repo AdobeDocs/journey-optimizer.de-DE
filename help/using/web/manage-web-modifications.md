@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 100%
+source-wordcount: 1009
+ht-degree: 96%
 
 ---
 
 # Verwalten von Web-Änderungen {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Änderungen, die auf Ihre Web-Seite im Bereich Änderungen angewendet wurden, überprüfen, löschen und rückgängig machen können und wie Sie CSS-Selektor- und Seitenkopf-Änderungen direkt in Adobe Journey Optimizer hinzufügen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -198,7 +204,7 @@ Jede Änderung erstellt ein neues Element im Bedienfeld **[!UICONTROL Änderunge
 
 +++
 
-+++ **Gehen Sie vorsichtig vor, wenn Sie den Änderungstyp**[!UICONTROL  Seite `<head>`]**für zwei Kampagnen verwenden, die Auswirkungen auf dieselbe URL haben.**
++++ **Gehen Sie vorsichtig vor, wenn Sie den Änderungstyp**&#x200B;[!UICONTROL &#x200B; Seite `<head>`]&#x200B;**für zwei Kampagnen verwenden, die Auswirkungen auf dieselbe URL haben.**
 
 Wenn Sie den Änderungstyp **[!UICONTROL Seite`<head>`]** für zwei Kampagnen verwenden, die Auswirkungen auf dieselbe URL haben, wird das JavaScript von beiden Kampagnen in die Seite eingefügt. [!DNL Journey Optimizer] bestimmt automatisch die Reihenfolge der bereitgestellten Inhalte. Stellen Sie sicher, dass der Code nicht von der Platzierung abhängig ist. Es obliegt Ihnen, sicherzustellen, dass keine Konflikte im Code vorhanden sind.
 
