@@ -278,7 +278,7 @@ Anfragetext (`expressActivation: true` festgelegt):
 >
 >`expressActivation` Standardwert ist `false`. Sie muss zur Erstellungszeit der Zielgruppe festgelegt werden und kann nach der Erstellung nicht mehr geändert werden. Für alle Zielgruppenkomposition-Zielgruppen ist die Express-Aktivierung standardmäßig aktiviert und dieses Flag ist nicht erforderlich.
 
-Die vollständige Referenz finden [&#x200B; in der Dokumentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} Erstellen einer externen Zielgruppen-API .
+Die vollständige Referenz finden [&#x200B; in der Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} Erstellen einer externen Zielgruppen-API .
 
 +++
 
