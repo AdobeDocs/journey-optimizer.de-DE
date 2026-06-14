@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 92%
+source-wordcount: 584
+ht-degree: 86%
 
 ---
 
 # Einschränkungen {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie die Einschränkungen und Leitplanken für Journey, einschließlich Aktionen, Versionen, benutzerdefinierten Aktionen, Ereignissen und Datenquellen.
+
+>[!ENDSHADEBOX]
 
 Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
@@ -43,7 +49,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
-* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;. 
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit &quot;.“ oder &quot;$&quot; beginnen. 
 * IP-Adressen sind nicht zulässig. 
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
 

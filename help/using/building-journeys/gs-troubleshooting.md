@@ -12,30 +12,26 @@ keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2DTpTGcdmuFoajmHTUKGLK8zN2nfQp98tTc3FWtfI80
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 92%
+source-wordcount: 255
+ht-degree: 89%
 
 ---
 
 # Fehlerbehebung bei Journeys {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** finden Sie nach allgemeinen Problembereichen geordnete Ressourcen zur Fehlerbehebung, mit denen Sie Journey-Fehler, Ausführungsinkonsistenzen, Probleme mit eingehenden Aktionen und Probleme mit benutzerdefinierten Aktionen diagnostizieren und beheben können.
+
+>[!ENDSHADEBOX]
 
 Wenn sich eine Customer Journey nicht wie erwartet verhält, kann es schwierig sein, die zugrunde liegende Ursache zu ermitteln. Damit Sie Probleme effizient beheben können, finden Sie im Folgenden Ressourcen zur Fehlerbehebung in den häufigsten Problembereichen. Unabhängig davon, ob Sie Journey-Fehler, Ausführungsinkonsistenzen oder Probleme auf Aktionsebene sehen, bietet jeder Abschnitt eine gezielte Anleitung zur Untersuchung und Lösung dieser Probleme.
 
@@ -75,9 +71,9 @@ Auf den folgenden Seiten erfahren Sie mehr über bestimmte Fehlerbehebungsthemen
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Informationen zu häufigen Fehler-Codes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Sehen Sie sich außerdem <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de" target="_blank">diesen Blogpost der Adobe-Community</a> an, der <strong>allgemeine Fehlercodes</strong> und wie Sie sie effektiv beheben können.
+    <br>Sehen Sie sich außerdem <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">diesen Blog-Beitrag der Adobe-Community</a> zu <strong>allgemeinen Fehler-Codes</strong> und deren effektiver Behebung an.
     </div>
   </td>
 </tr>
