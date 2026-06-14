@@ -10,28 +10,26 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 78%
+source-wordcount: 2111
+ht-degree: 77%
 
 ---
 
 # Verwenden von Formularen in Ihren Landingpages {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Formulare erstellen und in Landingpages zur Datenerfassung einbetten, um Profilattribute von Besuchern zu erfassen und die Übermittlungen in Ihre Experience Platform-Datensätze zu schreiben.
+
+>[!ENDSHADEBOX]
 
 Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen. Eine Übersicht über Datenerfassungsszenarien und -anforderungen finden Sie unter [Datenerfassung mit Landingpages](get-started-lp.md#data-capture-lp).
 
@@ -88,7 +86,7 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
@@ -356,7 +354,7 @@ Ja. Wählen Sie **[!UICONTROL Abschnitt]** Feldverhalten“ der Konfiguration ei
 
 +++Wohin gehen die Formulardaten, nachdem ein Benutzer das Formular gesendet hat?
 
-Wenn das Formular übermittelt wird, werden Daten an die **Streaming-Verbindung** gesendet, die in der Formularvorgabe definiert ist. Sie wird dann über einen automatisch generierten Quellfluss, der **, Transformation und Validierung verarbeitet, in den verknüpften**&#x200B;[!DNL Experience Platform]-Datensatz übertragen.
+Wenn das Formular übermittelt wird, werden Daten an die **Streaming-Verbindung** gesendet, die in der Formularvorgabe definiert ist. Sie wird dann über einen automatisch generierten Quellfluss, der **, Transformation und Validierung verarbeitet, in den verknüpften**[!DNL Experience Platform]-Datensatz übertragen.
 
 +++
 

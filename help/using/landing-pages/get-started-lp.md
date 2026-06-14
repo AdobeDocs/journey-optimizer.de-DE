@@ -10,29 +10,26 @@ level: Beginner
 keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit Landingpages {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Landingpages wandeln einen Klick aus einer E-Mail, Anzeige oder Kampagne in ein dediziertes Web-Ziel um, an dem sich Kundinnen und Kunden anmelden oder abmelden, ihre Voreinstellungen verwalten und Profildaten freigeben - so können Sie einverstandene Zielgruppen erweitern und die Erstanbieter-Daten erfassen, die der Personalisierung dienen.
+
+>[!ENDSHADEBOX]
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er auf eine E-Mail, eine Website, eine Anzeige oder einen anderen digitalen Ort geklickt hat.
 
@@ -75,7 +72,7 @@ Im Folgenden finden Sie Beispiele für Anwendungsfälle:
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Erstellen von Landingpages</strong>
+<div><a href="create-lp.md"><strong>Landingpages erstellen</strong>
 </div>
 <p>
 </td>
@@ -129,6 +126,6 @@ Das Erstellen und Bereitstellen einer Landingpage folgt dieser Reihenfolge:
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages zum Opt-in oder Opt-out für einen Service einrichten, die Optionen zum Opt-in oder Opt-out in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **In der Praxis:** Unter [Anwendungsfälle für Landingpages](lp-use-cases.md) finden Sie schrittweise Beispiele für die Abonnementverwaltung, Bestätigungs-E-Mails und Datenerfassungsszenarien.

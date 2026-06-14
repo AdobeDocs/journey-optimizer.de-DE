@@ -10,29 +10,26 @@ level: Beginner
 keywords: Landing, Landingpage, Design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 TQID: https://experienceleague.adobe.com/r5bRBvFpObXc35G2H8a-WwoTXnyZ6--MEYzk7ooUpsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 88%
+source-wordcount: 280
+ht-degree: 77%
 
 ---
 
 # Erstellen der Landingpage-Inhalte {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Entdecken Sie, wie Sie Ihre Landingpage-Inhalte im Content Designer gestalten können - von Grund auf mit dem KI-Assistenten, mit Ihrer eigenen HTML oder aus einer gespeicherten Vorlage - für ein markeninternes Besuchererlebnis.
+
+>[!ENDSHADEBOX]
 
 Um Inhalte für die [Primärseite](create-lp.md#configure-primary-page) oder [Unterseite](create-lp.md#configure-subpages) Ihrer Landingpage zu erstellen, bewegen Sie den Mauszeiger über die Seiteninhalte und klicken Sie auf **[!UICONTROL Designer öffnen]**. Sie können auch in der rechten Palette auf die entsprechende Schaltfläche klicken.
 
