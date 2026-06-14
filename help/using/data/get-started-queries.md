@@ -25,14 +25,20 @@ subfeature_v2:
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 100%
+source-wordcount: 161
+ht-degree: 77%
 
 ---
 
 # Erste Schritte mit Abfragen {#queries-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verwenden Sie den Abfrage-Editor von Adobe Experience Platform Query Service, damit Sie Abfragen zu Ihren Kundenerlebnisdaten für die Analyse und Datenexploration in Adobe Journey Optimizer schreiben, validieren und ausführen können.
+
+>[!ENDSHADEBOX]
 
 Der Abfrage-Editor ist ein interaktives Tool des Abfrage-Service von Adobe Experience Platform, mit dem Sie in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche Abfragen für Kundenerlebnisdaten schreiben, validieren und ausführen können.
 

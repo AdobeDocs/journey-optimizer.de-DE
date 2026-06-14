@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
-ht-degree: 100%
+source-wordcount: 792
+ht-degree: 96%
 
 ---
 
 # Verwalten von Benutzenden und Rollen {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Im Produkt „Berechtigungen“ können Sie Rollen zuweisen, bearbeiten und erstellen, sodass Sie jedem Benutzer genau den Zugriff gewähren, den er für seine Arbeit in Journey Optimizer benötigt.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Rollen]** beziehen sich auf eine Sammlung von Benutzenden mit denselben Berechtigungen und Sandboxes. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen in Ihrer Organisation einfach verwalten.
 

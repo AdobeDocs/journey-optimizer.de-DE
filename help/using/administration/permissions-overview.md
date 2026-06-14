@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 100%
+source-wordcount: 416
+ht-degree: 87%
 
 ---
 
 # Erste Schritte mit der Zugriffssteuerung {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Machen Sie sich mit den grundlegenden Konzepten der Zugriffssteuerung in Journey Optimizer vertraut, einschließlich Rollen, Berechtigungen, Sandboxes und objektbasierter und attributbasierter Zugriffssteuerung, damit Sie planen können, wie Sie Benutzenden den richtigen Zugriff gewähren.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht die Definition und Verwaltung von Berechtigungen, die den verschiedenen Benutzenden erteilt werden können. Berechtigungen sind eine Reihe an Rechten und Einschränkungen, die den Zugriff auf produktinterne Funktionen zulassen oder verweigern.
 
@@ -54,8 +60,8 @@ Zum Konfigurieren der Zugriffssteuerung für Journey Optimizer werden system- od
 
 Die Verwaltung von Benutzenden in [!DNL Journey Optimizer] basiert auf drei Schlüsselkonzepten:
 
-* **[!UICONTROL Rollen]**: Rollen beziehen sich auf eine Sammlung von Benutzenden mit denselben Berechtigungen und Sandboxes. Mit diesen Rollen können der Zugriff und die Berechtigungen für verschiedene Gruppen von Benutzenden in Ihrer Organisation einfach verwaltet werden. Rollen sind ein Satz von Einzelrechten (Berechtigungen), die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen.
-In [!DNL Journey Optimizer] besteht die Möglichkeit, aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** zu wählen, die über jeweils unterschiedliche Berechtigungen verfügen und die Benutzenden zugewiesen werden können. Weitere Informationen zu den verfügbaren **integrierten Rollen** befinden sich auf [dieser Seite](ootb-product-profiles.md).
+* **[!UICONTROL Rollen]**: Rollen beziehen sich auf eine Sammlung von Benutzern, die dieselben Berechtigungen und Sandboxes verwenden. Mit diesen Rollen können Sie den Zugriff und die Berechtigungen für verschiedene Benutzergruppen innerhalb Ihrer Organisation einfach verwalten. Eine Rolle verfügt über eine Reihe von Einzelrechten (Berechtigungen), die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen.
+Mit [!DNL Journey Optimizer] können Sie aus einer Reihe bereits vorhandener **[!UICONTROL Rollen]** mit unterschiedlichen Berechtigungsebenen auswählen, die Sie Ihren Benutzenden zuweisen können. Weitere Informationen zu den verfügbaren **integrierten Rollen** finden Sie auf [dieser Seite](ootb-product-profiles.md).
 
 * **[!UICONTROL Berechtigungen]**: Berechtigungen sind Einzelrechte, mit denen die Autorisierungen definiert werden können, die **[!UICONTROL Rollen]** zugewiesen sind. Jede Berechtigung wird unter bestimmten Ressourcen erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](high-low-permissions.md).
 

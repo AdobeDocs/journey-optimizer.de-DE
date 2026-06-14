@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 2612
-ht-degree: 100%
+source-wordcount: 2652
+ht-degree: 98%
 
 ---
 
 # Erste Schritte mit Daten-Management {#about-data}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Verschaffen Sie sich einen praktischen Überblick darüber, wie Daten in und aus Adobe Journey Optimizer fließen und Schemata, Datensätze, Identitäten, Profile und Datenquellen abdecken. So kann Ihr Team die Schritte zur Datenbereitschaft abschließen, bevor Sie Journey und Kampagnen erstellen.
+
+>[!ENDSHADEBOX]
 
 Daten sind die Grundlage für jede Journey, Entscheidung und Nachricht, die Sie mit [!DNL Adobe Journey Optimizer] versenden.
 
@@ -226,7 +232,7 @@ Das folgende Beispiel zeigt, wie die Konzepte auf dieser Seite in einem einfache
 1. [Profilaktivierte Datensätze](get-started-datasets.md) werden für jedes Schema erstellt: einer für CRM-Attribute und einer für Anmeldungsereignisse.
 1. Web- und Mobile-Teams streamen Anmeldungsereignisse über Adobe Experience Platform Web SDK. CRM-Daten werden über einen [Quell-Connector](../start/get-started-sources.md) aufgenommen.
 1. Eine bzw. ein Admin konfiguriert die [Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) in Journey Optimizer und macht Felder wie `profile.person.name.firstName`, `profile.personalEmail.address` und `profile.loyaltyTier` verfügbar.
-1. Eine Marketing-Fachkraft [erstellt eine Begrüßungs-Journey](../building-journeys/journey-gs.md), die auf ein Anmeldungsereignis wartet und diese Profilattribute verwendet, um [ Begrüßungs-E-Mails zu personalisieren](../personalization/personalize.md). Journey Optimizer schreibt Versand- und Öffnungsereignisse in Tracking-Datensätze und protokolliert den Journey-Fortschritt in Journey-Schrittereignisdatensätzen.
+1. Eine Marketing-Fachkraft [erstellt eine Begrüßungs-Journey](../building-journeys/journey-gs.md), die auf ein Anmeldungsereignis wartet und diese Profilattribute verwendet, um [&#x200B; Begrüßungs-E-Mails zu personalisieren](../personalization/personalize.md). Journey Optimizer schreibt Versand- und Öffnungsereignisse in Tracking-Datensätze und protokolliert den Journey-Fortschritt in Journey-Schrittereignisdatensätzen.
 1. Eine Entwicklerin bzw. ein Entwickler verwendet den [Abfrage-Editor](get-started-queries.md), um zu überprüfen, ob Ereignisse ordnungsgemäß funktionieren, und analysieren die Leistung (Öffnungen, Klicks, Versandzeit). Basierend auf diesen Erkenntnissen passt das Team die Journey und den Inhalt an.
 
 Dieser Fluss veranschaulicht, wie Schemata, Datensätze, Quellen, Datenquellen und Abfragen in einem vollständigen, anfängerfreundlichen Anwendungsfall zusammenarbeiten.

@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 91%
+source-wordcount: 1152
+ht-degree: 89%
 
 ---
 
 # Beispiele für Abfragen {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erkunden Sie einsatzbereite SQL-Abfragebeispiele für Journey Optimizer-Systemdatensätze, damit Sie E-Mail- und Push-Tracking, Nachrichten-Feedback, Journey-Schritte und Entscheidungsdaten für die Berichterstellung und Fehlerbehebung analysieren können.
+
+>[!ENDSHADEBOX]
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 

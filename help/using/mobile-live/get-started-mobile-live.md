@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # Erste Schritte mit Live-Aktivitäten {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Live-Aktivitäten dauerhafte Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island bereitstellen, damit Sie die Benutzerinnen und Benutzer bei laufenden Ereignissen aktiv halten und die Konfiguration und API-ausgelösten Kampagnen planen können, die zum Senden mit Adobe Journey Optimizer erforderlich sind.
+
+>[!ENDSHADEBOX]
 
 Live-Aktivitäten sind andauernde, übersichtliche Benutzeroberflächenelemente, die auf dem Sperrbildschirm des Geräts angezeigt werden. Sie ermöglichen es Ihrer App, aktuelle Informationen in Echtzeit zu liefern, und halten Benutzenden während eines stattfindenden Ereignisses auf dem Laufenden, ohne dass sie die App öffnen oder wiederholte Push-Benachrichtigungen erhalten müssen.
 

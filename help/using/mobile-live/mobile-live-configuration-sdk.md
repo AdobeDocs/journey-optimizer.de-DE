@@ -24,15 +24,20 @@ subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 65%
+source-wordcount: 579
+ht-degree: 61%
 
 ---
 
 # Live-Aktivitätsintegration mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Integrieren Sie den Adobe Experience Platform Mobile SDK in Ihre iOS-App, damit er Live-Aktivitätsaktualisierungen in Echtzeit auf dem Sperrbildschirm und auf Dynamic Island registrieren, anzeigen und empfangen kann.
+
+>[!ENDSHADEBOX]
 
 Das Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live-Aktivitäten von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
 

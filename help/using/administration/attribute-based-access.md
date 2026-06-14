@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 100%
+source-wordcount: 1112
+ht-degree: 96%
 
 ---
 
 # Attributbasierte Zugriffssteuerung {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Verwenden Sie die attributbasierte Zugriffssteuerung in Adobe Journey Optimizer, um vertrauliche Schemafelder, Profilattribute und Zielgruppen auf autorisierte Rollen zu beschränken, damit Sie personenbezogene Daten schützen und nicht autorisierte Benutzende daran hindern können, sie zu bearbeiten.
+
+>[!ENDSHADEBOX]
 
 Mit der Funktion der attributbasierten Zugriffssteuerung können Berechtigungen definiert werden, um den Datenzugriff für bestimmte Teams oder Gruppen von Benutzenden zu verwalten. Dies dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
@@ -54,7 +60,7 @@ Beachten Sie, dass der Zugriff auf **[!UICONTROL Rollen]**, **[!UICONTROL Richtl
 
 >[!IMPORTANT]
 >
->>Vor dem Verwalten von Berechtigungen für eine Rolle muss eine Richtlinie erstellt werden. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
+>&#x200B;>Vor dem Verwalten von Berechtigungen für eine Rolle muss eine Richtlinie erstellt werden. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
 
 **[!UICONTROL Rollen]** sind eine Gruppe von Benutzenden, die innerhalb Ihrer Organisation dieselben Berechtigungen, Labels und Sandboxes verwenden. Alle Benutzenden, die einer **[!UICONTROL Rolle]** angehören, haben die Berechtigung für die Adobe-Anwendungen und -Dienste, die im Produkt enthalten sind. Eigene **[!UICONTROL Rollen]** können erstellt werden, wenn der Zugriff der Benutzenden auf bestimmte Funktionen oder Objekte in der Oberfläche präziser definiert werden soll.
 

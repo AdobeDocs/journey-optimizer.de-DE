@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # Erste Schritte mit Schemata {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Adobe Experience Platform-Standard- und relationale Schemata die Datenstruktur definieren, damit Sie Profile, Verhaltensereignisse und relationale Entitäten für die Personalisierung und die Orchestrierung von Kampagnen in Adobe Journey Optimizer modellieren können.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] nutzt **Adobe Experience Platform-Schemata** zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Ein Schema bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legt dar, welche Daten in den einzelnen Instanzen dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.). Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem **XDM-Schema** strukturiert.
 

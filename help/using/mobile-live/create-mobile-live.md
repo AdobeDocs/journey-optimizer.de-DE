@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 69%
+source-wordcount: 447
+ht-degree: 65%
 
 ---
 
 # Erstellen einer Live-Aktivität {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erstellen Sie eine API-ausgelöste Kampagne in Journey Optimizer, damit Sie Live-Aktivitäten für einzelne Benutzer oder Zielgruppen remote starten, aktualisieren und beenden können.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Platform Mobile SDK implementiert haben, können Sie mit der Erstellung Ihrer Live-Aktivität in Journey Optimizer beginnen:
 
