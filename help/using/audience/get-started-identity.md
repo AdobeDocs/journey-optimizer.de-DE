@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 98%
+source-wordcount: 256
+ht-degree: 87%
 
 ---
 
 # Erste Schritte mit Identitäten {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Kundenkennungen durchsuchen und Identitätsdiagramme in Adobe Journey Optimizer erkunden, einschließlich der Kombination von Identitäts-Namespaces und Werten zur Identifizierung jedes Kunden.
+
+>[!ENDSHADEBOX]
 
 Bei einer Identität handelt es sich um Daten, die für eine Entität eindeutig sind. Im Normalfall ist dies ein echtes Objekt wie eine einzelne Person, ein Hardware-Gerät oder ein Webbrowser. Eine vollqualifizierte Identität besteht aus zwei Elementen:
 

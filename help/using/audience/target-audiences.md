@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 94%
+source-wordcount: 841
+ht-degree: 90%
 
 ---
 
 # Zielgruppenaktivierung in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen in Adobe Journey Optimizer-Kampagnen und -Journey ansprechen können, einschließlich Aktivierungsverzögerungen und der Leitplanken für verschiedene Zielgruppentypen.
+
+>[!ENDSHADEBOX]
 
 Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die mithilfe von Segmentdefinitionen, einem benutzerdefinierten Upload, Kompositions-Workflows oder der Komposition föderierter Zielgruppen generiert wurde.
 

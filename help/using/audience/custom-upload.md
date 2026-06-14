@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 89%
+source-wordcount: 177
+ht-degree: 75%
 
 ---
 
 # Benutzerdefinierter Upload {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Zielgruppe mithilfe des Adobe Experience Platform-Zielgruppenportals aus einer CSV-Datei importieren und ihr Identitätsattribut Kundenprofilen zuordnen.
+
+>[!ENDSHADEBOX]
 
 Das Adobe Experience Platform-Zielgruppenportal ermöglicht den Import einer Zielgruppe mithilfe einer CSV-Datei.
 

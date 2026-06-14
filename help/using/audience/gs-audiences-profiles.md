@@ -14,15 +14,21 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 31%
+source-wordcount: 187
+ht-degree: 26%
 
 ---
 
 
 # Erste Schritte mit Profilen und Zielgruppen {#gs-profiles-audiences}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Verschaffen Sie sich einen Überblick darüber, wie Sie in Adobe Journey Optimizer mit Echtzeit-Kundenprofilen und -Zielgruppen arbeiten, um personalisierte Kundenerlebnisse bereitzustellen.
+
+>[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Marken Echtzeit-Kundenprofile und Zielgruppen erstellen und verwalten, um personalisierte Kundenerlebnisse bereitzustellen. &#x200B; Dieser Überblick bietet allgemeine Informationen zum Arbeiten mit Profilen und Audiences in Journey Optimizer. Ausführliche Informationen finden Sie in den Abschnitten zu Profilen und Zielgruppen.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 96%
+source-wordcount: 1092
+ht-degree: 91%
 
 ---
 
 # Erste Schritte mit der Zielgruppenkomposition {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Zielgruppenkomposition bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und Aktivitäten wie Aufspaltung, Ausschluss, Anreicherung und Rangfolge anwenden können, um neue Zielgruppen zu erstellen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -124,7 +130,7 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss …) nutzen können um neue Zielgruppen zu erstellen.
 
-Nach Abschluss werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Kampagnen und Journeys von Journey Optimizer genutzt werden, um Kundinnen und Kunden anzusprechen. Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen
+Nach Abschluss des Vorgangs **die** Zielgruppen zusammen mit bestehenden Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen und Journey-Kampagnen genutzt werden, um Kunden anzusprechen. Erfahren Sie, wie Sie Zielgruppen in Journey Optimizer ansprechen
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

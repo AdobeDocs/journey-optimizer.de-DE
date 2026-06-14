@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 95%
+source-wordcount: 595
+ht-degree: 90%
 
 ---
 
 # Verwenden von Zielgruppenanreicherungsattributen {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit Zielgruppenanreicherungsattributen aus Kompositions-Workflows, benutzerdefinierten Uploads und der Federated Audience-Komposition Journey-Pfade erstellen und Nachrichten in Adobe Journey Optimizer personalisieren können.
+
+>[!ENDSHADEBOX]
 
 Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer benutzerdefinierten Zielgruppe (CSV-Datei) oder der Komposition föderierter Zielgruppen generiert wurde, können Sie Anreicherungsattribute dieser Zielgruppe verwenden, um Ihre Journey zu erstellen und Nachrichten zu personalisieren.
 
