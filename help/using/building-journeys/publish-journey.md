@@ -176,4 +176,4 @@ Wenn für Ihren Journey eine Genehmigungsrichtlinie gilt, müssen Sie vor der Ve
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427932?captions=ger&quality=12)
