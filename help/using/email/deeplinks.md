@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 1%
 
 # Verwenden und Konfigurieren von Deep-Links in E-Mails und SMS {#deeplinks}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Deep-Links in E-Mail- und SMS-Inhalten erstellen, in Adobe Journey Optimizer konfigurieren und die getrackten Links in Ihren iOS- und Android-Apps verarbeiten können, damit die Empfängerinnen und Empfänger auf dem rechten In-App-Bildschirm landen.
+
+>[!ENDSHADEBOX]
+
 Deep-Links helfen Ihnen, Empfänger von einer E-Mail oder SMS-Nachricht zu einem bestimmten Bildschirm oder Inhalt in Ihrer Mobile App zu führen. Dadurch können Benutzer direkt zum gewünschten In-App-Erlebnis gelangen, ohne sie über einen Webbrowser oder einen App Store weiterzuleiten, sodass der Journey relevant und markenintern bleibt.
 
 Wenn Ihre Empfänger auf den Deep-Link klicken, werden sie direkt zum gewünschten In-App-Inhalt weitergeleitet - **vorausgesetzt, Sie haben Folgendes abgeschlossen**:
 
 * die [Konfigurationsschritte](#configuration) in Journey Optimizer;
 
-* Die [Implementierung von Mobile &#x200B;](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
+* Die [Implementierung von Mobile ](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
 
 >[!NOTE]
 >
@@ -42,7 +48,7 @@ Wenn Ihre Empfänger auf den Deep-Link klicken, werden sie direkt zum gewünscht
 
 Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deep-Link einzufügen:
 
-* **E-Mail an Designer**: Stellen Sie sicher[&#x200B; dass das Linktracking aktiviert &#x200B;](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deep-Link-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
+* **E-Mail an Designer**: Stellen Sie sicher[ dass das Linktracking aktiviert ](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deep-Link-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
 
 * **Personalization-Editor (Code)**: Fügen Sie den Deep-Link mithilfe des folgenden Ausschnitts direkt in HTML ein:
 
@@ -57,7 +63,7 @@ Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deep-Link einzufüg
 
 ### SMS {#authoring-sms}
 
-Für SMS werden Deep-Links mit der Hilfsfunktion [URL](../personalization/functions/helpers.md#url) im Personalisierungseditor erstellt. In (diesem Abschnitt) erfahren Sie[&#x200B; wie Sie Links zu SMS-Inhalten &#x200B;](../mobile/design-mobile.md#sms-content).
+Für SMS werden Deep-Links mit der Hilfsfunktion [URL](../personalization/functions/helpers.md#url) im Personalisierungseditor erstellt. In (diesem Abschnitt) erfahren Sie[ wie Sie Links zu SMS-Inhalten ](../mobile/design-mobile.md#sms-content).
 
 Verwenden Sie die folgende Syntax, um Deep-Links in SMS-Inhalte einzufügen:
 
@@ -79,7 +85,7 @@ Um Deep-Links in E-Mails und SMS für Ihre Mobile Apps verwenden zu können, fü
 
 1. Delegieren Sie in Journey Optimizer die Subdomain, für die Deep-Linking aktiviert ist. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die [&#128279;](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von Adobe oder Ihren Adobe-Support-Mitarbeiter:
+1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die ](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von [Adobe oder Ihren Adobe-Support-Mitarbeiter:
 
    * **Für iOS (AASA)**:
       * Delegierte Subdomain
@@ -174,7 +180,7 @@ In diesem Abschnitt finden Sie allgemeine Implementierungsmuster für Deep-Links
 
 >[!IMPORTANT]
 >
->Die App muss eine **GET** für die `mclick`-URL durchführen und die **`Location`**-Kopfzeile lesen und dann basierend auf der **endgültigen**-URL weiterleiten.
+>Die App muss einen **GET** für die `mclick`-URL durchführen und die **`Location`**-Kopfzeile lesen und dann basierend auf der **endgültigen**-URL weiterleiten.
 >
 >Öffnen Sie nicht einfach die `mclick`-URL in Safari. Das widerspricht dem Zweck der Deep-Linking.
 
@@ -336,7 +342,7 @@ Sie können ein benutzerdefiniertes URL-Schema verwenden (z. B. `appname://path`
 
 +++ Sind UTM-Parameter für die URL in der Mobile App für Analysen verfügbar?
 
-Ja. UTM-Parameter, die Sie in [!DNL Journey Optimizer] konfigurieren, sind in der endgültigen URL enthalten, die im `Location`-Header zurückgegeben wird, wenn Ihre App eine GET auf der `mclick` URL durchführt, sodass Sie sie für In-App-Analysen verwenden können.
+Ja. UTM-Parameter, die Sie in [!DNL Journey Optimizer] konfigurieren, werden in die endgültige URL aufgenommen, die im `Location`-Header zurückgegeben wird, wenn Ihre App einen GET-Vorgang für die `mclick`-URL durchführt, sodass Sie sie für In-App-Analysen verwenden können.
 
 +++
 

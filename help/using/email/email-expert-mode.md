@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # E-Mail-Inhalte mit dem erweiterten HTML-Editor bearbeiten {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem erweiterten HTML-Editor in der E-Mail-Designer die HTML-Rohquelle Ihres E-Mail-Inhalts anzeigen und bearbeiten können, einschließlich der zu beachtenden Leitplanken und wie Sie zur visuellen Ansicht zurückkehren können, um eine Vorschau anzuzeigen und zu speichern.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -51,7 +57,7 @@ Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre HTML
 
 1. Öffnen Sie die E-Mail oder Vorlage, die Sie in der E-Mail-Designer bearbeiten möchten, z. B. [E-Mail erstellen oder bearbeiten](create-email.md) von einer Journey oder Kampagne oder öffnen Sie eine [E-Mail-Inhaltsvorlage](../content-management/create-content-templates.md) und bearbeiten Sie deren Textkörper in der [E-Mail-Designer](get-started-email-design.md).
 
-1. Klicken Sie oben rechts **Bildschirm auf die Schaltfläche** HTML.
+1. Klicken Sie oben rechts ]**Bildschirm auf die Schaltfläche**[!UICONTROL  HTML.
 
    ![Position der Schaltfläche HTML in der E-Mail-Symbolleiste von Designer](assets/email-template-expert-mode-button.png)
 
