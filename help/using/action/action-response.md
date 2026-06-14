@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 843
-ht-degree: 75%
+source-wordcount: 874
+ht-degree: 72%
 
 ---
 
 # Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen {#custom-action-enhancements}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfassen Sie die Antwort-Payload, die vom API-Aufruf einer benutzerdefinierten Aktion zurückgegeben wird, damit Sie Journey orchestrieren, Nachrichten personalisieren und Fehler basierend auf Daten aus dem externen System verarbeiten können.
+
+>[!ENDSHADEBOX]
 
 API-Aufrufantworten können in benutzerdefinierten Aktionen genutzt und Journeys basierend auf diesen Antworten orchestriert werden.
 

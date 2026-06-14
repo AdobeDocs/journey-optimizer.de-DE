@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 100%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Wenden Sie die Adobe Experience Platform-Einverständnisrichtlinien in Journey Optimizer an, damit Ihre Nachrichten die Einverständnisentscheidungen jedes Kunden respektieren und die Datennutzungsregeln einhalten.
+
+>[!ENDSHADEBOX]
 
 Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"} konform sind. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 86%
+source-wordcount: 911
+ht-degree: 87%
 
 ---
 
 # Verwalten der Voreinstellungen von Kundinnen und Kunden {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Notieren und berücksichtigen Sie die Kanal- und Themenvoreinstellungen Ihrer Kunden durch Einverständnisrichtlinien, sodass Sie nur die Personen ansprechen, die von Ihnen hören möchten.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +49,7 @@ ht-degree: 86%
 
 In einem modernen Ökosystem der Marketing-Automatisierung interagieren Marken mit Kundinnen und Kunden über verschiedene Touchpoints hinweg und sehen sich dem Risiko irrelevanter oder übermäßiger Kommunikation ausgesetzt, was zu abgebrochener Interaktion, Spam-Beschwerden und Compliance-Risiken führt. Aus diesem Grund müssen sie die Voreinstellungen ihrer Kundinnen und Kunden verwalten, um Echtzeiterkenntnisse zu ihrer Zielgruppe zu erhalten und personalisierte, respektvolle Kommunikation bereitzustellen.
 
-Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung von [Einverständnisrichtlinien](consent.md) die Voreinstellungen Ihrer Kundinnen und Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] nur Kunden anspricht, die auf ihrer Auswahl beruhen, und gleichzeitig ihr Einverständnis respektiert.
+Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung [Einverständnisrichtlinien](consent.md) die Vorlieben Ihrer Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] nur Kunden anspricht, die auf ihrer Auswahl beruhen, und gleichzeitig ihr Einverständnis respektiert.
 <!-- their preferred channels and on the subscription topics-->
 
 Es gibt folgende Möglichkeiten zum Verwalten der Voreinstellungen von Benutzenden mit [!DNL Journey Optimizer]:
@@ -119,7 +125,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >Einverständnisrichtlinien sind derzeit nur für Organisationen verfügbar, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben. [Informationen zu Entscheidungsrichtlinien](consent.md)
+   >Einverständnisrichtlinien sind derzeit nur für Organisationen verfügbar, die die Adobe-Add-ons **Healthcare Shield** und **Privacy and Security Shield** erworben haben. [Informationen zu Entscheidungsrichtlinien](consent.md)
 
    Um Einverständnisrichtlinien verwenden zu können, müssen in den Profildaten Voreinstellungsattribute vorhanden sein. Daher müssen Sie diese Attribute auf Profilebene definieren (wie in Schritt 1 beschrieben).
 

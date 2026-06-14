@@ -11,14 +11,20 @@ keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Ri
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 100%
+source-wordcount: 1337
+ht-degree: 96%
 
 ---
 
 # Data Governance {#restrict-fields}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Schützen Sie vertrauliche Daten, indem Sie Governance-Richtlinien erstellen, die Kennzeichnungen mit Marketing-Aktionen verknüpfen, und sie dann auf Journey, Kampagnen und benutzerdefinierte Aktionen anwenden, sodass eingeschränkte Felder nicht extern freigegeben werden können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
@@ -31,8 +37,8 @@ Mit dem Governance-Framework [Data Usage Labelling and Enforcement (DULE)](https
 
 Sobald Labels und Marketing-Aktionen definiert sind, können Sie **Data Governance-Richtlinien** erstellen, die diese beiden Elemente verknüpfen. Sie können beispielsweise eine Richtlinie einrichten, die ein ePHI-Label mit einer Marketing-Aktion „E-Mail-Targeting“ verknüpft, um sicherzustellen, dass keine mit „ePHI“ gekennzeichneten Felder zur Personalisierung von E-Mail-Nachrichten verwendet werden. [Informationen zur Erstellung von Data Governance-Richtlinien](#policy)
 
-Nachdem Sie die Governance-Richtlinien erstellt haben, können Sie die Marketing-Aktionen auf Ihre Journeys/Kampagnen und benutzerdefinierten Journey-Aktionen anwenden.
-[Informationen zur Anwendung von Marketing-Aktionen in Journey Optimizer](#apply-marketing-actions)
+Nachdem Sie die Governance-Richtlinien erstellt haben, können Sie die Marketing-Aktionen auf Ihre benutzerdefinierten Aktionen für Journey/Kampagnen und Journey anwenden.
+[Erfahren Sie, wie Sie Marketing-Aktionen in Journey Optimizer anwenden](#apply-marketing-actions)
 
 Beim Erstellen einer Journey oder Kampagne überprüft das System nach Auswahl einer Kanalkonfiguration oder nach Hinzufügen einer benutzerdefinierten Aktion, ob die Marketing-Aktion in der Nachrichtenkanalkonfiguration oder die benutzerdefinierte Aktion Teil einer Data Governance-Richtlinie ist. In diesem Fall prüft das System, ob Felder aus der Zielgruppe oder der Nachrichtenpersonalisierung durch die Richtlinie gekennzeichnet und eingeschränkt werden. Wenn ein solches Label erkannt wird, wird die Veröffentlichung der Journey oder Kampagne blockiert. [Informationen zur Erkennung von Verstößen gegen Data Governance-Richtlinien](#violation)
 

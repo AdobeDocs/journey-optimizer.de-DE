@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 100%
+source-wordcount: 475
+ht-degree: 94%
 
 ---
 
 # Integrieren mit Adobe Campaign Standard {#using_adobe_campaign_standard}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Verbinden Sie Journey Optimizer mit Adobe Campaign Standard, damit Ihre Journey E-Mails, Push-Benachrichtigungen und SMS über die Transaktionsnachrichten-Funktionen senden können.
+
+>[!ENDSHADEBOX]
 
 Wenn Sie über Adobe Campaign Standard verfügen, haben Sie Zugriff auf eine integrierte Aktion, die die Verbindung zu Adobe Campaign Standard ermöglicht. Mit der Transaktionsnachrichten-Funktion von Adobe Campaign Standard können Sie E-Mails, Push-Benachrichtigungen und SMS senden.
 

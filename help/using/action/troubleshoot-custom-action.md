@@ -27,14 +27,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 61%
+source-wordcount: 1077
+ht-degree: 60%
 
 ---
 
 # Fehlerbehebung bei benutzerdefinierten Aktionen {#troubleshoot-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Senden Sie echte Test-API-Aufrufe, um Ihre benutzerdefinierten Aktionskonfigurationen zu validieren, damit Sie Fehler erkennen können, bevor Sie sich in Live-Journey darauf verlassen.
+
+>[!ENDSHADEBOX]
 
 Sie können Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus dem Abschnitt „Administration“ der Benutzeroberfläche von Journey Optimizer senden. Mit dieser Funktion können Sie Fehler bei benutzerdefinierten Aktionen beheben, bevor oder nachdem diese in einer Journey verwendet werden.
 
@@ -126,7 +132,7 @@ Wenn eine benutzerdefinierte Aktion auf einem Journey ein Ereignis zum Starten e
 
 Um zu vermeiden, dass Ereignisse verworfen werden, wenn Journey über benutzerdefinierte Aktionen verkettet werden, überprüfen Sie die Ereignis-Payload anhand der Ereignisregel der zweiten Journey und bestätigen Sie, dass die Ziel-Journey live oder im Testmodus und innerhalb ihres aktiven Datumsfensters ist.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration und Verwendung Ihrer benutzerdefinierten Aktionen:
 
