@@ -8,34 +8,26 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 2612
-ht-degree: 100%
+source-wordcount: 2652
+ht-degree: 98%
 
 ---
 
 # Erste Schritte mit Daten-Management {#about-data}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Verschaffen Sie sich einen praktischen Überblick darüber, wie Daten in und aus Adobe Journey Optimizer fließen und Schemata, Datensätze, Identitäten, Profile und Datenquellen abdecken. So kann Ihr Team die Schritte zur Datenbereitschaft abschließen, bevor Sie Journey und Kampagnen erstellen.
+
+>[!ENDSHADEBOX]
 
 Daten sind die Grundlage für jede Journey, Entscheidung und Nachricht, die Sie mit [!DNL Adobe Journey Optimizer] versenden.
 
@@ -236,7 +228,7 @@ Dieser Fluss veranschaulicht, wie Schemata, Datensätze, Quellen, Datenquellen u
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Erste Schritte mit Schemata**
 
@@ -246,7 +238,7 @@ Erfahren Sie, wie Sie XDM-Schemata in Adobe Experience Platform erstellen, die r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Arbeiten mit Datensätzen**
 
@@ -256,7 +248,7 @@ Erfahren Sie, wie Sie profilaktivierte Datensätze und Ereignisdatensätze erste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Konfigurieren von Datenquellen**
 
@@ -266,7 +258,7 @@ Detaillierte Anleitungen zum Einrichten der integrierten Adobe Experience Platfo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Verwenden von Adobe Experience Platform-Daten (Suche)**
 
@@ -276,7 +268,7 @@ Erfahren Sie, wie Sie Nachrichten zur Laufzeit mit Referenz- oder Transaktionsda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erste Schritte mit Abfragen**
 
@@ -286,7 +278,7 @@ Verwenden Sie den Abfrage-Service, um Journey Optimizer-Datensätze zu analysier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Erste Schritte mit Profilen**
 
@@ -296,7 +288,7 @@ Erfahren Sie, wie das Echtzeit-Kundenprofil in Journey Optimizer funktioniert un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Überblick-Tutorial zum Einrichten von Daten**
 
@@ -306,7 +298,7 @@ Eine anfängerfreundliche Videoeinführung zum Einrichten von Daten in Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutorial zum Erstellen von Datensätzen und Aufnehmen von Daten**
 
