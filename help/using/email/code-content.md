@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 66%
+source-wordcount: 529
+ht-degree: 62%
 
 ---
 
 # Codieren Ihres eigenen Inhalts {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie unbearbeitetes HTML schreiben oder in den E-Mail-Designer-Code-Editor einfügen können, um E-Mail-Inhalte zu erstellen, einschließlich der Möglichkeit, eine Personalisierung hinzuzufügen und die verfügbaren Datums- und Uhrzeitfunktionen zu nutzen.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Eigenen Code schreiben]** ermöglicht das Schreiben oder Einfügen von unbearbeitetem HTML, um E-Mail-Inhalte direkt in die [!DNL Journey Optimizer] E-Mail-Designer zu erstellen. Verwenden Sie diesen Modus, wenn Sie Markup vollständig steuern oder vorhandene HTML importieren möchten.
 

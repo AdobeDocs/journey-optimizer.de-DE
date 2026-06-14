@@ -11,14 +11,20 @@ keywords: URL, Link, Personalisierung, Tracking, Kodierung, geschweifte Klammern
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 24%
+source-wordcount: 430
+ht-degree: 23%
 
 ---
 
 # URLs in E-Mails personalisieren {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie E-Mail-URLs mit Profilattributen personalisieren können, einschließlich vollständiger oder Basis-URLs und Tracking-Parametern pro Link, während Links gültig bleiben und verfolgt werden können.
+
+>[!ENDSHADEBOX]
 
 Personalisierte URLs helfen Ihnen bei der Bereitstellung kontextueller Erlebnisse über Ihre [!DNL Journey Optimizer] E-Mail-Nachrichten, z. B. beim Generieren empfängerspezifischer Links oder beim Anhängen dynamischer Parameter.
 

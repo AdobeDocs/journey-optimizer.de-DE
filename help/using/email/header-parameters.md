@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 61%
+source-wordcount: 1172
+ht-degree: 60%
 
 ---
 
 # Header-Parameter {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die E-Mail-Header-Parameter in einer Kanalkonfiguration einrichten, einschließlich der Felder „Von“, „Antwort an“, „Fehler“ und „Optionaler Absender“, sowie wie Sie die Antwortverarbeitung und E-Mail-Weiterleitung verwalten.
+
+>[!ENDSHADEBOX]
 
 Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-settings.md) im Abschnitt **[!UICONTROL Header-Parameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind.
 

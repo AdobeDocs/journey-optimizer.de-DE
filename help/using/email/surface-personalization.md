@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 89%
+source-wordcount: 1215
+ht-degree: 88%
 
 ---
 
 # Personalisieren der Einstellungen der E-Mail-Konfiguration {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie auf der Konfigurationsebene des E-Mail-Kanals personalisierte Werte für dynamische Subdomains, Header-Parameter und URL-Tracking-Parameter definieren.
+
+>[!ENDSHADEBOX]
 
 Für mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen ermöglicht [!DNL Journey Optimizer] die Definition personalisierter Werte für Subdomains, Header und URL-Tracking-Parameter beim Erstellen von E-Mail-Konfigurationen.
 

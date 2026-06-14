@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # Erste Schritte mit E-Mail-Design {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie E-Mail-Inhalte in der E-Mail-Designer gestalten, wie Sie sie von Grund auf neu erstellen, codieren oder importieren und welche Best Practices Sie bei der clientübergreifenden Darstellung Ihrer E-Mails anwenden können.
+
+>[!ENDSHADEBOX]
 
 Um auf den E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen, müssen Sie zunächst eine E-Mail in einer Journey oder Kampagne [erstellen](create-email.md).
 

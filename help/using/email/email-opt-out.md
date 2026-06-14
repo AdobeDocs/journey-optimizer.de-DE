@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 100%
+source-wordcount: 1259
+ht-degree: 96%
 
 ---
 
 # Opt-out-Verwaltung für E-Mails {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie Ihren E-Mails Optionen zur Abmeldung hinzufügen können, einschließlich Opt-out-Links mit einem Klick in der E-Mail-Kopfzeile oder im Textkörper und einem zweistufigen Opt-out über eine Landingpage, damit Empfängerinnen und Empfänger zukünftige Nachrichten stoppen können.
+
+>[!ENDSHADEBOX]
 
 Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets sicherstellen, dass sich Kundinnen und Kunden von der künftigen Kommunikation abmelden können. Nach der Kündigung des Abos werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt.  [Weitere Informationen zu Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 

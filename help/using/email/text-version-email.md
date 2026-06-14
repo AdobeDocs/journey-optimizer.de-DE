@@ -11,14 +11,20 @@ keywords: Text, E-Mail, Version, Nur-Text, Editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 12%
 
 ---
 
 # Textversion einer E-Mail verwalten {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die automatisch synchronisierte Standard-Nur-Text-Version einer E-Mail verwenden oder eine benutzerdefinierte Version erstellen und wann jeder Ansatz am besten funktioniert.
+
+>[!ENDSHADEBOX]
 
 Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 

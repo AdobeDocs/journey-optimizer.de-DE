@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # Erste Schritte mit E-Mail-Stilen {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie den Stil Ihrer E-Mail-Inhalte im Bereich E-Mail-Designer-Stile anpassen und Einstellungen wie Farben, Schriftarten, Rahmen, Ränder und Abstand auf den Textkörper, die Struktur oder Inhaltskomponenten anwenden können.
+
+>[!ENDSHADEBOX]
 
 Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer] begonnen haben, können Sie eine Reihe von Stilparametern und Attributen im Bereich **[!UICONTROL Stil]** des E-Mail-Designers anpassen.
 

@@ -29,14 +29,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1104
-ht-degree: 87%
+source-wordcount: 1131
+ht-degree: 85%
 
 ---
 
 # Hinzufügen visueller Fragmente zu Ihren E-Mails {#use-visual-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie wiederverwendbare visuelle Fragmente in Ihre E-Mails einfügen, ihre bearbeitbaren Felder anpassen und ihre Vererbung mit dem ursprünglichen Fragment aufheben oder beibehalten.
+
+>[!ENDSHADEBOX]
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in Journey Optimizer-Kampagnen, -Journeys oder -Inhaltsvorlagen referenziert werden kann. Diese Funktionalität ermöglicht es, mehrere benutzerdefinierte Inhaltsbausteine vorab zu erstellen, die anschließend von Benutzenden aus dem Marketing-Bereich verwendet werden können, um E-Mail-Inhalte in einem verbesserten Design-Prozess schnell zusammenzustellen. [Informationen zum Erstellen und Verwalten von Fragmenten](../content-management/fragments.md).
 

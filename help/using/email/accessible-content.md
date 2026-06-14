@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 96%
+source-wordcount: 1731
+ht-degree: 94%
 
 ---
 
 # Gestalten barrierefreier Inhalte {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über die Best Practices beim Entwerfen barrierefreier E-Mails und Landingpages in Adobe Journey Optimizer, die die Lesbarkeit von Text, Alternativtext, den Dunkelmodus, Barrierefreiheitsattribute und Tests in Übereinstimmung mit WCAG 2.1 Level AA behandeln.
+
+>[!ENDSHADEBOX]
 
 Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
 
