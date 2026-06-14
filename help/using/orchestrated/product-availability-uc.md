@@ -16,14 +16,20 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 100%
+source-wordcount: 427
+ht-degree: 91%
 
 ---
 
 # Benachrichtigen von Benutzenden über Produktverfügbarkeit {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** In diesem Anwendungsfall können Sie eine orchestrierte Backin-Stock-Kampagne erstellen, die mithilfe eines mehrstufigen Versands eine separate, personalisierte E-Mail für jedes gespeicherte Wunschlistenelement sendet, wenn Produkte wieder verfügbar werden.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

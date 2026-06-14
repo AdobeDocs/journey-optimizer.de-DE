@@ -14,14 +14,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 81%
+source-wordcount: 508
+ht-degree: 77%
 
 ---
 
 # Erste Schritte mit relationalen Schemata und Datensätzen{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Lernen Sie die wichtigsten Konzepte und Schritte kennen, um relationale Schemata und Datensätze zu erstellen, sie zu verknüpfen und Daten für orchestrierte Kampagnen aufzunehmen.
+
+>[!ENDSHADEBOX]
 
 Dieses Handbuch führt Sie durch den Prozess der Erstellung eines relationalen Schemas, der Konfiguration eines Datensatzes für orchestrierte Kampagnen und der Aufnahme von Daten.
 

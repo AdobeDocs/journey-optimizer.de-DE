@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
-ht-degree: 89%
+source-wordcount: 960
+ht-degree: 86%
 
 ---
 
 # Manuelles Einrichten eines relationalen Schemas {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie manuell ein relationales Schema in der Benutzeroberfläche erstellen, Attribute hinzufügen, Schemata verknüpfen und einen Datensatz für orchestrierte Kampagnen erstellen und aktivieren.
+
+>[!ENDSHADEBOX]
 
 Relationale Schemata können direkt über die Benutzeroberfläche erstellt werden, was eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen ermöglicht.
 

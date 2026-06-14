@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 85%
+source-wordcount: 497
+ht-degree: 80%
 
 ---
 
 # Konfigurieren einer Zielgruppendimension {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Zielgruppendimension für orchestrierte Kampagnen konfigurieren, indem Sie dem Kundenprofil ein relationales Schema zuordnen, damit Sie Nachrichten auf Entitätsebene versenden können.
+
+>[!ENDSHADEBOX]
 
 Mit **[!UICONTROL Orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene entwerfen und bereitstellen und dabei die relationalen Schemafunktionen von Adobe Experience Platform nutzen. Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem XDM-Schema strukturiert.
 

@@ -9,15 +9,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 66%
+source-wordcount: 938
+ht-degree: 64%
 
 ---
 
 
 # Erstellen von Retargeting-Abfragen {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Feedback- und Tracking-basierte Retargeting-Regeln erstellen, die auf die Empfängerinnen und Empfänger entsprechend ihrer Reaktion auf eine frühere orchestrierte Kampagne folgen.
+
+>[!ENDSHADEBOX]
 
 Beim Retargeting können Sie Empfängerinnen und Empfänger je nachdem ansprechen, wie sie auf eine frühere orchestrierte Kampagne reagiert haben. Sie können beispielsweise eine zweite E-Mail an die Personen senden, die die erste zwar erhalten, aber nicht angeklickt haben.
 

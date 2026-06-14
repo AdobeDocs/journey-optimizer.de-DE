@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 90%
+source-wordcount: 364
+ht-degree: 84%
 
 ---
 
 # Arbeiten mit dem Regel-Builder {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem Regel-Builder Daten filtern und Abfragen erstellen können, die auf Audiences in Ihren orchestrierten Kampagnen abzielen.
+
+>[!ENDSHADEBOX]
 
 Orchestrierte Kampagnen enthalten einen Regel-Builder, der den Prozess der Filterung der Datenbank anhand verschiedener Kriterien vereinfacht. Der Regel-Builder verwaltet sehr komplexe und lange Abfragen effizient und bietet dabei erhöhte Flexibilität und Genauigkeit.
 

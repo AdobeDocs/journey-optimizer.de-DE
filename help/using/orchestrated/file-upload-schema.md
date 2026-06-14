@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 86%
+source-wordcount: 1255
+ht-degree: 83%
 
 ---
 
 # Erstellen relationaler Schemata mithilfe einer DDL-Datei {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie relationale Schemata in Adobe Experience Platform erstellen, indem Sie eine DDL-Datei hochladen, Beziehungen zwischen Tabellen definieren und Schemata mit bestehenden Entitäten verknüpfen, um sie in orchestrierten Kampagnen zu verwenden.
+
+>[!ENDSHADEBOX]
 
 Definieren Sie das relationale Datenmodell, das für orchestrierte Kampagnen erforderlich ist, indem Sie Schemata wie **Zugehörigkeiten zu Treueprogrammen**, **Treuetransaktionen** und **Treueprämien** erstellen. Jedes Schema muss einen Primärschlüssel, ein Versionierungsattribut und geeignete Beziehungen zu Referenzentitäten wie **Empfängerinnen und Empfänger** oder **Marken** umfassen.
 

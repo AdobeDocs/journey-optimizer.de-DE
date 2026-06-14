@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 93%
+source-wordcount: 1947
+ht-degree: 92%
 
 ---
 
 # Erstellen Ihrer ersten Regel {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem Regel-Builder zielgerichtete Abfragen für Ihre orchestrierten Kampagnen erstellen können, indem Sie Bedingungen aus Datenbankattributen und -ausdrücken hinzufügen, sie mit logischen Operatoren kombinieren und die Ergebnisse validieren.
+
+>[!ENDSHADEBOX]
 
 Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen lauten wie folgt:
 

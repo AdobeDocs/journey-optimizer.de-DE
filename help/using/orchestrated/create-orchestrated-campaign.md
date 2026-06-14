@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 94%
+source-wordcount: 1261
+ht-degree: 92%
 
 ---
 
 # Erstellen und Planen einer orchestrierten Kampagne {#create-first-campaign}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine orchestrierte Kampagne in Adobe Journey Optimizer erstellen und den Ausführungsplan definieren, um sie sofort, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend auszuführen.
+
+>[!ENDSHADEBOX]
 
 Erstellen Sie eine orchestrierte Kampagne in [!DNL Adobe Journey Optimizer] und konfigurieren Sie den Zeitplan ihrer Ausführung, um den Start und die Häufigkeit ihrer Ausführung zu steuern. Sie können die Kampagne entweder sofort, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend mit flexiblen Planungsoptionen wie täglich, wöchentlich oder monatlich starten.
 

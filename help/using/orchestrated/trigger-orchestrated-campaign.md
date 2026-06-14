@@ -12,14 +12,20 @@ exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 1%
 
 ---
 
 # Auslösen von orchestrierten Kampagnen durch ein Signal {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Sie, wie Sie eine orchestrierte Kampagne mit einem Trigger von der REST-API oder der Endaktivität einer anderen Kampagne starten und Payload-Parameter übergeben, die zu Variablen für Zielgruppenbestimmung, Bedingungen und Ausdrücke werden.
+
+>[!ENDSHADEBOX]
 
 Sie können eine orchestrierte Kampagne mit einem Signal anstelle eines festen Zeitplans starten. Wenn die Kampagne das Signal erhält, wird sie ausgeführt und Sie können Parameter in der Payload übergeben. Sie werden als Variablen für Zielgruppenbestimmungen, Bedingungen oder Ausdrücke verfügbar.
 

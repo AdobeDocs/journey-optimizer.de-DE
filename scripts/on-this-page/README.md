@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ Führen Sie aus dem Repository-Stamm aus (`journey-optimizer.en/`).
    Vorschau zuerst mit `--dry-run`.
 
 2. **Verfeinern Sie den Wortlaut.** Der Startpunkt des Testversands ist — jeden Satz so bearbeiten, dass er erscheint
-Liest als Zielsetzung (ein Satz, einfacher Text, amerikanisches Englisch). Wenn Sie
+Liest als Zielsetzung (ein Satz, einfacher Text, amerikanisches Englisch). **Leitung
+Mit dem**: Geben Sie das Ergebnis/den Nutzen des Lesers an (“…so können Sie &lt;outcome>„), nicht
+Nur eine Liste der Inhalte der Seite. Passen Sie Funktionsnamen im Hausstil an (z. B.
+„Orchestrierte Kampagne“ (In-App). Siehe `.cursor/rules/on-this-page-box.mdc`. Wenn Sie
 `--seed-from-description` überspringen wird stattdessen ein `{{TODO...}}` Platzhalter eingefügt und
 Der Validator kennzeichnet alle verbleibenden Elemente.
 
