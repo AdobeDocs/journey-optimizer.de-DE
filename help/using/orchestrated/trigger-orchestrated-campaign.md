@@ -10,16 +10,21 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 1%
 
 ---
 
 # Auslösen von orchestrierten Kampagnen durch ein Signal {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Sie, wie Sie eine orchestrierte Kampagne mit einem Trigger von der REST-API oder der Endaktivität einer anderen Kampagne starten und Payload-Parameter übergeben, die zu Variablen für Zielgruppenbestimmung, Bedingungen und Ausdrücke werden.
+
+>[!ENDSHADEBOX]
 
 Sie können eine orchestrierte Kampagne mit einem Signal anstelle eines festen Zeitplans starten. Wenn die Kampagne das Signal erhält, wird sie ausgeführt und Sie können Parameter in der Payload übergeben. Sie werden als Variablen für Zielgruppenbestimmungen, Bedingungen oder Ausdrücke verfügbar.
 
@@ -116,13 +121,13 @@ Erstellen Sie Ihre Kampagne auf der Arbeitsfläche und testen Sie sie dann in **
 
 1. Klicken Sie **[!UICONTROL Starten]**, um die Kampagne zu starten.
 
-1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
+1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
 
-Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [&#x200B; die Kampagne](#publish).
+Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [ die Kampagne](#publish).
 
 ## Veröffentlichen und Trigger der Kampagne {#publish}
 
-Nachdem Sie [&#x200B; Kampagne getestet haben](#build-and-test) veröffentlichen Sie sie, damit sie ein Signal von Ihrer Anwendung oder der Aktivität **[!UICONTROL Ende]** einer anderen Kampagne empfangen kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
+Nachdem Sie [ Kampagne getestet haben](#build-and-test) veröffentlichen Sie sie, damit sie ein Signal von Ihrer Anwendung oder der Aktivität **[!UICONTROL Ende]** einer anderen Kampagne empfangen kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
 
 Sie können ihn dann über die REST-API oder die Aktivität „Ende **[!UICONTROL einer anderen Kampagne]**. Siehe die folgenden Abschnitte.
 
@@ -136,7 +141,7 @@ Führen Sie nach der Veröffentlichung jedes Mal, wenn Sie die Kampagne aus Ihre
 
    ![Kopieren einer API-Anfrage in der Zeitplankonfiguration](assets/triggered-oc-copy.png)
 
-1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
+1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger ](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
 
    >[!IMPORTANT]
    >

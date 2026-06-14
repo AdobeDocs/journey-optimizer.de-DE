@@ -6,20 +6,23 @@ description: Informationen zur Erstellung von orchestrierten Kampagnen mit Adobe
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 94%
+source-wordcount: 957
+ht-degree: 92%
 
 ---
 
 # Orchestrieren von Kampagnenaktivitäten {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie eine orchestrierte Kampagne erstellen, indem Sie Aktivitäten auf der visuellen Arbeitsfläche hinzufügen, konfigurieren und verbinden.
+
+>[!ENDSHADEBOX]
 
 Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md), können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die ausgeführt werden sollen. Zu diesem Zweck steht Ihnen eine visuelle Arbeitsfläche zur Verfügung, auf der Sie eine Arbeitsfläche für orchestrierte Kampagnen erstellen können. Innerhalb dieser Arbeitsfläche können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequenziellen Reihenfolge verbinden.
 

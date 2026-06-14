@@ -6,24 +6,24 @@ description: Informationen zu grundlegenden Prinzipien der Erstellung von orches
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 337
+ht-degree: 90%
 
 ---
 
 # Wichtige Schritte beim Erstellen einer orchestrierten Kampagne {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie mehr über die wichtigsten Schritte zum Erstellen und Starten einer orchestrierten Kampagne in Adobe Journey Optimizer, von der Erstellung und Planung bis hin zur Orchestrierung von Aktivitäten, der Überwachung der Ausführung und der Analyse der Ergebnisse.
+
+>[!ENDSHADEBOX]
 
 Diese Seite führt Sie durch die wichtigsten Schritte beim Erstellen und Starten einer orchestrierten Kampagne, angefangen von der Einrichtung und dem Design bis hin zu Monitoring und Reporting.
 

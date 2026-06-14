@@ -6,19 +6,23 @@ description: Erfahren Sie, wie Sie vordefinierte Filter in orchestrierten Kampag
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # Arbeiten mit vordefinierten Filtern {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie vordefinierte Filter erstellen, anwenden, freigeben und verwalten, um gespeicherte Abfragen im Regel-Builder für orchestrierte Kampagnen wiederzuverwenden.
+
+>[!ENDSHADEBOX]
 
 Vordefinierte Filter sind gespeicherte Regeln, die Sie im Regel-Builder wiederverwenden können. Verwenden Sie sie, um zu vermeiden, dass gängige Abfragen neu erstellt werden, und um die Targeting-Logik in orchestrierten Kampagnen zu standardisieren.
 
@@ -95,6 +99,6 @@ Gehen Sie wie folgt vor, um vordefinierte Filter zu bearbeiten oder zu löschen:
 
 1. Öffnen Sie die vordefinierte Filterliste mithilfe der Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** im Regelaufbau.
 
-1. Klicken Sie auf ![&#x200B; Schaltfläche mit &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
+1. Klicken Sie auf ![ Schaltfläche mit ](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
 
 ![](assets/predefined-filters-edit.png)

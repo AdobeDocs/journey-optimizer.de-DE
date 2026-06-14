@@ -7,23 +7,24 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 98%
+source-wordcount: 625
+ht-degree: 93%
 
 ---
 
 # Interagieren mit Kundinnen und Kunden nach Suchaktivität {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Führen Sie ein Anwendungsbeispiel für eine orchestrierte Kampagne durch, das Kundinnen und Kunden auf der Grundlage ihrer Browser-Aktivität erneut anspricht, indem Sie eine Zielgruppe lesen, deduplizieren, nach Abwanderungsrisiko aufteilen und personalisierte Folgenachrichten versenden.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
