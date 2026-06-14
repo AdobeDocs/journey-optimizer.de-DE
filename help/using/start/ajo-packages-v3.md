@@ -100,7 +100,7 @@ Zielgruppen über ausgehende Nachrichtenkanäle erreichen.
 - Benachrichtigungsoberflächen für Mobilgeräte
 - Workflows für den Postversand
 
-[Erfahren Sie, wie Sie E](../email/get-started-email.md)Mails senden[ | Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) | [Erfahren Sie mehr über die Zustellbarkeit](../reports/deliverability.md)
+[Erfahren Sie, wie Sie E](../email/get-started-email.md)Mails senden[&#x200B; | Erfahren Sie, wie Sie Push-Benachrichtigungen senden](../push/get-started-push.md) | [Erfahren Sie, wie Sie Briefpost verwenden](../direct-mail/get-started-direct-mail.md) | [Erfahren Sie mehr über die Zustellbarkeit](../reports/deliverability.md)
 
 >[!TAB Mobile]
 
@@ -124,7 +124,7 @@ Interagieren Sie App-Benutzer mit mobilen Erlebnissen.
 - Beständige Inhaltsplatzierungen
 - Benutzerdefinierte Programmoberflächen über SDK
 
-[Erfahren Sie, wie Sie In-App](../in-app/get-started-in-app.md)Messaging verwenden[ | Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md)
+[Erfahren Sie, wie Sie In-App](../in-app/get-started-in-app.md)Messaging verwenden[&#x200B; | Erfahren Sie, wie Sie Inhaltskarten verwenden](../content-card/get-started-content-card.md) | [Erfahren Sie, wie Sie Code-basierte Erlebnisse verwenden](../code-based/get-started-code-based.md)
 
 >[!TAB Web]
 
