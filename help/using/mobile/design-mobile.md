@@ -11,14 +11,20 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1456
+source-wordcount: 1488
 ht-degree: 25%
 
 ---
 
 # Gestalten einer Mobile-Nachricht {#design-mobile}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie den Inhalt von SMS-, RCS- und MMS-Nachrichten in Adobe Journey Optimizer entwerfen und personalisieren, einschließlich RCS-Rich-Media, Fallback-Text, empfohlenen Aktionen, getrackten URLs und hinzugefügten Medien.
+
+>[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich-Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und senden. Zunächst müssen Sie eine Aktion für Mobilnachrichten in einer Journey oder einer Kampagne hinzufügen und dann den Inhalt der Mobilnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet außerdem Funktionen zum Testen Ihrer Mobile-Nachrichten vor dem Senden, damit Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 

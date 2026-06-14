@@ -26,14 +26,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1040
 ht-degree: 24%
 
 ---
 
 # Erste Schritte mit Mobile-Nachrichten {#get-started-sms}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erste Schritte mit Mobile Messaging in Adobe Journey Optimizer, um SMS-, MMS- und RCS-Nachrichten in Journey und Kampagnen zu erstellen, zu personalisieren und zu senden, einschließlich Provider-Support, Konfigurationsanforderungen und RCS-Voraussetzungen.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -84,7 +90,7 @@ Für die Verwendung von RCS in Journey Optimizer sind folgende Voraussetzungen e
 * **Unterstützter Anbieter**: Für das native RCS-Authoring ist Sinch RCS (Adobe Resell oder Direct) erforderlich. Twilio, Infobip und andere Anbieter müssen eine benutzerdefinierte Anbieterintegration verwenden.
 * **Geräteunterstützung**: Die RCS-Bereitstellung wird auf Android- und iOS-Geräten unterstützt. Die Verfügbarkeit der Anbieter und der Regionen ist unterschiedlich, RCS ist weltweit nicht allgemein verfügbar.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen.
 

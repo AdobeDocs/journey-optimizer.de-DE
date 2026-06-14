@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 81%
+source-wordcount: 801
+ht-degree: 77%
 
 ---
 
 # Konfigurieren des Infobip-Anbieters {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Infobip als Provider in Adobe Journey Optimizer konfigurieren, indem Sie SMS-API-Anmeldeinformationen einrichten, und wie Sie RCS-Messaging über eine benutzerdefinierte Provider-Integration aktivieren.
+
+>[!ENDSHADEBOX]
 
 Durch die Integration von Infobip mit Adobe Journey Optimizer können Sie im Rahmen Ihrer Journey- und Kampagnenkampagnen Nachrichten an Ihre Profile senden.
 

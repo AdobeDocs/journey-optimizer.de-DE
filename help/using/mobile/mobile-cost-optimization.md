@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 97%
+source-wordcount: 576
+ht-degree: 92%
 
 ---
 
 # Best Practices für Optimierung der SMS-Kosten {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie mehr über Best Practices zur Senkung der SMS-Kosten in Adobe Journey Optimizer, indem Sie Nachrichten kurz halten, Sonderzeichen und UCS-2-Codierung vermeiden und die Zeichenanzahl vor dem Versand überprüfen.
+
+>[!ENDSHADEBOX]
 
 SMS-Nachrichten werden von Anbietern in der Regel mit maximal 160 Zeichen pro Nachricht in Rechnung gestellt. Das Senden von SMS-Nachrichten kann zusätzliche Kosten verursachen, wenn Nachrichten in mehrere Teile aufgeteilt werden.
 
