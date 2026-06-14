@@ -9,11 +9,19 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -49,7 +57,7 @@ Die automatische Optimierung hat die folgenden Anforderungen und Einschränkunge
 
 * Für die automatische Optimierung ist ein Trainings-Datensatz erforderlich, der die Feldergruppe Angebotsereignisse, Angebotsklickereignisse und die Feldergruppe Erlebnisereignis - Vorschlagsinteraktionen enthält.
 * Modelle mit automatischer Optimierung können nicht in Anfragen an die Batch Decisioning-API verwendet werden.
-* Die automatische Optimierung wird immer für Angebotsklicks optimiert. Verwenden Sie das Modell [Personalisierte Optimierung“, um für ein anderes Ziel als ](personalized-optimization-model.md) zu maximieren.
+* Die automatische Optimierung wird immer für Angebotsklicks optimiert. Verwenden Sie das Modell [Personalisierte Optimierung“, um für ein anderes Ziel als &#x200B;](personalized-optimization-model.md) zu maximieren.
 * Die automatische Optimierung versucht, die insgesamt erfolgreichsten Angebote zu finden, ohne für jeden Kunden ein personalisiertes Ranking zu finden. Um personalisierte Rankings für jeden Kunden zu finden, verwenden Sie das Modell [Personalisierte Optimierung](personalized-optimization-model.md) .
 
 Um ein Modell für automatische Optimierung zu trainieren, muss der Datensatz die folgenden Mindestanforderungen erfüllen:
@@ -62,7 +70,7 @@ Bis zum ersten Mal ein Modell für automatische Optimierung trainiert wurde, wer
 
 ## Ausgleich zwischen Optimierung und Lernen {#balancing-optimization-learning}
 
-Die automatische Optimierung ist ein [ Lernmodell](https://en.wikipedia.org/wiki/Reinforcement_learning){target="_blank"} das anhand des realen Kundenverhaltens Informationen zur Durchklickleistung von Angeboten liefert. Verstärkte Lernmodelle zielen darauf ab, ein Ziel zu maximieren, indem Maßnahmen mit besser vorhergesagten Ergebnissen ausgewählt werden. Ein Modell, das jedem Kunden immer das/die Element(e) mit dem besten prognostizierten Ergebnis präsentiert, würde jedoch nie etwas über die Leistung von neuen Elementen erfahren, die im Laufe der Zeit eingeführt wurden (das so genannte „Kaltstartproblem„), noch würde es etwas über Leistungsänderungen anderer vorhandener Elemente erfahren, die sich aus Verhaltensänderungen von Kunden im Laufe der Zeit ergeben. Verstärkte Lernmodelle müssen daher mit dem umgehen, was gemeinhin als &quot;[-Exploit-Trade-off“ bezeichnet wird](https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma){target="_blank"} d. h. eine Balance zwischen Optimierung und Lernen herstellen.
+Die automatische Optimierung ist ein [&#x200B; Lernmodell](https://en.wikipedia.org/wiki/Reinforcement_learning){target="_blank"} das anhand des realen Kundenverhaltens Informationen zur Durchklickleistung von Angeboten liefert. Verstärkte Lernmodelle zielen darauf ab, ein Ziel zu maximieren, indem Maßnahmen mit besser vorhergesagten Ergebnissen ausgewählt werden. Ein Modell, das jedem Kunden immer das/die Element(e) mit dem besten prognostizierten Ergebnis präsentiert, würde jedoch nie etwas über die Leistung von neuen Elementen erfahren, die im Laufe der Zeit eingeführt wurden (das so genannte „Kaltstartproblem„), noch würde es etwas über Leistungsänderungen anderer vorhandener Elemente erfahren, die sich aus Verhaltensänderungen von Kunden im Laufe der Zeit ergeben. Verstärkte Lernmodelle müssen daher mit dem umgehen, was gemeinhin als &quot;[-Exploit-Trade-off“ bezeichnet wird](https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma){target="_blank"} d. h. eine Balance zwischen Optimierung und Lernen herstellen.
 
 Die automatische Optimierung nutzt einen häufig verwendeten Ansatz, den [Multi-Armed Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target="_blank"}, um den Zielkonflikt zu bewältigen. Der mehrarmige Bandit trifft Ranking-Entscheidungen basierend auf:
 
@@ -79,7 +87,7 @@ Die zweite Ebene des Rankings wird von einem von zwei [Thompson-Stichprobenverfa
 * 10 % des Traffics werden einem explorationsorientierten Bandit zugewiesen, der mit höherer Wahrscheinlichkeit neue Angebote oder Angebote mit eingeschränkten Daten empfiehlt, unter der Annahme, dass das Modell davon profitieren würde, mehr über das Kundenverhalten als Reaktion auf diese Angebote zu erfahren.
 * 90 % des Traffics werden einem ausbeutungsfokussierten Banditen zugewiesen, der im Laufe der Zeit mit größerer Wahrscheinlichkeit konsistent leistungsstarke Angebote empfiehlt, unter der Annahme, dass neue oder datenarme Angebote mit größerer Wahrscheinlichkeit unterdurchschnittlich abschneiden, bis das Gegenteil bewiesen ist.
 
-In einem technischen Sinne sind diese Annahmen Parameter der A-priori-Wahrscheinlichkeitsverteilung, auch als [ bezeichnet](https://en.wikipedia.org/wiki/Prior_probability){target="_blank"}. Je mehr Anzeige- und Klickdaten die Angebote sammeln, desto geringer wird der Einfluss der gewählten Prioren, und die Prognosen der beiden Banditen neigen dazu, sich im Laufe der Zeit anzunähern.
+In einem technischen Sinne sind diese Annahmen Parameter der A-priori-Wahrscheinlichkeitsverteilung, auch als [&#x200B; bezeichnet](https://en.wikipedia.org/wiki/Prior_probability){target="_blank"}. Je mehr Anzeige- und Klickdaten die Angebote sammeln, desto geringer wird der Einfluss der gewählten Prioren, und die Prognosen der beiden Banditen neigen dazu, sich im Laufe der Zeit anzunähern.
 
 Unser Ansatz, mehrere Banditen zu kombinieren und dedizierten Traffic für die Exploration zuzuweisen, bietet mehrere Vorteile:
 
@@ -104,7 +112,7 @@ Wenn ein Angebot (z. B. Angebot 1) ein eindeutiger Gewinner ist, wird seine A-po
 
 +++ Berechnungsdetails
 
-Zur Berechnung/Aktualisierung der Verteilungen verwenden wir **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | Daten)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert**𝛍 i** auf Basis der bisher für dieses Angebot gesammelten Daten ist.
+Zur Berechnung/Aktualisierung der Verteilungen verwenden wir **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | Daten)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert&#x200B;**𝛍 i** auf Basis der bisher für dieses Angebot gesammelten Daten ist.
 
 Nach dem Satz von Bayes:
 
@@ -128,7 +136,7 @@ Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilun
 
 Für die Parameter (α&#x200B;***, β*** muss ***Ausgangswert*** werden. Die automatische Optimierung umfasst sowohl einen explorationsneutralen Thompson-Sampling-Bandit als auch einen Exploitation-neutralen Thompson-Sampling-Bandit, die unterschiedliche anfängliche ***α***-, ***β***-Prioren in ihren Beta-Distributionen verwenden.
 
-Bei einem allgemeinen Thompson-Stichprobenansatz wird der Posterior berechnet, indem einfach die Anzahl der Erfolge und Misserfolge zu den vorhandenen Parametern (α&#x200B;***,******β)*** wird. Die automatische Optimierung nutzt verschiedene Gewichtungsfaktoren für neue Erfolge und Fehler, um die Auswirkungen neuer Daten im Vergleich zu früheren Daten sowohl in den explorationsbasierten als auch in den ausnutzungsbasierten Banditen zu ändern.
+Bei einem allgemeinen Thompson-Stichprobenansatz wird der Posterior berechnet, indem einfach die Anzahl der Erfolge und Misserfolge zu den vorhandenen Parametern (α&#x200B;***,**&#x200B;**&#x200B;**&#x200B;β)*** wird. Die automatische Optimierung nutzt verschiedene Gewichtungsfaktoren für neue Erfolge und Fehler, um die Auswirkungen neuer Daten im Vergleich zu früheren Daten sowohl in den explorationsbasierten als auch in den ausnutzungsbasierten Banditen zu ändern.
 
 ## Verweise {#references}
 
