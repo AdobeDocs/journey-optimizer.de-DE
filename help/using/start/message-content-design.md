@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 96%
+source-wordcount: 647
+ht-degree: 92%
 
 ---
 
 # Gestalten von Nachrichteninhalten{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erkunden Sie die Tools und Best Practices zum Entwerfen personalisierter E-Mail-, Push-, SMS- und In-App-Inhalte, damit Sie markeninterne Nachrichten bereitstellen können, die die Interaktion fördern.
+
+>[!ENDSHADEBOX]
 
 Das Gestalten von Nachrichteninhalten in Adobe Journey Optimizer ermöglicht es Ihnen, ansprechende, personalisierte Kommunikation über alle Kanäle hinweg zu erstellen. Unabhängig davon, ob Sie E-Mails mit komplexen visuellen Layouts, für Mobilgeräte optimierte Push-Benachrichtigungen, interaktive In-App-Erlebnisse oder SMS-Nachrichten erstellen, bietet dieser Abschnitt umfassende Anleitungen zu Best Practices bei der Inhaltserstellung. Erfahren Sie, wie Sie Vorlagen und Fragmente für wiederverwendbare Inhalte nutzen, Personalisierung und dynamische Inhalte zum Anpassen von Nachrichten für alle Empfangenden anwenden und die Einhaltung der Barrierefreiheit sicherstellen. Sie erhalten Informationen zu Design-Prinzipien und der Implementierung von Optionen für erweiterte Formatierung und lernen Tools kennen, die bei der Bereitstellung überzeugender, markenkonformer Erlebnisse erforderlich sind und Interaktion und Konversionen fördern.
 

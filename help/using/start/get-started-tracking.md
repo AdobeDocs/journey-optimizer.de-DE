@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 95%
+source-wordcount: 1995
+ht-degree: 93%
 
 ---
 
 # Erste Schritte beim Tracking in Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Kundeninteraktionen kanalübergreifend verfolgen und die Zustellbarkeit und den Systemzustand in Journey Optimizer überwachen können, um die Effektivität von Kampagnen zu messen und datengesteuerte Entscheidungen zu treffen.
+
+>[!ENDSHADEBOX]
 
 Mit dem Tracking können Sie die Effektivität einer Kampagne messen, Kundenerlebnisse optimieren und sicherstellen, dass Nachrichten die vorgesehenen Empfängerinnen und Empfänger erreichen. Journey Optimizer bietet umfassende Tracking-Funktionen, mit denen Kundeninteraktionen, die Versandleistung und der Systemzustand erfasst werden. So können Sie datengestützte Entscheidungen treffen und gleichzeitig den Datenschutz respektieren und die Einhaltung von Vorschriften gewährleisten.
 
@@ -91,7 +97,7 @@ Für einen möglichst leichten Einstieg sollten Sie sich mit diesen grundlegende
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="Reporting" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="Berichterstellung" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>Analysieren von Reporting</strong></a>

@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Barrierefreiheit in Journey Optimizer{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Journey Optimizer Benutzende aller Funktionen durch WCAG-abgestimmte Barrierefreiheitsfunktionen und Tastaturbefehle unterstützt, damit Sie effizient in der Benutzeroberfläche navigieren und arbeiten können.
+
+>[!ENDSHADEBOX]
 
 Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Mehr über das Engagement von Adobe für Barrierefreiheit erfahren Sie auf der [Adobe-Seite zu Barrierefreiheit](https://www.adobe.com/accessibility.html){target="_blank"}.
 

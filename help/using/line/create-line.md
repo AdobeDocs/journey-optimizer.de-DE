@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 85%
+source-wordcount: 782
+ht-degree: 81%
 
 ---
 
 # Erstellen einer LINE-Nachricht {#create-line}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Fügen Sie einer Journey oder Kampagne eine LINE-Aktion hinzu und erstellen Sie personalisierte Inhalte, von Text und Aufklebern bis hin zu Bildern, Videos, Standorten und Flex-Nachrichten, damit Sie Kundinnen und Kunden über LINE ansprechen können.
+
+>[!ENDSHADEBOX]
 
 ## Hinzufügen einer LINE-Nachricht {#create-line-journey-campaign}
 

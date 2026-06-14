@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 997
-ht-degree: 99%
+source-wordcount: 1026
+ht-degree: 96%
 
 ---
 
 # Best Practices {#best-practices}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Wenden Sie die Best Practices von Journey Optimizer für Identitätszuordnung, Omnichannel-Personalisierung und Journey an, damit Sie zuverlässige Anwendungsfälle erstellen und innerhalb der Systembeschränkungen effizient skalieren können.
+
+>[!ENDSHADEBOX]
 
 ## Anleitung zum Echtzeit-Anwendungsfall und zur Omni-Channel-Personalisierung {#real-time-guidance}
 

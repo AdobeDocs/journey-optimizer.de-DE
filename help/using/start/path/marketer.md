@@ -27,14 +27,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1721
-ht-degree: 100%
+source-wordcount: 1751
+ht-degree: 98%
 
 ---
 
 # Erste Schritte für Marketing-Experten {#get-started-marketers}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Folgen Sie dem Einstiegspfad für Marketing-Fachleute, damit Sie Zielgruppen erstellen, Inhalte entwerfen und Journey und Kampagnen orchestrieren können, die in Journey Optimizer personalisierte Kundenerlebnisse bieten.
+
+>[!ENDSHADEBOX]
 
 Als **Marketing-Fachkraft** oder **Business Anwenderin bzw. -Anwender** entwerfen Sie Customer Journeys, um Kundinnen und Kunden persönliche, kontextuelle Erlebnisse bereitzustellen. Sie können alle verschiedenen Komponenten dieser personalisierten Journeys erstellen und verwalten, einschließlich E-Mail- und Push-Nachrichten, Angeboten und Entscheidungskomponenten zur intelligenten Personalisierung des Nachrichteninhalts. Journey Optimizer bietet ein einheitliches Anwendererlebnis, in dem Sie ganze End-to-End-Anwendungsfälle an einem Ort implementieren können. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen die oder der [Systemadmin](administrator.md) und [die Dateningenieurin bzw. der Dateningenieur](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
 

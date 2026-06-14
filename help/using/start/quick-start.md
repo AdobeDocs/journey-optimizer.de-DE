@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # Rollen und Verantwortlichkeiten
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Machen Sie sich mit den Schlüsselrollen in einer Adobe Journey Optimizer-Implementierung und deren Zuständigkeiten vertraut, damit Sie den richtigen Ausgangspunkt und die richtigen Schnellstartaufgaben für Ihr Team finden.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer ermöglicht es Marken, während der gesamten Customer Journey vernetzte, kontextuelle und personalisierte Erlebnisse bereitzustellen. Journey Optimizer wurde mit einem End-to-End-Fokus auf Skalierbarkeit, Geschwindigkeit und Flexibilität entwickelt und kombiniert drei wichtige Treiber für den Mehrwert in einer einheitlichen Anwendung:
 
@@ -263,7 +269,7 @@ Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Opt
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 Detailliertere Informationen und Aktualisierungen finden Sie in den folgenden Ressourcen:
 

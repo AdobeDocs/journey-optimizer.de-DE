@@ -30,14 +30,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2079
-ht-degree: 98%
+source-wordcount: 2109
+ht-degree: 96%
 
 ---
 
 # Erste Schritte für Entwickelnde {#get-started-developers}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Implementieren Sie die SDKs, Ereignis-Streaming, benutzerdefinierten Aktionsendpunkte und APIs, die Ihre Programme mit Adobe Journey Optimizer verbinden, damit Ihre Journey mit Echtzeitdaten arbeiten können.
+
+>[!ENDSHADEBOX]
 
 Als **Entwicklerin bzw. Entwickler** sind Sie für die Implementierung und Integration von [!DNL Adobe Journey Optimizer] in Ihre Anwendungen und Systeme verantwortlich. Sie können mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen [Systemadmin](administrator.md) und [Dateningenieurin bzw. -ingenieur](data-engineer.md) Zugriff auf Ihre Umgebung gewährt und diese vorbereitet haben.
 

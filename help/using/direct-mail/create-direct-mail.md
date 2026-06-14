@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 66%
+source-wordcount: 1266
+ht-degree: 64%
 
 ---
 
 # Erstellen einer Briefpostnachricht {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Fügen Sie einer Kampagne oder einer Journey eine Briefpostnachricht hinzu und konfigurieren Sie deren Extraktionsdatei so, dass Ihr Briefpostanbieter über die personalisierten Daten verfügt, die zum Senden von E-Mails an Ihre Kunden erforderlich sind.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"

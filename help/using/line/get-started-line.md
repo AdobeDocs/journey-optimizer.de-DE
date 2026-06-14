@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # Erste Schritte mit LINE {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie LINE-Messaging in Journey Optimizer funktioniert, damit Sie Kundinnen und Kunden über Journey und Kampagnen in ihrer LINE-App erreichen können.
+
+>[!ENDSHADEBOX]
 
 Verwenden Sie [!DNL Journey Optimizer], um LINE-Nachrichten an die LINE-App Ihrer Kundschaft zu senden. Mithilfe des LINE-Editors können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 

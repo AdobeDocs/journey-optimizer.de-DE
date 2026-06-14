@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 63%
+source-wordcount: 605
+ht-degree: 60%
 
 ---
 
 # Überprüfen und Senden einer Briefpostnachricht {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie eine Vorschau der Extraktionsdatei anzeigen, Ihre Kampagne oder Journey validieren und aktivieren und das Posteinverständnis verwalten, damit Ihre Briefpost die richtigen Empfänger genau erreicht.
+
+>[!ENDSHADEBOX]
 
 Erfahren Sie, wie Sie eine Vorschau der Extraktionsdatei anzeigen, Ihre Briefpostkampagne oder Journey validieren und aktivieren und das Einverständnis mit Postsendungen in Journey Optimizer verwalten.
 
