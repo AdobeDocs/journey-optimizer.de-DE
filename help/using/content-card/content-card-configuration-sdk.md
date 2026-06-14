@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
-ht-degree: 100%
+source-wordcount: 543
+ht-degree: 93%
 
 ---
 
 # Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Richten Sie das Beispiel ein, mit dem Inhaltskarten mit der Adobe Experience Platform Web SDK abgerufen und gerendert werden, damit Sie Client-seitige personalisierte Inhalte auf Ihren Web-Seiten bereitstellen können, und führen Sie es aus.
+
+>[!ENDSHADEBOX]
 
 Dieses Beispiel zeigt, wie Inhaltskarten aus Adobe Journey Optimizer (AJO) mithilfe von Adobe Experience Platform abgerufen werden. Mit dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/home) werden die Personalisierungsinhalte vollständig auf der Client-Seite abgerufen und gerendert.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 100%
+source-wordcount: 629
+ht-degree: 95%
 
 ---
 
 # Konfigurieren von Inhaltskarten {#content-card-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erstellen Sie eine Konfiguration für den Inhaltskarten-Kanal und definieren Sie dessen Oberfläche, damit Sie Inhaltskarten an den richtigen Web- oder App-Speicherort senden können.
+
+>[!ENDSHADEBOX]
 
 ## Was ist eine Konfiguration? {#surface-definition}
 

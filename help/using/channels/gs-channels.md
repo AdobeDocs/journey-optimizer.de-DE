@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit [!DNL Adobe Journey Optimizer]-Kanälen {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Die nativen Kanäle von Adobe Journey Optimizer ermöglichen es Ihnen, Kunden über Ausgangs- und Eingangserlebnisse hinweg zu erreichen - vergleichen Sie E-Mail, SMS, Push, Live-Aktivitäten, Briefpost, WhatsApp, LINE, In-App, Web, Code-basierte und Inhaltskarten, um zu sehen, wo jede Komponente in Journey und Kampagnen unterstützt wird.
+
+>[!ENDSHADEBOX]
 
 In der dynamischen Marketing-Landschaft von heute ist es für den Aufbau dauerhafter Beziehungen und die Förderung von Interaktionen unerlässlich, Zielgruppen über verschiedene Plattformen hinweg effektiv zu erreichen. Dieser Abschnitt bietet einen umfassenden Überblick über die in [!DNL Adobe Journey Optimizer] verfügbaren Kommunikationskanäle und hilft Ihnen zu verstehen, wie Sie die einzelnen Kanäle effektiv in Ihren Marketing-Strategien nutzen können.
 
@@ -181,7 +187,7 @@ Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle für ver
 | E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ | ✅ |
-| iOS-Live-Aktivitäten | — | — | — | ✅ | — |
+| iOS-Live-Aktivitäten | — | — | — | ✅ | – |
 | In-App | ✅ | ✅ | — | — | — |
 | Direkt-Mail | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

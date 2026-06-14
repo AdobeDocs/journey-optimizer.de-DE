@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # Erste Schritte mit Inhaltskarten {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Inhaltskarten liefern personalisierte, nicht aufdringliche Nachrichten direkt in Ihren Mobile Apps und Websites, die Benutzer im Kontext einbinden, ohne zu unterbrechen, was sie tun.
+
+>[!ENDSHADEBOX]
 
 Inhaltskarten sind eine neue Funktion für digitale Nachrichten in Adobe Journey Optimizer, die personalisierte und ansprechende Inhalte direkt in mobilen Apps und Websites bereitstellt. Im Gegensatz zu herkömmlichen Push-Benachrichtigungen integrieren sich Inhaltskarten nahtlos in die Benutzeroberfläche und bieten dauerhafte, nicht störende Aktualisierungen, die die Benutzerinteraktion und das Benutzererlebnis verbessern.
 
@@ -63,7 +69,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 </td>
 </tr></table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Inhaltskarten in Landingpages](content-card-lp.md)** – Erfahren Sie, wie Sie Inhaltskarten in Landingpages implementieren, um die Interaktion zu verbessern.
 * **[Berichte zur Inhaltskarte](content-card-report.md)** – Verfolgen und analysieren Sie die Leistung der Inhaltskarte mit detaillierten Metriken und Erkenntnissen.
