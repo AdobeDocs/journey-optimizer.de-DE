@@ -22,14 +22,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 100%
+source-wordcount: 123
+ht-degree: 78%
 
 ---
 
 # Hinzufügen von Attributen zu Favoriten {#fav}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Attribute in Ihrem Favoritenmenü hinzufügen, darauf zugreifen und sie entfernen können, um sie beim Erstellen von Personalisierungsausdrücken in Adobe Journey Optimizer schnell wiederzuverwenden.
+
+>[!ENDSHADEBOX]
 
 Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Elemente. Um ein Attribut zu Ihren Favoriten hinzuzufügen, klicken Sie auf das Menü mit den Auslassungspunkten und wählen Sie **[!UICONTROL Zu Favoriten hinzufügen]**.
 

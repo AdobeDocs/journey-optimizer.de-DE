@@ -24,14 +24,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 98%
+source-wordcount: 3109
+ht-degree: 97%
 
 ---
 
 # Iterieren über kontextuelle Daten {#personalization-contexts}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit der Handlebars-Iterationssyntax Arrays aus kontextuellen Datenquellen wie Ereignissen, benutzerdefinierten Aktionsantworten und Datensatzsuchen durchlaufen können, um dynamische Listen in Ihren Nachrichten anzuzeigen.
+
+>[!ENDSHADEBOX]
 
 Erfahren Sie, wie Sie mithilfe der Handlebars-Iterationssyntax dynamische Listen mit Daten aus verschiedenen Quellen in Ihren Nachrichten anzeigen können, einschließlich Ereignissen, benutzerdefinierten Aktionsantworten und anderen kontextuellen Daten.
 

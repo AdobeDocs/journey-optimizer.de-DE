@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 94%
+source-wordcount: 666
+ht-degree: 89%
 
 ---
 
 # Arbeiten mit bedingten Regeln {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie im Personalisierungseditor aus Profilattributen, kontextuellen Ereignissen und Audiences bedingte Regeln erstellen und diese zur Wiederverwendung in Ihren Inhalten in der Bibliothek speichern.
+
+>[!ENDSHADEBOX]
 
 Bedingte Regeln sind Reihen von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextbezogenen Ereignissen.
 

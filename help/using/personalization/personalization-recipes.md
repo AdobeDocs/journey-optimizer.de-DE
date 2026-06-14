@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Personalization-Rezepte {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** finden Sie einsatzbereite Personalisierungsrezepte für Datumsangaben, Arrays, Zeichenfolgen, bedingte Logik und PQL-Edge-Fälle, die Sie direkt in Ihren Adobe Journey Optimizer-Inhalt kopieren können.
+
+>[!ENDSHADEBOX]
 
 Auf dieser Seite finden Sie einsatzbereite Personalisierungsmuster für die häufigsten Anwendungsfälle in Adobe Journey Optimizer. Alle Beispiele verwenden die Syntax des Personalisierungseditors und können direkt in E-Mail-, SMS- oder Push-Inhalte kopiert werden.
 

@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 83%
+source-wordcount: 1289
+ht-degree: 81%
 
 ---
 
 # Personalisierung – Anwendungsfall: E-Mail bei Warenkorbabbruch {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Führen Sie einen Anwendungsfall zum Warenkorbabbruch durch, bei dem ein E-Mail-Textkörper mithilfe der Hilfsfunktionen „upperCase“, „each“ und „if“ in Adobe Journey Optimizer personalisiert wird.
+
+>[!ENDSHADEBOX]
 
 In diesem Beispiel personalisieren Sie den Textkörper einer E-Mail-Nachricht. Diese Nachricht richtet sich an Kunden, die zwar Artikel in ihren Einkaufswagen abgelegt, aber ihren Einkauf nicht abgeschlossen haben.
 

@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 701
 ht-degree: 2%
 
 ---
 
 # URL-Parameter verschlüsseln {#url-parameter-encryption}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie sensible URL-Abfrageparameter verschlüsseln, damit persönlich identifizierbare Informationen nicht im Klartext bereitgestellt werden, einschließlich der Methode zum Erstellen, Drehen und Widerrufen von Schlüsseln in der Sandbox-Schlüsselregistrierung von Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -73,7 +79,7 @@ Bevor Sie den URL-Parameter-Verschlüsselungs-Helper verwenden können, müssen 
 
 Sobald ein Schlüssel erstellt wurde, können Marketing-Experten den [URL-Parameterverschlüsselung](functions/helpers.md#url-parameter-encryption-helper)-Helfer im Personalisierungseditor verwenden, um bestimmte Werte zu verschlüsseln, die sie in URL-Abfrageparametern platzieren.
 
-## Schlüssel verwalten {#manage-keys}
+## Verwalten von Schlüsseln {#manage-keys}
 
 Gehen Sie wie folgt vor, um Schlüssel zu verwalten.
 

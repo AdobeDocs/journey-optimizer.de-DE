@@ -12,20 +12,26 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
-ht-degree: 99%
+source-wordcount: 1292
+ht-degree: 97%
 
 ---
 
 # Externer Helper zur Datensuche
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem externalDataLookup-Helper Daten dynamisch von einem externen Endpunkt abrufen und Inhalte für eingehende Kanäle in Adobe Journey Optimizer personalisieren können.
+
+>[!ENDSHADEBOX]
+
 Mit dem `externalDataLookup`-Helper im Personalisierungs-Editor von [!DNL Journey Optimizer] können Sie Daten dynamisch von einem externen Endpunkt abrufen und sie zur Erstellung von Inhalten für eingehende Kanäle wie Code-basierte Erlebnisse, Web- und In-App-Nachrichten verwenden.
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).
+>Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).
 
 Damit Sie den Helper verwenden können, müssen Sie zunächst im Menü **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]** eine Aktion definieren. Bei einer Aktion konfigurieren Sie Details zu einem externen Endpunkt, z. B. URL, GET vs. POST-Methode, Header-Parameter, Abfrageparameter, POST-Textkörper-JSON-Schema und Antwort-JSON-Schema.
 

@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 93%
+source-wordcount: 715
+ht-degree: 89%
 
 ---
 
 # Erstellen von dynamischen Inhalten {#dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit bedingten Regeln dynamische Inhalte in Ihre Nachrichten einfügen können, sowohl in Personalisierungsausdrücken als auch als Inhaltskomponentenvarianten in der E-Mail-Designer.
+
+>[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie die in der Bibliothek erstellten bedingten Regeln nutzen, um dynamische Inhalte in Ihre Nachrichten einzufügen.
 

@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 98%
+source-wordcount: 559
+ht-degree: 93%
 
 ---
 
 # Personalisierung – Anwendungsfall: Benachrichtigung über den Bestellstatus {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Führen Sie ein Anwendungsbeispiel für den Bestellstatus aus, in dem Profil-, Angebotsentscheidungs- und kontextuelle Journey-Daten kombiniert werden, um eine Push-Benachrichtigung in Adobe Journey Optimizer zu personalisieren.
+
+>[!ENDSHADEBOX]
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 

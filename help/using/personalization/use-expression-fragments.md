@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 98%
+source-wordcount: 1346
+ht-degree: 95%
 
 ---
 
 # Nutzen von Ausdrucksfragmenten {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Ausdrucksfragmente im Personalisierungseditor einfügen und wiederverwenden, mit impliziten Variablen arbeiten, Fragmente in Schleifen verwenden, bearbeitbare Felder anpassen und die Vererbung in Adobe Journey Optimizer aufheben.
+
+>[!ENDSHADEBOX]
 
 Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 

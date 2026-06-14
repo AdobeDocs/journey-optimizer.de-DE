@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1563
-ht-degree: 93%
+source-wordcount: 1592
+ht-degree: 91%
 
 ---
 
 # Hinzufügen von Personalisierung {#build-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie mit dem Personalisierungseditor Personalisierungsausdrücke aus Quellen wie Profilattribute, Zielgruppen, Angebotsentscheidungen und kontextuelle Attribute hinzufügen, anpassen und validieren können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
