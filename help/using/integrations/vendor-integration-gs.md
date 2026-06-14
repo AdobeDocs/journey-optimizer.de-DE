@@ -11,15 +11,21 @@ keywords: Integration, Anbieter, Drittanbieter
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # Vendors-Integration {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite finden Sie** Beispiel für von Adobe getestete Konfigurationen zum Verbinden von Adobe Journey Optimizer-Integrationen mit Drittanbieteranbietern über Inhalts-, Treueprogramm-, Recommendations-, Daten- und Einverständnisplattformen.
+
+>[!ENDSHADEBOX]
 
 Sie können **Integrationen** in Adobe Journey Optimizer verwenden, um **externe Systeme über HTTP** aufzurufen, wenn jedes System einen **API-Endpunkt)**, der Ihrem Anwendungsfall entspricht und damit kompatibel ist, wie Integrations Anfragen ausgibt und Antworten nutzt. Einen vollständigen Workflow finden Sie unter [Arbeiten mit Integrationen](integrations.md).
 

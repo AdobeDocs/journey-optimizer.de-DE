@@ -12,15 +12,21 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
-ht-degree: 22%
+source-wordcount: 836
+ht-degree: 21%
 
 ---
 
 
 # Verwenden externer Integrationen für die Personalisierung {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Marketing-Experten konfigurierte Integrationen anwenden, um E-Mail-, SMS- und Push-Inhalte zu personalisieren und einen API-Aufruf an einen anderen zu verketten, um umfangreicheres und dynamisches Messaging zu ermöglichen.
+
+>[!ENDSHADEBOX]
 
 Bevor Sie externe Integrationen in Ihren Inhalten verwenden, bestätigen Sie, dass ein Administrator jede Integration **konfiguriert und aktiviert** (Endpunkt, Authentifizierung, Richtlinien, Antwort-Payload und Aktivierung) hat, wie in [Arbeiten mit Integrationen](integrations.md) beschrieben.
 

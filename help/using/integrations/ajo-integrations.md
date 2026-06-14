@@ -26,14 +26,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 1007
-ht-degree: 99%
+source-wordcount: 1048
+ht-degree: 95%
 
 ---
 
 # Integrationen mit anderen Lösungen {#integration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie die Verbindung von Adobe Journey Optimizer mit anderen Adobe-Lösungen und Drittanbietersystemen - wie Customer Journey Analytics, Experience Manager, Stock, GenStudio, Campaign und Workfront - den Funktionsumfang erweitert und Sie bei Ihren spezifischen Anwendungsfällen unterstützt.
+
+>[!ENDSHADEBOX]
 
 Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern und in Plattformen oder Systeme exportieren, die Teil Ihres Technologie-Stacks sind. Mithilfe dieser Integrationen können Sie Ihre spezifischen Anwendungsfälle abdecken und den Funktionsumfang von Adobe Journey Optimizer erweitern.
 

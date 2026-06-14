@@ -27,14 +27,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 99%
+source-wordcount: 734
+ht-degree: 95%
 
 ---
 
 # Kombinieren von Lösungen und Anwendungen zur Verwaltung von Inhalten {#combine-solutions}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Adobe-Lösungen und -Apps wie Experience Manager Assets, Stock, Express und GenStudio mit Adobe Journey Optimizer kombinieren, um Inhalte zu erstellen und zu verwalten.
+
+>[!ENDSHADEBOX]
 
 Um Nachrichten und Inhalte für die Aktivierung in Omni-Channel-Customer Journeys und -Kampagnen zu erstellen, benötigen Marketing- und Customer Experience-Fachleute benutzerfreundliche Authoring-Optionen, einschließlich Workflow-interner generativer KI, Bearbeitungsfunktionen, Assets, Vorlagen und Fragmentverwaltung.  Dank Adobe Journey Optimizer können Sie Ihre Adobe-Lösungen und -Anwendungen einfach kombinieren, um Ihre Adobe-Tools optimal zu nutzen. Mithilfe dieser nativen Integrationen können Sie Ihre spezifischen Anwendungsfälle abdecken und den Funktionsumfang von Adobe Journey Optimizer erweitern.
 

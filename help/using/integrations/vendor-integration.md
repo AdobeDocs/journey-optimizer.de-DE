@@ -11,14 +11,20 @@ keywords: Integration, Anbieter, Drittanbieter
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 6%
 
 ---
 
 # Beispiele für Anbieterkonfigurationen {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Adobe Journey Optimizer-Integrationen mit jeder externen Plattform verwenden, die eine kompatible API bereitstellt. Sie erhalten dabei funktionale Leitplanken und anschauliche Herstellermuster.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -711,7 +717,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem benötigten Profil- oder Erfolgspfad, legen Sie `Authorization: ApiKey-v1 <key>` wie dokumentiert fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem benötigten Profil oder Erfolgspfad, legen Sie `Authorization: ApiKey-v1 <key>` wie dokumentiert fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
