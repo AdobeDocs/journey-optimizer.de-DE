@@ -10,30 +10,31 @@ level: Beginner
 keywords: Stock, Bilder, Integration, Fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: c08fcc42-2918-421a-a25e-e1bd9464c290
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 100%
+source-wordcount: 622
+ht-degree: 95%
 
 ---
 
 # Arbeiten mit [!DNL Adobe Stock]-Bildern {#stock}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie Adobe Stock-Bilder, einschließlich ähnlicher Fotos, direkt über die E-Mail-Designer in Adobe Journey Optimizer suchen, lizenzieren und einfügen können.
+
+>[!ENDSHADEBOX]
+
 ## Erste Schritte mit [!DNL Adobe Stock] {#get-started-stock}
 
 Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
 
-[Adobe Stock](https://helpx.adobe.com/de/stock/get-started.html){target="_blank"} bietet Zugriff auf Millionen von hochwertigen, kuratierten, lizenzfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} bietet Zugriff auf Millionen von hochwertigen, kuratierten, lizenzfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Stock] in Ihre E-Mails hochladen und mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** zu Ihrem Ordner **[!UICONTROL Assets]** hinzufügen. Darüber hinaus hilft Ihnen die Option **[!UICONTROL Ähnliche Stockfotos suchen]**, Bilder zu finden, die in Inhalt, Farbe und Komposition dem in Ihrem Versand verwendeten Asset entsprechen.
 
@@ -113,5 +114,5 @@ Gehen Sie wie folgt vor, um Ihr Bild zu lizenzieren und herunterzuladen:
 
 * [Gestalten von E-Mails in Journey Optimizer](../email/get-started-email-design.md)
 * [Komponenteneinstellungen für den E-Mail-Entwurf](../email/content-components.md)
-* [Adobe Stock – Erste Schritte](https://helpx.adobe.com/de/stock/get-started.html){target="_blank"}
+* [Adobe Stock – Erste Schritte](https://helpx.adobe.com/stock/get-started.html){target="_blank"}
 

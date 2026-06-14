@@ -9,16 +9,21 @@ level: Beginner
 hide: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 2%
 
 ---
 
 # Countdown-Timer einfügen {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie einen Dynamic Media Countdown-Timer in Ihre Journey Optimizer-E-Mails einfügen können, um eine Dringlichkeit für Flash-Verkäufe und zeitkritische Angebote zu schaffen.
+
+>[!ENDSHADEBOX]
 
 Erstellen Sie eine Dringlichkeit und maximieren Sie Konversionen mit Dynamic Media-Countdown-Timern, die in Echtzeit aktualisiert werden, wenn Empfänger Ihre E-Mails öffnen. Diese Funktion ist ideal für Flash-Verkäufe, zeitlich begrenzte Angebote und zeitkritische Promotions.
 
