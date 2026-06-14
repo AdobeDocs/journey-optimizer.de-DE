@@ -6,25 +6,26 @@ level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
 TQID: https://experienceleague.adobe.com/I7beoyvv-vzc39XjLlPl8iIpxtxOmSkD5AtxW0bCCwA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
-ht-degree: 58%
+source-wordcount: 376
+ht-degree: 53%
 
 ---
 
 # Überprüfen und Genehmigen einer Anfrage {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Überprüfen Sie als designierte genehmigende Person eine gesendete Journey oder Kampagne und genehmigen und veröffentlichen Sie sie oder senden Sie Änderungsanforderungen zurück an die erstellende Person, bevor sie live geschaltet wird.
+
+>[!ENDSHADEBOX]
 
 Falls für eine Journey oder Kampagne eine Genehmigungsrichtlinie gilt, muss sie zur Genehmigung vorgelegt werden, damit sie veröffentlicht werden kann. Zu diesem Zweck sendet der Ersteller der Journey/Kampagne eine Anfrage an die in der Validierungsrichtlinie definierten Genehmiger, und die Journey/Kampagne erhält den Status **[!UICONTROL In Überprüfung]**.
 
@@ -61,4 +62,4 @@ Nach dem Absenden der Anfrage wird die erstellende Person, die die Journey/Kampa
 
 >[!NOTE]
 >
-> Wenn Sie keine Validierungsbenachrichtigung per E-Mail erhalten, müssen Sie Ihre Abonnementvoreinstellungen in Ihren Experience Cloud-Profilen aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences)
+> Wenn Sie keine Genehmigungsbenachrichtigung per E-Mail erhalten, müssen Sie Ihre Abonnementvoreinstellungen in Ihren Experience Cloud-Profilen aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences)
