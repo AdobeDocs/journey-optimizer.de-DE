@@ -16,14 +16,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 100%
+source-wordcount: 643
+ht-degree: 95%
 
 ---
 
 # Zuweisen von Prioritätswerten {#priority}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Weisen Sie Journey, Kampagnen und eingehenden Aktionen Prioritätswerte zu, damit Sie steuern können, welche Kommunikation Vorrang hat, wenn ein Profil für mehr als eine geeignet ist.
+
+>[!ENDSHADEBOX]
 
 Mit Journey Optimizer können Sie einer Journey, einer Kampagne oder einer eingehenden Kanalaktion in der Journey-Aktivität **[!UICONTROL Aktion]** einen Prioritätswert zuweisen.
 

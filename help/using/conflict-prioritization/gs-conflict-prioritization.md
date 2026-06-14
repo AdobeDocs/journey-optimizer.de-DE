@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # Konflikt-Management und Priorisierung {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Konflikterkennung, Prioritätswerte und Regelsätze zusammenarbeiten, um Überschneidungen bei der Kommunikation zu vermeiden und zu steuern, wie oft Kunden benachrichtigt werden.
+
+>[!ENDSHADEBOX]
 
 In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Die Tools für Konflikt-Management und Priorisierung helfen Ihnen dabei, gut durchdachte, zeitlich optimal abgestimmte Kommunikationen bereitzustellen und so eine Ermüdung Ihrer Kundschaft zu verhindern und sicherzustellen, dass Ihre Zielgruppe die richtigen Nachrichten erhält. Durch die Verwendung von Konflikterkennung, Prioritätswerten und Regelsätzen können Sie Kampagnen und Journeys optimieren, um Überschneidungen zu vermeiden und die Häufigkeit zwischen den Kanälen auszugleichen.
 

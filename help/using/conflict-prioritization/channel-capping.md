@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 92%
+source-wordcount: 1346
+ht-degree: 90%
 
 ---
 
 # Frequenzbegrenzung nach Kanal und Kommunikationstyp {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Legen Sie Häufigkeitsbegrenzungen nach Kanal und Kommunikationstyp fest, um zu begrenzen, wie viele Nachrichten ein Profil erhält, und um zu vermeiden, dass Kunden mit ähnlichen Nachrichten überfordert werden.
+
+>[!ENDSHADEBOX]
 
 **Kanal**-Regelsätze wenden Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 

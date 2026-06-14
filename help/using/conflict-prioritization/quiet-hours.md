@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
-ht-degree: 82%
+source-wordcount: 948
+ht-degree: 80%
 
 ---
 
 # Festlegen von Ruhezeiten {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Definieren Sie zeitbasierte Ausschlüsse für E-Mail, SMS, Push-Benachrichtigungen und WhatsApp, damit Sie vermeiden können, dass Kundinnen und Kunden zu falschen Zeiten benachrichtigt werden, und ihren Präferenzen und Compliance-Anforderungen entsprechen.
+
+>[!ENDSHADEBOX]
 
 ## Was sind Ruhezeiten?
 

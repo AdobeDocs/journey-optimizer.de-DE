@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 98%
+source-wordcount: 993
+ht-degree: 95%
 
 ---
 
 # Journey-Begrenzung und -Steuerung {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie ein, wie viele Journey ein Profil gleichzeitig betreten oder dafür registriert sein kann, um Kommunikationsüberlastungen zu vermeiden und die wichtigsten Journey zu priorisieren.
+
+>[!ENDSHADEBOX]
 
 Mit der Journey-Begrenzung können Sie die Anzahl der Journeys einschränken, an denen ein Profil teilnehmen kann, wodurch eine Kommunikationsüberlastung verhindert wird. In Journey Optimizer können Sie zwei Arten von Begrenzungsregeln festlegen:
 
