@@ -10,35 +10,26 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 99%
+source-wordcount: 1988
+ht-degree: 95%
 
 ---
 
 # Erste Schritte mit Inhaltsexperimenten {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Inhaltsexperimente in Adobe Journey Optimizer randomisierte Tests verwenden, um Nachrichtenvarianten zu testen, wie Ergebnisse berechnet werden und wie Berichte interpretiert werden, um Ihre Kampagnen zu optimieren.
+
+>[!ENDSHADEBOX]
 
 ## Was ist ein Inhaltsexperiment?
 
@@ -113,13 +104,13 @@ So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrich
 
 +++Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
-Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Abwandlungen können Sie in der Zielmetrik erkennen. Wenn der Baseline-Wert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
-Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
+Wenn Sie Ihre Tests länger durchführen, können Sie kleinere Unterschiede in der Zielmetrik zwischen Behandlungen erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie größere Stichprobengrößen.
+Die Anzahl der Benutzenden, die in Ihr Experiment aufgenommen werden müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch positive und falsch negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner) verwenden](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++ 
 
 +++Verstehen Sie statistische Unsicherheiten
 
-Nehmen wir an, Sie haben ein Experiment durchgeführt, bei dem 1000 Benutzende eine Abwandlung gesehen haben, und die Konversionsrate liegt bei 5 %. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Was wäre die tatsächliche Konversionsrate?
+Wenn Sie ein Experiment durchführen, bei dem 1.000 Benutzende eine Behandlung gesehen haben, und die Konversionsrate auf 5 % eingestellt ist. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Wie hoch wäre die tatsächliche Konversionsrate?
 Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das Sie bei der Durchführung von Online-Experimenten verstehen müssen, ist, dass die beobachteten Konversionsraten mit einem Bereich zugrunde liegender realer Konversionsraten konsistent sind. Das bedeutet, dass Sie warten müssen, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
 +++
 
