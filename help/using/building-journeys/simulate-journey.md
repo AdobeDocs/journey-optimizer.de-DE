@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1916
+source-wordcount: 1945
 ht-degree: 1%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
+>* Um **[!UICONTROL Simulation]** zu verwenden, weisen Sie mindestens eine Berechtigung aus der **[!UICONTROL Journey]**-Funktion zu: **Journey simulieren**, **Journey** oder **Genehmigen und veröffentlichen**. Mit denselben Berechtigungen können Sie simulierte Benutzer erstellen und verwalten. **[!UICONTROL simulierte Benutzer]**-Berechtigungen sind nicht erforderlich. [Weitere Informationen](../administration/permissions.md)
 >
->Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
+>* Um simulierte Benutzer ohne **[!UICONTROL Simulation]** zu verwalten, weisen Sie **Simulierte Benutzer verwalten** oder **Simulierte Benutzer anzeigen** über die Funktion **[!UICONTROL Simulierte Benutzer]** zu.
+>
+>* Weisen Sie für KI in der Simulation **[!UICONTROL Schnellsimulation]** KI-generierte Benutzer, **[!UICONTROL Ereigniswerte generieren]**) **[!UICONTROL Inhalt generieren]** der Funktion **[!UICONTROL KI-Assistent]** zu.
 
 Verwenden Sie **[!UICONTROL Simulation]**, um Ihren Journey mit **simulierten Benutzern** vor der Veröffentlichung zu validieren. Diese Seite führt Sie durch **[!UICONTROL Schnellsimulation]** und **[!UICONTROL Manuelle Simulation]**, das Erstellen und Senden simulierter Benutzer, das Auslösen von Einzelereignissen, wenn Ihr Journey sie benötigt, und das **[!UICONTROL Ergebnisse]**-Protokoll.
 
@@ -79,12 +81,6 @@ Wählen Sie **[!UICONTROL Manuelle Simulation]** aus, wenn Sie jeden simulierten
 Fahren Sie mit [Erstellen und Verwalten simulierter Benutzer](#test-users), [Trigger Ihrer Ereignisse](#firing-events) und [Ergebnisse anzeigen](#viewing-results) fort.
 
 ## Erstellen und Verwalten simulierter Benutzer {#test-users}
-
->[!IMPORTANT]
->
->Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
->
->Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
 
 Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
 
@@ -213,13 +209,13 @@ Wenn Ihr Journey ein oder mehrere unitäre Ereignisse enthält, können Sie dies
 
 ## Anzeigen von Ergebnissen {#viewing-results}
 
-Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Wählen **[!UICONTROL in der Dropdown]** Liste Testbenutzer den simulierten Benutzer aus, dessen Ausführung Sie überprüfen möchten.
+Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Wählen **[!UICONTROL in der Dropdown]** Liste Testbenutzer den simulierten Benutzer aus, dessen Ausführung Sie überprüfen möchten. Wenn Sie einen einzelnen simulierten Benutzer auswählen, wird auf der Arbeitsfläche der exakte Pfad hervorgehoben, dem der Benutzer durch den Journey gefolgt ist. Auf diese Weise können Sie bestätigen, dass er den erwarteten Zweig begonnen hat.
 
-Wählen Sie **[!UICONTROL Alle]** aus, um die Ergebnisse für jeden simulierten Benutzer in der Ausführung aggregiert anzuzeigen. In dieser Ansicht können Sie die gesamte Simulation auf einen Blick scannen, einschließlich Aktivitäten, Ergebnisse und Fehler, ohne zuerst einen einzelnen simulierten Benutzer auszuwählen.
+Wählen Sie **[!UICONTROL Alle]** aus, um die Ergebnisse für jeden simulierten Benutzer in der Ausführung aggregiert anzuzeigen. Die Arbeitsfläche zeigt dann jeden Pfad an, der von der Ausführung abgedeckt wird. Dies hilft Ihnen, die Abdeckung aller Profile zu vergleichen und die gesamte Simulation auf einen Blick zu scannen, einschließlich Aktivitäten, Ergebnisse und Fehler, ohne zuerst einen einzelnen simulierten Benutzer auszuwählen.
 
 ![Registerkarte „Ergebnisse“ mit Simulationszusammenfassung, Testbenutzerfilter und Pfadabdeckung auf der Journey-Arbeitsfläche](assets/simulate-6-2.png)
 
-Für jede Aktivität kann das Protokoll anzeigen, ob der simulierte Benutzer in den Schritt eingetreten ist oder ihn verlassen hat, sowie auf Fehler, die während der Simulation aufgetreten sind.
+Für jede Aktivität kann das Protokoll anzeigen, ob der simulierte Benutzer in den Schritt eingetreten ist oder ihn verlassen hat, welche Zeitstempel und Verzweigungsentscheidungen für jeden Schritt getroffen wurden und welche Fehler während der Simulation aufgetreten sind.
 
 Bei **Warten**-Aktivitäten enthält das Protokoll zwei durationsbezogene Werte:
 

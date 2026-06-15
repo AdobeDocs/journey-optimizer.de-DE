@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
-ht-degree: 25%
+source-wordcount: 1258
+ht-degree: 24%
 
 ---
 
@@ -76,6 +76,7 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Berichte | **[!DNL View channel reports]**: Lesen und Bearbeiten von Kanalberichten. |
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL Reset sandboxes]**: Fähigkeit zum Zurücksetzen einer Sandbox.</br>**[!DNL Share sandboxes]**: Fähigkeit zum Freigeben einer Sandbox.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation. |
 | Sandbox-Administration | **[!DNL Export sandboxes]**: Fähigkeit zum Exportieren einer Sandbox.</br>**[!DNL Manage packages]**: Lesen, Erstellen, Bearbeiten und Löschen von Paketen.</br>**[!DNL Manage sandboxes]**: Lesen, Erstellen, Bearbeiten und Löschen von Sandboxes.</br>**[!DNL View sandboxes]**: Nur-Lese-Zugriff für Sandboxes Ihrer Organisation.</br>**[!DNL Reset sandboxes]**: Möglichkeit zum Zurücksetzen einer Sandbox. |
+| Simulierte Benutzer | **[!DNL Manage Simulated Users]**: Lesen, Erstellen und Bearbeiten simulierter Benutzer, die zum Testen von Journey in Simulation verwendet werden.</br>**[!DNL View Simulated Users]**: Nur-Lese-Zugriff auf simulierte Benutzer. |
 | Übersetzungsdienst | **[!DNL Manage translation in house]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungen intern.</br>**[!DNL Manage translation projects]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsprojekten.</br> **[!DNL Manage translation reviews]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsüberprüfungen.</br>**[!DNL Manage translation settings]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungseinstellungen.</br>**[!DNL Manage translation tasks]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsaufgaben.</br>**[!DNL View translation in house]**: Nur-Lese-Zugriff für Übersetzungen intern.</br>**[!DNL View translation projects]**: Nur-Lese-Zugriff für Übersetzungsprojekte.</br>**[!DNL View translation reviews]**: Nur-Lese-Zugriff für Übersetzungsüberprüfungen.</br>**[!DNL View translation tasks]**: Nur-Lese-Zugriff für Übersetzungsaufgaben. |
 
 {style="table-layout:fixed"}

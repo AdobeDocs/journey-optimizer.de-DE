@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1507
 ht-degree: 3%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
+>* Um **[!UICONTROL Simulation]** zu verwenden, weisen Sie mindestens eine Berechtigung aus der **[!UICONTROL Journey]**-Funktion zu: **Journey simulieren**, **Journey** oder **Genehmigen und veröffentlichen**. Mit denselben Berechtigungen können Sie simulierte Benutzer erstellen und verwalten. **[!UICONTROL simulierte Benutzer]**-Berechtigungen sind nicht erforderlich. [Weitere Informationen](../administration/permissions.md)
 >
->Um KI in **[!UICONTROL Simulation]** (**[!UICONTROL Schnellsimulation]**, Generieren simulierter Benutzer mit KI, **[!UICONTROL Ereigniswerte generieren]**) zu verwenden, benötigen Benutzer die Berechtigung **[!UICONTROL Inhalt generieren]** des **[!UICONTROL KI-Assistenten]**.
+>* Um simulierte Benutzer ohne **[!UICONTROL Simulation]** zu verwalten, weisen Sie **Simulierte Benutzer verwalten** oder **Simulierte Benutzer anzeigen** über die Funktion **[!UICONTROL Simulierte Benutzer]** zu.
+>
+>* Weisen Sie für KI in der Simulation **[!UICONTROL Schnellsimulation]** KI-generierte Benutzer, **[!UICONTROL Ereigniswerte generieren]**) **[!UICONTROL Inhalt generieren]** der Funktion **[!UICONTROL KI-Assistent]** zu.
 
 Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf**, **Testmodus** und **Live** einstellen. In der Simulation testen Sie mit **simulierten Benutzern** temporären profilähnlichen Entitäten, die Sie hinzufügen, ohne persistente Testprofile in Adobe Experience Platform zu verwenden.
 
