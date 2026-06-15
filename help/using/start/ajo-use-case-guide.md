@@ -136,4 +136,4 @@ Für die Verfolgung der Leistung, die Diagnose von Problemen und die Verbesserun
 
 Wenn Ihr Produktziel einem Begriff zugeordnet ist, mit dem Sie nicht vertraut sind, oder Sie sich nicht sicher sind, auf welche Funktion die Tabelle verweist, beginnen Sie mit der Seite [Journey Optimizer-Schlüsselterminologie](terminology.md), um die Konzepte hinter den einzelnen Funktionen zu verdeutlichen.
 
-Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials} können Sie auch praktisches Vertrauen ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
+Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials&rbrace; können Sie auch praktisches Vertrauen &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
