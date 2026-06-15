@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +92,7 @@ In dieser Version wird die folgende Funktion zur Entscheidungsfindung verwendet.
 </tbody>
 </table>
 
-* **Dynamische Angebotsattribute** - Angebotsattribute in Decisioning können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketer weniger, flexiblere Entscheidungselemente verwalten können.
-
-* **Frequenzlimitierung auf Platzierungsebene in Decisioning** - Frequenzlimitierungsregeln in Decisioning können jetzt auf einzelne Platzierungen angewendet werden, sodass Sie besser steuern können, wie oft ein Angebot auf einer bestimmten Oberfläche angezeigt wird. Zwei Modi sind verfügbar:
-
-   * Platzierungsspezifische Begrenzung: Definieren Sie eine Begrenzung, die nur gilt, wenn das Angebot an einer ausgewählten Platzierung angezeigt wird.
-   * Begrenzung pro Platzierung: Wenden Sie eine Begrenzung unabhängig auf jede Platzierung an, an der das Angebot angezeigt wird, sodass jede Platzierung ihren eigenen Begrenzungszähler beibehält.
+* **Dynamische Elementattribute** - Benutzerdefinierte Attribute von Entscheidungselementen können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketer weniger, flexiblere Entscheidungselemente verwalten können.
 
 ### E-Mail {#june-26-email}
 
@@ -115,7 +110,6 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen für den E-
 <p>Journey Optimizer bietet jetzt eine automatisierte technische Validierung direkt in der E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.</p>
 <p>Die Prüfungen umfassen nicht unterstützte Elemente wie <code>&lt;script&gt;</code>- und <code>&lt;base&gt;</code>-Tags, leere div-Tags, die das Layout in Microsoft Outlook beschädigen können, Meta-Aktualisierungs-Tags von HTML und CSS- oder HTML-Größenschwellen, die Trigger-Rendering-Fehler in Gmail verursachen.</p>
 <p>Ergebnisse werden direkt im Authoring-Bereich als Fehler, Warnungen oder informative Hinweise angezeigt. Dort sind kontextuelle Details und Fehlerbehebungen mit einem Klick verfügbar, sodass Probleme gelöst werden können, ohne den Editor zu verlassen.</p>
-<p>Weitere Informationen finden Sie im <a href="../email/content-check.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
