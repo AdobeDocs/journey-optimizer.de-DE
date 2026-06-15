@@ -31,7 +31,7 @@ KI ist in viele dieser Funktionen integriert - suchen Sie in den Tabellen unten 
 
 >[!TIP]
 >
->Neu bei Journey Optimizer? Durchsuchen Sie die vollständigen [Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}Tutorials (Videos und angeleitete exemplarische Vorgehensweisen), folgen Sie einer von [ kuratierten ](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} und üben Sie in einer [Trainings-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Neu bei Journey Optimizer? Durchsuchen Sie die vollständigen [Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}Tutorials (Videos und angeleitete exemplarische Vorgehensweisen), folgen Sie einer von [&#x200B; kuratierten &#x200B;](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} und üben Sie in einer [Trainings-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Kunden in Echtzeit ansprechen {#engage-real-time}
 
@@ -95,4 +95,4 @@ Performance verfolgen und verfeinern: [Live-Berichte](../reports/live-report.md)
 
 Wenn Ihr Produktziel einem Begriff zugeordnet ist, mit dem Sie nicht vertraut sind, oder Sie sich nicht sicher sind, auf welche Funktion die Tabelle verweist, beginnen Sie mit der Seite [Journey Optimizer-Schlüsselterminologie](terminology.md), um die Konzepte hinter den einzelnen Funktionen zu verdeutlichen.
 
-Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials} können Sie auch praktisches Vertrauen ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
+Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials&rbrace; können Sie auch praktisches Vertrauen &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
