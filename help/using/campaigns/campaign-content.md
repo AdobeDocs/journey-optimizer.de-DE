@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: 217
 ht-degree: 60%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 60%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Gestalten und testen Sie Ihren Kampagneninhalt für den ausgewählten Kanal, sodass jede Nachricht bereit ist, bevor Sie die Kampagne aktivieren.
+**Auf dieser Seite** Gestalten und testen Sie den Inhalt Ihrer Aktionskampagne für den ausgewählten Kanal, sodass jede Nachricht fertig ist, bevor Sie die Kampagne aktivieren.
 
 >[!ENDSHADEBOX]
 
