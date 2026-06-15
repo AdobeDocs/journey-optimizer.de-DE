@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 1356417d30312b74500dc930c92fe70e0d050a46
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 91%
+source-wordcount: 508
+ht-degree: 71%
 
 ---
 
@@ -66,6 +66,12 @@ ht-degree: 91%
    ![](assets/line-config-2.png)
 
 1. Wählen Sie Ihre **[!UICONTROL LINE-Benutzer-ID]** aus, die zugeordnet werden soll. Dies ist die Kennung, über die Nachrichten mit einzelnen Benutzenden in Ihrem LINE-Kanal verknüpft werden.
+
+   >[!NOTE]
+   >
+   >Die LINE-Benutzer-ID, die Sie hier zuordnen, muss bereits auf der [!DNL Real-Time Customer Profile] Ihrer Kunden vorhanden sein. Erfassen Sie die LINE-Benutzer-ID (z. B. über die LINE-Anmeldung oder die LIFF-SDK), nehmen Sie sie in Adobe Experience Platform auf und verknüpfen Sie sie mit einer bekannten Kennung mit Identity Service, damit [!DNL Journey Optimizer] das einheitliche Profil erreichen können. [Erfahren Sie mehr über Identität in Journey Optimizer](../audience/get-started-identity.md).
+   >
+   >Ein Beispiel für die Vereinheitlichung von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von Identity Service finden Sie im Community-Artikel [Vereinheitlichen von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von AEP-Identitätszuordnung](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=de){target="_blank"}.
 
 1. Geben Sie Ihren **[!UICONTROL Absendernamen]** ein, z. B. den Namen Ihrer Marke.
 
