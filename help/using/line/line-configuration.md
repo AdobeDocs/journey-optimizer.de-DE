@@ -71,7 +71,7 @@ ht-degree: 71%
    >
    >Die LINE-Benutzer-ID, die Sie hier zuordnen, muss bereits auf der [!DNL Real-Time Customer Profile] Ihrer Kunden vorhanden sein. Erfassen Sie die LINE-Benutzer-ID (z. B. über die LINE-Anmeldung oder die LIFF-SDK), nehmen Sie sie in Adobe Experience Platform auf und verknüpfen Sie sie mit einer bekannten Kennung mit Identity Service, damit [!DNL Journey Optimizer] das einheitliche Profil erreichen können. [Erfahren Sie mehr über Identität in Journey Optimizer](../audience/get-started-identity.md).
    >
-   >Ein Beispiel für die Vereinheitlichung von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von Identity Service finden Sie im Community-Artikel [Vereinheitlichen von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von AEP-Identitätszuordnung](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}.
+   >Ein Beispiel für die Vereinheitlichung von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von Identity Service finden Sie im Community-Artikel [Vereinheitlichen von LINE-Benutzer-IDs mit Kundenprofilen mithilfe von AEP-Identitätszuordnung](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=de){target="_blank"}.
 
 1. Geben Sie Ihren **[!UICONTROL Absendernamen]** ein, z. B. den Namen Ihrer Marke.
 
