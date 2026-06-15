@@ -31,7 +31,7 @@ KI ist in viele dieser Funktionen integriert - suchen Sie in den Tabellen unten 
 
 >[!TIP]
 >
->Neu bei Journey Optimizer? Durchsuchen Sie die vollständigen [Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}Tutorials (Videos und angeleitete exemplarische Vorgehensweisen), folgen Sie einer von [&#x200B; kuratierten &#x200B;](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} und üben Sie in einer [Trainings-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Neu bei Journey Optimizer? Durchsuchen Sie die vollständigen [Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}Tutorials (Videos und angeleitete exemplarische Vorgehensweisen), folgen Sie einer von [&#x200B; kuratierten &#x200B;](https://experienceleague.adobe.com/de/playlists?solution=Journey+Optimizer){target="_blank"} und üben Sie in einer [Trainings-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Kunden in Echtzeit ansprechen {#engage-real-time}
 
@@ -54,7 +54,7 @@ Für geplante Eins-zu-Viele-Kontakte zu einer definierten Zielgruppe.
 | Ich möchte… | Empfohlene Funktion | Hier beginnen |
 | --- | --- | --- |
 | Senden eines Newsletters oder einer Promotion an ein Segment | Geplante Kampagne | [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md) |
-| Produkt mit A/B-Test starten | Inhaltsexperiment-**(KI)** | [Erste Schritte mit Inhaltsexperimenten](../content-management/experiment-accelerator-gs.md) ・ [Erstellen von Inhaltsexperimenten für E-Mail-Kampagnen](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Produkt mit A/B-Test starten | Inhaltsexperiment-**(KI)** | [Erste Schritte mit Inhaltsexperimenten](../content-management/experiment-accelerator-gs.md) ・ [Erstellen von Inhaltsexperimenten für E-Mail-Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Kunden über einen Ausfall oder eine Service-Aktualisierung benachrichtigen | Geplante Kampagne + Audiences | [Info über Zielgruppen](../audience/about-audiences.md) |
 | Skalierte Koordination von Messaging über viele Kanäle | Orchestrierung | [Skalierung der Orchestrierung auf eine Omni-Channel-Interaktion](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | Senden Sie für jede Kundin und jeden Kunden jede Nachricht zur besten Zeit | Sendezeit-**(KI)** | [Versandzeitoptimierung](../building-journeys/send-time-optimization.md) |
