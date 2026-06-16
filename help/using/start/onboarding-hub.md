@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: Journey Optimizer, Onboarding, Onboarding-Hub, Anwendungsfälle, Videos, Tutorials, Erste Schritte, Anlauf, erste Journey
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,28 +18,33 @@ ht-degree: 12%
 
 # Journey Optimizer Onboarding-Hub {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **Auf dieser Seite:** Ramp up on Adobe Journey Optimizer fast - Sehen Sie sich eine kurze Einführung an, folgen Sie den schrittweisen Anweisungen, um Ihr erstes Erlebnis zu versenden, durchsuchen Sie Anwendungsfälle in der realen Welt und gehen Sie in kuratierte Videoinhalte ein.
 
 >[!ENDSHADEBOX]
 
+<!-- 
+rebuild
+-->
+
 Neu bei [!DNL Adobe Journey Optimizer]? In diesem Hub werden die Ressourcen zusammengestellt, die Ihnen dabei helfen, Ihr erstes Live-Kundenerlebnis zu schaffen - mit schrittweisen Anweisungen für gemeinsame Ziele, Anwendungsfällen aus der Praxis, die zeigen, was möglich ist, und kuratierten Videoinhalten (Tutorials, exemplarische Vorgehensweisen und praktische Übungen).
 
 >[!TIP]
 >
->Nicht sicher, welche Funktion zu Ihrem Ziel passt? Beginnen Sie mit dem [&#x200B; „Finden Sie die richtige Journey Optimizer-Funktion für Ihr &#x200B;](ajo-use-case-guide.md)&quot; und kehren Sie dann hierher zurück, um schrittweise Anleitungen zu erhalten.
+>Nicht sicher, welche Funktion zu Ihrem Ziel passt? Beginnen Sie mit dem [ „Finden Sie die richtige Journey Optimizer-Funktion für Ihr ](ajo-use-case-guide.md)&quot; und kehren Sie dann hierher zurück, um schrittweise Anleitungen zu erhalten.
 
 ## Hier beginnen: ansehen und lernen {#start-here}
 
 Beginnen Sie mit diesem Einführungsvideo, wenn Sie zehn Minuten Zeit haben. Er führt Sie durch die Benutzeroberfläche und hebt die wichtigsten Funktionen nach Rolle hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 Dann bauen Sie mit diesen Lernressourcen praktisches Vertrauen auf:
 
 * [Journey Optimizer-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - Schrittweise Videos und Anleitungen zu jeder Rolle.
-* [Expert-kuratierte Video-Wiedergabeliste](https://experienceleague.adobe.com/de/playlists?solution=Journey+Optimizer){target="_blank"} - Ein sequenzierter Satz von kurzen Videos, die in der richtigen Reihenfolge angesehen werden.
+* [Expert-kuratierte Video-Wiedergabeliste](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} - Ein sequenzierter Satz von kurzen Videos, die in der richtigen Reihenfolge angesehen werden.
 * [Trainings-Sandbox](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} - Eine sichere Umgebung mit Beispieldaten zum Üben.
 * [Praktische Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} - Wenden Sie Ihr Wissen mit geführten Übungen an.
 
@@ -52,8 +57,8 @@ Jede der folgenden Schritten ist kurz und ergebnisorientiert: Was Sie aufbauen w
 **Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.
 **Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
-1. Bestätigen Sie[&#x200B; dass Ihre einheitlichen Profile und &#x200B;](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
-2. [Erstellen Sie Ihre erste &#x200B;](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
+1. Bestätigen Sie[ dass Ihre einheitlichen Profile und ](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
+2. [Erstellen Sie Ihre erste ](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
 3. Fügen Sie eine Begrüßungs[E-Mail](../email/get-started-email.md), dann einen Warteschritt und eine Folgenachricht [Push-Benachrichtigung](../push/get-started-push.md) für Profile hinzu, die nicht interagiert haben.
 4. [Personalisieren des Inhalts](../personalization/personalize.md) mit Profilattributen wie Vorname und angegebenen Interessen.
 
@@ -76,8 +81,8 @@ Jede der folgenden Schritten ist kurz und ergebnisorientiert: Was Sie aufbauen w
 **Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.
 **Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** API-ausgelöste Kampagne
 
-1. Überprüfen Sie[&#x200B; wie API-ausgelöste Kampagnen &#x200B;](../campaigns/api-triggered-campaigns.md) und welche Payload sie erwarten.
-2. Gestalten Sie die Nachrichtenvorlage und [&#x200B; Sie &#x200B;](../personalization/personalize.md) mit den Transaktionsdetails.
+1. Überprüfen Sie[ wie API-ausgelöste Kampagnen ](../campaigns/api-triggered-campaigns.md) und welche Payload sie erwarten.
+2. Gestalten Sie die Nachrichtenvorlage und [ Sie ](../personalization/personalize.md) mit den Transaktionsdetails.
 3. Bitten Sie Ihren Entwickler, den Campaign-Endpunkt aus Ihrem Auftrags- oder Erfüllungssystem aufzurufen.
 
 ➡️ [Arbeiten mit API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
@@ -134,7 +139,7 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 >[!TAB Reporting und Optimierung]
 
 * [Überwachen und Analysieren Ihres Journey mit Live-Berichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - Verfolgen Sie die Performance in Echtzeit.
-* [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
+* [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
 
 >[!ENDTABS]
 
