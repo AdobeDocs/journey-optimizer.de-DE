@@ -6,9 +6,9 @@ description: Content-Management
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Mit den Content-Management-Funktionen von Adobe Journey Optimizer können Sie Inhalte nahtlos über Kampagnen, Kanäle und Regionen hinweg erstellen, personalisieren und organisieren. Ob Sie dynamische Nachrichten erstellen, wiederverwendbare Vorlagen entwickeln oder mit neuen Ideen experimentieren – in diesem Abschnitt finden Sie die Tools und Strategien, mit denen Sie Ihren Workflow optimieren und die Wirkung maximieren können. Tauchen Sie in Themen wie Personalisierung, mehrsprachige Inhalte, KI-gestützte Generierung und lösungsübergreifende Integrationen ein, um zu erfahren, wie diese Funktionen zusammenpassen, um maßgeschneiderte, ansprechende Kundenerlebnisse bereitzustellen. Mit praktischen Handbüchern und intuitiven Funktionen sind Sie bestens gerüstet, um Inhalte mit Zuversicht und Kreativität zu verwalten.
 
-## Funktionen für das Content-Management
+## Content-Management-Funktionen
 
 :::: landing-cards-container
 :::

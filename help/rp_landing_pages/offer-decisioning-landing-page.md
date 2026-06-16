@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Legacy" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 Mit dem Entscheidungs-Management in Adobe Journey Optimizer können Sie der richtigen Zielgruppe zum richtigen Zeitpunkt das richtige Angebot unterbreiten. Durch die Kombination von Tools zur Erstellung personalisierter Angebote, deren intelligentem Ranking mithilfe von KI oder benutzerdefinierten Regeln und der Analyse von Echtzeit-Feedback können Sie nahtlose, datengestützte Kundenerlebnisse über alle Kanäle hinweg erstellen. Dieser Abschnitt führt Sie durch die Erstellung grundlegender Komponenten wie Platzierungen und Entscheidungsregeln, die Integration von Kontext- und Ereignisdaten für ein präzises Targeting und die Nutzung von APIs für erweiterte Workflows. Ganz gleich, ob Sie E-Mail-Kampagnen entwerfen oder Web-Interaktionen optimieren – Sie erhalten umsetzbare Erkenntnisse und Strategien, um Ihre Entscheidungsfindung zu verbessern.
 
-## Funktionen zum Entscheidungs-Management
+## Funktionen für das Entscheidungs-Management
 
 :::: landing-cards-container
 :::

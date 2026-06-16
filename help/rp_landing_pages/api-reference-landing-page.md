@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: API-Referenz
-description: Erfahren Sie, wie Sie mit der Angebotsbibliotheks-API und den Bereitstellungs-APIs das Entscheidungs-Management in Ihre Workflows integrieren und personalisierte Angebote im benötigten Umfang bereitstellen können.
+description: Erfahren Sie, wie Sie mit der Angebotsbibliotheks-API und den Versand-APIs das Entscheidungs-Management in Ihre Workflows integrieren und personalisierte Angebote im benötigten Umfang bereitstellen können.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Legacy" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Unterbreiten von Angeboten mithilfe von Adobe Journey Optimizer-APIs
 
 Erfahren Sie mehr über die Implementierung von der Decisioning, Edge Decisioning und Batch Decisioning API zum Unterbreiten personalisierter Angebote.
 
-[Erkunden von Bereitstellungs-APIs](offer-delivery-api-landing-page.md)
+[Erkunden von Versand-APIs](offer-delivery-api-landing-page.md)
 :::
 
 :::
@@ -49,7 +49,7 @@ Erfahren Sie mehr über die Implementierung von der Decisioning, Edge Decisionin
 
 Erstellen und Verwalten von Angeboten mithilfe von APIs
 
-Zugriff auf API-Referenzen zum Verwalten von Platzierungen, Entscheidungsregeln, Sammlungsqualifizierern, personalisierten Angeboten, Sammlungen, Fallback-Angeboten und Entscheidungen.
+Greifen Sie auf API-Referenzen zu, um Platzierungen, Entscheidungsregeln, Sammlungsqualifizierer, personalisierte Angebote, Sammlungen, Fallback-Angebote und Entscheidungen zu verwalten.
 
 [Durchsuchen der Angebotsbibliotheks-API](../using/offers/api-reference/getting-started.md)
 :::

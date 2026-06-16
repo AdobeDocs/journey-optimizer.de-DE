@@ -6,9 +6,9 @@ description: Anwendungsfälle
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Hier finden Sie praktische Beispiele und Strategien zur Maximierung der Funktion
 
 Suchen nach Erlebnisereignissen
 
-Verwenden Sie Alternativen zu Erlebnisereignissen, um Opt-outs zu verwalten, Inhalte zu personalisieren und gängige Herausforderungen bei der Journey-Orchestrierung zu bewältigen.
+Verwenden Sie Alternativen für Erlebnisereignisse, um Opt-outs zu verwalten, Inhalte zu personalisieren und gängige Herausforderungen bei der Journey-Orchestrierung zu bewältigen.
 
 [Weitere Informationen](../using/building-journeys/exp-event-lookup.md)
 :::
@@ -62,7 +62,7 @@ Integration von Adobe Campaign mit Journey Optimizer zum Senden von E-Mail-Nachr
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
-Senden einer Nachricht an Abonnenten
+Senden einer Nachricht an Abonnentinnen und Abonnenten
 
 Richten Sie Journeys so ein, dass Nachrichten basierend auf Voreinstellungen und dynamisch abgerufenen Daten an Abonnentinnen und Abonnenten gesendet werden.
 

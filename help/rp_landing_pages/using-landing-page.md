@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
-workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 459
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 - **[Verwalten der Zugriffssteuerung](access-control-landing-page.md)**: Steuern Sie Benutzerzugriff, Rollen und Berechtigungen zum Schutz von Daten und zur Sicherstellung von Governance.
 - **[Datenschutz, Einverständnis und Data Governance](privacy-landing-page.md)**: Verwalten Sie Datenschutz, Einverständnis und Governance, sodass Vorschriften eingehalten und vertrauliche Informationen geschützt werden.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
@@ -111,7 +111,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressourcen für Entwickelnde</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
 </td>
 </tr></table>
 

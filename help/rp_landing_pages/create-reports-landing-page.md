@@ -7,13 +7,13 @@ redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="Vorgängerversion" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
-# Erstellen von Entscheidungs-Management-Berichten{#section-overview}
+# Erstellen von Berichten zum Entscheidungs-Management{#section-overview}
 
 >[!TIP]
 >
@@ -21,7 +21,7 @@ ht-degree: 53%
 
 Verwenden Sie Entscheidungs-Management-Ereignisdaten und das DecisioningEvents-XDM-Schema, um benutzerdefinierte Berichte in Adobe Journey Optimizer zu erstellen. In diesem Abschnitt wird beschrieben, wie Sie mit Ereignis-Datensätzen arbeiten und auf die XDM-Felder zugreifen, die zur Analyse der Angebotsauswahl, der Fallback-Nutzung und der Platzierungseffektivität erforderlich sind.
 
-## Erstellen von Entscheidungs-Management-Berichten
+## Erstellen von Berichten zum Entscheidungs-Management
 
 :::: landing-cards-container
 :::

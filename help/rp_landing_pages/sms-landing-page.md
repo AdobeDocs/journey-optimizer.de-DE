@@ -6,17 +6,17 @@ description: SMS-/MMS-/RCS-Kanal
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # SMS-/MMS-/RCS-Kanal{#section-overview}
 
-Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, Kunden durch personalisierte Mobile Messaging direkt auf ihren Mobilgeräten anzusprechen. Egal, ob Sie einfache Updates per SMS, Multimedia-Inhalte über MMS oder interaktive, markenspezifische Nachrichten mit RCS versenden, dieser Kanal bietet vielseitige Möglichkeiten, sich zu verbinden. Sie erfahren, wie Sie Dienstleister konfigurieren, Nachrichten erstellen und personalisieren, sie in Kampagnen oder Journey integrieren und die Einhaltung der Opt-out-Verwaltung sicherstellen können. Lernen Sie außerdem, wie Sie Ihre Kommunikationen testen, senden und verwalten können, um maximale Wirkung zu erzielen. So können Sie ganz einfach zeitnahe, relevante Nachrichten versenden, die Ihre Zielgruppe ansprechen.
+Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunden durch personalisiertes Mobile Messaging direkt auf ihren Mobilgeräten anzusprechen. Ob Sie einfache Updates per SMS, Multimedia-Inhalte über MMS oder interaktive, markenspezifische Nachrichten mit RCS versenden: Dieser Kanal bietet vielseitige Möglichkeiten, sich zu verbinden. Sie erfahren, wie Sie Dienstanbieter konfigurieren, Nachrichten erstellen und personalisieren, sie in Kampagnen oder Journeys integrieren und die Konformität mit der Opt-out-Verwaltung sicherstellen können. Lernen Sie außerdem, wie Sie Ihre Kommunikationen testen, senden und verwalten können, um maximale Wirkung zu erzielen. So können Sie ganz einfach zeitnahe, relevante Nachrichten versenden, die Ihre Zielgruppe ansprechen.
 
-## SMS-/MMS-/RCS-Kanalübersicht
+## SMS-/MMS-/RCS-Kanal – Überblick
 
 :::: landing-cards-container
 :::

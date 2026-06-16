@@ -6,15 +6,15 @@ description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Adobe Journey Optimizer{#get-started}
 
-Mit Adobe Journey Optimizer können Sie personalisierte Kundenerlebnisse in Echtzeit über jeden Kanal hinweg bereitstellen - von einer einzigen Anwendung aus und in jedem Maßstab. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Lebenszeitwert steigern.
+Mit Adobe Journey Optimizer können Sie auf allen Kanälen personalisierte Kundenerlebnisse in Echtzeit bereitstellen – über eine einzige Anwendung und im benötigten Umfang. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Lebenszeitwert steigern.
 
 Unabhängig davon, ob Sie neu bei Journey Optimizer sind oder bereits Erfahrung damit haben und Ihre Kenntnisse erweitern möchten, finden Sie in diesem Abschnitt alles, was Sie für einen schnellen und effektiven Einstieg benötigen.
 
@@ -144,7 +144,7 @@ Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizi
 
 Häufig gestellte Fragen zur Fehlerbehebung
 
-Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängige Probleme auf allen Kanälen und in allen Funktionen.
+Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängige Probleme mit verschiedenen Kanälen und Funktionen.
 
 [Handbuch zur Fehlerbehebung anzeigen](../using/start/troubleshooting.md)
 :::
@@ -159,7 +159,7 @@ Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängi
 * **[Funktionen zur Barrierefreiheit](../using/start/accessibility.md)**: Erfahren Sie mehr über Funktionen zur Barrierefreiheit und die Einhaltung von WCAG-Standards, um Inklusivität für Benutzenden zu gewährleisten.
 * **[Handbuch zur Fehlerbehebung](../using/start/troubleshooting.md)**: Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängige Probleme
 
-### Lernen und Support erhalten
+### Lernen und Erhalten von Unterstützung
 
 * **[Video-Tutorials](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de){target="_blank"}**: Detaillierte Video-Tutorials zu den wichtigsten Funktionen
 * **[Playbooks für Anwendungsfälle](../using/start/ai-features.md#playbooks)**: Vorkonfigurierte Workflows für gängige Szenarien wie das Wiederherstellen von abgebrochenen Warenkörben und Willkommenskampagnen
@@ -168,13 +168,13 @@ Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängi
 * **[Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}**: Treten Sie mit anderen Benutzenden in Kontakt, stellen Sie Fragen und tauschen Sie Best Practices aus
 * **[Aktualisierungen der Dokumentation](../using/rn/documentation-updates.md)**: Bleiben Sie über aktuelle Änderungen und Ergänzungen der Dokumentation auf dem Laufenden
 
-## Bereit für den Einstieg?
+## Bereit zum Loslegen? 
 
 Wählen Sie den für Sie passenden Pfad:
 
-* **Neu bei Journey Optimizer?** Beginnen Sie mit [Was ist Journey Optimizer?](../using/start/get-started.md) Grundlagen
-* **Kennen Sie Ihre Rolle?** Wechseln Sie zu [rollenspezifischen Handbuch](../using/start/quick-start.md) das Ihren Verantwortlichkeiten entspricht.
-* **Möchten Sie erkunden?** Durchsuchen Sie die [KI-Funktionen](../using/start/ai-features.md) oder versuchen Sie [Nutzungsszenario-Playbooks](../using/start/ai-features.md#playbooks)
+* **Neu bei Journey Optimizer?** Beginnen Sie mit [Was ist Journey Optimizer?](../using/start/get-started.md), um die Grundlagen kennenzulernen.
+* **Sie kennen Ihre Rolle?** Fahren Sie mit dem [rollenspezifischen Handbuch](../using/start/quick-start.md) fort, das zu Ihren Verantwortlichkeiten passt
+* **Sie möchten mehr erkunden?** Schauen Sie sich die [KI-Funktionen](../using/start/ai-features.md) an oder probieren Sie die [Playbooks für Anwendungsfälle](../using/start/ai-features.md#playbooks) aus
 * **Benötigen Sie Hilfe?** Lesen Sie das [Handbuch zur Fehlerbehebung](../using/start/troubleshooting.md) oder besuchen Sie das [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
 
 ## Schnell-Links {#quick-links}

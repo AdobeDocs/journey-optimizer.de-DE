@@ -6,15 +6,15 @@ description: Aktivitäten
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Aktivitäten{#section-overview}
 
-Aktivitäten in Adobe Journey Optimizer sind die Bausteine, die Ihre Customer Journeys zum Leben erwecken, indem sie es Ihnen ermöglichen, Ereignisse auszulösen, Entscheidungen zu treffen und sinnvolle Maßnahmen über alle Kanäle hinweg zu ergreifen. Ob es darum geht, auf ein Kaufereignis zu reagieren, eine personalisierte E-Mail zu versenden oder ein Profil in Echtzeit zu aktualisieren – mit Aktivitäten können Sie jeden Schritt der Journey individuell anpassen. Jede Art von Aktivität – wie Ereignis, Orchestrierung oder Aktion – spielt eine einzigartige Rolle und trägt dazu bei, nahtlose, ansprechende Erlebnisse zu schaffen. Wenn Sie diese Tools erkunden, erfahren Sie, wie Sie mit Triggern, Bedingungen und Aktionen Journey erstellen können, die so dynamisch sind wie die Anforderungen Ihrer Kunden.
+Aktivitäten in Adobe Journey Optimizer sind die Bausteine, die Ihre Customer Journeys zum Leben erwecken, indem sie es Ihnen ermöglichen, Ereignisse auszulösen, Entscheidungen zu treffen und sinnvolle Maßnahmen über alle Kanäle hinweg zu ergreifen. Ob es darum geht, auf ein Kaufereignis zu reagieren, eine personalisierte E-Mail zu versenden oder ein Profil in Echtzeit zu aktualisieren – mit Aktivitäten können Sie jeden Schritt der Journey individuell anpassen. Jede Art von Aktivität – wie Ereignis, Orchestrierung oder Aktion – spielt eine einzigartige Rolle und trägt dazu bei, nahtlose, ansprechende Erlebnisse zu schaffen. Beim Erkunden dieser Tools erfahren Sie, wie Sie mit Triggern, Bedingungen und Aktionen Journeys erstellen können, die ebenso dynamisch sind wie die Bedürfnisse Ihrer Kundschaft.
 
 ## Aktivitäten in Adobe Journey Optimizer
 
@@ -66,7 +66,7 @@ Verwenden der Aktivität „Optimieren“ (Bedingungen)
 
 Definieren Sie mehrere Pfade in einer Journey basierend auf Kriterien wie Zeit, Datenquelle oder prozentualer Aufspaltung.
 
-[Konfigurieren und Optimieren von Bedingungen](../using/building-journeys/optimize.md)
+[Konfigurieren von „Optimieren“ und Bedingungen](../using/building-journeys/optimize.md)
 :::
 
 :::
@@ -85,7 +85,7 @@ Steuern Sie das Timing in Journeys mit Dauer oder benutzerdefinierten Wartezeite
 ## Weitere Ressourcen
 
 - **[Verwenden einer Zielgruppe in einer Journey](../using/building-journeys/read-audience.md)** – Ermöglichen Sie es Personen aus Adobe Experience Platform-Zielgruppen, dynamisch in Journeys einzutreten.
-- **[Integrierte Kanalaktionen](../using/building-journeys/journey-action.md)** - Verwenden Sie mithilfe der integrierten Funktionen von Journey Optimizer Journey, um Nachrichten oder Erlebnisse per E-Mail, SMS, Push-Benachrichtigungen, In-App-, Web-, Code-basierte Erlebnisse oder Inhaltskarten zu versenden.
+- **[Integrierte Kanalaktionen](../using/building-journeys/journey-action.md)** – Nutzen Sie Journeys zum Versand von Nachrichten oder Erlebnissen per E-Mail, SMS-, Push-Benachrichtigungen, In-App-, Web- und Code-basierten Erlebnissen oder Inhaltskarten mit den integrierten Funktionen von Journey Optimizer.
 - **[Verwenden benutzerdefinierter Aktionen](../using/building-journeys/using-custom-actions.md)** – Integrieren Sie Drittanbietersysteme mithilfe von REST-APIs mit dynamischen Pfaden, Headern und Abfrageparametern.
 - **[Aktivität „Inhaltsentscheidung“](../using/building-journeys/content-decision.md)** – Stellen Sie mithilfe von Entscheidungsrichtlinien und Inhaltsstrategien personalisierte Angebote in Journeys bereit.
 - **[Adobe Campaign Standard-Aktionen](../using/building-journeys/using-adobe-campaign-standard.md)** – Senden Sie Transaktions-E-Mails, SMS und Push-Benachrichtigungen über die Integration mit Adobe Campaign Standard.

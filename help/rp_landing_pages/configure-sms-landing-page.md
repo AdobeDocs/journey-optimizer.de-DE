@@ -6,15 +6,15 @@ description: Konfigurieren des SMS-/MMS-/RCS-Kanals
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren des SMS-/MMS-/RCS-Kanals{#section-overview}
 
-Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Unternehmen, sich über Mobile Messaging für Transaktionswarnungen oder Marketing-Kampagnen mit Kunden zu verbinden. Unabhängig davon, ob Sie einfache SMS-Benachrichtigungen, Multimedia-SMS-Nachrichten oder interaktive RCS-Funktionen wie Markenprofile senden, dieses Handbuch führt Sie durch alle Schritte zur Konfiguration Ihrer Messaging-Kanäle. Sie erfahren, wie Sie gängige Anbieter wie Sinch, Twilio und Infobip integrieren oder einen benutzerdefinierten Anbieter für maßgeschneiderte Messaging-Anforderungen einrichten können. Mit klaren Anweisungen, praktischen Beispielen und Einblicken in Berechtigungen und Einstellungen können Sie sich darauf verlassen, dass die Textkommunikation Ihren Zielen entspricht.
+Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Unternehmen, sich über Mobile Messaging für Transaktionswarnungen oder Marketing-Kampagnen mit Kundinnen und Kunden zu verbinden. Ob Sie einfache SMS-Benachrichtigungen oder multimediale MMS-Nachrichten versenden oder interaktive RCS-Funktionen wie Markenprofile nutzen – dieses Handbuch führt Sie Schritt für Schritt durch die Konfiguration Ihrer Messaging-Kanäle. Sie erfahren, wie Sie beliebte Anbieter wie Sinch, Twilio und Infobip integrieren oder für maßgeschneiderte Messaging-Anforderungen einen benutzerdefinierten Anbieter einrichten können. Mit klaren Anweisungen, praktischen Beispielen und Informationen zu Berechtigungen und Einstellungen können Sie sich darauf verlassen, dass Sie eine Textkommunikation einrichten, die Ihren Zielen entspricht.
 
 ## Konfigurieren des SMS-/MMS-/RCS-Kanals
 

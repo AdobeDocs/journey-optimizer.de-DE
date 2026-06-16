@@ -6,9 +6,9 @@ description: Mehrsprachige Inhalte
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Die Funktion für mehrsprachige Inhalte in Adobe Journey Optimizer ermöglicht es Ihnen, personalisierte Erlebnisse für globale Zielgruppen bereitzustellen, indem Sie Inhalte in mehreren Sprachen erstellen. Unabhängig davon, ob Sie sich für manuelle Übersetzungen oder automatisierte Workflows entscheiden, vereinfacht dieses Tool den Prozess der Anpassung von Kampagnen an verschiedene Gebietsschemata. Sie erfahren, wie Sie Spracheinstellungen konfigurieren, Übersetzungsdienstleister einrichten und die Erstellung und Überprüfung mehrsprachiger Inhalte verwalten. Von der Hinzufügung neuer Sprachversionen bis hin zur Nutzung von Fallback-Einstellungen – jedes Thema wird Ihnen dabei helfen, Ihre Nachrichten effizient zu lokalisieren und mit den Benutzenden in ihrer bevorzugten Sprache zu kommunizieren.
 
-## Mehrsprachige Inhalte - Übersicht
+## Mehrsprachige Inhalte – Überblick
 
 :::: landing-cards-container
 :::

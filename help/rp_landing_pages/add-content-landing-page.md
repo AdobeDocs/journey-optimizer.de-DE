@@ -6,9 +6,9 @@ description: Gestalten Ihrer Inhalte
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -72,11 +72,11 @@ Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
 
-Optimieren von E-Mail-Text für KI-Posteingänge
+Optimieren von E-Mail-Texten für KI-Posteingänge
 
-Strukturieren Sie die Textebene Ihrer E-Mail, damit KI-unterstützte Posteingangskunden Ihre Angebote und Aktionsaufrufe besser zusammenfassen und extrahieren können.
+Strukturieren Sie die Textebene Ihrer E-Mail, damit KI-unterstützte Posteingangs-Clients Ihre Angebote und Aktionsaufrufe besser zusammenfassen und extrahieren können.
 
-[Optimieren von E-Mail-Text für KI-Posteingänge](../using/email/llm-email-optimizer.md)
+[Optimieren von E-Mail-Texten für KI-Posteingänge](../using/email/llm-email-optimizer.md)
 :::
 
 :::

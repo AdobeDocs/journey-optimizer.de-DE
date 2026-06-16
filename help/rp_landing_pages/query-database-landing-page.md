@@ -6,9 +6,9 @@ description: Abfragen der Datenbank
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Entdecken Sie mit den leistungsstarken Datenbankabfrage-Tools von Adobe Journey 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
-Verwenden des Regel-Builders für koordinierte Kampagnen
+Verwenden des Regel-Builders für orchestrierte Kampagnen
 
 Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln für Zielgruppen-Targeting und -segmentierung erstellen und verwalten.
 
@@ -54,7 +54,7 @@ Beherrschen Sie den Ausdruckseditor, um Abfrageregeln manuell zu definieren und 
 
 Erstellen von Retargeting-Abfragen in Adobe Journey Optimizer
 
-Erstellen Sie Retargeting-Regeln auf der Grundlage von Feedback nach einem Versand und von Daten zur Benutzerinteraktion für orchestrierte Kampagnen. 
+Erstellen Sie Retargeting-Regeln auf der Grundlage von Feedback nach einem Versand und von Daten zur Benutzerinteraktion für orchestrierte Kampagnen.
 
 [Informationen zum Retargeting](../using/orchestrated/retarget.md)
 :::

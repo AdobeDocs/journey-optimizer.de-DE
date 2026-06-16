@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Legacy" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von Entscheidungen Ihrer Kundschaft zum richtigen Zeitpunkt die relevantesten Angebote unterbreiten. Entscheidungen fungieren als intelligente Container, die Kundendaten und Geschäftsregeln auswerten, um das beste Angebot für jede Person auszuwählen. Sie erfahren, wie Sie Entscheidungsumfänge definieren, Ranking-Methoden wie Priorität oder KI konfigurieren und Fallback-Optionen festlegen, um sicherzustellen, dass keine Kundin und kein Kunde ohne Angebot bleibt. Von der Erstellung Ihrer ersten Entscheidung bis zum Testen mit Simulationen enthält dieses Handbuch alle Schritte, sodass Sie die Tools zur Personalisierung von Erlebnissen und zur Förderung einer sinnvollen Interaktion erhalten.
 
-## Entscheidungen erstellen und verwalten
+## Erstellen und Verwalten von Entscheidungen
 
 :::: landing-cards-container
 :::

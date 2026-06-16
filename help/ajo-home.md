@@ -6,9 +6,9 @@ description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressourcen für Entwickelnde</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
 </td>
 </tr></table>
 

@@ -6,9 +6,9 @@ description: Erstellen von Ausdrücken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Adobe Journey Optimizer enthält einen **erweiterten Ausdruckseditor** mit dem Sie innerhalb von Journeys eine komplexe Logik erstellen können, die präzise Personalisierung und Orchestrierung ermöglicht. Sie können Bedingungen definieren, Aktionsparameter zuordnen und Ereignis- oder externe Daten in eine umsetzbare Logik umwandeln. Dieser Abschnitt enthält detaillierte Anleitungen zur Ausdruckssyntax, einschließlich Operatoren, Datentypen und bedingten Workflows, sowie Funktionen für Aufgaben wie Datenaggregation, Datumsverarbeitung und Zeichenfolgenbearbeitung. Diese Tools unterstützen erweiterte Anwendungsfälle und bieten technischen Benutzenden die Möglichkeit, Journeys an spezifische Geschäftsanforderungen anzupassen.
 
-## Erkunden der Ausdrucksbildung in Adobe Journey Optimizer
+## Informationen zur Ausdruckserstellung in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::

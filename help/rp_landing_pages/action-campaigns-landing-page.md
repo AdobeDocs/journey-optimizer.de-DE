@@ -6,9 +6,9 @@ description: Aktionskampagnen
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerichtete Nachrichten für Batch-Kommunikationen wie Werbeaktionen, Updates oder rechtliche Hinweise versenden. Diese Kampagnen wurden im Hinblick auf Flexibilität entwickelt. Sie ermöglichen es Ihnen, Eigenschaften zu definieren, Kommunikationskanäle auszuwählen, Inhalte zu optimieren, Zielgruppen festzulegen, den Versand zu planen und Kampagnen mühelos zu aktivieren. Ganz gleich, ob Sie mehrsprachige Inhalte erstellen, Varianten testen oder dringende Benachrichtigungen priorisieren – jeder Schritt trägt dazu bei, eine wirkungsvolle und personalisierte Kommunikation zu schaffen. In diesem Abschnitt wird der Prozess in überschaubare Schritte unterteilt, die Sie von der Planung bis zur Ausführung begleiten, sodass Sie mit Zuversicht Kampagnen entwerfen können, die bei Ihrer Zielgruppe Anklang finden und Ergebnisse erzielen.
 
-## Aktionskampagnen-Ressourcen
+## Ressourcen für Aktionskampagnen
 
 :::: landing-cards-container
 :::
@@ -84,5 +84,5 @@ Wählen Sie die Zielgruppe und den Identitätstyp für Ihre Kampagne aus, um ein
 
 ## Weitere Ressourcen
 
-- **[Aktionskampagne planen](../using/campaigns/campaign-schedule.md)** - Konfigurieren Sie das Start- und Enddatum, die Häufigkeit und die kanalspezifische Planung für Ihre Kampagne.
-- **[Kampagne überprüfen und aktivieren](../using/campaigns/review-activate-campaign.md)** - Validieren, überprüfen und aktivieren Sie Ihre Kampagne mit einer schrittweisen Anleitung.
+- **[Planen der Aktionskampagne](../using/campaigns/campaign-schedule.md)** – Konfigurieren Sie Start- und Enddatum, Häufigkeit und die kanalspezifische Planung für Ihre Kampagne.
+- **[Überprüfen und Aktivieren der Aktionskampagne](../using/campaigns/review-activate-campaign.md)** – Überprüfen, validieren und aktivieren Sie Ihre Aktionskampagne mit Schritt-für-Schritt-Anweisungen.

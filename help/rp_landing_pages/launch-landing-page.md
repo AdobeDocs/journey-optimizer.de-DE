@@ -6,9 +6,9 @@ description: Starten Ihrer ersten orchestrierten Kampagne
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Erfahren Sie, wie Sie Ihre orchestrierten Kampagnen für eine erfolgreiche Ausf�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
-Berichte für orchestrierte Kampagnen
+Reporting für orchestrierte Kampagnen
 
 Greifen Sie mit detaillierten Berichten für Ihre orchestrierten Kampagnen auf umsetzbare Erkenntnisse und Leistungskennzahlen zu.
 

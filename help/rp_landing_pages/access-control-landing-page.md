@@ -6,9 +6,9 @@ description: Zugriffssteuerung
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Admins, den Benutzerzugriff gemäß den Anforderungen und Governance-Standards des Unternehmens zu verwalten. Mit **Rollen**, **Berechtigungen**, **Sandboxes** und erweiterten Modellen wie objektbasierten und attributbasierten Steuerelementen können Sie den Zugriff so anpassen, dass vertrauliche Daten geschützt werden und gleichzeitig die Zusammenarbeit ermöglicht wird. Integrierte Rollen vereinfachen die Einrichtung, während benutzerdefinierte Berechtigungen und Labels eine präzisere Steuerung bieten. Diese Tools tragen dazu bei, ein ausgewogenes Verhältnis zwischen Sicherheit und Flexibilität zu erzielen, sodass Teams den Zugriff erhalten, den sie benötigen, ohne die Einhaltung von Vorschriften zu beeinträchtigen.
 
-## Funktionen zur Zugriffssteuerung
+## Zugriffssteuerungsfunktionen
 
 :::: landing-cards-container
 :::

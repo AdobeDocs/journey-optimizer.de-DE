@@ -6,9 +6,9 @@ description: Personalisierung
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Personalisierung in Adobe Journey Optimizer ermöglicht es Ihnen, maßgeschneiderte, wirkungsvolle Kundenerlebnisse zu erstellen, indem Sie Inhalte basierend auf individuellen Profilen, Verhaltensweisen und kontextuellen Daten dynamisch anpassen. Ganz gleich, ob Sie personalisierte E-Mails, Benachrichtigungen oder Angebote erstellen – mit den bereitgestellten Tools und Techniken können Sie ganz einfach die richtige Botschaft zur richtigen Zeit an die richtige Person übermitteln. Erfahren Sie, wie der Personalisierungseditor, die Handlebars-Syntax und die Daten von Adobe Experience Platform zusammenwirken, um Ihre Ideen zum Leben zu erwecken, wiederverwendbare Inhaltsblöcke mit Ausdrucksfragmenten zu erkunden und in erweiterte Hilfsfunktionen einzutauchen, um noch mehr Möglichkeiten zu erschließen. Bei jedem Thema werden Ihre Kenntnisse Schritt für Schritt aufgebaut, um sicherzustellen, dass Sie bereit sind, mit Zuversicht personalisierte Journeys zu entwerfen.
 
-## Personalization-Funktionen und -Handbücher
+## Personalisierungsfunktionen und -handbücher
 
 :::: landing-cards-container
 :::
@@ -66,7 +66,7 @@ Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)
 
 Erfahren Sie, wie Sie AEP-Datensätze mit der Hilfsfunktion „datasetLookup“ verwenden können, um Inhalte dynamisch zu personalisieren.
 
-[AEP-Daten für die Personalisierung verwenden](../using/personalization/aep-data-perso.md)
+[Verwenden von AEP-Daten für die Personalisierung](../using/personalization/aep-data-perso.md)
 :::
 
 :::

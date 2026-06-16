@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Technotes
-description: Erfahren Sie mehr über die statistischen Methoden hinter Journey Optimizer-Experimenten, einschließlich Konfidenzsequenzen, Steigerungsberechnungen und Konversionsraten.
+description: Erfahren Sie mehr über die statistischen Methoden hinter Journey Optimizer-Experimenten, einschließlich Konfidenzsequenzen, Anstiegsberechnungen und Konversionsraten.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # Technotes{#section-overview}
 
-In diesen technischen Anmerkungen werden die statistischen Methoden erläutert, die beim Experimentieren und Reporting mit Adobe Journey Optimizer verwendet werden. Verwenden Sie sie, um zu verstehen, wie Experimente überwacht werden, wie Metriken wie Steigerung und Konversionsrate berechnet werden und wie Ergebnisse mit Konfidenz interpretiert werden.
+In diesen technischen Anmerkungen werden die statistischen Methoden erläutert, die beim Experimentieren und Reporting mit Adobe Journey Optimizer verwendet werden. Verwenden Sie sie, um zu verstehen, wie Experimente überwacht werden, wie Metriken wie Steigerung und Konversionsrate berechnet werden und wie Ergebnisse fundiert interpretiert werden.
 
 ## Technotes
 

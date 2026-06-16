@@ -6,17 +6,17 @@ description: Verwalten von relationalen Schemata und Datensätzen
 redpen-status: CREATED_||_2025-08-11_20-23-42
 exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
-# Verwalten relationaler Schemata und Datensätze{#section-overview}
+# Verwalten von relationalen Schemata und Datensätzen{#section-overview}
 
 Die Verwaltung relationaler Schemata und Datensätze in Adobe Journey Optimizer hilft Ihnen, Ihre Daten für wirkungsvolle, personalisierte Kampagnen zu strukturieren und zu organisieren. Ganz gleich, ob Sie Datenbeziehungen manuell oder mithilfe von DDL-Dateien definieren – diese Schemata bilden die Grundlage für das nahtlose Verbinden von Kundeneinträgen und Kampagnendaten. Außerdem erfahren Sie, wie Sie Datensätze erstellen und Daten aus verschiedenen Quellen aufnehmen, um sicherzustellen, dass sie für die Echtzeit-Orchestrierung und -Targeting bereit sind. In jedem Thema – von der Schemaerstellung bis zur Verknüpfung und Datenaufnahme – werden Sie Schritt für Schritt angeleitet, sodass Sie Rohdaten sicher in umsetzbare Erkenntnisse umwandeln und außergewöhnliche Kundenerlebnisse bereitstellen können.
 
-## Verwalten relationaler Schemata und Datensätze
+## Verwalten von relationalen Schemata und Datensätzen
 
 :::: landing-cards-container
 :::

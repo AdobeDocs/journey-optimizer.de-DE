@@ -6,9 +6,9 @@ description: Inhaltsexperimente
 redpen-status: CREATED_||_2025-08-12_00-44-26
 exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '215'
+ht-degree: 100%
 
 ---
 

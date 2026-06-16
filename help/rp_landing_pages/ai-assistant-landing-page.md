@@ -6,9 +6,9 @@ description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von Inhalten, indem er generative KI nutzt, um personalisierte Texte und Grafiken für E-Mails, SMS, Push-Benachrichtigungen, Web-Seiten und mehr zu erstellen. Unabhängig davon, ob Sie vollständige Kampagnen generieren oder bestimmte Assets verfeinern, hilft Ihnen diese Funktion, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei noch Zeit zu sparen. Sie erfahren, wie Sie auf den KI-Assistenten zugreifen, die Schutzmaßnahmen verstehen und die Funktionen kanalübergreifend nutzen können. Jedes Unterthema bietet praktische Anleitungen – von der Erstellung ansprechender E-Mails bis hin zum Experimentieren mit Inhaltsvarianten –, damit Sie mit Zuversicht wirkungsvolle, markengerechte Kampagnen erstellen können, die bei Ihrer Zielgruppe Anklang finden.
 
-## KI-Assistent für die Inhaltserstellung
+## KI-Assistent für die Inhaltsgenerierung
 
 :::: landing-cards-container
 :::

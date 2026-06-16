@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Konfigurieren von Landingpages
-description: Erfahren Sie, wie Sie Landingpage-Subdomains und Voreinstellungen in Journey Optimizer konfigurieren, um Ihre Landingpages konsistent zu hosten, zu marken und zu verwalten.
+description: Erfahren Sie, wie Sie Landingpage-Subdomains und Voreinstellungen in Journey Optimizer konfigurieren, um Ihre Landingpages konsistent zu hosten, markenkonform zu gestalten und zu verwalten.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 30%
+workflow-type: ht
+source-wordcount: '187'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ Durch die Konfiguration von Landingpages in Adobe Journey Optimizer können Sie 
 
 Dieser Abschnitt behandelt zwei Bereiche:
 
-* **Subdomains** - Legen Sie fest, wo Ihre Landingpages gehostet werden. Erfahren Sie, wie Sie Domain-Einstellungen für Ihre Landingpages delegieren, konfigurieren oder die Delegierung aufheben.
-* **Voreinstellungen** - Definieren Sie wiederverwendbare Konfigurationen (einschließlich Subdomain- und anderen Kanaleinstellungen), damit Sie Landingpages konsistent erstellen und verwalten können.
+* **Subdomains** – Legen Sie fest, wo Ihre Landingpages gehostet werden. Erfahren Sie, wie Sie Domain-Einstellungen für Ihre Landingpages delegieren, konfigurieren oder die Delegierung aufheben.
+* **Voreinstellungen** – Definieren Sie wiederverwendbare Konfigurationen (einschließlich Subdomain- und anderen Kanaleinstellungen), damit Sie Landingpages konsistent erstellen und verwalten können.
 
 Unabhängig davon, ob Sie bestehende Domains oder neue Setups verwenden, helfen Ihnen diese Schritte, Ihre Landingpages an Ihre Kampagnen und Ziele anzupassen.
 

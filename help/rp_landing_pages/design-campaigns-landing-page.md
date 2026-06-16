@@ -6,9 +6,9 @@ description: Aktivitäten für orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 97%
 
 Aktivitäten für orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, nahtlose, datengestützte Marketing-Journeys zu entwerfen, die Ihre Zielgruppe zum richtigen Zeitpunkt und über die richtigen Kanäle ansprechen. Durch die Kombination von Targeting-, Kanal- und Flusssteuerungsaktivitäten können Sie präzise Zielgruppensegmente definieren, Nachrichten personalisieren und komplexe Workflows automatisieren. Ganz gleich, ob Sie Zielgruppen aufbauen, Kampagnenzweige synchronisieren oder Verzögerungen für ein perfektes Timing hinzufügen – diese Aktivitäten greifen ineinander und optimieren die Durchführung Ihrer Kampagne. Mit Tools wie der Anreicherung zur Datenverbesserung oder der Aufspaltung zur Zielgruppensegmentierung verfügen Sie über ein flexibles Toolkit, um aussagekräftige, wirkungsvolle Kundenerlebnisse zu erstellen.
 
-## Orchestrierte Kampagnenaktivitäten
+## Aktivitäten für orchestrierte Kampagnen
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
-Arbeiten mit orchestrierten Kampagnenaktivitäten
+Arbeiten mit Aktivitäten für orchestrierte Kampagnen
 
 Erfahren Sie mehr über Zielgruppenbestimmungs-, Kanal- und Flusssteuerungsaktivitäten, um orchestrierte Kampagnen zu entwerfen und auszuführen.
 

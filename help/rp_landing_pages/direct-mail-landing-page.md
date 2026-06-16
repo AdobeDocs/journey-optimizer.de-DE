@@ -6,9 +6,9 @@ description: Direkt-Mail
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Direkt-Mail in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunden offline zu erreichen, indem Sie personalisierte, datengestützte Kampagnen erstellen, die greifbar und wirkungsvoll sind. Ganz gleich, ob Sie Zielgruppendateien für vertrauenswürdige Drittanbieter erstellen oder die Einhaltung von Einverständnisrichtlinien sicherstellen möchten – diese Funktion vereinfacht die Integration von Offline-Kanälen in Ihre breitere Marketing-Strategie. Sie erfahren alles von der Konfiguration des Datei-Routings bis hin zur Erstellung und Verwaltung von Kampagnen, zur Vorschau von Extraktionsdateien und zur Aktivierung von Nachrichten. Durch die Kombination von Automatisierung mit Personalisierung hilft Ihnen Direkt-Mail dabei, die Lücke zwischen digitaler und physischer Interaktion zu schließen und jede Kundeninteraktion noch aussagekräftiger zu gestalten.
 
-## Briefpost-Dokumentation
+## Dokumentation zu Direkt-Mail
 
 :::: landing-cards-container
 :::

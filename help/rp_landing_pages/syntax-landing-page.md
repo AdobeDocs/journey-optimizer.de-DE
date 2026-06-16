@@ -6,9 +6,9 @@ description: Syntax
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Machen Sie sich mit den leistungsstarken Syntaxfunktionen des erweiterten Ausdruckseditors von Adobe Journey Optimizer vertraut, in dem Sie präzise, dynamische Ausdrücke zur Feinabstimmung Ihrer Customer Journeys erstellen können. Ganz gleich, ob Sie komplexe Daten mit Operatoren organisieren, Sammlungen abfragen oder eine bedingte Logik anwenden – die Syntax-Tools bieten Ihnen die Flexibilität, sich an reale Szenarien anzupassen. Erkunden Sie wichtige Themen wie Feldverweise für den Zugriff auf Daten, Datentypen zur Gewährleistung der Genauigkeit und Journey-Eigenschaften für die Anpassung in Echtzeit. Jedes Konzept baut auf dem vorherigen auf, was ein zusammenhängendes Toolkit für die Erstellung von intelligenteren, noch effektiveren Journeys schafft. Sind Sie bereit, die Möglichkeiten zu erschließen? Los geht’s.
 
-## Syntax: Build-Ausdrücke in Adobe Journey Optimizer
+## Syntax: Erstellen von Ausdrücken in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::

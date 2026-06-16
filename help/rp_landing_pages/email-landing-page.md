@@ -6,9 +6,9 @@ description: E-Mail-Kanal
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ E-Mail-Sendungen können erstellt werden:
 >
 >Wenn Sie zum ersten Mal eine E-Mail erstellen, überprüfen Sie, ob zuvor der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](../using/email/email-settings.md)
 
-## E-Mail-Kanalfunktionen und Dokumentation
+## Funktionen und Dokumentation des E-Mail-Kanals
 
 :::: landing-cards-container
 

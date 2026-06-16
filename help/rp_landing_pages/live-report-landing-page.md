@@ -6,9 +6,9 @@ description: Live-Bericht
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
