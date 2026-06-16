@@ -290,7 +290,7 @@ Adobe verwaltet das Zertifikat und den zugehörigen privaten Schlüssel. In der 
 | Verwaltet von | Adobe |
 | Algorithmus | RS256 (RSA) |
 | Was bei Ihrem Identitätsanbieter registriert werden soll | Nur Adobes Blattzertifikat - nicht die Zwischen- oder Stamm-Zertifizierungsstelle |
-| So erhalten Sie | Rufen Sie sie von der [mTLS Public Certificate API ab](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (siehe **Zertifikat**-Leitplanke unten) |
+| So erhalten Sie | Rufen Sie sie von der [mTLS Public Certificate API ab](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (siehe **Zertifikat**-Leitplanke unten) |
 | Rotation | Adobe verwaltet die Rotation und sorgt für eine Vorankündigung von mindestens 30 Tagen |
 
 #### JWT-Assertionsstruktur {#certificate-credential-jwt}
@@ -377,7 +377,7 @@ Im Folgenden finden Sie ein Beispiel für denselben Authentifizierungstyp für Z
 >* **`method`**: Muss `POST` sein. OAuth-Token-Endpunkte akzeptieren nur POST-Anfragen.
 >* **`client_id`**: Darf nicht leer sein und darf keine führenden oder nachfolgenden Leerzeichen enthalten. Ein leerer Wert erzeugt einen gültig aussehenden JWT, den der Identitätsanbieter mit einem deckenden Fehler zurückweist.
 >* **`scope`**: Wird in `bodyParams` als einzelne, durch Leerzeichen getrennte Zeichenfolge ausgedrückt. Insgesamt maximal 1000 Zeichen.
->* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** bei Ihrem Identitätsanbieter registrieren. Um sie abzurufen, rufen Sie die [mTLS Public Certificate API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf und suchen Sie nach dem Eintrag, in dem `certCommonName` `ajo-journeys.aep-mtls.adobe.com` ist. Registrieren Sie den `publicCertificate` aus diesem Eintrag - verwenden Sie keine Zwischen- oder Stammzertifikate der Zertifizierungsstelle.
+>* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** bei Ihrem Identitätsanbieter registrieren. Um sie abzurufen, rufen Sie die [mTLS Public Certificate API](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf und suchen Sie nach dem Eintrag, in dem `certCommonName` `ajo-journeys.aep-mtls.adobe.com` ist. Registrieren Sie den `publicCertificate` aus diesem Eintrag - verwenden Sie keine Zwischen- oder Stammzertifikate der Zertifizierungsstelle.
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 
