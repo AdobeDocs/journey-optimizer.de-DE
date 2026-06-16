@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Gewährleisten Sie einen fehlerfreien Nachrichtenversand, indem Sie Fehler erken
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erfahren Sie, wie Sie Ihre Inhalte in der Vorschau anzeigen und testen können
 
@@ -38,7 +38,7 @@ Erfahren Sie, wie Sie mit Testprofilen und Beispieleingabedaten Inhalte in der V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Informationen zum Auswählen von Testprofilen
 
@@ -48,7 +48,7 @@ Hier erfahren Sie, wie Sie Testprofile auswählen und verwalten können, um pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Anzeigen des Inhalts in der Vorschau mithilfe von Testprofilen
 
@@ -58,7 +58,7 @@ Schrittweise Anleitung zur Vorschau personalisierter Inhalte mithilfe von Testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Durchführen von Testsendungen mit Testprofildaten
 
@@ -68,7 +68,7 @@ Testen und validieren Sie Ihre E-Mail-Nachrichten, indem Sie Testsendungen mithi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Informationen zum Testen des E-Mail-Renderings mit Litmus
 
@@ -78,7 +78,7 @@ Integrieren Sie Litmus, um das E-Mail-Rendering in gängigen E-Mail-Clients in d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Informationen zum Simulieren und Testen von Inhaltsvarianten
 
@@ -126,10 +126,10 @@ Folgen Sie dieser Sequenz für eine umfassende Validierung:
 → Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) um bis zu 30 Varianten zu testen, ohne einzelne Testprofile zu erstellen. Laden Sie eine CSV mit verschiedenen Kundenattributen hoch, fügen Sie Werte manuell hinzu oder generieren Sie Varianten automatisch mit KI und zeigen Sie alle gleichzeitig in der Vorschau an.
 
 **Szenario 2: Validieren des E-Mail-Renderings vor einem größeren Versand**
-→ Führen Sie [Litmus-Tests](../using/content-management/rendering.md) aus, um die Anzeige in Top-E-Mail-Clients zu überprüfen, und überprüfen Sie dann den [Spam-Bericht](../using/content-management/spam-report.md), um die Platzierung des Posteingangs sicherzustellen.
+→ Führen Sie [Litmus-Tests](../using/content-management/rendering.md) aus, um die Anzeige in den wichtigsten E-Mail-Clients zu überprüfen. Prüfen Sie dann den [Spam-Bericht](../using/content-management/spam-report.md), um die Platzierung im Posteingang sicherzustellen.
 
-**Szenario 3: Zustimmung der Stakeholder einholen**
-→ [Testsendungen](../using/content-management/proofs.md) an interne Prüfer mit Testprofildaten, damit diese genau sehen, was Kunden erhalten.
+**Szenario 3: Einholen der Stakeholder-Zustimmung**
+→ [Senden Sie Testsendungen](../using/content-management/proofs.md) an interne Prüfende mit Testprofildaten, damit diese genau sehen, was Kundinnen und Kunden erhalten.
 
 ## Wichtige Erkenntnisse
 

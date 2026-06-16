@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -22,11 +22,11 @@ In diesem Abschnitt werden alle Test- und Genehmigungsfunktionen in Journey Opti
 
 Diese Landingpage hilft Ihnen dabei, den richtigen Testansatz auszuwählen, je nachdem, was Sie gerade erstellen (Kampagnen vs. Journeys), führt Sie durch empfohlene Test-Workflows und bietet schnellen Zugriff auf alle Test- und Genehmigungsressourcen. Beginnen Sie mit [Auswählen des Testansatzes](#choose-your-testing-approach) unten, um zu identifizieren, welche Tools für Ihren Anwendungsfall relevant sind. Definitionen wichtiger Testbegriffe finden Sie unter [Wichtige Terminologie](#key-terminology).
 
-## Testen und Genehmigen von Inhalt
+## Testen und Genehmigen von Inhalten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vorschau, Testen und Validieren von Inhalten
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testen der Journey
 
@@ -56,7 +56,7 @@ Validieren Sie Ihre Journey vor der Veröffentlichung, indem Sie sie mit bestimm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Journey-Probelauf
 
@@ -66,7 +66,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoring und Fehlerbehebung
 
@@ -76,7 +76,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalisierungs-Playground
 
@@ -86,7 +86,7 @@ Experimentieren Sie mit Personalisierungsausdrücken in einer sicheren Umgebung.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Inhaltsexperimente und A/B-Tests
 
@@ -96,7 +96,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Testadressenlisten für Stakeholder-Monitoring
 
@@ -106,7 +106,7 @@ Schließen Sie automatisch die Adressen interner Stakeholder in Sendungen ein, u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Konflikterkennung
 
@@ -313,18 +313,18 @@ Erfahren Sie, wie Testkonzepte in realen Szenarien angewendet werden:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Senden von Multi-Channel-Nachrichten</strong></a>
 </div>
 <p>
-Testen Sie eine Journey, die „Zielgruppe lesen“, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert. Validieren des gesamten Flusses von der Audience bis zum Nachrichtenversand. Konzentrieren Sie sich auf die Multi-Channel-Koordination, Reaktionsereignisse, End-to-End-Flussvalidierung und Test-/Veröffentlichungsschritte.
+Testen Sie eine Journey, die „Zielgruppe lesen“, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert. Validieren Sie den gesamten Fluss von der Zielgruppenabstimmung bis zum Nachrichtenversand. Konzentrieren Sie sich auf die Multi-Channel-Koordination, Reaktionsereignisse, End-to-End-Flussvalidierung und Test-/Veröffentlichungsschritte.
 </p>
 </td>
 <td>
 <a href="../using/building-journeys/message-to-subscribers-uc.md">
-<img alt="Senden einer Nachricht an Abonnenten" src="../using/assets/do-not-localize/start-quick.png">
+<img alt="Senden einer Nachricht an Abonnentinnen und Abonnenten" src="../using/assets/do-not-localize/start-quick.png">
 </a>
 <div>
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Senden einer Nachricht an Abonnenten</strong></a>
 </div>
 <p>
-Testen Sie Journey, die Abonnement-Listen mit dynamischer E-Mail-Adressierung ansprechen. Validieren von Personalisierungsausdrücken für das korrekte Abonnenten-Targeting. Konzentration auf Personalisierungsausdrücke, dynamische Adressierung und Targeting von Abonnement-Listen.
+Testen Sie Journeys, die Abonnement-Listen mit dynamischer E-Mail-Adressierung ansprechen. Validieren Sie Personalisierungsausdrücke für das korrekte Abonnenten-Targeting. Konzentrieren Sie sich auf Personalisierungsausdrücke, dynamische Adressierung und Targeting von Abonnement-Listen.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Testen Sie Journey, die Abonnement-Listen mit dynamischer E-Mail-Adressierung an
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Senden von zeitgebundenen Nachrichten</strong></a>
 </div>
 <p>
-Testen Sie Journey mit zeitbasierten Bedingungen, um sicherzustellen, dass Nachrichten an bestimmten Tagen gesendet werden. Warteaktivitäten und Planungslogik validieren Fokus auf zeitbasierte Bedingungen, Warteaktivitäten und Planungsvalidierung.
+Testen Sie Journeys mit zeitbasierten Bedingungen, um sicherzustellen, dass Nachrichten an bestimmten Tagen gesendet werden. Fokussieren Sie sich auf zeitbasierte Bedingungen, Warteaktivitäten und Planungsvalidierung.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Testen Sie Journey mit zeitbasierten Bedingungen, um sicherzustellen, dass Nachr
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Erkunden Sie weitere Anwendungsfälle für Journeys</strong></a>
 </div>
 <p>
-Hier finden Sie eine umfassende Sammlung praktischer Beispiele zu Erlebnisereignissen, Multi-Channel-Messaging und externen Systemintegrationen. Untersuchen Sie verschiedene Szenarien, erweiterte Muster und Ansätze für Integrationstests.
+Greifen Sie auf eine umfassende Sammlung praktischer Beispiele zu, die Erlebnisereignisse, Multi-Channel-Messaging und die Integration externer Systeme abdecken. Erkunden Sie verschiedene Szenarien, erweiterte Muster und Ansätze für Integrationstests.
 </p>
 </td>
 </tr></table>
@@ -407,14 +407,14 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 * Die Journey muss sich im Entwurfsstatus befinden, damit der Testmodus verwendet werden kann
 * Für den Testmodus muss in der Journey ein Namespace konfiguriert sein
 
-### Worauf es beim Testen ankommt (Upstream)
+### Wovon das Testen abhängt (vorgelagert)
 
 * Inhaltserstellung: Zu testende Kampagnen oder Journeys müssen vorhanden sein
 * Testprofile: Erforderlich für den Testmodus und die Vorschau von Inhalten
 * Genehmigungsrichtlinien: Für Genehmigungs-Workflows erforderlich
 * Konfiguration: Kanalkonfigurationen, E-Mail-Authentifizierung, Domain-Einstellungen
 
-### Was von Tests abhängt (nachgelagert)
+### Was vom Testen abhängt (nachgelagert)
 
 * Aktivierung von Kampagnen und Journeys: Aktivierung ist erst nach Fehlerbehebung möglich
 * Veröffentlichung: Vor der Veröffentlichung kann eine Genehmigung erforderlich sein
@@ -430,7 +430,7 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 * Testprofile + Personalisierung – Inhaltsvalidierung
 * Probelauf + Testmodus – Umfassende Journey-Validierung
 
-### Häufige Funktionskombinationen
+### Gängige Funktionskombinationen
 
 * Inhaltstests: Testprofile + Beispieleingabedaten + Personalisierungs-Playground
 * E-Mail-Validierung: Rendering-Tests + Spam-Werte + Testprofile + Testsendungen
@@ -445,36 +445,36 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 **Empfohlen:** + E-Mail-Rendering + Konflikterkennung + Genehmigungs-Workflow
 **Best Practice:** + Tests von Beispieleingabedaten + Testlisten + A/B-Experiment (bei Optimierung)
 
-### F.: Wie kann ich die Personalisierung testen, ohne viele Testprofile zu erstellen?
+### F: Wie teste ich die Personalisierung, ohne viele Testprofile zu erstellen?
 
-**Primäre Lösung:** Verwenden von [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) mit CSV-/JSON-Dateien (unterstützt bis zu 30 Varianten)
-**Alternative:** Erstellen Sie 3-5 repräsentative [Testprofile](../using/audience/creating-test-profiles.md) die wichtige Segmente abdecken.
-**Lernwerkzeug:** Experimentieren Sie zuerst in [Personalisierungs-Playground](../using/personalization/personalize.md#playground)
+**Primäre Lösung:** Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) mit CSV-/JSON-Dateien (unterstützt bis zu 30 Varianten)
+**Alternative:** Erstellen Sie 3–5 repräsentative [Testprofile](../using/audience/creating-test-profiles.md), die wichtige Segmente abdecken
+**Lernwerkzeug:** Experimentieren Sie zuerst im [Personalisierungs-Playground](../using/personalization/personalize.md#playground)
 
-### F: Was ist der Unterschied zwischen Testmodus und Probelauf für Journey?
+### F: Was ist der Unterschied zwischen Testmodus und Probelauf für Journeys?
 
-**Testmodus:** Sendet Testprofile über Journey, Trigger-Aktionen tatsächlich, generiert Testnachrichten. Erfordert Entwurfs-Journey + -Namespace.
+**Testmodus:** Sendet Testprofile über Journeys, löst Aktionen tatsächlich aus, generiert Testnachrichten. Erfordert Entwurfs-Journey + Namespace.
 **Probelauf:** Verfolgt Ausführungspfade, ohne etwas zu senden. Funktioniert mit jedem Journey-Status. Keine Nachrichten gesendet, keine Aktionen ausgeführt.
-**Gemeinsam verwenden:** Testmodus für Nachrichtentests + Probelauf für Logikvalidierung - umfassende Abdeckung.
+**Gemeinsam verwenden:** Testmodus für Nachrichtentests + Probelauf für Logikvalidierung – umfassende Abdeckung.
 
-### F.: Kann ich Journey im Produktions-/Live-Status testen?
+### F: Kann ich Journeys im Produktionsstatus oder im Live-Status testen?
 
-**Testmodus:** Nein - nur Entwurfs-Journey
-**Probelauf:** Ja - funktioniert mit jedem Journey-Status
-**Inhaltsvorschau:** Ja - Sie können jederzeit eine Vorschau einzelner Nachrichten anzeigen.
-**Problemumgehung:** Duplizieren von Live-Journey zum Entwurf für die vollständige Testmodusvalidierung
+**Testmodus:** Nein – nur Entwurfs-Journeys
+**Probelauf:** Ja – funktioniert bei jedem Journey-Status
+**Inhaltsvorschau:** Ja – Vorschau einzelner Nachrichten jederzeit möglich
+**Problemumgehung:** Duplizieren der Live-Journey zum Entwurf für die vollständige Testmodusvalidierung
 
-### F.: Welche Testfunktionen erfordern externe Integrationen?
+### F: Welche Testfunktionen erfordern externe Integrationen?
 
-**E-Mail-Rendering:** erfordert Litmus-Integration (separate Lizenz)
+**E-Mail-Rendering:** Erfordert Litmus-Integration (separate Lizenz)
 **Alle anderen:** In Journey Optimizer integriert, keine zusätzlichen Integrationen erforderlich
 **Hinweis:** Testprofile erfordern den Echtzeit-Kundenprofil-Service (enthalten)
 
-### F.: Wie kann ich API-ausgelöste Kampagnen testen?
+### F: Wie teste ich durch API ausgelöste Kampagnen?
 
-**Option 1:** Verwenden [Kampagnensimulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-„_blank“} für programmatische Tests
-**Option 2:** Vorschau des Inhalts mit Testprofilen in der Benutzeroberfläche
-**Option 3:** Testsendungen an Test-E-Mail-Adressen durchführen
-**Best Practice:** Alle drei für eine umfassende Validierung kombinieren
+**Option 1:** Verwenden Sie die [Kampagnensimulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} für programmatische Tests
+**Option 2:** Zeigen Sie Inhalte mit Testprofilen in der UI in der Vorschau an
+**Option 3:** Führen Sie Testsendungen an Test-E-Mail-Adressen durch
+**Best Practice:** Kombinieren Sie alle drei für eine umfassende Validierung
 
 >[!ENDTABS]

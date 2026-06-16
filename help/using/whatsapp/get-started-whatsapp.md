@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 440
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -48,15 +42,15 @@ Sie können jetzt direkt in Journey Optimizer WhatsApp-Nachrichten über das [Cl
 Die Integration von WhatsApp mit Journey Optimizer erfordert Folgendes:
 
 * Meta Business Manager-Konto
-* [WhatsApp Business-Konto mit verifiziertem Absendernamen und Telefonnummer](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [WhatsApp-Unternehmenskonto mit verifiziertem Absendernamen und Telefonnummer](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Benutzerautorisierungs-Token mit entsprechenden Berechtigungen](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Genehmigte Meta-Vorlagen](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 Sie müssen außerdem Folgendes bestätigen, bevor Sie mit der Integration fortfahren:
 
 * [WhatsApp-Inhaltsregeln](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Einhaltung der Meta-Richtlinien](https://www.whatsapp.com/legal)
-* [24-Stunden-Gesprächsbeschränkungen](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Konformität mit Meta-Richtlinien](https://www.whatsapp.com/legal)
+* [24-Stunden-Konversations-Limits](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## Einschränkungen {#limitations}
 
@@ -76,7 +70,7 @@ Das folgende Video zeigt, wie Sie WhatsApp als nativen Kanal in Adobe Journey Op
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470253?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

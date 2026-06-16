@@ -10,22 +10,15 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +40,17 @@ Die Nutzung von Mailing-Services unterliegt den zusätzlichen Bedingungen des je
 
 ## Vorbereitung {#before-you-start}
 
-Bevor Sie Briefpostnachrichten erstellen, konfigurieren Sie [Datei-Routing und eine Konfiguration des Briefpostkanals](direct-mail-configuration.md). Außerdem benötigen Sie Zielgruppen und Profildaten (z. B. Postanschriften) in Adobe Experience Platform.
+Bevor Sie Direkt-Mail-Nachrichten erstellen, konfigurieren Sie [Datei-Routing und eine Konfiguration des Direkt-Mail-Kanals](direct-mail-configuration.md). Außerdem benötigen Sie Zielgruppen und Profildaten (z. B. Postanschriften) in Adobe Experience Platform.
 
 Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
-![Workflow zur Erstellung von Briefpost von der Konfiguration bis zum Versand](assets/dm-creation-process.png)
+![Erstellungs-Workflow für Direkt-Mail von der Konfiguration bis zum Versand](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >Direkt-Mail-Nachrichten können nur im Rahmen von Journeys und Kampagnen erstellt werden. Sie sind nicht für die Verwendung in durch API ausgelösten Kampagnen verfügbar.
 
-![Animierte Übersicht über den Briefpostkanal in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Animierte Übersicht über den Direkt-Mail-Kanal in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
@@ -73,10 +66,10 @@ Erfahren Sie, wie Sie den Direkt-Mail-Kanal in Adobe Journey Optimizer nutzen, u
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 
-Eine schriftliche Anleitung der gleichen Schritte finden Sie in den [Tutorials zum Briefpostkanal](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Eine schriftliche Anleitung derselben Schritte finden Sie in den [Tutorials zum Direkt-Mail-Kanal](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Häufige Fragen zu Briefpost finden Sie [&#x200B; obigen Abschnitt &#x200B;](#additional-resources)Zusätzliche Ressourcen“.
+Häufige Fragen zu Direkt-Mail finden Sie oben im Abschnitt [Zusätzliche Ressourcen](#additional-resources).

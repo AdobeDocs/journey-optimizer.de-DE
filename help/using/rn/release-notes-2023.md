@@ -9,16 +9,12 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +122,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Berechnete Attribute ermöglichen es, Ereignisdaten über eine intuitive Benutzeroberfläche einfach in Profilattribute zusammenzufassen, was die verhaltensbasierte Segmentierung, Personalisierung und Aktivierung verbessert. Mit dieser Funktion können Sie berechnete Attribute im Self-Service erstellen, verwalten und in der Segmentierung, bei Echtzeit-Kundenprofilzielen oder in Journey Optimizer verwenden.<br/><br/>
-Darüber hinaus vereinfachen berechnete Attribute die Segmentierung und das Journey von Workflows, damit relevante Erlebnisse nahtlos bereitgestellt werden können. Weitere Informationen finden Sie in <a href="../audience/computed-attributes.md">ausführlichen Dokumentation</a>.</p>
+Darüber hinaus vereinfachen berechnete Attribute die Segmentierung und Journey-Workflows, damit relevante Erlebnisse nahtlos bereitgestellt werden können. Weitere Informationen finden Sie in der <a href="../audience/computed-attributes.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **Journeys**
 
 * Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist derzeit als Betaversion verfügbar. [Weitere Informationen](../action/action-response.md).
-* Ein neuer Typ von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
+* Ein neuer Typ von Systemwarnung wurde eingeführt. Sie können jetzt Benachrichtigungen erhalten, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -1001,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die schnell in Journeys und Kampagnen wiederverwendet werden können.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>In diesem Video erfahren Sie, wie Sie Inhaltsvorlagen erstellen<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=de"> bearbeiten und </a>. Weitere Informationen finden Sie im Abschnitt <a href="../content-management/content-templates.md">Detaillierte Dokumentation</a>.
+<p>Informationen zum Erstellen, Bearbeiten und Verwenden von Inhaltsvorlagen finden Sie <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=de">in diesem Video</a>. Weitere Informationen finden Sie in der <a href="../content-management/content-templates.md">ausführlichen Dokumentation</a>.
 </p>
 </td>
 </tr>
