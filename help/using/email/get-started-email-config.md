@@ -80,7 +80,7 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte bei der E-Mail-Konfiguration
 
@@ -90,7 +90,7 @@ Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Fu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren von E-Mail-Konfigurationseinstellungen
 
@@ -100,7 +100,7 @@ Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Konfigurieren der Listen-Abmeldung
 
@@ -110,7 +110,7 @@ Erfahren Sie, wie Sie die Funktion zur Listen-Abmeldung aktivieren, um für das 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Header-Parametern für E-Mails
 
@@ -120,7 +120,7 @@ Passen Sie Absender- und Antwort-E-Mail-Adressen an, behandeln Sie Fehler und le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Konfigurieren des URL-Trackings für den E-Mail-Kanal
 
@@ -130,7 +130,7 @@ Richten Sie URL-Tracking-Parameter ein, um die Effektivität von E-Mail-Kampagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Personalisierte Einstellungen der E-Mail-Konfiguration
 
