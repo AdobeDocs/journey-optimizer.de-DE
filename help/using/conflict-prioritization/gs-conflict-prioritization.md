@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ Mit Regelsätzen können Sie **mehrere Regeln gruppieren** und diese auf die Jou
 * **[Frequenzbegrenzung nach Kanal](channel-capping.md)**: Legen Sie Frequenzbegrenzungen auf Kanalebene fest, um übermäßigen Nachrichtenversand zu vermeiden.
 * **[Festlegen von Ruhezeiten](quiet-hours.md)**: Definieren Sie zeitbasierte Ausschlüsse für den Nachrichtenversand.
 * **[Tutorials zum Konflikt-Management](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: Detaillierte Video-Tutorials.
-* **[Journey Optimizer-Anwendungsfälle](../building-journeys/jo-use-cases.md)** - Durchsuchen Sie praktische Muster, einschließlich Frequenzlimitierung und Journey-Unterdrückungslogik.
+* **[Journey Optimizer-Anwendungsfälle](../building-journeys/jo-use-cases.md)** – Durchsuchen Sie praktische Muster, einschließlich Frequenzbegrenzung und Journey-Unterdrückungslogik.

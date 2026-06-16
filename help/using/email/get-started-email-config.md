@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 73%
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 73%
 
 Durch das Konfigurieren des E-Mail-Kanals in Adobe Journey Optimizer können Sie wirkungsvolle, personalisierte E-Mail-Erlebnisse schaffen, die Ihre Zielgruppe effektiv ansprechen.
 
-Dieser Abschnitt führt Sie durch die wichtigsten Konfigurationsschritte, die Sie ausführen müssen, um E-Mails über [!DNL Journey Optimizer] zu senden. Außerdem erfahren Sie, wie Sie E-Mail-Kopfzeilen einrichten, Einstellungen für mehrere Marken personalisieren, das URL-Tracking für Analysen aktivieren und sogar einen Link zur Abmeldung mit einem Klick hinzufügen, um das Abonnieren für den Benutzer zu vereinfachen. Jedes Thema baut auf dem vorherigen auf und gibt Ihnen die Tools an die Hand, mit denen Sie Ihre E-Mail-Strategie optimieren und gleichzeitig die Kontrolle behalten und Präzision sicherstellen können.
+Dieser Abschnitt führt Sie durch die wichtigsten Konfigurationsschritte, die Sie ausführen müssen, um E-Mails über [!DNL Journey Optimizer] zu senden. Außerdem erfahren Sie, wie Sie E-Mail-Header einrichten, Einstellungen für mehrere Marken personalisieren, das URL-Tracking für Analysen aktivieren und für mehr Benutzerfreundlichkeit sogar einen Link zur Abmeldung mit einem Klick hinzufügen können. Jedes Thema baut auf dem vorherigen auf und gibt Ihnen die Tools an die Hand, mit denen Sie Ihre E-Mail-Strategie optimieren und gleichzeitig die Kontrolle behalten und Präzision sicherstellen können.
 
-Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen. Diese Schritte sind unten aufgeführt:
+Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen. Diese Schritte werden nachfolgend beschrieben:
 
 1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, **delegieren Sie zunächst die Subdomains an Adobe**, die Sie für den Versand Ihrer E-Mails mit [!DNL Journey Optimizer] verwenden möchten. Diese Subdomains bestimmen Elemente wie etwa die zu verfolgenden Web-Seiten und die URLs von Mirrorseiten. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
@@ -63,11 +63,11 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Die **[!UICONTROL Von E-Mail]** Präfix und **[!UICONTROL Fehler-E-Mail]** Präfix verwenden die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md). Optional können **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** eine andere übertragende Partei identifizieren (vollständige **Absender**-Adresse, nicht an dieses Subdomain-Suffix gebunden). [Weitere Informationen](header-parameters.md#sender-header)
+   * Die Adressen unter **[!UICONTROL Präfix für Absender-E-Mail]** und **[!UICONTROL Präfix für Fehler-E-Mail]** verwenden die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md) zum Senden der E-Mail. Optional können **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** eine andere übertragende Partei identifizieren (vollständige **Absender**-Adresse, nicht an dieses Subdomain-Suffix gebunden). [Weitere Informationen](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
-1. Schließen Sie die Konfiguration des E-Mail-Kanals ab, indem Sie andere erweiterte Parameter einrichten, z. B. BCC aktivieren, URL-Tracking für Analytics definieren oder Links zum Abmelden mit einem Klick hinzufügen, um den Benutzenden das Arbeiten zu erleichtern. [Weitere Informationen](email-settings.md)
+1. Schließen Sie die Konfiguration des E-Mail-Kanals ab, indem Sie andere erweiterte Parameter einrichten, z. B. BCC aktivieren, URL-Tracking für die Analyse definieren oder Links zum Abmelden mit einem Klick hinzufügen, um den Benutzenden das Arbeiten zu erleichtern. [Weitere Informationen](email-settings.md)
 
 1. Bestimmen Sie, welche **Ausführungsfelder** für Ihre Empfängerinnen und Empfänger vorrangig verwendet werden sollen, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md)
 

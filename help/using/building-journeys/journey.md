@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ Wählen Sie aus, wie Kundinnen und Kunden eintreten: über ein Ereignis, ein Zie
 
 **Nachrichten senden**
 
-Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/RCS/MMS, In-App, Web und mehr - alle in Journey Optimizer entwickelt.
+Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/RCS/MMS, In-App, Web und mehr – alle in Journey Optimizer erstellt.
 
 [Senden von Nachrichten in Journeys](journey-action.md)
 :::

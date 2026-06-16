@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ Die Nutzung von Mailing-Services unterliegt den zusätzlichen Bedingungen des je
 
 ## Vorbereitung {#before-you-start}
 
-Bevor Sie Briefpostnachrichten erstellen, konfigurieren Sie [Datei-Routing und eine Konfiguration des Briefpostkanals](direct-mail-configuration.md). Außerdem benötigen Sie Zielgruppen und Profildaten (z. B. Postanschriften) in Adobe Experience Platform.
+Bevor Sie Direkt-Mail-Nachrichten erstellen, konfigurieren Sie [Datei-Routing und eine Konfiguration des Direkt-Mail-Kanals](direct-mail-configuration.md). Außerdem benötigen Sie Zielgruppen und Profildaten (z. B. Postanschriften) in Adobe Experience Platform.
 
 Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
-![Workflow zur Erstellung von Briefpost von der Konfiguration bis zum Versand](assets/dm-creation-process.png)
+![Erstellungs-Workflow für Direkt-Mail von der Konfiguration bis zum Versand](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >Direkt-Mail-Nachrichten können nur im Rahmen von Journeys und Kampagnen erstellt werden. Sie sind nicht für die Verwendung in durch API ausgelösten Kampagnen verfügbar.
 
-![Animierte Übersicht über den Briefpostkanal in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Animierte Übersicht über den Direkt-Mail-Kanal in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
@@ -77,6 +77,6 @@ Erfahren Sie, wie Sie den Direkt-Mail-Kanal in Adobe Journey Optimizer nutzen, u
 
 +++
 
-Eine schriftliche Anleitung der gleichen Schritte finden Sie in den [Tutorials zum Briefpostkanal](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Eine schriftliche Anleitung derselben Schritte finden Sie in den [Tutorials zum Direkt-Mail-Kanal](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Häufige Fragen zu Briefpost finden Sie [&#x200B; obigen Abschnitt &#x200B;](#additional-resources)Zusätzliche Ressourcen“.
+Häufige Fragen zu Direkt-Mail finden Sie oben im Abschnitt [Zusätzliche Ressourcen](#additional-resources).

@@ -254,7 +254,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 * Verwenden Sie den **E-Mail-Designer** für hochwertige E-Mail-Erlebnisse
 * Konfigurieren Sie **Push-Benachrichtigungen** mit Bildern und Deep-Links
-* Gestalten **SMS/RCS/MMS-Nachrichten** mit Personalisierung
+* Gestalten Sie **SMS-/RCS-/MMS-Nachrichten** mit Personalisierung
 * Erstellen Sie **In-App-** und **Web-** Erlebnisse
 * Fügen Sie **Personalisierungen** mithilfe von Profilattributen und kontextuellen Daten hinzu
 

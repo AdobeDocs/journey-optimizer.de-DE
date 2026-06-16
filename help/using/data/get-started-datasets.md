@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1087
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ In diesem Abschnitt werden die von [!DNL Journey Optimizer] verwendeten Systemda
 * Berichterstellung
 
    * _Reporting – Datensatz mit Nachrichten-Feedback-Ereignissen_: Versand-Logs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. **Dieser Datensatz verwendet die Batch-Aufnahme - rechnen Sie mit einer Datenlatenz von bis zu 2 Stunden.**
-   * _Reporting - E-Mail-Tracking-Erlebnis_ Ereignisdatensatz: Interaktionsprotokolle für den E-Mail-Kanal und WhatsApp-Kanal-Kontextdaten unter der `whatsAppChannelContext` Feldergruppe. Wird für das Reporting und die Erstellung von Zielgruppen verwendet. Zu den gespeicherten Informationen gehören vom Endbenutzer bei E-Mails durchgeführte Aktionen (Öffnungen, Klicks usw.) und WhatsApp-Interaktionen.
+   * _Reporting – Ereignisdatensatz des E-Mail-Tracking-Erlebnisses:_ Interaktionsprotokolle für den E-Mail-Kanal und WhatsApp-Kanal-Kontextdaten unter der Feldergruppe „`whatsAppChannelContext`“. Wird für das Reporting und die Erstellung von Zielgruppen verwendet. Die gespeicherten Informationen enthalten die von Endbenutzenden durchgeführten Aktionen in Bezug auf E-Mails (Öffnungen, Klicks usw.) sowie WhatsApp-Interaktionen.
    * _Reporting – Push-Tracking-Erlebnisereignis-Datensatz_: Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen bei Push-Benachrichtigungen.
    * _Reporting – Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. Auch wichtig für die Erstellung von Berichten in Customer Journey Analytics für die Jahresanalyse. An Journey-Metadaten gebunden.
    * _Reporting – Journeys_: Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält.

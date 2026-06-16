@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -145,7 +145,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 
 ### Inhaltsqualität, Prompts und Feedback
 
-* Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel / die von Ihnen definierte Eingabeaufforderung beeinflusst. Verwenden Sie eine klar definierte Eingabeaufforderung für das GenAI-Modell, um genau zu interpretieren. 
+* Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen klar definierten Prompt, den das GenAI-Modell korrekt interpretieren kann. 
 * GenAI-Inhalte sind möglicherweise nicht immer genau: Bitte teilen Sie uns Ihr Feedback mit, damit unsere Ingenieurinnen und Ingenieure die Modelle verfeinern können.
 * Vergewissern Sie sich, dass Sie problematische Ausgaben melden, indem Sie bei der Auswahl von Varianten die Symbole Daumen nach oben, Daumen nach unten oder Flagge verwenden.
 

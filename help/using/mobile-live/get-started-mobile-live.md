@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
 source-wordcount: 449
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -67,8 +67,8 @@ Im Gegensatz zu herkömmlichen Push-Benachrichtigungen stellen Live-Aktivitäten
 
 Mit Adobe Journey Optimizer können Sie Live-Aktivitäten programmgesteuert über durch API ausgelöste Kampagnen aus der Ferne **starten**, **aktualisieren** und **beenden**. Dabei werden sowohl individuelle als auch zielgruppenbasierte Anwendungsfälle im benötigten Umfang unterstützt.
 
-Live-Aktivitäten können **nur** über **API-ausgelöste**-Kampagnen initiiert werden, sodass Sie benutzerdefinierte Payloads bereitstellen und die gesamte Personalisierung über Ihre eigene Payload durchführen können.
-Der entsprechende Kampagnentyp **API-ausgelöst** muss auf der Grundlage des vorgesehenen Anwendungsfalls der Live-Aktivität ausgewählt werden:
+Live-Aktivitäten können **nur** über **durch API ausgelöste** Kampagnen initiiert werden, sodass Sie benutzerdefinierte Payloads bereitstellen und die gesamte Personalisierung über Ihre eigene Payload durchführen können.
+Der **durch API ausgelöste** Kampagnentyp muss entsprechend dem beabsichtigten Anwendungsfall für die Live-Aktivität ausgewählt werden:
 
 * Wählen Sie **API-ausgelöst (Marketing)** für Broadcast-Anwendungsfälle aus – zielgruppenbasierte Updates werden im benötigten Umfang gesendet:
 

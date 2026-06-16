@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
 source-wordcount: 1951
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer bietet kontinuierlich neue Funktionen, Verbesserungen vo
 
 ## Hinweise zur Vorabversion vom 26. Juni {#june-26-rn}
 
-**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden veröffentlicht, sobald Änderungen in der Produktion live sind. Die meisten Änderungen werden am Veröffentlichungsdatum bereitgestellt, einige werden jedoch möglicherweise später eingeführt. Weitere Informationen finden Sie unter Verfügbarkeitsdatum für jeden Eintrag.
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden veröffentlicht, sobald Änderungen in der Produktion live sind. Die meisten Änderungen werden am Veröffentlichungsdatum bereitgestellt, einige werden jedoch möglicherweise später eingeführt. Weitere Informationen entnehmen Sie dem angegebenen Verfügbarkeitsdatum für jeden Eintrag.
 
 Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 

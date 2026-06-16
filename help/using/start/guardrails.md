@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +74,7 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
 * Die Anzahl der Aktivitäten in einer Journey ist auf **50%**. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
 
-  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[&#x200B; in kleinere Unterversionen auf &#x200B;](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
+  Wenn Journeys sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihre Journey mithilfe von [Sprungaktivitäten](../building-journeys/jump.md) in kleinere Unterversionen auf oder erstellen Sie sie als neue Version. Das Aktivitäts-Limit kann nicht erhöht werden.
 
 * Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journey auf einmal auf **100** begrenzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 
@@ -115,7 +115,7 @@ Beim Speichern oder Veröffentlichen einer Journey validiert Journey Optimizer d
 * Erwägen Sie bei Bedarf, die Journey in kleinere Journeys aufzuteilen.
 * Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
 
-Um die aktuelle Payload-Größe des Journey vor der Veröffentlichung zu überwachen, verwenden Sie die Anzeige **[!UICONTROL Aktuelle Journey-Payload-]**&quot; im Bedienfeld &quot;Journey-Eigenschaften“. [Erfahren Sie, wie Sie die Größe Ihrer Journey-Payload überprüfen](../building-journeys/journey-properties.md#journey-payload-size)
+Um die aktuelle Payload-Größe des Journey vor der Veröffentlichung zu überwachen, verwenden Sie den Indikator **[!UICONTROL Aktuelle Journey-Payload]** im Panel „Journey-Eigenschaften“. [Erfahren Sie, wie Sie die Größe Ihrer Journey-Payload überprüfen](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Vergleich von Lizenzpaketen {#select-package-limitations}
 
@@ -306,7 +306,7 @@ Spezifische Leitplanken gelten für **pausierende Journey**, einschließlich ein
 
 Spezifische Leitplanken gelten für den **Journey-Probelauf** einschließlich der Zählung für kontaktierbare Profil- und Live-Journey-Kontingente. Sie sind auf [dieser Seite](../building-journeys/journey-dry-run.md#journey-dry-run-limitations) aufgeführt.
 
-#### Journey Fragments {#fragments-journey-g}
+#### Journey-Fragmente {#fragments-journey-g}
 
 Spezifische Leitplanken gelten für **Journey-Fragmente**, einschließlich maximal **20 Knoten pro Fragment** und **200 aktive Fragmente pro Sandbox**. Sie sind auf [dieser Seite](../building-journeys/journey-fragments.md#guardrails) aufgeführt.
 

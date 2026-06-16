@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach G
 
 ## Filterlisten {#filter-lists}
 
-In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren. Sie können auch eine beliebige Liste sortieren, indem Sie auf eine Spaltenüberschrift klicken. In der Ansicht Kampagnenordner wird auch die Sortierung nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** unterstützt.
+In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren. Sie können jede Liste auch sortieren, indem Sie auf eine beliebige Spaltenüberschrift klicken. In der Ansicht „Kampagnenordner“ wird auch die Sortierung nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** unterstützt.
 
 Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können etwa festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
 
@@ -69,16 +69,16 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 
 ## Massenaktionen {#bulk-actions}
 
-In den **Kampagnen**, **Fragmente** und **Vorlagen** können Sie mithilfe der Kontrollkästchen mehrere Elemente gleichzeitig auswählen und Vorgänge auf alle anwenden. Dazu wird eine Massenaktionsleiste am unteren Bildschirmrand angezeigt.
+In den Listen **Kampagnen**, **Fragmente** und **Vorlagen** können Sie mithilfe der Kontrollkästchen mehrere Elemente gleichzeitig auswählen und Vorgänge auf alle anwenden. Dazu wird eine Massenaktionsleiste am unteren Bildschirmrand angezeigt.
 
-Die folgenden Vorgänge sind verfügbar:
+Folgende Operationen sind verfügbar:
 
-* **[!UICONTROL Zum Paket hinzufügen]** - Exportieren ausgewählter Elemente in eine andere Sandbox. [Weitere Informationen zum Exportieren von Objekten →](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL In Ordner verschieben]** - Verschiebt ausgewählte Elemente in einen Ordner.
-* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die Tags, die ausgewählten Elementen zugewiesen sind. [Weitere Informationen zum Verwenden von Tags →](#add-tags)
-* **[!UICONTROL Zugriff verwalten]** - Zugriffsbeschriftungen auf ausgewählte Elemente anwenden. [Erfahren Sie mehr über die → der Zugriffssteuerung auf Objektebene](../administration/object-based-access.md)
-* **[!UICONTROL Archivieren]** - Archivieren ausgewählter Elemente. Verfügbar für Fragmente und Vorlagen.
-* **[!UICONTROL Löschen]** - Ausgewählte Elemente dauerhaft löschen. Nur für Kampagnen verfügbar.
+* **[!UICONTROL Zum Paket hinzufügen]** – Exportieren Sie ausgewählte Elemente in eine andere Sandbox. [Weitere Informationen zum Exportieren von Objekten →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL In Ordner verschieben]** – Verschieben Sie ausgewählte Elemente in einen Ordner.
+* **[!UICONTROL Tags bearbeiten]** – Bearbeiten Sie die mit den ausgewählten Elementen verknüpften Tags. [Weitere Informationen zum Verwenden von Tags →](#add-tags)
+* **[!UICONTROL Zugriff verwalten]** – Wenden Sie Zugriffs-Labels auf ausgewählte Elemente an. [Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene →](../administration/object-based-access.md)
+* **[!UICONTROL Archivieren]** – Archivieren Sie ausgewählte Elemente. Verfügbar für Fragmente und Vorlagen.
+* **[!UICONTROL Löschen]** – Löschen Sie ausgewählte Elemente dauerhaft. Nur für Kampagnen verfügbar.
 
 ![](assets/bulk-actions-fragments.png)
 
@@ -102,7 +102,7 @@ Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. 
 * [Kampagnen](../campaigns/create-campaign.md)
 * [Entscheidungselemente](../experience-decisioning/items.md)
 * [Fragmente](../content-management/fragments.md)
-* [Journey Fragments](../building-journeys/journey-fragments.md)
+* [Journey-Fragmente](../building-journeys/journey-fragments.md)
 * [Journeys](../building-journeys/journey-properties.md)
 * [Landingpages](../landing-pages/create-lp.md)
 * [Abonnement-Listen](../landing-pages/subscription-list.md)

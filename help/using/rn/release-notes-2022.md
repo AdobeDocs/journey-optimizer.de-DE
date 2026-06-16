@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Mit Adobe Experience Platform können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnisvoreinstellungen Ihrer Kunden zu respektieren. Einverständnisrichtlinien werden in Adobe Experience Platform definiert. In Journey Optimizer können Sie diese Einverständnisrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden. Sie können beispielsweise Einverständnisrichtlinien definieren, um Kunden auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Nachrichten nicht zugestimmt haben.
+<p>Mit Adobe Experience Platform können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnisvoreinstellungen Ihrer Kundschaft zu respektieren. Einverständnisrichtlinien werden in Adobe Experience Platform definiert. In Journey Optimizer können Sie diese Einverständnisrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden. Sie können beispielsweise Einverständnisrichtlinien definieren, um Kundschaft auszuschließen, die dem Empfang von E-Mail-, Push- oder SMS-Nachrichten nicht zugestimmt hat.
 <p>Die automatisierte Durchsetzung von Einverständniserklärungen ist derzeit nur für Organisationen verfügbar, die das Add-on Healthcare Shield erworben haben.</p>
 <p>Weitere Informationen finden Sie in der <a href="../action/consent.md">ausführlichen Dokumentation</a>.
 </td>
