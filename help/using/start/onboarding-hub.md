@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: Journey Optimizer, Onboarding, Onboarding-Hub, Anwendungsfälle, Videos, Tutorials, Erste Schritte, Anlauf, erste Journey
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer Onboarding-Hub {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **Auf dieser Seite:** Ramp up on Adobe Journey Optimizer fast - Sehen Sie sich eine kurze Einführung an, folgen Sie den schrittweisen Anweisungen, um Ihr erstes Erlebnis zu versenden, durchsuchen Sie Anwendungsfälle in der realen Welt und gehen Sie in kuratierte Videoinhalte ein.
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 Neu bei [!DNL Adobe Journey Optimizer]? In diesem Hub werden die Ressourcen zusammengestellt, die Ihnen dabei helfen, Ihr erstes Live-Kundenerlebnis zu schaffen - mit schrittweisen Anweisungen für gemeinsame Ziele, Anwendungsfällen aus der Praxis, die zeigen, was möglich ist, und kuratierten Videoinhalten (Tutorials, exemplarische Vorgehensweisen und praktische Übungen).
 
