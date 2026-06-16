@@ -39,7 +39,7 @@ Neu bei [!DNL Adobe Journey Optimizer]? In diesem Hub werden die Ressourcen zusa
 
 Beginnen Sie mit diesem Einführungsvideo, wenn Sie zehn Minuten Zeit haben. Er führt Sie durch die Benutzeroberfläche und hebt die wichtigsten Funktionen nach Rolle hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
 
 Dann bauen Sie mit diesen Lernressourcen praktisches Vertrauen auf:
 
