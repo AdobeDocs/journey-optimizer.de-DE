@@ -6,9 +6,9 @@ description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, 
 
 ::::landing-cards-container
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise
 
@@ -67,7 +67,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -77,7 +77,7 @@ Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner F
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -87,7 +87,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -97,7 +97,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -107,7 +107,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
@@ -140,7 +140,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressourcen für Entwickelnde</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> – <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
 </td>
 </tr></table>
 

@@ -6,9 +6,9 @@ description: Inhaltskarten
 redpen-status: CREATED_||_2025-08-11_20-43-30
 exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des Inhaltskartenkanals
 
@@ -33,7 +33,7 @@ Richten Sie den Inhaltskartenkanal für Web-, Mobile- und Terminal-Plattformen m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Konfigurieren von Inhaltskarten
 
@@ -43,7 +43,7 @@ Schritt-für-Schritt-Tutorial zum Erstellen, Anpassen und Implementieren von Inh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entwerfen von Inhaltskarten
 

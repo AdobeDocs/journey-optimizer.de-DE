@@ -6,9 +6,9 @@ description: Zustellbarkeit von E-Mails
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Bei der Zustellbarkeit von E-Mails geht es darum sicherzustellen, dass Ihre E-Mails den Posteingang Ihrer Zielgruppe erreichen, anstatt in Spam-Ordnern verloren zu gehen oder vollständig blockiert zu werden – ein wichtiger Faktor für erfolgreiche Kampagnen. In Adobe Journey Optimizer erfahren Sie, wie Sie die Zustellbarkeit verbessern können, indem Sie Unterdrückungslisten verwalten, um problematische Adressen auszuschließen, E-Mail-Inhalte anpassen, um Spam-Filter zu umgehen, und durch Maßnahmen wie die IP-Aufwärmung eine gute Reputation des Absenders aufbauen. Außerdem lernen Sie erweiterte Tools wie die DMARC-Authentifizierung und das SMTP-Relais kennen, die zusätzliche Sicherheit und Compliance bieten. Jedes Thema ist mit praktischen Strategien verbunden, mit denen Sie die Leistung Ihrer E-Mails sichern und gleichzeitig das Vertrauen der Empfängerinnen und Empfänger verbessern können.
 
-## Ressourcen zur E-Mail-Zustellbarkeit
+## Ressourcen zur Zustellbarkeit von E-Mails
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in die Zustellbarkeit von E-Mails
 
@@ -30,7 +30,7 @@ Lernen Sie die Konzepte, Best Practices und Tools zur Optimierung der E-Mail-Zus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Grundlegendes zu Unterdrückungslisten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Unterdrückungslisten die Reputation des Absenders schützen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Einhalten der neuen DMARC-Anforderungen
 

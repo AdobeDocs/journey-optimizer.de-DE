@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten- und Zielgruppenfunktionen in Journey Optimizer Journey verwenden, einschließlich der inAudience-Funktion.
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten- und Zielgruppenfunktionen in Journey Optimizer-Journeys verwenden, einschließlich der inAudience-Funktion.
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 60%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Platform ist die Grundlage für die Bereitstellung hochgradig p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inAudience“
 
@@ -30,23 +30,23 @@ Erfahren Sie, wie Sie die Funktion „inAudience“ verwenden, um die Zielgruppe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Verwenden von Adobe Experience Platform-Daten für Personalization
+Verwenden von Adobe Experience Platform-Daten für die Personalisierung
 
 Erfahren Sie, wie Sie auf Adobe Experience Platform-Profilattribute und -Datensätze zugreifen und diese verwenden können, um Nachrichten und Journey-Bedingungen zu personalisieren.
 
-[AEP-Daten für die Personalisierung verwenden](../using/personalization/aep-data-perso.md)
+[Verwenden von AEP-Daten für die Personalisierung](../using/personalization/aep-data-perso.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-Verwenden von Adobe Experience Platform-Daten in Journey
+Verwenden von Adobe Experience Platform-Daten in Journeys
 
 Erfahren Sie, wie Sie Adobe Experience Platform-Daten direkt in Journey-Bedingungen, -Aktionen und -Ausdrücken abfragen und nachschlagen können.
 
-[Verwenden von AEP-Daten in Journey](../using/data/lookup-aep-data.md)
+[Verwenden von AEP-Daten in Journeys](../using/data/lookup-aep-data.md)
 :::
 
 ::::

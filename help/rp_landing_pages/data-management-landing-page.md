@@ -6,9 +6,9 @@ description: Daten-Management
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Mit dem Daten-Management in Adobe Journey Optimizer können Sie Ihre Kundendaten flexibel, sicher und präzise kontrollieren. Ganz gleich, ob Sie Daten aus Compliance-Gründen aufbewahren, abgelaufene Einträge löschen oder Informationen für die externe Verwendung exportieren müssen – diese Tools wurden entwickelt, um Ihre Governance-Richtlinien und technischen Anforderungen zu unterstützen. Von Schemata, die definieren, wie Daten strukturiert werden, bis hin zu interaktiven Abfragen für die Analyse passt jede Funktion in ein größeres Ökosystem, das Ihnen hilft, Ihre Daten effektiv zu organisieren, darauf zuzugreifen und sie zu nutzen. Informieren Sie sich über Themen wie die Verwaltung von Datensätzen, die Aktivierung von Plattformintegrationen und erweiterte Abfragen – allesamt darauf zugeschnitten, Ihre Daten intelligenter für Ihre Personalisierungs- und Entscheidungsziele arbeiten zu lassen.
 
-## Funktionen zum Daten-Management
+## Funktionen für das Daten-Management
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit Daten-Management
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Adobe Journey Optimizer die Benutzenden mit seinen erweiterten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Arbeiten mit Schemata in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Verstehen und verwalten Sie Adobe Experience Platform- Schemata für eine effekt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer-Datensätze
 
@@ -50,7 +50,7 @@ Hier finden Sie eine umfassende Anleitung zum Verwalten von Datensätzen, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verwenden von Adobe Experience Platform-Daten
 
@@ -60,7 +60,7 @@ Aktivieren und nutzen Sie Adobe Experience Platform-Datensätze in Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Erste Schritte mit Abfragen in Journey Optimizer
 

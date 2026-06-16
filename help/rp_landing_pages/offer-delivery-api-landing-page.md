@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="Legacy" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 98%
 
 Mit den APIs von Adobe Journey Optimizer zur Angebotsbereitstellung können Sie personalisierte Marketing-Angebote zur richtigen Zeit für die richtige Zielgruppe bereitstellen und so die Interaktion über mehrere Kanäle hinweg verbessern. Ganz gleich, ob Sie mit der Edge Decisioning API Echtzeit-Erlebnisse gestalten, mit der Decisioning API spezifische Angebote anpassen oder mit der Batch Decisioning API die Reichweite skalieren – diese Tools bieten vielseitige Lösungen für unterschiedliche Anwendungsfälle. Sie erkunden, wie jede API funktioniert, von der Verarbeitung von Kontextdaten bis hin zur Implementierung von Häufigkeitsbegrenzungen, und entdecken Workflows, die auf Ihre Geschäftsanforderungen zugeschnitten sind. Nutzen Sie eine intelligentere Entscheidungsfindung und nahtlose Integrationen, um mit Zuversicht beeindruckende Kundenerlebnisse zu schaffen.
 
-## Unterbreiten von Angeboten mithilfe von APIs
+## Versenden von Angeboten mithilfe von APIs
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit APIs für die Angebotsunterbreitung
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 
@@ -45,7 +45,7 @@ Erstellen und unterbreiten Sie personalisierte Marketing-Angebote mit der Decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bereitstellen von Angeboten mithilfe der Edge Decisioning API
 
@@ -55,7 +55,7 @@ Implementieren Sie die personalisierte Angebotsbereitstellung mit dem Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden der Batch Decisioning API zum Unterbreiten von Angeboten
 

@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Aktionskonfiguration
-description: Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Journey Optimizer konfigurieren, um Journey über API-Aufrufe, Antworten, Überwachung und Governance mit Drittanbietersystemen zu verbinden.
+description: Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Journey Optimizer konfigurieren, um Journeys über API-Aufrufe, Antworten, Überwachung und Governance mit Drittanbietersystemen zu verbinden.
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Mit der Aktionskonfiguration in Adobe Journey Optimizer können Sie Ihre Custome
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit benutzerdefinierten Aktionen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Adobe Journey Optimizer kon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren benutzerdefnierter Aktionen
 
@@ -40,7 +40,7 @@ Schritt-für-Schritt-Anleitung zum Einrichten benutzerdefinierter Aktionen, eins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen
 
@@ -50,11 +50,11 @@ Erfahren Sie, wie Sie API-Aufrufantworten in benutzerdefinierten Aktionen verwen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Überwachen von benutzerdefinierten Aktionen
+Überwachen benutzerdefinierter Aktionen
 
-Verfolgen Sie die Leistung und Ausführung benutzerdefinierter Aktionen in Ihren Journey mit den integrierten Überwachungs- und Berichtsfunktionen.
+Verfolgen Sie die Leistung und Ausführung benutzerdefinierter Aktionen in Ihren Journeys mit integrierten Überwachungs- und Berichtsfunktionen nach.
 
 [Überwachen benutzerdefinierter Aktionen](../using/action/reporting.md)
 :::

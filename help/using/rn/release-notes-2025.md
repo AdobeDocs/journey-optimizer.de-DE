@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 9272
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1084,7 +1080,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kampagnen**
 
-   * **Mehrere eingehende Aktionen in Kampagnen** - Um die Kampagnenorchestrierung zu vereinfachen, können jetzt mehrere eingehende Aktionen in einer einzelnen Kampagne definiert werden. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält.
+   * **Mehrere eingehende Aktionen in Kampagnen** – Damit die Kampagnenorchestrierung vereinfacht wird, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Kampagne definieren. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält.
      [Weitere Informationen](../campaigns/campaign-action.md#multi-action)
 
    * **Neuorganisation des Kampagneninventars**: Geplante und API-ausgelöste Kampagnen sind jetzt im Kampagneninventar zur leichteren Navigation und Verwaltung in separate Registerkarten unterteilt.
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media-Assets sind jetzt direkt in Journey Optimizer verfügbar und zugänglich. Diese Integration bietet folgende Möglichkeiten:
+<p>Dynamic Media-Assets sind jetzt direkt in Journey Optimizer verfügbar und zugänglich. Diese Integration ermöglicht Folgendes:
 <ul>
 <li>Zentrale Verwaltung von Assets mit Echtzeit-Updates</li>
 <li>Sofortiges Ändern von Asset-Einstellungen wie Breite und Höhe</li>

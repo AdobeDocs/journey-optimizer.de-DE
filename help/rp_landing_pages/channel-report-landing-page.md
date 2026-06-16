@@ -6,9 +6,9 @@ description: Bericht für die gesamte Zeit
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Der „Bericht für die gesamte Zeit“ in Adobe Journey Optimizer ist Ihr Tor zu Informationen über die Performance von Kampagnen und Journeys im Zeitverlauf. Dank der Integration in Customer Journey Analytics ermöglicht diese Funktion die nahtlose Analyse von Daten und liefert präzise Erkenntnisse zu Kanälen wie E-Mail, SMS, Push-Benachrichtigungen und mehr. Sie erfahren, wie Sie auf detaillierte Metriken zugreifen, Berichtsdatenquellen konfigurieren und sogar Zielgruppen direkt aus Berichten erstellen können. Ganz gleich, ob Sie die Wirksamkeit von Kampagnen untersuchen oder sich mit Journey-Analysen befassen – die miteinander verbundenen Themen bieten einen klaren Fahrplan, um Reporting-Tools zu beherrschen und die Kundenbindung mit Zuversicht zu optimieren.
 
-## Alle Zeitberichtsfunktionen
+## Funktionen des Berichts für die gesamte Zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Berichten für die gesamte Zeit
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer auf die Funktion „Bericht fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Umfassende Liste der Metriken
 
@@ -40,7 +40,7 @@ Erkunden Sie detaillierte Definitionen von Metriken, die über verschiedene Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Manuelles Konfigurieren von Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Schrittweise Anleitung zum manuellen Konfigurieren der Integration mit Customer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Berichten
 
@@ -60,7 +60,7 @@ In diesem Video erfahren Sie, wie Sie Berichte analysieren, anpassen, exportiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Konfigurieren von Berichtsdatenquellen
 
@@ -70,7 +70,7 @@ Richten Sie Datenquellen und Datensätze ein, um Experimente zu ermöglichen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Ausschlussgründe
 

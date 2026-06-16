@@ -6,9 +6,9 @@ description: Abfragen der Datenbank
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Entdecken Sie mit den leistungsstarken Datenbankabfrage-Tools von Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Verwenden des Regel-Builders f체r koordinierte Kampagnen
+Verwenden des Regel-Builders f체r orchestrierte Kampagnen
 
 Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln f체r Zielgruppen-Targeting und -segmentierung erstellen und verwalten.
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen Ihrer ersten Regel in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen und Validieren von Regeln zum Filtern und T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bearbeiten von Ausdr체cken in Adobe Journey Optimizer
 
@@ -50,11 +50,11 @@ Beherrschen Sie den Ausdruckseditor, um Abfrageregeln manuell zu definieren und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Retargeting-Abfragen in Adobe Journey Optimizer
 
-Erstellen Sie Retargeting-Regeln auf der Grundlage von Feedback nach einem Versand und von Daten zur Benutzerinteraktion f체r orchestrierte Kampagnen. 
+Erstellen Sie Retargeting-Regeln auf der Grundlage von Feedback nach einem Versand und von Daten zur Benutzerinteraktion f체r orchestrierte Kampagnen.
 
 [Informationen zum Retargeting](../using/orchestrated/retarget.md)
 :::
