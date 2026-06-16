@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
 workflow-type: tm+mt
-source-wordcount: '3362'
+source-wordcount: '3354'
 ht-degree: 99%
 
 ---
@@ -40,9 +40,7 @@ ht-degree: 99%
       + [Wichtige Terminologie](using/start/terminology.md)
       + {hide-from-toc}[Welche Funktion für diesen Auftrag?](using/start/ajo-use-case-guide.md)
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
-      + {hide-from-toc}[Funktionen nach Paket](using/start/ajo-packages.md)
-      + {hide-from-toc}[Pakete und Funktionen (v2)](using/start/ajo-packages-v2.md)
-      + {hide-from-toc}[Pakete und Funktionen (v3)](using/start/ajo-packages-v3.md)
+      + {hide-from-toc}[Pakete und Funktionen](using/start/ajo-packages.md)
    + Erste Schritte nach Rolle {#by-role}
       + [Rollen und Verantwortlichkeiten](using/start/quick-start.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
