@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 74%
+source-wordcount: 2462
+ht-degree: 64%
 
 ---
 
@@ -268,11 +258,64 @@ Mit dieser Option werden dem `customAuthorization` zwei Pflichtfelder hinzugefü
 
 Die Felder `client_assertion` und `client_assertion_type` werden nie vom Benutzer verfasst. Sie werden zur Laufzeit automatisch von der Plattform eingefügt, unmittelbar vor dem Token-Endpunkt-Aufruf.
 
-<!--
-rebuild
--->
+#### Funktionsweise {#certificate-credential-how-it-works}
 
-Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifikatberechtigung:
+Die zertifikatbasierte benutzerdefinierte Authentifizierung implementiert OAuth 2.0-Client-Anmeldeinformationen mit einer JWT-Client-Bestätigung, wie in [RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"} definiert. Dies ist derselbe Standard, der von Microsoft Entra ID und Okta unterstützt wird. Anstelle eines Client-Geheimnisses beweist Journey Optimizer seine Identität mithilfe eines JWT, das mit dem verwalteten privaten Schlüssel von Adobe signiert ist. Ihr Identitätsanbieter überprüft die Signatur mit dem öffentlichen Zertifikat von Adobe, das Sie einmal bei Ihrem Identitätsanbieter registrieren.
+
+Der Token-Austausch führt die folgenden Schritte aus:
+
+1. Journey Optimizer erstellt eine JWT-Client-Bestätigung, die mit dem privaten Schlüssel von Adobe signiert ist.
+1. Die Bestätigung wird zusammen mit Ihren `client_id`, `grant_type` und `scope` an Ihren Token-Endpunkt gesendet.
+1. Ihr Identitätsanbieter überprüft die JWT-Signatur anhand des registrierten öffentlichen Zertifikats von Adobe.
+1. Ihr Identitätsanbieter gibt ein Bearer-Zugriffstoken zurück.
+1. Journey Optimizer verwendet dieses Token, um Ihren benutzerdefinierten Aktionsendpunkt aufzurufen.
+
+#### Adobe-Zertifikatdetails {#certificate-credential-details}
+
+Adobe verwaltet das Zertifikat und den zugehörigen privaten Schlüssel. In der folgenden Tabelle sind die wichtigsten Eigenschaften aufgeführt:
+
+| Eigenschaft | Wert |
+| --- | --- |
+| Ausgestellt von | DigiCert (öffentliche Zertifizierungsstelle) |
+| Verwaltet von | Adobe |
+| Algorithmus | RS256 (RSA) |
+| Was bei Ihrem Identitätsanbieter registriert werden soll | Nur Adobes Blattzertifikat - nicht die Zwischen- oder Stamm-Zertifizierungsstelle |
+| So erhalten Sie | Rufen Sie sie von der [mTLS Public Certificate API ab](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (siehe **Zertifikat**-Leitplanke unten) |
+| Rotation | Adobe verwaltet die Rotation und sorgt für eine Vorankündigung von mindestens 30 Tagen |
+
+#### JWT-Assertionsstruktur {#certificate-credential-jwt}
+
+Sie erstellen keine JWT-Client-Bestätigung - Journey Optimizer generiert und signiert sie für Sie. Die erwartete Struktur wird hier bereitgestellt, damit Ihr Identity Provider-Team die Ansprüche überprüfen kann.
+
+Kopfzeile:
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+Payload:
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+Beachten Sie dabei Folgendes:
+
+* `exp` − `iat` ist immer ≤ 10 Minuten - im Einklang mit den Anforderungen von Okta und Entra ID.
+* Jede Assertion verwendet eine eindeutige `jti`, die eine Wiederholungsangriffssicherheit gewährleistet.
+* `client_assertion` und `client_assertion_type` werden automatisch von der Plattform eingefügt und nie verfasst.
+
+Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifikatanmeldeinformationen für die Microsoft Entra ID:
 
 ```json
 {
@@ -294,6 +337,28 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifik
 }
 ```
 
+Im Folgenden finden Sie ein Beispiel für denselben Authentifizierungstyp für Zertifikatberechtigungen, für Okta:
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >Beachten Sie die folgenden Leitplanken beim Konfigurieren der zertifikatbasierten benutzerdefinierten Authentifizierung:
@@ -302,7 +367,7 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Zertifik
 >* **`method`**: Muss `POST` sein. OAuth-Token-Endpunkte akzeptieren nur POST-Anfragen.
 >* **`client_id`**: Darf nicht leer sein und darf keine führenden oder nachfolgenden Leerzeichen enthalten. Ein leerer Wert erzeugt einen gültig aussehenden JWT, den der Identitätsanbieter mit einem deckenden Fehler zurückweist.
 >* **`scope`**: Wird in `bodyParams` als einzelne, durch Leerzeichen getrennte Zeichenfolge ausgedrückt. Insgesamt maximal 1000 Zeichen.
->* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** (nicht die Stamm-CA) bei Ihrem Identitätsanbieter registrieren.
+>* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** bei Ihrem Identitätsanbieter registrieren. Um sie abzurufen, rufen Sie die [mTLS Public Certificate API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf und suchen Sie nach dem Eintrag, in dem `certCommonName` `ajo-journeys.aep-mtls.adobe.com` ist. Registrieren Sie den `publicCertificate` aus diesem Eintrag - verwenden Sie keine Zwischen- oder Stammzertifikate der Zertifizierungsstelle.
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 
