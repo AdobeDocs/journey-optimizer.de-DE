@@ -33,7 +33,7 @@ Neu bei [!DNL Adobe Journey Optimizer]? In diesem Hub werden die Ressourcen zusa
 
 >[!TIP]
 >
->Nicht sicher, welche Funktion zu Ihrem Ziel passt? Beginnen Sie mit dem [ „Finden Sie die richtige Journey Optimizer-Funktion für Ihr ](ajo-use-case-guide.md)&quot; und kehren Sie dann hierher zurück, um schrittweise Anleitungen zu erhalten.
+>Nicht sicher, welche Funktion zu Ihrem Ziel passt? Beginnen Sie mit dem [&#x200B; „Finden Sie die richtige Journey Optimizer-Funktion für Ihr &#x200B;](ajo-use-case-guide.md)&quot; und kehren Sie dann hierher zurück, um schrittweise Anleitungen zu erhalten.
 
 ## Hier beginnen: ansehen und lernen {#start-here}
 
@@ -57,8 +57,8 @@ Jede der folgenden Schritten ist kurz und ergebnisorientiert: Was Sie aufbauen w
 **Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.
 **Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
-1. Bestätigen Sie[ dass Ihre einheitlichen Profile und ](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
-2. [Erstellen Sie Ihre erste ](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
+1. Bestätigen Sie[&#x200B; dass Ihre einheitlichen Profile und &#x200B;](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
+2. [Erstellen Sie Ihre erste &#x200B;](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
 3. Fügen Sie eine Begrüßungs[E-Mail](../email/get-started-email.md), dann einen Warteschritt und eine Folgenachricht [Push-Benachrichtigung](../push/get-started-push.md) für Profile hinzu, die nicht interagiert haben.
 4. [Personalisieren des Inhalts](../personalization/personalize.md) mit Profilattributen wie Vorname und angegebenen Interessen.
 
@@ -81,8 +81,8 @@ Jede der folgenden Schritten ist kurz und ergebnisorientiert: Was Sie aufbauen w
 **Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.
 **Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** API-ausgelöste Kampagne
 
-1. Überprüfen Sie[ wie API-ausgelöste Kampagnen ](../campaigns/api-triggered-campaigns.md) und welche Payload sie erwarten.
-2. Gestalten Sie die Nachrichtenvorlage und [ Sie ](../personalization/personalize.md) mit den Transaktionsdetails.
+1. Überprüfen Sie[&#x200B; wie API-ausgelöste Kampagnen &#x200B;](../campaigns/api-triggered-campaigns.md) und welche Payload sie erwarten.
+2. Gestalten Sie die Nachrichtenvorlage und [&#x200B; Sie &#x200B;](../personalization/personalize.md) mit den Transaktionsdetails.
 3. Bitten Sie Ihren Entwickler, den Campaign-Endpunkt aus Ihrem Auftrags- oder Erfüllungssystem aufzurufen.
 
 ➡️ [Arbeiten mit API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
