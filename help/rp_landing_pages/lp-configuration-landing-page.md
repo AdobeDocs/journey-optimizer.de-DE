@@ -26,7 +26,7 @@ Unabhängig davon, ob Sie bestehende Domains oder neue Setups verwenden, helfen 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren und Verwalten von Landingpage-Subdomains
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie Subdomains für das Hosten von Landingpages in Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Definieren der Landingpage-Voreinstellungen
 
