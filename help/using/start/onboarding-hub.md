@@ -44,7 +44,7 @@ Beginnen Sie mit diesem Einführungsvideo, wenn Sie zehn Minuten Zeit haben. Er 
 Dann bauen Sie mit diesen Lernressourcen praktisches Vertrauen auf:
 
 * [Journey Optimizer-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - Schrittweise Videos und Anleitungen zu jeder Rolle.
-* [Expert-kuratierte Video-Wiedergabeliste](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} - Ein sequenzierter Satz von kurzen Videos, die in der richtigen Reihenfolge angesehen werden.
+* [Expert-kuratierte Video-Wiedergabeliste](https://experienceleague.adobe.com/de/playlists?solution=Journey+Optimizer){target="_blank"} - Ein sequenzierter Satz von kurzen Videos, die in der richtigen Reihenfolge angesehen werden.
 * [Trainings-Sandbox](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} - Eine sichere Umgebung mit Beispieldaten zum Üben.
 * [Praktische Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} - Wenden Sie Ihr Wissen mit geführten Übungen an.
 
@@ -139,7 +139,7 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 >[!TAB Reporting und Optimierung]
 
 * [Überwachen und Analysieren Ihres Journey mit Live-Berichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - Verfolgen Sie die Performance in Echtzeit.
-* [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
+* [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
 
 >[!ENDTABS]
 
