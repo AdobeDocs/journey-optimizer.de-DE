@@ -7,7 +7,7 @@ ht-degree: 43%
 ---
 Die Wiki-Tool-Berechtigungen wurden nicht gewährt. Ich fahre mit den detaillierten Informationen aus dem Ticket selbst fort, das die wichtigsten Spezifikationen enthält (500 TPS-Standard, 1000/1500 TPS-Stufen über das Leistungs-Add-on, Push-only, unterstützt Erhöhungen von Burst/begrenzter Dauer).
 
----
+&#x200B;---
 
 Lösung: Journey Optimizer
 Produkt: Journey Optimizer
@@ -40,7 +40,7 @@ internal-label: Personalization
 
 Hier finden Sie die vollständige aktualisierte Markdown-Datei:
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 Der wichtigste Neuzugang ist der neue Abschnitt **Push** Benachrichtigungs-Durchsatz (`## Push notification throughput {#push-throughput}`) zwischen „Info“ und „Wichtige Schritte“, in dem Folgendes dokumentiert wird:
 - Der 500 TPS-Standard ist für alle Kunden enthalten
