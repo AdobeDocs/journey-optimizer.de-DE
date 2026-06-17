@@ -1,21 +1,25 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Journey Optimizer-Funktionsverfügbarkeit
-description: Eine einzige, konsolidierte Referenz, um zu ermitteln, welche Adobe Journey Optimizer-Funktionen verfügbar sind, welchen Lebenszyklusstatus sie haben (allgemeine Verfügbarkeit, eingeschränkte Verfügbarkeit oder Beta), auf welches Basisangebot sie sich beziehen, und wann sie versendet wurden - ohne Querverweise auf Versionshinweise.
-feature: Get Started
-topic: Content Management
-role: Admin, User
-level: Beginner, Intermediate
-keywords: Journey Optimizer, Funktionsverfügbarkeit, Verfügbare Funktionen, Allgemein, Eingeschränkte Verfügbarkeit, Beta, Lebenszyklus, Veröffentlichungsdatum, Berechtigung, Basisangebot, Kampagnen, Journey
-hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '2004'
+ht-degree: 12%
+
+---
+Die Quelldatei der Dokumentation befindet sich im Dokumentations-Repository, nicht in diesem Pipeline-Projekt. Da in den Anweisungen angegeben wird, dass der vollständige aktualisierte Markdown ausgegeben werden soll, lautet er hier:
 
 ---
 
+Lösung: Journey Optimizer
+Produkt: Journey Optimizer
+Titel: Verfügbarkeit von Journey Optimizer-Funktionen
+Beschreibung: Eine einzige, konsolidierte Referenz, um zu ermitteln, welche Adobe Journey Optimizer-Funktionen verfügbar sind, welchen Lebenszyklusstatus sie haben (allgemeine Verfügbarkeit, eingeschränkte Verfügbarkeit oder Beta), auf welches Basisangebot sie sich beziehen, und wann sie versendet wurden - ohne Querverweise auf Versionshinweise.
+Funktion: Erste Schritte
+Thema: Content-Management
+Rolle: Administrator, Benutzer
+Stufe: Anfänger, Fortgeschrittene
+Schlüsselwörter: Journey-Optimizer, Funktionsverfügbarkeit, Verfügbare Funktionen, Allgemein, Eingeschränkte Verfügbarkeit, Beta, Lebenszyklus, Veröffentlichungsdatum, Berechtigung, Basisangebot, Kampagnen, Journey
+hide: true
+---
 
 # Journey Optimizer-Funktionsverfügbarkeit {#ajo-features-availability}
 
@@ -53,7 +57,7 @@ Die **Gilt für** bezieht sich auf die drei [!DNL Adobe Journey Optimizer] Basis
 - **Journey Optimizer - Journey** — Echtzeit, ereignisgesteuerte Orchestrierung
 - **Journey Optimizer - Kampagnen und Journey** — beide
 
-Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [&#x200B; Berechtigungen finden Sie unter &#x200B;](ajo-packages.md)Pakete und Funktionen“.
+Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [ Berechtigungen finden Sie unter ](ajo-packages.md)Pakete und Funktionen“.
 
 ## Funktionen nach Funktionsbereich {#features-by-area}
 
@@ -63,6 +67,7 @@ Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformf
 
 | Funktion | Status | Gilt für | Verfügbar seit | Anmerkungen |
 |---------|--------|-----------|-----------------|-------|
+| Sendezeitoptimierung (STO) für mobile Nachrichten | Beta | Alle Basisangebote | H2 2026 | KI-gesteuerte, pro Profil optimale Versandzeit für SMS, RCS und WhatsApp; verfügbar in Journey und Kampagnen |
 | Neuer Mobile-Nachrichtenkanal (SMS, MMS, RCS) | GA | Alle Basisangebote | &#x200B;20. Mai 2026 | Einheitliche SMS/MMS/RCS; natives RCS-Authoring (Bilder, Karussells) |
 | Deeplinks im E-Mail-Designer | GA | Alle Basisangebote | &#x200B;12. Mai 2026 | Erfordert Mobile-App-Konfiguration |
 | Optimieren von E-Mails für KI-Posteingänge | GA | Alle Basisangebote | &#x200B;17. April 2026 | Apple Intelligence, Gmail Gemini |
@@ -99,6 +104,7 @@ Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformf
 | Aktivität „Inhaltsentscheidung“ | GA | Journey; Kampagnen und Journey | &#x200B;10. Februar 2026 | Zuvor LA |
 | Ruhezeiten (zeitbasierte Ausschlüsse) | GA | Journey; Kampagnen und Journey | &#x200B;29. Januar 2026 | Zuvor LA |
 | KI-Assistent für Journey-Ausdrücke | Beta | Journey; Kampagnen und Journey | &#x200B;3. Juni 2026 | Öffentliche Beta |
+| Sendezeitoptimierung (STO) für mobile Nachrichten | Beta | Journey; Kampagnen und Journey | H2 2026 | KI-gesteuerte, pro Profil optimale Versandzeit für SMS, RCS und WhatsApp; siehe Registerkarte „Kanäle“ |
 | Journey-Schlichtung | LA | Journey; Kampagnen und Journey | &#x200B;24. Februar 2026 | Adobe-Support kontaktieren |
 | Journey-Schlichtung - KI-Modelle | LA | Journey; Kampagnen und Journey | April 2026 | Adobe-Support kontaktieren |
 | Unterstützung der Datensatzsuche in Journeys | LA | Journey; Kampagnen und Journey | März 2026 | Für Kunden mit Berechtigung zur Datensatzsuche |
@@ -119,6 +125,7 @@ Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformf
 | Vom Trigger mit einem Signal orchestrierte Kampagnen | GA | Kampagnen; Kampagnen und Journey | März 2026 | bleibt eine Batch-Kampagne |
 | Transaktionskategorie in koordinierten Kampagnen | GA | Kampagnen; Kampagnen und Journey | März 2026 | Schrittweise eingeführt nach Region |
 | Senden ausgehender Nachrichten (Kampagnen) schwenken | GA | Kampagnen; Kampagnen und Journey | &#x200B;19. Februar 2026 | LA in Journey |
+| Sendezeitoptimierung (STO) für mobile Nachrichten | Beta | Kampagnen; Kampagnen und Journey | H2 2026 | KI-gesteuerte, pro Profil optimale Versandzeit für SMS, RCS und WhatsApp; siehe Registerkarte „Kanäle“ |
 | Batch-Kampagne | GA | Kampagnen; Kampagnen und Journey | Kernfunktionen | Geplante, zielgruppenbasierte Sendungen |
 | Orchestrierte Kampagnen (mehrstufige Workflows) | GA | Kampagnen; Kampagnen und Journey | Kernfunktionen | E-Mail, SMS, Push, Briefpost |
 | Transaktionsnachrichten | GA | Alle Basisangebote | Kernfunktionen | E-Mail, Push, SMS; in jedem Basisangebot enthalten |
@@ -195,5 +202,9 @@ Für alle Entscheidungsfunktionen ist das Add-on **Decisioning** erforderlich. S
 ## Verwandte Ressourcen {#related}
 
 - **Verstehen Sie, was in Ihrem Paket enthalten ist** — [Pakete und Funktionen](ajo-packages.md)
-- **Alles anzeigen, was** wurde[&#x200B; — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
+- **Alles anzeigen, was** wurde[ — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
 - **Erste Schritte** — [Erste Schritte mit Journey Optimizer](get-started.md)
+
+---
+
+Drei Zeilen wurden hinzugefügt - eine in jeder der Registerkarten **Kanäle**, **Journey** und **Kampagnen** - und folgen demselben tabellenübergreifenden Muster, das für den Wellenversand verwendet wird. Die Funktion ist mit **Beta/H2 2026** gekennzeichnet, da das Ticket für die zweite Jahreshälfte 2026 geplant ist und die Funktion noch nicht allgemein verfügbar ist. Die Registerkarte „Kanäle“ enthält die maßgebliche Beschreibung; die Zeilen &quot;Journey&quot; und „Kampagnen“ sind kurze Querverweise, die die Leser zur Detailansicht auf die Registerkarte „Kanäle“ verweisen.
