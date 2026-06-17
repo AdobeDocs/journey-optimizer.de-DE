@@ -6,16 +6,13 @@ description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Q7lT1NR61ALn475i9akX7z80pybh93kbx06Gc8TcCuI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +167,11 @@ Wenden Sie abschließend Filter an, um sicherzustellen, dass nur relevante Eintr
 
 1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
+### Verwenden von Sammlungsdaten bei der Nachrichtenpersonalisierung {#collection-personalization}
+
+Wenn Sie eine Sammlungsrelation mit **[!UICONTROL Daten erfassen]** konfigurieren und **[!UICONTROL Abzurufende Zeilen (zu erstellende Spalten)]** (z. B. `3`) festlegen, sind Anreicherungsattribute im Nachrichteneditor unter **[!UICONTROL Zielattribute] > [!UICONTROL Anreicherung]** verfügbar.
+
+➡️ [Erfahren Sie, wie Sie Anreicherungssammlungsdaten in der Personalisierung verwenden](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}

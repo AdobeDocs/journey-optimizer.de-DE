@@ -6,20 +6,14 @@ description: Informationen zu grundlegenden Prinzipien der Erstellung von orches
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 90%
+source-wordcount: 367
+ht-degree: 80%
 
 ---
 
@@ -58,13 +52,19 @@ Sobald die Kampagne erstellt ist, ist es an der Zeit, die dahinterstehende Logik
 
 ➡️ [Weitere Informationen zur Orchestrierung von Aktivitäten](../orchestrated/orchestrate-activities.md)
 
-## Schritt 3: Starten und Überwachen Ihrer Kampagne {#start}
+## Schritt 3: Personalisierung hinzufügen {#personalize}
+
+Personalisieren Sie in Kanalaktivitäten Nachrichten mit Profilattributen und Zielattributen aus der Arbeitstabelle (einschließlich Anreicherungssammlungs-Arrays).
+
+➡️ [Erfahren Sie, wie Sie in orchestrierten Kampagnen eine Personalisierung hinzufügen](../orchestrated/add-personalization.md)
+
+## Schritt 4: Kampagne starten und überwachen {#start}
 
 Sie sind fast fertig. Führen Sie Ihre Kampagne zuerst im Testmodus aus, um etwaige Probleme zu ermitteln. Veröffentlichen Sie sie dann und überwachen Sie die Live-Ausführung in Echtzeit. Verfolgen Sie den Fortschritt, überprüfen Sie die Kampagne auf Fehler und sehen Sie sich an, wie Profile jeden Schritt durchlaufen.
 
 ➡️ [Weitere Informationen zum Start und zur Überwachung einer Kampagne](../orchestrated/start-monitor-campaigns.md)
 
-## Schritt 4: Analysieren und Melden von Ergebnissen {#report}
+## Schritt 5: Ergebnisse analysieren und berichten {#report}
 
 Verwenden Sie nach dem Start integrierte Berichte, um zu verstehen, was funktioniert hat und was verbessert werden könnte. Mit Echtzeit-Dashboards und ausführlichen Analysen können Sie zukünftige Kampagnen optimieren und Ihre Strategie verfeinern.
 

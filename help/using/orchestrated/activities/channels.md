@@ -6,19 +6,14 @@ description: Informationen über das Hinzufügen einer Kanalaktivität in einer 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 55%
+source-wordcount: 1815
+ht-degree: 52%
 
 ---
 
@@ -83,7 +78,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 * **Unterstützte Kanäle** - In orchestrierten Kampagnen werden nur die Kanäle SMS, Push, E-Mail und Briefpost unterstützt.
 
-* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Nur Kanalaktivitäten zählen für dieses Limit; Targeting- und Flusssteuerungsaktivitäten nicht.
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Nur Kanalaktivitäten zählen für dieses Limit, Targeting- und Flusssteuerungsaktivitäten nicht.
 
   Wenn Sie das Limit beim Speichern oder Veröffentlichen überschreiten, schlägt der Vorgang fehl. Um innerhalb des Limits zu bleiben, reduzieren Sie die Anzahl der Kanalaktivitäten oder teilen Sie den Nachrichtenversand auf mehrere orchestrierte Kampagnen auf.
 
@@ -140,7 +135,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen &#x200B;](../../conflict-prioritization/rule-sets.md).
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -183,25 +178,11 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Direkt-Mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Erstellen einer Briefpost</strong></a></td>
 </tr></table>
 
-### Hinzufügen von Personalisierung
+### Hinzufügen von Personalisierung {#add-personalization}
 
-Personalization in orchestrierten Kampagnen funktioniert ähnlich wie andere [!DNL Journey Optimizer] Kampagnen oder Journeys, mit einigen wichtigen Unterschieden, die speziell für die orchestrierte Arbeitsfläche gelten.
+Fügen Sie im Nachrichten-Editor für eine Kanalaktivität **[!UICONTROL Profilattribute]** und **[!UICONTROL Zielattribute]** aus der Kampagnen-Arbeitstabelle (Zielgruppendimension und Anreicherungsdaten) ein.
 
-Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugreifen, enthalten zwei Hauptordner die für Personalisierung verfügbaren Attribute, wie unten beschrieben.
-
-* **[!UICONTROL Profilattribute]**
-
-  Dieser Ordner enthält alle profilbezogenen Daten aus [!DNL Adobe Experience Platform]. Dabei handelt es sich um Standardattribute wie Name, E-Mail-Adresse, Standort oder andere im Benutzerprofil erfasste Eigenschaften.
-
-* **[!UICONTROL Zielattribute]** (spezifisch für orchestrierte Kampagnen)
-
-  Dieser Ordner ist nur bei orchestrierten Kampagnen verfügbar. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. Er enthält zwei Unterordner:
-
-   * **`<Targeting dimension>`** (z. B. „Empfänger“, „Käufe“): Enthält alle Attribute im Zusammenhang mit der Dimension, auf die sich Ihre Kampagne bezieht.
-
-   * **`Enrichment`**: Enthält Daten, die über Aktivitäten vom Typ **[!UICONTROL Anreicherung]** auf der Arbeitsfläche hinzugefügt werden. So können Sie Nachrichten basierend auf externen Datensätzen oder einer zusätzlichen Logik, die während der Orchestrierung integriert wurde, personalisieren. [Wie Sie die Aktivität „Anreicherung“ verwenden](../activities/enrichment.md)
-
-Einen detaillierten Überblick über die Verwendung des Personalisierungseditors finden Sie unter [Erste Schritte mit der Personalisierung](../../personalization/personalize.md).
+➡️ [Erfahren Sie, wie Sie in orchestrierten Kampagnen ](../add-personalization.md) Personalisierung hinzufügen, einschließlich Anreicherungssammlungs-Arrays, Array-Funktionen und `{{#each}}`.
 
 ### Überprüfen und Testen der Inhalte {#simulate-content-test-profiles}
 
@@ -236,7 +217,7 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 
-1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]**&#x200B;**[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 

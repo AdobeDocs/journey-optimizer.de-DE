@@ -6,16 +6,13 @@ description: Informationen zur Erstellung von orchestrierten Kampagnen mit Adobe
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 92%
+source-wordcount: 971
+ht-degree: 89%
 
 ---
 
@@ -121,4 +118,6 @@ Wenn Sie das Ende einer Verzweigung erreichen, können Sie eine Aktivität **[!U
 
 ## Nächste Schritte {#next}
 
-Nachdem Sie die Arbeitsfläche der orchestrierten Kampagne erfolgreich entworfen haben, können Sie die orchestrierte Kampagne ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Weitere Informationen zum Start einer orchestrierten Kampagne und zur Überwachung ihrer Ausführung](start-monitor-campaigns.md)
+Nachdem Sie Kanalaktivitäten zur Arbeitsfläche hinzugefügt haben, [ Sie in E](add-personalization.md)Mails, SMS und anderen Nachrichten (Erfahren Sie, wie Sie eine Personalisierung hinzufügen).
+
+Wenn die Arbeitsfläche bereit ist, führen Sie die orchestrierte Kampagne aus und verfolgen Sie den Fortschritt der Aufgaben. [Weitere Informationen zum Start einer orchestrierten Kampagne und zur Überwachung ihrer Ausführung](start-monitor-campaigns.md)
