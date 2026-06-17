@@ -53,7 +53,7 @@ Die **Gilt für** bezieht sich auf die drei [!DNL Adobe Journey Optimizer] Basis
 - **Journey Optimizer - Journey** — Echtzeit, ereignisgesteuerte Orchestrierung
 - **Journey Optimizer - Kampagnen und Journey** — beide
 
-Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [ Berechtigungen finden Sie unter ](ajo-packages.md)Pakete und Funktionen“.
+Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [&#x200B; Berechtigungen finden Sie unter &#x200B;](ajo-packages.md)Pakete und Funktionen“.
 
 ## Funktionen nach Funktionsbereich {#features-by-area}
 
@@ -195,5 +195,5 @@ Für alle Entscheidungsfunktionen ist das Add-on **Decisioning** erforderlich. S
 ## Verwandte Ressourcen {#related}
 
 - **Verstehen Sie, was in Ihrem Paket enthalten ist** — [Pakete und Funktionen](ajo-packages.md)
-- **Alles anzeigen, was** wurde[ — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
+- **Alles anzeigen, was** wurde[&#x200B; — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
 - **Erste Schritte** — [Erste Schritte mit Journey Optimizer](get-started.md)
