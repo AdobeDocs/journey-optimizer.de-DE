@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
-ht-degree: 97%
+source-wordcount: 3126
+ht-degree: 96%
 
 ---
 
@@ -52,6 +52,7 @@ Journey Optimizer bietet bei der [Nachrichtenpersonalisierung](personalize.md) Z
 * **[Datensatzsuche:](#dataset-lookup)** Angereicherte Daten, die aus Adobe Experience Platform-Datensätzen abgerufen wurden
 * **[Technische Eigenschaften:](#technical-properties)** Journey-Metadaten wie Journey-ID und zusätzliche Kennungen
 * **[Journey-Kontext:](#other-contexts)** Andere Journey-bezogene Daten, die während der Ausführung zugänglich sind
+* **Anreicherungssammlungen für orchestrierte Kampagnen** (nur orchestrierte Kampagnen): Siehe [Hinzufügen einer Personalisierung in orchestrierten Kampagnen](../orchestrated/add-personalization.md#enrichment-collections).
 
 In diesem Handbuch erfahren Sie, wie Sie über die Arrays aus den einzelnen Quellen in Ihren Nachrichten iterieren und wie Sie beim Konfigurieren von Journey-Aktivitäten mit Arrays arbeiten. Beginnen Sie mit [Handlebars-Iterationssyntax](#syntax), um die Grundlagen der Nachrichtenpersonalisierung zu verstehen, oder gehen Sie zu [Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys), um zu erfahren, wie Sie Array-Daten an benutzerdefinierte Aktionen und Datensatzsuchen übergeben.
 
@@ -526,7 +527,7 @@ Dieses Handbuch konzentriert sich auf die Iteration über Arrays. Es stehen jedo
 * **[Profilattribute](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}** (`profile.*`): Einzelne Profilfelder aus Adobe Experience Platform
 * **[Zielgruppen](../audience/about-audiences.md)** (`inAudience()`): Prüfungen der Zielgruppenzugehörigkeit
 * **[Angebotsentscheidungen](../offers/get-started/starting-offer-decisioning.md)**: Entscheidungs-Management-Angebote
-* **[Zielattribute](../orchestrated/activities/channels.md#add-personalization)** (nur orchestrierte Kampagnen): Auf der Kampagnen-Arbeitsfläche berechnete Attribute
+* **[Zielattribute](../orchestrated/add-personalization.md#attributes)** (nur orchestrierte Kampagnen): Auf der Kampagnen-Arbeitsfläche berechnete Attribute, einschließlich Anreicherungssammlungs-Arrays
 * **Token** (`context.token`): Sitzungs- oder Authentifizierungs-Token
 
 Die vollständige Personalisierungssyntax und Beispiele, die diese Quellen verwenden, finden Sie unter:
