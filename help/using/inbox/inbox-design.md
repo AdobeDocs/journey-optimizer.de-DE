@@ -6,20 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Gestalten eines Posteingangs {#inbox-design}
 
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Konfigurieren Sie das Layout, die Kapazität, die ungelesenen Indikatoren und den leeren Status Ihres Posteingangskanals, sodass Nachrichten markenintern und lesbar dargestellt werden. Zielgruppenprofilen wird so ein klares, konsistentes Erlebnis im hellen und dunklen Modus geboten.
+
+>[!ENDSHADEBOX]
+
 Das Design des Posteingangs bestimmt, wie jede Nachricht an Zielgruppenprofile in der Posteingangsoberfläche gerendert wird. Die Konfiguration umfasst die Posteingangsvorlage, Listen- und erweiterte Darstellungen sowie Lesestatusindikatoren, die neue Nachrichten von den bereits angezeigten unterscheiden.
 
 Eine vollständige Anleitung zum Erstellen einer Posteingangskampagne finden Sie unter [Erstellen eines Posteingangs](inbox-create.md).
 
-1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [&#x200B; erstellten Posteingangskampagne](inbox-create.md).
+1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [ erstellten Posteingangskampagne](inbox-create.md).
 
 1. Legen Sie den **[!UICONTROL Container-Titel]** fest.
 
@@ -63,5 +69,5 @@ Eine vollständige Anleitung zum Erstellen einer Posteingangskampagne finden Sie
 
    ![](assets/inbox-design-4.png)
 
-Wenn Sie bereit sind, überprüfen Sie Ihre Einstellungen und aktivieren Sie den Posteingang. Nach der Aktivierung kann sie mit &quot;[&quot; verwendet &#x200B;](../content-card/create-content-card.md).
+Wenn Sie bereit sind, überprüfen Sie Ihre Einstellungen und aktivieren Sie den Posteingang. Nach der Aktivierung kann sie mit &quot;[&quot; verwendet ](../content-card/create-content-card.md).
 
