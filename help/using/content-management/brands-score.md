@@ -7,7 +7,7 @@ ht-degree: 24%
 ---
 Da die Datei nicht in diesem Repository vorhanden ist und der Schreibzugriff nicht genehmigt wurde, finden Sie hier die vollständige aktualisierte Markdown-Datei wie angefordert:
 
----
+&#x200B;---
 Titel: Markenausrichtung
 Beschreibung: Erfahren Sie, wie Sie markeninterne Inhalte mithilfe des Markenwerts erstellen, validieren und verwalten.
 Thema: Content-Management, Künstliche Intelligenz
@@ -109,16 +109,16 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 1. Wählen Sie eine gekennzeichnete Richtlinie aus, um spezifisches Feedback und KI-generierte Vorschläge anzuzeigen. Brand Alignment bewertet die folgenden Kategorien:
 
-   * **[!UICONTROL Schreibstil]**:
-      * **[!UICONTROL Brand Communication Style]**: Definiert die Persönlichkeit und den emotionalen Ton, um eine konsistente Markensprache über alle Kanäle hinweg sicherzustellen.
-      * **[!UICONTROL Markenbotschaftsstandards]**: Struktur- und Formatierungsregeln für effektiven Marketing- und Werbetext.
-      * **[!UICONTROL Legal Compliance Standards]**: Stellt sicher, dass alle Kommunikationen den rechtlichen Anforderungen entsprechen, einschließlich Textplatzierungs- und Compliance-Checklisten.
+   &#x200B;* **[!UICONTROL Schreibstil]**:
+      &#x200B;* **[!UICONTROL Brand Communication Style]**: Definiert die Persönlichkeit und den emotionalen Ton, um eine konsistente Markensprache über alle Kanäle hinweg sicherzustellen.
+      &#x200B;* **[!UICONTROL Markenbotschaftsstandards]**: Struktur- und Formatierungsregeln für effektiven Marketing- und Werbetext.
+      &#x200B;* **[!UICONTROL Legal Compliance Standards]**: Stellt sicher, dass alle Kommunikationen den rechtlichen Anforderungen entsprechen, einschließlich Textplatzierungs- und Compliance-Checklisten.
 
-   * **[!UICONTROL Visueller Inhalt]**:
-      * **[!UICONTROL Fotografiestandards]**: Anforderungen an fotografische Inhalte, einschließlich Auflösung, Komposition, Beleuchtung und Dateiformaten.
-      * **[!UICONTROL Illustrationsstandards]**: Stilparameter, Zeilengewichte, Farbverwendung und Dateiformatanforderungen für Illustrationen.
-      * **[!UICONTROL Icon-Standards]**: Spezifikationen für die Icon-Gestaltung, einschließlich Gittersystemen, Strichgewichten und Dimensionierung für Einheitlichkeit.
-      * **[!UICONTROL Nutzungsrichtlinien]**: Best Practices für Bildauswahl, Platzierung und Kontext, um die Markenidentität zu wahren.
+   &#x200B;* **[!UICONTROL Visueller Inhalt]**:
+      &#x200B;* **[!UICONTROL Fotografiestandards]**: Anforderungen an fotografische Inhalte, einschließlich Auflösung, Komposition, Beleuchtung und Dateiformaten.
+      &#x200B;* **[!UICONTROL Illustrationsstandards]**: Stilparameter, Zeilengewichte, Farbverwendung und Dateiformatanforderungen für Illustrationen.
+      &#x200B;* **[!UICONTROL Icon-Standards]**: Spezifikationen für die Icon-Gestaltung, einschließlich Gittersystemen, Strichgewichten und Dimensionierung für Einheitlichkeit.
+      &#x200B;* **[!UICONTROL Nutzungsrichtlinien]**: Best Practices für Bildauswahl, Platzierung und Kontext, um die Markenidentität zu wahren.
 
 
 
@@ -158,12 +158,12 @@ So bewerten Sie die Qualität Ihrer Inhalte:
 
 1. Wählen Sie ein markiertes Element aus, um spezifisches Feedback und KI-generierte Verbesserungsvorschläge anzuzeigen. Die Bewertungen basieren auf den folgenden Kategorien:
 
-   * **[!UICONTROL Effektivität von CTA]**: Wertet aus, wie gut Ihr call-to-action Ihre Leser dazu motiviert, die gewünschte Aktion durchzuführen.
-   * **[!UICONTROL Betreffzeile]**: Bewertet Klarheit, Relevanz und Aufmerksamkeit erregende Qualität, um E-Mail-Öffnungen zu fördern.
-   * **[!UICONTROL Lesbarkeit]**: Misst, wie einfach und ansprechend Ihre Inhalte für Leser sind.
-   * **[!UICONTROL Spam-Prüfung]**: Identifiziert gängige Spam-Trigger, die die Zustellbarkeit beeinträchtigen können.
-   * **[!UICONTROL Inhaltskohärenz]**: Stellt sicher, dass Ihre Inhalte reibungslos fließen und auf dem Thema bleiben.
-   * **[!UICONTROL Korrekturlesen]**: Überprüft Rechtschreibung, Grammatik und Klarheit.
+   &#x200B;* **[!UICONTROL Effektivität von CTA]**: Wertet aus, wie gut Ihr call-to-action Ihre Leser dazu motiviert, die gewünschte Aktion durchzuführen.
+   &#x200B;* **[!UICONTROL Betreffzeile]**: Bewertet Klarheit, Relevanz und Aufmerksamkeit erregende Qualität, um E-Mail-Öffnungen zu fördern.
+   &#x200B;* **[!UICONTROL Lesbarkeit]**: Misst, wie einfach und ansprechend Ihre Inhalte für Leser sind.
+   &#x200B;* **[!UICONTROL Spam-Prüfung]**: Identifiziert gängige Spam-Trigger, die die Zustellbarkeit beeinträchtigen können.
+   &#x200B;* **[!UICONTROL Inhaltskohärenz]**: Stellt sicher, dass Ihre Inhalte reibungslos fließen und auf dem Thema bleiben.
+   &#x200B;* **[!UICONTROL Korrekturlesen]**: Überprüft Rechtschreibung, Grammatik und Klarheit.
 
    ![](assets/brand-score-8.png)
 
