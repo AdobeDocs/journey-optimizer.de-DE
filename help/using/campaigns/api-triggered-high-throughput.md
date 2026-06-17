@@ -1,89 +1,66 @@
 ---
-source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
-workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 61%
-
----
-Die Datei existiert nicht im Pipeline-Repository - es ist eine Dokumentationsdatei, die als Kontext bereitgestellt wird. Ich schreibe den kompletten aktualisierten Markdown direkt wie angewiesen (Ausgabe nur die Datei, keine Erklärungen).
-
-&#x200B;---
-
-Lösung: Journey Optimizer
-Produkt: Journey Optimizer
-Titel: Aktivieren des Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen
-Beschreibung: Erfahren Sie, wie Sie den Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen aktivieren.
-Funktion: Kampagnen, API
-Thema: Content-Management
-Rolle: Entwickler
-Stufe: Erfahren
-Schlüsselwörter: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-EXL-ID: 2B3E87DC-097A-4D05-873C-F421D11338C3
+solution: Journey Optimizer
+product: journey optimizer
+title: Aktivieren des Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen
+description: Erfahren Sie, wie Sie den Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen aktivieren.
+feature: Campaigns, API
+topic: Content Management
+role: Developer
+level: Experienced
+keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
+exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
 TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-- Kennung: CB954087-F4FC-4456-AFB9-E939CABCDC79
-internal-label: Journey Optimizer
-feature_v2:
-- ID: D556B755-390A-43F0-BE32-A08CF6236126
-internal-label: Konfiguration
-- Kennung: A653CC2E-BC85-4353-A306-399E5B247978
-internal-label: Journey Optimizer-Kampagnen
-subfeature_v2:
-- ID: F7479FA1-474B-479D-8C98-F6CEE5865A38
-internal-label: API-ausgelöste Kampagnen
-- Kennung: EE67BD4A-25EE-4CDD-9EAB-0D7549FDE0C6
-internal-label: Kampagnenverwaltung
-role_v2:
-- ID: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-internal-label: Entwickler
-topic_v2:
-- ID: E0EB8757-182F-49F3-94A4-1587D16F5094
-internal-label: Personalization
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ae7ea7c6b3f111dca040173221eec5210c41bef8
+workflow-type: tm+mt
+source-wordcount: 666
+ht-degree: 95%
+
 ---
+
 # Aktivieren des Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen {#high-throughput}
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Aktivieren Sie den Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen, damit Sie sehr umfangreiche Echtzeit-Transaktionsnachrichten mit bis zu 5.000 Transaktionen pro Sekunde (E-Mail) oder bis zu 1.500 Transaktionen pro Sekunde (Push-Benachrichtigung) senden können, ohne auf Profile angewiesen zu sein.
+**Auf dieser Seite:** Aktivieren Sie den Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen, damit Sie sehr große Echtzeit-Transaktions-E-Mails mit bis zu 5.000 Transaktionen pro Sekunde senden können, ohne auf Profile angewiesen zu sein.
 
 >[!ENDSHADEBOX]
 
-Der Modus „Hoher Durchsatz“ wurde für Unternehmen entwickelt **die (sehr umfangreiches Echtzeit-Transaktionsnachrichten** benötigen. Im Gegensatz zu regulären durch API ausgelösten Kampagnen werden Kampagnen mit hohem Durchsatz unabhängig von Adobe-Profilen ausgeführt und erfordern ein anderes Konfigurationsmodell.
+Der Modus mit hohem Durchsatz wurde für Unternehmen entwickelt, die **sehr umfangreiches Echtzeit-Transaktions-Messaging** (bis zu 5.000 Transaktionen pro Sekunde) benötigen. Im Gegensatz zu regulären durch API ausgelösten Kampagnen werden Kampagnen mit hohem Durchsatz unabhängig von Adobe-Profilen ausgeführt und erfordern ein anderes Konfigurationsmodell.
 
 Auf dieser Seite werden der Unterschied zwischen Kampagnen mit hohem Durchsatz und standardmäßigen durch API ausgelösten Kampagnen, die Einrichtungsanforderungen und die Gründe für die Auswahl eines Modus erläutert.
 
 ## Leitlinien und Einschränkungen
 
-&#x200B;* **Zugriff**: Nur in der US-Region für Organisationen verfügbar, die mit dem Add-on für Transaktions-Messaging mit hohem Durchsatz lizenziert sind.
+* **Zugriff**: Nur in der US-Region für Organisationen verfügbar, die mit dem Add-on für Transaktions-Messaging mit hohem Durchsatz lizenziert sind.
 
-&#x200B;* **Kanäle**: Verfügbar für E-Mail- und Push-Benachrichtigungen.
+* **Kanäle**: Derzeit nur für E-Mails verfügbar.
 
-&#x200B;* **Durchsatz**:
+* **Personalisierung**:
 
-   &#x200B;* **E** Mail: Bis zu 5000 Transaktionen pro Sekunde.
-   &#x200B;* **Push** - Bis zu 1500 Transaktionen pro Sekunde. Die folgenden mehrstufigen Durchsatzstufen sind verfügbar: 500 TPS (Basis), 1000 TPS und 1500 TPS. Höhere Ebenen erfordern die entsprechende Add-on-Berechtigung.
+   * Die gesamte Personalisierung muss als **kontextuelle Daten** in der API-Payload enthalten sein. [Informationen zum Personalisieren von Inhalten mit kontextuellen Daten](../campaigns/api-triggered-campaign-content.md#contextual)
+   * Profilbasierte Personalisierung wird nicht unterstützt. Wenn Profilvariablen verwendet werden, treten Validierungsfehler auf.
 
-&#x200B;* **Personalisierung**:
+* **Personalisierte Kanalkonfigurationen**: Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profilpersonalisierung verwendet werden.
 
-   &#x200B;* Die gesamte Personalisierung muss als **kontextuelle Daten** in der API-Payload enthalten sein. [Informationen zum Personalisieren von Inhalten mit kontextuellen Daten](../campaigns/api-triggered-campaign-content.md#contextual)
-   &#x200B;* Profilbasierte Personalisierung wird nicht unterstützt. Wenn Profilvariablen verwendet werden, treten Validierungsfehler auf.
+* **API-Endpunkt**: Kampagnen mit hohem Durchsatz verwenden einen anderen Endpunkt als standardmäßige durch API ausgelöste Kampagnen. Weitere Informationen finden Sie unter [Ausführen einer durch API ausgelösten Kampagne](../campaigns/trigger-campaigns.md#trigger).
 
-&#x200B;* **Personalisierte Kanalkonfigurationen**: Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profilpersonalisierung verwendet werden.
-
-&#x200B;* **API-Endpunkt**: Kampagnen mit hohem Durchsatz verwenden einen anderen Endpunkt als standardmäßige durch API ausgelöste Kampagnen. Weitere Informationen finden Sie unter [Ausführen einer durch API ausgelösten Kampagne](../campaigns/trigger-campaigns.md#trigger).
-
-&#x200B;* **Kampagnenexklusivität**: Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon versendet, ob ein Profil vorhanden ist oder nicht.
+* **Kampagnenexklusivität**: Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon versendet, ob ein Profil vorhanden ist oder nicht.
 
   Darüber hinaus kann eine Kampagne nicht sowohl für Anwendungsfälle mit aktiviertem Profil als auch für Anwendungsfälle ohne Profil verwendet werden. Wenn Sie beides benötigen, erstellen Sie zwei separate Kampagnen und stellen Sie sicher, dass das aufrufende System anhand des Kontexts entscheidet, welche Kampagne ausgelöst werden soll.
 
-&#x200B;* **Datensätze für Feedback und Tracking**: Feedback- und Tracking-Daten für Kampagnen mit hohem Durchsatz werden in entsprechenden Datensätzen gespeichert, die nicht für Profile aktiviert sind. Daher werden diese Ereignisse nicht mit Profilen verknüpft, selbst wenn ein passendes Profil vorhanden ist.
+* **Datensätze für Feedback und Tracking**: Feedback- und Tracking-Daten für Kampagnen mit hohem Durchsatz werden in entsprechenden Datensätzen gespeichert, die nicht für Profile aktiviert sind. Daher werden diese Ereignisse nicht mit Profilen verknüpft, selbst wenn ein passendes Profil vorhanden ist.
 
   Die verwendeten Datensätze sind:
 
-   &#x200B;* **Ereignisdatensatz zu AJO-Nachrichten-Feedback – Kein Profil**
-   &#x200B;* **Elebnisereignis-Datensatz zum AJO-E-Mail-Tracking – Kein Profil**
+   * **Ereignisdatensatz zu AJO-Nachrichten-Feedback – Kein Profil**
+   * **Elebnisereignis-Datensatz zum AJO-E-Mail-Tracking – Kein Profil**
 
-&#x200B;* **Durchsatzzuordnung**: Der Durchsatz, der im Add-on „Hoher Durchsatz“ bereitgestellt wird, ist ausschließlich für Kampagnen mit hohem Durchsatz reserviert. Es gibt keine Aufteilung des Durchsatzes zwischen durch API ausgelösten Kampagnen mit standardmäßigem und hohem Durchsatz.
+* **Durchsatzzuordnung**: Der Durchsatz, der im Add-on „Hoher Durchsatz“ bereitgestellt wird, ist ausschließlich für Kampagnen mit hohem Durchsatz reserviert. Es gibt keine Aufteilung des Durchsatzes zwischen durch API ausgelösten Kampagnen mit standardmäßigem und hohem Durchsatz.
 
 ## Auswahl zwischen standardmäßigen Kampagnen und Kampagnen mit hohem Durchsatz
 
@@ -92,8 +69,8 @@ Verwenden Sie diese Tabelle, um zu entscheiden, welcher Typ einer durch API ausg
 | Funktion/Anforderung | Standardmäßige durch API ausgelöste Kampagne | Kampagne mit hohem Durchsatz |
 |------------------------|---------------------------------|---------------------------|
 | **Verfügbarkeit** | Im Basisangebot enthalten | Erfordert das Add-on für Transaktions-Messaging mit hohem Durchsatz. |
-| **Durchsatz** | Bis zu 500 Transaktionen pro Sekunde | Bis zu 5.000 TPS (E-Mail); bis zu 1.500 TPS (Push-Benachrichtigung) |
-| **Kanäle** | E-Mail, SMS, Push | E-Mail, Push |
+| **Durchsatz** | Bis zu 500 Transaktionen pro Sekunde | Bis zu 5.000 Transaktionen pro Sekunde |
+| **Kanäle** | E-Mail, SMS, Push | E-Mail |
 | **Personalisierung** | Profil + Kontext in der API-Payload | Nur Kontext in der API-Payload |
 | **Profil und Zuordnung** | Ist vorhanden oder wird mit Ereignissen erstellt, die einem Profil zugeordnet sind | Kein Profil |
 | **Nachrichtenvolumen** | Standardberechtigungen und Nachrichtenpakete | Separate abgestufte Nachrichtenvolumen |
@@ -103,27 +80,27 @@ Verwenden Sie diese Tabelle, um zu entscheiden, welcher Typ einer durch API ausg
 
 Mit anderen Worten:
 
-&#x200B;* Gründe für die Auswahl von **standardmäßigen durch API ausgelösten** Kampagnen:
-   &#x200B;* Es ist vertraglich kein hoher Durchsatz festgelegt.
-   &#x200B;* Ihr Durchsatzbedarf beträgt ≤ 500 TPS.
-   &#x200B;* Sie benötigen Personalisierung basierend auf Adobe-Profilen.
-   &#x200B;* Kampagnendaten sollen für zukünftiges Targeting Profilen zugeordnet werden.
-   &#x200B;* Sie benötigen SMS-Nachrichten.
+* Gründe für die Auswahl von **standardmäßigen durch API ausgelösten** Kampagnen:
+   * Es ist vertraglich kein hoher Durchsatz festgelegt.
+   * Ihre Anforderungen an den Durchsatz betragen &lt;500 TPS.
+   * Sie benötigen Personalisierung basierend auf Adobe-Profilen.
+   * Kampagnendaten sollen für zukünftiges Targeting Profilen zugeordnet werden.
+   * Sie möchten einen anderen Kanal als E-Mail verwenden.
 
-&#x200B;* Gründe für die Auswahl von Kampagnen mit **hohem Durchsatz**:
-   &#x200B;* Sie benötigen einen Durchsatz von >500 TPS.
-   &#x200B;* Sie benötigen keine Profilzuordnung.
-   &#x200B;* Sie können die gesamte Personalisierung in der API-Payload übergeben.
-   &#x200B;* Sie möchten den E-Mail- oder Push-Kanal verwenden.
+* Gründe für die Auswahl von Kampagnen mit **hohem Durchsatz**:
+   * Sie benötigen einen Durchsatz von >500 TPS.
+   * Sie benötigen keine Profilzuordnung.
+   * Sie können die gesamte Personalisierung in der API-Payload übergeben.
+   * Sie möchten den E-Mail-Kanal verwenden.
 
 ## Einrichtungsrichtlinien
 
 Gehen Sie wie folgt vor, um Kampagnen mit hohem Durchsatz korrekt zu konfigurieren:
 
-1. **Nur für E-Mails mit hohem Durchsatz** - Erstellen eines neuen IP-Pools. [Informationen zum Erstellen von IP-Pools](../configuration/ip-pools.md)
+1. Erstellen Sie einen neuen IP-Pool. [Informationen zum Erstellen von IP-Pools](../configuration/ip-pools.md)
 1. Erstellen Sie eine Kanalkonfiguration. [Informationen zum Einrichten von Kanalkonfigurationen](../configuration/channel-surfaces.md)
-1. Wenden Sie sich an die Adobe-Kundenunterstützung, um die aktivierte Oberfläche anzufordern, die der Funktion für hohen Durchsatz zugeordnet werden soll. Geben Sie die Kanalkonfiguration und Details zum IP-Pool (für E-Mails) zusammen mit Ihrer Organisations-ID an.
+1. Wenden Sie sich an die Adobe-Kundenunterstützung, um die aktivierte Oberfläche anzufordern, die der Funktion für hohen Durchsatz zugeordnet werden soll. Geben Sie die Kanalkonfiguration und Details zum IP-Pool zusammen mit Ihrer Organisations-ID an.
 
 >[!IMPORTANT]
 >
->Die Kanalkonfigurationen, die für Transaktionsnachrichten mit hohem Durchsatz vorgesehen sind, dürfen ausschließlich für diesen Zweck verwendet werden und nicht mit standardmäßigen Transaktionsnachrichten, die API-ausgelöste Kampagnen oder Journey verwenden. Für E-Mails mit hohem Durchsatz muss der dafür vorgesehene IP-Pool ebenfalls ausschließlich für den Versand mit hohem Durchsatz verwendet werden.
+>Die IP-Pool- und Kanalkonfigurationen, die für Transaktionsnachrichten mit hohem Durchsatz vorgesehen sind, dürfen ausschließlich für diesen Zweck verwendet werden. Sie dürfen nicht für standardmäßiges Transaktions-Messaging mit durch API ausgelösten Kampagnen oder Journeys verwendet werden.

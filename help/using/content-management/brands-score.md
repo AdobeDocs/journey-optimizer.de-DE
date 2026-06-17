@@ -1,49 +1,24 @@
 ---
-source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
-workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 24%
-
----
-Da die Datei nicht in diesem Repository vorhanden ist und der Schreibzugriff nicht genehmigt wurde, finden Sie hier die vollständige aktualisierte Markdown-Datei wie angefordert:
-
-&#x200B;---
-Titel: Markenausrichtung
-Beschreibung: Erfahren Sie, wie Sie markeninterne Inhalte mithilfe des Markenwerts erstellen, validieren und verwalten.
-Thema: Content-Management, Künstliche Intelligenz
-Rolle: Benutzer
-Stufe: Anfänger, Fortgeschrittene
+title: Markenausrichtung
+description: Erfahren Sie, wie Sie markenkonforme Inhalte mithilfe des Markenwerts erstellen, validieren und verwalten.
+topic: Content Management, Artificial Intelligence
+role: User
+level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-- Kennung: CB954087-F4FC-4456-AFB9-E939CABCDC79
-internal-label: Journey Optimizer
-feature_v2:
-- Kennung: dc22c819-3f29-4e91-8b7d-5c6719831141
-internal-label: Content-Management
-- ID: fe338112-e2ce-4876-8989-fc4d497613f1
-internal-label: E-Mail
-subfeature_v2:
-- Kennung: EA4139D9-3405-4B34-AD6E-C3CA120CC269
-internal-label: Mehrsprachige Inhalte
-- Kennung: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-internal-label: E-Mail-Design
-- Kennung: fb9a80eb-bebc-492f-a0e9-584595621ebb
-internal-label: Veröffentlichen
-role_v2:
-- ID: B69B2659-1057-424E-8FC5-ED9E016DC554
-internal-label: Benutzer
-level_v2:
-- Kennung: B5A62A22-46F7-4F0D-B151-3FC640BEF588
-Interne Kennzeichnung: Mittel
-- Kennung: E8CCD51F-DA0D-4E3B-939B-E30D5EBB1EA5
-internal-label: Anfänger
-topic_v2:
-- Kennung: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-internal-label: Künstliche Intelligenz
-- ID: E1E0219C-F879-479F-8427-888ED2A6E9C2
-internal-label: Insights
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+workflow-type: tm+mt
+source-wordcount: 694
+ht-degree: 41%
+
 ---
+
 # Markenausrichtung {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -71,11 +46,6 @@ internal-label: Insights
 >id="ajo_brand_logos"
 >title="Logowert"
 >abstract="Logowert"
-
->[!CONTEXTUALHELP]
->id="ajo_brand_suggestions"
->title="KI-generierte Vorschläge"
->abstract="Wenn Inhalte während der Markenausrichtung oder Qualitätsbewertung gekennzeichnet werden, generiert der KI-Assistent automatisch korrigierte Alternativen, die Sie inline überprüfen und anwenden können."
 
 >[!AVAILABILITY]
 >
@@ -107,24 +77,24 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
    ![](assets/brand-score-5.png)
 
-1. Wählen Sie eine gekennzeichnete Richtlinie aus, um spezifisches Feedback und KI-generierte Vorschläge anzuzeigen. Brand Alignment bewertet die folgenden Kategorien:
+1. Wählen Sie eine gekennzeichnete Richtlinie aus, um spezifisches Feedback und Vorschläge anzuzeigen. Brand Alignment bewertet die folgenden Kategorien:
 
-   &#x200B;* **[!UICONTROL Schreibstil]**:
-      &#x200B;* **[!UICONTROL Brand Communication Style]**: Definiert die Persönlichkeit und den emotionalen Ton, um eine konsistente Markensprache über alle Kanäle hinweg sicherzustellen.
-      &#x200B;* **[!UICONTROL Markenbotschaftsstandards]**: Struktur- und Formatierungsregeln für effektiven Marketing- und Werbetext.
-      &#x200B;* **[!UICONTROL Legal Compliance Standards]**: Stellt sicher, dass alle Kommunikationen den rechtlichen Anforderungen entsprechen, einschließlich Textplatzierungs- und Compliance-Checklisten.
+   * **[!UICONTROL Schreibstil]**:
+      * **[!UICONTROL Brand Communication Style]**: Definiert die Persönlichkeit und den emotionalen Ton, um eine konsistente Markensprache über alle Kanäle hinweg sicherzustellen.
+      * **[!UICONTROL Markenbotschaftsstandards]**: Struktur- und Formatierungsregeln für effektiven Marketing- und Werbetext.
+      * **[!UICONTROL Legal Compliance Standards]**: Stellt sicher, dass alle Kommunikationen den rechtlichen Anforderungen entsprechen, einschließlich Textplatzierungs- und Compliance-Checklisten.
 
-   &#x200B;* **[!UICONTROL Visueller Inhalt]**:
-      &#x200B;* **[!UICONTROL Fotografiestandards]**: Anforderungen an fotografische Inhalte, einschließlich Auflösung, Komposition, Beleuchtung und Dateiformaten.
-      &#x200B;* **[!UICONTROL Illustrationsstandards]**: Stilparameter, Zeilengewichte, Farbverwendung und Dateiformatanforderungen für Illustrationen.
-      &#x200B;* **[!UICONTROL Icon-Standards]**: Spezifikationen für die Icon-Gestaltung, einschließlich Gittersystemen, Strichgewichten und Dimensionierung für Einheitlichkeit.
-      &#x200B;* **[!UICONTROL Nutzungsrichtlinien]**: Best Practices für Bildauswahl, Platzierung und Kontext, um die Markenidentität zu wahren.
+   * **[!UICONTROL Visueller Inhalt]**:
+      * **[!UICONTROL Fotografiestandards]**: Anforderungen an fotografische Inhalte, einschließlich Auflösung, Komposition, Beleuchtung und Dateiformaten.
+      * **[!UICONTROL Illustrationsstandards]**: Stilparameter, Zeilengewichte, Farbverwendung und Dateiformatanforderungen für Illustrationen.
+      * **[!UICONTROL Icon-Standards]**: Spezifikationen für die Icon-Gestaltung, einschließlich Gittersystemen, Strichgewichten und Dimensionierung für Einheitlichkeit.
+      * **[!UICONTROL Nutzungsrichtlinien]**: Best Practices für Bildauswahl, Platzierung und Kontext, um die Markenidentität zu wahren.
 
 
 
    ![](assets/brand-score-4.png)
 
-1. Überprüfen Sie bei Problemen mit gekennzeichneten Schreibstilen den unter jedem Verstoß angezeigten KI-generierten Vorschlag und klicken Sie dann auf **[!UICONTROL Anwenden]**, um den gekennzeichneten Inhalt inline zu ersetzen, oder schließen Sie ihn ab, um den Originaltext beizubehalten. [Erfahren Sie mehr über die Anwendung KI-generierter Vorschläge](#apply-suggestions).
+1. Bearbeiten Sie Ihre Inhalte auf der Grundlage der Empfehlungen, um die Markenausrichtung zu verbessern.
 
 1. Werten Sie den Inhalt manuell neu aus, nachdem Sie Änderungen vorgenommen haben, um Ihren Ausrichtungswert zu aktualisieren.
 
@@ -156,40 +126,20 @@ So bewerten Sie die Qualität Ihrer Inhalte:
 
    ![](assets/brand-score-7.png)
 
-1. Wählen Sie ein markiertes Element aus, um spezifisches Feedback und KI-generierte Verbesserungsvorschläge anzuzeigen. Die Bewertungen basieren auf den folgenden Kategorien:
+1. Wählen Sie ein markiertes Element aus, um spezifisches Feedback und umsetzbare Verbesserungsvorschläge anzuzeigen. Die Bewertungen basieren auf den folgenden Kategorien:
 
-   &#x200B;* **[!UICONTROL Effektivität von CTA]**: Wertet aus, wie gut Ihr call-to-action Ihre Leser dazu motiviert, die gewünschte Aktion durchzuführen.
-   &#x200B;* **[!UICONTROL Betreffzeile]**: Bewertet Klarheit, Relevanz und Aufmerksamkeit erregende Qualität, um E-Mail-Öffnungen zu fördern.
-   &#x200B;* **[!UICONTROL Lesbarkeit]**: Misst, wie einfach und ansprechend Ihre Inhalte für Leser sind.
-   &#x200B;* **[!UICONTROL Spam-Prüfung]**: Identifiziert gängige Spam-Trigger, die die Zustellbarkeit beeinträchtigen können.
-   &#x200B;* **[!UICONTROL Inhaltskohärenz]**: Stellt sicher, dass Ihre Inhalte reibungslos fließen und auf dem Thema bleiben.
-   &#x200B;* **[!UICONTROL Korrekturlesen]**: Überprüft Rechtschreibung, Grammatik und Klarheit.
+   * **[!UICONTROL Effektivität von CTA]**: Wertet aus, wie gut Ihr call-to-action Ihre Leser dazu motiviert, die gewünschte Aktion durchzuführen.
+   * **[!UICONTROL Betreffzeile]**: Bewertet Klarheit, Relevanz und Aufmerksamkeit erregende Qualität, um E-Mail-Öffnungen zu fördern.
+   * **[!UICONTROL Lesbarkeit]**: Misst, wie einfach und ansprechend Ihre Inhalte für Leser sind.
+   * **[!UICONTROL Spam-Prüfung]**: Identifiziert gängige Spam-Trigger, die die Zustellbarkeit beeinträchtigen können.
+   * **[!UICONTROL Inhaltskohärenz]**: Stellt sicher, dass Ihre Inhalte reibungslos fließen und auf dem Thema bleiben.
+   * **[!UICONTROL Korrekturlesen]**: Überprüft Rechtschreibung, Grammatik und Klarheit.
 
    ![](assets/brand-score-8.png)
 
-1. Überprüfen Sie bei gekennzeichneten Textelementen den unter jedem Problem angezeigten KI-generierten Vorschlag und klicken Sie dann auf **[!UICONTROL Anwenden]**, um den Inhalt inline zu ersetzen, oder schließen Sie ihn ab, um den Originaltext beizubehalten. [Erfahren Sie mehr über die Anwendung KI-generierter Vorschläge](#apply-suggestions).
+1. Bearbeiten Sie Ihre Inhalte anhand der Empfehlungen, um die Lesbarkeit, Inhaltskohärenz und Gesamtqualität zu verbessern.
 
 1. Klicken Sie **[!UICONTROL Bewertung erneut bewerten]**, nachdem Sie Änderungen vorgenommen haben, um Ihren Qualitätswert zu aktualisieren.
-
-## Anwenden von KI-generierten Vorschlägen {#apply-suggestions}
-
-Wenn Inhalte während der Markenausrichtung oder Qualitätsbewertung gekennzeichnet werden, generiert der KI-Assistent automatisch korrigierte oder verbesserte Alternativen direkt im Feedback-Panel. Dieser sofort einsatzbereite Workflow hilft Ihnen, Verstöße zu beheben, ohne den Editor zu verlassen, und reduziert so den manuellen Bearbeitungsaufwand und beschleunigt die Inhaltserstellung.
-
-KI-generierte Vorschläge sind für textbasierte Verletzungen in allen unterstützten Inhaltstypen verfügbar: E-Mail, SMS, Push und Web.
-
-So wenden Sie einen KI-generierten Vorschlag an:
-
-1. Führen Sie eine Markenausrichtung oder Qualitätsbewertung durch und wählen Sie dann eine gekennzeichnete Richtlinie oder ein gekennzeichnetes Qualitätselement aus, um das Feedback-Bedienfeld zu erweitern.
-
-1. Überprüfen Sie den KI-generierten Vorschlag, der unter dem markierten Inhalt angezeigt wird.
-
-1. Klicken Sie **[!UICONTROL Anwenden]**, um den gekennzeichneten Inhalt durch die vorgeschlagene Alternative zu ersetzen.
-
-   Um den Originaltext beizubehalten, klicken Sie auf **[!UICONTROL Verwerfen]**.
-
-1. Wiederholen Sie den Vorgang für alle verbleibenden gekennzeichneten Elemente.
-
-1. Bewerten Sie Ihr Ergebnis neu, um zu bestätigen, dass alle Verbesserungen angewendet wurden.
 
 ## Anleitungsvideo {#video}
 
@@ -197,6 +147,6 @@ Das folgende Video veranschaulicht, wie Sie Ihre eigenen Marken erstellen und an
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
