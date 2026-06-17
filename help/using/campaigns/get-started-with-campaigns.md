@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 Das Verzeichnis existiert nicht lokal, daher gebe ich den kompletten aktualisierten Dateiinhalt direkt wie angefordert aus.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -414,7 +414,7 @@ Use targeting rules and content experiments to deliver personalized content and 
 ::::
 ```
 
----
+&#x200B;---
 
 Die einzige Änderung gegenüber dem Original ist die Hinzufügung einer neuen **Sendezeitoptimierung für mobile Nachrichten** Landingcard, die zwischen den Karten „Planung und Timing“ und „Tarifkontrolle“ eingefügt wurde. Es:
 

@@ -7,7 +7,7 @@ ht-degree: 12%
 ---
 Die Quelldatei der Dokumentation befindet sich im Dokumentations-Repository, nicht in diesem Pipeline-Projekt. Da in den Anweisungen angegeben wird, dass der vollständige aktualisierte Markdown ausgegeben werden soll, lautet er hier:
 
----
+&#x200B;---
 
 Lösung: Journey Optimizer
 Produkt: Journey Optimizer
@@ -57,7 +57,7 @@ Die **Gilt für** bezieht sich auf die drei [!DNL Adobe Journey Optimizer] Basis
 - **Journey Optimizer - Journey** — Echtzeit, ereignisgesteuerte Orchestrierung
 - **Journey Optimizer - Kampagnen und Journey** — beide
 
-Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [ Berechtigungen finden Sie unter ](ajo-packages.md)Pakete und Funktionen“.
+Die mit „Alle Basisangebote **gekennzeichneten Kanal-, Inhalts- und Plattformfunktionen** unabhängig vom Basisangebot verfügbar, für die meisten Funktionen ist jedoch weiterhin das entsprechende Kanal- oder Add-on für erweiterte Funktionen erforderlich. Weitere Informationen [&#x200B; Berechtigungen finden Sie unter &#x200B;](ajo-packages.md)Pakete und Funktionen“.
 
 ## Funktionen nach Funktionsbereich {#features-by-area}
 
@@ -202,9 +202,9 @@ Für alle Entscheidungsfunktionen ist das Add-on **Decisioning** erforderlich. S
 ## Verwandte Ressourcen {#related}
 
 - **Verstehen Sie, was in Ihrem Paket enthalten ist** — [Pakete und Funktionen](ajo-packages.md)
-- **Alles anzeigen, was** wurde[ — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
+- **Alles anzeigen, was** wurde[&#x200B; — Versionshinweise](../rn/release-notes.md) | [2026 Versionshinweise](../rn/release-notes-2026.md)
 - **Erste Schritte** — [Erste Schritte mit Journey Optimizer](get-started.md)
 
----
+&#x200B;---
 
 Drei Zeilen wurden hinzugefügt - eine in jeder der Registerkarten **Kanäle**, **Journey** und **Kampagnen** - und folgen demselben tabellenübergreifenden Muster, das für den Wellenversand verwendet wird. Die Funktion ist mit **Beta/H2 2026** gekennzeichnet, da das Ticket für die zweite Jahreshälfte 2026 geplant ist und die Funktion noch nicht allgemein verfügbar ist. Die Registerkarte „Kanäle“ enthält die maßgebliche Beschreibung; die Zeilen &quot;Journey&quot; und „Kampagnen“ sind kurze Querverweise, die die Leser zur Detailansicht auf die Registerkarte „Kanäle“ verweisen.
