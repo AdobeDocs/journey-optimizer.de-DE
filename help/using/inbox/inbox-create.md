@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '320'
+ht-degree: 29%
 
 ---
 
 # Erstellen eines Posteingangs {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie eine Kampagne, die die Aktion „Posteingang“ verwendet, erstellen Sie eine Audience und planen oder erstellen Sie einen Trigger, damit Sie persistente Nachrichten senden können, die Benutzer in ihrem Posteingang erneut sehen können.
+
+>[!ENDSHADEBOX]
 
 Bevor Sie einen Posteingang erstellen, führen Sie die Schritte unter [Konfiguration des Posteingangs](inbox-configuration.md) aus. Die Kanalkonfiguration identifiziert die Zielanwendung oder -website, die Seite oder Regel und die Platzierung, an der der Posteingang gerendert wird.
 

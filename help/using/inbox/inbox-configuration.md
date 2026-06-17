@@ -5,14 +5,21 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 41%
+source-wordcount: '337'
+ht-degree: 36%
 
 ---
 
 # Konfigurieren des Posteingangs {#inbox-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Definieren Sie eine Konfiguration des Posteingangs-Kanals, die das Einverständnis und optionale Zugriffskennzeichnungen festlegt und festlegt, wo der Posteingang im Web oder in Ihrer iOS- oder Android-App angezeigt wird, damit Sie Inhaltskartenerlebnisse über den Posteingang bereitstellen können.
+
+>[!ENDSHADEBOX]
 
 Bevor Sie Inhaltskarten-Erlebnisse über den Posteingang bereitstellen können, müssen Sie eine **Posteingang**-Kanalkonfiguration in **[!UICONTROL Kanalkonfigurationen]** definieren. Diese Konfiguration verknüpft die Oberfläche mit dem Einverständnis, optionalen Zugriffsbeschriftungen und dem Ort, an dem das Erlebnis im Web oder in Ihrer iOS- oder Android-App angezeigt wird. Gehen Sie wie folgt vor, um eine Konfiguration zu erstellen:
 
