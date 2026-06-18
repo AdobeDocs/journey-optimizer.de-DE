@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 52%
 
 ---
@@ -139,11 +125,13 @@ Gehen Sie wie folgt vor, um bearbeitbare Felder in einem in einer E-Mail verwend
 
 1. Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **[!UICONTROL Einstellungen]** unter den Fragmenteigenschaften angezeigt.
 
-   ![](assets/fragment-editable-rich-fields.png)
+   Im folgenden Beispiel können die Bildquelle und der Alternativtext sowie die Felder „Titel“/„Untertitel“ und die URL der Schaltfläche „Weitere Informationen“ bearbeitet werden.
+
+   ![](assets/fragment-editable-fields.png)
 
 1. Bewegen Sie den Mauszeiger über ein bearbeitbares Feld auf der zentralen Arbeitsfläche. Das Feld wird grün hervorgehoben, und beim Klicken auf den darin enthaltenen Text wird ein Stiftsymbol angezeigt.
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. Bearbeiten Sie den Feldtext direkt inline auf der zentralen Designer-Arbeitsfläche von E-Mail.
 
@@ -155,15 +143,11 @@ Gehen Sie wie folgt vor, um bearbeitbare Felder in einem in einer E-Mail verwend
 
    ![Rich-Text-Formatierungsoptionen in der E-Mail-Designer-Symbolleiste](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >Für Fragmente, die vor der Einführung der Rich-Text-Bearbeitungsfunktion erstellt wurden, sind bearbeitbare Felder standardmäßig auf Nur-Text-Modus eingestellt. Um vollständige Formatierungsoptionen zu aktivieren, wechseln Sie zum Fragment-Editor mithilfe der Schaltfläche **[!UICONTROL Fragment öffnen]**, klicken Sie auf **[!UICONTROL Aktivieren]**, um den Rich-Text-Modus zu entsperren und **[!UICONTROL Fragment]** speichern. [Weitere Informationen](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. Im folgenden Beispiel können die Bildquelle und der Alternativtext sowie die Felder „Titel“/„Untertitel“ und die URL der Schaltfläche „Weitere Informationen“ bearbeitet werden.
-
-   ![](assets/fragment-editable-fields.png)
+   ![Kompatibilitätswarnung in der E-Mail-Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. Sie können auf **[!UICONTROL Inhalte simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Informationen zur Vorschau von Inhalten](../content-management/preview-test.md)
 
@@ -195,7 +179,7 @@ Wenn das Fragment von seinem Autor gesperrt wurde, ist das Entsperrsymbol grau d
 
 Gesperrte Fragmente bleiben überall synchronisiert, wo sie angezeigt werden. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beeinträchtigen könnten.
 
-Erfahren Sie in ([&#x200B; Abschnitt), wie Sie ein Fragment &#x200B;](../content-management/create-fragments.md#lock-visual-fragment).
+Erfahren Sie in ([ Abschnitt), wie Sie ein Fragment ](../content-management/create-fragments.md#lock-visual-fragment).
 
 >[!NOTE]
 >
