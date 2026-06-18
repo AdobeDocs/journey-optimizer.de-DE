@@ -264,4 +264,4 @@ Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
 
 In diesem Video wird gezeigt, wie **Integrationen** Adobe Journey Optimizer mit externen APIs verbinden, damit Sie Live-Daten und -Inhalte in **ausgehende** Kanäle, E-Mail, SMS und Push-Benachrichtigungen übertragen können, um eine relevantere Personalisierung zu erzielen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484127/?captions=ger&learn=on)
