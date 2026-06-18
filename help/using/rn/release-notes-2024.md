@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +760,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Adobe Journey Optimizer.</p>
+<p>Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Einblicke für Ihre spezifische Umgebung erhalten können. Es ist in mehreren Produkten in [!DNL Adobe CX Enterprise] verfügbar, einschließlich Adobe Journey Optimizer.</p>
 <p>Weitere Informationen finden Sie in der <a href="../start/ai-features.md#ai-assistant">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 
 **Globalisierung**
 
-Im Rahmen unserer laufenden Bemühungen um ein einheitliches Benutzererlebnis harmonisieren wir die Terminologie der Adobe Experience Cloud-Produkte und -Apps. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation angewendet.
+Im Rahmen unserer ständigen Bemühungen, ein einheitliches Benutzererlebnis zu bieten, harmonisieren wir die in den [!DNL Adobe CX Enterprise] Produkten und Apps verwendete Terminologie. Dies wirkt sich auf den deutschen Begriff „Titel“ aus, der in „Label“ geändert wird, wenn er sich auf den Namen eines Objekts bezieht. Die Änderungen werden schrittweise in der Benutzeroberfläche und Dokumentation angewendet.
 
 
 ## Version April 2024 {#apr-2024}

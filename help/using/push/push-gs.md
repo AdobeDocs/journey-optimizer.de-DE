@@ -9,25 +9,16 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 89%
+source-wordcount: 853
+ht-degree: 87%
 
 ---
 
@@ -81,7 +72,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) – zum Senden von Benachrichtigungen an eine Android-Mobile-App
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) – zum Senden von Benachrichtigungen an eine iOS-Mobile-App
 
-* **Adobe Experience Platform Mobile-SDK**, das Client-seitige Integrations-APIs für Ihre Mobile Apps über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine [!DNL Adobe Journey Optimizer]-Erweiterung, die eine Vielzahl von APIs speziell für Push-Messaging verfügbar macht. Damit wird ein Datenfluss ermöglicht, um z. B. das Push-Token zu registrieren oder Push-Tracking-Ereignisse oder andere benutzerspezifische Erlebnisereignisse an Adobe Experience Platform zu senden. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Funktionen von Adobe Experience Cloud und Drittanbietern ermöglichen.
+* **Adobe Experience Platform Mobile-SDK**, das Client-seitige Integrations-APIs für Ihre Mobile Apps über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine [!DNL Adobe Journey Optimizer]-Erweiterung, die eine Vielzahl von APIs speziell für Push-Messaging verfügbar macht. Damit wird ein Datenfluss ermöglicht, um z. B. das Push-Token zu registrieren oder Push-Tracking-Ereignisse oder andere benutzerspezifische Erlebnisereignisse an Adobe Experience Platform zu senden. SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere [!DNL Adobe CX Enterprise] sowie Drittanbieterpartner-Funktionen ermöglichen.
 
   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassungs](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de){target="_blank"}-Services, z. B.:
 
