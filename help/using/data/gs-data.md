@@ -242,7 +242,7 @@ Dieser Fluss veranschaulicht, wie Schemata, Datensätze, Quellen, Datenquellen u
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 **Erste Schritte mit Schemata**
 
@@ -252,7 +252,7 @@ Erfahren Sie, wie Sie XDM-Schemata in Adobe Experience Platform erstellen, die r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 **Arbeiten mit Datensätzen**
 
@@ -262,7 +262,7 @@ Erfahren Sie, wie Sie profilaktivierte Datensätze und Ereignisdatensätze erste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Konfigurieren von Datenquellen**
 
@@ -272,7 +272,7 @@ Detaillierte Anleitungen zum Einrichten der integrierten Adobe Experience Platfo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Verwenden von Adobe Experience Platform-Daten (Suche)**
 
@@ -282,7 +282,7 @@ Erfahren Sie, wie Sie Nachrichten zur Laufzeit mit Referenz- oder Transaktionsda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Erste Schritte mit Abfragen**
 
@@ -292,7 +292,7 @@ Verwenden Sie den Abfrage-Service, um Journey Optimizer-Datensätze zu analysier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Erste Schritte mit Profilen**
 
@@ -302,7 +302,7 @@ Erfahren Sie, wie das Echtzeit-Kundenprofil in Journey Optimizer funktioniert un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 **Überblick-Tutorial zum Einrichten von Daten**
 
@@ -312,7 +312,7 @@ Eine anfängerfreundliche Videoeinführung zum Einrichten von Daten in Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 **Tutorial zum Erstellen von Datensätzen und Aufnehmen von Daten**
 
