@@ -10,12 +10,22 @@ level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
 source-wordcount: 2590
@@ -283,7 +293,7 @@ Adobe verwaltet das Zertifikat und den zugehörigen privaten Schlüssel. In der 
 | So erhalten Sie | Rufen Sie sie von der [mTLS Public Certificate API ab](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (siehe **Zertifikat**-Leitplanke unten) |
 | Rotation | Adobe rotiert das Zertifikat automatisch 60 Tage vor Ablauf (Zertifikatlebensdauer: 13 Monate). Das vorherige Zertifikat bleibt bis 30 Tage vor Ablauf gültig. Kundinnen und Kunden werden derzeit nicht über die Rotation benachrichtigt. Rufen Sie regelmäßig die [mTLS Public Certificate API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf, um die `expiryDate` zu überprüfen und Ihren IDP neu zu konfigurieren, bevor das alte Zertifikat widerrufen wird. |
 
-Adobe rotiert das Zertifikat automatisch 60 Tage vor Ablauf. Das vorherige Zertifikat bleibt bis 30 Tage vor Ablauf gültig. Kunden werden derzeit nicht benachrichtigt. Wie Sie die [**programmgesteuert überwachen können, erfahren Sie ](#certificate-credential-guardrails) der unten stehenden Leitplanke** Zertifikatsrotation“.
+Adobe rotiert das Zertifikat automatisch 60 Tage vor Ablauf. Das vorherige Zertifikat bleibt bis 30 Tage vor Ablauf gültig. Kunden werden derzeit nicht benachrichtigt. Wie Sie die [**programmgesteuert überwachen können, erfahren Sie &#x200B;](#certificate-credential-guardrails) der unten stehenden Leitplanke** Zertifikatsrotation“.
 
 #### JWT-Assertionsstruktur {#certificate-credential-jwt}
 
