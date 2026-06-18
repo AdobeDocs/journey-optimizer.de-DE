@@ -7,15 +7,14 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM, Inhaltsfragmente, Administration, Repository, Authentifizierung, Autor, Veröffentlichung
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,11 +23,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Administratoren eine Sandbox mit einem Adobe Experience Manager-Repository verbinden - indem sie den Nur-Autoren- oder Veröffentlichungszugriff, benutzerdefinierte Domains und Authentifizierung festlegen -, damit Marketing-Experten AEM-Inhaltsfragmente in ihren Journey und Kampagnen verwenden können.
+**Auf dieser Seite** Erfahren Sie, wie Administratoren eine Sandbox mit einem Adobe Experience Manager-Repository verbinden und dabei den Nur-Autoren- oder Veröffentlichungszugriff, benutzerdefinierte Domains und Authentifizierung festlegen, damit Marketing-Experten AEM-Inhaltsfragmente in ihren Journey und Kampagnen verwenden können.
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** integrieren, sodass Sie **Inhaltsfragmente** in Journey und Kampagnen verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration&rbrace; auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
+Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** und **[!DNL Adobe Experience Manager Managed Service]** integrieren, sodass Sie **Inhaltsfragmente“ in Journey und** verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration&rbrace; auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
 
 ➡️ Wenn das Repository konfiguriert ist, fahren Sie mit [Arbeiten mit Experience Manager-Inhaltsfragmenten](../integrations/aem-fragments.md) für Authoring- und Auswahlaufgaben in Journey Optimizer fort.
 
@@ -44,7 +43,7 @@ So konfigurieren Sie Ihr Repository:
 
 1. Rufen Sie **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL AEM-Integration]** auf.
 
-1. Klicken Sie **[!UICONTROL Integration erstellen]**.
+1. Klicken Sie **[!UICONTROL Konfiguration erstellen]**.
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +51,7 @@ So konfigurieren Sie Ihr Repository:
 
    ![](assets/aem-admin-settings-6.png)
 
-1. Wählen Sie das zu konfigurierende Repository aus und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wenn Sie **[!DNL Adobe Experience as a Cloud Service]** verwenden, wählen Sie das zu konfigurierende Repository aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    Darüber hinaus können Sie auf **[!UICONTROL Anzeigen]** klicken, um auf dieses Repository zuzugreifen.
 
@@ -76,11 +75,15 @@ So konfigurieren Sie Ihr Repository:
 
    +++ Einrichtung der Veröffentlichungsinstanz
 
+   Standardmäßig ist jedes **[!DNL Adobe Experience Manager as a Cloud Service]**-Repository so konfiguriert, dass es die **-Instanz**. Sie können mit dem Testschritt für Inhaltsfragmente fortfahren, ohne diese Einstellungen zu ändern.
+
+   Wenn Ihre Veröffentlichungsinstanz **authentifiziert** ist oder Sie eine benutzerdefinierte Veröffentlichungsdomäne verwenden müssen, führen Sie die folgenden Schritte aus.
+
    1. Wählen Sie **[!UICONTROL Veröffentlichungsinstanz einrichten]** aus, um die Einstellungen der Veröffentlichungsinstanz zu aktivieren.
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. Aktivieren Sie optional **[!UICONTROL Token an Veröffentlichungsinstanz senden]** damit Service-Anmeldeinformationen in Anfragen an die Veröffentlichungsinstanz eingeschlossen werden.
+   1. Aktivieren Sie **[!UICONTROL Token an Veröffentlichungsinstanz senden]** damit Service-Anmeldeinformationen in Anfragen an die Veröffentlichungsinstanz eingeschlossen sind.
 
    1. Fügen Sie eine gültige **[!UICONTROL Dienstanmeldeinformations-JSON]** zur Authentifizierung ein.
 

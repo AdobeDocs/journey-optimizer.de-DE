@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
-ht-degree: 78%
+source-wordcount: 1029
+ht-degree: 77%
 
 ---
 
@@ -56,6 +56,8 @@ ht-degree: 78%
 Fragmente können über das Menü **[!UICONTROL Fragmente]** links von Grund auf neu erstellt werden. Darüber hinaus können Sie beim Entwerfen von Inhalten auch einen Teil des vorhandenen Inhalts als Fragment speichern. [Weitere Informationen](save-fragments.md#)
 
 Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampagne oder Vorlage verfügbar. Sie können dieses Fragment beim Erstellen von Inhalten in Journeys und Kampagnen verwenden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md).
+
+➡️ [Verwalten Ihrer Adobe Experience Manager-Inhaltsfragmente](../integrations/aem-fragments-manage.md), um synchronisierte Fragmente, Verweise, Tags und die manuelle Synchronisierung auf der Registerkarte **[!UICONTROL AEM Fragments]** anzuzeigen.
 
 Gehen Sie wie folgt vor, um ein Fragment zu erstellen:
 
