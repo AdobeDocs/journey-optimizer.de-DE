@@ -28,10 +28,10 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 90%
+source-wordcount: 1229
+ht-degree: 82%
 
 ---
 
@@ -126,19 +126,18 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistiken]** bietet einen detail
 
 * **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der E-Mail.
 
+* **[!UICONTROL Öffnungsrate]**: Prozentsatz der Profile, die die E-Mail mindestens einmal geöffnet haben, im Verhältnis zur Anzahl der zugestellten E-Mails.
+
+* **[!UICONTROL Geschätzte E-Mail-Öffnungen]**: Geschätzte Gesamtzahl der E-Mail-Öffnungen, die sowohl direkte Öffnungen durch Profile als auch automatisierte Öffnungen durch Mail-Server berücksichtigt. Diese Metrik wird um Öffnungen angepasst, die von E-Mail-Servern für Datenschutz- oder Sicherheitsprüfungen ausgelöst werden. Hierzu wird eine Öffnungsrate angewendet, die anhand von Empfangenden berechnet wird, die die E-Mail manuell geöffnet haben, sowie anhand von Empfangenden, deren E-Mails nur von E-Mail-Servern geöffnet wurden.
+
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
-* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
-
-* **[!UICONTROL E-Mail-Öffnungen]**: Anzahl der Öffnungen Ihrer E-Mails in einer Kampagne.
-
-* **[!UICONTROL Eindeutige E-Mail-Öffnungen]**: Anzahl der Profile, die E-Mails geöffnet haben.
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
-* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link oder auf die zugehörige Landingpage.
 
-* **[!UICONTROL Eindeutige E-Mail-Abonnementkündigungen]**: Anzahl der Profile, die sich vom Erhalt Ihrer E-Mails abgemeldet haben.
 +++
 
 ## E-Mail-Domains {#email-domains}
@@ -165,11 +164,11 @@ Die Tabelle **[!UICONTROL E-Mail-Domains]** bietet eine detaillierte Aufschlüss
 
 +++
 
-## Labels getrackter Links {#track-link-label}
+## Getrackte Labels {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
-Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren E-Mails, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die **[!UICONTROL Verfolgte Kennzeichnungen]**-Tabelle bietet einen umfassenden Überblick über die Link-Kennzeichnungen in Ihren E-Mails, wobei die Kennzeichnungen hervorgehoben werden, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
 +++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
@@ -177,6 +176,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 +++
 
 ## Nachverfolgte Link-URLs {#track-link-url}
@@ -191,6 +191,7 @@ Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Ü
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren E-Mails.
 
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 +++
 
 

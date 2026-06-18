@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 59%
+source-wordcount: 1209
+ht-degree: 55%
 
 ---
 
@@ -92,6 +92,8 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Journey können
 
 +++ Weitere Informationen zu den Metriken „Journey“
 
+* **[!UICONTROL Journey-Interaktion]**: Gesamtzahl der eindeutigen Einzelpersonen, die über die Journey gesendete Nachrichten erhalten haben, wobei es sich um verschiedene Profile handelt, die einen bestimmten Aktionspunkt in der Journey erreicht haben.
+
 * **[!UICONTROL Journey-Eintritte]**: Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.
 
 * **[!UICONTROL Journey-Austritte]**: Gesamtzahl der Kontakte, die die Journey verlassen haben.
@@ -122,6 +124,8 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
 
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
+
 +++
 
 ## Kanäle {#channel}
@@ -143,6 +147,8 @@ Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung de
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
+
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 
 +++
 

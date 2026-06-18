@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 75%
+source-wordcount: 1161
+ht-degree: 70%
 
 ---
 
@@ -72,6 +72,16 @@ Gehen Sie wie folgt vor, um Ihren benutzerdefinierten Anbieter zu konfigurieren:
 
 ## Erstellen von API-Anmeldedaten {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Kanaltyp"
+>abstract="Optional. Klassifizieren Sie Nachrichten, die mit diesen benutzerdefinierten SMS-Provider-Anmeldedaten gesendet werden, z. B. SMS oder RCS. Journey Optimizer schreibt den Wert in XDM-Erlebnisereignisse, damit Sie einen Bericht erstellen und den Versand nach Kanal verfolgen können."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Authentifizierung"
+>abstract="Wenn diese Option aktiviert ist, werden nur über Adobe IMS authentifizierte Anfragen akzeptiert. Aufrufer müssen ein gültiges OAuth-Token enthalten, wenn sie Daten an diesen Endpunkt senden."
+
 Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutzerdefinierten Provider zu senden, der von Adobe vorkonfiguriert nicht verfügbar ist (z. B. Sinch, Infobip, Twilio):
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
@@ -89,6 +99,8 @@ Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutz
    * **[!UICONTROL Anbietername]**: Geben Sie den Namen Ihres SMS-Anbieters ein.
 
    * **[!UICONTROL Anbieter-URL]**: Geben Sie die URL Ihres SMS-Anbieters ein.
+
+   * **[!UICONTROL Kanaltyp]**: Optional. Geben Sie an, für welchen mobilen Kanal diese Anmeldedaten stehen, d. h. SMS, RCS oder MMS.
 
    * **[!UICONTROL Authentifizierungstyp]**: Wählen Sie Ihren Autorisierungstyp aus und [füllen Sie die entsprechenden Felder](#auth-options) je nach der ausgewählten Authentifizierungsmethode aus.
 

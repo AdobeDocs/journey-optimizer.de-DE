@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 94%
+source-wordcount: 955
+ht-degree: 65%
 
 ---
 
@@ -72,23 +72,51 @@ Die Tabelle **[!UICONTROL Versandstatus]** bietet eine detaillierte Übersicht �
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.
 
-* **[!UICONTROL Bounces für ausgehende Kanäle]**: Gesamtzahl der während des Sendevorgangs kumulierten Fehler und der automatischen Rücksendungen im Verhältnis zur Gesamtzahl der gesendeten SMS-Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler während des Sendevorgangs und der automatischen Rücksendung in Relation zur Gesamtzahl der gesendeten SMS-Nachrichten.
 
-* **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der aufgetretenen Fehler, die das Senden an Profile verhindert haben.
+* **[!UICONTROL Fehler senden]**: Gesamtzahl der Fehler, die aufgetreten sind und den Versand an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
+* **[!UICONTROL Ausschlüsse senden]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 +++
 
-## Labels getrackter Links {#track-link-label-sms}
+## Kampagnen-Überblick {#campaign-global}
 
-Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umfassenden Überblick über die Link-Labels in Ihren SMS-Nachrichten, in denen diejenigen hervorgehoben werden, die den meisten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
+Die **[!UICONTROL Kampagnenübersicht]** dient als Dashboard für die SMS-Leistung in Ihrer Kampagne. Es fasst Zielgruppenprofile, Clickthrough-Metriken (einschließlich geschätzter Klicks, durch die nicht nur menschlicher Interaktions-Traffic ausgeschlossen ist) und Versandergebnisse wie Bounces, Versandfehler und Ausschlüsse zusammen.
+
++++ Weitere Informationen zu den Metriken „Kampagnenüberblick“
+
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
+
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der Nachricht interagiert haben.
+
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht.
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Inhalt in der Nachricht für Mobilgeräte geklickt haben.
+
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
+
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten E-Mails im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler während des Sendevorgangs und der automatischen Rücksendung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Fehler senden]**: Gesamtzahl der Fehler, die während des Sendevorgangs aufgetreten sind und den Versand an Profile verhindert haben.
+
+* **[!UICONTROL Ausschlüsse senden]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden. [Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden](exclusion-list.md#exclusion-list).
+
++++
+
+## Getrackte Labels {#track-label-sms}
+
+Die **[!UICONTROL Verfolgte Kennzeichnungen]**-Tabelle bietet einen umfassenden Überblick über die Link-Kennzeichnungen in Ihren SMS-Nachrichten, wobei die Kennzeichnungen hervorgehoben werden, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
 +++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
-* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
-
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
+
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Inhalt in der Nachricht für Mobilgeräte geklickt haben.
 
 +++
 
@@ -98,9 +126,11 @@ Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Ü
 
 +++ Weitere Informationen zu den Metriken „Nachverfolgte Link-URLs“
 
-* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihrer SMS-Nachricht geklickt haben.
-
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
+
+* **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
+
+* **[!UICONTROL Einzelklicks]**: Anzahl der eindeutigen Profile, die auf mindestens einen Inhalt in der Nachricht für Mobilgeräte geklickt haben.
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 
