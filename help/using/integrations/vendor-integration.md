@@ -1201,7 +1201,7 @@ Basishost hängt von der Region ab (z. B. `https://{{customername}}.module.slgnt
 
 >[!IMPORTANT]
 >
->Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
+>Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/de/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
 
 >[!BEGINSHADEBOX]
 
@@ -1231,7 +1231,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1284,7 +1284,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
