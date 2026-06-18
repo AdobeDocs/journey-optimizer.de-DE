@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 85%
+source-wordcount: 1236
+ht-degree: 52%
 
 ---
 
@@ -90,43 +90,38 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 1. Auf der Registerkarte **[!UICONTROL Einstellungen]** haben Sie folgende Möglichkeiten:
 
    * Wählen Sie die Geräte aus, auf denen das Fragment angezeigt werden soll.
-   * Öffnen Sie das Fragment auf einer neuen Registerkarte, um es bei Bedarf zu bearbeiten. [Weitere Informationen](../content-management/fragments.md#fragments)
+   * Öffnen Sie das Fragment auf einer neuen Registerkarte und bearbeiten Sie es bei Bedarf. [Weitere Informationen](../content-management/manage-fragments.md#edit-fragments)
    * Erkunden Sie Verweise. [Weitere Informationen](../content-management/fragments.md#visual-expression)
-
-1. Sie können Ihr Fragment mit der Registerkarte **[!UICONTROL Stile]** weiter anpassen.
 
 1. Bei Bedarf können Sie die Vererbung vom ursprünglichen Fragment unterbrechen. [Weitere Informationen](#break-inheritance)
 
+   Nach der Entsperrung können Sie Ihr Fragment wie jede andere Komponente weiter anpassen und die Registerkarte **[!UICONTROL Stile]** verwenden.
+
 1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
 
-### Einschränkungen bei der Verwendung dynamischer Inhalte in Fragmenten {#fragment-dynamic-content}
+## Verwalten bedingter Inhalte in Fragmenten {#fragment-dynamic-content}
+
+Beachten Sie beim Arbeiten mit visuellen Fragmenten mit bedingtem Inhalt die folgenden Richtlinien. [Erfahren Sie mehr über dynamische Inhalte](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->Beachten Sie beim Arbeiten mit Fragmenten, die dynamische Inhalte (bedingte Inhalte) enthalten, die folgende Einschränkung:
+>**Das Verschachteln von Fragmenten mit bedingten Inhalten wird nicht unterstützt.** Ein Fragment mit bedingtem Inhalt kann nicht in einem entsperrten Fragment platziert werden, das auch bedingten Inhalt enthält. Diese nicht unterstützte Konfiguration kann zu Folgendem führen:
 >
->**Das Verschachteln von Fragmenten mit dynamischen Inhalten wird nicht unterstützt.** Sie können kein Fragment mit dynamischem Inhalt in einem entsperrten Fragment platzieren, das auch dynamischen Inhalt enthält. Diese nicht unterstützte Konfiguration kann zu Folgendem führen:
->
->* Verlust der bedingten Inhaltszuordnungen
+>* Verlust der Zuordnungen von bedingten Inhaltsvarianten
 >* Warnungen zum Kompatibilitätsmodus im E-Mail-Designer
 >* Inkonsistentes E-Mail-Rendering
->
->**Empfohlener Ansatz:** Wenn Sie mehrere Fragmente mit dynamischen Inhalten in einer E-Mail verwenden, fügen Sie jedes Fragment direkt in einem eigenen Strukturblock auf E-Mail-Ebene hinzu. Dadurch wird die ordnungsgemäße Funktionalität sichergestellt und die oben genannten Probleme werden vermieden.
 
-## Best Practices für Fragmente mit dynamischen Inhalten {#fragment-best-practices}
+**E-Mail richtig strukturieren:** Wenn Sie mehrere Fragmente mit bedingtem Inhalt verwenden, fügen Sie jedes Fragment direkt in einen eigenen Strukturblock auf E-Mail-Ebene hinzu. Verschachteln Sie Fragmente mit bedingtem Inhalt nicht in anderen ungesperrten Fragmenten, die auch bedingte Inhalte enthalten.
 
-Befolgen Sie diese Best Practices beim Arbeiten mit visuellen Fragmenten und dynamischen Inhalten (bedingte Inhalte):
+**Planen Sie voraus:** Bevor Sie Ihrer E-Mail Fragmente hinzufügen, identifizieren Sie, welche bedingte Inhalte enthalten, und planen Sie Ihr Layout entsprechend. So vermeiden Sie Konfigurationsprobleme und stellen von Anfang an eine saubere Struktur sicher.
 
-* **E-Mail richtig strukturieren**: Fügen Sie jedes Fragment in einem dedizierten Strukturblock auf E-Mail-Ebene hinzu, wenn Sie E-Mails mit Fragmenten mit dynamischem Inhalt erstellen. Vermeiden Sie es, Fragmente mit dynamischem Inhalt innerhalb von anderen entsperrten Fragmenten zu verschachteln, die ebenfalls dynamische Inhalte enthalten.
+**Entwerfen Sie wiederverwendbare Fragmente sorgfältig** Wenn Sie Fragmente erstellen, die bedingte Inhalte enthalten, sollten Sie überlegen, wie sie verwendet werden sollen. Wenn ein Fragment in anderen Fragmenten verschachtelt werden muss, vermeiden Sie das Hinzufügen bedingter Inhalte sowohl zum übergeordneten als auch zum untergeordneten Fragment.
 
-* **Im Voraus planen**: Bevor Sie Ihrer E-Mail Fragmente hinzufügen, müssen Sie ermitteln, welche Fragmente dynamische Inhalte enthalten, und Ihr Layout entsprechend planen. So vermeiden Sie Konfigurationsprobleme und stellen von Anfang an eine saubere Struktur sicher.
+**Fehlerbehebung:** Wenn bedingte Inhaltsvariantenzuordnungen verloren gehen oder Warnungen zum Kompatibilitätsmodus angezeigt werden, führen Sie die folgenden Schritte aus.
 
-* **Wiederverwendbare Fragmente sorgfältig entwerfen**: Berücksichtigen Sie beim Erstellen von Fragmenten mit dynamischen Inhalten, wie diese Fragmente verwendet werden. Wenn ein Fragment in anderen Fragmenten verschachtelt werden muss, sollten Sie dynamische Inhalte nicht sowohl in den übergeordneten als auch in den untergeordneten Fragmenten hinzuzufügen.
-
-* **Fehlerbehebung**: Wenn Zuordnungen bedingter Inhalte verloren gehen oder Warnungen zum Kompatibilitätsmodus angezeigt werden:
-   * Prüfen Sie Ihre E-Mail-Struktur auf verschachtelte Fragmente, die dynamische Inhalte enthalten
-   * Passen Sie die Struktur an, indem Sie jedes Fragment mit dynamischen Inhalten in einen eigenen Strukturblock auf der E-Mail-Ebene verschieben
-   * Speichern Sie und prüfen Sie, ob die Zuordnungen bedingter Inhalte ordnungsgemäß wiederhergestellt wurden
+* Überprüfen Sie Ihre E-Mail-Struktur auf verschachtelte Fragmente, die bedingte Inhalte enthalten
+* Strukturieren Sie die Struktur um, indem Sie jedes Fragment mit bedingtem Inhalt auf E-Mail-Ebene in einen eigenen Strukturblock verschieben
+* Speichern und überprüfen Sie, ob bedingte Inhaltsvarianten ordnungsgemäß wiederhergestellt werden
 
 ## Verwenden implizierter Variablen {#implicit-variables-in-fragments}
 
@@ -136,25 +131,45 @@ In [diesem Abschnitt](../personalization/use-expression-fragments.md#implicit-va
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Informationen dazu, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Erfahren Sie, wie Sie ein Fragment anpassbar machen](../content-management/customizable-fragments.md)
 
-Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
+Gehen Sie wie folgt vor, um bearbeitbare Felder in einem in einer E-Mail verwendeten Fragment anzupassen.
 
-1. Fügen Sie das Fragment zu Ihrem Inhalt hinzu.
+1. Fügen Sie Ihrem E-Mail-Inhalt ein anpassbares Fragment hinzu und wählen Sie es aus **[!UICONTROL um den Bereich „Fragment]** auf der rechten Seite zu öffnen.
 
-1. Wählen Sie diese Option aus, um den Eigenschaftenbereich auf der rechten Seite zu öffnen.
+1. Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **[!UICONTROL Einstellungen]** unter den Fragmenteigenschaften angezeigt.
 
-   Alle bearbeitbaren Felder im Fragment werden auf der Registerkarte **Einstellungen** im Abschnitt **Fragment** angezeigt.
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. Wenn Sie ein bearbeitbares Feld im rechten Bereich auswählen, wird es im Vorschaubereich in der Mitte grün hervorgehoben, sodass die Position des Feldes im Inhalt leicht zu finden ist.
+1. Bewegen Sie den Mauszeiger über ein bearbeitbares Feld auf der zentralen Arbeitsfläche. Das Feld wird grün hervorgehoben, und beim Klicken auf den darin enthaltenen Text wird ein Stiftsymbol angezeigt.
 
-   Im folgenden Beispiel können die **Bildquelle** und der **alternative Text** sowie die **URL** der Schaltfläche „Hier klicken“ bearbeitet werden.
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. Bearbeiten Sie den Feldtext direkt inline auf der zentralen Designer-Arbeitsfläche von E-Mail.
+
+   >[!NOTE]
+   >
+   >Um die bearbeitbaren Felder in Ihren Inhalten einfach zu finden, können Sie sie auch im rechten Bereich auswählen, diese Felder können jedoch nur auf der zentralen Arbeitsfläche bearbeitet werden.
+
+1. Bei **[!UICONTROL Text]**-, **[!UICONTROL Button]**- und **[!UICONTROL HTML]**-Komponenten bietet die E-Mail-Designer-Symbolleiste auch Zugriff auf Rich-Text-Formatierungsoptionen - fett, kursiv, Hyperlinks und mehr.
+
+   ![Rich-Text-Formatierungsoptionen in der E-Mail-Designer-Symbolleiste](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >Für Fragmente, die vor der Einführung der Rich-Text-Bearbeitungsfunktion erstellt wurden, sind bearbeitbare Felder standardmäßig auf Nur-Text-Modus eingestellt. Um vollständige Formatierungsoptionen zu aktivieren, wechseln Sie zum Fragment-Editor mithilfe der Schaltfläche **[!UICONTROL Fragment öffnen]**, klicken Sie auf **[!UICONTROL Aktivieren]**, um den Rich-Text-Modus zu entsperren und **[!UICONTROL Fragment]** speichern. [Weitere Informationen](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. Im folgenden Beispiel können die Bildquelle und der Alternativtext sowie die Felder „Titel“/„Untertitel“ und die URL der Schaltfläche „Weitere Informationen“ bearbeitet werden.
+
+   ![](assets/fragment-editable-fields.png)
+
+1. Sie können auf **[!UICONTROL Inhalte simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Informationen zur Vorschau von Inhalten](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. [Weitere Informationen zum Tracking](../email/message-tracking.md)
+>Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. [Weitere Informationen zum Tracking](message-tracking.md)
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 

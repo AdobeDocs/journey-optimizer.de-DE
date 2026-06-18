@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 80%
+source-wordcount: 896
+ht-degree: 77%
 
 ---
 
@@ -123,7 +123,7 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance** ist ein Produkt aus Adobe Experience Cloud, mit dem Sie die Datenerfassung und Bereitstellung von Erlebnissen in Ihrer App überprüfen, testen, simulieren und validieren können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance** ist ein Produkt von [!DNL Adobe CX Enterprise], mit dem Sie die Datenerfassung und die Bereitstellung von Erlebnissen in Ihrer Mobile App untersuchen, testen, simulieren und validieren können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home){target="_blank"}
 
 1. Wenn Sie in Ihrer Code-basierten Konfiguration eine [andere Plattform](code-based-configuration.md#other) verwenden, wählen Sie in der Dropdown-Liste den [Oberflächen-URI](code-based-surface.md#surface-uri), der in einer Vorschau angezeigt werden soll.
 

@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Im folgenden Screenshot sehen Sie die neu gestaltete Benutzeroberfläche für di
 
 ## Verbessertes Journey-Leinwanddesign
 
-Mit dem neuen Journey-Modell führen wir eine neue und verbesserte **Journey-Canvas-Benutzeroberfläche** ein, die nahtlos in das Adobe Experience Cloud-Lösungs- und App-Ökosystem passt und ein intuitives und effizientes Anwendererlebnis bietet. Jede Journey des neuen Modells wird dieses neue Design aufweisen.
+Mit dem neuen Journey-Modell führen wir eine neue und verbesserte **Journey-Canvas-Benutzeroberfläche** ein, die sich nahtlos in das Ökosystem der [!DNL Adobe CX Enterprise]-Lösungen und -Apps einfügt und so ein intuitives und effizientes Benutzererlebnis bietet. Jede Journey des neuen Modells wird dieses neue Design aufweisen.
 
 ![](assets/new-canvas3.gif)
 

@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
-ht-degree: 92%
+source-wordcount: 651
+ht-degree: 88%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 
 Bei einer Zielgruppe handelt es sich um eine Sammlung von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Sie wird mithilfe des Segmentierungs-Services von Adobe Experience Platform zentral in Adobe Experience Platform konfiguriert und gepflegt und steht in Journey Optimizer zur Verfügung, um in Ihren Journeys und Kampagnen aktiviert zu werden.
 
-Adobe Journey Optimizer bietet zuverlässige Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um Ihre Marketing-Maßnahmen zu optimieren. In Verbindung mit Adobe Real-Time Customer Data Platform können Sie mit Journey Optimizer Zielgruppen für eine komplexere Segmentierung schichten und Zielgruppen bidirektional für andere Adobe Experience Cloud-Lösungen freigeben.
+Adobe Journey Optimizer bietet zuverlässige Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um Ihre Marketing-Maßnahmen zu optimieren. In Kombination mit Adobe Real-Time Customer Data Platform können Sie mit Journey Optimizer Zielgruppen für eine komplexere Segmentierung einlagern und Zielgruppen bidirektional für andere [!DNL Adobe CX Enterprise]-Lösungen freigeben.
 
 Beim Hochladen von Echtzeit-Datenströmen oder Batch-Vorgängen werden Datensätze aktualisiert, und Journey Optimizer verschiebt Personen dynamisch in Echtzeit in Zielgruppen und Journeys und wieder aus diesen heraus.
 

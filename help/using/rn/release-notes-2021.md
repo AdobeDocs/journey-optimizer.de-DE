@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 2058
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 2056
+ht-degree: 99%
 
 ---
 
@@ -292,7 +292,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Benutzeroberfläche**
 
-* **Suche** – Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld „Einheitliches Experience Cloud“ durchsuchen. [Weitere Informationen](../start/user-interface.md#unified-search)
+* **Suche** - Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld „Einheitliches [!DNL CX Enterprise]&quot; durchsuchen. [Weitere Informationen](../start/user-interface.md#unified-search)
 * **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Diese Aktualisierung enthält Verknüpfungen zu kürzlich abgerufenen Elementen wie Nachrichten, Journeys, Zielgruppen, Schemata, Datensätzen, Datenquellen, Ereignissen, Aktionen, Quellen und Zielen. [Weitere Informationen](../action/about-custom-action-configuration.md#passing-collection)
 
 **Inhaltserstellung**

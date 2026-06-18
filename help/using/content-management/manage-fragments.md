@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
-ht-degree: 94%
+source-wordcount: 1559
+ht-degree: 92%
 
 ---
 
@@ -181,7 +181,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
    >
    >Beim Bearbeiten eines veröffentlichten Fragments können Sie jedes Personalisierungsfeld entfernen, jedoch keine neuen Felder zum Fragmentinhalt hinzufügen. Wenn Sie personalisierte Attribute hinzufügen möchten, müssen Sie das Fragment duplizieren. [Weitere Informationen](#adding-new-attributes)
 
-1. Sobald Ihre Änderungen fertig sind, speichern Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um Ihre Änderungen live zu schalten. [Weitere Informationen](create-fragments.md#publish)
+1. Wenn Ihre Änderungen fertig sind, speichern Sie sie, gehen Sie dann zurück zum Bildschirm mit den Fragmentdetails und klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um Ihre Änderungen live zu schalten. [Weitere Informationen](create-fragments.md#publish)
 
 Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journeys und Kampagnen. Davon ausgenommen sind Inhalte, bei denen Sie die Vererbung vom ursprünglichen Fragment unterbrochen haben.
 

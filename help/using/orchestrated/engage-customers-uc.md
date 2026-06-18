@@ -16,10 +16,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 93%
+source-wordcount: 623
+ht-degree: 90%
 
 ---
 
@@ -111,7 +111,7 @@ Erstellen Sie ein dediziertes Zielgruppensegment für Kundinnen und Kunden, bei 
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-Diese Zielgruppe wird dann in Experience Cloud gespeichert, wo sie später für eine bestimmte zielgerichtete Kampagne verwendet werden kann.
+Diese Zielgruppe wird dann in [!DNL Adobe Experience Platform] gespeichert, wo sie später für eine bestimmte zielgerichtete Kampagne verwendet werden kann.
 
 ## Segmente mit niedrigem/mittlerem Risiko {#low-medium-risk}
 
