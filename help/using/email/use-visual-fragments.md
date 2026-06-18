@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 52%
@@ -161,7 +161,7 @@ Gehen Sie wie folgt vor, um bearbeitbare Felder in einem in einer E-Mail verwend
    >
    >Für Fragmente, die vor der Einführung der Rich-Text-Bearbeitungsfunktion erstellt wurden, sind bearbeitbare Felder standardmäßig auf Nur-Text-Modus eingestellt. Um vollständige Formatierungsoptionen zu aktivieren, wechseln Sie zum Fragment-Editor mithilfe der Schaltfläche **[!UICONTROL Fragment öffnen]**, klicken Sie auf **[!UICONTROL Aktivieren]**, um den Rich-Text-Modus zu entsperren und **[!UICONTROL Fragment]** speichern. [Weitere Informationen](../content-management/customizable-fragments.md#rich-text-visual)
 
-   ![Kompatibilitätswarnung in der E-Mail-Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
+   ![Kompatibilitätswarnung in der E-Mail-Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}
 
 1. Sie können auf **[!UICONTROL Inhalte simulieren]** klicken, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden. [Informationen zur Vorschau von Inhalten](../content-management/preview-test.md)
 
