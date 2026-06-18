@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
    + {hide-from-toc}[Verbesserte Journey-Arbeitsfläche](using/rn/new-canvas.md)
 + Erste Schritte {#get-started}
-   + [Erste Schritte](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[Onboarding-Hub](using/start/onboarding-hub.md)
+   + [Hier beginnen](/help/rp_landing_pages/get-started-landing-page.md)
+   + [Onboarding-Hub](using/start/onboarding-hub.md)
    + Grundlagen {#essentials}
       + [Was ist Journey Optimizer?](using/start/get-started.md)
       + [Grundlegendes zur Funktionsweise](using/start/understanding-ajo.md)
       + [KI und intelligente Funktionen](using/start/ai-features.md)
       + [Wichtige Terminologie](using/start/terminology.md)
-      + {hide-from-toc}[Welche Funktion für diesen Auftrag?](using/start/ajo-use-case-guide.md)
+      + [Welche Fähigkeiten für diesen Job?](using/start/ajo-use-case-guide.md)
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
       + {hide-from-toc}[Pakete und Funktionen](using/start/ajo-packages.md)
       + {hide-from-toc}[Funktionsverfügbarkeit](using/start/ajo-features-availability.md)
