@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +23,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## Juni 2026 {#june-2026}
 
+* Ein neuer Unterabschnitt **Pfadzuweisung beim erneuten Eintritt von Journey** wurde zur Dokumentation **Pfadexperiment** hinzugefügt. Dadurch wird klargestellt, dass die Pfadzuweisung für ein Profil über mehrere Eintritte in dieselbe Journey-Version hinweg persistent ist, jedoch nur innerhalb dieser Journey-Version. Zuweisungen werden zurückgesetzt, wenn eine neue Journey-Version veröffentlicht wird und jede Pfadexperimentieraktivität in einer Journey eine unabhängige zufällige Zuweisung anwendet. [Weitere Informationen](../building-journeys/path-experimentation.md#path-assignment)
 * Die Verweise auf **Adobe Experience Cloud** wurden in der [!DNL Journey Optimizer]-Dokumentation an die **[!DNL Adobe CX Enterprise]** Marke angepasst.
 
 * Die **„Erste Schritte mit der Zustellbarkeit** wurde mit einem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger** aktualisiert. Sie listet die wichtigsten Postfachanbieter auf, die keine Spam-Beschwerden pro Empfänger zurückgeben - Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online - und erklärt, warum für Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
@@ -686,7 +683,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)

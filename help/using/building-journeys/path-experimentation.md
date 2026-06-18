@@ -11,10 +11,10 @@ keywords: Experimentieren, Experimentieren, Journey, Pfad, Optimierung, A/B-Test
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 76%
+source-wordcount: 1308
+ht-degree: 68%
 
 ---
 
@@ -72,11 +72,6 @@ Angenommen, Sie möchten drei Pfade vergleichen:
    >
    >Wenn Sie den Umschalter aktivieren, werden automatisch 10 % Ihrer Population übernommen. Sie können diesen Prozentsatz bei Bedarf anpassen.
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. Sie können dann jeder **[!UICONTROL Abwandlung]** einen bestimmten Prozentsatz zuweisen oder einfach den Umschalter **[!UICONTROL Gleichmäßig verteilen]** aktivieren.
 
    ![Regler für die Abwandlungszuordnung mit prozentualer Verteilung](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. [Veröffentlichen](publish-journey.md) Sie Ihre Journey.
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, um verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten abschneidet, und stellt verwertbare Erkenntnisse zur Verfügung.
 
 Verfolgen Sie den Erfolg Ihrer Journey mit dem Bericht zu Journey-Pfadexperimenten. [Weitere Informationen](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## Pfadzuweisung beim erneuten Eintritt von Journey {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+Die Pfadzuweisung ist für ein Profil über mehrere Eintritte in dieselbe Journey-Version hinweg persistent. Wenn beispielsweise ein Profil am Tag 1 auf eine Journey einläuft und dem Pfad A zugeordnet wird und dann am Tag 2 erneut auf die Journey einläuft, wird es erneut dem Pfad A zugeordnet. Dies stellt ein konsistentes Benutzererlebnis sicher und ist für statistisch gültige Berichte und Analysen erforderlich.
+
+Die Zuweisungen sind jedoch nur innerhalb einer bestimmten Journey-Version persistent. Sobald Sie eine neue Journey-Version veröffentlichen, ändert sich die Randomisierung und ein Profil kann einem anderen Pfad zugewiesen werden.
+
+Wenn ein Journey mehrere Pfadexperiment-Aktivitäten enthält, wird jede Aktivität mit einer unabhängigen zufälligen Zuweisung versehen.
 
 ## Anwendungsfälle für Experimente {#uc-experiment}
 
