@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 4489
-ht-degree: 72%
+source-wordcount: 4590
+ht-degree: 69%
 
 ---
 
@@ -76,9 +76,13 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
   Wenn Journeys sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihre Journey mithilfe von [Sprungaktivitäten](../building-journeys/jump.md) in kleinere Unterversionen auf oder erstellen Sie sie als neue Version. Das Aktivitäts-Limit kann nicht erhöht werden.
 
-* Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journey auf einmal auf **100** begrenzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
+* Die Anzahl der gleichzeitig aktiven Live-, geschlossenen, angehaltenen und Probelauf-Journey ist auf **200** in Produktions-Sandboxes und **100** in Entwicklungs-Sandboxes beschränkt. Diese Beschränkung wird beim Veröffentlichen einer Journey durchgesetzt. Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 
-  Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
+  Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Geschlossene Journey werden nur gezählt, wenn sie nach dem Rollout dieser Schutzmaßnahme erstellt werden.
+
+>[!NOTE]
+>
+>Für Schutzmechanismen, die während der Veröffentlichungszeit bereits ein Limit überschreiten, wenn die Schutzmaßnahme eingeführt wird, wird eine Ausnahme gewährt. Bestehende Journey sind davon nicht betroffen.
 
 * Bei Verwendung einer Zielgruppen-Qualifizierungsaktivität auf einer Journey kann es bis zu **10 Minuten dauern, bis diese Zielgruppen-Qualifizierungsaktivität** ist und Profile überwacht werden, die in die Zielgruppe eintreten oder diese verlassen.
 
@@ -90,7 +94,7 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
 >[!TIP]
 >
->**Was dies für Sie bedeutet:** Das **50-Aktivitätslimit** und **100-live-Journey-Limit** sind die beiden Leitplanken, auf die die meisten Teams als erste beim Skalieren stoßen. Planen Sie die Journey-Aufteilung frühzeitig und verteilen Sie die Startzeiten für „Zielgruppe lesen“ im Abstand von mindestens 5-10 Minuten, um Sandbox-Durchsatzkonflikte zu vermeiden.
+>**Was das für Sie bedeutet:** Das **50-Aktivitätslimit** und **Aktives Journey-Limit** sind die beiden Leitplanken, auf die die meisten Teams beim Skalieren als Erste stoßen. Planen Sie die Journey-Aufteilung frühzeitig und verteilen Sie die Startzeiten für „Zielgruppe lesen“ im Abstand von mindestens 5-10 Minuten, um Sandbox-Durchsatzkonflikte zu vermeiden.
 
 #### Validieren der Journey-Payload-Größe {#journey-payload-size}
 
@@ -167,6 +171,8 @@ Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgend
 * Die Verarbeitung der ersten Aktion auf der Journey kann bis zu **5 Minuten**, bis ereignisausgelöste Journey-Aktionen ausgeführt werden.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
+* Auf ein einzelnes Ereignis können maximal **25 %** Journey verwiesen werden. Wenn diese Grenze erreicht ist, wird die Veröffentlichung aller zusätzlichen Journey, die dieses Ereignis verwenden, blockiert.
+* Ein einzelnes XDM-Schema kann durch maximal 100 **-Ereignisse** allen Live- und geschlossenen Journey-Schemata gleichzeitig referenziert werden. Wenn dieses Limit erreicht ist, werden alle Journey mit einem Ereignisknoten veröffentlicht, der auf dieses Schema verweist.
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig **5 Minuten lang vorübergehend blockiert**. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über den **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppenqualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
 
@@ -223,10 +229,11 @@ Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadv
 
 #### Aktivität des Typs „Zielgruppen-Qualifizierung“ {#audience-qualif-g}
 
-Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md) gilt der folgende Schutzmechanismus:
+Die folgenden Leitplanken gelten für die Journey[Aktivität „Zielgruppen-](../building-journeys/audience-qualification-events.md)&quot;:
 
 * Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 * Zusätzliche Kennungen werden für Journeys des Typs „Zielgruppen-Qualifizierung“ nicht unterstützt.
+* Eine Sandbox kann maximal 300 **Zielgruppen** Qualifizierungsknoten für alle Live- und geschlossenen Journey enthalten. Wenn dieses Limit erreicht ist, wird das Veröffentlichen von Journey mit zusätzlichen Zielgruppen-Qualifizierungsknoten blockiert.
 
 Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 

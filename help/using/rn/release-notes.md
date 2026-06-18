@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 3557
+source-wordcount: 3579
 ht-degree: 25%
 
 ---
@@ -148,9 +148,11 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journeys
 
   Verfügbarkeitsdatum: 4. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+* **Erhöhte Live-Journey-Grenze und neue**: Sie können jetzt bis zu **200 aktive Journey-** haben, die gegenüber der vorherigen Grenze von 100 erhöht wurden. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
-* **Erhöhte Live-Journey-Grenze und neue**: Sie können jetzt bis zu **200 aktive Journey-** haben, die gegenüber der vorherigen Grenze von 100 erhöht wurden.
+  Verfügbarkeit: 18. Juni 2026. Diese Funktion wird in den nächsten Tagen schrittweise für alle Regionen eingeführt.
+
++++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 * **Start- und Enddatum im Journey-Header** - Wenn Start- und/oder Enddatum auf einer Live-Journey konfiguriert sind, werden sie jetzt in der Kopfzeile **Journey** neben dem Live-Status-Badge angezeigt. Die angezeigte Beschriftung passt sich an, je nachdem, ob jedes Datum bevorsteht oder bereits vergangen ist.
 
