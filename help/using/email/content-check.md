@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Inhaltsprüfung, HTML, CSS, Validierung, Rendering, Qualität
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# Inhaltsprüfungen in der E-Mail-Designer {#content-checks}
+# Inhaltsprüfung in der E-Mail-Designer {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Inhaltsprüfungen"
->abstract="Erkennen und Beheben von HTML- und CSS-Problemen in Ihrer E-Mail vor dem Versand. Die Prüfungen decken nicht unterstützte Tags, leere DivS und Größenschwellen ab, bei denen Trigger-Rendering-Fehler in Gmail oder Microsoft Outlook auftreten. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt."
+>title="Validieren des E-Mail-Inhalts"
+>abstract="Inhaltsprüfungen erkennen vor dem Versand automatisch HTML- und CSS-Probleme in Ihrer E-Mail. Sie kennzeichnen nicht unterstützte Tags, leere divS und Größenbeschränkungen, die das Rendering in Gmail oder Microsoft Outlook unterbrechen können. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt, mit kontextuellen Details und Fehlerbehebungen mit einem Klick, sofern verfügbar."
 
 [!DNL Journey Optimizer] umfasst eine automatisierte technische Validierung direkt in der E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.
 
