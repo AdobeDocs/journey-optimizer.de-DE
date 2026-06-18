@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 90129e95b6df57ff93dcccde14b83ac2f2e14cf1
 workflow-type: tm+mt
-source-wordcount: 3672
+source-wordcount: 3682
 ht-degree: 25%
 
 ---
@@ -215,6 +215,8 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zur Entsche
 
 * **Dynamische Elementattribute** - Benutzerdefinierte Attribute von Entscheidungselementen können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketer weniger, flexiblere Entscheidungselemente verwalten können.
 
+  Verfügbarkeitsdatum: 22. Juni 2026
+
 +++
 
 ### Content-Management {#june-26-content}
@@ -379,6 +381,10 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 </tbody>
 </table>
 
+* **Erweiterter Konverter von Bildern zu HTML** - Eine neue Version der Funktion „Konverter von Bildern zu HTML&quot; ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Erstellung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
+
+  Verfügbarkeitsdatum: 18. Juni 2026
+
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 <table>
@@ -413,9 +419,6 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 </tr>
 </tbody>
 </table>
-
-
-* **Erweiterter Konverter von Bildern zu HTML** - Eine neue Version der Funktion „Konverter von Bildern zu HTML&quot; ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Erstellung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
 
 +++
 
