@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 64%
+source-wordcount: 2590
+ht-degree: 61%
 
 ---
 
@@ -291,7 +291,9 @@ Adobe verwaltet das Zertifikat und den zugehörigen privaten Schlüssel. In der 
 | Algorithmus | RS256 (RSA) |
 | Was bei Ihrem Identitätsanbieter registriert werden soll | Nur Adobes Blattzertifikat - nicht die Zwischen- oder Stamm-Zertifizierungsstelle |
 | So erhalten Sie | Rufen Sie sie von der [mTLS Public Certificate API ab](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (siehe **Zertifikat**-Leitplanke unten) |
-| Rotation | Adobe verwaltet die Rotation und sorgt für eine Vorankündigung von mindestens 30 Tagen |
+| Rotation | Adobe rotiert das Zertifikat automatisch 60 Tage vor Ablauf (Zertifikatlebensdauer: 13 Monate). Das vorherige Zertifikat bleibt bis 30 Tage vor Ablauf gültig. Kundinnen und Kunden werden derzeit nicht über die Rotation benachrichtigt. Rufen Sie regelmäßig die [mTLS Public Certificate API](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf, um die `expiryDate` zu überprüfen und Ihren IDP neu zu konfigurieren, bevor das alte Zertifikat widerrufen wird. |
+
+Adobe rotiert das Zertifikat automatisch 60 Tage vor Ablauf. Das vorherige Zertifikat bleibt bis 30 Tage vor Ablauf gültig. Kunden werden derzeit nicht benachrichtigt. Wie Sie die [**programmgesteuert überwachen können, erfahren Sie &#x200B;](#certificate-credential-guardrails) der unten stehenden Leitplanke** Zertifikatsrotation“.
 
 #### JWT-Assertionsstruktur {#certificate-credential-jwt}
 
@@ -369,6 +371,8 @@ Im Folgenden finden Sie ein Beispiel für denselben Authentifizierungstyp für Z
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >Beachten Sie die folgenden Leitplanken beim Konfigurieren der zertifikatbasierten benutzerdefinierten Authentifizierung:
@@ -377,7 +381,7 @@ Im Folgenden finden Sie ein Beispiel für denselben Authentifizierungstyp für Z
 >* **`method`**: Muss `POST` sein. OAuth-Token-Endpunkte akzeptieren nur POST-Anfragen.
 >* **`client_id`**: Darf nicht leer sein und darf keine führenden oder nachfolgenden Leerzeichen enthalten. Ein leerer Wert erzeugt einen gültig aussehenden JWT, den der Identitätsanbieter mit einem deckenden Fehler zurückweist.
 >* **`scope`**: Wird in `bodyParams` als einzelne, durch Leerzeichen getrennte Zeichenfolge ausgedrückt. Insgesamt maximal 1000 Zeichen.
->* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** bei Ihrem Identitätsanbieter registrieren. Um sie abzurufen, rufen Sie die [mTLS Public Certificate API](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf und suchen Sie nach dem Eintrag, in dem `certCommonName` `ajo-journeys.aep-mtls.adobe.com` ist. Registrieren Sie den `publicCertificate` aus diesem Eintrag - verwenden Sie keine Zwischen- oder Stammzertifikate der Zertifizierungsstelle.
+>* **Zertifikat**: Adobe verwaltet das Zertifikat und den privaten Schlüssel - Sie laden nie ein Zertifikat hoch oder geben es ein. Bevor Sie die benutzerdefinierte Aktion auf einer Live-Journey verwenden können, müssen Sie das Blattzertifikat von **Adobe** bei Ihrem Identitätsanbieter registrieren. Um sie abzurufen, rufen Sie die [mTLS Public Certificate API](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} auf und suchen Sie nach dem Eintrag, in dem `certCommonName` `ajo-journeys.aep-mtls.adobe.com` ist. Registrieren Sie den `publicCertificate` aus diesem Eintrag - verwenden Sie keine Zwischen- oder Stammzertifikate der Zertifizierungsstelle. Da Kundinnen und Kunden derzeit nicht über die Zertifikatrotation benachrichtigt werden, müssen Sie regelmäßig die mTLS-API für öffentliche Zertifikate aufrufen, um die `expiryDate` zu überprüfen und das registrierte Zertifikat in Ihrem IDP zu aktualisieren, bevor das alte Zertifikat 30 Tage vor Ablauf widerrufen wird.
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 
