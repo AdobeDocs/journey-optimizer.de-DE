@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
 workflow-type: tm+mt
-source-wordcount: 3579
+source-wordcount: 3634
 ht-degree: 25%
 
 ---
@@ -526,6 +526,8 @@ In dieser Version wurden die folgenden Verbesserungen zur Verwaltung und Datenve
 * **LINE-Kanal - Authoring-**: Die Benutzeroberfläche des LINE-Kanals wurde um erweiterte Funktionen zur Nachrichtenerstellung erweitert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Karussell und Flex (JSON-Editor) sowie Gerätevorschauen in Echtzeit. Benutzer können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen Hinzufügen, Entfernen und Neu anordnen) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
 
 * **SMS - Nutzungsmetriken anzeigen** - Für Kundinnen und Kunden, die SMS direkt über Adobe Journey Optimizer erwerben, **ein neues** SMS-Nutzungs-Dashboard) eingeführt. Sie können jetzt Ihre letzten 90 Tage der Nachrichten-Versandmetriken anzeigen und verfolgen, die nach von Mobilgeräten stammenden (MO) und von Mobilgeräten beendeten (MT) Nachrichten kategorisiert sind. Diese Daten können auch über CSV heruntergeladen werden, was eine bessere Sichtbarkeit und Kontrolle über Ihre SMS-Ausgaben ermöglicht.
+
+* **Bericht „Geschätzte Klicks für SMS** - Eine neue Metrik „Geschätzte Klicks“ ist jetzt in Journey-, Kampagnen- und Kanalberichten für E-Mail und SMS verfügbar. Diese Metrik schließt identifizierten Traffic von sowohl als auch Nicht-Human Interaction (NHI) aus, um einen klareren Überblick über die echte Kundeninteraktion zu erhalten. Die Metrik Bestehende Klicks bleibt verfügbar und zeigt weiterhin die Gesamtklicks an.
 
 +++
 
