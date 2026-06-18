@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 525e32daf2f123dd06c18bb84ce610d1007bd8c5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
-source-wordcount: 1786
-ht-degree: 88%
+source-wordcount: 1614
+ht-degree: 97%
 
 ---
 
@@ -409,36 +393,5 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >title="Aktivität „Datei laden“"
 >abstract="Die Aktivität **Datei laden** ist eine **Targeting**-Aktivität. Verwenden Sie diese Option, um eine CSV- oder TXT-Datei in die orchestrierte Kampagnen-Arbeitsfläche hochzuladen und als Kampagnenzielgruppe zu verwenden. Dateidaten werden zur Ausführungszeit verbraucht und nicht als Adobe Experience Platform-Datensatz beibehalten. Zeilen werden mithilfe einer Identitätsspalte und einer Targeting-Dimension mit vorhandenen Empfangenden abgeglichen."
 
-<!-- SMS Sinch Usage metrics -->
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_metrics"
->title="SMS-Nutzungsmetriken"
->abstract="Generieren von SMS-Nutzungsberichten zur Abstimmung des Nachrichtenvolumens mit der Rechnungsstellung des Anbieters. In den Berichten werden die Zahlen für Mobilgeräte (MT) und Mobilgeräte (MO) für jede Kurzwahlnummer oder Telefonnummer nach Tag aggregiert aufgeführt."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_report_name"
->title="Berichtsname"
->abstract="Geben Sie einen Titel ein, der Ihnen hilft, diesen Bericht später in der Liste zu erkennen, z. B. in der Abrechnungsprüfung vom Mai 2026."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_credential"
->title="SMS-Anmeldeinformationen"
->abstract="Wählen Sie die Sinch-API-Anmeldedaten aus, deren Sende- und Empfangs-Traffic in diesem Bericht angezeigt werden soll. Um Anmeldeinformationen hinzuzufügen oder zu aktualisieren, gehen Sie zu **Administration** > **Kanäle** > **API-Anmeldeinformationen** und wählen Sie dann **SMS-Anbieter** > **Sinch MMS**."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_start_date"
->title="Startdatum"
->abstract="Erster Tag des Datumsbereichs, der in den Bericht aufgenommen werden soll. Nutzungsdaten sind nur für die letzten 90 Tage verfügbar."
-
-<!--  channel type in Custom Provider in API credential  -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_api_byop_channel_type"
->title="Kanaltyp"
->abstract="Optional. Klassifizieren Sie Nachrichten, die mit diesen benutzerdefinierten SMS-Provider-Anmeldedaten gesendet werden, z. B. SMS oder RCS. Journey Optimizer schreibt den Wert in XDM-Erlebnisereignisse, damit Sie einen Bericht erstellen und den Versand nach Kanal verfolgen können."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_webhook_require_auth"
->title="Authentifizierung"
->abstract="Wenn diese Option aktiviert ist, werden nur über Adobe IMS authentifizierte Anfragen akzeptiert. Aufrufer müssen ein gültiges OAuth-Token enthalten, wenn sie Daten an diesen Endpunkt senden."
