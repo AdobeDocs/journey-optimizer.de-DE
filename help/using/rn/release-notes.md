@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
+source-wordcount: 3646
 ht-degree: 25%
 
 ---
@@ -340,12 +328,31 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
+<table>
+<thead>
+<tr>
+<th><strong>Rich-Text in bearbeitbaren Feldern für Fragmente</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Rich-Text zu anpassbaren Fragmenten hinzufügen, die in Ihren E-Mail-Inhalten verwendet werden.</p>
+<p>Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>Weitere Informationen finden Sie im <a href="../content-management/customizable-fragments.md#rich-text-visual">entsprechenden Handbuch</a>.</p>
+<p>Verfügbarkeitsdatum: Ende Juni 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Qualitätsprüfungen von Inhalten in der E-Mail-Designer</strong><br/></th>
+<th><strong>Inhaltsprüfung in der E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +377,6 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 <td>
 <p>Journey Optimizer bietet jetzt eine Option, die HTML Ihrer E-Mail zu verkleinern, indem unnötige Leerzeichen, Kommentare und redundanter Code entfernt werden - ohne die Darstellung der E-Mail zu beeinflussen.</p>
 <p>Dies kann die Zustellbarkeit verbessern, indem Größenschwellen vermieden werden, die einige E-Mail-Anbieter zum Kennzeichnen oder Ablehnen von Nachrichten verwenden, und kann die Ladezeit für Empfänger verkürzen.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Rich-Text in bearbeitbaren Feldern für Fragmente</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Rich-Text zu anpassbaren Fragmenten hinzufügen, die in Ihren E-Mail-Inhalten verwendet werden.</p>
-<p>Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
 </td>
 </tr>
 </tbody>

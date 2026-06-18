@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 90%
+source-wordcount: 1658
+ht-degree: 76%
 
 ---
 
@@ -85,6 +75,45 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 >[!CAUTION]
 >
 >Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. [Weitere Informationen zum Tracking](../email/message-tracking.md)
+
+## Aktivieren der Rich-Text-Bearbeitung in einem anpassbaren visuellen Fragment {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Veraltetes Fragment"
+>abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Dies bedeutet, dass Sie nur Text eingeben können, wenn Sie dieses Fragment in E-Mails bearbeiten. Vollständige Formatierungsoptionen wie fett, kursiv, Hyperlinks und Zeilenumbrüche werden nicht unterstützt. Klicken Sie <b>Aktivieren</b>, um Rich-Text in bearbeitbaren Feldern zuzulassen, wenn das Fragment in einer E-Mail verwendet wird."
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="Veraltetes Fragment"
+>abstract="Dieses bearbeitbare Feld befindet sich im Nur-Text-Modus. Vollständige Formatierungsoptionen (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) sind erst verfügbar, nachdem das Fragment in den Rich-Text-Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>Aktivieren</b>, um Rich-Text in bearbeitbaren Feldern zu entsperren."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Veraltetes Fragment"
+>abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Vollständige Formatierungsoptionen (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) sind erst verfügbar, nachdem das Fragment in den Rich-Text-Modus aktualisiert wurde. Um diesen Modus zu entsperren, öffnen Sie den Fragment-Editor und klicken Sie auf <b>Aktivieren</b>."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
+
+Rich-Text <!--— including bold, italic, line breaks, and hyperlinks —-->wird jetzt nativ in anpassbaren visuellen Fragmenten unterstützt.
+
+Wenn ein anpassbares visuelles Fragment in einer E-Mail verwendet wird, können Sie vollständige Formatierungsoptionen wie fett, kursiv, Zeilenumbrüche, Aufzählungslisten und Hyperlinks direkt in jedem bearbeitbaren Feld in den **[!UICONTROL Text]**-, **[!UICONTROL Button]**- und **[!UICONTROL HTML]**-Komponenten des Fragments nutzen. [Erfahren Sie, wie Sie bearbeitbare Felder anpassen können](../email/use-visual-fragments.md#customize-fields)
+
+Wenn Sie jedoch Fragmente erstellt und bearbeitbare Felder definiert haben, bevor die Rich-Text-Funktion eingeführt wurde, sind die bearbeitbaren Felder standardmäßig auf Nur-Text-Modus eingestellt.
+
+* Im Fragment-Editor wird eine Kompatibilitätswarnung angezeigt.
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  Um den Rich-Text-Modus für diese bearbeitbaren Felder bei Verwendung des Fragments in einer E-Mail zu entsperren, klicken Sie auf die Schaltfläche **Aktivieren** und speichern Sie das Fragment.
+
+* Nachdem Sie das Fragment zu einer E-Mail hinzugefügt haben, wird auch eine Kompatibilitätswarnung angezeigt, wenn Sie das Fragment in der E-Mail-Designer auswählen.
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  Um das Fragment auf den Rich-Text-Modus zu aktualisieren, verwenden Sie die Schaltfläche **Fragment öffnen**, um auf den Fragment-Editor zuzugreifen, und klicken Sie auf die Schaltfläche **Aktivieren** und speichern Sie das Fragment.
+
+Bis der Rich-Text-Modus entsperrt ist, unterstützen die veralteten anpassbaren visuellen Fragmente weiterhin nur einfachen Text. Benutzende können in die bearbeitbaren Felder dieser Fragmente keinen Rich-Text eingeben.
 
 ## Hinzufügen bearbeitbarer Felder zu HTML-Komponenten und Ausdrucksfragmenten {#expression}
 
@@ -167,78 +196,62 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/fragment-expression-use.png)
 
-## Hinzufügen von Rich Text zu einem anpassbaren Fragment {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="Veraltetes Fragment"
->abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Dies bedeutet, Sie können nur reinen Text eingeben, wenn Sie dieses Fragment in E-Mails bearbeiten. Rich Text (wie fett, kursiv, Hyperlinks und Zeilenumbrüche) wird nicht unterstützt. Klicken Sie auf <b>Zum HTML-Modus wechseln</b>, um Rich Text in bearbeitbaren Feldern zu aktivieren, wenn Sie das Fragment in einer E-Mail verwenden."
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="Veraltetes Fragment"
->abstract="Dieses bearbeitbare Feld befindet sich im Nur-Text-Modus. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>Zum HTML-Modus wechseln</b>, um die Rich-Text-Bearbeitung zu aktivieren."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="Veraltetes Fragment"
->abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Rich-Text-Formatierung (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) ist erst verfügbar, nachdem das Fragment auf den HTML-kompatiblen Modus aktualisiert wurde. Öffnen Sie dazu den Fragment-Editor und klicken Sie auf <b>Zum HTML-Modus wechseln</b>."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
-
-Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem anpassbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### Erstellen eines Fragments mit Rich Text {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. Erstellen Sie ein visuelles [Fragment](create-fragments.md) und beginnen Sie mit dem Hinzufügen von Komponenten.
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. Fügen Sie eine [HTML-Komponente](../email/content-components.md#HTML) hinzu und öffnen Sie den HTML-Editor.
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. Navigieren Sie im linken Navigationsbereich zum Menü **[!UICONTROL Hilfsfunktionen]** und wählen Sie die Hilfsfunktion **inline** aus.
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. Ersetzen Sie `"name"` durch die ID, die Sie für Ihren bearbeitbaren Inhalt verwenden möchten, z. B. „EditableContent“.
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. Ersetzen Sie `render_content` durch den HTML-Code, der dem gewünschten standardmäßigen Rich Content entspricht. Sie können fette oder kursive Formatierung, Zeilenumbrüche, Aufzählungslisten usw. hinzufügen.
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. Fügen Sie innerhalb derselben HTML-Komponente eine weitere **Inline**-Hilfsfunktion für Ihre Stilelemente hinzu.
+    ![](assets/fragment-rich-editable-content.png)
 
-1. Ersetzen Sie `"name"` und `render_content` durch die ID und den HTML-Code, die dem gewünschten Standardstil entsprechen.
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. Speichern Sie Ihren Inhalt. Die ausgewählten bearbeitbaren Felder werden auf der rechten Seite angezeigt.
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. Speichern und [veröffentlichen](create-fragments.md#publish) Sie das Fragment.
+    ![](assets/fragment-rich-editable-fields.png)
 
-### Verwenden von Rich-Text in anpassbaren Fragmenten {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-Beim Hinzufügen des Fragments zu Ihrer E-Mail können Sie jetzt den von Ihnen erstellten Rich-Text-Inhalt und -Stil bearbeiten. Gehen Sie als Marketing-Experte wie folgt vor.
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. [Erstellen Sie eine E-Mail](../email/create-email.md) in einer Kampagne oder einer Journey und fügen Sie dann das Fragment mit dem zuvor [erstellten](#add-rich-text) Rich Text hinzu.
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   Sie können die beiden bearbeitbaren Felder sehen, die auf der rechten Seite erstellt wurden.
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. Verwenden Sie eine der Simulationsmethoden, um zu sehen, wie die bearbeitbaren Inhalte und Stile gerendert werden: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen. [Informationen zur Vorschau von Inhalten](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Wählen Sie das Symbol **[!UICONTROL Personalisierung hinzufügen]** neben einem der bearbeitbaren Felder aus.
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. Aktualisieren Sie im sich öffnenden Personalisierungseditor den <!--CSS-->Stil und/oder die Inhalte nach Bedarf, indem Sie Elemente des bearbeitbaren Felds hinzufügen oder entfernen.
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
