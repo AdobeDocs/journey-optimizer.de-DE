@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 74%
+source-wordcount: 1266
+ht-degree: 70%
 
 ---
 
@@ -119,6 +119,8 @@ Die Definition von „abgeschlossen“ hängt vom Journey-Typ ab:
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen in die Journey. Profile, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach dem standardmäßigen globalen Timeout von 91 Tagen wechselt die Journey in den Status **Beendet**.
 
+Sie können eine Journey mit dem Status **Live** oder **Paused** stoppen. Wenn die Journey **angehalten** ist, müssen Sie sie nicht zuerst **Live** fortsetzen. [Weitere Informationen zum Anhalten einer pausierten Journey](journey-pause.md#stop-close-paused).
+
 Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf die Schaltfläche mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
 
 ![Dropdown-Liste „Aktion beenden“ im Menü „Schnellaktionen“ zum Beenden der Journey](assets/journey-finish-quick-action.png)
@@ -136,6 +138,8 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 ## Stoppen einer Journey {#stop-journey}
 
 Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppen. Beim Stoppen der Journey entsteht für alle Kontakte in der Journey ein Timeout. Wenn Sie eine Journey stoppen, wird der Fortschritt der bereits in der Journey befindlichen Personen angehalten. Die Journey wird praktisch deaktiviert. Wenn Sie eine Journey beenden möchten, sollten Sie sie gemäß Best Practice [schließen](#close-journey).
+
+Sie können eine **Paused**-Journey auch direkt stoppen, ohne sie zuerst **Live** fortzusetzen. [Weitere Informationen](journey-pause.md#stop-close-paused).
 
 Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
@@ -162,3 +166,4 @@ Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
 * [Verwaltung des Profileintritts](entry-management.md) – Konfigurieren Sie, wie Profile in Journeys eintreten
 * [Konfigurieren von Ausstiegskriterien](journey-properties.md#exit-criteria) – Richten Sie die automatische Entfernung von Profilen aus Journeys ein
 * [Pausieren von Journeys](journey-pause.md) – Halten Sie die Journey-Ausführung vorübergehend an
+* [Anhaltende Journey anhalten oder schließen](journey-pause.md#stop-close-paused) - Anhaltende Journey beenden, ohne sie zuerst fortzusetzen

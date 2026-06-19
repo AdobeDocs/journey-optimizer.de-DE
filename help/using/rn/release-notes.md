@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 25%
 
 ---
@@ -133,6 +133,10 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journeys
 </tr>
 </tbody>
 </table>
+
+* **Anhaltende Journey direkt anhalten** - Sie können eine Journey jetzt direkt aus dem Status **Angehalten“**. Zuvor musste eine angehaltene Journey erneut unter **Live** gespeichert werden, bevor sie angehalten werden konnte. [Weitere Informationen](../building-journeys/journey-pause.md#stop-close-paused)
+
+  Verfügbarkeitsdatum: 18.-22. Juni 2026
 
 * **Zusätzliche Kennungsunterstützung für externe Zielgruppen** – Zusätzliche Kennungen in Journeys werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit der Komposition föderierter Zielgruppen erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Eine Schemakennzeichnung ist nicht erforderlich. [Weitere Informationen](../building-journeys/supplemental-identifier.md)
 
