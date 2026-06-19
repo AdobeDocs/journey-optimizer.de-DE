@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: 7c48101c29e512f8d7163cc8c18ead56e800fd42
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 96%
+source-wordcount: 2666
+ht-degree: 80%
 
 ---
 
@@ -269,6 +269,43 @@ Implementieren von Data-Governance- und Einverständnisrichtlinien in Ihre Integ
 * **Begrenzung und Drosselung**: Machen Sie sich mit den Ratenbegrenzungen vertraut und implementieren Sie geeignete Drosselungen. Erfahren Sie mehr über [externe Systeme](../../configuration/external-systems.md).
 * **Journey-Optimierung**: Befolgen Sie die Best Practices für die [Journey-Optimierung](../../building-journeys/optimize.md).
 * **Fehlerbehandlung**: Implementieren Sie eine robuste Fehlerbehandlung. Sehen Sie sich [Fehler-Codes](../../building-journeys/error-codes-reference.md) und [Handbücher zur Fehlerbehebung](../../building-journeys/troubleshooting.md) an.
+
+## Aufrufen von Journey Optimizer REST-APIs {#rest-apis}
+
+Neben der Implementierung von SDKs und Ereignis-Streaming können Sie Journey Optimizer auch programmgesteuert von Ihren eigenen Systemen aus steuern. Die vollständige API-Referenz, OpenAPI-Spezifikationen und Code-Beispiele finden Sie im [Journey Optimizer-Entwicklerportal](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
+
+>[!NOTE]
+>
+>Alle Integrationen müssen eine OAuth-Server-zu-Server-Authentifizierung verwenden - die JWT-Methode ist veraltet. [Einrichten der Authentifizierung](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+
+### API-ausgelöste Kampagnen ausführen {#api-triggered}
+
+Trigger von Transaktions- oder Marketing-Nachrichten aus einem externen System mithilfe der Interactive Message Execution REST-API. Vor dem Aufrufen des Endpunkts:
+
+* Die Kampagne muss **aktiviert** bevor der Endpunkt Aufrufe akzeptiert.
+* Aufrufe haben eine **Zeitüberschreitung von 60 Sekunden** interne Wiederholungsversuche verarbeiten unerwartete Zeitüberschreitungen.
+* Wenn Start-/Enddatum der Kampagne konfiguriert sind, schlagen API-Aufrufe außerhalb dieser Daten fehl.
+* Um Ihre Payload zu erstellen, rufen Sie die generierte Beispiel-cURL-Anfrage aus dem Abschnitt **cURL-Anfrage** Ihrer Live-Kampagne in der Journey Optimizer-Benutzeroberfläche ab. Sie enthält alle Personalisierungsvariablen für diese Kampagne.
+* Standard- und [Kampagnen mit hohem Durchsatz](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) verwenden verschiedene Endpunkte.
+
+[API-Referenz](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [Code-Beispiele](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [Arbeiten mit API-ausgelösten Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+
+### Begrenzung und Drosselung für externe Endpunkte {#capping-throttling}
+
+Wenn Journey externe Systeme über benutzerdefinierte Aktionen oder Datenquellen aufrufen, schützen die Begrenzungs- und Einschränkungs-APIs diese Systeme vor Überlastung. Durch Begrenzung werden Aufrufe abgelehnt, die das konfigurierte Limit überschreiten; durch Drosselung werden sie für bis zu 6 Stunden in die Warteschlange gestellt (nur Produktions-Sandboxes, benutzerdefinierte Aktionen).
+
+[Referenz zur Begrenzungs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Arbeiten mit der Begrenzungs-](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/connect-systems/external-systems/capping) ・ [Arbeiten mit der Drosselungs-API](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+
+### Weitere REST-APIs {#more-rest-apis}
+
+| Was Sie tun müssen | API-Referenz |
+| ------------------- | ------------- |
+| Programmgesteuertes Ausschließen von E-Mail-Adressen oder Domains vom Versand | [Unterdrückungs-API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [Verwalten der Unterdrückungsliste](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| Abrufen von Journey-Metadaten für Auditing oder externe Synchronisierung | [Journey-API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| Erstellen und Verwalten von Inhaltsvorlagen und Fragmenten aus einer externen Pipeline | [Content-API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [Vorlagen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-templates/content-templates) ・ [Fragments](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| Abrufen und Filtern von Aktionskampagnen | [Kampagnen-API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| Programmgesteuerte Vorschau von Kampagnen und Durchführen von Testsendungen | [Simulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| Datensätze validieren und Trigger der koordinierten Kampagnenausführung | [Datensatzvalidierung](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [Datensätze aktivieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
