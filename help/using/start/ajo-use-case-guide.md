@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Journey-Optimizer, Anwendungsfall, Entscheidungshandbuch, welche Funktion, Erste Schritte, Anwenderziele, Tutorials
-source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
+source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
 workflow-type: tm+mt
-source-wordcount: '3310'
-ht-degree: 32%
+source-wordcount: '3153'
+ht-degree: 33%
 
 ---
 
@@ -60,7 +60,7 @@ Für Szenarien, in denen Sie direkt auf eine Kundenaktion oder ein Kundenereigni
 
 >[!BEGINSHADEBOX]
 
-**Vor dem Build:** Stellen Sie sicher, dass Sie (1) ein [Journey-Eintrittsereignis konfiguriert haben](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) um den Anmelde-Trigger zu erfassen, (2) eine [E-Mail- oder Push-](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces)-Kanaloberfläche für Ihre Sandbox eingerichtet haben und (3) mindestens ein [Testprofil](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles) verfügbar sind, um die Journey vor der Veröffentlichung zu validieren.
+**Vor dem Build:** Stellen Sie sicher, dass Sie (1) ein [Journey-Eintrittsereignis konfiguriert haben](../event/about-events.md) um den Anmelde-Trigger zu erfassen, (2) eine [E-Mail- oder Push-](../configuration/channel-surfaces.md)-Kanaloberfläche für Ihre Sandbox eingerichtet haben und (3) mindestens ein [Testprofil](../audience/creating-test-profiles.md) verfügbar sind, um die Journey vor der Veröffentlichung zu validieren.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Für Szenarien, in denen Sie direkt auf eine Kundenaktion oder ein Kundenereigni
 
 >[!BEGINSHADEBOX]
 
-**Vor dem Build:** benötigen Sie (1) ein [Verhaltensereignis](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) das die Warenkorb- oder Durchsuchen-Aktion von Ihrem Web- oder mobilen SDK erfasst, (2) eine [Warteaktivität](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity) beschlossene Strategie (in der Regel 1-4 Stunden vor dem ersten Nugge) und (3) eine Kanaloberfläche, die für die Folgenachricht bereit ist. Hinweis: Der Journey muss eine Bedingung enthalten, damit Profile, die den Kauf abschließen, vor Ablauf der Wartezeit beendet werden können.
+**Vor dem Build:** benötigen Sie (1) ein [Verhaltensereignis](../event/about-events.md) das die Warenkorb- oder Durchsuchen-Aktion von Ihrem Web- oder mobilen SDK erfasst, (2) eine [Warteaktivität](../building-journeys/wait-activity.md) beschlossene Strategie (in der Regel 1-4 Stunden vor dem ersten Nugge) und (3) eine Kanaloberfläche, die für die Folgenachricht bereit ist. Hinweis: Der Journey muss eine Bedingung enthalten, damit Profile, die den Kauf abschließen, vor Ablauf der Wartezeit beendet werden können.
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ Für Szenarien, in denen Sie direkt auf eine Kundenaktion oder ein Kundenereigni
 
 >[!BEGINSHADEBOX]
 
-**Vor der Erstellung:** Sie benötigen (1) eine [Zielgruppe, die in Adobe Experience Platform definiert ist](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences), die inaktive Profile identifiziert (z. B. kein Kauf oder keine Anmeldung in 60 Tagen), (2) eine Entscheidung über den Rückgewinnungskanal (E-Mail, Push oder SMS) und (3) eine Unterdrückungsregel oder [Häufigkeitsbegrenzung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping), um die Kontaktaufnahme mit kürzlich gesendeten Profilen zu vermeiden. Verwenden Sie für **Szenario einen**-Eintrag (Zielgruppe lesen), kein Ereignis.
+**Vor der Erstellung:** Sie benötigen (1) eine [Zielgruppe, die in Adobe Experience Platform definiert ist](../audience/about-audiences.md), die inaktive Profile identifiziert (z. B. kein Kauf oder keine Anmeldung in 60 Tagen), (2) eine Entscheidung über den Rückgewinnungskanal (E-Mail, Push oder SMS) und (3) eine Unterdrückungsregel oder [Häufigkeitsbegrenzung](../conflict-prioritization/channel-capping.md), um die Kontaktaufnahme mit kürzlich gesendeten Profilen zu vermeiden. Verwenden Sie für **Szenario einen**-Eintrag (Zielgruppe lesen), kein Ereignis.
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ Für geplante Eins-zu-Viele-Kontakte zu einer definierten Zielgruppe.
 
 >[!BEGINSHADEBOX]
 
-**Vor dem Erstellen:** benötigen Sie (1) ein [veröffentlichtes Zielgruppensegment](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) in Adobe Experience Platform, (2) eine [E-Mail-Kanaloberfläche](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces) mit einer verifizierten Versand-Domain und (3) alle [Inhaltsfragmente oder Vorlagen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/fragments/fragments) bereits veröffentlichte Inhalte wiederzuverwenden. Geplante Kampagnen sind hier die richtige Wahl - nicht Journey - wenn es sich um einen einmaligen oder wiederkehrenden Versand ohne Verzweigungslogik handelt.
+**Vor dem Erstellen:** benötigen Sie (1) ein [veröffentlichtes Zielgruppensegment](../audience/about-audiences.md) in Adobe Experience Platform, (2) eine [E-Mail-Kanaloberfläche](../configuration/channel-surfaces.md) mit einer verifizierten Versand-Domain und (3) alle [Inhaltsfragmente oder Vorlagen](../content-management/fragments.md) bereits veröffentlichte Inhalte wiederzuverwenden. Geplante Kampagnen sind hier die richtige Wahl - nicht Journey - wenn es sich um einen einmaligen oder wiederkehrenden Versand ohne Verzweigungslogik handelt.
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ Für geplante Eins-zu-Viele-Kontakte zu einer definierten Zielgruppe.
 | Entwerfen einer mehrstufigen Kampagne mit Verzweigungslogik | Orchestrierte Kampagnen | [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) |
 | Nur Profile ansprechen, die sich seit der letzten Kampagnenausführung geändert haben | Orchestrierte Kampagnen - inkrementelle Abfrage | [Erstellen von Abfragen in orchestrierten Kampagnen](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
 | Überprüfen Sie vor dem Start, wie viele Profile meiner Zielgruppe entsprechen. | Zielgruppenvorschau | [Über Zielgruppen](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
-| Skalierte Koordination von Messaging über viele Kanäle | Orchestrierung | [Skalierung der Orchestrierung auf eine Omni-Channel-Interaktion](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
+| Skalierte Koordination von Messaging über viele Kanäle | Orchestrierung | [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) ・ [Skalierung der Orchestrierung auf Omni-Channel-Interaktion](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | Senden Sie für jede Kundin und jeden Kunden jede Nachricht zur besten Zeit | Sendezeit-**(KI)** | [Versandzeitoptimierung](../building-journeys/send-time-optimization.md) |
 
 ## Personalisieren, was jeder Kunde sieht {#personalize}
@@ -127,13 +127,13 @@ Für die individuelle Anpassung von Angeboten und Inhalten.
 
 >[!BEGINSHADEBOX]
 
-**Vor dem Erstellen** Für die Entscheidungsfindung ist eine bestimmte Einrichtungssequenz erforderlich. Sie benötigen (1) [Entscheidungselemente (Angebote) &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) Eignungsregeln und -attributen, (2) eine [Auswahlstrategie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) oder Rangfolgenformel konfiguriert und (3) eine [Entscheidungsrichtlinie](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision), die an die Oberfläche angehängt wird, auf der Angebote angezeigt werden. Das Überspringen dieser Sequenz ist der häufigste Grund, warum Erstentscheidungs-Setups keine Ergebnisse zurückgeben.
+**Vor dem Erstellen** Für die Entscheidungsfindung ist eine bestimmte Einrichtungssequenz erforderlich. Sie benötigen (1) [Entscheidungselemente (Angebote) &#x200B;](../experience-decisioning/items.md) Eignungsregeln und -attributen, (2) eine [Auswahlstrategie](../experience-decisioning/selection-strategies.md) oder Rangfolgenformel konfiguriert und (3) eine [Entscheidungsrichtlinie](../experience-decisioning/create-decision.md), die an die Oberfläche angehängt wird, auf der Angebote angezeigt werden. Das Überspringen dieser Sequenz ist der häufigste Grund, warum Erstentscheidungs-Setups keine Ergebnisse zurückgeben.
 
 >[!ENDSHADEBOX]
 
 | Ich möchte… | Empfohlene Funktion | Hier beginnen |
 | --- | --- | --- |
-| Angebote nach einer Formel sortieren (Postleitzahl, Einkommen, Wetter) | Decisioning - Rangfolgenformel | [Tutorial zur Rangfolgenformel](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} ・ [Tutorial zu Wetterdaten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| Angebote nach einer Formel sortieren (Postleitzahl, Einkommen, Wetter) | Decisioning - Rangfolgenformel | [Rangfolgeformeln](../experience-decisioning/ranking/ranking-formulas.md) ・ [Tutorial zur Rangfolgeformel](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} ・ [Tutorial zu Wetterdaten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | Verwenden externer Produkt- oder CRM-Daten zur Personalisierung von Angeboten | Decisioning - AEP-Datensatzsuche | [Verwenden der Datensatzsuche in Decisioning](../experience-decisioning/context-data.md) |
 | Nachrichteninhalt mit Profildaten anpassen | Personalisierung | [Personalisieren von Inhalten](../personalization/personalize.md) |
 | Generieren von Kopien, Bildern und Nachrichtenvarianten | KI-Inhaltserstellung **(AI)** | [KI-Inhaltserstellung](../content-management/gs-generative.md) ・ [Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
