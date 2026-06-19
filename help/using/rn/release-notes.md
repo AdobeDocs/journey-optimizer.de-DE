@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 3751
+source-wordcount: 3758
 ht-degree: 25%
 
 ---
@@ -211,9 +211,11 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zur Entsche
 </tbody>
 </table>
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+* **Nutzen von Adobe Experience Manager-Inhaltsfragmenten in Decisioning** - Sie können jetzt Adobe Experience Manager-Inhaltsfragmente Entscheidungselementen in Decisioning zuordnen und sie in Entscheidungsrichtlinien nutzen, um das richtige Fragment zum richtigen Zeitpunkt für den richtigen Kunden bereitzustellen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md)
 
-* **Nutzen von Adobe Experience Manager-Inhaltsfragmenten in Decisioning** - Sie können jetzt Adobe Experience Manager-Inhaltsfragmente Entscheidungselementen in Decisioning zuordnen und sie in Entscheidungsrichtlinien nutzen, um das richtige Fragment zum richtigen Zeitpunkt für den richtigen Kunden bereitzustellen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+  Verfügbarkeitsdatum: 18. Juni 2026
+
++++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 * **Dynamische Elementattribute** - Benutzerdefinierte Attribute von Entscheidungselementen können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketer weniger, flexiblere Entscheidungselemente verwalten können.
 

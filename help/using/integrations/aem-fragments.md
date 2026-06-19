@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1780
-ht-degree: 20%
+source-wordcount: 1770
+ht-degree: 21%
 
 ---
 
@@ -201,9 +201,10 @@ Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journ
 
 ## Verwenden von AEM-Inhaltsfragmenten mit Experience Decisioning {#aem-decisioning}
 
+
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur in begrenztem Umfang für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+>Diese Funktion ist für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar.
 
 AEM-Inhaltsfragmente können auch als Angebotselementattribute in **Experience Decisioning“ verwendet**. Durch die Zuordnung von Inhaltsfragmentfeldern zu Entscheidungsattributen können Sie Journey Optimizer-Entscheidungsmodelle, -Formeln und -Rangfolgekriterien verwenden, um zu optimieren, welches Fragment den einzelnen Profilen bereitgestellt wird.
 

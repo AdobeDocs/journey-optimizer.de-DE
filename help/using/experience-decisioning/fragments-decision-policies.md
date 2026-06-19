@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 20%
+source-wordcount: 1744
+ht-degree: 13%
 
 ---
 
@@ -160,7 +160,7 @@ Wenn Ihre Entscheidungsrichtlinie für zwei Angebote qualifiziert ist und jedes 
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur in begrenztem Umfang für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+>Diese Funktion ist für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar.
 
 Bevor Sie AEM-Inhaltsfragmente in einer Entscheidungsrichtlinie nutzen, stellen Sie Folgendes sicher:
 
@@ -173,7 +173,7 @@ Im Personalisierungseditor sind alle AEM-Inhaltsfragmente verfügbar, die mit de
 
 In diesem Beispiel enthält die Entscheidungsrichtlinie zwei Entscheidungselemente, an die AEM-Fragmente über ihren Referenznamen gebunden sind.
 
-![](assets/aem-fragment-select.png)
+![Personalization-Editor mit AEM-Inhaltsfragmenten, die pro Fragmentschlüsselname in einer Entscheidungsrichtlinie verfügbar sind.](assets/aem-fragment-select.png)
 
 1. Klicken Sie auf die Schaltfläche &quot;+&quot;, um das gewünschte Fragment zu Ihrem Ausdruck hinzuzufügen.
 
@@ -181,9 +181,112 @@ In diesem Beispiel enthält die Entscheidungsrichtlinie zwei Entscheidungselemen
 
 1. Nachdem das Fragment ausgewählt wurde, können Sie seine Attribute wie Bild-URLs, Textfelder oder andere Inhalte nutzen und mithilfe von Decisioning den richtigen Inhalt zum richtigen Zeitpunkt für den richtigen Kunden darstellen.
 
-   ![](assets/aem-fragment-attribute.png)
+   ![Ausgewählte AEM-Inhaltsfragmentattribute, die im Entscheidungsrichtlinienausdruck für die Personalisierung verfügbar sind.](assets/aem-fragment-attribute.png)
 
-1. Verwenden Sie vor der Aktivierung Ihrer Kampagne oder Ihres Journey eine der Simulationsmethoden, um eine Vorschau der Darstellung der Feldwerte für AEM-Inhaltsfragmente anzuzeigen: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit einem bestimmten Testprofil anzuzeigen. [Erfahren Sie mehr über die Simulation von Inhalten](../content-management/preview-test.md)
+1. Bevor Sie eine Kampagne oder Journey aktivieren, verwenden Sie eine der Simulationsmethoden, um eine Vorschau zum Rendern der Feldwerte für AEM-Inhaltsfragmente anzuzeigen. [Erfahren Sie mehr über die Simulation von Inhalten](../content-management/preview-test.md)
+
+### Verwenden von AEM-Inhaltsfragmenten kanalübergreifend {#aem-fragments-channels}
+
+Wie Sie AEM-Inhaltsfragmentattribute aus einer Entscheidungsrichtlinie einfügen, hängt vom Kanal ab, in dem Sie arbeiten.
+
+>[!BEGINTABS]
+
+>[!TAB E-Mail]
+
+So fügen Sie AEM-Inhaltsfragmentattribute mithilfe einer Entscheidungsrichtlinie in Ihre E-Mail ein:
+
+1. Öffnen Sie Ihren E-Mail-Entwurf in der E-Mail-Designer und klicken Sie in der rechten Leiste auf **[!UICONTROL Decisioning]**-Symbol, um das Bedienfeld „Entscheidungsrichtlinie“ zu öffnen.
+1. Wählen Sie die zusammengestellte Auswahlstrategie aus und geben Sie eine **Platzierung** an, um den Bereich der E-Mail zu definieren, in den das Angebot eingefügt werden soll.
+1. Klicken Sie auf das Symbol **+** und wählen Sie das spezifische Feld aus dem AEM-Inhaltsfragment aus, das in diesem Bereich gerendert werden soll, z. B. das URL-Feld des Herobilds.
+
+   ![Senden Sie eine E-Mail an das Entscheidungsrichtlinien-Bedienfeld von Designer, wobei für eine Platzierung ein Feld für ein AEM-Inhaltsfragment ausgewählt ist.](assets/aem-fragment-email.png)
+
+1. Klicken Sie vor der Veröffentlichung **[!UICONTROL Inhalt simulieren]**, um das Ergebnis in der Vorschau anzuzeigen und sicherzustellen, dass das Angebot mit der höchsten Priorität und sein Inhaltsfragment wie erwartet für ein Testprofil gerendert werden.
+
+>[!TAB Code-basiertes Erlebnis (JSON)]
+
+Verwenden Sie beim Erstellen eines JSON-basierten Code-basierten Erlebnisses die folgende Struktur, um AEM-Inhaltsfragmentattribute aus einer Entscheidungsrichtlinie zu rendern.
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>AEM-Inhaltsfragmente verwenden `aemContentReferencesMap`, um Fragmente nach Referenzschlüssel nachzuschlagen. Dies unterscheidet sich von `contentReferencesMap`, das für Journey Optimizer-Inhaltsfragmente verwendet wird.
+
+Beachten Sie beim Erstellen Ihrer JSON-Payload Folgendes:
+
+* Platzieren Sie die JSON-Array-Klammern `[` und `]` **außerhalb** der `#each`.
+* Verwenden Sie **dreifache Klammern** `{{{ }}}` für Feldwerte in JSON-Zeichenfolgen, um zu verhindern, dass HTML Sonderzeichen umgeht, und um eine gültige JSON-Ausgabe sicherzustellen.
+* Der `result='YOUR_REFERENCE_KEY'` erfasst den aufgelösten Fragmentinhalt unter diesem Namen, damit Sie auf dessen Felder mit `YOUR_REFERENCE_KEY.fieldName` verweisen können.
+
+![Code-basierter Erlebnis-Editor, der AEM-Inhaltsfragmentattribute anzeigt, die aus einer Entscheidungsrichtlinie in JSON gerendert wurden.](assets/aem-fragments-cbe.png)
+
+>[!TAB Code-basiertes Erlebnis (HTML)]
+
+Verwenden Sie für HTML-basierte Code-basierte Erlebnisse standardmäßige doppelte Klammern für die Feldwiedergabe:
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### Verwenden von Assets aus AEM-Inhaltsfragmenten {#aem-cf-assets}
+
+AEM-Inhaltsfragmente können Bildfelder enthalten, die auf in AEM gespeicherte Assets verweisen. Da Journey Optimizer nur den **relativen Pfad** dieser Assets erhält, werden Bilder möglicherweise erst geladen, wenn die vollständige Veröffentlichungs-URL vorangestellt wird.
+
+>[!NOTE]
+>
+>Die native Auflösung von AEM-Asset-Verweisen innerhalb von Inhaltsfragmenten wird noch nicht unterstützt. Die folgenden Ansätze sind Problemumgehungen, bis diese Unterstützung hinzugefügt wird.
+
+>[!BEGINTABS]
+
+>[!TAB AEM-Veröffentlichungs-Domain voranstellen]
+
+1. Identifizieren Sie über die AEM-Instanz-URL die Autoren-Domain - z. B. `author-p12345-e67890.adobeaemcloud.com`.
+
+   ![AEM-Instanz-URL, die die für die Ableitung der Veröffentlichungsdomäne verwendete Autoren-Domain anzeigt.](assets/aem-fragment-author-domain.png)
+
+1. Ersetzen Sie `author` durch `publish`, um die Veröffentlichungs-Domain abzurufen: `publish-p12345-e67890.adobeaemcloud.com`.
+
+1. Stellen Sie im Journey Optimizer-Personalisierungseditor diese Veröffentlichungs-Domain dem Feld Asset-Verweis aus dem Inhaltsfragment voran.
+
+   ![Personalization-Editor mit der AEM-Veröffentlichungs-Domain, der ein Asset-Referenzfeld für Inhaltsfragmente vorangestellt wird.](assets/aem-fragment-publish-domain.png)
+
+Das Bild wird jetzt zum Zeitpunkt der Bereitstellung auf seine vollständige Veröffentlichungs-URL aufgelöst.
+
+>[!TAB Speichern der Veröffentlichungs-URL in einem Textfeld]
+
+1. Öffnen Sie Ihr Inhaltsfragment in AEM.
+1. Wechseln Sie zur JSON-Vorschau und überprüfen Sie den Abschnitt **Verweise**, um die veröffentlichte Asset-URL zu finden.
+
+   ![Abschnitt mit den JSON-Vorschauverweisen für AEM-Inhaltsfragmente, der die veröffentlichte Asset-URL anzeigt.](assets/aem-fragment-published-url.png)
+
+1. Kopieren Sie die Veröffentlichungs-URL und fügen Sie sie in ein dediziertes Textfeld im Inhaltsfragment ein.
+
+   ![Textfeld des AEM-Inhaltsfragments, das die kopierte Veröffentlichungs-URL für das referenzierte Asset enthält.](assets/aem-fragment-copy-url.png)
+
+1. Referenzieren Sie dieses Textfeld in Journey Optimizer direkt als Bildquelle in Ihrem Personalisierungsausdruck.
+
+   ![Journey Optimizer-Personalisierungsausdruck, der auf das Textfeld des Inhaltsfragments als Bildquelle verweist.](assets/aem-fragment-use-url.png)
+
+Durch diesen Ansatz wird die manuelle URL-Erstellung vermieden und die Veröffentlichungs-URL im Inhaltsfragment selbst belassen.
+
+>[!ENDTABS]
 
 ## Anleitungsvideo {#video}
 
