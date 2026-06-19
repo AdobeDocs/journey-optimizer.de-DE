@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rollen und Verantwortlichkeiten
-description: Erfahren Sie mehr über die verschiedenen Rollen in Adobe Journey Optimizer und die jeweiligen Verantwortlichkeiten
+title: Rollen und Zuständigkeiten | Adobe Journey Optimizer
+description: Machen Sie sich mit den Rollen, Zuständigkeiten und der empfohlenen Implementierungsreihenfolge für Adobe Journey Optimizer vertraut.
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -11,39 +11,16 @@ keywords: Rollen, Zuständigkeiten, Marketing, Administration, Datentechnik, Ent
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +32,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer ermöglicht es Marken, während der gesamten Customer Journey vernetzte, kontextuelle und personalisierte Erlebnisse bereitzustellen. Journey Optimizer wurde mit einem End-to-End-Fokus auf Skalierbarkeit, Geschwindigkeit und Flexibilität entwickelt und kombiniert drei wichtige Treiber für den Mehrwert in einer einheitlichen Anwendung:
+Adobe Journey Optimizer wird durch vier verschiedene Rollen implementiert, die nacheinander arbeiten. Auf dieser Seite werden die Zuständigkeiten und Links jeder Rolle zu detaillierten Handbüchern für die ersten Schritte zugeordnet.
 
-* **Echtzeit-Kundenerkenntnisse und -Interaktion** basierend auf dem Echtzeit-Kundenprofil von Adobe
-* **Moderne Omni-Channel-Orchestrierung** durch einheitliche Arbeitsflächen für Echtzeit-Journeys und Batch-Kampagnen sowie einen modernen Nachrichten-Designer
-* **Intelligente Entscheidungsfindung und Personalisierung** durch Entscheidungs-Management und KI/ML-Funktionen
-
-Journey Optimizer bietet zwei Hauptansätze, mit denen Sie Kundschaft erreichen und ansprechen können:
-
-* **Journeys**: Eins-zu-eins-Orchestrierung in Echtzeit, bei der sich alle Kundinnen und Kunden in ihrem eigenen Tempo bewegen, ausgelöst durch Verhalten oder Ereignisse. Ideal für Onboarding-Sequenzen, Warenkorbabbruch und Lebenszyklusinteraktionen.
-* **Kampagnen**: Zielgruppenbasiertes Messaging mit drei Versandmodi, je nach Anwendungsfall:
-   * **Aktionskampagnen**: Geplante oder wiederkehrende Nachrichten, die gleichzeitig an eine definierte Zielgruppe gesendet werden. Ideal für Newsletter, Werbeanzeigen und Produkteinführungen.
-   * **Durch API ausgelöste Kampagnen**: On-Demand-Nachrichten, die von einem externen System über API ausgelöst werden. Ideal für Transaktionsnachrichten wie Auftragsbestätigungen, Versandbenachrichtigungen und Kontobenachrichtigungen.
-   * **Orchestrierte Kampagnen**: Komplexe Batch-Workflows mit Segmentierung in mehrere Entitäten und arbeitsflächenbasierter Ausführung. Ideal für saisonale Werbungen, mehrstufige Batch-Programme und Kampagnen, für die eine exakte Anzahl der Vorabsendungen erforderlich ist.
-
-Dieses einheitliche Erlebnis ermöglicht es Ihnen, ganze Anwendungsfälle an einem Ort zu implementieren, von der Definition von Zielgruppen und der Gestaltung von Journeys bis hin zur Erstellung personalisierter Inhalte und der Analyse von Ergebnissen. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
+>[!NOTE]
+>
+>Neu bei Journey Optimizer? Beginnen Sie zunächst mit [Was ist Journey Optimizer](get-started.md).
 
 **Wichtiger Hinweis:** Adobe Journey Optimizer definiert verschiedene Rollen mit bestimmten Verantwortlichkeiten. Eine einzelne Person kann mehrere oder alle Rollen einnehmen, je nach Struktur Ihrer Organisation.
 
@@ -267,7 +234,7 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 
@@ -295,3 +262,12 @@ Detailliertere Informationen und Aktualisierungen finden Sie in den folgenden Re
 * [Produktforum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}: Ort für Fragen und zum Teilen von Wissen
 
 >[!ENDTABS]
+
+## Rollenleitfäden {#role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](path/administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](path/data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](path/developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](path/marketer.md) |

@@ -8,31 +8,16 @@ role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +30,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 Als **Datenarchitektin bzw. -architekt** oder **Dateningenieurin bzw. -ingenieur** richten Sie die Kundenprofildaten und andere Datenquellen ein, auf denen die von [!DNL Journey Optimizer] orchestrierten Erlebnisse basieren, und pflegen diese. Dazu gehört die Integration aller Kunden- und Geschäftsdaten (egal ob aus Web-, CRM- oder Offline-Quellen) in eine einheitliche 360-Grad-Sicht auf die Kundin bzw. den Kunden. Sie modellieren Kundenprofildaten und Geschäftsdaten in Schemata, konfigurieren Quell-Connectoren für die Datenaufnahme und stellen einen reibungslosen Datenfluss sicher, um Kundenerkenntnisse und Interaktion in Echtzeit zu ermöglichen. Sobald die oder der [Systemadmin](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
+
+>[!NOTE]
+>
+>**Implementierungsreihenfolge:** [Administrator](administrator.md) → Sie sind hier: **Datentechniker** → → [Entwickler](developer.md) [Marketer](marketer.md)
+>
+>Schließen Sie [Administrator-Setup](administrator.md) ab, bevor Sie mit der Data Foundation-Arbeit beginnen.
 
 >[!NOTE]
 >
@@ -135,3 +126,14 @@ Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Zielgruppen und Daten z
 * Unterstützen der Segmentierung in mehrere Entitäten für erweiterte Anwendungsfälle
 
 >[!ENDTABS]
+
+## Weitere Rollenleitfäden {#other-role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](marketer.md) |
+
+Zurück zu [Überblick über Rollen und Zuständigkeiten](../quick-start.md) ・ Zurück zu [Erste Schritte](../../../rp_landing_pages/get-started-landing-page.md)
