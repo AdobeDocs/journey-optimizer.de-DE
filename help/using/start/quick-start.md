@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rollen und Verantwortlichkeiten
-description: Erfahren Sie mehr über die verschiedenen Rollen in Adobe Journey Optimizer und die jeweiligen Verantwortlichkeiten
+title: Rollen und Zuständigkeiten | Adobe Journey Optimizer
+description: Machen Sie sich mit den Rollen, Zuständigkeiten und der empfohlenen Implementierungsreihenfolge für Adobe Journey Optimizer vertraut.
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer ermöglicht es Marken, während der gesamten Customer Journey vernetzte, kontextuelle und personalisierte Erlebnisse bereitzustellen. Journey Optimizer wurde mit einem End-to-End-Fokus auf Skalierbarkeit, Geschwindigkeit und Flexibilität entwickelt und kombiniert drei wichtige Treiber für den Mehrwert in einer einheitlichen Anwendung:
+Adobe Journey Optimizer wird durch vier verschiedene Rollen implementiert, die nacheinander arbeiten. Auf dieser Seite werden die Zuständigkeiten und Links jeder Rolle zu detaillierten Handbüchern für die ersten Schritte zugeordnet.
 
-* **Echtzeit-Kundenerkenntnisse und -Interaktion** basierend auf dem Echtzeit-Kundenprofil von Adobe
-* **Moderne Omni-Channel-Orchestrierung** durch einheitliche Arbeitsflächen für Echtzeit-Journeys und Batch-Kampagnen sowie einen modernen Nachrichten-Designer
-* **Intelligente Entscheidungsfindung und Personalisierung** durch Entscheidungs-Management und KI/ML-Funktionen
-
-Journey Optimizer bietet zwei Hauptansätze, mit denen Sie Kundschaft erreichen und ansprechen können:
-
-* **Journeys**: Eins-zu-eins-Orchestrierung in Echtzeit, bei der sich alle Kundinnen und Kunden in ihrem eigenen Tempo bewegen, ausgelöst durch Verhalten oder Ereignisse. Ideal für Onboarding-Sequenzen, Warenkorbabbruch und Lebenszyklusinteraktionen.
-* **Kampagnen**: Zielgruppenbasiertes Messaging mit drei Versandmodi, je nach Anwendungsfall:
-   * **Aktionskampagnen**: Geplante oder wiederkehrende Nachrichten, die gleichzeitig an eine definierte Zielgruppe gesendet werden. Ideal für Newsletter, Werbeanzeigen und Produkteinführungen.
-   * **Durch API ausgelöste Kampagnen**: On-Demand-Nachrichten, die von einem externen System über API ausgelöst werden. Ideal für Transaktionsnachrichten wie Auftragsbestätigungen, Versandbenachrichtigungen und Kontobenachrichtigungen.
-   * **Orchestrierte Kampagnen**: Komplexe Batch-Workflows mit Segmentierung in mehrere Entitäten und arbeitsflächenbasierter Ausführung. Ideal für saisonale Werbungen, mehrstufige Batch-Programme und Kampagnen, für die eine exakte Anzahl der Vorabsendungen erforderlich ist.
-
-Dieses einheitliche Erlebnis ermöglicht es Ihnen, ganze Anwendungsfälle an einem Ort zu implementieren, von der Definition von Zielgruppen und der Gestaltung von Journeys bis hin zur Erstellung personalisierter Inhalte und der Analyse von Ergebnissen. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
+>[!NOTE]
+>
+>Neu bei Journey Optimizer? Beginnen Sie zunächst mit [Was ist Journey Optimizer](get-started.md).
 
 **Wichtiger Hinweis:** Adobe Journey Optimizer definiert verschiedene Rollen mit bestimmten Verantwortlichkeiten. Eine einzelne Person kann mehrere oder alle Rollen einnehmen, je nach Struktur Ihrer Organisation.
 
@@ -295,3 +285,12 @@ Detailliertere Informationen und Aktualisierungen finden Sie in den folgenden Re
 * [Produktforum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}: Ort für Fragen und zum Teilen von Wissen
 
 >[!ENDTABS]
+
+## Rollenleitfäden {#role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](path/administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](path/data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](path/developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](path/marketer.md) |

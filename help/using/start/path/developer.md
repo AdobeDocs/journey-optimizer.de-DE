@@ -3,7 +3,7 @@ title: Erste Schritte für Entwickler
 description: Hier erfahren Entwickler mehr über die Arbeit mit Journey Optimizer.
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 Als **Entwicklerin bzw. Entwickler** sind Sie für die Implementierung und Integration von [!DNL Adobe Journey Optimizer] in Ihre Anwendungen und Systeme verantwortlich. Sie können mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen [Systemadmin](administrator.md) und [Dateningenieurin bzw. -ingenieur](data-engineer.md) Zugriff auf Ihre Umgebung gewährt und diese vorbereitet haben.
+
+>[!NOTE]
+>
+>**Implementierungsreihenfolge:** [Administrator](administrator.md) → [Datentechniker](data-engineer.md) → → Sie sind hier: **Entwickler** [Marketer](marketer.md)
+>
+>Stellen Sie [, dass (Datenschemata und Ereignisse](data-engineer.md) konfiguriert sind, bevor Sie Ihre Mobile- und Web-Integrationen implementieren.
 
 ## Ihre Rolle im Journey Optimizer-Ökosystem
 
@@ -316,3 +322,14 @@ Bereit, mit dem Erstellen zu beginnen? Wählen Sie Ihren ersten Implementierungs
 4. **Benutzerdefiniertes System?** Wechseln Sie zu [Benutzerdefinierte Aktionen](#custom-actions)
 
 Jeder Abschnitt enthält Links zu detaillierter technischer Dokumentation, Code-Beispielen und Tutorials, die Sie bei der Implementierung unterstützen.
+
+## Weitere Rollenleitfäden {#other-role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](marketer.md) |
+
+Zurück zu [Überblick über Rollen und Zuständigkeiten](../quick-start.md) ・ Zurück zu [Erste Schritte](../../../rp_landing_pages/get-started-landing-page.md)

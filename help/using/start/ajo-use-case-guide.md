@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Finden Sie die richtige Journey Optimizer-Funktion für Ihr Ziel
-description: Ein Entscheidungshandbuch, das praktische Übungsziele mit praktischen Tutorials auf die richtigen Adobe Journey Optimizer-Funktionen abbildet, sodass Sie das richtige Tool für das finden, was Sie erreichen möchten, und schnell anfangen können.
+title: Übersicht über Journey Optimizer-Anwendungsfälle | Adobe Journey Optimizer
+description: Lernen Sie die wichtigsten Anwendungsfälle kennen, für die Adobe Journey Optimizer entwickelt wurde, und erfahren Sie, welche AJO-Funktionen am besten zu den einzelnen Szenarien passen.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: Journey-Optimizer, Anwendungsfall, Entscheidungshandbuch, welche Funktion, Erste Schritte, Anwenderziele, Tutorials
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 054de625361914e217c27782b487db1933c3230f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 22%
+source-wordcount: '2821'
+ht-degree: 37%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 22%
 
 [!DNL Adobe Journey Optimizer] bietet viele Möglichkeiten. Die richtige hängt davon ab, was Sie erreichen möchten. Dieses Handbuch ist auf Geschäftsziele und nicht auf Produktfunktionen ausgerichtet: Suchen Sie das Ziel, das Ihren Anforderungen entspricht, und folgen Sie dann dem Link, um mit der empfohlenen Funktion zu beginnen.
 
-Verwenden Sie diese Seite als schnellen Router - scannen Sie nach Ihrem Ziel und springen Sie direkt zur richtigen Funktion. Wenn Sie lieber den geführten, schrittweisen Anweisungen und Videos folgen möchten, beginnen Sie stattdessen mit dem [Onboarding-Hub](onboarding-hub.md).
+Verwenden Sie diese Seite als schnellen Router - scannen Sie nach Ihrem Ziel und springen Sie direkt zur richtigen Funktion. Wenn Sie gerade erst anfangen, beginnen Sie mit [Erste Schritte mit Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) um den richtigen Einstiegspunkt für Ihre Rolle zu finden.
+
+>[!NOTE]
+>
+>Schrittweise Implementierungsbeispiele finden Sie in der [Journey-Anwendungsfallbibliothek](../building-journeys/jo-use-cases.md).
 
 Wenn für ein bestimmtes Szenario kein durchgängiges Tutorial verfügbar ist, führt Sie der Link zum besten aktuellen Ausgangspunkt, um die Funktionen zu erlernen und zu beginnen.
 
@@ -33,7 +37,7 @@ KI ist in viele dieser Funktionen integriert - suchen Sie in den Tabellen unten 
 
 >[!TIP]
 >
->Neu bei Journey Optimizer? Beginnen Sie mit dem [Onboarding-Hub](onboarding-hub.md) für schrittweise Anweisungen, kuratierte Anwendungsfälle und Videos. Sie können auch die vollständigen [Journey Optimizer-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} (Videos und angeleitete exemplarische Vorgehensweisen) durchsuchen, einer von Experten kuratierten [Videowiedergabeliste](https://experienceleague.adobe.com/de/playlists?solution=Journey+Optimizer){target="_blank"} folgen und in einer [Trainings-Sandbox](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} üben.
+>Neu bei Journey Optimizer? Beginnen Sie mit [Erste Schritte mit Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) um den richtigen Pfad für Ihre Rolle auszuwählen, und lesen Sie dann [Was ist Journey Optimizer](get-started.md) für die Grundlagen. Um praktisches Vertrauen aufzubauen, durchsuchen Sie die [Journey Optimizer-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} folgen Sie einer von Experten kuratierten [Video-](https://experienceleague.adobe.com/de/playlists?solution=Journey+Optimizer){target="_blank"}) und üben Sie in einer [Trainings-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} oder mit den [praktischen Herausforderungen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Einrichten von Journey Optimizer für Ihr Team {#setup-admin}
 
@@ -131,6 +135,171 @@ Für die Verfolgung der Leistung, die Diagnose von Problemen und die Verbesserun
 | Analysieren eines Experiments und Abrufen von Empfehlungen für den nächsten Schritt | Experimentation Agent **(AI)** | [Experimentation Agent](ai-features.md#experimentation-agent) ・ [Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/experimentation-agent-overview){target="_blank"} |
 | Überwachen des Zustands und der Latenz benutzerdefinierter Aktionen in meinen Journeys | Monitoring von benutzerdefinierten Aktionen | [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md) <!-- TODO: verify target — no dedicated "custom-action-monitoring.md" page found; using-custom-actions.md is the closest existing page --> |
 | Warnen, wenn Journey-Fehler- oder Verwerfungsraten die Schwellenwerte überschreiten | Journey-Warnhinweise | [Einrichten von Journey-Warnhinweisen](../reports/alerts.md) |
+
+## Starter-Flüsse {#starter-flows}
+
+Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Schritten: Was Sie aufbauen werden, für wen es gedacht ist und wie Sie dorthin gelangen. Wählen Sie das Ziel aus, das Ihrem ersten Projekt entspricht, und folgen Sie den Links zur detaillierten Dokumentation.
+
+### Neue Kunden begrüßen {#flow-welcome}
+
+**Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.
+**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
+
+1. Bestätigen Sie[&#x200B; dass Ihre einheitlichen Profile und &#x200B;](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
+1. [Erstellen Sie Ihre erste &#x200B;](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
+1. Fügen Sie eine Begrüßungs[E-Mail](../email/get-started-email.md), dann einen Warteschritt und eine Folgenachricht [Push-Benachrichtigung](../push/get-started-push.md) für Profile hinzu, die nicht interagiert haben.
+1. [Personalisieren des Inhalts](../personalization/personalize.md) mit Profilattributen wie Vorname und angegebenen Interessen.
+
+➡️ [Beginnen Sie mit Journey](../building-journeys/journey-gs.md)
+
+### Wiederherstellen von Transaktionsabbrüchen {#flow-cart}
+
+**Sie erstellen Folgendes:** Ein Echtzeit-Wiederherstellungsfluss, der Kunden an zurückgelassene Elemente erinnert.
+**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
+
+1. Stellen Sie sicher, dass das Warenkorbabbruchs-Ereignis Journey Optimizer erreicht (wenden Sie sich bei Bedarf an Ihr [Daten-](../data/gs-data.md)).
+1. [Erstellen einer Journey](../building-journeys/journey-gs.md) ausgelöst durch das Abbruchereignis.
+1. Senden Sie eine personalisierte Erinnerungs-E-Mail. Wenn innerhalb von 24 Stunden kein Klick erfolgt, verzweigen Sie zu einem [Push](../push/get-started-push.md)-Follow-up.
+1. [Personalisieren](../personalization/personalize.md) mit den abgebrochenen Elementen und dem Treuestatus.
+
+➡️ [Beginnen Sie mit Journey](../building-journeys/journey-gs.md)
+
+### Senden von Transaktionsnachrichten {#flow-transactional}
+
+**Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.
+**Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** Kampagne, die von einem externen System ausgelöst wird
+
+1. Überprüfen Sie, [&#x200B; Kampagnen, die von einem externen System ausgelöst &#x200B;](../campaigns/api-triggered-campaigns.md), funktionieren und welche Payload sie erwarten.
+1. Gestalten Sie die Nachrichtenvorlage und [&#x200B; Sie &#x200B;](../personalization/personalize.md) mit den Transaktionsdetails.
+1. Bitten Sie Ihren Entwickler, den Campaign-Endpunkt aus Ihrem Auftrags- oder Erfüllungssystem aufzurufen.
+
+➡️ [Arbeiten mit Kampagnen, die von einem externen System ausgelöst werden](../campaigns/api-triggered-campaigns.md)
+
+### Starten einer Kampagne mit Inhaltstests {#flow-campaign}
+
+**Sie erstellen:** Eine geplante Promotion, die automatisch die Inhalte mit der besten Leistung auswählt.
+**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Geplante Kampagne + Inhaltsexperiment
+
+1. [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md) und Definieren Ihrer Audience.
+1. Verwenden Sie [Inhaltserstellung](../content-management/gs-generative.md), um die Betreffzeile zu entwerfen und Varianten zu kopieren.
+1. Richten Sie ein [Inhaltsexperiment](../content-management/experiment-accelerator-gs.md) ein, um Varianten eines Beispiels zu testen, und senden Sie dann den Gewinner an den Rest.
+
+➡️ [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
+
+### Angebote pro Kunde personalisieren {#flow-offers}
+
+**Sie erstellen:** Eine Entscheidung, die jedem Kunden das beste Einzelangebot zeigt.
+**Am besten geeignet für:** Marketing-Experten ・ **Funktion:** Decisioning
+
+1. [Erste Schritte mit Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) und erstellen Sie Ihre Angebote und Eignungsregeln.
+1. Fügen Sie die Entscheidung einer [Journey](../building-journeys/journey-gs.md) oder Kampagnennachricht hinzu.
+1. Ebene in [intelligenten Funktionen](ai-features.md) um Angebote automatisch zu ordnen und zu optimieren.
+
+➡️ [Erste Schritte mit Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## Beispielszenarien {#example-scenarios}
+
+Diese Beispiele veranschaulichen, wie die Funktionen von Journey Optimizer in verschiedenen Rollen, Branchen und Kanälen zusammenarbeiten.
+
+### Rückerstattung für verzögerte Sendungen {#scenario-delayed-shipment}
+
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Einheitliches Profil + Zielgruppenausschluss](../audience/get-started-profiles.md)
+
+Ein Bekleidungsgeschäft versendet in der Regel nach dem Kauf eine Umfrage an alle Kundinnen und Kunden, die in der letzten Woche Produkte erworben haben. Aufgrund des schlechten Wetters kam es bei einigen Lieferungen zu Verspätungen. Da das Bekleidungsgeschäft weiß, welche Kundinnen und Kunden ihre Lieferungen nicht erhalten haben, kann es diese vom geplanten Versand der Zufriedenheitsumfrage ausschließen. Stattdessen kann es eine personalisierte E-Mail versenden, in der es sich für die Verzögerung entschuldigt, und einen Rabatt-Code mit Produktempfehlungen einfügen, die auf früheren Käufen der Kundin bzw. des Kunden basieren.
+
+[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
+
+### Echtzeit-Interaktion in Geschäften {#scenario-instore}
+
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Geofence-Auslösung + Push](../push/get-started-push.md)
+
+Derselbe Einzelhändler kann in Echtzeit mit einer treuen Kundin interagieren, die gerade am Parkplatz des Geschäfts ankommt, und ihr eine Push-Benachrichtigung über einen Pullover senden, der wieder in ihrer Größe vorrätig ist.
+
+[Erste Schritte mit Push-Benachrichtigungen](../push/get-started-push.md)
+
+### Wiederherstellung bei Warenkorbabbruch {#scenario-cart}
+
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Durch Ereignis ausgelöste mehrstufige Journey](../building-journeys/journey-gs.md)
+
+Wenn eine Person Artikel einem Online-Warenkorb hinzufügt, den Kauf jedoch nicht abschließt, erkennt Journey Optimizer das Ereignis in Echtzeit und startet automatisch eine Wiederherstellungs-Journey. Die Person erhält eine personalisierte E-Mail, in der sie an die zurückgelassenen Artikel erinnert wird. Wenn sich die Person nicht innerhalb von 24 Stunden durchklickt, wird eine Folge-Push-Benachrichtigung gesendet, die basierend auf dem Browser-Verlauf und Treuestatus personalisiert wird.
+
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
+
+### Begrüßungsserie für den Streaming-Service {#scenario-welcome}
+
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Durch Ereignis ausgelöste Begrüßungs-Journey](../building-journeys/journey-gs.md)
+
+Wenn eine Person einen Streaming-Service abonniert, erkennt Journey Optimizer das Registrierungsereignis und startet sofort eine mehrstufige Begrüßungs-Journey. Die Person erhält eine Begrüßungs-E-Mail, in der sie aufgefordert wird, die App zum ersten Mal zu öffnen. Wenn innerhalb von 48 Stunden keine Anmeldeaktivität erkannt wird, wird eine Folge-Push-Benachrichtigung mit personalisierten Inhaltsempfehlungen gesendet, die auf den bei der Registrierung angegebenen Interessen basieren. So werden passive Abonnierende vom ersten Tag an zu aktiven, interaktiven Benutzenden.
+
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
+
+### Reservierungserinnerung mit Wegbeschreibung {#scenario-reservation}
+
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Geplantes + standortbezogenes Messaging](../campaigns/get-started-with-campaigns.md)
+
+Eine Marke im Gastgewerbe sendet allen Gästen eine Stunde vor ihrer Reservierung eine rechtzeitige Erinnerung. Die Benachrichtigung enthält den Namen des Gastes, die Reservierungszeit und die standortbasierte Wegbeschreibung zum Ort. Dies wird automatisch aus den Daten im Kundenprofil und der Buchung zusammengestellt, ohne dass manueller Aufwand des Marketing-Teams notwendig ist.
+
+[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
+
+### Proaktive Benachrichtigung zu Service-Ausfall {#scenario-outage}
+
+**Rolle:** Operations | **Kernfunktion:** [Automatisierte Zielgruppenauswahl im benötigten Umfang](../audience/about-audiences.md)
+
+Wenn eine Service-Unterbrechung auftritt, identifiziert Journey Optimizer die betroffenen Personen automatisch anhand ihrer Kontodaten und Nutzungsmuster. Diese Personen erhalten eine proaktive Benachrichtigung, in der das Problem geschildert und die nächsten Schritte erläutert werden. Dies wandelt ein potenziell negatives Erlebnis in einen transparenten Moment um, der Vertrauen schafft und im benötigten Umfang bereitgestellt wird.
+
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
+
+### Intelligente Werbekampagne {#scenario-ai-campaign}
+
+**Rolle:** Marketing-Experte | **Kernfunktion:** [Inhaltserstellung + Experimentieren](ai-features.md)
+
+Eine Einzelhandelsmarke, die eine Produkteinführung plant, verwendet den KI-Assistenten von Journey Optimizer, um mehrere Betreffzeilen- und Textkörpervarianten innerhalb weniger Minuten zu generieren, und zwar basierend auf einem Prompt in natürlicher Sprache und den hochgeladenen Markenrichtlinien. Integrierte Inhaltsexperimente identifizieren automatisch die leistungsstärkste Variante in einer anfänglichen Auswahl an Zielgruppen. Die erfolgreichste Nachricht wird dann an die verbleibenden Empfangenden gesendet, wodurch die Interaktion ohne zusätzlichen Texterstellungsaufwand maximiert wird.
+
+[Intelligente Funktionen entdecken](ai-features.md) | [Erfahren Sie mehr über Inhaltsexperimente](../content-management/experiment-accelerator-gs.md)
+
+### Wartungswarnhinweise über App {#scenario-maintenance}
+
+**Rolle:** Operations | **Kernfunktion:** [Nicht-Marketing-Journey-Orchestrierung](../building-journeys/journey-gs.md)
+
+Nicht-Marketing-Fachleute wie Operations- und Support-Teams können [!DNL Adobe Journey Optimizer] verwenden, um betriebliche Benachrichtigungen zu verwalten oder Onboarding-Prozesse zu überwachen. Beispielsweise kann Wartungspersonal eines Vergnügungsparks, in dem Besuchende eine App als Teil ihres Erlebnisses herunterladen, Journey Optimizer verwenden, um Besuchende des Parks über Attraktionen zu informieren, die aufgrund von Wartungsarbeiten derzeit geschlossen sind.
+
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
+
+## Videobibliothek {#videos}
+
+Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den entsprechenden Tutorials und Wiedergabelisten auf Experience League verknüpft.
+
+>[!BEGINTABS]
+
+>[!TAB Erste Schritte]
+
+* [Einführung in Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Grundlegende Konzepte und eine Produkttour.
+* [Übersicht über Journey Optimizer-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - Der vollständige Katalog mit geführten Videos.
+
+>[!TAB Journey und Kampagnen]
+
+* [Einführung in das Erstellen einer Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} - Erstellen Sie Ihre erste ereignisgesteuerte Journey.
+* [Mit Journey Agent Journey erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} - Erstellen Sie Journey anhand einer Aufforderung in natürlicher Sprache.
+
+>[!TAB Personalization und Intelligence]
+
+* [KI-Assistent für die Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - Generieren von Kopien, Bildern und Varianten.
+* [Verwenden von Decisioning zur Personalisierung von Web](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}Angeboten - Angebote nach Kunde anpassen.
+
+>[!TAB Reporting und Optimierung]
+
+* [Überwachen und Analysieren Ihres Journey mit Live-Berichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - Verfolgen Sie die Performance in Echtzeit.
+* [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
+
+>[!ENDTABS]
+
+## Auswahl zwischen Journey, Kampagnen und koordinierten Kampagnen {#choosing}
+
+| Szenario | Verwenden von |
+|----------|-----|
+| Verhaltensgesteuert und in mehreren Schritten: Jeder Kunde bewegt sich in seinem eigenen Tempo | Journey |
+| Einfache geplante oder durch eine API ausgelöste Nachricht an eine Zielgruppe | Campaign |
+| Komplexer Batch-Workflow mit Segmentierung mehrerer Entitäten | Orchestrierte Kampagne |
 
 ## Nicht sicher? {#not-sure}
 

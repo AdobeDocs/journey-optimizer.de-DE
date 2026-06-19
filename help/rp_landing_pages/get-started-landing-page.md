@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Erste Schritte
-description: Erste Schritte mit Adobe Journey Optimizer
+description: Beginnen Sie hier - alles, was Sie für den Einstieg in Adobe Journey Optimizer benötigen.
+role: User, Admin, Developer
+level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 81%
 
 ---
 
 # Erste Schritte mit Adobe Journey Optimizer{#get-started}
 
-Mit Adobe Journey Optimizer können Sie auf allen Kanälen personalisierte Kundenerlebnisse in Echtzeit bereitstellen – über eine einzige Anwendung und im benötigten Umfang. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Lebenszeitwert steigern.
+Unabhängig davon, ob Sie neu bei Journey Optimizer sind oder zurückkehren, um eine neue Funktion zu erkunden, ist diese Seite Ihr Ausgangspunkt. Wählen Sie den Pfad aus, der zu Ihrer Rolle und Ihrem Ziel passt.
 
-Unabhängig davon, ob Sie neu bei Journey Optimizer sind oder bereits Erfahrung damit haben und Ihre Kenntnisse erweitern möchten, finden Sie in diesem Abschnitt alles, was Sie für einen schnellen und effektiven Einstieg benötigen.
-
-## Starten mit den Grundlagen {#essentials}
+## Neu bei Journey Optimizer? {#essentials}
 
 Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen und erfahren Sie, wie datengestützte Personalisierung im benötigten Umfang ermöglicht wird.
 
@@ -114,6 +114,62 @@ Integrieren Sie Apps, implementieren Sie Web SDKs, konfigurieren Sie Ereignisse 
 
 [Alle Rollen und Zuständigkeiten anzeigen →](../using/start/quick-start.md)
 
+## Erkunden von Anwendungsfällen {#explore-use-cases}
+
+Nicht sicher, wo man anfangen soll? Finden Sie die Funktion, die Ihrem Ziel entspricht.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+
+Finden Sie die richtige Funktion für Ihr Ziel
+
+Durchsuchen Sie die Anwendungsfälle nach Geschäftsziel und springen Sie zur empfohlenen Journey Optimizer-Funktion.
+
+[Erkunden von Anwendungsfällen](../using/start/ajo-use-case-guide.md)
+:::
+
+::::
+
+## Sind Sie bereits dabei? {#already-onboarded}
+
+Springen Sie direkt in die Bereiche, in denen Sie Ihre tägliche Arbeit tun.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+
+Journeys
+
+[Journey entwerfen und Nachrichten senden](../using/building-journeys/journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+
+Kampagnen
+
+[Erste Schritte mit Kampagnen](../using/campaigns/get-started-with-campaigns.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+
+Content-Management
+
+[Gestalten Ihrer Inhalte](content-management-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+
+Berichterstellung
+
+[Überwachen der Leistung mit Live-Berichten](../using/reports/live-report.md)
+:::
+
+::::
+
 ## Effizientes Arbeiten {#work-efficiently}
 
 Lernen Sie die Benutzeroberfläche kennen und nutzen Sie intelligente Funktionen, um Ihre Arbeit zu beschleunigen.
@@ -168,15 +224,6 @@ Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängi
 * **[Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}**: Treten Sie mit anderen Benutzenden in Kontakt, stellen Sie Fragen und tauschen Sie Best Practices aus
 * **[Aktualisierungen der Dokumentation](../using/rn/documentation-updates.md)**: Bleiben Sie über aktuelle Änderungen und Ergänzungen der Dokumentation auf dem Laufenden
 
-## Bereit zum Loslegen? 
-
-Wählen Sie den für Sie passenden Pfad:
-
-* **Neu bei Journey Optimizer?** Beginnen Sie mit [Was ist Journey Optimizer?](../using/start/get-started.md), um die Grundlagen kennenzulernen.
-* **Sie kennen Ihre Rolle?** Fahren Sie mit dem [rollenspezifischen Handbuch](../using/start/quick-start.md) fort, das zu Ihren Verantwortlichkeiten passt
-* **Sie möchten mehr erkunden?** Schauen Sie sich die [KI-Funktionen](../using/start/ai-features.md) an oder probieren Sie die [Playbooks für Anwendungsfälle](../using/start/ai-features.md#playbooks) aus
-* **Benötigen Sie Hilfe?** Lesen Sie das [Handbuch zur Fehlerbehebung](../using/start/troubleshooting.md) oder besuchen Sie das [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
-
 ## Schnell-Links {#quick-links}
 
 Legen Sie mit diesen grundlegenden Handbüchern sofort mit der Erstellung los:
@@ -193,3 +240,7 @@ Legen Sie mit diesen grundlegenden Handbüchern sofort mit der Erstellung los:
 >[!NOTE]
 >
 >Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../using/administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich an das Adobe Customer Success Management, wenn Sie Fragen zu Ihrer spezifischen Einrichtung haben.
+
+## Suchen Sie nach der Implementierungssequenz?
+
+Wenn Ihr Team Journey Optimizer zum ersten Mal einrichtet, finden Sie unter [Rollen und Zuständigkeiten](../using/start/quick-start.md) die empfohlene Reihenfolge der Vorgänge für alle Rollen.

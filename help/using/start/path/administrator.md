@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 93%
 
 ---
 
@@ -48,6 +48,12 @@ Als **Systemadmin** richten Sie die Journey Optimizer-Umgebung ein und verwalten
 Zu Ihren Hauptaufgaben gehören das Einrichten von Benutzergruppen und Berechtigungen, das Erstellen und Verwalten von Sandboxes für die Partitionierung von Daten und Journeys für verschiedene Benutzergruppen sowie das Konfigurieren von Versandkanälen und Nachrichtenvoreinstellungen, um ein konsistentes Branding für die verschiedenen über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen. Sie stellen sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben, während gleichzeitig die Sicherheit und die Governance gewahrt bleiben.
 
 Diese Funktionen können von **[!UICONTROL Produktadmins]** verwaltet werden, die Zugriff auf das Produkt „Berechtigungen“ haben. [Weitere Informationen zu Berechtigungen](../../administration/permissions.md){target="_blank"}.
+
+>[!NOTE]
+>
+>**Implementierungsreihenfolge:** Sie sind hier: **Administrator** → [Datentechniker](data-engineer.md) → → [Entwickler](developer.md) [Marketer](marketer.md)
+>
+>Der Administrator richtet zuerst die Umgebung ein. Datentechniker, Entwickler und Marketing-Experten sind darauf angewiesen, dass diese Arbeit abgeschlossen ist, bevor sie beginnen können.
 
 ## Einrichten von Zugriff und Berechtigungen
 
@@ -163,3 +169,14 @@ Sobald die Umgebung konfiguriert ist, kann Folgendes geschehen:
 1. **Überprüfen der Einrichtung**: Überprüfen Sie, ob alle Team-Mitglieder auf die erforderlichen Funktionen zugreifen können
 2. **Überwachen der Nutzung**: Verwenden Sie die Dashboards zur Administration, um die Systemnutzung zu verfolgen und Probleme zu identifizieren
 3. **Beibehalten von Berechtigungen**: Überprüfen und aktualisieren Sie Berechtigungen im Zuge der Weiterentwicklung von Team-Rollen regelmäßig
+
+## Weitere Rollenleitfäden {#other-role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](marketer.md) |
+
+Zurück zu [Überblick über Rollen und Zuständigkeiten](../quick-start.md) ・ Zurück zu [Erste Schritte](../../../rp_landing_pages/get-started-landing-page.md)

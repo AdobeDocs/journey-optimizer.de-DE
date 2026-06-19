@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 Als **Datenarchitektin bzw. -architekt** oder **Dateningenieurin bzw. -ingenieur** richten Sie die Kundenprofildaten und andere Datenquellen ein, auf denen die von [!DNL Journey Optimizer] orchestrierten Erlebnisse basieren, und pflegen diese. Dazu gehört die Integration aller Kunden- und Geschäftsdaten (egal ob aus Web-, CRM- oder Offline-Quellen) in eine einheitliche 360-Grad-Sicht auf die Kundin bzw. den Kunden. Sie modellieren Kundenprofildaten und Geschäftsdaten in Schemata, konfigurieren Quell-Connectoren für die Datenaufnahme und stellen einen reibungslosen Datenfluss sicher, um Kundenerkenntnisse und Interaktion in Echtzeit zu ermöglichen. Sobald die oder der [Systemadmin](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
+
+>[!NOTE]
+>
+>**Implementierungsreihenfolge:** [Administrator](administrator.md) → Sie sind hier: **Datentechniker** → → [Entwickler](developer.md) [Marketer](marketer.md)
+>
+>Schließen Sie [Administrator-Setup](administrator.md) ab, bevor Sie mit der Data Foundation-Arbeit beginnen.
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Zielgruppen und Daten z
 * Unterstützen der Segmentierung in mehrere Entitäten für erweiterte Anwendungsfälle
 
 >[!ENDTABS]
+
+## Weitere Rollenleitfäden {#other-role-guides}
+
+| Rolle | Handbuch |
+|------|-------|
+| Administrator | [Erste Schritte für Administratoren](administrator.md) |
+| Datentechniker | [Erste Schritte für Dateningenieure](data-engineer.md) |
+| Entwickler | [Erste Schritte für Entwickler](developer.md) |
+| Marketer | [Erste Schritte für Marketing-Fachleute](marketer.md) |
+
+Zurück zu [Überblick über Rollen und Zuständigkeiten](../quick-start.md) ・ Zurück zu [Erste Schritte](../../../rp_landing_pages/get-started-landing-page.md)
