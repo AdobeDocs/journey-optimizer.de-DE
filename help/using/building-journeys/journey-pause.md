@@ -10,29 +10,16 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
-ht-degree: 90%
+source-wordcount: 2787
+ht-degree: 84%
 
 ---
 
@@ -40,7 +27,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie Sie eine Live-Journey anhalten und fortsetzen können, um Änderungen sicher vorzunehmen oder Sendungen zu stoppen, einschließlich der Anwendung von Kriterien zum Beenden von Profilattributen während der Pause.
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Live-Journey anhalten und fortsetzen können, um Änderungen sicher vorzunehmen oder Sendungen zu stoppen, eine pausierte Journey anhalten oder schließen, ohne sie zuerst fortzusetzen, und wie Sie Profilattributausstiegskriterien während der Pause anwenden.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +36,7 @@ ht-degree: 90%
 >title="Pausieren einer Journey"
 >abstract="Durch das Anhalten einer Live-Journey wird das Eintreten neuer Profile verhindert. Profile, die sich derzeit auf der Journey befinden, können verworfen oder an ihrem Platz belassen werden. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
-Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile auf der Grundlage ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
+Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile auf der Grundlage ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie können die [ auch manuell fortsetzen](#journey-resume-steps) oder [die Journey anhalten](#stop-close-paused) aus dem **angehalten**, ohne sie zuerst fortzusetzen.
 
 ## Wichtigste Vorteile {#journey-pause-benefits}
 
@@ -141,6 +128,24 @@ Mit den folgenden Schritten wird eine pausierte Journey fortgesetzt und Journey-
 
 
 Aus der Liste der Journeys können eine oder mehrere **pausierte** Journeys fortgesetzt werden. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
+
+## Anhaltende Journey stoppen {#stop-close-paused}
+
+Wenn Sie sich dafür entscheiden, eine pausierte Journey nicht fortzusetzen, können Sie sie mit dem Status **Paused** beenden. Dadurch wird die gesamte Journey-Verarbeitung sofort beendet und jedes noch im Journey befindliche Profil gestoppt. [Weitere Informationen zum Stoppen eines Journey](end-journey.md#stop-journey).
+
+Gehen Sie wie folgt vor, um eine pausierte Journey von der Journey-Arbeitsfläche zu stoppen:
+
+1. Öffnen Sie die **Paused**-Journey, die Sie stoppen oder schließen möchten.
+1. Klicken Sie auf die Schaltfläche **…** oben rechts auf der Journey-Arbeitsfläche.
+1. Wählen **[!UICONTROL Stoppen]** und bestätigen Sie dies im Dialogfeld.
+
+In der Liste Ihrer Journey können Sie auch auf die Schaltfläche **[!UICONTROL Auslassungspunkte]** rechts neben dem Namen der pausierten Journey klicken und **[!UICONTROL Anhalten]** auswählen.
+
+>[!IMPORTANT]
+>
+>Sie können eine [geschlossene](end-journey.md#close-journey) oder [gestoppte](end-journey.md#stop-journey) Journey weder neu starten noch löschen. Sie können [eine neue Version](publish-journey.md#journey-versions) von ihr erstellen oder [sie duplizieren](journey-ui.md#duplicate-a-journey).
+>
+>Zum Anhalten eines Journey ist die Berechtigung **[!DNL Manage journeys]** erforderlich. Wenn der Journey Inline-Kampagnen oder Messaging-Knoten enthält, benötigen Benutzende auch **Kampagnen > Kampagnen veröffentlichen** Berechtigungen. [Erfahren Sie mehr über Stopp-Berechtigungen](end-journey.md#stop-journey).
 
 ## Anzeigen, wann eine Journey angehalten oder fortgesetzt wurde {#view-pause-resume-info}
 
