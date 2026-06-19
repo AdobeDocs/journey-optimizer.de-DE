@@ -127,7 +127,7 @@ Für die individuelle Anpassung von Angeboten und Inhalten.
 
 >[!BEGINSHADEBOX]
 
-**Vor dem Erstellen** Für die Entscheidungsfindung ist eine bestimmte Einrichtungssequenz erforderlich. Sie benötigen (1) [Entscheidungselemente (Angebote) ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) Eignungsregeln und -attributen, (2) eine [Auswahlstrategie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) oder Rangfolgenformel konfiguriert und (3) eine [Entscheidungsrichtlinie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision), die an die Oberfläche angehängt wird, auf der Angebote angezeigt werden. Das Überspringen dieser Sequenz ist der häufigste Grund, warum Erstentscheidungs-Setups keine Ergebnisse zurückgeben.
+**Vor dem Erstellen** Für die Entscheidungsfindung ist eine bestimmte Einrichtungssequenz erforderlich. Sie benötigen (1) [Entscheidungselemente (Angebote) &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) Eignungsregeln und -attributen, (2) eine [Auswahlstrategie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) oder Rangfolgenformel konfiguriert und (3) eine [Entscheidungsrichtlinie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision), die an die Oberfläche angehängt wird, auf der Angebote angezeigt werden. Das Überspringen dieser Sequenz ist der häufigste Grund, warum Erstentscheidungs-Setups keine Ergebnisse zurückgeben.
 
 >[!ENDSHADEBOX]
 
@@ -190,8 +190,8 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 **Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.
 **Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
-1. Bestätigen Sie[ dass Ihre einheitlichen Profile und ](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
-1. [Erstellen Sie Ihre erste ](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
+1. Bestätigen Sie[&#x200B; dass Ihre einheitlichen Profile und &#x200B;](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
+1. [Erstellen Sie Ihre erste &#x200B;](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
 1. Fügen Sie eine Begrüßungs[E-Mail](../email/get-started-email.md), dann einen Warteschritt und eine Folgenachricht [Push-Benachrichtigung](../push/get-started-push.md) für Profile hinzu, die nicht interagiert haben.
 1. [Personalisieren des Inhalts](../personalization/personalize.md) mit Profilattributen wie Vorname und angegebenen Interessen.
 
@@ -214,8 +214,8 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 **Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.
 **Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** Kampagne, die von einem externen System ausgelöst wird
 
-1. Überprüfen Sie, [ Kampagnen, die von einem externen System ausgelöst ](../campaigns/api-triggered-campaigns.md), funktionieren und welche Payload sie erwarten.
-1. Gestalten Sie die Nachrichtenvorlage und [ Sie ](../personalization/personalize.md) mit den Transaktionsdetails.
+1. Überprüfen Sie, [&#x200B; Kampagnen, die von einem externen System ausgelöst &#x200B;](../campaigns/api-triggered-campaigns.md), funktionieren und welche Payload sie erwarten.
+1. Gestalten Sie die Nachrichtenvorlage und [&#x200B; Sie &#x200B;](../personalization/personalize.md) mit den Transaktionsdetails.
 1. Bitten Sie Ihren Entwickler, den Campaign-Endpunkt aus Ihrem Auftrags- oder Erfüllungssystem aufzurufen.
 
 ➡️ [Arbeiten mit Kampagnen, die von einem externen System ausgelöst werden](../campaigns/api-triggered-campaigns.md)
@@ -350,4 +350,4 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 
 Wenn Ihr Produktziel einem Begriff zugeordnet ist, mit dem Sie nicht vertraut sind, oder Sie sich nicht sicher sind, auf welche Funktion die Tabelle verweist, beginnen Sie mit der Seite [Journey Optimizer-Schlüsselterminologie](terminology.md), um die Konzepte hinter den einzelnen Funktionen zu verdeutlichen.
 
-Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials} können Sie auch praktisches Vertrauen ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
+Mit den durchgängigen Übungen in den [Journey Optimizer-Tutorials&rbrace; können Sie auch praktisches Vertrauen &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
