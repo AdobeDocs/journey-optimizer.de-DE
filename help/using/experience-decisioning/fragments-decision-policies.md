@@ -292,4 +292,4 @@ Durch diesen Ansatz wird die manuelle URL-Erstellung vermieden und die Veröffen
 
 Erfahren Sie, wie Sie Adobe Experience Manager-Inhaltsfragmente mit Journey Optimizer Decisioning verwenden, um Inhalte zu personalisieren und zu optimieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492222/?captions=ger&learn=on&enablevpops)
