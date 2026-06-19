@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1743
 ht-degree: 13%
 
 ---
@@ -160,7 +160,7 @@ Wenn Ihre Entscheidungsrichtlinie für zwei Angebote qualifiziert ist und jedes 
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar.
+>Diese Funktion ist für Kanäle mit Entscheidungsunterstützung verfügbar.
 
 Bevor Sie AEM-Inhaltsfragmente in einer Entscheidungsrichtlinie nutzen, stellen Sie Folgendes sicher:
 
