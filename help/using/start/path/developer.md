@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
+source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 83%
+source-wordcount: 3456
+ht-degree: 54%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Implementieren Sie die SDKs, Ereignis-Streaming, benutzerdefinierten Aktionsendpunkte und APIs, die Ihre Programme mit Adobe Journey Optimizer verbinden, damit Ihre Journey mit Echtzeitdaten arbeiten können.
+**Auf dieser Seite** Implementieren Sie die SDKs, Ereignis-Streaming, benutzerdefinierten Aktionsendpunkte und APIs, die Ihre Programme mit Adobe Journey Optimizer verbinden, damit Ihre Journey mit Live-Daten arbeiten können.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Machen Sie sich mit den wichtigsten technischen Konzepten vertraut, bevor Sie si
 
 ### Konfigurieren des Adobe Experience Platform Mobile SDK
 
-Um Push-Benachrichtigungen, In-App-Nachrichten und andere Mobile-Funktionen zu aktivieren, integrieren Sie das Adobe Experience Platform Mobile SDK in Ihre Apps.
+Mobile SDK ist eine Sammlung von Bibliotheken, die Sie direkt in Ihre iOS- oder Android-App einbetten. Sie fungiert als Kommunikationsebene zwischen Ihrer App und Adobe Experience Platform: Sie identifiziert Benutzende, sammelt Verhaltensereignisse und stellt Anweisungen von Journey Optimizer bereit - einschließlich Push-Benachrichtigungen, In-App-Nachrichten und personalisierter Inhalte. Ohne sie hat Journey Optimizer keine Einsicht in die Aktivitäten Ihrer App-Benutzer und keine Möglichkeit, sie zu erreichen.
 
 1. **Installieren und Konfigurieren des Mobile SDK**: Befolgen Sie die [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}, um mit der SDK-Integration loszulegen.
 
@@ -104,7 +104,7 @@ Detaillierte Schritte zum Konfigurieren von Push-Benachrichtigungen finden Sie a
 
 ### Implementieren von Code-basierten Erlebnissen (Mobile SDK)
 
-Für die native App-Personalisierung mithilfe von Code-basierten Erlebnissen:
+Mit Code-basierten Erlebnissen können Sie personalisierte Inhalte für jede Oberfläche in Ihrer nativen Mobile App bereitstellen - von Onboarding-Bildschirmen und Produktdetailseiten bis hin zu In-App-Bannern und Feature Flags -, ohne dass eine neue App-Version erforderlich ist. Verwenden Sie die Mobile SDK, um personalisierte Inhalte zur Laufzeit abzurufen und zu rendern, sodass Ihr Team die volle Kontrolle über Platzierung und Präsentation hat:
 
 * Befolgen Sie [dieses Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} bei der Implementierung von Mobile SDK
 * Überprüfen Sie die Beispielimplementierungen für [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} und [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}
@@ -113,7 +113,7 @@ Für die native App-Personalisierung mithilfe von Code-basierten Erlebnissen:
 
 ### Einrichten des Adobe Experience Platform Web SDK
 
-Bei Web-basierten Implementierungen ist das Web SDK Ihr primärer Integrationspunkt:
+Web SDK (`alloy.js`) ist eine einzelne JavaScript-Bibliothek, die das Patchwork separater Adobe-Tags ersetzt, die Ihre Site andernfalls möglicherweise benötigt. Es erfasst Verhaltensdaten, streamt sie über einen von Ihnen konfigurierten Datenstrom an Adobe Experience Platform und empfängt Personalisierungsanweisungen zurück - alles in einer Netzwerk-Roundtrip. Sobald sie eingerichtet ist, kann Journey Optimizer Besucher und Trigger-Journey anhand ihrer Aktionen identifizieren und Ihren Seiten sofort maßgeschneiderte Inhalte bereitstellen.
 
 1. **Installieren des Web SDK**: Befolgen Sie das [Implementierungshandbuch des Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}, um das SDK auf Ihrer Website einzurichten.
 
@@ -123,7 +123,7 @@ Bei Web-basierten Implementierungen ist das Web SDK Ihr primärer Integrationspu
 
 ### Implementieren von Code-basierten Erlebnissen (Web SDK)
 
-Code-basierte Erlebnisse ermöglichen es Ihnen, jeden digitalen Kontaktpunkt zu personalisieren:
+Im Gegensatz zu visuellen Kanälen, bei denen Marketer das Layout vollständig steuern, bieten Code-basierte Erlebnisse Ihnen volle Verantwortung dafür, wie personalisierte Inhalte auf der Seite gerendert werden. Journey Optimizer gibt eine JSON-Payload mit den Personalisierungsdaten zurück. Ihr Code entscheidet, wo und wie sie angezeigt wird. Dieses Modell funktioniert für jede Web-Oberfläche - Hero-Banner, Empfehlungskarussells, Suchergebnis-Rankings, A/B-Testvarianten -, ohne dass ein visueller Editor oder ein Seitenveröffentlichungs-Workflow erforderlich ist.
 
 1. **Auswählen Ihrer Implementierungsmethode**: Client-seitig, Server-seitig oder hybrid. Sehen Sie sich die [Implementierungsbeispiele](../../code-based/code-based-implementation-samples.md) für jeden Ansatz an.
 
@@ -141,7 +141,7 @@ Erfahren Sie mehr über die [ersten Schritte mit Code-basierten Erlebnissen](../
 
 ### Senden von Ereignissen zum Auslösen von Journeys
 
-Als Entwicklern bzw. Entwickler implementieren Sie den Code zum Senden von Ereignissen, die Journeys auslösen. [Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) konfiguriert die Ereignisschemata und -definitionen in Journey Optimizer.
+Journey werden bei Ereignissen ausgeführt: Ein Benutzer meldet sich an, fügt einen Artikel zu einem Warenkorb hinzu, schließt einen Kauf ab oder bricht ein Formular ab. Ihre Aufgabe besteht darin, diese Ereignisse aus Ihrer Anwendung genau zum richtigen Zeitpunkt auszugeben. Jedes Ereignis ist eine XDM-strukturierte JSON-Payload, die an die Experience Platform Streaming-Aufnahme-API gesendet wird. Journey Optimizer nimmt es innerhalb von Millisekunden auf und leitet das Profil an eine beliebige passende Journey weiter. Das Ereignisschema und die Payload-Struktur werden von Ihrem [Dateningenieur](data-engineer.md) definiert. Stimmen Sie sich mit ihnen ab, bevor Sie mit der Codierung beginnen.
 
 1. **Grundlegendes zur Ereignis-Payload**: Arbeiten Sie mit Ihrer Dateningenieurin bzw. Ihrem Dateningenieur zusammen, um das Ereignisschema und die erforderliche Payload-Struktur zu erhalten. Die Payload muss dem konfigurierten XDM-Schema entsprechen. Erfahren Sie mehr über [Anforderungen an Ereignisschemata](../../event/experience-event-schema.md).
 
@@ -187,7 +187,7 @@ Erfahren Sie mehr über das [Arbeiten mit Journey-Ereignissen](../../event/about
 
 ## Entwickeln von Endpunkten benutzerdefinierter Aktionen {#custom-actions}
 
-Benutzerdefinierte Aktionen ermöglichen es Journeys, Ihre APIs aufzurufen. Als Entwicklerin bzw. Entwickler erstellen Sie die API-Endpunkte, die durch benutzerdefinierte Aktionen aufgerufen werden:
+Wenn eine Journey einen benutzerdefinierten Aktionsschritt erreicht, führt Journey Optimizer einen ausgehenden HTTP-Aufruf an eine von Ihnen angegebene URL durch: Ihr Backend, ein CRM, eine Treueplattform oder einen beliebigen REST-Endpunkt. Ihre Aufgabe besteht darin, diesen Endpunkt zu erstellen und bereitzustellen: Definieren Sie den Anfragevertrag (Payload-Form, Authentifizierungsmethode, Antwortformat), implementieren Sie die dahinter stehende Geschäftslogik und stellen Sie sicher, dass sie das von Journey Optimizer generierte Aufrufvolumen verarbeiten kann. Ihr [Administrator](administrator.md) registriert den Endpunkt dann in Journey Optimizer, damit Marketing-Experten ihn als Schritt in ihren Journey verwenden können.
 
 1. **Erstellen Ihres API-Endpunkts**: Erstellen Sie RESTful-API-Endpunkte, die Journey Optimizer während der Journey-Ausführung aufruft. Ihr Endpunkt sollte:
    * JSON-Payloads akzeptieren
@@ -209,7 +209,7 @@ Benutzerdefinierte Aktionen ermöglichen es Journeys, Ihre APIs aufzurufen. Als 
 
 ## Arbeiten mit Journey Optimizer-APIs {#apis}
 
-Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugriff:
+Nicht alles muss über die Journey Optimizer-Benutzeroberfläche erfolgen. Manchmal müssen Sie einen Trigger über Ihr eigenes Backend durchführen, eine E-Mail-Adresse nach einer Datenschutzanfrage unterdrücken oder Inhaltsvorlagen aus einer externen CMS synchronisieren. Die REST-APIs von Journey Optimizer bieten Ihnen programmgesteuerten Zugriff auf die Kernfunktionen der Plattform. Alle Aufrufe verwenden OAuth-Server-zu-Server-Authentifizierung - die ältere JWT-Methode ist veraltet.
 
 1. **Grundlegendes zu API-Funktionen**: Mit Journey Optimizer-APIs können Sie verschiedene Ressourcen programmgesteuert erstellen, lesen, aktualisieren und löschen. Erfahren Sie mehr über [Journey Optimizer-APIs](../../configuration/ajo-apis.md).
 
@@ -227,7 +227,9 @@ Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugri
 
 ## Testen und Debuggen {#testing}
 
-1. **Debuggen der SDK-Implementierung**: Verwenden Sie Adobe Experience Platform Assurance, um SDK-Ereignisse zu untersuchen, die Datenerfassung zu validieren und Integrationsprobleme in Echtzeit zu beheben. [Erfahren Sie mehr über Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
+Bevor Ihre Implementierung live geht, müssen Sie darauf vertrauen können, dass die Ereignisse zum richtigen Zeitpunkt ausgelöst werden, der Journey wie erwartet den Trigger ausführen, sich benutzerdefinierte Aktionen unter realistischer Last verhalten und personalisierte Inhalte korrekt gerendert werden. In diesem Abschnitt werden die Tools und Techniken zum frühzeitigen Erkennen von Problemen beschrieben - von der SDK-Protokollierung auf niedriger Ebene bis hin zu End-to-End-Journey-Testläufen mit echten Profilen.
+
+1. **SDK-Implementierung debuggen**: Verwenden Sie Adobe Experience Platform Assurance, um SDK-Ereignisse zu überprüfen, die Datenerfassung zu validieren und Integrationsprobleme zu beheben, sobald sie auftreten. [Erfahren Sie mehr über Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
 
 1. **Testen des Ereignisversands**: Überprüfen Sie, ob Ereignisse aus Ihrer Anwendung von Adobe Experience Platform empfangen werden und Journeys wie erwartet auslösen. Überwachen Sie die Ereignisaufnahme und überprüfen Sie die Payload-Struktur.
 
@@ -249,19 +251,25 @@ Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugri
 
 ## Fortgeschrittene Entwicklerthemen {#advanced-topics}
 
+Sobald Ihre Kern-SDKs, Ereignisse und APIs eingerichtet sind, helfen Ihnen diese Themen weiter: Anreicherung von Journey-Daten zur Laufzeit ohne Profilaufblähung, Handhabung von Einverständnissignalen, sodass Opt-outs sich über jede Integration ausbreiten, und Abstimmung Ihrer Implementierung auf den Durchsatz und die Zuverlässigkeit, die der Produktionsmaßstab erfordert.
+
 ### Arbeiten mit kontextuellen Daten und Anreicherung
+
+Journey benötigen häufig mehr Daten als die, die im auslösenden Ereignis eingehen - einen Produktnamen, eine Treuestufe, eine Bestellzeilenelementliste. Anstatt all dies in alle Profile vorab zu laden, können Sie es mit der kontextuellen Anreicherung zur Laufzeit aus AEP-Datensätzen nachschlagen oder von einer benutzerdefinierten Aktionsantwort weiterleiten. Ihre Nachrichten- und Verzweigungsbedingungen können dann auf diese Daten verweisen, ohne dass sie jemals dauerhaft im Profil gespeichert werden.
 
 * **Iteration über Arrays**: Verwenden Sie die Handlebars-Syntax, um dynamische Listen aus Ereignissen, benutzerdefinierten Aktionsantworten und Datensatzsuchen in Nachrichten anzuzeigen. Erfahren Sie mehr über das [Iterieren über kontextuelle Daten](../../personalization/iterate-contextual-data.md).
 * **Datensatzsuche**: Implementieren von Datensatzsuchen zur Anreicherung von Journey-Daten aus Adobe Experience Platform-Datensätzen. Arbeiten Sie bei der Konfiguration mit Ihrer Dateningenieurin bzw. Ihrem Dateningenieur zusammen. Erfahren Sie mehr über die [Datensatzsuche](../../building-journeys/dataset-lookup.md).
 
 ### Arbeiten mit Einverständnis und Governance
 
-Implementieren von Data-Governance- und Einverständnisrichtlinien in Ihre Integrationen:
+Journey Optimizer erzwingt Richtlinien zur Data Governance und zum Einverständnis auf Plattformebene, aber Ihre Integration muss diese auch berücksichtigen. Wenn ein Kunde sich von Marketing-Nachrichten abmeldet oder wenn eine Datennutzungskennzeichnung die Verwendung eines Felds einschränkt, müssen diese Regeln durch Ihre benutzerdefinierten Aktionen und Datensatzsuchen verbreitet werden - nicht nur durch die Blockierung von Aktionen in der Benutzeroberfläche.
 
 * **Data Governance**: Wenden Sie Datennutzungsrichtlinien auf benutzerdefinierte Aktionen an. Erfahren Sie mehr über [Data Governance](../../action/action-privacy.md).
 * **Einverständnisverwaltung**: Verarbeiten Sie die Voreinstellungen für das Kundeneinverständnis in Ihren Implementierungen. Erfahren Sie mehr über [Einverständnis](../../action/consent.md).
 
 ### Optimierung und Best Practices
+
+In Produktions-Journey Optimizer-Implementierungen werden regelmäßig Millionen von Ereignissen und Tausende von Journey-Ausführungen pro Sekunde verarbeitet. Mit diesen Ressourcen können Sie Ihre Integration auf diese Größenordnung abstimmen. So verstehen Sie Ratenbeschränkungen, bevor Sie sie erreichen, vermeiden gängige Journey-Design-Fallstricke, die Profile im Hintergrund löschen, und erstellen Fehlerbehandlungsmethoden, die sich elegant abschwächen, anstatt opak zu scheitern.
 
 * **Begrenzung und Drosselung**: Machen Sie sich mit den Ratenbegrenzungen vertraut und implementieren Sie geeignete Drosselungen. Erfahren Sie mehr über [externe Systeme](../../configuration/external-systems.md).
 * **Journey-Optimierung**: Befolgen Sie die Best Practices für die [Journey-Optimierung](../../building-journeys/optimize.md).
@@ -295,6 +303,8 @@ Wenn Journey externe Systeme über benutzerdefinierte Aktionen oder Datenquellen
 
 ### Weitere REST-APIs {#more-rest-apis}
 
+Über Messaging und Begrenzungen hinaus stellt Journey Optimizer REST-Endpunkte für die Unterdrückungsverwaltung, Inhaltsvorlagen, den Kampagnenabruf, das Proofing und die orchestrierte Kampagnenausführung bereit. Verwenden Sie diese , wenn Sie Vorgänge automatisieren müssen, die andernfalls manuelle Schritte in der Benutzeroberfläche erfordern würden, z. B. das Unterdrücken von Massenadressen nach einem Daten-Pull oder das Synchronisieren von Vorlagen aus einer externen Inhalts-Pipeline.
+
 | Was Sie tun müssen | API-Referenz |
 | ------------------- | ------------- |
 | Programmgesteuertes Ausschließen von E-Mail-Adressen oder Domains vom Versand | [Unterdrückungs-API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [Verwalten der Unterdrückungsliste](../../configuration/manage-suppression-list.md) |
@@ -319,30 +329,30 @@ Ihre Implementierungsarbeit überschneidet sich mit anderen Team-Mitgliedern:
 
 >[!TAB Arbeiten mit Dateningenieurinnen und -ingenieuren]
 
-Arbeiten Sie mit [Dateningenieurinnen und -ingenieuren](data-engineer.md) bei Daten und Ereigniskonfigurationen zusammen:
+Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei Daten- und Ereigniskonfigurationen. Jeder Journey, der auf das Benutzerverhalten reagiert, hängt von den von Ihnen gesendeten Ereignissen ab: Der Data Engineer definiert die Schemata, Sie implementieren den Code, der sie erzeugt.
 
-* Abrufen der XDM-Schemata und Ereignisstrukturen, die Sie implementieren müssen
-* Verstehen, welche Ereignisse gesendet werden müssen und welches Payload-Format erforderlich ist
-* Abstimmen der Anforderungen an die Datenerfassung und der Datenqualitätsstandards
-* Gemeinsames Testen des Ereignisversands und der Datenaufnahme
+* Rufen Sie die [XDM-Schemata](../../data/get-started-schemas.md) und Ereignisstrukturen ab, die Sie implementieren müssen
+* Erfahren Sie, welche Ereignisse Sie senden müssen und welches Payload-Format erforderlich ist - siehe [Arbeiten mit Journey-Ereignissen](../../event/about-events.md)
+* Überprüfen Sie, welche Felder in jeder Ereignis-Payload erforderlich bzw. optional sind und was in Journey passiert, wenn erwartete Felder fehlen oder fehlerhaft sind - siehe [Schemaanforderungen](../../event/experience-event-schema.md#schema-requirements)
+* Gemeinsames Testen des Versands und der Datenaufnahme mithilfe von [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}
 
 >[!TAB Arbeiten mit Admins]
 
-Arbeiten Sie mit [Admins](administrator.md) bei Zugriff und Konfigurationen zusammen:
+Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriffs- und Kanalkonfigurationen. Journey können Benutzende nur über vom Administrator eingerichtete Kanäle erreichen - koordinieren Sie diese frühzeitig, damit Ihre SDK-Arbeit und deren Konfiguration synchron bleiben.
 
-* Angeben von API-Spezifikationen für benutzerdefinierte Aktionen, die sie konfigurieren
-* Anfordern von erforderlichen Berechtigungen und API-Anmeldedaten
-* Koordinieren der Anforderungen an die Kanalkonfiguration (z. B. Push-Zertifikate)
-* Abstimmen zu Testumgebungen und Sandbox-Strategie
+* Angeben von API-Spezifikationen für [benutzerdefinierte Aktionen](../../action/about-custom-action-configuration.md) die in Journey Optimizer konfiguriert werden
+* Erforderliche Berechtigungen und API-Anmeldedaten über [Adobe Developer Console anfordern](https://developer.adobe.com){target="_blank"}
+* Koordinieren Sie die Anforderungen an die Kanalkonfiguration - Push-Zertifikate für die Endpunkte {[&#128279;](../../push/push-configuration.md)}iOSund Android[Web-Push](../../push/push-configuration-web.md), [SMS-Webhook](../../mobile/mobile-webhook.md)
+* Ausrichtung der Sandbox-Strategie und der Testumgebungen vor der Ausführung des [Journey-Testmodus](../../building-journeys/testing-the-journey.md)
 
 >[!TAB Arbeiten mit Marketing-Fachleuten]
 
-Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Journey-Anforderungen und Tests zusammen:
+Zusammenarbeit mit [Marketern](marketer.md) beim Entwerfen und Testen von Journey. Marketer erstellen die Journey und Inhalte, die vollständig von den gesendeten Ereignissen und den Oberflächen abhängen, die Sie bereitstellen - je näher Sie einander abstimmen, desto schneller werden die Journey live geschaltet.
 
-* Verstehen, welche Benutzerinteraktionen Ereignisse auslösen sollen
-* Implementieren des Trackings für Inhaltsleistung und Benutzerinteraktion
-* Unterstützen von Tests von Journeys mit Ihren implementierten Funktionen
-* Beheben von Problemen beim Nachrichtenversand oder bei der Personalisierung
+* Überprüfen Sie gemeinsam die Journey-Designs in [Journey Optimizer](../../building-journeys/journey.md), um zu verstehen, welche Benutzerinteraktionen Trigger-Ereignisse auslösen müssen und welche Oberflächen personalisiert werden müssen
+* Implementieren des Trackings, damit Marketing-Experten [Content-Performance und Benutzerinteraktion) messen &#x200B;](../../reports/report-gs-cja.md)
+* Führen Sie [Journey Testmodus](../../building-journeys/testing-the-journey.md) zusammen mit Testprofilen aus, um den vollständigen Fluss End-to-End zu validieren.
+* Fehlerbehebung bei Problemen mit Nachrichtenversand, Personalisierung, Rendering oder [benutzerdefinierten &#x200B;](../../action/action.md))
 
 >[!ENDTABS]
 
