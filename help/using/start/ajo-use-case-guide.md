@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Übersicht über Journey Optimizer-Anwendungsfälle | Adobe Journey Optimizer
+title: Die richtige Funktion für Ihr Ziel auswählen | Adobe Journey Optimizer
 description: Lernen Sie die wichtigsten Anwendungsfälle kennen, für die Adobe Journey Optimizer entwickelt wurde, und erfahren Sie, welche AJO-Funktionen am besten zu den einzelnen Szenarien passen.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: Journey-Optimizer, Anwendungsfall, Entscheidungshandbuch, welche Funktion, Erste Schritte, Anwenderziele, Tutorials
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 33%
+source-wordcount: '3147'
+ht-degree: 31%
 
 ---
 
-# Finden Sie die richtige Journey Optimizer-Funktion für Ihr Ziel {#ajo-use-case-guide}
+# Wählen Sie die richtige Funktion für Ihr Ziel aus {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ Für Administratoren und technische Benutzende, die die Umgebung konfigurieren m
 | Einrichten von Rollen, Berechtigungen und Zugriffssteuerung | Zugriffssteuerung | [Erste Schritte mit der Zugriffskontrolle](../administration/permissions-overview.md) |
 | Arbeiten über mehrere Umgebungen oder Regionen hinweg | Sandboxes | [Arbeiten mit Sandboxes](../administration/sandboxes.md) |
 
-## Kunden in Echtzeit ansprechen {#engage-real-time}
+## Kundeninteraktion bei Ereignissen {#engage-real-time}
 
 Für Szenarien, in denen Sie direkt auf eine Kundenaktion oder ein Kundenereignis reagieren.
 
@@ -199,7 +199,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Wiederherstellen von Transaktionsabbrüchen {#flow-cart}
 
-**Sie erstellen Folgendes:** Ein Echtzeit-Wiederherstellungsfluss, der Kunden an zurückgelassene Elemente erinnert.
+**Sie erstellen Folgendes:** Ein automatisierter Wiederherstellungsfluss, der Kunden an zurückgelassene Elemente erinnert.
 **Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
 1. Stellen Sie sicher, dass das Warenkorbabbruchs-Ereignis Journey Optimizer erreicht (wenden Sie sich bei Bedarf an Ihr [Daten-](../data/gs-data.md)).
@@ -258,7 +258,7 @@ Ein Bekleidungsgeschäft versendet in der Regel nach dem Kauf eine Umfrage an al
 
 **Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Geofence-Auslösung + Push](../push/get-started-push.md)
 
-Derselbe Einzelhändler kann in Echtzeit mit einer treuen Kundin interagieren, die gerade am Parkplatz des Geschäfts ankommt, und ihr eine Push-Benachrichtigung über einen Pullover senden, der wieder in ihrer Größe vorrätig ist.
+Dieselbe retailer kann einen treuen Kunden ansprechen, der auf den Parkplatz eines Geschäfts einbiegt, indem er ihm eine Push-Benachrichtigung über einen Pullover sendet, der wieder in der Größe des Kunden vorrätig ist.
 
 [Erste Schritte mit Push-Benachrichtigungen](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ Derselbe Einzelhändler kann in Echtzeit mit einer treuen Kundin interagieren, d
 
 **Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Durch Ereignis ausgelöste mehrstufige Journey](../building-journeys/journey-gs.md)
 
-Wenn eine Person Artikel einem Online-Warenkorb hinzufügt, den Kauf jedoch nicht abschließt, erkennt Journey Optimizer das Ereignis in Echtzeit und startet automatisch eine Wiederherstellungs-Journey. Die Person erhält eine personalisierte E-Mail, in der sie an die zurückgelassenen Artikel erinnert wird. Wenn sich die Person nicht innerhalb von 24 Stunden durchklickt, wird eine Folge-Push-Benachrichtigung gesendet, die basierend auf dem Browser-Verlauf und Treuestatus personalisiert wird.
+Wenn ein Kunde Artikel in einen Online-Warenkorb legt, den Kauf jedoch nicht abschließt, erkennt Journey Optimizer das Ereignis und startet automatisch eine Wiederherstellungs-Journey. Die Person erhält eine personalisierte E-Mail, in der sie an die zurückgelassenen Artikel erinnert wird. Wenn sich die Person nicht innerhalb von 24 Stunden durchklickt, wird eine Folge-Push-Benachrichtigung gesendet, die basierend auf dem Browser-Verlauf und Treuestatus personalisiert wird.
 
 [Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
 
@@ -333,7 +333,7 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 
 >[!TAB Reporting und Optimierung]
 
-* [Überwachen und Analysieren Ihres Journey mit Live-Berichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - Verfolgen Sie die Performance in Echtzeit.
+* [Überwachen und Analysieren Ihres Journey mit Live-Berichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - Verfolgen Sie die Performance während der Ausführung Ihrer Journey.
 * [Erstellen von Inhaltsexperimenten für E-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}-Kampagnen - Testen und Optimieren von Inhalten.
 
 >[!ENDTABS]
