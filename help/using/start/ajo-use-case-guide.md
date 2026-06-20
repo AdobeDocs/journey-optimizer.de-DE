@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Die richtige Funktion für Ihr Ziel auswählen | Adobe Journey Optimizer
+title: Starten Sie von Ihrem Ziel | Adobe Journey Optimizer
 description: Lernen Sie die wichtigsten Anwendungsfälle kennen, für die Adobe Journey Optimizer entwickelt wurde, und erfahren Sie, welche AJO-Funktionen am besten zu den einzelnen Szenarien passen.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: Journey-Optimizer, Anwendungsfall, Entscheidungshandbuch, welche Funktion, Erste Schritte, Anwenderziele, Tutorials
-source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3141'
 ht-degree: 31%
 
 ---
 
-# Wählen Sie die richtige Funktion für Ihr Ziel aus {#ajo-use-case-guide}
+# Von Ihrem Ziel starten {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -341,7 +341,7 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 ## Auswahl zwischen Journey, Kampagnen und koordinierten Kampagnen {#choosing}
 
 | Szenario | Verwenden von |
-|----------|-----|
+| -------- | --- |
 | Verhaltensgesteuert und in mehreren Schritten: Jeder Kunde bewegt sich in seinem eigenen Tempo | Journey |
 | Einfache geplante oder durch eine API ausgelöste Nachricht an eine Zielgruppe | Campaign |
 | Komplexer Batch-Workflow mit Segmentierung mehrerer Entitäten | Orchestrierte Kampagne |
