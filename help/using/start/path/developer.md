@@ -19,21 +19,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7c48101c29e512f8d7163cc8c18ead56e800fd42
+source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
 workflow-type: tm+mt
-source-wordcount: 2666
-ht-degree: 80%
+source-wordcount: 2560
+ht-degree: 83%
 
 ---
 
@@ -286,26 +283,26 @@ Trigger von Transaktions- oder Marketing-Nachrichten aus einem externen System m
 * Aufrufe haben eine **Zeitüberschreitung von 60 Sekunden** interne Wiederholungsversuche verarbeiten unerwartete Zeitüberschreitungen.
 * Wenn Start-/Enddatum der Kampagne konfiguriert sind, schlagen API-Aufrufe außerhalb dieser Daten fehl.
 * Um Ihre Payload zu erstellen, rufen Sie die generierte Beispiel-cURL-Anfrage aus dem Abschnitt **cURL-Anfrage** Ihrer Live-Kampagne in der Journey Optimizer-Benutzeroberfläche ab. Sie enthält alle Personalisierungsvariablen für diese Kampagne.
-* Standard- und [Kampagnen mit hohem Durchsatz](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) verwenden verschiedene Endpunkte.
+* Standard- und [Kampagnen mit hohem Durchsatz](../../campaigns/api-triggered-high-throughput.md) verwenden verschiedene Endpunkte.
 
-[API-Referenz](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [Code-Beispiele](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [Arbeiten mit API-ausgelösten Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[API-Referenz](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} ・ [Code-Beispiele](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} ・ [Arbeiten mit API-ausgelösten Kampagnen](../../campaigns/api-triggered-campaigns.md)
 
 ### Begrenzung und Drosselung für externe Endpunkte {#capping-throttling}
 
 Wenn Journey externe Systeme über benutzerdefinierte Aktionen oder Datenquellen aufrufen, schützen die Begrenzungs- und Einschränkungs-APIs diese Systeme vor Überlastung. Durch Begrenzung werden Aufrufe abgelehnt, die das konfigurierte Limit überschreiten; durch Drosselung werden sie für bis zu 6 Stunden in die Warteschlange gestellt (nur Produktions-Sandboxes, benutzerdefinierte Aktionen).
 
-[Referenz zur Begrenzungs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Arbeiten mit der Begrenzungs-](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/connect-systems/external-systems/capping) ・ [Arbeiten mit der Drosselungs-API](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[Referenz zur Begrenzungs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} ・ [Arbeiten mit der Begrenzungs-](../../configuration/capping.md) ・ [Arbeiten mit der Drosselungs-API](../../configuration/throttling.md)
 
 ### Weitere REST-APIs {#more-rest-apis}
 
 | Was Sie tun müssen | API-Referenz |
 | ------------------- | ------------- |
-| Programmgesteuertes Ausschließen von E-Mail-Adressen oder Domains vom Versand | [Unterdrückungs-API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [Verwalten der Unterdrückungsliste](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| Programmgesteuertes Ausschließen von E-Mail-Adressen oder Domains vom Versand | [Unterdrückungs-API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} ・ [Verwalten der Unterdrückungsliste](../../configuration/manage-suppression-list.md) |
 | Abrufen von Journey-Metadaten für Auditing oder externe Synchronisierung | [Journey-API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| Erstellen und Verwalten von Inhaltsvorlagen und Fragmenten aus einer externen Pipeline | [Content-API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [Vorlagen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-templates/content-templates) ・ [Fragments](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| Erstellen und Verwalten von Inhaltsvorlagen und Fragmenten aus einer externen Pipeline | [Content-API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [Vorlagen](../../content-management/content-templates.md) ・ [Fragments](../../content-management/fragments.md) |
 | Abrufen und Filtern von Aktionskampagnen | [Kampagnen-API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Programmgesteuerte Vorschau von Kampagnen und Durchführen von Testsendungen | [Simulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| Datensätze validieren und Trigger der koordinierten Kampagnenausführung | [Datensatzvalidierung](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [Datensätze aktivieren](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| Datensätze validieren und Trigger der koordinierten Kampagnenausführung | [Datensatzvalidierung](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [Datensätze aktivieren](../../orchestrated/manual-schema.md) |
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
