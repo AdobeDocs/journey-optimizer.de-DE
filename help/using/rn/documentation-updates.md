@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Ein neuer Onboarding **Hub „Erste Schritte mit Adobe Journey Optimizer** ist jetzt verfügbar. Neue Benutzer können ihren Pfad nach Rolle auswählen, Grundlagen erkunden oder zu den täglichen Bereichen springen, wenn sie bereits integriert sind - ohne wissen zu müssen, wo sie zuerst suchen müssen. [Weitere Informationen](../../rp_landing_pages/get-started-landing-page.md)
+
+* Mit einer neuen **Von Ihrem Ziel starten** können Sie von dem ausgehen, was Sie erreichen möchten, und nicht von einem Funktionsnamen. Er ordnet Geschäftsziele den empfohlenen Journey Optimizer-Funktionen für Einrichtung, Journey, Kampagnen, Personalisierung, Entscheidungsfindung und Reporting zu. [Weitere Informationen](../start/ajo-use-case-guide.md)
+
+* Das **Erste Schritte für Entwickler** Rollenhandbuch wurde mit klareren Einführungen für jeden Abschnitt und verbesserten Registerkarten **Zusammenarbeit zwischen Rollen** aktualisiert, die auf Journey verweisen und Links zu wichtigen Implementierungsseiten enthalten. [Weitere Informationen](../start/path/developer.md)
 
 * Ein neuer Unterabschnitt **Pfadzuweisung beim erneuten Eintritt von Journey** wurde zur Dokumentation **Pfadexperiment** hinzugefügt. Dadurch wird klargestellt, dass die Pfadzuweisung für ein Profil über mehrere Eintritte in dieselbe Journey-Version hinweg persistent ist, jedoch nur innerhalb dieser Journey-Version. Zuweisungen werden zurückgesetzt, wenn eine neue Journey-Version veröffentlicht wird und jede Pfadexperimentieraktivität in einer Journey eine unabhängige zufällige Zuweisung anwendet. [Weitere Informationen](../building-journeys/path-experimentation.md#path-assignment)
 * Die Verweise auf **Adobe Experience Cloud** wurden in der [!DNL Journey Optimizer]-Dokumentation an die **[!DNL Adobe CX Enterprise]** Marke angepasst.
