@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
+source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
 workflow-type: tm+mt
-source-wordcount: 3797
+source-wordcount: 3733
 ht-degree: 25%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 25%
 >Die in diesen Versionshinweisen aufgeführten Funktionen umfassen ein **Verfügbarkeitsdatum**, das angibt, wann jede Änderung in Ihrer Umgebung verfügbar wird. Einträge in den Akkordeons **Demnächst verfügbar** werden in den kommenden Tagen oder Wochen erwartet. Informationen in diesen Abschnitten können Änderungen unterliegen.
 
 ## Versionshinweise Juni 2026 {#june-26-rn}
-
-Die Version vom Juni 2026 bietet mehrere Flaggschiff-Funktionen für die allgemeine Verfügbarkeit - darunter **Journey-Simulation**, **Journey-Pfadoptimierungs-Targeting** und **Journey-Fragmente** - sowie neues KI-unterstütztes Authoring in Journey und Inhalten, erweiterte Entscheidungsunterstützung für den Briefpostkanal und zusätzliche Sicherheits- und Verwaltungssteuerelemente. Die folgenden Funktionen und Verbesserungen sind nach Themen geordnet. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet.
 
 ### Journeys {#june-26-journeys}
 
