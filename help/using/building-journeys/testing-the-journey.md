@@ -11,27 +11,16 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 55%
+source-wordcount: 3075
+ht-degree: 53%
 
 ---
 
@@ -80,7 +69,7 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 
 * **Deaktivieren des Testmodus**: Wenn Sie den Testmodus deaktivieren, werden alle Profile entfernt, die sich derzeit in der Journey befinden oder zuvor in diese eingetreten sind, und das Reporting wird gelöscht.
 * **Flexible Reaktivierung**: Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
-* **Automatische Deaktivierung**: Journeys, die im Testmodus **eine Woche lang** inaktiv bleiben, werden automatisch auf den Entwurfsstatus zurückgesetzt, um die Leistung zu optimieren und eine überflüssige Ressourcenlast zu verhindern.
+* **Automatische Deaktivierung** - Journey, die im Testmodus über eine **Woche lang inaktiv bleiben** beenden den Testmodus automatisch und kehren zum Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren; nur die Testmodussitzung endet.
 * **Bearbeiten und Veröffentlichen**: Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
 ### Ausführung
@@ -278,7 +267,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Maximal 100 Testprofile pro einzelner Testsitzung
 * Ereignisse können nur über die Benutzeroberfläche des Testmodus ausgelöst werden. Das Auslösen externer APIs wird nicht unterstützt
 * Das benutzerdefinierte Hochladen von Zielgruppenattributen wird im Testmodus nicht unterstützt
-* Journey, die länger als eine Woche im Testmodus inaktiv sind, werden automatisch in den Entwurfsstatus zurückgesetzt
+* Die im Testmodus ausgelösten Ereignisse generieren echte Erlebnisereignisse, die auch Trigger für andere Journey verursachen können, die dasselbe Ereignis überwachen
+* Im Testmodus beträgt der Standardwert für Warteaktivitäten und die meisten Ereignis-Timeouts 10 Sekunden. Für Reaktionsereignis-Timeouts wird ein Standardwert von mindestens 40 Sekunden festgelegt
+* Automatische Deaktivierung - Journey, die länger als eine Woche im Testmodus inaktiv bleiben, beenden automatisch den Testmodus und kehren zum Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren; nur die Testmodussitzung endet.
 * Journey-Bearbeitungen werden blockiert, wenn der Testmodus aktiv ist, aber direkte Veröffentlichung ist erlaubt
 * Bei einer Aufspaltung wird immer die obere Verzweigung ausgewählt. Ordnen Sie die Verzweigungen neu an, um verschiedene Pfade zu testen
 * Maximale Wartezeit für Reaktionsereignis und Standardwartezeit sind 40 Sekunden

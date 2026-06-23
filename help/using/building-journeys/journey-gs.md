@@ -11,29 +11,16 @@ keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2097
-ht-degree: 30%
+source-wordcount: 2143
+ht-degree: 29%
 
 ---
 
@@ -97,7 +84,7 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 
 Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:
 
-* **Datenquelle** - Richten Sie eine (Datenquelle[&#x200B; ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System &#x200B;](../datasource/about-data-sources.md).
+* **Datenquelle** - Richten Sie eine (Datenquelle[ ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System ](../datasource/about-data-sources.md).
 
 * **Benutzerdefinierte Aktion** - Wenn Sie Nachrichten über ein Drittanbietersystem und nicht über die integrierten Kanäle senden, konfigurieren Sie eine [benutzerdefinierte Aktion](../action/action.md).
 
@@ -105,7 +92,7 @@ Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erfo
 >
 >* Wenn Sie als Datentechniker für die technische Einrichtung (Ereignisse, Datenquellen und Aktionen) verantwortlich sind, lesen Sie [diesen Abschnitt](../configuration/about-data-sources-events-actions.md).
 >
->* Journey-Leitplanken und -Einschränkungen werden auf [&#x200B; Seite &#x200B;](../start/guardrails.md).
+>* Journey-Leitplanken und -Einschränkungen werden auf [ Seite ](../start/guardrails.md).
 
 ## Erstellen einer Journey {#jo-build}
 
@@ -127,7 +114,7 @@ Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
 ## Entwerfen der Journey {#jo-design}
 
-Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **&#x200B;**&#x200B;und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
+Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **** und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
@@ -143,7 +130,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Journey zu entwerfen:
 
 >[!TIP]
 >
->Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [&#x200B; unter „Design-Strategie: Beißgroße Unter-Journey &#x200B;](jump.md#jump-strategy).
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
 
 ## Testen der Journey {#jo-test}
 
@@ -218,7 +205,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Erstellen Sie eine neue Journey und konfigurieren Sie ihre Eigenschaften im Menü Journey-Verwaltung .
 * Wählen Sie den richtigen Einstiegspunkt (Zielgruppe lesen, Zielgruppen-Qualifizierung, unitäres Ereignis oder Geschäftsereignis) für einen bestimmten Anwendungsfall aus
 * Entwerfen Sie eine mehrstufige Journey durch Ziehen und Ablegen von Ereignissen, Orchestrierungsaktivitäten und Kanalaktionen auf der Arbeitsfläche
-* Testen eines Journey im Testmodus mit synthetischen Testprofilen vor der Veröffentlichung
+* Testen eines Journey mithilfe der Simulation, des Testmodus mit persistenten AEP-Testprofilen oder Probelauf vor der Veröffentlichung
 * Führen Sie einen Probelauf aus, um die Zielgruppen-Zielgruppenbestimmung mit echten Produktionsdaten zu validieren, ohne die Kunden zu kontaktieren.
 * Veröffentlichen einer Journey, um sie live zu schalten und ihre Leistung mit Reporting-Tools zu überwachen
 
@@ -227,7 +214,8 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Zielgruppen-**: Eine Eintrittsaktivität, die in Echtzeit ausgelöst wird, wenn ein Profil in eine Streaming-Zielgruppe eintritt oder diese verlässt *(produktspezifisch)*
 * **Unitäres Ereignis**: Ein Echtzeit-Trigger, der zu einem bestimmten Zeitpunkt in einen Journey eintritt, wenn eine bestimmte Aktion *(produktspezifisch)*
 * **Geschäftsereignis**: Ein Nicht-Profilereignis (z. B. Flugstornierung, Bestandsauffüllung), bei dem über einen automatischen Schritt „Zielgruppe lesen“ *produktspezifisch) ein Journey für mehrere Profile gleichzeitig Trigger wird*
-* **Testmodus**: Ein Validierungsmodus, der synthetische Testprofile verwendet, um die Journey-Ausführung zu simulieren, ohne die Live-*zu aktivieren (produktspezifisch)*
+* **Testmodus**: Ein Validierungsmodus, der persistente Adobe Experience Platform-Testprofile (explizit als Testprofile gekennzeichnet) verwendet, um eine Entwurfs-Journey vor der Veröffentlichung zu durchlaufen *produktspezifisch)*
+* **Simulation**: Ein Validierungsmodus, der temporäre simulierte Benutzende verwendet, die dynamisch generiert werden. Simulierte Benutzende bleiben nicht in Adobe Experience Platform *(produktspezifisch) erhalten*
 * **Probelauf** Ein spezieller Veröffentlichungsmodus, der echte Produktionsdaten verwendet, um die Journey-Logik zu validieren, ohne tatsächliche Kunden zu kontaktieren oder Profile zu aktualisieren *(produktspezifisch)*
 
 **Leitplanken:**
@@ -239,12 +227,12 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Terminologie:**
 * Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierungsfluss
 * Synonyme: „Testmodus“ = &quot;Journey-Test“; „Probelauf“ = „Probelauf-Modus“
-* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Profile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+* Nicht verwechseln: „Simulation“ ≠ „Testmodus“ ≠ „Probelauf“ — Simulation verwendet temporäre simulierte Benutzende; Testmodus verwendet persistente AEP-Testprofile; Probelauf verwendet echte Produktionsdaten, ohne Kunden zu kontaktieren oder Profile zu aktualisieren
 
 **FAQ:**
 * **F: Was muss ich als Erstes tun, bevor ich eine ereignisgesteuerte Journey erstelle?** - Konfigurieren Sie das Ereignis mit einem Datentechniker, um den Trigger und die von ihm übertragenen Daten zu definieren. Referenzieren Sie dann das Ereignis als Journey-Einstiegspunkt.
 * **F: Welcher Einstiegspunkt wird für Neueinsteiger in Journey Optimizer empfohlen?** - Beginnen Sie mit einer zielgruppenbasierten Journey mit der Aktivität Zielgruppe lesen . Dies erfordert keine vorherige Ereigniskonfiguration und ist der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen.
-* **F: Kann ich meinen Journey testen, bevor er live geht?** — Ja. Verwenden Sie den Testmodus mit synthetischen Testprofilen, um die Journey zu durchlaufen, oder verwenden Sie Probelauf, um mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden.
+* **F: Kann ich meinen Journey testen, bevor er live geht?** — Ja. Verwenden Sie die Simulation mit temporären simulierten Benutzern, den Testmodus mit persistenten AEP-Testprofilen oder Probelauf, um mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden.
 * **F: Was passiert, wenn mein Journey Fehler aufweist, wenn ich versuche, ihn zu veröffentlichen?** - Eine fehlerhafte Journey kann nicht veröffentlicht werden; alle Konfigurationsfehler müssen vor der Veröffentlichung behoben werden.
 * **F: Wie kann ich eine komplexe Journey mit vielen Schritten aufteilen?** — Verwenden Sie die Sprungaktivität, um kleinere Sub-Journey zu verbinden, wodurch die Komplexität reduziert wird und jede Sub-Journey einfacher unabhängig getestet werden kann.
 

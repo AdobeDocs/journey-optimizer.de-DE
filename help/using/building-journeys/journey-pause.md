@@ -10,29 +10,16 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
-ht-degree: 67%
+source-wordcount: 3545
+ht-degree: 66%
 
 ---
 
@@ -49,7 +36,7 @@ ht-degree: 67%
 >title="Pausieren einer Journey"
 >abstract="Durch das Anhalten einer Live-Journey wird das Eintreten neuer Profile verhindert. Profile, die sich derzeit auf der Journey befinden, können verworfen oder an ihrem Platz belassen werden. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
-Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile auf der Grundlage ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie können die [&#x200B; auch manuell fortsetzen](#journey-resume-steps) oder [die Journey anhalten](#stop-close-paused) aus dem **angehalten**, ohne sie zuerst fortzusetzen.
+Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile auf der Grundlage ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie können die [ auch manuell fortsetzen](#journey-resume-steps) oder [die Journey anhalten](#stop-close-paused) aus dem **angehalten**, ohne sie zuerst fortzusetzen.
 
 ## Wichtigste Vorteile {#journey-pause-benefits}
 
@@ -321,8 +308,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Massenpause/Massenwiederaufnahme**: Die Möglichkeit, mehrere Live- oder pausierte Journey gleichzeitig über die Journey-Inventarliste anzuhalten oder fortzusetzen *(produktspezifisch)*
 
 **Leitplanken:**
-* Nur Benutzer mit der Berechtigung **Journey veröffentlichen** können Journey anhalten und fortsetzen
-* Eine Journey kann für maximal 14 Tage pausiert werden; danach wird sie automatisch wieder aufgenommen
+* Nur Benutzende mit der Berechtigung **Journey veröffentlichen** können Journey anhalten und fortsetzen. Um eine pausierte Journey anzuhalten, ist **Journey verwalten** erforderlich (und **Kampagnen > Kampagnen veröffentlichen** wenn Inline-Kampagnen oder Messaging-Knoten vorhanden sind)
+* Die Pausendauer kann zwischen 1 und 14 Tagen konfiguriert werden. Danach wird die Journey automatisch fortgesetzt
+* Die während der Pause gespeicherten Profile werden mit bis zu 5.000 TPS fortgesetzt. Die Journey bleibt so lange fortgesetzt, bis alle gespeicherten Profile wieder aufgenommen wurden
 * In allen angehaltenen Journey eines Unternehmens können maximal 10 Millionen Profile gespeichert werden. Überschüssige Profile werden automatisch verworfen
 * Pro Journey kann nur ein auf Profilattributen basierendes Beendigungskriterium festgelegt werden
 * Auf Profilattributen basierende Beendigungskriterien können nur erstellt, aktualisiert oder gelöscht werden, während die Journey angehalten wird
@@ -340,7 +328,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 
 **FAQ:**
 * **F: Was passiert mit Profilen, die sich bereits auf einer Journey befinden, wenn sie angehalten wird?** — Je nach der zum Zeitpunkt der Pause gewählten Option werden Profile entweder aufbewahrt (beim nächsten Aktionsknoten wartet) oder verworfen (beim nächsten Aktionsknoten vom Journey beendet).
-* **F: Wie lange kann eine Journey angehalten bleiben?** — höchstens 14 Tage; danach wird sie automatisch wieder aufgenommen.
+* **F: Wie lange kann eine Journey angehalten bleiben?** — zwischen 1 und 14 Tagen (zum Zeitpunkt der Pause ausgewählt); danach wird sie automatisch wieder aufgenommen.
 * **F: Kann ich bestimmte Profile ausschließen, während eine Journey angehalten wird?** — Ja. Wenden Sie ein auf Profilattributen basierendes Beendigungskriterium (eines pro Journey) an, während die Journey angehalten wird, um übereinstimmende Profile beim nächsten Aktionsknoten bei der Wiederaufnahme auszuschließen.
 * **F: Hält das Anhalten einer Journey In-App- oder Web-Nachrichten an, die bereits ausgelöst wurden?** — Nein; eingehende Nachrichten, die bereits vor der Pause ausgelöst wurden, werden weiterhin zugestellt. Um alle eingehenden Nachrichten zu stoppen, müssen Sie die Journey vollständig stoppen.
 * **F: Wie finde ich heraus, welche Profile während einer Pause verworfen wurden?** — Abfragen des `journey_step_events` Datensatzes in Adobe Experience Platform Query Service mithilfe der `PAUSED_JOURNEY_VERSION` oder `JOURNEY_IN_PAUSED_STATE` Ereignistypfilter mit der Journey-Versions-ID.
