@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2629
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um Ihrer Journey eine Bedingung hinzuzufügen.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="Informationen zum einfachen Ausdruckseditor"
->abstract="Im einfachen Ausdruckseditor können einfache Abfragen anhand einer Kombination von Feldern durchgeführt werden. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder werden per Drag-and-Drop in den Hauptbereich gezogen. Um die verschiedenen Elemente zu kombinieren, werden sie miteinander verkettet, um verschiedene Gruppen und/oder Gruppenebenen zu erstellen. Ein logischer Operator kombiniert dann Elemente auf derselben Ebene."
+>abstract="Im einfachen Ausdruckseditor können einfache Abfragen anhand einer Kombination von Feldern durchgeführt werden. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder werden per Drag-and-Drop in den Hauptbereich gezogen. Um die verschiedenen Elemente zu kombinieren, werden sie miteinander verknüpft, sodass verschiedene Gruppen und/oder Gruppenebenen erstellt werden. Ein logischer Operator kombiniert dann Elemente auf derselben Ebene."
 
 Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Labels definieren, um sie leichter zu identifizieren.
 

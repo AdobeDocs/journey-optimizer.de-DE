@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 1266
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -57,12 +57,12 @@ Erstellen Sie zum Erstellen von Briefpostnachrichten eine geplante Kampagne oder
 >1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
 >1. Eine [Konfiguration für Direkt-Mail-Nachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
-## Hinzufügen einer Briefpostnachricht {#create-dm-campaign}
+## Hinzufügen einer Direkt-Mail-Nachricht {#create-dm-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
->title="Briefpost-Aktion"
->abstract="Eine Briefpost-Kanalaktion generiert den Briefpost-Inhalt für Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Briefpostkonfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
+>title="Aktion „Direkt-Mail“"
+>abstract="Eine Direkt-Mail-Kanalaktion generiert den Direkt-Mail-Inhalt für Profile, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Direkt-Mail-Konfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen und der Abschnitt **Timeout oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Briefpostnachricht zu einer Kampagne oder einer Journey hinzufügen.

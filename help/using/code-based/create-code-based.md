@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 72%
+ht-degree: 82%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
->title="Code-basierte Erlebnisaktion"
->abstract="Eine Code-basierte Inbound-Erlebnisaktion bietet Profilen ein Code-basiertes Erlebnis, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Code-basierte Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach dieser Aktivität wird **Knoten** Warten“ automatisch eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Erlebnis anzuzeigen."
+>title="Aktion „Code-basiertes Erlebnis“"
+>abstract="Die eingehende Aktion „Code-basiertes Erlebnis“ stellt Profilen ein Code-basiertes Erlebnis bereit, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Code-basierte Konfiguration, die den angezeigten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten. Nach dieser Aktivität wird automatisch der Knoten **Warten** eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, das Erlebnis anzuzeigen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 In [!DNL Journey Optimizer] können Sie Code-basierte Erlebnisse in einer Journey oder Kampagne erstellen.

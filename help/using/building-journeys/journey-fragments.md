@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Fragments
+title: Journey-Fragmente
 description: Erfahren Sie, wie Sie Journey-Fragmente erstellen und verwenden, um Journey-Knotensätze über mehrere Journey hinweg in Adobe Journey Optimizer zu speichern und wiederzuverwenden.
 feature: Journeys
 topic: Content Management
@@ -14,12 +14,12 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1671
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
 
-# Journey Fragments {#journey-fragments}
+# Journey-Fragmente {#journey-fragments}
 
 >[!BEGINSHADEBOX]
 
@@ -27,9 +27,9 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
+Journey-Fragmente sind wiederverwendbare Sätze von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 
-Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
+Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar]** gespeichert und können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente]** in Journeys eingefügt werden.
 
 >[!NOTE]
 >Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
@@ -97,7 +97,7 @@ So erstellen Sie ein Fragment direkt aus dem Inventar:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Journey-Fragmenteigenschaften"
->abstract="Wenn Sie ein Fragment aus dem Inventar öffnen, können dessen Knoten, Eigenschaften, Tags oder Beschriftungen geändert werden. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
+>abstract="Öffnen Sie ein Fragment aus dem Inventar, um seine Knoten, Eigenschaften, Tags oder Label zu ändern. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
 
 Um ein Fragment zu bearbeiten, öffnen Sie es über das **[!UICONTROL Fragmentinventar]** indem Sie auf seinen Namen klicken. In der Benutzeroberfläche zum Erstellen von Fragmenten haben Sie folgende Möglichkeiten:
 

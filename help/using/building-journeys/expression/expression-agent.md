@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1147
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generieren von Ausdrücken mit dem Ausdrucksassistenten"
->abstract="Der Ausdrucksassistent verwendet generative KI, um Ausdrücke direkt im erweiterten Ausdruckseditor von Journey zu erstellen und zu generieren. Zum Beispiel in Bedingungen, Aktivitäten des Typs **Optimieren** oder **Warten**, bei denen ein benutzerdefiniertes Datum verwendet wird. Wenn Sie beschreiben, was Sie benötigen, generiert der Assistent den entsprechenden Ausdruck für Sie."
+>abstract="Der Ausdrucksassistent verwendet generative KI, um Ausdrücke direkt im erweiterten Ausdruckseditor von Journey zu erstellen und zu generieren. Zum Beispiel in Bedingungen, Aktivitäten des Typs **Optimieren** oder **Warten**, bei denen ein benutzerdefiniertes Datum verwendet wird. Beschreiben Sie in einfacher Sprache, was Sie benötigen. Der Assistent generiert den entsprechenden Ausdruck für Sie."
 
 >[!AVAILABILITY]
 >

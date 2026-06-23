@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 4780
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -54,7 +54,7 @@ Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielg
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
->abstract="Fügt alle qualifizierten Profile einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu dieser Journey hinzu. Wird einmal oder nach einem Zeitplan ausgeführt."
+>abstract="Fügen Sie alle qualifizierten Profile einer ausgewählten [!DNL Adobe Experience Platform]-Zielgruppe zu dieser Journey hinzu. Wird einmal oder nach Zeitplan ausgeführt."
 
 Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, die alle Profile aus einer ausgewählten [!DNL Adobe Experience Platform] Zielgruppe zu einer Journey hinzufügt. Sie können den Eintritt einmal oder nach einem wiederkehrenden Zeitplan ausführen. In -APIs und technischen Referenzen wird diese Aktivität auch als segmentbasierter oder zielgruppenbasierter Journey-Trigger bezeichnet.
 
@@ -100,12 +100,12 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Zielgruppe"
->abstract="Die [!DNL Adobe Experience Platform] Zielgruppe, deren Profile in diese Journey eintreten. Alle qualifizierten Profile werden eingelesen. Batch-Zielgruppen werden für eine zuverlässige, konsistente Zählung empfohlen, und pro Aktivität kann nur eine Zielgruppe gelesen werden."
+>abstract="Wählen Sie die [!DNL Adobe Experience Platform]-Zielgruppe aus, deren Profile in diese Journey eintreten. Alle qualifizierten Profile werden eingelesen. Batch-Zielgruppen werden für eine zuverlässige, konsistente Zählung empfohlen, und pro Aktivität kann nur eine Zielgruppe gelesen werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Die Identität (z. B. E-Mail, ECID), die zur Identifizierung von Personen verwendet wird, die die Journey betreten. Es sind nur personenbasierte Namespaces verfügbar, und Profile ohne diese Identität können nicht eingeben. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
+>abstract="Wählen Sie die Identität (z. B. E-Mail, ECID) aus, die zur Identifizierung der Personen verwendet wird, die in die Journey eintreten. Es sind nur personenbasierte Namespaces verfügbar, und Profile ohne diese Identität können nicht eintreten. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt."
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -182,18 +182,18 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
->title="Startdatum/Uhrzeit"
->abstract="Das Datum und die Uhrzeit, zu der die Journey mit dem Lesen der Zielgruppe beginnt und Profile eintreten. Kombinieren Sie dies mit den unten stehenden Wiederholungsoptionen, um wiederkehrende Ausführungen zu planen."
+>title="Startdatum/-uhrzeit"
+>abstract="Das Datum und die Uhrzeit, zu der die Journey mit dem Lesen der Zielgruppe beginnt und Profile mit dem Eintritt beginnen. Kombinieren Sie dies mit den unten stehenden Wiederholungsoptionen, um wiederkehrende Ausführungen zu planen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
->title="Wiederholen bis"
+>title="Wiederholung bis"
 >abstract="Das Datum, an dem wiederkehrende Ausführungen beendet werden. Nach diesem Datum liest die Journey die Zielgruppe nicht mehr und nimmt keine neuen Profile mehr auf."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Wiederholen alle"
->abstract="Wie oft die Journey die Zielgruppe erneut liest und erneut ausgeführt wird, z. B. täglich oder wöchentlich. Bestimmt das Wiederholungsintervall zwischen Ausführungen, bis das Wiederholungsdatum erreicht ist."
+>abstract="Wie oft die Journey die Zielgruppe erneut liest und erneut ausgeführt wird, z. B. täglich oder wöchentlich. Bestimmt das Wiederholungsintervall zwischen Ausführungen, bis das Datum unter „Wiederholung bis“ erreicht ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Erneuten Eintritt erzwingen"
->abstract="Löscht alle Teilnehmer vom Journey, bevor jede neue Zielgruppe gelesen wird, sodass jeder Durchgang neu gestartet wird und Profile bei jedem Vorkommen erneut eintreten können."
+>abstract="Löscht alle Teilnehmenden aus der Journey, bevor eine neue Zielgruppe gelesen wird, sodass jede Ausführung neu gestartet wird und Profile bei jedem Vorkommen erneut eintreten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Nach Batch-Zielgruppenauswertung auslösen"
->abstract="Verzögert jede Ausführung, bis die Batch-Zielgruppe neu ausgewertet wurde, sodass die Journey den aktuellsten Zielgruppen-Schnappschuss und nicht veraltete Daten liest. Wird für wiederkehrende Journey empfohlen, die von den neuesten Segmentierungsergebnissen abhängen."
+>abstract="Verzögert jede Ausführung, bis die Batch-Zielgruppe neu ausgewertet wurde, sodass die Journey den aktuellsten Zielgruppen-Snapshot und keine veralteten Daten liest. Wird für wiederkehrende Journeys empfohlen, die von den neuesten Segmentierungsergebnissen abhängig sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"

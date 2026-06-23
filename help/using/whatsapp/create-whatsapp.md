@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 1162
-ht-degree: 71%
+ht-degree: 79%
 
 ---
 
@@ -76,8 +76,8 @@ Beachten Sie **dass interaktive Schaltflächen** Code kopieren“ nicht unterst�
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_whatsapp"
->title="WhatsApp-Aktion"
->abstract="Eine WhatsApp-Kanalaktion sendet eine WhatsApp-Nachricht an Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine WhatsApp-Konfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
+>title="Aktion „WhatsApp“"
+>abstract="Eine WhatsApp-Kanalaktion sendet eine WhatsApp-Nachricht an Profile, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine WhatsApp-Konfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Timeout oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine WhatsApp-Nachricht in einer Kampagne oder Journey hinzufügen können.

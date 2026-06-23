@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3545
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="Pausieren einer Journey"
->abstract="Durch das Anhalten einer Live-Journey wird das Eintreten neuer Profile verhindert. Profile, die sich derzeit auf der Journey befinden, können verworfen oder an ihrem Platz belassen werden. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
+>abstract="Das Pausieren einer Live-Journey verhindert das Eintreten neuer Profile. Profile, die sich derzeit in der Journey befinden, können verworfen oder beibehalten werden. Werden sie beibehalten, wird die Ausführung bei der nächsten Aktionsaktivität fortgesetzt, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
 Sie können Ihre Live-Journey anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile auf der Grundlage ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie können die [&#x200B; auch manuell fortsetzen](#journey-resume-steps) oder [die Journey anhalten](#stop-close-paused) aus dem **angehalten**, ohne sie zuerst fortzusetzen.
 
@@ -126,7 +126,7 @@ In [diesem Abschnitt](#discards-troubleshoot) erfahren Sie, wie Sie Fehler bei V
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="Fortsetzen von Journeys"
->abstract="Durch das Fortsetzen einer angehaltenen Journey können neue Profile erneut eintreten. Wenn Profile während der Pause gewartet haben, setzen sie ihre Journey fort. Ideal zum sicheren Neustart von Journeys nach Updates oder Pausen."
+>abstract="Durch das Fortsetzen einer pausierten Journey können wieder neue Profile eintreten. Wenn Profile während der Pause gewartet haben, setzen sie ihre Journey fort. Ideal zum sicheren Neustart von Journeys nach Updates oder Pausen."
 
 Pausierte Journeys werden nach Ablauf des maximalen Pausierungszeitraums von 14 Tagen automatisch fortgesetzt. Sie können jederzeit manuell fortgesetzt werden. Durch das Fortsetzen einer pausierten Journey können wieder neue Profile eintreten. Wenn Profile während der Pause gewartet haben, setzen sie ihre Journey fort. Ideal zum sicheren Neustart von Journeys nach Updates oder Pausen.
 

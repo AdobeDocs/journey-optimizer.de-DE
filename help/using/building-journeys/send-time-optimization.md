@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2279
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Ein Optionsfeld bestimmt, ob E-Mail-Öffnungen oder E-Mail-Clickthroughs optimiert werden sollen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
+>abstract="Ein Optionsfeld bestimmt, ob die Optimierung auf das Öffnen von E-Mails oder auf E-Mail-Clickthroughs ausgerichtet sein soll. Die vom System verwendeten Sendezeiten können zudem über die Option „Senden innerhalb der nächsten“ in einen Zeitrahmen eingeordnet werden."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
+>abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Die vom System verwendeten Sendezeiten können zudem über die Option „Senden innerhalb der nächsten“ in einen Zeitrahmen eingeordnet werden."
 
 Die Funktion zur Optimierung des Versandzeitpunkts von [!DNL Adobe Journey Optimizer] basiert auf den Journey-KI-Services von Adobe und wählt basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kunden den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion zu maximieren.
 

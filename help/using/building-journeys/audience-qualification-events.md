@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Zielgruppen-Qualifizierung"
->abstract="Einstieg oder Fortsetzung beim Journey in Trigger, wenn ein Profil sich für eine [!DNL Adobe Experience Platform] Zielgruppe qualifiziert oder diese verlässt. Wird für Streaming-Zielgruppen empfohlen. Für Batch-Szenarien wird die Aktivität „Zielgruppe lesen“ verwendet."
+>abstract="Löst den Eintritt in eine oder die Fortsetzung einer Journey aus, wenn sich ein Profil für eine [!DNL Adobe Experience Platform]-Zielgruppe qualifiziert oder aus dieser aussteigt. Empfohlen für Streaming-Zielgruppen; die Aktivität „Zielgruppe lesen“ wird für Batch-Szenarien verwendet."
 
 ## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
@@ -70,22 +70,22 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Label"
->abstract="Eine optionale Beschriftung, mit der diese Aktivität in Reporting- und Testmodusprotokollen identifiziert werden kann."
+>abstract="Ein optionales Label, um die Aktivität in den Reporting- und Testmodusprotokollen zu identifizieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Zielgruppe"
->abstract="Die [!DNL Adobe Experience Platform] Zielgruppe, die die Journey überwacht. Profile treten in diese Zielgruppe ein oder werden weitergeleitet, wenn sie sich für diese Zielgruppe qualifizieren oder sie verlassen. Streaming-Zielgruppen werden empfohlen, damit die Qualifizierung in Echtzeit ausgewertet wird."
+>abstract="Die [!DNL Adobe Experience Platform]-Zielgruppe, die die Journey überwacht. Profile treten ein oder werden weitergeleitet, wenn sie die Kriterien für diese Zielgruppe erfüllen oder aus ihr aussteigen. Streaming-Zielgruppen werden empfohlen, damit die Qualifizierung in Echtzeit ausgewertet wird."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Verhalten"
->abstract="Definiert, auf welche Änderungen der Zielgruppenzugehörigkeit die Journey reagiert: wenn sich Profile für die Zielgruppe qualifizieren (eintreten), wenn sie diese verlassen (beenden) oder beides. Das Zuhören von beiden deckt den gesamten Mitgliedschaftslebenszyklus ab, während eine einzige Option das Journey in eine Richtung einschränkt."
+>abstract="Definiert, auf welche Änderungen der Zielgruppenzugehörigkeit die Journey reagiert: wenn sich Profile für die Zielgruppe qualifizieren (eintreten), wenn sie diese verlassen (aussteigen) oder beides. Beides zu berücksichtigen deckt den gesamten Lebenszyklus einer Zugehörigkeit ab, während eine Option die Journey in eine Richtung beschränkt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Identitätstyp"
->abstract="Der Identity-Namespace, mit dem Personen erkannt werden, die sich für die Zielgruppe qualifizieren. Es sind nur personenbasierte Identity-Namespaces verfügbar, und Profile ohne diese Identität können nicht auf die Journey zugreifen."
+>abstract="Der Identity-Namespace, der dazu dient, Personen zu identifizieren, die sich für die Zielgruppe qualifizieren. Es sind nur personenbasierte Identity-Namespaces verfügbar, und Profile ohne diese Identität können nicht in die Journey eintreten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
->title="Inhaltskarten-Aktion"
->abstract="Bei einer eingehenden Inhaltskartenaktion wird Profilen eine Inhaltskarte angezeigt, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Inhaltskartenkonfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach dieser Aktivität wird **Knoten** Warten“ automatisch eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die Inhaltskarte anzuzeigen."
+>title="Aktion „Inhaltskarte“"
+>abstract="Bei einer eingehenden Inhaltskartenaktion wird Profilen eine Inhaltskarte angezeigt, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Inhaltskartenkonfiguration, die den angezeigten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten. Nach dieser Aktivität wird automatisch der Knoten **Warten** eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die Inhaltskarte anzuzeigen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 

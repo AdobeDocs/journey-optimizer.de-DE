@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Aktivität „Warten“"
->abstract="Die Aktivität Warten ermöglicht es, zu warten, bevor die nächste Aktivität im Pfad ausgeführt wird. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
+>title="Warteaktivität"
+>abstract="Die Aktivität „Warten“ ermöglicht es Ihnen, zu warten, bevor Sie die nächste Aktivität im Pfad ausführen. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
 Mit einer Aktivität vom Typ **[!UICONTROL Warten]** können Sie eine Dauer definieren, nach deren Ablauf die nächste Aktivität ausgeführt wird.  Die maximale Wartezeit beträgt **90 Tage**.
 
@@ -140,7 +140,7 @@ Beispiel: Wenn sich ein Profil beim Journey-Start für eine Zielgruppe des Typs�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Über den automatischen Warteknoten"
->abstract="Nach **eingehenden Aktion** automatisch ein „Warten“-Knoten eingefügt. Standardmäßig ist dieser Zeitraum auf 3 Tage festgelegt, um sicherzustellen, dass Profile lange genug im Journey bleiben, um die Nachricht oder das Erlebnis anzuzeigen. Die Wartezeit kann aktualisiert oder der Knoten entfernt werden, wenn der Anwendungsfall dies erfordert."
+>abstract="Nach dieser eingehenden Aktion wird automatisch der Knoten **Warten** eingefügt. Standardmäßig ist dieser Wert auf 3 Tage festgelegt, wodurch sichergestellt wird, dass Profile lange genug in der Journey verbleiben, um die Nachricht oder das Erlebnis anzuzeigen. Die Wartezeit kann aktualisiert oder der Knoten entfernt werden, wenn der Anwendungsfall dies erfordert."
 
 Jede Aktivität für eingehende Erlebnisse (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) geht mit einer 3-tägigen **Warteaktivität** einher. Da eingehende Nachrichten automatisch enden, wenn ein Profil das Ende der Journey erreicht, ist davon auszugehen, dass Sie möchten, dass Ihre Benutzenden sie mindestens 3 Tage lang sehen. Sie können bei Bedarf diese **Warteaktivität** entfernen oder ihre Konfiguration ändern.
 

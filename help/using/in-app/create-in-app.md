@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
->title="In-App-Nachrichtenaktion"
->abstract="Eine In-App-Nachricht mit einer eingehenden Aktion zeigt eine In-App-Nachricht an Profile an, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine In-App-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die In-App-Nachricht anzuzeigen."
+>title="Aktion „In-App-Nachricht“"
+>abstract="Die eingehende Aktion „In-App-Nachricht“ zeigt Profilen eine In-App-Nachricht an, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine In-App-Konfiguration, die den angezeigten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten. Nach dieser Aktivität wird automatisch der Knoten **Warten** eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die In-App-Nachricht anzuzeigen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.

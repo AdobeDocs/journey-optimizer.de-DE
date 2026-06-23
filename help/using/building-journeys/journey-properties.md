@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 4990
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -48,7 +48,7 @@ Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="Die Journey-Eigenschaften enthalten globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Daten, Zeitüberschreitung und Konfliktmanagement. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
+>abstract="Die Journey-Eigenschaften enthalten globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Datumsangaben, Timeout und Konflikt-Management. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
@@ -115,7 +115,7 @@ Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Inform
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Erneuten Eintritt erlauben"
->abstract="Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Wenn Sie die Option **Erneuten Eintritt erlauben** deaktivieren, kann eine Person die Journey nicht erneut betreten, z. B. um ein einmaliges Geschenk anzubieten, wenn eine Person einen Shop betritt."
+>abstract="Standardmäßig ist der erneute Eintritt in neue Journeys zulässig. Wenn die Option **Erneuten Eintritt erlauben** deaktiviert wird, kann eine Person nicht mehr erneut in die Journey eintreten, zum Beispiel, wenn ein einmaliges Geschenk angeboten werden soll, wenn eine Person einen Shop betritt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
@@ -125,7 +125,7 @@ Standardmäßig erlauben neue Journeys einen erneuten Eintritt. Sie können die 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Wartezeit bis zum erneuten Eintritt"
->abstract="Die Wartezeit für den erneuten Eintritt ist die Zeit, die gewartet wird, bevor ein Profil in unitären Journey erneut auf die Journey zugreifen kann. Dadurch wird verhindert, dass Benutzer für eine bestimmte Dauer erneut auf die Journey zugreifen. Maximale Dauer: 90 Tage."
+>abstract="Die Wartezeit bis z um erneuten Eintritt ist in einheitlichen Journeys die Zeit, die gewartet werden muss, bevor ein Profil erneut in die Journey eintreten kann. Dadurch wird verhindert, dass Benutzende während eines bestimmten Zeitraums erneut in die Journey eintreten. Maximale Dauer: 90 Tage."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profileintrittsverwaltung"
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 90 Tage.
@@ -143,7 +143,7 @@ Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie au
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Aktuelle Journey-Payload-Größe"
->abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Dieser Indikator hilft Ihnen, die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung des Payload-Größenlimits verursacht werden."
+>abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Dieser Indikator hilft dabei, die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch eine Überschreitung des Limits der Payload-Größe verursacht werden."
 
 Das Feld **[!UICONTROL Aktuelle Journey-Payload]** im Bedienfeld Journey-Eigenschaften zeigt die aktuelle Payload-Größe Ihrer Journey im Verhältnis zum konfigurierten Limit an - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator ist in jeder Phase des Journey-Authorings sichtbar.
 
@@ -166,7 +166,7 @@ Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Startdatum"
->abstract="Das Startdatum ist der Zeitpunkt, an dem Profile mit dem Eintritt in die Journey beginnen können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
+>abstract="Wählen Sie das Startdatum aus, ab dem Profile in die Journey eintreten können. Wenn kein Startdatum festgelegt ist, wird standardmäßig das Veröffentlichungsdatum der Journey verwendet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
@@ -186,7 +186,7 @@ Zeitüberschreitungseinstellungen steuern, wie lange ein Journey auf die Ausfüh
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="Timeout oder Fehler"
->abstract="Die Option **Zeitüberschreitung oder Fehler** definiert einen alternativen Pfad auf der Journey, wenn die Aktion eine Zeitüberschreitung aufweist oder einen Fehler zurückgibt, sodass Profile weiterhin einen Fallback-Pfad verwenden, anstatt bei diesem Schritt anzuhalten. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
+>abstract="Die Option **Timeout oder Fehler** definiert einen alternativen Pfad in der Journey, wenn bei der Aktion ein Timeout oder ein Fehler auftritt, sodass Profile weiterhin einen Fallback-Pfad verwenden, anstatt bei diesem Schritt anzuhalten. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
 
 Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung des Timeouts einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, den im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegten Timeout der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
@@ -362,7 +362,7 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [[!DNL Ad
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Ausstiegskriterien"
->abstract="In diesem Abschnitt werden die Optionen für Exitkriterien angezeigt, bei denen für das Journey ein oder mehrere Exitkriterienregeln und -filter definiert werden können."
+>abstract="In diesem Abschnitt werden die Optionen für Ausstiegskriterien angezeigt, wobei eine oder mehrere Regeln und Filter für die Ausstiegskriterien der Journey definiert werden können."
 
 ### Kriterien für den Journey-Ausstieg {#exit-criteria-desc}
 

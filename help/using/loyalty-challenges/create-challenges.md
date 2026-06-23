@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ Konfigurieren Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ Eigenschaf
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Challenge-Details"
->abstract="Legen Sie den Namen und die Beschreibung der Herausforderung fest. Die Challenge-ID wird beim Erstellen der Challenge automatisch zugewiesen und kann für die API- oder Integrationsverwendung kopiert werden."
+>abstract="Legen Sie den Namen und die Beschreibung der Challenge fest. Die Challenge-ID wird beim Erstellen der Challenge automatisch zugewiesen und kann für die Verwendung der API oder der Integration kopiert werden."
 
 1. Definieren **[!UICONTROL im Abschnitt]** Challenge-Details“ Folgendes:
 
@@ -109,7 +109,7 @@ Konfigurieren Sie auf **[!UICONTROL Registerkarte]** Einstellungen“ Eigenschaf
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Zielgruppe"
->abstract="Entscheiden Sie, wer an der Challenge teilnehmen kann. Fügen Sie eine Adobe Experience Platform-Zielgruppe hinzu oder lassen Sie die Zielgruppe leer, damit alle Mitglieder des Treueprogramms berechtigt sind. Optional erfordern Sie als Voraussetzung den Abschluss anderer Challenges."
+>abstract="Wählen Sie aus, wer an der Challenge teilnehmen kann. Fügen Sie eine Adobe Experience Platform-Zielgruppe hinzu oder lassen Sie die Zielgruppe leer, damit alle Mitglieder des Treueprogramms berechtigt sind. Optional können Sie den Abschluss weiterer Challenges als Voraussetzungen festlegen."
 
 Definieren Sie, wer an Ihrer Herausforderung zur Treue teilnehmen kann.
 
@@ -124,7 +124,7 @@ Definieren Sie, wer an Ihrer Herausforderung zur Treue teilnehmen kann.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Challenge-Zeitplan"
->abstract="Legen Sie den Zeitpunkt der Herausforderung mit dem Start- und Enddatum und der Uhrzeit sowie einer Zeitzone fest. Wählen Sie im Fenster „Aufgabenabschluss“, wann Kunden Aufgaben während des Challenge-Zeitraums erledigen können."
+>abstract="Legen Sie fest, wann die Challenge live ist, indem Sie Start- und Enddatum und -uhrzeit sowie eine Zeitzone angeben. Wählen Sie im Fenster zum Abschließen von Aufgaben aus, wann Kundinnen und Kunden während des Challenge-Zeitraums Aufgaben abschließen können."
 
 Konfigurieren Sie, wann Ihre Challenge ausgeführt wird:
 

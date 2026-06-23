@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Journeys testen"
->abstract="Mit Testprofilen können Sie Ihren Journey vor der Veröffentlichung testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
+>abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Journey-Probelauf"
 
 Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. [!DNL Adobe Journey Optimizer] bietet den „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, während sie sich auf der Journey bewegen, und potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
@@ -154,7 +154,7 @@ So validieren Sie das Journey End-to-End:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Konfigurieren des Testmodus"
->abstract="Wenn eine Journey mehrere Ereignisse enthält, wird ein Ereignis über die Dropdown-Liste ausgewählt. Für jedes Ereignis werden die übergebenen Felder und die Ausführung des Ereignisversands konfiguriert."
+>abstract="Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Für jedes Ereignis werden die weitergeleiteten Felder und die Ausführung des Ereignisversands konfiguriert."
 
 Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Ereignis zu konfigurieren, das eine Person zum Eintritt in eine Journey veranlasst.
 

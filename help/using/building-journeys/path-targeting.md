@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Was ist ein Fallback-Pfad?"
->abstract="Mit Fallback-Pfaden kann Ihre Zielgruppe einen alternativen Pfad beschreiten, falls keine der Targeting-Regeln erfüllt ist. </br>Wenn diese Option nicht ausgewählt ist, wird die Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, nicht in den Fallback-Pfad aufgenommen und die Journey wird beendet."
+>abstract="Mit Fallback-Pfaden kann Ihre Zielgruppe einen alternativen Pfad beschreiten, falls keine der Targeting-Regeln erfüllt wird. </br>Wenn diese Option nicht aktiviert ist, treten Zielgruppen, die sich für keine Targeting-Regel qualifizieren, nicht in den Fallback-Pfad ein. Zudem steigen sie aus der Journey aus."
 
 Mit Targeting-Regeln können Sie auf der Grundlage bestimmter Zielgruppensegmente bestimmte Regeln oder Qualifizierungen festlegen, die erfüllt sein müssen, damit eine Kundin oder ein Kunde zum Eintritt in einen der Journey-Pfade berechtigt ist<!-- depending on profile attributes or contextual attributes-->.
 

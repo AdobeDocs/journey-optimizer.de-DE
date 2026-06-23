@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 889
-ht-degree: 34%
+ht-degree: 47%
 
 ---
 
@@ -51,12 +51,12 @@ Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich Communication- (RCS) u
 
 In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-/RCS-/MMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abonnement einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
 
-## Mobile-Nachricht hinzufügen {#create-sms-journey-campaign}
+## Hinzufügen einer Mobilnachricht {#create-sms-journey-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_sms"
->title="Aktion für Mobilnachrichten"
->abstract="Eine Mobile-Nachrichten-Kanalaktion sendet eine Text- (SMS), Multimedia- (MMS) oder Rich-Communication- (RCS) Nachricht an Profile, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Mobile-Nachrichtenkonfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Zeitüberschreitung oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
+>title="Aktion „Mobilnachricht“"
+>abstract="Eine Mobilnachrichten-Kanalaktion sendet eine Text (SMS)-, Multimedia (MMS)- oder Rich Communication (RCS)-Nachricht an Profile, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine Mobilnachrichtenkonfiguration, die den bereitgestellten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten, der Abschnitt **Mehrsprachig** kann Inhalte in mehreren Sprachen bereitstellen, und der Abschnitt **Timeout oder Fehler** kann einen alternativen Pfad definieren, wenn die Aktion fehlschlägt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Mobile-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
