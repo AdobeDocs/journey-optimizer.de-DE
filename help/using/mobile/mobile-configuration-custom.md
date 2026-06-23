@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
-ht-degree: 70%
+source-wordcount: 1198
+ht-degree: 68%
 
 ---
 
@@ -162,6 +162,10 @@ Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutz
    ![](assets/verify-connection.png)
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt [die eingehenden Webhook-Einstellungen](#webhook) für SMS-Nachrichten erstellen.
+
+>[!TIP]
+>
+>Erstellen und verwalten Sie immer separate Agentenkonfigurationen für jede Sandbox (Produktion, Entwicklung usw.) um umgebungsübergreifende Webhook-Antwortprobleme zu vermeiden. Verwenden Sie nicht dieselben API-Anmeldeinformationen, Webhooks oder Provider-Callback-URLs (einschließlich RCS-Agenten) in Sandboxes erneut.
 
 ### Authentifizierungsoptionen für benutzerdefinierte SMS-Anbieter {#auth-options}
 
