@@ -11,30 +11,16 @@ keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -58,7 +44,7 @@ Alle älteren nativen Kanäle - E-Mail, Push, SMS, In-App, Web, Code-basierte Er
 Verwenden Sie die Aktivität **Aktion** für Folgendes:
 
 * Konfigurieren Sie jede integrierte Kanalaktion über eine zentrale, optimierte Benutzeroberfläche.
-* Mehrere eingehende Erlebnisse in einer ([&#x200B; Aktionsgruppe) &#x200B;](#multi-action).
+* Mehrere eingehende Erlebnisse in einer ([ Aktionsgruppe) ](#multi-action).
 * Wenden Sie [Optimierung](../content-management/gs-message-optimization.md), [mehrsprachige Inhalte](../content-management/multilingual-gs.md) und kanalspezifische Einstellungen auf jede Aktion an.
 
 >[!NOTE]
@@ -82,21 +68,21 @@ Alte native Kanalaktivitäten werden auch in diesen Fällen beibehalten:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Automatischer Warteknoten"
->abstract="Bei eingehenden Kanalaktionen (In-App-Nachricht, Web, Inhaltskarte und Code-basiertes Erlebnis) wird nach der Aktion automatisch ein **Warten**-Knoten eingefügt (standardmäßig 3 Tage). Dadurch haben die Profile Zeit, das eingehende Erlebnis anzuzeigen, bevor die Journey mit dem nächsten Schritt fortfährt."
+>abstract="Bei Inbound-Kanalaktionen (In-App-Nachricht, Web, Inhaltskarte und Code-basiertes Erlebnis) wird nach der Aktion automatisch ein **Warten**-Knoten eingefügt (standardmäßig 3 Tage). Dadurch haben die Profile Zeit, das eingehende Erlebnis anzuzeigen, bevor die Journey mit dem nächsten Schritt fortfährt."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimierung"
->abstract="Im **Optimierung** werden einer Kanalaktion Inhaltsexperimente, Zielgruppenbestimmungsregeln oder beides hinzugefügt. Sie ermöglicht es Ihnen, Varianten zu testen und den effektivsten Inhalt für jedes Mitglied der Zielgruppe bereitzustellen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Verwenden der Aktivität Optimieren"
+>abstract="Im Abschnitt **Optimierung** werden einer Kanalaktion Inhaltsexperimente, Targeting-Regeln oder beides hinzugefügt. Sie haben hier die Möglichkeit, Varianten zu testen und den effektivsten Inhalt für jedes Mitglied der Zielgruppe bereitzustellen."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Verwenden der Aktivität „Optimieren“"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Mehrsprachig"
->abstract="Der **Multilingual**-Abschnitt liefert die Kanalaktionsinhalte in mehreren Sprachen auf einer einzigen Journey. Eine Spracheinstellungskonfiguration definiert die unterstützten Gebietsschemata und die Standardsprache für diese Aktion."
+>abstract="Der Abschnitt **Mehsprachig** stellt die Kanalaktionsinhalte in einer Journey in mehreren Sprachen bereit. Eine Spracheinstellungskonfiguration definiert die unterstützten Gebietsschemata und die Standardsprache für diese Aktion."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Erste Schritte mit mehrsprachigen Inhalten"
 
 
@@ -285,7 +271,7 @@ Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigge
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
->title="Hinzufügen von mehreren eingehenden Aktionen"
+>title="Hinzufügen mehrerer eingehender Aktionen"
 >abstract="Eine einzelne Journey kann mehrere eingehende Aktionen enthalten. Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, wobei jede Aktion einen bestimmten Inhalt enthält."
 
 Um die Journey-Orchestrierung zu vereinfachen, können Sie in einer einzigen Journey-Aktion mehrere eingehende Aktionen definieren.

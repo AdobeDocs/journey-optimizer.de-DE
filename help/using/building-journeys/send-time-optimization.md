@@ -11,27 +11,16 @@ keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2279
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -51,12 +40,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Ein Optionsfeld bestimmt, ob E-Mail-Öffnungen oder E-Mail-Clickthroughs optimiert werden sollen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
+>abstract="Ein Optionsfeld bestimmt, ob die Optimierung auf das Öffnen von E-Mails oder auf E-Mail-Clickthroughs ausgerichtet sein soll. Die vom System verwendeten Sendezeiten können zudem über die Option „Senden innerhalb der nächsten“ in einen Zeitrahmen eingeordnet werden."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Die vom System verwendeten Versandzeitpunkte können auch mit einem Wert für die Option Senden innerhalb der nächsten in Klammern gesetzt werden."
+>abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Die vom System verwendeten Sendezeiten können zudem über die Option „Senden innerhalb der nächsten“ in einen Zeitrahmen eingeordnet werden."
 
 Die Funktion zur Optimierung des Versandzeitpunkts von [!DNL Adobe Journey Optimizer] basiert auf den Journey-KI-Services von Adobe und wählt basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kunden den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion zu maximieren.
 

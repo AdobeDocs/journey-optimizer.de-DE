@@ -8,24 +8,16 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -44,8 +36,8 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
->title="In-App-Nachrichtenaktion"
->abstract="Eine In-App-Nachricht mit einer eingehenden Aktion zeigt eine In-App-Nachricht an Profile an, wenn sie diesen Schritt des Journey erreichen. Die Bezeichnung identifiziert die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine In-App-Konfiguration, die den angezeigten Inhalt definiert. Der **Optimierung** kann Inhaltsexperimente oder Zielgruppenbestimmungsregeln enthalten. Nach **Aktivität wird automatisch ein** Warten“-Knoten eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die In-App-Nachricht anzuzeigen."
+>title="Aktion „In-App-Nachricht“"
+>abstract="Die eingehende Aktion „In-App-Nachricht“ zeigt Profilen eine In-App-Nachricht an, wenn sie diesen Schritt der Journey erreichen. Das Label bezeichnet die Aktivität auf der Journey-Arbeitsfläche und die Aktion verweist auf eine In-App-Konfiguration, die den angezeigten Inhalt definiert. Der Abschnitt **Optimierung** kann Inhaltsexperimente oder Targeting-Regeln enthalten. Nach dieser Aktivität wird automatisch der Knoten **Warten** eingefügt (standardmäßig 3 Tage), sodass die Profile Zeit haben, die In-App-Nachricht anzuzeigen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Erste Schritte mit Kanalaktionen"
 
 Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
@@ -263,7 +255,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
    ![](assets/in_app_create_4.png)
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -273,7 +265,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451891?captions=ger&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -281,7 +273,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445297/?captions=ger&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

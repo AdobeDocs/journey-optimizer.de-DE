@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ Verfügbare Attribute für Aktivitäten **[!UICONTROL benutzerdefiniertes Ereign
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Geeignete Artikel und Ausschlüsse"
->abstract="Verwenden Sie sowohl für **Kauf** als **Ausgaben** das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]**, um festzulegen, welche Artikel und Gruppen für die Aufgabenfertigstellung zählen und welche ausgeschlossen werden. Suchen Sie nach Elementen oder Gruppen aus dem Produktinventar, die von Administratoren konfiguriert wurden, und schließen Sie sie dann nach Bedarf ein oder aus."
+>abstract="Verwenden Sie sowohl für die Aktivität **Kauf** als auch für die Aktivität **Ausgaben** das Attribut **[!UICONTROL Geeignete Artikel und Ausschlüsse]**, um festzulegen, welche Artikel und Gruppen für den Aufgabenabschluss berücksichtigt und welche ausgeschlossen werden. Suchen Sie nach Artikeln oder Gruppen im von Admins konfigurierten Produktinventar und fügen Sie diese nach Bedarf hinzu oder schließen Sie sie aus."
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
