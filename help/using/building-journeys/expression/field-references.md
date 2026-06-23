@@ -10,18 +10,14 @@ keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 100%
+source-wordcount: 1044
+ht-degree: 53%
 
 ---
 
@@ -176,3 +172,52 @@ Beispiel:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie in Journey-Ausdrücken auf Ereignisfelder und Datenquellenfeldgruppen verweisen können, einschließlich Standardwertsyntax, Zuordnungszugriffsfunktionen (`entry`, `firstEntryKey`, `keys`) und Inline-Datenquellenparametern, die mit dem `params`-Schlüsselwort übergeben werden.
+
+**intents:**
+
+* Referenzieren eines Ereignisfelds in einem Ausdruck mithilfe der `@event{eventName.fieldPath}` Syntax
+* Referenzieren einer Datenquellenfeldgruppe mithilfe der `#{dataSourceName.fieldGroupName.fieldPath}`
+* Weisen Sie einer Feldreferenz einen Fallback-Standardwert zu, damit Ausdrücke nicht null zurückgeben
+* Abrufen eines bestimmten Eintrags aus einer Identitätszuordnung oder Abonnementzuordnung mithilfe der `entry()`
+* Abrufen aller Schlüssel aus einem Zuordnungsfeld mithilfe der `keys()`
+* Übergeben von Parameterwerten an eine externe Datenquelle inline mithilfe des `params`-Schlüsselworts
+
+**Glossar:**
+
+* **Feldreferenz**: Eine Ausdruckssyntax, die auf ein benanntes Feld innerhalb einer Ereignis-Payload oder Datenquellenfeldgruppe verweist *(produktspezifisch)*
+* **defaultValue**: Ein optionaler Fallback-Ausdruck, der an einen Feldverweis angehängt wird, der zurückgegeben wird, wenn das Feld fehlt oder null *(produktspezifisch)*
+* **entry(key)**: Eine Zuordnungsfunktion, die den Sammlungseintrag abruft, der mit dem angegebenen Schlüssel verknüpft ist *(produktspezifisch)*
+* **firstEntryKey()**: Eine Zuordnungsfunktion, die den ersten Schlüssel eines Zuordnungsfelds zurückgibt *(produktspezifisch)*
+* **keys()**: Eine Zuordnungsfunktion, die alle Schlüssel eines Zuordnungsfelds zurückgibt *(produktspezifisch)*
+* **params-Schlüsselwort**: Inline-Syntax zur Angabe von Parameterwerten für externe Datenquellenfelder im Hauptausdruck *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Feldnamen, die Sonderzeichen enthalten (beginnend mit einer Ziffer, die `-` enthält, oder Zeichen außerhalb von `a-z A-Z 0-9 _`) müssen in einfache oder doppelte Anführungszeichen gesetzt werden
+* Der Ausdruck für den Standardwert muss denselben Datentyp wie das Feld zurückgeben - nicht übereinstimmende Typen sind ungültig
+* Wenn das Keyword `params` verwendet wird, um Parameterwerte inline zu definieren, verschwindet die separate Parameterregisterkarte rechts neben dem Editor
+* Als Standardwerte verwendete Funktionen müssen in Klammern eingeschlossen sein
+
+**Terminologie:**
+
+* Kanonischer Name: Feldverweise — Akronym: none — Varianten: Feldpfad, Feldausdruck
+* Synonyme: `@event{...}` = „Ereignisfeldverweis“; `#{...}` = „Datenquellenfeldverweis“
+* Nicht verwechseln: Ereignisfelder (mit Präfix `@`) ≠ Datenquellenfelder (mit Präfix `#`)
+
+**FAQ:**
+
+* **F: Wie verweise ich auf ein Feld, dessen Name mit einer Zahl beginnt?** — Umbrechen des Feldnamens in einfache oder doppelte Anführungszeichen, z. B. `#{OpenWeather.weatherData.rain.'3h'}`.
+* **F: Was passiert, wenn ein referenziertes Feld in der Ereignis-Payload fehlt und kein Standardwert festgelegt ist?** — Der Ausdruck gibt `null` zurück.
+* **F: Wie stelle ich einen dynamischen Standardwert mithilfe einer Funktion ein?** — Schließen Sie den Funktionsaufruf in Klammern ein, z. B. `defaultValue: (now())`.
+* **F: Wie kann ich die E-Mail-Adresse abrufen, die als erster Schlüssel in einer Abonnentenzuordnung gespeichert ist?** — Verwenden Sie die Funktion `firstEntryKey()` im Feld Abonnenten-Zuordnung .
+* **F: Wie übergebe ich einen Parameter an eine externe Datenquelle, ohne die rechte Registerkarte zu verwenden?** — Verwenden Sie das `params` inline: `#{DataSource.group.field, params: {paramName: value}}`.
+
++++

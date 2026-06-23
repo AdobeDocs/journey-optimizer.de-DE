@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: Die Adobe Journey Optimizer-Dokumentationsseiten werden um einen Akkordeon-Abschnitt des KI-Assistenten erweitert, der am Ende jeder Markdown-Datei angehängt wird. liest jede Seite, generiert automatisch relevante KI-Assistenten-Inhalte basierend auf dem Seitenthema und fügt sie als ausblendbares Akkordeon ein. Verwenden Sie diese Option, wenn Benutzende KI-Informationen zu AJO-Dokumenten hinzufügen, AJO-Markdown-Seiten mit KI-Inhalten anreichern oder eine Datei oder einen Ordner mit Markdown-Dateien mit KI-Akkordeon-Abschnitten verarbeiten möchten.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - `+++` allein auf einer Linie schließt das Akkordeon
 - Leerzeile vor dem `+++` und nach dem `+++`
 
-&#x200B;---
+---
 
 ## Workflow
 
@@ -79,19 +79,19 @@ Nachdem alle Dateien verarbeitet wurden:
 - Auflisten der ✓ geänderten Dateien
 - Übersprungene Dateien auflisten und Ursache angeben (hat bereits Akkordeon, leere Datei, ist nicht relevant usw.)
 
-&#x200B;---
+---
 
 ## Regeln zur Inhaltserstellung
 
 Erzeugen Sie den Akkordeon-Inhalt durch Analysieren der Markdown-Seite. Erstellen Sie die folgenden Abschnitte **in der richtigen Reihenfolge** formatiert als Markdown-Aufzählungslisten. Überspringen Sie jeden Abschnitt, für den keine aussagekräftigen Inhalte aus der Seite extrahiert werden können.
 
-&#x200B;---
+---
 
 ### Akkordeontitel
 
 Verwenden Sie: `+++AI Assistant — Page context`
 
-&#x200B;---
+---
 
 ### Zu erzeugende Abschnitte (in der richtigen Reihenfolge)
 
@@ -103,7 +103,7 @@ Ein Satz. Was wird auf dieser Seite gelehrt bzw. aktiviert?
 - **TL;DR:** [one sentence summary]
 ```
 
-&#x200B;---
+---
 
 **2. Absicht**
 
@@ -115,7 +115,7 @@ Vollständige Liste der Möglichkeiten, die ein Benutzer nach dem Lesen dieser S
 - [action the user can perform]
 ```
 
-&#x200B;---
+---
 
 **3. Glossar**
 
@@ -129,7 +129,7 @@ Schlüsselbegriffe, die für diese Seite/Funktion spezifisch sind, mit einer kur
 
 Nur Begriffe einschließen, die für das Thema dieser Seite relevant sind. Verwenden Sie keine allgemeinen Marketing-Begriffe.
 
-&#x200B;---
+---
 
 **4. Schutzmechanismen**
 
@@ -141,7 +141,7 @@ Einschränkungen, Voraussetzungen, Berechtigungen oder Einschränkungen, die auf
 - [guardrail or prerequisite]
 ```
 
-&#x200B;---
+---
 
 **5. Terminologie**
 
@@ -157,7 +157,7 @@ Kanonische Produktnamen, Akronyme, akzeptierte Varianten, Synonyme und eindeutig
 
 Nur Einträge einschließen, die auf der Seite vorhanden oder impliziert sind.
 
-&#x200B;---
+---
 
 **6. Häufig gestellte Fragen**
 
@@ -169,20 +169,24 @@ Nur Einträge einschließen, die auf der Seite vorhanden oder impliziert sind.
 - **Q: [question]** — [short answer]
 ```
 
-&#x200B;---
+---
 
 ### Was NICHT enthalten sein soll
 
 - Schreiben **den** der Seite (die bereits vorhanden ist) nicht um oder fassen Sie ihn zusammen.
 - **keine** Schritt-für-Schritt-Anweisungen enthalten (diese befinden sich auf der Seite).
-- Erfinden **&#x200B;**&#x200B;Inhalte, die von der Seite nicht unterstützt werden.
+- Erfinden **** Inhalte, die von der Seite nicht unterstützt werden.
 
-&#x200B;---
+---
 
 ### Vollständige Akkordeon-Vorlage
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -205,7 +209,7 @@ Nur Einträge einschließen, die auf der Seite vorhanden oder impliziert sind.
 +++
 ```
 
-&#x200B;---
+---
 
 ## Anmerkungen
 

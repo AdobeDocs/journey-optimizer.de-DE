@@ -11,24 +11,16 @@ keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, 
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1840
-ht-degree: 93%
+source-wordcount: 2642
+ht-degree: 65%
 
 ---
 
@@ -100,7 +92,7 @@ Das folgende Diagramm zeigt die Sequenz der zu befolgenden Debugging-Schritte:
 
 >[!TAB In-App-Kanal]
 
-1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel **In-App-Nachrichten** aus.
+1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel ]**In-App-Nachrichten**[!UICONTROL  aus.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Nachrichten auf Gerät]** auf die Dropdown-Liste **[!UICONTROL Nachrichten]**.
 
@@ -142,7 +134,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    >[!NOTE]
    >
-   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]**&#x200B;**joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]****joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
    ![Edge Delivery-Fehler, der besagt, dass das Profil nicht für die Nachricht qualifiziert war](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -150,7 +142,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    Sie können überprüfen, ob das **joai**-Segment in der Profilansicht des Edge Network-Versand-Servers vorhanden ist, indem Sie das **segmentsMap**-Element des Profilabschnitts öffnen und nach dem Vorhandensein der **joai**-Segment-ID suchen.
 
-1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Schritt 3: Überprüfen, ob die Zugehörigkeit zur Audience „joai“ auf das Edge-Netzwerk übertragen wurde {#step-3}
 
@@ -237,7 +229,55 @@ Führen Sie dieselben Debugging-Schritte wie für [Szenario 1](#debugging-steps
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite finden Sie eine schrittweise Anleitung zum Selbstbedienungs-Debugging für zwei eingehende Aktionsszenarien in Adobe Journey Optimizer Journey: ein Profil, das in einen eingehenden Schritt eintritt, aber den Inhalt nicht erhält, und ein Profil, das nach dem Verlassen der Journey weiterhin Inhalte erhält.
+
+**intents:**
+* Richten Sie eine Assurance-Sitzung als Voraussetzung ein, bevor Sie Probleme mit eingehenden Aktionen debuggen
+* Überprüfen, ob das Gerät oder der Client über Assurance eingehende Inhalte von der Edge Network erhält
+* Überprüfen Sie Edge Network-qualifizierte und -nicht qualifizierte Aktivitäten, um festzustellen, ob ein Profil für eine eingehende Journey-Aktion geeignet ist
+* Bestätigen Sie, dass die Zugehörigkeit zum Joai-Zielgruppensegment vom Hub-Profil auf das Edge-Profil übertragen wurde
+* Diagnose von Verzögerungen bei der Join-Segmentaufnahme im Hub-Profil, nachdem ein Profil in eine eingehende Aktion eintritt
+* Eskalieren Sie an die Adobe-Kundenunterstützung mit den richtigen Diagnoseinformationen, wenn das Problem durch Self-Service-Schritte nicht behoben wird.
+
+**Glossar:**
+* **Eingehende Aktionen**: Journey-Aktivitäten, die personalisierte Inhalte für das Gerät oder den Browser eines Benutzers bereitstellen, einschließlich In-App-, Web- und Code-basierter Erlebniskanäle *(produktspezifisch)*
+* **Joai-Namespace**: Ein spezieller Identity-Namespace, der in Profile `segmentMembership` zum Aktivieren eines Profils für einen eingehenden Journey-Aktionsschritt verwendet wird *(produktspezifisch)*
+* **Joai-Segment**: Ein automatisch erstelltes Zielgruppensegment im Joai-Namespace, das einer bestimmten eingehenden Journey-Aktion entspricht. Das Profil muss sich in diesem Segment in einem realisierten Status befinden, um den *(produktspezifisch) zu erhalten*
+* **Eingehender Journey-Datensatz**: Der AEP-Datensatz, der zum Speichern von Profilaktualisierungen verwendet wird, wenn ein Profil in eine eingehende Journey-Aktion eintritt *(produktspezifisch)*
+* **Hub-**: Der zentrale Profilspeicher in Adobe Experience Platform, der als Datenquelle für Profilattribute und die Segmentzugehörigkeit verwendet wird
+* **Edge-Profil**: Die projizierte Kopie des Hub-Profils, das vom Edge Network-Versand-Server verwendet wird, um die Eignung von Inhalten in Echtzeit zu bewerten
+* **Assurance**: Ein Adobe Experience Platform-Tool zum Echtzeit-Debugging des Client-seitigen SDK-Verhaltens und von Edge Network-Antworten
+
+**Leitplanken:**
+* Der eingehende Journey-Datensatz muss für die Profilaufnahme in der aktuellen Sandbox aktiviert sein, damit eingehende Aktionen ordnungsgemäß funktionieren
+* Der Join-Namespace muss in Platform-Identitäten für die Sandbox definiert werden
+* Die Übertragung der Joai-Segmentzugehörigkeit von Hub zu Edge kann bis zu 15-30 Minuten dauern
+* Die Aufnahme der Joai-Segmentzugehörigkeit in das Hub-Profil kann bis zu 15-30 Minuten dauern, nachdem das Profil in die eingehende Aktion eintritt
+* Wenn nach 30-60 Minuten immer noch Inhalte fehlen, eskalieren Sie mit der Journey-Versions-ID, der Aktions-ID, dem Assurance-Trace sowie den JSON-Ansichten des Edge- und Hub-Profils an die Adobe-Kundenunterstützung
+
+**Terminologie:**
+* Kanonischer Name: joai namespace — Akronym: joai — Varianten: joai identity, joai segment namespace
+* Kanonischer Name: Inbound actions — Akronym: none — Varianten: Inbound-Kanäle, Inbound-Content
+* Synonyme: „Hub profile“ = „Central profile“ (AEP); &quot;Edge profile“ = „Projiziertes Profil“ (von Edge Network verwendet)
+* Verwechseln Sie nicht: „Qualifizierte Aktivitäten“ ≠ „Nicht qualifizierte Aktivitäten“ in der Edge Delivery-Ansicht - „Qualifiziert“ bedeutet, dass das Profil Inhalte erhalten hat; „Nicht qualifiziert“ bedeutet, dass dies nicht der Fall war, mit dem angegebenen Ausschlussgrund
+
+**FAQ:**
+* **F: Welche beiden Szenarien für Fehler bei eingehenden Aktionen werden in diesem Handbuch behandelt?** — Szenario 1: Ein Profil ist in den eingehenden Schritt eingetreten, doch der Inhalt wird dem Benutzer nie angezeigt. Szenario 2: Ein Profil verlässt die Journey, erhält jedoch weiterhin den eingehenden Inhalt.
+* **F: Mit welchem Tool kann ich die Bereitstellung eingehender Aktionen debuggen?** — Adobe Experience Platform Assurance. Richten Sie zuerst eine Assurance-Sitzung ein und verwenden Sie dann die Ansichten In-App-Nachrichten und Edge Delivery , um die Inhaltsbereitstellung und Edge Network-Antworten zu überprüfen.
+* **F: Was ist das Joai-Segment und warum ist es wichtig?** — Wenn ein Profil in eine eingehende Aktion eintritt, wird es automatisch in ein Join-Zielgruppensegment qualifiziert, das für diese spezifische Aktion gilt. Edge Network stellt den eingehenden Inhalt nur bereit, wenn sich das Profil in diesem Joai-Segment in einem realisierten Status befindet.
+* **F: Wie lange dauert es, bis die Joai-Segmentzugehörigkeit im Edge-Profil angezeigt wird?** — Bis zu 15-30 Minuten für die Übertragung vom Hub zu Edge nach der Aktualisierung des Hub-Profils.
+* **F: Was sollte ich tun, wenn sich die Joai-Segment-ID im Edge-Profil im Status „beendet“ befindet?** — Das Profil hat das Joai-Segment verlassen, d. h. es hat die eingehende Journey-Aktion beendet. Wenn dies unerwartet eintritt, führen Sie eine Rückverfolgung durch die Hub-Profilaufnahme durch und überprüfen Sie, ob das Profil den Schritt der eingehenden Aktion korrekt eingegeben hat.
+* **F: Welche Informationen sollte ich angeben, wenn ich an die Adobe-Kundenunterstützung eskaliere?** - Die Journey-Versions-ID, die Journey-Aktions-ID, der Schritt, in dem unerwartetes Verhalten auftritt, die vollständige Assurance-Ablaufverfolgung und die JSON-Ansichten der Edge- und Hub-Profile.
+
++++

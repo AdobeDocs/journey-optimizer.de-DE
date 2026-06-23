@@ -10,31 +10,16 @@ keywords: Eintritt, Ausstieg, Kriterien, Journey, Profil, Wiedereintritt, Best P
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 91%
+source-wordcount: 2251
+ht-degree: 68%
 
 ---
 
@@ -174,7 +159,7 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 >[!TIP]
 >
->Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, &#x200B;](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von &#x200B;](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, ](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von ](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best Practices für die Verwaltung von Eintritten und Ausstiegen {#best-practices}
 
@@ -236,8 +221,56 @@ Beginnen Sie damit, Ihre Kunden-Trigger und Ausstiegspunkte klar zuzuordnen, gr�
 
 **Tutorials und Beispiele**
 
-[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de)
+[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Verwandte Funktionen**
 
 [Zielgruppen-Qualifizierungsereignisse](audience-qualification-events.md) | [Erfolgsmetriken und -ziele](success-metrics.md) | [Konfliktmanagement](../conflict-prioritization/conflicts.md) | [Frequenzlimitierung](../conflict-prioritization/rule-sets.md) | [Journey testen](testing-the-journey.md) | [Aktivität optimieren](optimize.md) | [Reaktionsereignisse](reaction-events.md) | [Warteaktivität](wait-activity.md)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** In diesem Handbuch wird erläutert, wie Sie in Adobe Journey Optimizer Einstiegs- und Ausstiegskriterien für Journey definieren, konfigurieren und optimieren können. Es enthält Beispiele aus der Praxis und Best Practices, um sicherzustellen, dass die richtigen Profile zum richtigen Zeitpunkt erreicht werden.
+
+**intents:**
+
+* Konfigurieren von ereignis-, zielgruppen- oder attributbasierten Einstiegskriterien für eine Journey
+* Richten Sie Ausstiegskriterien basierend auf dem Journey-Abschluss, Erfolgsmetriken, Timeouts für Inaktivität oder der Audience-Disqualifizierung ein.
+* Wenden Sie Regeln für den erneuten Eintritt an, um zu steuern, ob Profile mehrmals auf einen Journey zugreifen können
+* Vermeiden Sie überlappende Journey mit Konfliktmanagement und Prioritätswerten
+* Überwachung und Optimierung der Ein- und Ausstiegsraten mithilfe von Journey-Berichten
+
+**Glossar:**
+
+* **Einstiegskriterien**: Die Bedingungen, die bestimmen, wann ein Kundenprofil für die Eingabe eines Journey-*qualifiziert ist (produktspezifisch)*
+* **Ausstiegskriterien**: Bedingungen, die definieren, wann und wie ein Profil einen Journey verlässt oder von einem Profil entfernt wird *produktspezifisch)*
+* **Zielgruppenqualifizierung**: Ein Journey-Eingabemechanismus, der Trigger auslöst, wenn ein Profil in Echtzeit in eine Streaming-Zielgruppe eintritt oder aus ihr austritt *(produktspezifisch)*
+* **Erneuter Eintritt**: Profile können mehrmals auf dieselbe Journey zugreifen. Dies kann mit einer Wartezeit konfiguriert werden *(produktspezifisch)*
+* **Frequenzlimitierung**: Eine Regel, die begrenzt, wie viele Nachrichten ein Profil innerhalb eines bestimmten Zeitfensters empfangen kann *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Ein Profil kann nicht mehrmals zur gleichen Zeit auf derselben Journey vorhanden sein.
+* Der erneute Eintritt muss explizit aktiviert werden; die standardmäßige Wartezeit bis zum erneuten Eintritt beträgt 5 Minuten mit einem Maximum von 91 Tagen.
+* Verwenden Sie für das erweiterte Multi-Journey-Frequenzmanagement eine Journey-Begrenzung und Schlichtung anstelle individueller Ausstiegskriterien.
+* Journey-Überschneidungen müssen proaktiv gemanagt werden. Verwenden Sie das Konflikt-Management und Prioritätswerte, um konkurrierende Journey aufzulösen.
+
+**Terminologie:**
+
+* Kanonische Bezeichnung: Einreisekriterien — Akronym: n/a — Varianten: Einreisebedingungen, Journey-Trigger
+* Kanonische Bezeichnung: Ausstiegskriterien — Akronym: n/a — Varianten: Ausstiegsbedingungen, Regeln zum Entfernen von Profilen
+* Synonyme: „Zielgruppen-Disqualifizierung“ = „Zielgruppen-Austritt“ als Exit-Trigger
+* Verwechseln Sie nicht: „Für neue Eintritte schließen“ ≠ „Ausstiegskriterien“ — erstere blockieren neue Eintritte; Ausstiegskriterien entfernen laufende Profile.
+
+**FAQ:**
+
+* **F: Kann sich ein Profil zweimal gleichzeitig auf derselben Journey befinden?** — Nein, ein Profil kann nicht gleichzeitig auf derselben Journey vorhanden sein. Die Profilidentität wird als Schlüssel zur Durchsetzung dieser Bestimmung verwendet.
+* **F: Wie kann ich verhindern, dass ein Profil erneut auf eine Journey gelangt?** — Deaktivieren Sie den erneuten Eintritt im Bedienfeld Journey-Eigenschaften oder fügen Sie eine Bedingung hinzu, um zu überprüfen, ob das Profil bereits eingegeben wurde.
+* **F: Was ist der Unterschied zwischen Ausstiegskriterien und dem Schließen einer Journey?** — Beendigungskriterien entfernen Einzelprofile von einer Live-Journey basierend auf Bedingungen; durch Schließen einer Journey werden alle neuen Eintritte gestoppt, während die aktuellen Profile beendet werden.
+* **F: Wie kann ich die übermäßige Kommunikation mit Kunden in mehreren Journey unterbinden?** — Verwenden Sie Regeln zur Frequenzlimitierung und Journey-Limitierung und Schlichtung, um Cross-Journey-Nachrichtenbeschränkungen durchzusetzen.
+* **F: Was ist eine Zielgruppen-Disqualifizierung als Exit-Trigger?** — Wenn ein Profil die Segmentkriterien der Zielgruppe nicht mehr erfüllt, wird es automatisch von der Journey entfernt, um die Kommunikation relevant zu halten.
+
++++

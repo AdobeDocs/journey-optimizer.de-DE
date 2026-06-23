@@ -10,24 +10,15 @@ keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 736
-ht-degree: 95%
+source-wordcount: 1233
+ht-degree: 56%
 
 ---
 
@@ -122,3 +113,50 @@ Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parame
 ![](../assets/journeyuc2_19.png)
 
 Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, deren Werte mit dem Keyword „params“ definieren. Weitere Informationen finden Sie auf [dieser Seite](../expression/field-references.md).
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird der erweiterte Journey-Ausdruckseditor vorgestellt - seine Zugriffspunkte, Schnittstellenbereiche und Funktionen zum Erstellen komplexer Bedingungen, benutzerdefinierter Wartezeiten und Aktionsparameterzuordnungen mithilfe von Ereignissen, Datenquellen, Funktionen und Operatoren.
+
+**intents:**
+
+* Zugreifen auf den erweiterten Ausdruckseditor über eine Datenquellenbedingung, eine benutzerdefinierte Warteaktivität oder eine Aktionsparameterzuordnung
+* Erstellen erweiterter boolescher Bedingungen mithilfe von Ereignisfeldern, Datenquellenfeldern, Zielgruppenzugehörigkeit und Journey-Eigenschaften
+* Bei der Konfiguration der Bedingungen zwischen dem einfachen und dem erweiterten Modus wechseln
+* Referenzieren Sie externe Datenquellenparameter direkt innerhalb des Hauptausdrucks mithilfe des `params`-Schlüsselworts
+* Verwenden Sie den KI-gestützten Ausdrucksassistenten, um Ausdrücke aus Eingabeaufforderungen in natürlicher Sprache zu generieren
+
+**Glossar:**
+
+* **Erweiterter Ausdruckseditor**: Der Journey Optimizer-Code-Editor zum Schreiben komplexer Ausdrücke. Er unterscheidet sich vom einfacheren Point-and-Click-Bedingungseditor *(produktspezifisch)*
+* **Einfacher Modus**: Ein Point-and-Click-Bedingungseditor; weniger flexibel als der erweiterte Editor, aber einfacher für Nicht-Entwickler *(produktspezifisch)*
+* **Journey-Eigenschaften**: Technische Felder zur Journey-Instanz (ID, Version, Fehler, aktueller Knoten), auf die im Ausdruckseditor zugegriffen werden kann *(produktspezifisch)*
+* **Ausdrucksassistent**: Ein KI-gestütztes Tool (öffentliche Beta-Version) im erweiterten Editor, das Ausdrücke aus einfachen Eingabeaufforderungen generiert *produktspezifisch)*
+
+**Leitplanken:**
+
+* Das Erstellen von Ausdrücken mithilfe von Erlebnisereignissen direkt wird nicht unterstützt - verwenden Sie alternative Ansätze wie berechnete Attribute
+* Bedingungen geben unabhängig vom Editor-Modus immer einen booleschen Typ zurück
+* Ausdrücke dürfen keine ausgeblendeten oder nicht druckbaren Zeichen enthalten und sollten ein einzeiliges Format verwenden, um Parsing-Fehler zu vermeiden
+* Parameterwerte für externe Datenquellen können nur von Journey-Ereignissen oder der Experience Platform-Datenquelle stammen - nicht von anderen externen Datenquellen
+* Die erweiterten Ausdruckseditorfunktionen unterscheiden sich von denen im Personalisierungseditor
+
+**Terminologie:**
+
+* Kanonischer Name: Erweiterter Ausdruckseditor — Akronym: none — Varianten: Erweiterter Editor, Ausdruckseditor
+* Synonyme: „Erweiterter Modus“ = „Erweiterter Ausdruckseditor“
+* Nicht verwechseln: erweiterter Ausdruckseditor (Journey-Bedingungen/Aktionen) ≠ Personalisierungseditor (Personalisierung des Nachrichteninhalts)
+
+**FAQ:**
+
+* **F: Wann muss ich den erweiterten Ausdruckseditor anstelle des einfachen Modus verwenden?** - Verwenden Sie den erweiterten Editor, wenn Sie Sammlungen abfragen, Funktionen verwenden, auf Journey-Eigenschaften verweisen oder eine Bedingungslogik erstellen müssen, die der einfache Editor nicht ausdrücken kann.
+* **F: Wie übergebe ich im Ausdruck einen Parameter an eine externe Datenquelle?** — Verwenden Sie das Schlüsselwort `params` in der Ausdruckssyntax, z. B. `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
+* **F: Was bewirkt der Mechanismus zur automatischen Vervollständigung?** — Es werden kontextuelle Feld- und Funktionsvorschläge während der Eingabe angezeigt, sodass Sie gültige Ausdrücke schneller erstellen können.
+* **F: Wo wird der Ausdrucksassistent aufgerufen?** — Über die KI-Steuerung im erweiterten Ausdruckseditor; sie befindet sich derzeit in der öffentlichen Beta-Version.
+* **F: Gibt die Bedingung im erweiterten Editor einen anderen Typ zurück als im einfachen Modus?** — Nein, Bedingungen geben in beiden Modi immer einen booleschen Wert zurück.
+
++++

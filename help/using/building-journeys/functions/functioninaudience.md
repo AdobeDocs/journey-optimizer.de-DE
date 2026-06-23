@@ -9,21 +9,15 @@ keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 79%
+source-wordcount: 1279
+ht-degree: 47%
 
 ---
 
@@ -60,7 +54,7 @@ Nur Kontakte mit dem Status **Realisiert** werden als aktive Zielgruppenmitglied
 
 | Parameter | Beschreibung | Typ |
 |--- |--- |--- |
-| Zielgruppe | Zielgruppenname | `<string>` |
+| Zielgruppe | Der Zielgruppenname | `<string>` |
 
 **Wichtige Einschränkungen:**
 
@@ -128,7 +122,7 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 Bei Verwendung von `inAudience()` in einem Bedingungsknoten variiert der Zeitpunkt der Segmentzugehörigkeitsevaluierung je nachdem, wo die Bedingung auf der Journey erscheint:
 
 * **Auf einer Zielgruppen-Journey lesen vor einer Warteaktivität:** Journey Optimizer liest aus der Batch-Projektion des Profils. Die Daten in dieser Projektion werden innerhalb von **2 Stunden** der Aufnahme aktualisiert. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
-* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Verwandte Themen
 
@@ -140,3 +134,45 @@ Weitere Informationen zur Verwendung von Zielgruppen in Adobe Journey Optimizer:
 * **[Verwenden von Zielgruppen in Bedingungen](../conditions.md#using-a-segment)** - Erstellen bedingter Journey-Pfade basierend auf der Zielgruppenzugehörigkeit mithilfe der Aktivität „Optimieren“
 * **[Journey-Eigenschaften – Zusammenführungsrichtlinien](../journey-properties.md)**: Erfahren Sie, wie Zusammenführungsrichtlinien funktionieren, wenn mehrere Zielgruppen mit der Funktion „inAudience“ verwendet werden
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die `inAudience` dokumentiert, die in Echtzeit prüft, ob ein Journey-Profil zu einer benannten Adobe Experience Platform-Zielgruppe gehört, und einen booleschen Wert zurückgibt, der in Journey-Bedingungen verwendet wird.
+
+**intents:**
+* Verzweigen eines Journey-Pfads basierend darauf, ob ein Profil Mitglied einer bestimmten Zielgruppe ist, mithilfe von `inAudience`
+* Kombinieren mehrerer `inAudience` mit UND/ODER-Logik, um komplexe Zielgruppenbestimmungsbedingungen zu erstellen
+* Vergewissern Sie sich mithilfe einer Negationsprüfung (`inAudience("...") == false`), dass ein Profil keine bestimmte Zielgruppe betreten hat
+* Verstehen Sie die Unterschiede beim Propagierungs-Timing zwischen den Journey der Zielgruppe lesen und den Journey der unitären Ereignisse
+* Identifizieren und Beheben von fehlerhaften Zielgruppenverweisen, die durch Zielgruppennamen in Adobe Experience Platform verursacht wurden
+
+**Glossar:**
+* **Realisiert**: Status der Zielgruppenbeteiligung, der angibt, welche Person sich derzeit für die Zielgruppendefinition qualifiziert und ein aktives Mitglied ist *(produktspezifisch)*
+* **Ausgetreten**: Der Zielgruppen-Teilnahmestatus gibt an, dass die Person die Zielgruppe verlassen hat und nicht mehr *ist (produktspezifisch)*
+* **Zusammenführungsrichtlinie**: Eine Regel in Adobe Experience Platform, die bestimmt, wie Profildaten aus mehreren Datensätzen kombiniert werden, wenn die Zielgruppenzugehörigkeit bewertet wird *(produktspezifisch)*
+* **Batch-Projektion**: Der Profildatenspeicher wurde nach einem Zeitplan aktualisiert (innerhalb von 2 Stunden nach der Aufnahme), der von „Zielgruppen-Journey lesen“ verwendet wird *(produktspezifisch)*
+* **Streaming-Projektion**: Der Echtzeit-Profildatenspeicher (in der Regel innerhalb von 15 Minuten verfügbar), der in unitären Ereignis-Journey und After-Wait-Aktivitäten verwendet wird *(produktspezifisch)*
+
+**Leitplanken:**
+* Auf einer einzigen Journey können bis zu 100 Zielgruppen abgerufen werden
+* Der Parameter für den Zielgruppennamen muss eine Zeichenfolgenkonstante sein. Feldverweise und dynamische Ausdrücke werden nicht unterstützt
+* Beim Umbenennen einer Zielgruppe in Adobe Experience Platform werden `inAudience` Verweise in Journey-Ausdrücken nicht automatisch aktualisiert. Es sind manuelle Aktualisierungen erforderlich
+* Inkonsistente Zusammenführungsrichtlinien für mehrere Zielgruppen, die auf derselben Journey verwendet werden, können zu Fehlern oder Warnhinweisen führen
+
+**Terminologie:**
+* Kanonischer Name: inAudience — Akronym: none — Varianten: inSegment (veralteter Name)
+* Synonyme: „inAudience“ = „Funktion zur Überprüfung der Zielgruppenzugehörigkeit“
+* Verwechseln Sie nicht: „Realisiert“ (aktives Mitglied) ≠ „Ausgetreten“ (kein Mitglied mehr)
+* Verwechseln Sie nicht: „inAudience“ (aktuelle Funktion) ≠ „inSegment“ (veraltete Funktion)
+
+**FAQ:**
+* **F: Was gibt `inAudience` zurück, wenn ein Profil die Zielgruppe verlassen hat?** — Gibt `false` zurück. Nur Profile mit dem Status „Realisiert“ werden als aktive Mitglieder betrachtet und geben `true` zurück.
+* **F: Wie viele Zielgruppen kann ich auf einer Journey einchecken?** — Auf einer Journey können bis zu 100 Zielgruppen abgerufen werden.
+* **F: Was passiert, wenn ich eine Zielgruppe in Adobe Experience Platform umbenenne, nachdem ich sie auf einer Journey verwendet habe?** — Der Journey-Ausdruck wird nicht automatisch aktualisiert. Sie müssen den `inAudience`-Aufruf manuell bearbeiten, um den neuen Zielgruppennamen zu verwenden. Andernfalls wird die Bedingung beschädigt.
+* **F: Wie schnell ist die Zielgruppenzugehörigkeit nach einer Profilaktualisierung auf einer „Zielgruppe lesen“-Journey verfügbar?** — Auf einer Zielgruppen-Journey vor einer Warteaktivität lesen werden Daten aus der Batch-Projektion innerhalb von 2 Stunden nach der Aufnahme aktualisiert.
+* **F: Kann ich ein Profilattribut als Parameter für den Zielgruppennamen übergeben?** — Nein, der Zielgruppenname muss eine Zeichenfolgenkonstante sein. Feldverweise und -ausdrücke werden nicht unterstützt.
+
++++

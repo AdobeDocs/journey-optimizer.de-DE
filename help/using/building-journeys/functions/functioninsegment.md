@@ -10,10 +10,10 @@ exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 100%
+source-wordcount: 521
+ht-degree: 33%
 
 ---
 
@@ -66,4 +66,39 @@ Gibt einen booleschen Wert zurück.
 
 Erklärung:
 
-Die Funktion gibt **[!UICONTROL true]** zurück, wenn die Person in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „men over 50“ (Herren über 50) ist. Andernfalls wird **[!UICONTROL false]** zurückgegeben.
+Die Funktion gibt &quot;**[!UICONTROL &quot; zurück]** wenn die Person in der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe „Männer über 50“ ist, **[!UICONTROL false]** andernfalls.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die alte `inSegment` dokumentiert, die prüft, ob ein Journey-Profil zu einer benannten Adobe Experience Platform-Zielgruppe gehört, und einen booleschen Wert zurückgibt.
+
+**intents:**
+* Überprüfen Sie mithilfe von `inSegment`, ob ein Profil ein aktives Mitglied einer benannten Zielgruppe ist.
+* Verwenden Sie `inSegment('name') == true`, um die realisierte (aktive) Zielgruppenzugehörigkeit in einer Journey-Bedingung zu bestätigen
+* Verwenden Sie `inSegment('name') == false`, um die beendete (inaktive) Zielgruppenzugehörigkeit zu bestätigen
+
+**Glossar:**
+* **Realisiert**: Status der Zielgruppenbeteiligung bedeutet, dass die Entität derzeit für die Segmentdefinition qualifiziert ist *(produktspezifisch)*
+* **Ausgetreten**: Status der Zielgruppenbeteiligung, d. h. die Entität verlässt die Segmentdefinition *produktspezifisch)*
+
+**Leitplanken:**
+* Auf einer Journey können bis zu 100 Zielgruppen abgerufen werden
+* Der Zielgruppenname muss eine Zeichenfolgenkonstante sein. Feldverweise und -ausdrücke werden nicht als Parameter unterstützt
+
+**Terminologie:**
+* Kanonischer Name: inSegment — Akronym: none — Varianten: inAudience (aktuelle bevorzugte Funktion)
+* Synonyme: „inSegment“ = „Prüfung der Zielgruppenzugehörigkeit“ (veraltet)
+* Verwechseln Sie nicht: „inSegment“ (alte/veraltete Funktion) ≠ „inAudience“ (aktuelle empfohlene Funktion)
+* Verwechseln Sie nicht: „realized“ (aktives Mitglied) ≠ „exited“ (kein Mitglied mehr)
+
+**FAQ:**
+* **F: Was ist der Unterschied zwischen `inSegment` und `inAudience`?** — `inSegment` ist der Name der alten Funktion; `inAudience` ist die derzeit empfohlene Funktion. Beide prüfen die Zugehörigkeit zur Zielgruppe, `inAudience` bietet jedoch eine umfassendere Dokumentation mit Leitplanken und Details zum Propagierungs-Timing.
+* **Q: Was bedeutet `inSegment('name') == true`?** — Dies bedeutet, dass das Profil einen „realisierten“ segmentMembership-Status hat, d. h., dass die Person ein aktives Mitglied der Zielgruppe ist.
+* **F: Kann ich einen dynamischen Ausdruck als Zielgruppennamen übergeben?** — Nein, der Zielgruppenname muss eine Zeichenfolgenkonstante sein. Feldverweise und -ausdrücke werden nicht unterstützt.
+* **F: Wie viele Zielgruppen kann ich auf einer Journey auswerten?** — Auf einer Journey können bis zu 100 Zielgruppen abgerufen werden.
+
++++

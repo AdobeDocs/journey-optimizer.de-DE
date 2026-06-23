@@ -9,20 +9,15 @@ keywords: Datum, Funktionen, Ausdruck, Journey, Uhrzeit
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 100%
+source-wordcount: 1275
+ht-degree: 65%
 
 ---
 
@@ -568,5 +563,48 @@ Gibt 2023-08-28T17:15:30.123+02:00 zurück.
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 Wenn der Wert des Zeitstempelfelds `2021-11-16T16:55:12.939318+01:00` ist, gibt die Funktion `2021-11-17T02:55:12.942115+11:00` zurück.
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alle Datums- und Uhrzeitfunktionen dokumentiert, die in AJO-Journey-Ausdrücken verfügbar sind. Sie beschreiben, wie Sie die aktuelle Uhrzeit abrufen, überprüfen, ob ein Datum in ein relatives Zeitfenster fällt, und Datums-/Uhrzeitkomponenten ändern.
+
+**intents:**
+* Abrufen des aktuellen Datums-/Uhrzeitwerts (mit optionaler Zeitzone) mit `now` oder `nowWithDelta`
+* Abrufen der aktuellen Zeit als Epochenzahl mit `currentTimeInMillis`
+* Überprüfen Sie mithilfe von `inLastDays`, `inLastHours`, `inLastMonths` oder `inLastYears`, ob ein Datum/eine Uhrzeit in die letzten N Tage, Stunden, Monate oder Jahre fällt.
+* Überprüfen Sie mithilfe von `inNextDays`, `inNextHours`, `inNextMonths` oder `inNextYears`, ob ein Datum/eine Uhrzeit in die nächsten N Tage, Stunden, Monate oder Jahre fällt.
+* Erzwingen einer bestimmten Stunde oder eines bestimmten Tages des Monats für einen Datums-/Uhrzeitwert mithilfe von `setHours` oder `setDays`
+* Konvertieren Sie eine Datums-/Uhrzeitangabe in eine andere Zeitzone, während Sie mit `updateTimeZone` denselben Zeitpunkt beibehalten.
+
+**Glossar:**
+* **dateTime**: Ein Datums-/Uhrzeitwert, der Zeitzonenversatzinformationen enthält *(produktspezifisch)*
+* **dateTimeOnly**: Ein Datums-/Uhrzeitwert ohne Zeitzoneninformationen *(produktspezifisch)*
+* **Epochenmillisekunden**: Eine Ganzzahl, die die Anzahl der seit 1970-01-01T00-00Z :00: Millisekunden darstellt
+* **delta**: Ein ganzzahliger Offset (positiv oder negativ), der mit `nowWithDelta` verwendet wird, um die aktuelle Zeit um eine Anzahl von Jahren, Monaten, Tagen, Stunden, Minuten oder Sekunden zu verschieben
+
+**Leitplanken:**
+* `now()` ist nur in Journey-Ausdrücken verfügbar. Verwenden Sie stattdessen `getCurrentZonedDateTime()` für die E-Mail-Personalisierung
+* Die Zeitzonen-ID in `nowWithDelta` muss eine Zeichenfolgenkonstante sein. Feldverweise und dynamische Ausdrücke werden nicht unterstützt
+* Die Zeitzonen-ID in `updateTimeZone` muss eine Zeichenfolgenkonstante sein
+
+**Terminologie:**
+* Kanonischer Name: Datumsfunktionen — Akronym: none — Varianten: Datums-/Uhrzeitfunktionen, Zeitfunktionen
+* Synonyme: „now()“ = „current datetime“; „currentTimeInMillis()“ = „Aktuelle Epoche Millisekunden“
+* Verwechseln Sie nicht: „inLastDays“ (blickt zurück in die Zeit) ≠ „inNextDays“ (blickt in die Zeit)
+* Verwechseln Sie nicht: „setHours“ (ersetzt die Stundenkomponente) ≠ „nowWithDelta“ (verschiebt die aktuelle Zeit)
+* Verwechseln Sie nicht: „updateTimeZone“ (gleiche Darstellung des Zeitpunkts, andere Zeitzone) ≠ „setHours“ (ändert den Zeitwert selbst)
+
+**FAQ:**
+* **F: Kann ich `now()` in E-Mail-Personalisierungsinhalten verwenden?** — Nein, `now()` ist nur in Journey-Ausdrücken verfügbar. Verwenden Sie `getCurrentZonedDateTime()` für die E-Mail-Personalisierung.
+* **F: Wie kann ich überprüfen, ob ein Ereignis in den letzten 24 Stunden aufgetreten ist?** — `inLastHours(@event{MyEvent.timestamp}, 24)` verwenden.
+* **F: Wie erhalte ich den aktuellen Zeitversatz um 2 Stunden in der Vergangenheit?** — `nowWithDelta(-2, "hours")` verwenden.
+* **F: Was unterscheidet `updateTimeZone` von `setHours`?** - `updateTimeZone` behält den Zeitpunkt bei, drückt ihn jedoch in einer anderen Zeitzone aus, während `setHours` die Stundenkomponente des Datetime-Werts tatsächlich ändert.
+* **F: Kann der Zeitzonenparameter in `nowWithDelta` ein Profilfeld sein?** — Nein, die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Feldverweise werden nicht unterstützt.
 
 +++

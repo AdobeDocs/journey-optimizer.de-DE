@@ -10,27 +10,15 @@ keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 83%
+source-wordcount: 1842
+ht-degree: 55%
 
 ---
 
@@ -152,3 +140,56 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 * [Konfigurieren von Ausstiegskriterien](journey-properties.md#exit-criteria) – Definieren Sie, wann Profile Ihre Journeys verlassen sollen
 * [Beenden von Journeys](end-journey.md) – Erfahren Sie, wie Journeys abgeschlossen und beendet werden
 * [Journey-Anwendungsfälle](jo-use-cases.md) – Sehen Sie sich vollständige Beispiele mit Eintritts- und Ausstiegskonfigurationen an
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie die Profileintrittverwaltung auf den vier Journey-Typen in Adobe Journey Optimizer funktioniert, einschließlich Durchsatzbeschränkungen, Wiedereintrittseinstellungen und dem Verhalten von Warte- und Aktionsaktivitäten bei der Verarbeitungsrate.
+
+**intents:**
+
+* Machen Sie sich mit dem Einstiegsverhalten und den Durchsatzbeschränkungen für jeden Journey-Typ vertraut (unitäres Ereignis, Geschäftsereignis, Zielgruppe lesen, Zielgruppen-Qualifizierung)
+* Aktivieren oder Deaktivieren des erneuten Eintritts von Profilen und Konfigurieren der Wartezeit für den erneuten Eintritt
+* Mehrere Ausführungen für Geschäftsereignisse für eine Business-Journey zulassen
+* Ermitteln, wie sich Warteaktivitäten und Aktionsaktivitäten auf die Journey-Verarbeitungsrate auswirken
+* Stellen Sie sicher, dass nicht gleichzeitig ein Profil auf derselben Journey vorhanden ist
+
+**Glossar:**
+
+* **Erneuter Eintritt**: Ein Profil kann nach dem Verlassen derselben Journey erneut auf diese zugreifen. Konfigurierbar mit einer Wartezeit *(produktspezifisch)*
+* **Wartezeit bis zum erneuten Eintritt**: Die Mindestdauer, die vergehen muss, bevor ein Profil erneut auf eine Journey zugreifen kann. Der Standardwert ist 5 Minuten, der Maximalwert ist 91 Tage *(produktspezifisch)*
+* **TPS (Transaktionen pro Sekunde)**: Die Durchsatzrate, mit der Profile in eine Journey-*eintreten oder dort verarbeitet werden können (produktspezifisch)*
+* **Unitäres Ereignis-Journey**: Ein Journey, das durch ein einzelnes Ereignis ausgelöst wird, das einem *zugeordnet ist (produktspezifisch)*
+* **Zielgruppen-Journey lesen**: Ein Journey, der einen Stapel von Profilen verarbeitet, die zu einer definierten Zielgruppe gehören, entweder einmal oder nach einem wiederkehrenden Zeitplan *(produktspezifisch)*
+* **Geschäftsereignis-Journey**: Eine von einem Geschäftsereignis ausgelöste Journey, die eine Audience anspricht und *eine Journey-Instanz pro Profil erstellt (produktspezifisch)*
+* **Zielgruppen-Qualifizierungs-Journey**: Ein Journey, der ausgelöst wird, wenn ein Profil in Echtzeit (produktspezifisch) in eine Streaming-Zielgruppe eintritt oder aus *Zielgruppe austritt*
+
+**Leitplanken:**
+
+* Ein Profil kann nicht mehrmals zur gleichen Zeit auf derselben Journey in allen aktiven Versionen vorhanden sein.
+* Zielgruppen-Journey lesen: maximal 20.000 TPS auf Sandbox-Ebene.
+* Journey für Zielgruppenqualifizierung und unitäre Ereignisse: maximal 5.000 TPS, die auf Unternehmensebene freigegeben werden.
+* Geschäftsereignisse zählen zum 5.000-TPS-Kontingent; die nachfolgende Aktivität „Zielgruppe lesen“ folgt dem 20.000-TPS-Limit.
+* Die standardmäßige Wartezeit für den erneuten Eintritt beträgt 5 Minuten. Maximal 91 Tage (globale Zeitüberschreitung).
+* Aktivitäten mit fester Wartezeit können zu Profilspitzen von mehr als 20.000 TPS führen und werden nicht empfohlen.
+* Die standardmäßige Begrenzung für benutzerdefinierte Aktionen beträgt 300.000 Aufrufe pro Minute.
+* Für Business-Journey werden Zielgruppendaten aus der ersten Ausführung eine Stunde lang wiederverwendet.
+
+**Terminologie:**
+
+* Kanonischer Name: Profileintrittsverwaltung — Akronym: n/a — Varianten: Profileintrittsverwaltung, Journey-Eintrag
+* Synonyme: „reentry“ = „Wiedereintritt“
+* Verwechseln Sie nicht: „Unitäres Ereignis-Journey&quot; ≠ „Zielgruppen-Qualifizierungs-Journey&quot; - beide Szenarien sind unitär, werden aber unterschiedlich ausgelöst (Ereignisemission vs. Änderung der Zielgruppenzugehörigkeit)
+
+**FAQ:**
+
+* **F: Kann ein Profil zweimal gleichzeitig auf dieselbe Journey zugreifen?** — Nein, das System verwendet die Profilidentität als Schlüssel und verhindert, dass sich dasselbe Profil gleichzeitig an verschiedenen Stellen auf derselben Journey befindet.
+* **F: Was ist die standardmäßige Wartezeit bis zum erneuten Eintritt?** — 5 Minuten, konfigurierbar bis maximal 91 Tage.
+* **F: Wie viele Profile pro Sekunde kann ein Journey-Prozess vom Typ „Zielgruppe lesen“ verarbeiten?** - Bis zu 20.000 TPS auf Sandbox-Ebene, obwohl dieses Maximum möglicherweise nicht erreicht werden kann, wenn mehrere Journeys gleichzeitig in derselben Sandbox ausgeführt werden.
+* **F: Was passiert mit dem Durchsatz nach einer Warteaktivität mit einer festen Zeit?** — Mehrere Profile können die Wartezeit gleichzeitig beenden und möglicherweise 20.000 TPS überschreiten. Es werden relative Warteaktivitäten empfohlen, um dies zu vermeiden.
+* **F: Kann ein Profil auf einer Business-Journey mehrmals gleichzeitig angezeigt werden?** — Ja, aber nur im Kontext verschiedener Geschäftsereignisse.
+
++++

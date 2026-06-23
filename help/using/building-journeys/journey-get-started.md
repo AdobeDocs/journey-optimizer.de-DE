@@ -10,30 +10,16 @@ hide: true
 keywords: Journey, Orchestrierung, Erste Schritte, Onboarding, Funktionen
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 80%
+source-wordcount: 1602
+ht-degree: 50%
 
 ---
 
@@ -57,7 +43,7 @@ Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-**Bereit zum Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [&#x200B; gestalten &#x200B;](journey-gs.md).
+**Bereit zum Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [ gestalten ](journey-gs.md).
 
 
 ## Wichtigste Funktionen {#capabilities}
@@ -65,7 +51,7 @@ Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Echtzeit- und Batch-Versand**
 
@@ -75,7 +61,7 @@ Versand in Echtzeit **Einzelversand** ausgelöst durch den Empfang eines Ereigni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Kontextuelle Daten**
 
@@ -85,7 +71,7 @@ Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus [!DNL Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Integrierte Aktionen**
 
@@ -95,7 +81,7 @@ Verwenden Sie **integrierten Kanalaktionen** um in [!DNL Journey Optimizer] entw
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Benutzerdefinierte Aktionen**
 
@@ -105,7 +91,7 @@ Erstellen Sie **benutzerdefinierte Aktionen**, wenn Sie ein Drittanbietersystem 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Grafischer Journey-Designer**
 
@@ -115,7 +101,7 @@ Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Wiederverwendbare Journey-Fragmente**
 
@@ -125,7 +111,7 @@ Erstellen Sie einmal einen Satz von Journey-Knoten, z. B. eine Eignungsprüfung 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testen und Optimieren**
 
@@ -146,7 +132,7 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Lernen durch Anwendungsfälle**
 
@@ -156,7 +142,7 @@ Erkunden Sie umfassende End-to-End-Journey-Anwendungsfälle, die reale Implement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -166,7 +152,7 @@ Senden Sie eine personalisierte Willkommens-Journey, wenn Kundinnen und Kunden I
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimieren der E-Mail-Versandzeiten**
 
@@ -176,7 +162,7 @@ Verwenden Sie die KI-gestützte Versandzeitoptimierung, um E-Mails dann zu verse
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Steigern der Versandaktivität**
 
@@ -186,7 +172,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting nach Wochentag**
 
@@ -196,7 +182,7 @@ Senden Sie unterschiedliche Inhalte je nach Wochentag, an dem Kundinnen und Kund
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Häufig gestellte Fragen zu Journeys**
 
@@ -214,7 +200,7 @@ Hier finden Sie Antworten auf häufig gestellte Fragen zur Journey-Erstellung, F
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Erstellen und Verwalten von Journeys**
 
@@ -224,7 +210,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Journey-Aktivitäten**
 
@@ -234,7 +220,7 @@ Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Ausdrücke und Bedingungen**
 
@@ -244,7 +230,7 @@ Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmani
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Fehlerbehebung und Überwachung**
 
@@ -254,7 +240,7 @@ Diagnostizieren und beheben Sie Probleme bei der Ausführung von Journeys mit To
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Journey-Designer – Überblick**
 
@@ -264,7 +250,7 @@ Machen Sie sich mit der Journey-Arbeitsfläche, der Palette und dem Design Ihrer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testen und Veröffentlichen**
 
@@ -279,7 +265,7 @@ Testen Sie Ihre Journeys gründlich, bevor Sie sie veröffentlichen, um sicherzu
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Zusätzliche Ressourcen
 
@@ -288,3 +274,45 @@ Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Er
 * **[Fehlerbehebung](troubleshooting.md)** – Häufige Probleme mit Journeys und deren Lösungen
 * **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – Erfahren Sie mehr über das Erstellen von Journeys anhand praktischer Video-Tutorials
 * **[Leitlinien und Einschränkungen bei Journeys](../start/guardrails.md)** – Erhalten Sie Informationen zu Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer]
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Dies ist das umfassende Erste-Schritte-Handbuch für die Journey-Orchestrierung in Adobe Journey Optimizer, das wichtige Funktionen (Echtzeit- und Batch-Bereitstellung, kontextuelle Daten, integrierte und benutzerdefinierte Aktionen, Visual Designer, Journey-Fragmente und Tests), gängige Anwendungsfälle und Links zu allen wichtigen Lernressourcen behandelt.
+
+**intents:**
+* Machen Sie sich mit den wichtigsten Funktionen von Journey Optimizer Journey Designer vertraut, bevor Sie eine erste Journey erstellen
+* Navigieren Sie zur richtigen Ressource, um Journey zu erstellen, zu verwalten, zu testen oder Fehler zu beheben
+* Erfahren Sie, wie Sie mit :1 Journey-Designer Echtzeit-Nachrichten über einen beliebigen Kanal hinweg in Trigger 1 konvertieren können
+* Erfahren Sie, wie Journey-Fragmente die Wiederverwendung gängiger Knotenlogik in Journey ermöglichen
+* Greifen Sie auf Video-Tutorials und schrittweise Anleitungen für gängige Journey-Anwendungsfälle wie Willkommensserien, Warenkorbabbrüche und Sendezeitoptimierung zu
+
+**Glossar:**
+* **Journey-Designer**: Die visuelle Drag-and-Drop-Arbeitsfläche in Adobe Journey Optimizer, die zum Erstellen und Orchestrieren mehrstufiger Kunden-Journey verwendet wird *(produktspezifisch)*
+* **Journey-Fragment**: Ein wiederverwendbarer Satz von Journey-Knoten (z. B. Eignungsprüfung, Kanalrouting-Logik), der einmal erstellt und in mehrere Journey eingefügt wurde *(produktspezifisch)*
+* **Einzelversand**: Eine Echtzeitnachricht, die für ein einzelnes Profil ausgelöst wird, wenn ein bestimmtes Ereignis eintritt *(produktspezifisch)*
+* **Batch-Versand**: Nachrichten, die an alle Profile in einer Adobe Experience Platform-Zielgruppe gleichzeitig oder nach einem Zeitplan gesendet werden *(produktspezifisch)*
+* **Sendezeitoptimierung (STO)**: Eine KI-gesteuerte Funktion, die den optimalen Zeitpunkt für den Versand einer Nachricht an jedes einzelne Profil vorhersagt, um die Interaktion zu *(produktspezifisch)*
+* **Benutzerdefinierte Aktion**: Eine Journey-Aktivität, die über eine API eine Verbindung zu einem Drittanbietersystem herstellt, um Nachrichten zu senden oder Daten abzurufen *produktspezifisch)*
+
+**Leitplanken:**
+* Journey-Leitplanken und -Einschränkungen werden separat auf der Seite mit Leitplanken beschrieben und sollten vor dem Entwurf im großen Maßstab überprüft werden
+* Benutzerdefinierte Aktionen erfordern eine vorherige Konfiguration durch einen technischen Anwender, bevor sie auf einer Journey verwendet werden können
+* Journey-Fragmente müssen aktiv sein, bevor sie in eine Journey eingefügt werden können
+
+**Terminologie:**
+* Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierungsfluss, mehrstufige Journey
+* Synonyme: &quot;Journey Designer“ = &quot;Journey Arbeitsfläche“ = &quot;Journey-Baukasten“
+* Verwechseln Sie nicht: „Integrierte Kanalaktionen“ ≠ „Benutzerdefinierte Aktionen“ — Integrierte Aktionen verwenden native AJO-Kanäle; benutzerdefinierte Aktionen rufen externe Drittanbieter-APIs auf
+
+**FAQ:**
+* **F: Was ist der Unterschied zwischen Echtzeit-(unitärem) Versand und Batch-Versand in Journey?** — Beim Einzelversand wird jeweils eine Nachricht für ein Profil in Echtzeit an den Trigger gesendet, wenn ein Ereignis auftritt. Beim Batch-Versand werden alle Profile in einer Zielgruppe gleichzeitig oder nach einem Zeitplan mithilfe der Aktivität „Zielgruppe lesen“ verarbeitet.
+* **F: Kann ich eine gängige Logik (wie eine Eignungsprüfung) für mehrere Journey wiederverwenden?** - Ja. Speichern Sie die Knoten als Journey-Fragment und fügen Sie das aktive Fragment in eine beliebige Journey in der Sandbox ein.
+* **F: Wo kann ich meine erste Journey erstellen?** - Folgen Sie der Schritt-für-Schritt-Anleitung auf der Seite „Erstellen Sie Ihre erste Journey&quot;, die Sie durch die Auswahl der Einstiegspunkte, das Arbeitsflächen-Design, Tests und die Veröffentlichung führt.
+* **F: Wie sende ich Nachrichten über ein Drittanbietersystem von einer Journey?** - Konfigurieren Sie eine benutzerdefinierte Aktion, um die externe API aufzurufen, und fügen Sie sie dann als Aktionsaktivität in der Journey-Arbeitsfläche hinzu.
+* **Q: Wo finde ich Antworten auf häufige Journey-Fragen?** - Auf der FAQ-Seite zum Journey finden Sie Antworten zu Konzepten, Erstellung, Tests, Ausführung, Überwachung und Best Practices.
+
++++

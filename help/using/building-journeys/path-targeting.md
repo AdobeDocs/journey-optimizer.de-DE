@@ -11,10 +11,10 @@ keywords: Zielgruppenbestimmung, Regeln, Journey, Pfad, Optimierung, Personalisi
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 86%
+source-wordcount: 1327
+ht-degree: 53%
 
 ---
 
@@ -144,5 +144,46 @@ Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen Pfad 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![Targeting anhand des Kaufverlaufs mit Crosssell-Pfad für Käuferinnen und Käufer und Nurturing-Pfad für Nicht-Käuferinnen und -Käufer](assets/journey-optimize-targeting-uc-purchase.png)
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** Auf dieser Seite wird erläutert, wie Sie das Pfad-Targeting in Adobe Journey Optimizer-Journey verwenden können, um bestimmte Zielgruppensegmente basierend auf definierten Regeln deterministisch in designierte Journey-Pfade zu leiten.
+
+**intents:**
+- Konfigurieren Sie das deterministische Pfad-Targeting mithilfe der Aktivität Optimieren mit einer Targeting-Regelmethode
+- Erstellen neuer Zielgruppenregeln oder Wiederverwenden vorhandener Regeln über das Menü Regeln
+- Fallback-Pfad für Profile definieren, die sich für keine Targeting-Regel qualifizieren
+- Personalisieren von Journey-Pfaden für bestimmte Zielgruppensegmente (z. B. Treuestufen, Verhalten, Kaufverlauf)
+- Ändern von Inline-Targeting-Regeln ohne Auswirkungen auf die ursprüngliche Regeldefinition
+
+**Glossar:**
+- **Aktivität optimieren**: Eine Journey-Arbeitsflächen-Aktivität, die verwendet wird, um Profile entweder durch Experimentieren (zufällig) oder Targeting (deterministisch) *produktspezifisch) in verschiedene Pfade aufzuteilen*
+- **Zielgruppenbestimmungsregel** Eine deterministische Qualifizierungsbedingung, die anhand von Profil- oder Zielgruppenattributen entscheidet, in welchen Journey-Pfad ein Profil *(produktspezifisch)*
+- **Fallback-Pfad** Ein alternativer Journey-Pfad für Profile, die keine der definierten Zielgruppenbestimmungsregeln erfüllen *(produktspezifisch)*
+
+**Leitplanken:**
+- Das Pfad-Targeting ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten.
+- Zum Erstellen von Zielgruppenregeln über das dedizierte Menü Journey Optimizer-Regeln ist das Decisioning-Add-on erforderlich oder es ist nach Bedarf verfügbar (eingeschränkte Verfügbarkeit).
+- Wenn eine Regel aus dem Menü Regeln ausgewählt und auf die Journey kopiert wird, wirken sich nachfolgende Änderungen an der Originalregel nicht auf die Journey-Kopie aus.
+- Durch die Inline-Bearbeitung einer Regel wird die ursprüngliche Regel, von der sie stammt, nicht geändert.
+- Wenn die Option Fallback-Pfad nicht aktiviert ist, beenden Profile, die sich nicht für Zielgruppenbestimmungsregeln qualifizieren, die Journey vollständig.
+
+**Terminologie:**
+- Kanonischer Name: Path Targeting — Akronym: none — Varianten: deterministisches Pfadrouting, regelbasierte Pfadaufteilung
+- Synonyme: „Zielgruppenbestimmungsregel“ = „Qualifizierungsregel“ = „Pfadbedingung“
+- Verwechseln Sie nicht: „Targeting“ ≠ „Experimentieren“ (Targeting ist deterministisch; Experimentieren ist zufällige Zuweisung)
+
+**FAQ:**
+- **F: Was ist der Unterschied zwischen Pfad-Targeting und Pfadexperiment?** — Zielgruppenbestimmung ist deterministisch: Profile geben einen Pfad auf der Grundlage definierter Regeln ein. Experimente erfolgen zufällig: Profile werden Pfaden zugewiesen, um die Leistung zu vergleichen.
+- **F: Was passiert mit Profilen, die sich für keine Zielgruppenbestimmungsregel qualifizieren?** — Wenn die Option Fallback-Pfad aktiviert ist, wird der Fallback-Pfad angegeben. Wenn sie nicht aktiviert sind, verlassen sie die Journey vollständig.
+- **F: Kann ich eine vorhandene Regel aus dem Menü Regeln wiederverwenden?** - Ja, aber die Regelformel wird in die Journey-Aktivität kopiert. Nachfolgende Änderungen an der ursprünglichen Regel im Menü Regeln wirken sich nicht auf die Journey-Kopie aus.
+- **F: Ändert sich durch die Inline-Bearbeitung einer Zielgruppenbestimmungsregel die ursprüngliche Regel?** — Nein. Bei der Inline-Bearbeitung wird nur die Regel innerhalb der Journey-Aktivität aktualisiert, nicht jedoch die Quellregel.
+- **F: Wer kann auf das Pfad-Targeting zugreifen?** — Es ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.
 
 +++

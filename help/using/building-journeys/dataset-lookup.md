@@ -11,25 +11,16 @@ version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 75%
+source-wordcount: 1500
+ht-degree: 48%
 
 ---
 
@@ -229,3 +220,55 @@ Die von der Aktivität **[!UICONTROL Datensatzsuche]** abgerufenen Daten werden 
 **Ursache:** Der Suchschlüssel in der Datensatz-Suchaktivität wurde im einfachen Modus festgelegt. Wenn der Schlüssel im erweiterten Modus nicht definiert ist, wird die Aktivitätsausgabe in nachgelagerten Aktivitäten nicht als Kontextattribut bereitgestellt.
 
 **Behebung:** Öffnen Sie die Aktivität Datensatzsuche , suchen Sie das Feld **[!UICONTROL Suchschlüssel(n)]** und wechseln Sie in den **erweiterten Modus**, um den Schlüsselausdruck neu zu definieren. Speichern Sie die Aktivität, und veröffentlichen Sie die Journey erneut.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie die Datensatzsuchaktivität konfigurieren können, um AEP-Datensatzdaten zur Journey-Laufzeit dynamisch abzurufen, um Personalisierung in Echtzeit und bedingte Logik zu nutzen.
+
+**intents:**
+
+* Hinzufügen einer Datensatz-Lookup-Aktivität zu einer Journey, um externe AEP-Datensatzdaten zur Laufzeit abzurufen
+* Bestimmte Datensatzfelder (Blattknoten/Grundwerte) auswählen, die während der Suche abgerufen werden sollen
+* Definieren eines Suchschlüssels im erweiterten Modus, um Journey-Kontext mit Datensatzdatensätzen zu verbinden
+* Verwenden von angereicherten Datensatzdaten im Journey-Ausdruckseditor oder Personalisierungseditor
+* Fehlerbehebung bei Fehlern bei „Datensatz-Suche nicht gefunden“, die durch die Verwendung des einfachen Modus für den Suchschlüssel verursacht wurden
+
+**Glossar:**
+
+* **Datensatzsuchaktivität**: Eine Journey-Orchestrierungsaktivität, die Daten zur Laufzeit aus AEP-Datensatzdatensätzen mithilfe eines Verbindungsschlüssels abruft *produktspezifisch)*
+* **Blattknoten**: Ein Feld auf der niedrigsten Ebene einer Schemahierarchie, das einen primitiven Wert (Zeichenfolge, Zahl, boolescher Wert, Datum) enthält *(produktspezifisch)*
+* **Lookup key**: Der Verbindungsausdruck (Zeichenfolge oder Liste von Zeichenfolgen), mit dem Journey-Kontextdaten mit Datensätzen im ausgewählten Datensatz abgeglichen werden *(produktspezifisch)*
+* **Angereicherte Daten**: Daten, die von einer Datensatzsuchaktivität abgerufen und vorübergehend im Journey-Kontext gespeichert werden, um sie in nachgelagerten Aktivitäten zu verwenden *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Maximal 10 Datensatzsuchaktivitäten pro Journey.
+* Pro Lookup-Aktivität können maximal 20 ausgewählte Felder ausgewählt werden.
+* Es können maximal 50 Schlüssel im Suchschlüssel-Array vorhanden sein.
+* Die Größe der angereicherten Daten ist auf 10 KB beschränkt.
+* Der Datensatz muss in Adobe Experience Platform für die Suche aktiviert sein, bevor er in der Aktivitätskonfiguration angezeigt wird.
+* Es können nur Blattknoten (primitive Werte) ausgewählt werden. Arrays und Karten können nicht ausgewählt werden.
+* Als Lookup-Schlüssel werden nur Zeichenfolgen oder Zeichenfolgenlisten unterstützt.
+* Der Lookup-Schlüssel muss im erweiterten Modus definiert werden. Die Verwendung des einfachen Modus führt dazu, dass die Aktivitätsausgabe nachgelagert nicht als Kontextattribut verfügbar ist.
+* Angereicherte Daten sind vorübergehend und nur während der Journey-Laufzeit und bei der Personalisierung ausgehender Aktivitäten verfügbar.
+* Für eine optimale Leistung werden bis zu 5 Lookup-Aktivitäten pro Journey und bis zu 20 Attribute pro Lookup empfohlen.
+
+**Terminologie:**
+
+* Kanonischer Name: Datensatz-Suchaktivität — Akronym: n/a — Varianten: AEP-Datensuche, Datenanreicherungsaktivität
+* Synonyme: „lookup key“ = „Verbindungsschlüssel“
+* Verwechseln Sie nicht: „Datensatzsuchaktivität“ ≠ „Erlebnisereignis-Suche“ — durch die Datensatzsuche werden Datensatzdaten und nicht Zeitreihen-Erlebnisereignisse abgerufen
+
+**FAQ:**
+
+* **F: Warum wird mein Datensatz nicht in der Dropdown-Liste Datensatzfeld angezeigt?** - Der Datensatz muss für die Suche in Adobe Experience Platform aktiviert sein. Befolgen Sie die Anweisungen im Abschnitt „Muss gelesen werden“, um diese zu aktivieren.
+* **F: Warum gibt `@datasetLookup{}` den Fehler „Datensatzsuche nicht gefunden“ in einer Bedingung zurück?** - Der Lookup-Schlüssel wurde im einfachen Modus anstelle des erweiterten Modus definiert. Definieren Sie sie im erweiterten Modus neu und veröffentlichen Sie die Journey erneut.
+* **F: Kann ich Arrays oder Zuordnungsfelder aus dem Datensatz abrufen?** — Nein, es können nur primitive Blattknotenfelder (Zeichenfolge, Zahl, Boolesch, Datum) ausgewählt werden.
+* **F: Wie greife ich in einer E-Mail auf angereicherte Daten zu?** - Verwenden Sie den Personalisierungseditor mit dem `{{context.journey.datasetLookup.<activityId>.entities}}`.
+* **F: Werden angereicherte Daten nach dem Ende der Journey beibehalten?** — Nein, angereicherte Daten sind vorübergehend und nur während der Journey-Laufzeitsitzung verfügbar.
+
++++

@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 89%
+source-wordcount: 2580
+ht-degree: 65%
 
 ---
 
@@ -214,3 +208,51 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
    >[!NOTE]
    >
    >Hinweis: Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Aktivität „Bedingung“ in Journey Optimizer beschrieben, wobei die fünf verfügbaren Bedingungstypen abgedeckt werden: Daten-Source, Zeit, prozentuale Aufspaltung, Datum und Profilbegrenzung. Außerdem wird beschrieben, wie Profile basierend auf Regeln, Daten oder der Zielgruppenzugehörigkeit zu verschiedenen Journey-Pfaden weitergeleitet werden.
+
+**intents:**
+* Fügen Sie einer Journey die Aktivität Bedingung hinzu und erstellen Sie mehrere Verzweigungspfade
+* Konfigurieren einer Data Source-Bedingung mithilfe des Ausdruckseditors, um Profil- oder Ereignisattribute zu bewerten
+* Richten Sie eine Zeitbedingung ein, um Profile basierend auf der Tageszeit oder dem Wochentag zu routen
+* Prozentuale Aufspaltung verwenden, um Profile nach dem Zufallsprinzip über Pfade zu verteilen
+* Wenden Sie eine Profilbegrenzung an, um die Anzahl der Profile zu begrenzen, die einen bestimmten Journey-Pfad verwenden
+* Verwenden einer Prüfung der Zielgruppenzugehörigkeit als Bedingung in einem Journey-Pfad
+
+**Glossar:**
+* **Bedingungsaktivität** Eine Journey-Aktivität, die Regeln auswertet und Profile basierend auf dem Ergebnis (*) an verschiedene Pfade weiterleitet*
+* **Data Source-Bedingung**: Ein Bedingungstyp, der Felder aus Datenquellen oder Journey-Ereignissen mithilfe des Ausdruckseditors auswertet *(produktspezifisch)*
+* **Zeitbedingung**: Ein Bedingungstyp, der Profile basierend auf der Stunde des Tages, dem Wochentag oder einer Kombination aus beiden *(produktspezifisch)*
+* **Prozentuale Aufspaltung**: Ein Bedingungstyp, der Profile mithilfe eines statistischen Java-Zufallsmechanismus nach dem Zufallsprinzip *(produktspezifisch) auf Pfade verteilt*
+* **Profilbegrenzung**: Ein Bedingungstyp, der die Anzahl der Profile begrenzt, die einen bestimmten Pfad einschlagen können. Zusätzliche Profile werden an einen alternativen Pfad weitergeleitet *produktspezifisch)*
+* **Alternativpfad**: Ein Fallback-Pfad, der aktiviert wird, wenn ein Fehler, eine Zeitüberschreitung oder ein Profilbegrenzungs-Limit erreicht wird *(produktspezifisch)*
+
+**Leitplanken:**
+* Die Bedingungsauswertung schlägt für Profile mit mehr als zwei geräteübergreifenden Identitäten im Profilspeicher fehl
+* Schemafelder ohne aufgenommene Daten werden als null interpretiert. isEmpty() und isNull() werden für solche Felder als „true“ ausgewertet, was zu unerwartetem Verhalten führen kann
+* Die Zeitzone wird auf Journey-Ebene definiert, nicht auf der Ebene einzelner Bedingungen
+* Die Option „Pfad für andere Fälle anzeigen“ ist in Bedingungen für die prozentuale Aufspaltung nicht verfügbar
+* Die Standardeinstellung für die Profilbegrenzung ist 1.000. Der Zähler wird zurückgesetzt, wenn die Journey dupliziert oder eine neue Version erstellt wird, jedoch nicht zwischen Wiederholungen einer wiederkehrenden Journey
+* Bei einer Kappe über 10.000 injizieren Sie mindestens das 1,3-fache der Kappenanzahl an Profilen; bei einer Kappe unter 10.000 injizieren Sie mindestens 1.000 plus der Kappe
+* Profilbegrenzung wird im Testmodus nicht angewendet
+* Zeitreihenabfragen (z. B. Liste der Käufe, vergangene Klicks) werden im einfachen Ausdruckseditor nicht unterstützt. Der erweiterte Editor muss verwendet werden
+
+**Terminologie:**
+* Kanonischer Name: Bedingung Aktivität — Akronym: none — Varianten: Bedingung Knoten, Bedingung Schritt
+* Synonyme: „Data Source condition“ = „Ausdrucksbasierte Bedingung“ ; „Prozentuale Aufspaltung“ = „zufällige Aufspaltung“
+* Verwechseln Sie nicht: „Prozentuale Aufspaltung“ ≠ „Profilbegrenzung“ (prozentuale Aufspaltung verteilt nach dem Zufallsprinzip alle Profile; Profilbegrenzung stoppt das Routing zu einem Pfad, sobald ein Zählschwellenwert erreicht wird)
+
+**FAQ:**
+* **F: Was passiert, wenn mehrere Pfade definiert werden und ein Profil mehr als eine Bedingung erfüllt?** — Nur der erste auswählbare Pfad (von oben nach unten auf der Arbeitsfläche) wird ausgeführt. Die Pfadreihenfolge bestimmt die Priorität.
+* **F: Kann ich einen Fallback-Pfad für Profile hinzufügen, die keiner Bedingung entsprechen?** — Ja, aktivieren Sie „Pfad für andere Fälle als die obigen anzeigen“ — außer bei Bedingungen für die prozentuale Aufspaltung, bei denen alle Profile immer in einen der Aufspaltungspfade eintreten.
+* **F: Warum wird meine Bedingung isEmpty() für ein Feld, das Daten enthalten soll, als „true“ ausgewertet?** — Wenn das Schemafeld vorhanden ist, aber keine Daten dafür aufgenommen wurden, interpretieren Journey Optimizer und das Echtzeit-Kundenprofil es als null, sodass isEmpty() und isNull() „true“ zurückgeben.
+* **F: Wird der Zähler für die Profilbegrenzung auf einer wiederkehrenden Journey zurückgesetzt?** — Nein, der Zähler wird nicht zwischen den Wiederholungen zurückgesetzt, sondern nur zurückgesetzt, wenn die Journey dupliziert oder eine neue Version erstellt wird.
+* **F: Wie funktioniert die prozentuale Aufspaltung im Testmodus?** — Im Testmodus wird immer die oberste Verzweigung ausgewählt, unabhängig von den konfigurierten Aufspaltungsprozentsätzen.
+
++++

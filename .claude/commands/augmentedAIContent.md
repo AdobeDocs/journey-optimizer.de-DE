@@ -1,5 +1,5 @@
 ---
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` allein auf einer Linie schließt das Akkordeon
 - Leerzeile vor dem `+++` und nach dem `+++`
 
-&#x200B;---
+---
 
 ## Workflow
 
@@ -58,7 +58,7 @@ Hängen Sie ganz am Ende der Datei an. Ändern Sie keine anderen Inhalte.
 - Dateien ✓ geändert
 - Dateien übersprungen + Grund (hat bereits Akkordeon / leer / Indexseite)
 
-&#x200B;---
+---
 
 ## Regeln zur Inhaltserstellung
 
@@ -130,12 +130,16 @@ Kanonische Namen, Akronyme, akzeptierte Varianten, Synonyme, Uneindeutigkeit. Ha
 
 - **nicht** den Hauptteilinhalt neu schreiben oder zusammenfassen (er befindet sich bereits auf der Seite)
 - **keine** schrittweisen Anweisungen enthalten
-- Erfinden **&#x200B;**&#x200B;Inhalte, die von der Seite nicht unterstützt werden
+- Erfinden **** Inhalte, die von der Seite nicht unterstützt werden
 
 ### Vollständige Vorlage
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -159,7 +163,7 @@ Kanonische Namen, Akronyme, akzeptierte Varianten, Synonyme, Uneindeutigkeit. Ha
 +++
 ```
 
-&#x200B;---
+---
 
 ## Anmerkungen
 

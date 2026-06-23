@@ -11,31 +11,16 @@ keywords: Aktivität, Journey, Zielgruppe lesen, Zielgruppe, Segment, Batch, Ein
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 55%
+source-wordcount: 4752
+ht-degree: 46%
 
 ---
 
@@ -47,7 +32,7 @@ ht-degree: 55%
 
 >[!ENDSHADEBOX]
 
-Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [&#x200B; Pfad jedes Profils mit &#x200B;](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
+Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [ Pfad jedes Profils mit ](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
 
 ## Über die Aktivität „Zielgruppe lesen“ {#about-segment-trigger-activity}
 
@@ -145,7 +130,7 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 
 Optional können Sie **Zusätzliche Kennung verwenden** aktivieren, um die Journey zusätzlich zur Profil-ID im Kontext einer sekundären Kennung (z. B. einer Auftrags-ID oder Buchungs-ID) auszuführen. Dies ermöglicht mehrere Eintritte desselben Profils, wenn die zusätzliche Kennung unterschiedlich ist.
 
-[Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden](supplemental-identifier.md). Bei Journey-Dateien vom Typ „Zielgruppe lesen“ wird die zusätzliche Kennung aus dem **Vereinigungs-/Profilschema** für Zielgruppen vom Typ **Unified Profile Service** vorbereitet oder aus geeigneten Attributen für **externe Zielgruppen** ausgewählt (z. B. Zielgruppen [&#x200B; aus einer CSV-Datei &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md)). Die Leserate ist auf 500 Profile pro Sekunde pro Journey-Instanz beschränkt, wenn eine zusätzliche ID verwendet wird.
+[Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden](supplemental-identifier.md). Bei Journey-Dateien vom Typ „Zielgruppe lesen“ wird die zusätzliche Kennung aus dem **Vereinigungs-/Profilschema** für Zielgruppen vom Typ **Unified Profile Service** vorbereitet oder aus geeigneten Attributen für **externe Zielgruppen** ausgewählt (z. B. Zielgruppen [ aus einer CSV-Datei ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md)). Die Leserate ist auf 500 Profile pro Sekunde pro Journey-Instanz beschränkt, wenn eine zusätzliche ID verwendet wird.
 
 ### Schutzmechanismen und Empfehlungen {#must-read}
 
@@ -154,7 +139,7 @@ Alle Leitplanken und Einschränkungen für die Aktivität **Zielgruppe lesen** (
 **Recommendations**
 
 * Verwenden Sie als Best Practice Batch-Zielgruppen in einer Aktivität vom Typ **Zielgruppe lesen**, um eine zuverlässige und konsistente Zählung zu erzielen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn für Ihren Anwendungsfall Echtzeitdaten benötigt werden, verwenden Sie stattdessen die Aktivität [Zielgruppen](audience-qualification-events.md)Qualifizierung.
-* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 * Informationen zur Momentaufnahme der Zielgruppe, zu den Batch-Segmentierungs-Fertigstellungsfenstern und dazu, wie Sie sicherstellen, dass Ihr Journey immer mit den aktuellsten Daten ausgeführt wird, finden Sie unter [Timing und Datenweitergabe](#timing-and-data-propagation). Bei wiederkehrenden Journey sollten Sie die Option **[!UICONTROL Trigger nach Batch-Zielgruppenbewertung aktivieren]** um die Ausführung automatisch zu verzögern, bis der letzte Zielgruppen-Schnappschuss bereit ist. [Weitere Informationen](#schedule).
 
 >[!CAUTION]
@@ -436,10 +421,63 @@ Eine vollständige Liste der Leitplanken für „Zielgruppe lesen“ (einschlie�
 * [Journey testen](testing-the-journey.md) - Validieren Sie Ihre Journey-Logik mithilfe von Testprofilen, bevor Sie live gehen.
 * [Journey veröffentlichen](../building-journeys/publish-journey.md) - Aktivieren Sie Ihren Journey und überwachen Sie die Erstausführung.
 * [Nachricht an Abonnenten senden](message-to-subscribers-uc.md) - End-to-End-Anwendungsfall: Eine Abonnement-Liste mit der Journey „Zielgruppe lesen“ vom Setup bis zum Versand ansprechen.
-* [Best Practices für Journey von Zielgruppen lesen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=de){target="_blank"} - Community-Blog, der häufige Fallstricke, Diskrepanzen bei der Zählung und bewährte Best Practices behandelt.
+* [Best Practices für Journey von Zielgruppen lesen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} - Community-Blog, der häufige Fallstricke, Diskrepanzen bei der Zählung und bewährte Best Practices behandelt.
 
 ## Anleitungsvideo {#video}
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie die Aktivität „Zielgruppe lesen“ in Adobe Journey Optimizer konfigurieren und verwenden können, um Profile aus einer Adobe Experience Platform-Zielgruppe einmal oder wiederholt zu einer Journey hinzuzufügen. Dabei erhalten Sie Anleitungen zu Planung, Durchsatz, Fehlerbehebung und Best Practices.
+
+**intents:**
+* Konfigurieren der Aktivität „Zielgruppe lesen“ als Einstiegspunkt für eine Journey
+* Auswählen einer Adobe Experience Platform-Zielgruppe und eines Identity-Namespace für die Journey
+* Leserate festlegen, um zu steuern, wie viele Profile pro Sekunde eintreten
+* Planen Sie die Ausführung einer Journey einmal, täglich, wöchentlich oder auf einem benutzerdefinierten Intervall
+* Inkrementelles Lesen aktivieren, um bei wiederkehrenden Ausführungen nur neue Zielgruppenmitglieder zu verarbeiten
+* Fehlerbehebung bei Zielgruppengröße-Diskrepanzen, Nullprofilausführungen und verzögerten Einträgen
+* Entscheiden Sie zwischen „Zielgruppe lesen“ und „Zielgruppen-Qualifizierung“, basierend auf Batch- und Echtzeit-Anforderungen.
+
+**Glossar:**
+* **Aktivität „Zielgruppe lesen**: Die Einstiegspunktaktivität &quot;Journey&quot;, die alle qualifizierten Profile aus einer ausgewählten Adobe Experience Platform-Zielgruppe liest und sie zur Journey-*hinzufügt (produktspezifisch)*
+* **Leserate**: Die maximale Anzahl von Profilen, die pro Sekunde auf den Journey zugreifen können (500-20.000; standardmäßig 5.000) *(produktspezifisch)*
+* **Inkrementelles Lesen**: Eine Option für wiederkehrendes Journey, die nur Profile verarbeitet, die seit der letzten Journey-Ausführung neu zur Zielgruppe hinzugefügt wurden *(produktspezifisch)*
+* **Erneuten Eintritt bei Wiederholung erzwingen**: Eine Planungsoption, mit der alle aktiven Journey-Teilnehmer vor jeder neuen Ausführung entfernt werden, damit Profile erneut in *eintreten können (produktspezifisch)*
+* **Trigger nach der Batch-Zielgruppenauswertung**: Eine Planungsoption, die die Journey-Ausführung verzögert, bis ein neuer Batch-Zielgruppen-Schnappschuss verfügbar ist (bis zu 6 Stunden) *(produktspezifisch)*
+* **Zusätzliche Kennung**: Eine sekundäre Kennung (z. B. Bestell-ID), die es demselben Profil ermöglicht, mehrmals auf die Journey zuzugreifen, wenn die Kennung *(produktspezifisch)*
+
+**Leitplanken:**
+* Pro Journey ist nur eine Aktivität des Typs „Zielgruppe lesen“ zulässig, die die erste Aktivität sein muss.
+* Pro Aktivität vom Typ „Zielgruppe lesen“ kann nur eine Zielgruppe ausgewählt werden.
+* Bis zu fünf gleichzeitige Ausführungen von „Zielgruppe lesen“ pro Organisation.
+* Die maximale Leserate beträgt 20.000 Profile pro Sekunde pro Sandbox (Summe aller gleichzeitigen Aktivitäten vom Typ „Zielgruppe lesen„).
+* Die Leserate ist auf 500 Profile pro Sekunde beschränkt, wenn eine zusätzliche Kennung verwendet wird.
+* Nur Profile mit dem Status Realisierte Zielgruppenbeteiligung treten in die Journey ein.
+* Es sind nur personenbasierte Identity-Namespaces verfügbar. Profile ohne den ausgewählten Namespace können nicht eintreten.
+* Das 12-Stunden-Auftrags-Timeout gilt für Aufträge zum Lesen von Zielgruppen-Exporten.
+* Weitere Zustellversuche für fehlgeschlagene Exportvorgänge werden bis zu 1 Stunde alle 10 Minuten durchgeführt.
+* Bei benutzerdefinierten Upload-Zielgruppen mit aktiviertem inkrementellem Lesen werden Profile nur bei der ersten Wiederholung abgerufen (diese Zielgruppen sind fest).
+* Skalieren Sie den Gewinner und er ist nicht für Journey unter Zielgruppe lesen (Pfadexperiment) verfügbar.
+
+**Terminologie:**
+* Kanonischer Name: Zielgruppe lesen — Akronym: none — Varianten: Segment-Trigger, zielgruppenbasierter Journey-Eintrag, Segment lesen (Legacy-API-Name)
+* Synonyme: „Zielgruppe lesen“ = „Segment-Trigger&quot; = „Zielgruppen-Journey&quot;
+* Verwechseln Sie nicht: „Zielgruppe lesen“ ≠ „Zielgruppen-Qualifizierung“ (Zielgruppe lesen ist im Batch/Zeitplan; Zielgruppen-Qualifizierung ist Echtzeit-Streaming)
+
+**FAQ:**
+* **F: Wann sollte ich „Zielgruppe lesen“ anstelle von „Zielgruppen-Qualifizierung“ verwenden?** — Verwendung von „Zielgruppe lesen“ für Batch-Anwendungsfälle, für geplante Anwendungen (z. B. wöchentliche Newsletter, Rückgewinnungskampagnen). Verwenden Sie die Zielgruppen-Qualifizierung, wenn Profile die Journey sofort betreten müssen, da sie sich in Echtzeit qualifizieren.
+* **F: Warum treten weniger Profile in die Journey ein als die Zielgruppengröße?** — Häufige Ursachen sind Profile ohne den ausgewählten Namespace, Batch-Segmentierungsvorgänge, die vor der Ausführung der Journey noch nicht abgeschlossen waren, oder Profile, die sich nicht im Status „Realisiert“ befinden. Aktivieren Sie &quot;Trigger nach der Batch-Zielgruppenauswertung“ und überprüfen Sie die Namespace-Konfiguration.
+* **F: Was bewirkt das inkrementelle Lesen beim ersten Durchlauf?** — Bei der ersten Ausführung treten alle Zielgruppenprofile ein. Bei nachfolgenden Ausführungen werden nur Profile verarbeitet, die der Zielgruppe seit der letzten Ausführung neu hinzugefügt wurden.
+* **F: Was passiert, wenn der Exportvorgang fehlschlägt?** — Das System versucht es alle 10 Minuten für bis zu 1 Stunde erneut. Fehler werden in Warnhinweisen gemeldet. Nach einer Stunde ohne Erfolg wird der Durchlauf als fehlgeschlagen betrachtet.
+* **F: Kann dasselbe Profil mehrmals auf eine Journey mit dem Titel „Zielgruppe lesen“ zugreifen?** — Ja, wenn eine zusätzliche Kennung konfiguriert ist, die sich zwischen den Einträgen unterscheidet, oder wenn Erneuten Eintritt bei Wiederholung erzwingen aktiviert ist. Ohne diese Elemente kann ein Profil nicht mehrmals gleichzeitig vorhanden sein.
+* **F: Wie lange bleibt eine einmalige Journey mit dem Titel „Zielgruppe lesen“ aktiv?** — Der Status wird 91 Tage nach der Ausführung in Beendet geändert (das globale Journey-Timeout).
+
++++

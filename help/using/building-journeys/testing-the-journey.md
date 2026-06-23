@@ -11,27 +11,16 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2335
-ht-degree: 71%
+source-wordcount: 3006
+ht-degree: 55%
 
 ---
 
@@ -249,3 +238,54 @@ Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz m
 
 Der Testmodus erstellt automatisch ein Erlebnisereignis und sendet es an [!DNL Adobe Experience Platform]. Der Name der Quelle für dieses Erlebnis-Ereignis lautet „Journey Orchestration Test-Ereignisse“.
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie den Testmodus in Adobe Journey Optimizer verwenden können, um eine Journey vor der Veröffentlichung mit persistenten Testprofilen zu validieren, einschließlich der Aktivierung des Testmodus, des Auslösens von Ereignissen, des Lesens von Protokollen und der Verarbeitung von Geschäfts- und regelbasierten Ereignissen.
+
+**intents:**
+* Aktivieren des Testmodus auf einer Entwurfs-Journey, um sie mit bereits vorhandenen AEP-Testprofilen zu validieren
+* Konfigurieren und Trigger von Ereignissen für Testprofile mithilfe der Benutzeroberfläche für Trigger und Ereignisse
+* Warteaktivitätsdauern im Testmodus überschreiben, um den Journey-Fortschritt zu beschleunigen
+* Lesen und Interpretieren der JSON-Protokollausgabe , um den Profilfortschritt zu überprüfen und Fehler zu identifizieren
+* Testen von regelbasierten Journey- und Geschäftsereignis-Journey im Testmodus
+* Machen Sie sich mit den Einschränkungen und Verhaltensunterschieden des Testmodus im Vergleich zur Simulation vertraut
+
+**Glossar:**
+* **Testmodus**: Ein Journey-Validierungsstatus, der es persistenten AEP-Testprofilen ermöglicht, eine Entwurfs-Journey zu durchlaufen, bevor sie veröffentlicht wird *(produktspezifisch)*
+* **Testprofile**: Profile, die im Echtzeit-Kundenprofil-Service von Adobe Experience Platform explizit als Testprofile gekennzeichnet sind. Der einzige Profiltyp, der im Testmodus auf eine Journey zugreifen darf *(produktspezifisch)*
+* **Visueller Fluss**: Die grüne Arbeitsflächen-Darstellung, die den Pfad anzeigt, dem ein Testprofil durch das Journey gefolgt ist
+* **Protokoll anzeigen** Eine Testmodusfunktion, die den Journey-Ausführungsstatus für jede Testprofilinstanz im JSON-Format anzeigt *produktspezifisch)*
+* **Journey Orchestration-Testereignisse**: Der Quellname, unter dem Testmodus-Erlebnisereignisse in Adobe Experience Platform gespeichert werden
+
+**Leitplanken:**
+* Nur Profile, die in AEP als Testprofile gekennzeichnet sind, können im Testmodus auf eine Journey zugreifen
+* Für den Testmodus muss der Journey einen Namespace verwenden, um die Identität des Testprofils zu überprüfen
+* Maximal 100 Testprofile pro einzelner Testsitzung
+* Ereignisse können nur über die Benutzeroberfläche des Testmodus ausgelöst werden. Das Auslösen externer APIs wird nicht unterstützt
+* Das benutzerdefinierte Hochladen von Zielgruppenattributen wird im Testmodus nicht unterstützt
+* Journey, die länger als eine Woche im Testmodus inaktiv sind, werden automatisch in den Entwurfsstatus zurückgesetzt
+* Journey-Bearbeitungen werden blockiert, wenn der Testmodus aktiv ist, aber direkte Veröffentlichung ist erlaubt
+* Bei einer Aufspaltung wird immer die obere Verzweigung ausgewählt. Ordnen Sie die Verzweigungen neu an, um verschiedene Pfade zu testen
+* Maximale Wartezeit für Reaktionsereignis und Standardwartezeit sind 40 Sekunden
+* Ereignisse, die außerhalb des konfigurierten Start-/Enddatumsfensters der Journey gesendet werden, werden im Hintergrund verworfen
+* Durch Deaktivieren des Testmodus werden alle Profile aus der Journey entfernt und die Berichte gelöscht
+
+**Terminologie:**
+* Kanonischer Name: Testmodus — Akronym: none — Varianten: Testmodus, Journey-Testmodus
+* Kanonischer Name: Testprofile — Akronym: none — Varianten: Testbenutzer (nur Beschriftung der Simulationsoberfläche)
+* Synonyme: „Protokoll anzeigen“ = Protokoll der Testergebnisse; „Visueller Fluss“ = Visualisierung des Canvas-Pfads
+* Verwechseln Sie nicht: „Testmodus“ ≠ „Simulation“ — Der Testmodus verwendet persistente AEP-Testprofile; die Simulation verwendet temporäre simulierte Benutzende, die spontan generiert werden
+
+**FAQ:**
+* **F: Wer kann im Testmodus auf eine Journey zugreifen?** — Nur Profile, die im Echtzeit-Kundenprofil-Service von Adobe Experience Platform explizit als Testprofile gekennzeichnet sind.
+* **F: Wie viele Testprofile können in einer einzelnen Testsitzung ausgeführt werden?** — Maximal 100 Testprofile pro Testsitzung.
+* **F: Was passiert, wenn ich den Testmodus deaktiviere?** — Alle Profile, die sich derzeit in der Journey befinden oder zuvor darin eingegeben wurden, werden entfernt und das Reporting wird gelöscht.
+* **F: Kann ich eine Journey bearbeiten, während der Testmodus aktiv ist?** — Nein. Der Journey kann nicht geändert werden, während der Testmodus aktiv ist. Sie können ihn jedoch direkt veröffentlichen, ohne zunächst den Testmodus zu deaktivieren.
+* **F: Warum werden meine Testereignisse im Hintergrund verworfen?** — Ereignisse, die außerhalb des konfigurierten aktiven Datums-/Zeitfensters der Journey ausgelöst werden, werden im Hintergrund verworfen. Stellen Sie sicher, dass das Start- und Enddatum der Journey die aktuelle Uhrzeit enthalten.
+* **F: Was bedeutet das Phasenfeld im Testprotokoll?** - Zeigt den aktuellen Status des Profils an: Wird ausgeführt (im Journey aktiv), Beendet (Ende erreicht), Fehler (aufgrund eines Fehlers angehalten) oder Zeitüberschreitung (aufgrund einer Zeitüberschreitung angehalten).
+
++++

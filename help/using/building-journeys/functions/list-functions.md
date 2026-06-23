@@ -9,19 +9,15 @@ keywords: Liste, Funktionen, Ausdruck, Journey, Array, Sammlung
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 100%
+source-wordcount: 1642
+ht-degree: 70%
 
 ---
 
@@ -350,7 +346,7 @@ Der Typ von `<expression>` muss mit Elementen der Liste übereinstimmen. Zur Eri
 
 | Parameter | Typ |
 |-----------|------------------|
-| String | String |
+| Zeichenfolge | Zeichenfolge |
 | Boolesch | Boolesch |
 | Ganzzahl | Ganzzahl |
 | Dezimal | Dezimal |
@@ -743,5 +739,52 @@ Gibt `[3, 2, 1]` zurück.
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 Gibt das listObject, geordnet nach SKU-Attribut (aufsteigende Reihenfolge), zurück
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alle in AJO-Journey-Ausdrücken verfügbaren Listenfunktionen dokumentiert, die das Filtern, Sortieren, Deduplizieren, Überprüfen der Zugehörigkeit, Begrenzen, Serialisieren und Suchen von Schnittpunkten von Listen und Arrays behandeln.
+
+**intents:**
+* Doppelte Werte mithilfe von `distinct` (NULL wird ignoriert) oder `distinctWithNull` (NULL wird beibehalten) aus einer Liste entfernen
+* Filtern Sie ein listObject so, dass nur Objekte zurückgegeben werden, die bestimmten Schlüsselwerten entsprechen. Verwenden Sie dazu `filter`
+* Abrufen eines Elements mit einem bestimmten Index aus einer Liste mithilfe von `getListItem`
+* Überprüfen, ob ein Wert in einer Liste vorhanden ist, mithilfe von `in`
+* Suchen nach gemeinsamen Elementen zwischen zwei Listen mithilfe von `intersect`
+* Gibt die ersten oder letzten N Elemente einer Liste mithilfe von `limit` zurück.
+* Zählen der Gesamtzahl der Elemente in einer Liste mithilfe von `listSize`
+* Konvertieren einer Liste in eine durch Trennzeichen getrennte Zeichenfolge mithilfe von `serializeList`
+* Sortieren einer Liste in auf- oder absteigender Reihenfolge mithilfe von `sort`
+
+**Glossar:**
+* **listObject**: Eine Liste komplexer Objekte, die ein Feldverweis sein müssen; darf keine Null-Objekte enthalten *(produktspezifisch)*
+* **keyAttributeName**: Ein optionaler Zeichenfolgenparameter, der mit `distinct`, `filter` und `sort` verwendet wird, um zu identifizieren, welches Objektattribut für die Deduplizierung, Filterung oder Sortierung *produktspezifisch) verwendet werden soll*
+* **intersect**: Ein Mengenvorgang, der nur die in beiden Eingabelisten vorhandenen Elemente zurückgibt
+
+**Leitplanken:**
+* `distinctWithNull` unterstützt nicht den `<listObject>` Parametertyp
+* `filter` muss der listObject-Parameter ein Feldverweis sein, kein Inline-Literal
+* `listSize` für listObject muss die Liste ein Feldverweis sein. listObject darf keine Null-Objekte enthalten
+* `serializeList` unterstützt den `listObject` nicht
+
+**Terminologie:**
+* Kanonischer Name: Listenfunktionen — Akronym: none — Varianten: Sammlungsfunktionen, Array-Funktionen
+* Synonyme: „listSize“ = „count list elements“; „serializeList“ = „join list to string“
+* Verwechseln Sie nicht: „distinct“ (ignoriert NULL) ≠ „distinctWithNull“ (behält null als eindeutigen Wert bei)
+* Verwechseln Sie nicht: „limit“ mit dem dritten Parameter `true` (gibt die ersten N Elemente zurück) ≠ „limit“ mit `false` (gibt die letzten N Elemente zurück)
+* Nicht verwechseln: „intersect“ (gemeinsame Elemente zwischen zwei Listen) ≠ „filter“ (Elemente, die bestimmten Schlüsselwerten entsprechen)
+
+**FAQ:**
+* **F: Wie erhalte ich die ersten 3 Elemente einer Liste?** — Verwenden Sie `limit(myList, 3)` oder `limit(myList, 3, true)`. Standardmäßig werden die ersten Elemente zurückgegeben.
+* **F: Wie erhalte ich die letzten 3 Elemente einer Liste?** — `limit(myList, 3, false)` verwenden.
+* **F: Was ist der Unterschied zwischen `distinct` und `distinctWithNull`?** — `distinct` ignoriert Nullwerte und schließt sie aus dem Ergebnis aus; `distinctWithNull` behandelt null als einen eindeutigen Wert und enthält einen Nullwert, wenn NULL vorhanden ist.
+* **F: Kann ich eine Liste von Zeichenfolgen mit `filter` filtern?** — Nein, `filter` funktioniert nur auf `listObject`. Verwenden Sie für skalare Listen `in` oder `distinct` für die Deduplizierung.
+* **F: Wie kann ich überprüfen, ob sich ein Wert in einer Liste befindet?** - Verwenden Sie `in(value, myList)`, das „true“ zurückgibt, wenn der Wert in der Liste gefunden wird.
+* **F: Kann ich listObject nach einem bestimmten Attribut sortieren?** — Ja, verwenden Sie `sort(@event{...}, "attributeName", true)`, wobei der zweite Parameter der Attributname und der dritte die Sortierrichtung ist (true = aufsteigend).
 
 +++

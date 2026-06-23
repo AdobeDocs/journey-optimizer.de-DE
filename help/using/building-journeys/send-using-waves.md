@@ -12,10 +12,10 @@ keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 2%
+source-wordcount: 1554
+ht-degree: 1%
 
 ---
 
@@ -136,3 +136,52 @@ Sie können nur die Größe und den Zeitpunkt von Wellen definieren. Die Journey
 ## Siehe auch {#see-also}
 
 * [Zielgruppe auf einer Journey verwenden](read-audience.md) Konfigurieren Sie die Aktivität „Zielgruppe lesen“.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie den Wellenversand in den Journey der Adobe Journey Optimizer-Zielgruppe „Lesen“ konfigurieren können, um ausgehende Nachrichten in kontrollierten Batches im Laufe der Zeit zu versenden, die Zustellbarkeit zu verbessern und die Reputation des Absenders zu schützen.
+
+**intents:**
+* Wellenversand auf der Journey „Zielgruppe lesen“ aktivieren, um Nachrichten in Stapeln zu versenden
+* Gleichmäßige Schübe mit einem festen Intervall zwischen den Schüben konfigurieren
+* Definieren benutzerdefinierter Wellengrößen als Prozentsätze oder absolute Profilanzahl
+* Planen Sie jede Welle mit einem bestimmten Startdatum und einer bestimmten Startzeit mithilfe einer benutzerdefinierten Planung
+* Kontrollieren des Versandvolumens zum Schutz der Reputation des Absenders oder zur Anpassung an die betriebliche Kapazität
+
+**Glossar:**
+* **Wave-Versand** Ein Versandmodus, der die Aktivität „Zielgruppe lesen“ in Batches (Schübe) aufteilt und Nachrichten in terminierten Intervallen an jeden Batch sendet, anstatt alle gleichzeitig *(produktspezifisch)*
+* **Gleichmäßige Schübe**: Eine Schübe-Konfiguration, bei der die Zielgruppe in gleich große Teile mit einem festen Intervall zwischen Schüben aufgeteilt wird *produktspezifisch)*
+* **Benutzerdefinierte Verteilung**: Eine Wellenkonfiguration, bei der die Größe jeder Welle manuell als Prozentsatz oder absolute Anzahl von Profilen definiert wird *produktspezifisch)*
+* **Benutzerdefinierter Zeitplan**: Eine Schub-Konfiguration, bei der jede Schub ein bestimmtes Startdatum und eine bestimmte Startzeit hat, was einen ungleichmäßigen *(produktspezifisch) ermöglicht*
+
+**Leitplanken:**
+* Der Wave-Versand ist nur für Journey des Typs „Zielgruppe lesen“ mit der Planung „So bald wie möglich“ und „Einmal“ verfügbar. Er ist nicht für wiederkehrende, ereignisgesteuerte, Geschäftsereignis-, Testmodus- oder Probelauf-Journey verfügbar.
+* Es müssen mindestens 2 und höchstens 10 Wellen definiert werden.
+* Das Mindestintervall zwischen dem Beginn zweier aufeinander folgender Wellen beträgt 30 Minuten.
+* Die Startzeit einer Welle darf nicht vor dem Start der Journey liegen oder in der Vergangenheit liegen.
+* Die Aufspaltung der Zielgruppe in Wellen kann bis zu 1 Stunde dauern; bis dahin können keine Profile eintreten.
+* Innerhalb einer einzigen Journey-Version laufen nie zwei Schübe gleichzeitig; die nächste Schübe beginnt erst nach dem Ende der vorherigen.
+* Wellenstarts können durch Quotenbegrenzungen der Plattform oder eine hohe Systemlast verzögert werden.
+* Bei Verwendung einer prozentualen benutzerdefinierten Verteilung müssen alle Schübe insgesamt 100 % aufweisen.
+* Bei Verwendung einer zahlenbasierten benutzerdefinierten Verteilung überprüft das System nicht die Gesamtabdeckung. Der Benutzer muss sicherstellen, dass die Wellengrößen die vorgesehene Zielgruppe abdecken.
+* Wenn die Wellengrößen die Zielgruppe überschreiten, wird die erste Welle an die gesamte Zielgruppe gesendet und die verbleibenden Wellen werden nicht ausgeführt.
+* Wenn die Wellengrößen kleiner sind als die Zielgruppe, erhalten nur Profile in definierten Schüben die Nachricht. Für die übrigen Profile wird kein erneuter Zustellversuch unternommen.
+
+**Terminologie:**
+* Kanonischer Name: Wellenversand — Akronym: keine — Varianten: Batch-Versand, wellenbasierter Versand, stufenweiser Versand
+* Synonyme: „waves“ = „batches“ = „delivery phases“
+* Verwechseln Sie nicht: „Wellenversand“ ≠ „wiederkehrender Journey&quot; (Wellenversand teilt eine einzelne Zielgruppe, die in zeitgesteuerten Batches gelesen wird, auf; wiederkehrende Journey lesen die Zielgruppe in einem Zeitplan erneut)
+
+**FAQ:**
+* **F: Kann der Wellenversand auf wiederkehrenden Journey verwendet werden?** — Nein. Der Wave-Versand ist nur für Journey des Typs „Zielgruppe lesen“ mit dem Planungstyp „So bald wie möglich“ oder „Einmal“ verfügbar.
+* **Q: Was ist die Mindestzeit zwischen zwei Schüben?** — 30 Minuten zwischen dem Beginn zweier aufeinander folgender Wellen.
+* **F: Was passiert, wenn meine Wellengrößen größer sind als die des Publikums?** — Die erste Welle wird an die gesamte Zielgruppe gesendet, und die folgenden Wellen haben keine Profile mehr, die an gesendet werden können; sie werden nicht ausgeführt.
+* **F: Kann ich einzelnen Schüben unterschiedliche Inhalte oder Segmente zuweisen?** — Nein; alle Schübe verwenden dieselbe Zielgruppe und denselben Journey-Inhalt. Pro Welle können nur Größe und Timing angepasst werden.
+* **F: Wie viele Schübe kann ich konfigurieren?** — zwischen 2 und 10 Schüben pro Journey.
+* **F: Wann sollte ich den Wave-Versand verwenden?** — Schützen Sie damit die Reputation des Absenders bei Sendungen mit hohem Volumen, richten Sie den Versand an die nachgelagerte Team-Kapazität aus (z. B. Callcenter) oder erhöhen Sie schrittweise das Volumen auf einer neuen IP-Adresse oder Plattform.
+
++++

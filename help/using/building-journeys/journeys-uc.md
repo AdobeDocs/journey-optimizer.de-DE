@@ -11,28 +11,16 @@ keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignis
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/o4-7bKdQzB3Yyz22khT4RHNpNvKL0sCg8YPPnaeav9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 71%
+source-wordcount: 1720
+ht-degree: 45%
 
 ---
 
@@ -166,4 +154,52 @@ Verbinden Sie die Unterprofile mit der Aktivität [**[!UICONTROL Springen]**](ju
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden zwei praktische Journey-Anwendungsfälle vorgestellt: ein Multi-Channel-Nachrichtenfluss, der „Zielgruppe lesen“, Reaktionsereignisse, E-Mail und Push-Benachrichtigungen kombiniert, und ein mehrphasiges Treue-Journey-Muster unter Verwendung der Sprungaktivität, um komplexe Journey in überschaubare Unter-Journey zu zerlegen.
+
+**intents:**
+
+* Erstellen Sie eine Multi-Channel-Journey, die eine Folgenachricht oder Push-Benachrichtigung sendet, je nachdem, ob ein Kunde eine anfängliche E-Mail öffnet
+* Konfigurieren eines Kaufereignisses zum Trigger einer Danksagungs-Push-Benachrichtigung innerhalb einer Journey
+* Verwenden von Reaktionsereignissen, um eine Journey basierend auf dem Öffnungsverhalten der E-Mail zu verzweigen
+* Zerlegen Sie eine komplexe mehrphasige Journey in kleinere Sub-Journey, die durch Jump-Aktivitäten verbunden sind
+* Regelbasiertes Ereignis zur Verwendung als Journey-Trigger erstellen und konfigurieren
+* Definieren einer Zielgruppe anhand von Stadt- und Geburtsjahrattributen für einen zielgerichteten Journey-Eintrag
+
+**Glossar:**
+
+* **Reaktionsereignis**: Ein Journey-Ereignis, das Trigger auslöst, wenn ein Profil mit einer Nachricht interagiert (z. B. eine E-Mail öffnet oder auf einen Link klickt) und so eine verhaltensgesteuerte Verzweigung ermöglicht. *(produktspezifisch)*
+* **Aktivität „Zielgruppe lesen**: Die Einstiegsaktivität für Journey, die alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe lädt, um das Journey zu starten. *(produktspezifisch)*
+* **Sprungaktivität** Eine Aktionsaktivität, die ein Profil von einer Journey (Herkunft) zur anderen (Zielgruppe) verschiebt und eine modulare Sub-Journey-Architektur ermöglicht. *(produktspezifisch)*
+* **Regelbasiertes Ereignis**: Ein Ereignistyp, bei dem die Ereignisbedingung durch einen Regelausdruck und nicht durch eine Orchestrierungs-ID definiert wird. Dies ist für Kauf- oder Verhaltensereignisse Trigger nützlich. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Ein Zeitüberschreitungspfad für Reaktionsereignisse muss so konfiguriert werden, dass Profile verarbeitet werden, die mit der Nachricht nicht innerhalb der definierten Dauer interagieren
+* Die im Anwendungsfall verwendete Zielgruppe muss vor dem Erstellen der Journey erstellt werden
+* Das Kaufereignis muss konfiguriert werden, bevor es auf der Journey verwendet werden kann.
+* Über Jump verbundene Unter-Journey müssen denselben Namespace wie die Ursprungs-Journey verwenden
+* Das Überschreiben von E-Mail-Adressen (Parameterüberschreibungen) sollte nur für bestimmte Anwendungsfälle verwendet werden, nicht als allgemeiner Ersatz für die primäre Adresse
+
+**Terminologie:**
+
+* Kanonischer Name: Reaktionsereignis — Akronym: none — Varianten: Reaktionsaktivität, Nachrichtenreaktion
+* Synonyme: „origin Journey&quot; = „Quell-Journey&quot;; „target Journey&quot; = „Ziel-Journey&quot;
+* Verwechseln Sie nicht: „Aktivität ‚Zielgruppe lesen‘&quot; ≠ „Aktivität ‚Zielgruppen-Qualifizierung‘&quot; — „Zielgruppe lesen“ lädt alle Zielgruppenmitglieder gleichzeitig im Batch; Trigger zur Zielgruppen-Qualifizierung pro Profil in Echtzeit, wenn sich die Mitgliedschaft ändert
+
+**FAQ:**
+
+* **F: Wie kann ich eine Folgenachricht nur an Kunden senden, die keine E-Mail geöffnet haben?** — Fügen Sie ein Reaktionsereignis (geöffnete E-Mail) mit einem Zeitüberschreitungspfad hinzu. Profile, die nicht innerhalb der Zeitüberschreitungsdauer geöffnet werden, fließen in den Zeitüberschreitungspfad, in dem die Folge-E-Mail platziert wird.
+* **F: Wie wird das Kaufereignis im Multi-Channel-Anwendungsfall konfiguriert?** - Als regelbasiertes Ereignis mit einer Bedingung wie `purchaseMessage="thank you"`, konfiguriert mit einem Schema, Payload-Feldern (Produkt, Datum, Kauf-ID), Namespace und Profilkennung.
+* **F: Warum zerlegt man eine komplexe Journey in Sub-Journey?** - Komplexe Journey können 20 oder mehr individuelle Kundenpfade offenlegen, und die Komplexität steigt exponentiell mit jedem Touchpoint. Unter-Journey-Knoten halten jede Phase lesbar, testbar und unabhängig wartbar.
+* **F: Kann sich ein Profil nach einem Sprung gleichzeitig sowohl in der Ursprungs- als auch in der Ziel-Journey befinden?** — Ja. Wenn ein Profil einen Sprungschritt erreicht, läuft es auf der Ursprungs-Journey weiter, während es gleichzeitig auf die Ziel-Journey gelangt.
+* **F: Wie viele Unter-Journey werden im Beispiel der mehrphasigen Treue verwendet?** — Drei Journey: Phase 1 (App-Download), Phase 2 (erste Transaktion) und Phase 3 (zweite Transaktion), die nacheinander mithilfe von Sprungaktivitäten verbunden werden.
+
++++
 

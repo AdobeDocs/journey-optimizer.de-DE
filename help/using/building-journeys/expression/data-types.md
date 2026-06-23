@@ -10,17 +10,14 @@ keywords: Ausdruck, Daten, Datentyp, Journey
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/0UKY3G4hyMnSkzh8wlMx-yQ1yymKjs6FuIBdGo1SJqc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 100%
+source-wordcount: 1124
+ht-degree: 59%
 
 ---
 
@@ -130,7 +127,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **Beschreibung**
 
@@ -158,7 +155,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Beschreibung**
 
@@ -348,3 +345,50 @@ Polymorphismus wird nicht unterstützt. Daher sollten alle in der Liste enthalte
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alle Datentypen beschrieben, die im erweiterten Ausdruckseditor von Journey unterstützt werden - Zeichenfolge, Ganzzahl, Dezimalzahl, Boolescher Wert, dateOnly, dateTimeOnly, dateTime, Dauer und Liste -, einschließlich ihrer JSON-Formate, Serialisierungsregeln und literalen Darstellungssyntax.
+
+**intents:**
+
+* Identifizieren Sie beim Schreiben von Journey-Ausdrücken die richtige Literalsyntax für jeden Datentyp
+* Verstehen Sie den Unterschied zwischen `dateOnly`-, `dateTimeOnly`- und `dateTime` und wann jeder Typ verwendet werden sollte
+* Stellen Sie mit der `toDuration()`-Funktion einen Dauerwert im ISO-8601-Format oder in Millisekunden dar
+* Einen Listenausdruck mit eckiger Klammersyntax für die Verwendung in Sammlungsvorgängen erstellen
+* Verwenden Sie Konvertierungsfunktionen (`toDateTime`, `toDateTimeOnly`, `toDuration`, `toDateOnly`) zum Erstellen typisierter Konstanten
+
+**Glossar:**
+
+* **dateOnly**: Ein Datum ohne Zeit oder Zeitzone, formatiert als JJJJ-MM-TT; geeignet für Geburtstage oder Kalenderdaten *(produktspezifisch)*
+* **dateTimeOnly**: Ein Datum und eine Uhrzeit ohne Zeitzoneninformationen; kann keinen bestimmten Zeitpunkt ohne Offset-*darstellen (produktspezifisch)*
+* **dateTime**: Eine Datums-/Zeitkonstante, die einen UTC-Offset enthält, der einen bestimmten Zeitpunkt darstellt. Kann auch aus einer ganzzahligen Epochenzahl *produktspezifisch) erstellt werden*
+* **duration**: Ein zeitbasierter Betrag, der in Millisekunden modelliert wird; verwendet das ISO-8601-`PnDTnHnMn.nS`; Jahre und Monate werden nicht unterstützt *(produktspezifisch)*
+* **list**: Eine kommagetrennte Sammlung von Ausdrücken desselben Typs, getrennt durch eckige Klammern *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Dauer unterstützt nur Millisekunden, Sekunden, Minuten, Stunden und Tage - Jahre und Monate werden nicht unterstützt, da sie keine festen Zeiträume sind
+* Ein `duration` muss in `toDuration()` eingeschlossen sein - er kann nicht als Literal ausgedrückt werden
+* Alle Ausdrücke in einem `list` müssen vom gleichen Typ sein - Polymorphismus wird nicht unterstützt
+* `dateTimeOnly` kann keinen Zeitpunkt ohne zusätzlichen Offset oder Zeitzone darstellen
+
+**Terminologie:**
+
+* Kanonischer Name: Datentypen — Akronym: none — Varianten: Ausdrucksdatentypen, Journey-Datentypen
+* Synonyme: „dateTime“ = „Datum-Uhrzeit mit Zeitzone“; „dateTimeOnly“ = „local date-time“
+* Verwechseln Sie nicht: `dateOnly` (keine Zeit) ≠ `dateTimeOnly` (Datum + Zeit, keine Zeitzone) ≠ `dateTime` (Datum + Zeit + Zeitzone/Versatz)
+
+**FAQ:**
+
+* **F: Was ist der Unterschied zwischen `dateTimeOnly` und `dateTime`?** — `dateTimeOnly` hat keine Zeitzone oder keinen Offset und kann keinen genauen Zeitpunkt darstellen; `dateTime` umfasst einen UTC-Offset und stellt einen bestimmten Zeitpunkt dar.
+* **F: Wie drücke ich eine Dauer von 2 Tagen und 3 Stunden aus?** — `toDuration("P2DT3H")` verwenden.
+* **F: Kann ich in einem Listenausdruck Ganzzahlen und Zeichenfolgen mischen?** — Nein; alle Ausdrücke in einer Liste müssen vom gleichen Typ sein.
+* **F: Wie erstelle ich einen `dateTime` aus einem Epochenzeitstempel in Millisekunden?** — Verwenden Sie `toDateTime(<epoch in milliseconds>)`, z. B. `toDateTime(1560762190189)`.
+* **F: Ist `true` oder `True` das richtige boolesche Literal?** — `true` oder `false` in Kleinbuchstaben verwenden. Varianten in Großbuchstaben sind nicht gültig.
+
++++

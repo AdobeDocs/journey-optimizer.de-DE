@@ -12,23 +12,15 @@ keywords: Zustellbarkeit, Journey, Anwendungsfall, E-Mail, Reputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/en0jMw69ddHSQrIH05-9FfGuDwNKb36f5Lp3fLp2oAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 82%
+source-wordcount: 807
+ht-degree: 34%
 
 ---
 
@@ -69,3 +61,40 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 1. Vervollständigen Sie die Journey mit den Aktivitäten Ihrer Wahl.
 
 Nach dem Aufwärmen Ihrer IP können Sie diese Bedingung entfernen.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** In diesem Anwendungsfall wird beschrieben, wie Sie eine Adobe Journey Optimizer-Journey erstellen, die das E-Mail-Versandvolumen mithilfe einer Profilbegrenzungsbedingung schrittweise erhöht, um die Reputation des Absenders beim IP-Warming zu schützen.
+
+**intents:**
+- Erstellen Sie eine Journey, um das E-Mail-Versandvolumen für das IP-Warming schrittweise zu erhöhen
+- Konfigurieren einer Profilbegrenzungsbedingung, um die Anzahl der Empfänger pro Versandausführung zu begrenzen
+- Schutz der Reputation des Absenders beim Wechsel zu einem neuen E-Mail-Dienstleister, einer neuen IP-Adresse oder einer neuen Domain
+- Entfernen Sie die Bedingung für die Volumenkappe, sobald die IP vollständig aufgewärmt ist
+
+**Glossar:**
+- **IP-Warming**: Der Prozess der schrittweisen Erhöhung des E-Mail-Versandvolumens von einer neuen IP-Adresse oder Domain, um die Reputation des Absenders bei Postfachanbietern aufzubauen *(produktspezifisch)*
+- **Profilbegrenzung**: Ein Bedingungstyp in der Aktivität „Optimieren“, der die maximale Anzahl von Profilen begrenzt, die eine Nachricht in einem bestimmten Journey-Durchlauf erhalten *(produktspezifisch)*
+- **Aktivität optimieren**: Eine Journey-Arbeitsfläche-Aktivität, die zum Anwenden von Bedingungen, Zielgruppenbestimmungsregeln oder Experimenten verwendet wird, um zu steuern, wie Profile durch einen Journey-*fließen (produktspezifisch)*
+
+**Leitplanken:**
+- In der Methode Bedingungen der Aktivität optimieren muss eine Bedingung für die Profilbegrenzung festgelegt werden, um das Versandvolumen zu steuern.
+- Profile, die die Obergrenze überschreiten, folgen dem alternativen Pfad, der auf der Journey definiert ist.
+- Die Obergrenze für Profile sollte im Laufe der Zeit schrittweise auf die Gesamtzahl der Abonnenten erhöht werden.
+
+**Terminologie:**
+- Kanonischer Name: Ramp-up Sendungen — Akronym: none — Varianten: IP-Warming, IP-Warming, Versand-Ramp-up
+- Synonyme: „IP Warming“ = „IP Warming“ = „Sender Reputation Building“
+- Verwechseln Sie nicht: „Profilobergrenze“ ≠ „Zielgruppengrößenbeschränkung“ (Profilobergrenze ist ein Versand-Limit pro Durchgang; Zielgruppengröße ist die Gesamtzahl qualifizierter Profile)
+
+**FAQ:**
+- **F: Warum muss ich die Versandaktivität erhöhen, wenn ich zu einer neuen IP-Adresse oder Domain wechsle?** — Eine neue IP-Adresse oder Domain hat keinen Versandverlauf, sodass Postfachanbieter Nachrichten blockieren oder Spam-Ordner verschicken können, bis eine positive Reputation durch ein allmähliches, zunehmendes Volumen etabliert wird.
+- **F: Wie steuert die Bedingung für die Profilbegrenzung das Versandvolumen?** - Es wird eine maximale Anzahl von Profilen festgelegt, die die Nachricht in einem einzigen Journey-Durchlauf empfangen können. Profile, die dieses Limit überschreiten, nehmen stattdessen einen alternativen Pfad.
+- **F: Wann kann ich die Bedingung für die Profilbegrenzung entfernen?** — Sobald die IP vollständig aufgewärmt ist und sich Ihre Absenderreputation etabliert hat, können Sie die Bedingung von der Journey entfernen.
+- **F: Kann ich die Obergrenze im Laufe der Zeit schrittweise erhöhen?** — Ja. Sie können das Feld Limit in der Bedingung „Profilobergrenze“ aktualisieren, um die Anzahl der Empfänger pro Durchgang schrittweise bis hin zu Ihrer vollständigen Abonnentenzahl zu erhöhen.
+
++++

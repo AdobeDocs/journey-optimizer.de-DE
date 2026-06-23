@@ -11,36 +11,16 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestr
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 87%
+source-wordcount: 6198
+ht-degree: 77%
 
 ---
 
@@ -648,7 +628,7 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Fügen Sie [&#x200B; Journey eine Aktivität &#x200B;](optimize.md)Optimieren“ hinzu
+1. Fügen Sie [ Journey eine Aktivität ](optimize.md)Optimieren“ hinzu
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
@@ -989,7 +969,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).
@@ -1005,3 +985,53 @@ Detailliertere Informationen und Updates finden Sie in den folgenden Ressourcen:
 * [Handbücher zur Fehlerbehebung](troubleshooting.md)
 * [Anwendungsfälle für Journeys](jo-use-cases.md)
 * [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite enthält häufig gestellte Fragen zu Journey-Orchestrierungskonzepten, zum Erstellen von Journeys, zum Testen und Veröffentlichen, zur Ausführungsüberwachung, zu erweiterten Funktionen und zu Best Practices in Adobe Journey Optimizer.
+
+**intents:**
+* Machen Sie sich mit den vier Journey-Typen (unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis) und der Verwendung der einzelnen Typen vertraut
+* Entscheidung zwischen einer Journey und einer Kampagne für einen bestimmten Anwendungsfall
+* Konfigurieren Sie die Einstellungen für den erneuten Eintritt, um zu steuern, wie oft ein Profil auf dieselbe Journey zugreifen kann
+* Fehlerbehebung, warum ein Profil nicht eingegeben oder keine Nachrichten gesendet wurden
+* Anwenden von Journey-Begrenzungsregeln, um die Ermüdung von Nachrichten über mehrere Journey hinweg zu verhindern
+* Verwenden Sie Journey-Fragmente, um gängige Knotensequenzen in Journey wiederzuverwenden
+
+**Glossar:**
+* **Unitäres Journey**: Eine Journey löst jeweils ein Profil durch ein Echtzeit-Ereignis aus, z. B. einen Kauf oder eine *(produktspezifisch)*
+* **Zielgruppen-Journey lesen**: Ein Journey, der alle Profile in einer Batch-Zielgruppe gleichzeitig oder nach einem Zeitplan verarbeitet *produktspezifisch)*
+* **Zielgruppen-Qualifizierungs-Journey**: Eine Journey, die ausgelöst wird, wenn ein Profil in ein Streaming-Zielgruppensegment eintritt oder daraus austritt *(produktspezifisch)*
+* **Journey-Begrenzung**: Eine Konfiguration, die begrenzt, wie oft ein Profil innerhalb eines Zeitfensters in Journey eintreten kann oder wie viele Journey sich gleichzeitig in einem Profil befinden können *(produktspezifisch)*
+* **Journey-Fragment**: Ein wiederverwendbarer, statischer Satz von Journey-Knoten, die einmal erstellt und zur Entwurfszeit in mehrere Journey eingefügt wurden *(produktspezifisch)*
+* **Sendezeitoptimierung (STO)**: Eine KI-gesteuerte Funktion, die die optimale Sendezeit für jedes einzelne Profil vorhersagt, um die Interaktion zu maximieren *produktspezifisch)*
+* **Zusätzliche Kennung**: Eine zusätzliche Kennung, mit der ein Profil mehrmals dieselbe Journey für verschiedene Entitäten (z. B. separate Bestellungen) eingeben kann *(produktspezifisch)*
+
+**Leitplanken:**
+* Maximal 50 Aktivitäten pro Journey
+* Die maximale Journey-Dauer beträgt 91 Tage (globale Zeitüberschreitung)
+* Das Hochladen von Zielgruppen und die Komposition zusammengeführter Zielgruppen werden in Journey zur Zielgruppenqualifizierung nicht unterstützt
+* Reaktionsereignisse müssen sofort nach einer Kanalaktion platziert werden, ohne dass dazwischen eine Warteaktivität stattfindet
+* Sprungaktivitäten sind innerhalb eines Journey-Fragments nicht zulässig
+* Ein Journey-Fragment unterstützt maximal 20 Knoten. Eine Sandbox unterstützt maximal 200 aktive Fragmente
+* Bei Profilen, die sich bereits in der Zielgruppe befinden, kann sich die Qualifizierung von Streaming-Zielgruppen nach dem Journey um bis zu 10 Minuten verzögern
+
+**Terminologie:**
+* Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierung, Fluss
+* Synonyme: „Close to new entrances“ = „Anmutiger Stopp“; „Stopp“ = „sofortiger Stopp“
+* Verwechseln Sie nicht: &quot;Journey&quot; ≠ „Campaign“ - Journey unterstützen die mehrstufige ereignisgesteuerte Orchestrierung. Bei Kampagnen handelt es sich um einmalige oder geplante zielgruppenbasierte Sendungen
+* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Testprofile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+
+**FAQ:**
+* **F: Wie viele Aktivitäten kann eine Journey maximal aufnehmen?** — 50 Tätigkeiten; die Einfachheit der Journey verbessert die Wartbarkeit und Leistungsfähigkeit.
+* **F: Warum hat ein Profil nicht auf meine Journey zugegriffen?** — Häufige Ursachen sind der fehlende Empfang des auslösenden Ereignisses, nicht erfüllte Zielgruppenkriterien, Regeln für den erneuten Eintritt, die den erneuten Eintritt blockieren, das Rückgängigmachen der Veröffentlichung der Journey oder eine nicht übereinstimmende Namespace.
+* **F: Kann ich die Struktur einer Live-Journey ändern?** — Nein; strukturelle Änderungen erfordern die Erstellung einer neuen Journey-Version. Der Nachrichteninhalt kann ohne eine neue Version aktualisiert werden.
+* **F: Was ist der Unterschied zwischen Pause, Schließen neuer Eintritte und Stoppen?** — Durch das Anhalten wird das Journey vorübergehend ausgesetzt, während sich die Bordprofile befinden oder verworfen werden. Durch Schließen neuer Eintritte werden neue Einträge gestoppt, vorhandene Profile können jedoch beendet werden. Stopp beendet sofort alle Profile.
+* **F: Wann sollte ich Journey-Fragmente anstelle der Sprungaktivität verwenden?** - Verwenden Sie Fragmente, um die allgemeine Knotenlogik zur Entwurfszeit wiederzuverwenden (Kopieren/Einfügen-Verhalten). Verwenden Sie Springen , um Profile zur Laufzeit auf eine andere Live-Journey umzuleiten.
+* **F: Wie kann ich verhindern, dass zu viele Nachrichten an denselben Kunden gesendet werden?** — Wenden Sie Journey-Begrenzungsregeln (Eintrittsobergrenze oder Gleichzeitigkeitsbegrenzung) an und verwenden Sie Frequenzbegrenzungs-Geschäftsregeln für einzelne Kanalaktionen.
+
++++
