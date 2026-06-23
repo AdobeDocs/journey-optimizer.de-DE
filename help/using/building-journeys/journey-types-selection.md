@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey-Typen und Auswahlrichtlinien
+title: 'Journey-Typen: Wählen Sie den richtigen aus'
 description: Vergleichen Sie Journey-Typen und wählen Sie mithilfe von Entscheidungsanleitungen und einer Funktionskompatibilitätsmatrix den richtigen für Ihren Anwendungsfall aus
 feature: Journeys, Get Started, Overview
 role: User
@@ -27,14 +27,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
-source-wordcount: 2053
-ht-degree: 26%
+source-wordcount: 2055
+ht-degree: 25%
 
 ---
 
-# Journey-Typen und Auswahlrichtlinien {#journey-types-selection}
+# Journey-Typen: Wählen Sie den richtigen aus {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
