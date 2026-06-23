@@ -75,7 +75,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 >[!TIP]
 >
->Wenn Sie ein Fragment von einer Journey erstellen, testen [ (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
