@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
+source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
 workflow-type: tm+mt
-source-wordcount: 3596
+source-wordcount: 3520
 ht-degree: 26%
 
 ---
@@ -186,8 +186,6 @@ Orchestrierte Kampagnen in dieser Version weisen die folgenden Funktionen und Ve
 * **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss. [Weitere Informationen](../orchestrated/add-personalization.md#enrichment-collections)
 
   Verfügbarkeitsdatum: Ende Juni 2026
-
-* **Personalisieren von E-Mail-Absenderdetails pro Empfänger und Kampagne** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von **E-Mail-Header-Feldern**, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten. Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
 +++
 
