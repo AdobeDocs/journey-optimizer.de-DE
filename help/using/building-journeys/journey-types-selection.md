@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 25%
+source-wordcount: 2080
+ht-degree: 23%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 25%
 
 **Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Benachrichtigungen zum Zurücksetzen des Kennworts und Personalisierung nach der Anmeldung.
 
-➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnentinnen und Abonnenten“](message-to-subscribers-uc.md)
+➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md) | [Erstellen einer unitären Ereignis-Journey](#build-unitary-event)
 
 >[!TAB Journeys des Typs „Zielgruppe lesen“]
 
@@ -70,7 +70,7 @@ ht-degree: 25%
 
 **Perfekt für:** monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen, wiederkehrende Interaktionsreihen und saisonale Marketing-Kampagnen.
 
-➡️ [Informationen zu „Zielgruppe lesen“](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md)
+➡️ [Erfahren Sie mehr über „Zielgruppe lesen](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md) | [Erstellen einer „Zielgruppe lesen“Journey](#build-read-audience)
 
 >[!TAB Journeys des Typs „Zielgruppenqualifizierung“]
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 
 **Perfekt für:** Benachrichtigungen zu Upgrades der VIP-Stufe, Meldungen zu ersten Kauffeiern, Warnhinweise zu Abwanderungsrisiken und Übergänge in der Treueprogramm-Phase.
 
-➡️ [Informationen zur Zielgruppenqualifizierung](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md)
+➡️ [Erfahren Sie mehr über Zielgruppen](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md) | [Erstellen einer Journey zur Zielgruppen-Qualifizierung](#build-audience-qualification)
 
 >[!TAB Journeys des Typs „Geschäftsereignis“]
 
@@ -90,7 +90,7 @@ ht-degree: 25%
 
 **Perfekt für:** Warnungen bei geringem Bestand an interessierte Kunden, Flash-Verkaufsankündigungen, Benachrichtigungen bei Preisrückgängen und Warnhinweise für das Produkt-Back-in-Stock.
 
-➡️ [Informationen zu Geschäftsereignissen](../event/about-creating-business.md) | [Eintrittsverwaltung](entry-management.md)
+➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Einstiegsverwaltung](entry-management.md) | [Erstellen einer Geschäftsereignis-Journey](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie nun die Journey-Typen verstehen, können Sie Folgendes tun:
+In jeder Tabelle sind die Schritte „Konfigurieren-durch-Verwalten“ für diesen Journey-Typ aufgeführt.
+
+### Journey für unitäre Ereignisse {#build-unitary-event}
 
 * **[Erstellen Ihrer ersten Journey](journey-gs.md)**: Schrittweise Anleitung
 * **[Weitere Informationen über den Journey-Designer](using-the-journey-designer.md)**: Entwerfen Ihrer Journey-Arbeitsfläche
