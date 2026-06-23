@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 100%
+source-wordcount: 1103
+ht-degree: 53%
 
 ---
 
@@ -79,3 +79,49 @@ Im Folgenden finden Sie einige Beispiele für Anwendungsfälle:
 | | lastDataFetchErrorCode | Fehler-Code beim letzten Datenabruf | Fehler-Code beim aktuellen Datenabruf aus Datenquellen |
 | Zeit | lastActionExecutionElapsedTime | Verstrichene Zeit der letzten Aktionsausführung | Zeitaufwand für die Ausführung der aktuellen Aktion |
 | | lastDataFetchElapsedTime | Verstrichene Zeit des letzten Datenabrufs | Zeitaufwand für die Ausführung des aktuellen Datenabrufs aus Datenquellen |
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Kategorie &quot;Journey-Eigenschaften“ im Ausdruckseditor beschrieben - eine Reihe technischer Felder zur Live-Journey-Instanz (IDs, Fehler, aktuelle/vorherige Knoten, verstrichene Zeiten), mit denen Ausdrücke für die Protokollierung, Warnhinweise und fehlerspezifische Berichte erstellt werden können.
+
+**intents:**
+
+* Zugreifen auf Journey-Eigenschaftsfelder im einfachen oder erweiterten Ausdruckseditor zum Referenzieren von Live-Journey-Metadaten
+* Erstellen einer Bedingung, die verworfene Profile nach Fehlertyp filtert, um sie an ein Protokollierungssystem eines Drittanbieters weiterzuleiten
+* Senden Sie Fehlermeldungen an einen externen Kanal (z. B. Slack), indem Sie in einer benutzerdefinierten Aktion auf den letzten Fehlercode und Knotennamen verweisen
+* Verfeinern Sie die Journey-Fehlerberichterstattung, indem Sie mit `lastNodeTypeInError` und `lastErrorCode` separate Bedingungspfade pro Fehlertyp erstellen
+* Referenz-Journey-Versionskennungen, Instanzkennungen und Sandbox-Namen in Ausdrücken für Tracking und Auditing
+
+**Glossar:**
+
+* **Journey-Eigenschaften**: Eine Kategorie im Ausdruckseditor, die technische Metadatenfelder für die aktuelle Journey-Ausführungsinstanz enthält *(produktspezifisch)*
+* **instanceUID**: Die eindeutige Kennung der Journey-Instanz für eine bestimmte Profilausführungsinstanz *produktspezifisch)*
+* **lastErrorCode**: Der Fehlercode aus der letzten fehlgeschlagenen Aktivität auf der Journey. Mögliche Werte sind HTTP-Codes, `capped`, `timedOut` und `error` *(produktspezifisch)*
+* **lastNodeTypeInError**: Der Typ der letzten Aktivität, bei der ein Fehler aufgetreten ist. Dies können Ereignisse, Flusssteuerung oder Aktionen *produktspezifisch) sein*
+* **externalKey**: Die individuelle Kennung (z. B. Profilkennung), die die Journey-Instanz ausgelöst hat *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Journey-Eigenschaften-Feldwerte werden zur Ausführungszeit direkt von der Live-Journey abgerufen - sie stehen nicht für die Validierung vor der Ausführung zur Verfügung
+* Das Feld `lastErrorCode` verwendet vordefinierte Werte: HTTP-Fehler-Codes, `capped`, `timedOut` und `error`
+* Journey-Eigenschaften sind sowohl im einfachen als auch im erweiterten Ausdruckseditor unter der Kategorie Journey-Eigenschaften verfügbar
+
+**Terminologie:**
+
+* Kanonischer Name: Journey Properties — Akronym: none — Varianten: Journey technische Felder, Journey Metadatenfelder
+* Synonyme: &quot;Journey Properties“ = „Technische Journey-Felder“; „instanceUID“ = &quot;Journey-Instanzkennung“
+* Nicht verwechseln: journeyUID (identifiziert die Journey-Definition) ≠ instanceUID (identifiziert die Ausführung der Journey durch ein bestimmtes Profil)
+
+**FAQ:**
+
+* **F: Wo finde ich Journey-Eigenschaftenfelder im Ausdruckseditor?** — Sie werden sowohl im einfachen als auch im erweiterten Ausdruckseditor unter der Kategorie Journey-Eigenschaften unterhalb von Ereignisse und Datenquellen angezeigt.
+* **F: Wie kann ich Profile protokollieren, die durch eine Begrenzungsregel verworfen wurden?** - Fügen Sie eine Fehlerpfad-Bedingungsfilterung für `lastErrorCode == "capped"` hinzu und übertragen Sie diese Profile über eine benutzerdefinierte Aktion auf ein Drittanbietersystem.
+* **F: Was ist der Unterschied zwischen `journeyUID` und `instanceUID`?** — `journeyUID` identifiziert die Journey-Definition; `instanceUID` identifiziert eine bestimmte Ausführungsinstanz für ein bestimmtes Profil.
+* **F: Welcher Fehlercode wird bei einem unerwarteten Systemfehler zurückgegeben?** — Der `error`-Code, der als Standard für unerwartete Fehler verwendet wird und nur selten auftreten sollte.
+* **F: Kann ich Felder für Journey-Eigenschaften verwenden, um Slack-Warnungen bei Aktionsfehlern zu senden?** — Ja. Referenzieren Sie `lastNodeNameInError` und `lastErrorCode` in einer benutzerdefinierten Aktion, um Fehlerdetails in eine Slack-Benachrichtigung aufzunehmen.
+
++++

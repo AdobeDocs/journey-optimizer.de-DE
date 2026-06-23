@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2787
-ht-degree: 84%
+source-wordcount: 3502
+ht-degree: 67%
 
 ---
 
@@ -297,5 +297,52 @@ Sie können den [[!DNL Adobe Experience Platform] Abfrage-Service](https://exper
 
    1. Wenn die Journey pausiert wurde und die Option „Halten“ ausgewählt war, aber Profile aufgrund eines Überschreitens des 10-Millionen-Kontingents verworfen wurden, werden diese Profile auch dann verworfen, wenn sie den nächsten Aktionsknoten erreichen.
 
++++ KI-Wissensreferenz
 
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
 
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie eine Live-Journey in Adobe Journey Optimizer anhalten und fortsetzen können, einschließlich des Verhaltens beim Halten oder Verwerfen von Profilen während der Pause, wie Sie beim Anhalten Kriterien zum Verlassen von Profilattributen anwenden und wie Sie Verwerfen von Profilen mithilfe des Abfrage-Service beheben können.
+
+**intents:**
+* Live-Journey anhalten, um neue Profileinträge zu verhindern und Bordprofile beim nächsten Aktionsknoten zu speichern oder zu verwerfen
+* Setzt eine pausierte Journey manuell fort oder versteht, wann sie nach der maximalen Pausenzeit automatisch fortgesetzt wird
+* Ausstiegskriterien für Profilattribute anwenden, um bestimmte Profile auszuschließen (z. B. nach Land), wenn ein Journey angehalten wird
+* Mehrere Live-Journey aus der Journey-Inventarliste per Massenpause oder Massenfortsetzung wieder aufnehmen
+* Fehlerbehebung bei Profilverwerfen in einer angehaltenen Journey mithilfe von Schrittereignisabfragen des Adobe Experience Platform Query Service
+* Audit-Protokoll anzeigen für Benutzer, die eine Journey angehalten oder fortgesetzt haben und wann
+
+**Glossar:**
+* **Pause (Journey)**: Ein Status, der eine Live-Journey vorübergehend aussetzt, neue Eintritte verhindert und den Profilfortschritt beim nächsten Aktionsknoten anhält. Während der Pause werden keine Nachrichten gesendet *(produktspezifisch)*
+* **Haltemodus**: Eine Pausenoption, mit der Bordprofile beim nächsten Aktionsknoten so lange gewartet werden, bis die Journey fortgesetzt wird *(produktspezifisch)*
+* **Verwerfungsmodus**: Eine Pausenoption, mit der Bordprofile von der Journey beendet werden, wenn sie den nächsten Aktionsknoten erreichen *(produktspezifisch)*
+* **Ausstiegskriterien auf Profilattributbasis**: Ein Filter, der auf eine angehaltene Journey angewendet wird und Profile ausschließt, die beim nächsten Aktionsknoten bei der Wiederaufnahme einem definierten Ausdruck entsprechen *(produktspezifisch)*
+* **Massenpause/Massenwiederaufnahme**: Die Möglichkeit, mehrere Live- oder pausierte Journey gleichzeitig über die Journey-Inventarliste anzuhalten oder fortzusetzen *(produktspezifisch)*
+
+**Leitplanken:**
+* Nur Benutzer mit der Berechtigung **Journey veröffentlichen** können Journey anhalten und fortsetzen
+* Eine Journey kann für maximal 14 Tage pausiert werden; danach wird sie automatisch wieder aufgenommen
+* In allen angehaltenen Journey eines Unternehmens können maximal 10 Millionen Profile gespeichert werden. Überschüssige Profile werden automatisch verworfen
+* Pro Journey kann nur ein auf Profilattributen basierendes Beendigungskriterium festgelegt werden
+* Auf Profilattributen basierende Beendigungskriterien können nur erstellt, aktualisiert oder gelöscht werden, während die Journey angehalten wird
+* Anzahl der angehaltenen Journey für das Live-Journey-Kontingent
+* Globale Journey-Zeitüberschreitung (91 Tage) gilt während einer Pause weiterhin
+* Eingehende Aktivitätskommunikationen, die bereits vor der Pause ausgelöst wurden, werden weiterhin zugestellt. Um sie zu stoppen, muss die Journey vollständig angehalten werden
+* Warnhinweise für Batch-Segmente werden in pausierten Journey nicht ausgelöst
+* Neueintritte werden immer verworfen, wenn eine Journey pausiert wird, unabhängig vom Hold- oder Discard-Modus
+
+**Terminologie:**
+* Kanonischer Name: Pause a Journey — Akronym: none — Varianten: Journey Pause, Pause/Resume
+* Synonyme: „Hold“ = „Park Profile“; „Discard“ = „Exit Profile“
+* Verwechseln Sie nicht: „Anhalten“ ≠ „Anhalten“ - Anhalten ist temporär und ermöglicht die Wiederaufnahme; Anhalten beendet sofort alle Profile und kann nicht in einen Live-Status rückgängig gemacht werden
+* Verwechseln Sie nicht: „Anhalten“ ≠ „Für neue Eintritte schließen“ — Durch das Schließen neuer Eintritte können vorhandene Profile beendet werden, sie werden jedoch nicht angehalten. Durch das Anhalten werden alle Profile in Flug beim nächsten Aktionsknoten angehalten
+
+**FAQ:**
+* **F: Was passiert mit Profilen, die sich bereits auf einer Journey befinden, wenn sie angehalten wird?** — Je nach der zum Zeitpunkt der Pause gewählten Option werden Profile entweder aufbewahrt (beim nächsten Aktionsknoten wartet) oder verworfen (beim nächsten Aktionsknoten vom Journey beendet).
+* **F: Wie lange kann eine Journey angehalten bleiben?** — höchstens 14 Tage; danach wird sie automatisch wieder aufgenommen.
+* **F: Kann ich bestimmte Profile ausschließen, während eine Journey angehalten wird?** — Ja. Wenden Sie ein auf Profilattributen basierendes Beendigungskriterium (eines pro Journey) an, während die Journey angehalten wird, um übereinstimmende Profile beim nächsten Aktionsknoten bei der Wiederaufnahme auszuschließen.
+* **F: Hält das Anhalten einer Journey In-App- oder Web-Nachrichten an, die bereits ausgelöst wurden?** — Nein; eingehende Nachrichten, die bereits vor der Pause ausgelöst wurden, werden weiterhin zugestellt. Um alle eingehenden Nachrichten zu stoppen, müssen Sie die Journey vollständig stoppen.
+* **F: Wie finde ich heraus, welche Profile während einer Pause verworfen wurden?** — Abfragen des `journey_step_events` Datensatzes in Adobe Experience Platform Query Service mithilfe der `PAUSED_JOURNEY_VERSION` oder `JOURNEY_IN_PAUSED_STATE` Ereignistypfilter mit der Journey-Versions-ID.
+
++++

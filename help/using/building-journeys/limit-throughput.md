@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 90%
+source-wordcount: 1454
+ht-degree: 51%
 
 ---
 
@@ -105,3 +105,51 @@ Als zusätzliche Leitplanke können Sie auch Begrenzungsfunktionen verwenden.
 >[!NOTE]
 >
 >Im Gegensatz zu Begrenzungsfunktionen, die einen Endpunkt schützen, indem sie für alle Journeys einer Sandbox global angewendet werden, funktioniert dieser Lösungsansatz nur auf Journey-Ebene. Wenn also mehrere Journeys parallel ausgeführt werden und auf denselben Endpunkt abzielen, müssen Sie dies beim Entwerfen Ihrer Journey berücksichtigen. Dieser Lösungsansatz ist daher nicht für jeden Anwendungsfall geeignet.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie den Journey-Durchsatz einschränken können, wenn externe Datenquellen oder benutzerdefinierte Aktionen eine begrenzte Anzahl von Anfragen pro Sekunde aufweisen, indem Sie die Konfiguration der „Zielgruppenrate lesen“, die Prozentaufspaltung und Warteaktivitäten verwenden.
+
+**intents:**
+
+* Begrenzen des Durchsatzes einer zielgruppengesteuerten Journey, um ein externes System vor Überlastung zu schützen
+* Konfigurieren Sie die Leserate der Aktivität Zielgruppe lesen , um zu steuern, wie viele Profile pro Sekunde eintreten.
+* Kombinieren Sie prozentuale Aufspaltungsbedingungen und Warteaktivitäten, um die Profilverarbeitung über die Zeit zu verteilen
+* Verstehen Sie den Unterschied zwischen Workarounds auf Journey-Ebene und Begrenzungsfunktionen auf Sandbox-Ebene
+* Anwenden von Begrenzungsfunktionen auf benutzerdefinierte Aktionen auf Produktebene
+
+**Glossar:**
+
+* **Drosselung/Durchsatzbegrenzung**: Steuern der Rate, mit der Profile durch einen Journey fließen, um zu vermeiden, dass die Anfragekapazität eines externen Systems überschritten wird. *(produktspezifisch)*
+* **Leserate der Zielgruppe lesen**: Ein konfigurierbarer Parameter in der Aktivität „Zielgruppe lesen“, der die maximale Anzahl von Profilen pro Sekunde festlegt, die auf die Journey zugreifen (Bereich: 500-20.000 Instanzen/Sekunde). *(produktspezifisch)*
+* **Begrenzungs-API**: Eine Journey Optimizer-API, die ein maximales Anfragelimit pro Endpunkt für externe Datenquellen definiert. Anfragen, die über das obere Limit hinausgehen, werden entfernt. *(produktspezifisch)*
+* **Bedingung für die prozentuale Aufspaltung**: Eine Bedingungsaktivität, die den Profilfluss in Zweige nach Prozentsatz unterteilt. Wird hier verwendet, um Profile über Pfade für zeitversetzte Wartezeiten zu verteilen. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Die Leserate der Zielgruppe lesen kann zwischen 500 und 20.000 Instanzen pro Sekunde festgelegt werden. Bei Werten unter 500/s ist eine Abhilfe durch prozentuale Aufspaltungen und Warteaktivitäten erforderlich
+* Einzelne Journey unterstützen bis zu 5.000 Instanzen pro Sekunde; Journey-Zielgruppen unterstützen bis zu 20.000 Instanzen pro Sekunde
+* Die Problemumgehung durch prozentuale Aufspaltung und Warten funktioniert nur auf Journey-Ebene, nicht auf allen Journey in der Sandbox
+* Wenn mehrere Journeys denselben externen Endpunkt parallel ansprechen, berücksichtigt diese Problemumgehung nicht die kombinierte Last. Stattdessen sollten Begrenzungsfunktionen verwendet werden
+* Verbleibende Anfragen, die das Begrenzungslimit für externe Datenquellen überschreiten, werden ignoriert und nicht in die Warteschlange gestellt
+* Die Problemumgehung muss gründlich getestet werden, bevor sie in die Produktion aufgenommen wird
+
+**Terminologie:**
+
+* Kanonischer Name: Throughput limit — Akronym: none — Varianten: throttling, rate limit, Journey Throughput control
+* Synonyme: „Capping“ = „Drosselung“ im Kontext des externen Endpunktschutzes
+* Verwechseln Sie nicht: „Begrenzungs-API (Endpunktebene)“ ≠ „Leserate (Journey-Ebene)“ - Die Begrenzungs-API gilt global für alle Journey in einer Sandbox, die auf einen Endpunkt abzielt. Die Leserate und die Aufspaltungs-/Warteumgehung gelten nur für die jeweilige Journey
+
+**FAQ:**
+
+* **F: Wie hoch ist die maximale Leserate, die ich für eine Aktivität vom Typ „Zielgruppe lesen“ festlegen kann?** — Zwischen 500 und 20.000 Profile pro Sekunde. Verwenden Sie für eine Geschwindigkeit unter 500/s eine prozentuale Aufspaltung mit Warteaktivitäten.
+* **F: Wie tragen prozentuale Aufspaltungen und Warteaktivitäten dazu bei, den Durchsatz zu begrenzen?** - Durch die Aufspaltung von Profilen in Verzweigungen (z. B. jeweils 20 %) und das Hinzufügen gestaffelter Wartezeiten pro Verzweigung stellen Sie sicher, dass nur eine kontrollierte Anzahl von Profilen das externe System pro Sekunde erreicht.
+* **F: Schützt die prozentuale Aufspaltung alle Journey, die auf denselben Endpunkt abzielen?** — Nein, es funktioniert nur auf individueller Journey-Ebene. Wenn mehrere Journey parallel für denselben Endpunkt ausgeführt werden, verwenden Sie stattdessen Begrenzungsfunktionen auf Sandbox-Ebene.
+* **F: Was passiert mit Anfragen, die das Begrenzungslimit für eine externe Datenquelle überschreiten?** — Sie werden gelöscht; die Begrenzungs-API stellt keine übermäßigen Anfragen in die Warteschlange.
+* **F: Sollte ich benutzerdefinierte Aktionen oder Datenquellen für Anwendungsfälle externer Daten verwenden?** — Benutzerdefinierte Aktionen werden bevorzugt, da sie die Antwortverarbeitung unterstützen. Datenquellen sollten nur verwendet werden, wenn der Anwendungsfall sie speziell erfordert.
+
++++

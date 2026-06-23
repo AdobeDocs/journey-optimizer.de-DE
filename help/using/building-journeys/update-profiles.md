@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 34%
+source-wordcount: 1491
+ht-degree: 21%
 
 ---
 
@@ -117,3 +117,53 @@ Weiterführende Informationen dazu, wie Sie ein vorhandenes Profil in ein Testpr
 * Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
 * Bis zu fünf Feld/Wert-Paare können in einer einzigen Aktion **[!UICONTROL Profil aktualisieren]** aktualisiert werden. Verwenden Sie die Schaltfläche **[!UICONTROL Weiteres Feld aktualisieren]**, um weitere Paare hinzuzufügen.
 * Gruppieren Sie zur Leistungsverbesserung mehrere Attributaktualisierungen in einer einzelnen Aktion **[!UICONTROL Profil aktualisieren]** anstatt eine Aktion pro Attribut zu verwenden.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie die Aktivität „Profil aktualisieren“ konfigurieren können, um ein vorhandenes Adobe Experience Platform-Profil mit Daten aus Journey-Ereignissen, Datenquellen oder statischen Werten anzureichern oder zu korrigieren, wenn ein Kunde eine Journey durchläuft.
+
+**intents:**
+
+* Konfigurieren Sie die Aktivität Profil aktualisieren , um vorhandene Profilattribute während eines Journey zu ändern
+* Wählen Sie einen profilaktivierten Datensatz aus, der sich mit der Aktualisierung von Profilaktionen beschäftigt
+* Zuordnen von Feldwerten aus Journey-Ereignissen, Datenquellen oder statischen Werten zu Profilattributen
+* Mehrere Profilattribute (bis zu fünf) in einer Aktivität aktualisieren
+* Testprofil-Updates im Journey-Testmodus
+
+**Glossar:**
+
+* **Aktivität „Profil aktualisieren**: Eine Aktionsaktivität, die in Echtzeit neue Werte in bestehende Felder in einem Adobe Experience Platform-Profil schreibt, während sich ein Profil durch einen Journey-*bewegt (produktspezifisch)*
+* **Profilspeicher**: Der Adobe Experience Platform-Speicher, der Echtzeit-Kundenprofildaten enthält, die sich vom Data Lake *(produktspezifisch)*
+* **Identity-Namespace**: Eine Kennzeichnung, die Identitätskontexte unterscheidet (z. B. E-Mail, CRM-ID), die dem aktualisierten Profil entsprechen *(produktspezifisch)*
+* **Profil-aktivierter Datensatz**: Ein Adobe Experience Platform-Datensatz, der so konfiguriert ist, dass er Datensätze zum einheitlichen *beiträgt (produktspezifisch)*
+
+**Leitplanken:**
+
+* Die Aktion Profil aktualisieren kann nur in Journeys verwendet werden, für die ein Namespace definiert ist.
+* Die Aktion aktualisiert nur vorhandene XDM-Felder, sie kann keine neuen Profilfelder erstellen.
+* Es werden nur einfache Feldtypen (Zeichenfolge, Zahl, boolescher Wert) unterstützt; Auflistungen, Objekt-Arrays und komplexe Auflistungen werden nicht unterstützt.
+* Die Aktion kann keine Erlebnisereignisse wie Käufe generieren.
+* Mit einer einzigen Aktion Profil aktualisieren können bis zu fünf Feld/Wert-Paare aktualisiert werden.
+* Geben Sie den dedizierten Datensatz nicht für Batch- oder Streaming-Aufnahmeprozesse frei, da andere Aufnahmedurchgänge Profiländerungen überschreiben und aktualisieren.
+* Profilaktualisierungen sind in derselben Journey-Ausführung möglicherweise nicht sofort nachgelagert verfügbar.
+* Die Aktivität aktualisiert nur den Profilspeicher, nicht den Data Lake.
+
+**Terminologie:**
+
+* Kanonischer Name: Profil aktualisieren — Akronym: none — Varianten: Aktivität Profil aktualisieren, Aktion Profil aktualisieren
+* Synonyme: „Profile Store“ = „Echtzeit-Kundenprofil-Store“
+* Verwechseln Sie nicht: „Profilspeicher“ (durch diese Aktivität aktualisiert) ≠ „Data Lake“ (durch diese Aktivität nicht aktualisiert)
+
+**FAQ:**
+
+* **F: Kann die Aktivität Profil aktualisieren neue Profilfelder erstellen?** - Nein, es können nur Felder aktualisiert werden, die bereits im ausgewählten XDM-Profilschema vorhanden sind.
+* **F: Warum sollte ich einen dedizierten Datensatz für Profilaktualisierungsaktionen verwenden?** — Die Freigabe des Datensatzes für die Batch- oder Streaming-Aufnahme kann dazu führen, dass andere Aufnahmedurchgänge die Änderungen überschreiben, die durch die Aktivität Profil aktualisieren vorgenommen wurden.
+* **F: Sind Profilaktualisierungen für nachgelagerte Aktivitäten auf derselben Journey sofort sichtbar?** — Nein, aktualisierte Werte werden möglicherweise noch nicht angezeigt, wenn eine Aktion dasselbe Feld unmittelbar nach dem Schreiben durch die Aktivität Profil aktualisieren liest.
+* **F: Wie viele Felder kann ich mit einer einzigen Aktion Profil aktualisieren?** — Über die Schaltfläche „Weiteres Feld aktualisieren“ können bis zu fünf Feld/Wert-Paare in einer Aktivität konfiguriert werden.
+* **F: Werden Profilaktualisierungen im Testmodus angewendet?** — Ja, im Testmodus werden die Aktualisierungen sofort auf das Testprofil angewendet und nicht simuliert.
+
++++

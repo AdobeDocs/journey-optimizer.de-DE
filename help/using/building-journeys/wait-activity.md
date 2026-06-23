@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 932
-ht-degree: 76%
+source-wordcount: 1589
+ht-degree: 45%
 
 ---
 
@@ -118,7 +118,7 @@ Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch
 >* Beim Erstellen eines benutzerdefinierten Warteausdrucks mit `toDateTimeOnly()` dürfen Sie **nicht** `Z` oder einen Zeitzonenversatz anhängen (z. B. `-05:00`). Der Ausdruck muss auf die konfigurierte Zeitzone der Journey ohne explizite Zeitzonenbezeichner verweisen, da andernfalls Profile in der Warteaktivität stecken bleiben können.
 >
 >| | Beispiel |
->|---|---|
+>| --- | --- |
 >| **Richtig** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **falsch** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält `Z`) |
 
@@ -143,3 +143,53 @@ Beispiel: Wenn sich ein Profil beim Journey-Start für eine Zielgruppe des Typs�
 >abstract="Nach **eingehenden Aktion** automatisch ein „Warten“-Knoten eingefügt. Standardmäßig ist dieser Zeitraum auf 3 Tage festgelegt, um sicherzustellen, dass Profile lange genug im Journey bleiben, um die Nachricht oder das Erlebnis anzuzeigen. Die Wartezeit kann aktualisiert oder der Knoten entfernt werden, wenn der Anwendungsfall dies erfordert."
 
 Jede Aktivität für eingehende Erlebnisse (In-App-Nachricht, Code-basiertes Erlebnis oder Karte) geht mit einer 3-tägigen **Warteaktivität** einher. Da eingehende Nachrichten automatisch enden, wenn ein Profil das Ende der Journey erreicht, ist davon auszugehen, dass Sie möchten, dass Ihre Benutzenden sie mindestens 3 Tage lang sehen. Sie können bei Bedarf diese **Warteaktivität** entfernen oder ihre Konfiguration ändern.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird beschrieben, wie Sie die Warteaktivität in einer Journey so konfigurieren, dass der Profilfortschritt für eine relative Dauer oder bis zu einem benutzerdefinierten berechneten Datum angehalten wird, bevor Sie den nächsten Schritt ausführen.
+
+**intents:**
+
+* Fügen Sie die Aktivität Warten hinzu, um eine Journey für eine bestimmte Dauer (bis zu 90 Tage) anzuhalten
+* Konfigurieren einer benutzerdefinierten Wartezeit mit einem erweiterten Ausdruck, um das Berechnen eines profilspezifischen Datums zu verzögern
+* verstehen, wie Warteaktivitäten mit der globalen Zeitüberschreitung nach Journey interagieren (91 Tage),
+* Verwenden Sie die Wartezeit im Testparameter , um die Validierung des Testmodus zu beschleunigen
+* Erfahren Sie, wie Profilattribute nach einem Warteknoten in den Journey der Zielgruppe lesen aktualisiert werden
+
+**Glossar:**
+
+* **Warteaktivität** Eine Journey-Orchestrierungsaktivität, die den Profilfortschritt für eine bestimmte Dauer oder bis zu einem berechneten Datum anhält, bevor die nächste Aktivität ausgeführt wird *(produktspezifisch)*
+* **Wartezeit**: Ein Wartetyp, der einen relativen Zeitraum für das Anhalten mit maximal 90 Tagen festlegt *produktspezifisch)*
+* **Benutzerdefinierte Wartezeit**: Ein Wartetyp, der einen `dateTimeOnly` Ausdruck verwendet, der von Profil- oder Ereignisdaten abgeleitet wurde, um ein bestimmtes Datum/eine bestimmte Uhrzeit in der Zukunft für die Wiederaufnahme zu definieren *(produktspezifisch)*
+* **Knoten „Automatische Wartezeit**: Eine 3-tägige Warteaktivität wird automatisch nach eingehenden Erlebnisaktivitäten (In-App, Code-basiert, Karte) eingefügt, um das Profil lange genug auf der Journey zu halten, um die *anzuzeigen (produktspezifisch)*
+* **Wartezeit im Test**: Ein Journey-Testmodusparameter, der die tatsächlichen Wartezeiten (standardmäßig 10 Sekunden) überschreibt, damit Testergebnisse schnell zurückgegeben werden *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Die maximale Wartezeit beträgt 90 Tage.
+* Profile werden nach 91 Tagen (globale Zeitüberschreitung) von einer Journey gelöscht, unabhängig von ausstehenden Warteaktivitäten.
+* Ein Profil kann nur dann in eine Warteaktivität eintreten, wenn ausreichend Zeit auf dem Journey verbleibt, um die Wartezeit vor der maximalen Wartezeit von 91 Tagen abzuschließen.
+* Verwenden Sie keine Warteaktivitäten, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option Erneuten Eintritt erlauben in den Journey-Eigenschaften.
+* Benutzerdefinierte Warteausdrücke müssen `dateTimeOnly` Format verwenden und dürfen kein `Z` Suffix und keinen expliziten Zeitzonenversatz enthalten.
+* Die Verwendung eines festen statischen Datums (z. B. `toDateTimeOnly('2024-01-01T01:11:00Z')`) in einer benutzerdefinierten Wartezeit kann zu Problemen führen. Verwenden Sie stattdessen profilspezifische dynamische Datumsangaben.
+* Profilattribute werden vom Unified Profile Service nach einem Warteknoten in den Journey des Typs „Zielgruppe lesen“ aktualisiert, was zu unerwarteten Ergebnissen führen kann, wenn Momentaufnahmenkonsistenz erwartet wird.
+
+**Terminologie:**
+
+* Kanonischer Name: Warteaktivität — Akronym: none — Varianten: Warteknoten, Warteschritt
+* Synonyme: „Duration wait“ = „Relative Wartezeit“; „Benutzerdefinierte Wartezeit“ = „Ausdrucksbasierte Wartezeit“
+* Verwechseln Sie nicht: „Wartezeit für die Dauer“ (relativ, z. B. in 3 Tagen) ≠ „Benutzerdefinierte Wartezeit“ (absolutes berechnetes Datum aus Profildaten)
+
+**FAQ:**
+
+* **F: Wie lange kann eine Warteaktivität maximal dauern?** — Die maximale Wartezeit beträgt 90 Tage. Für Profile gilt außerdem das 91-tägige globale Journey-Timeout.
+* **F: Wie behandelt der Testmodus Warteaktivitäten?** — Im Testmodus überschreibt der Parameter „Wartezeit im Test“ die tatsächliche Wartezeit. Der Standardwert ist 10 Sekunden, sodass Tests schnell abgeschlossen werden.
+* **F: Warum sollte ich es vermeiden, Z an einen benutzerdefinierten Warteausdruck anzuhängen?** — Das Hinzufügen von Z oder eines Zeitzonenversatzes zu einem `toDateTimeOnly()` kann dazu führen, dass Profile in der Warteaktivität hängen bleiben. Der Ausdruck muss auf der konfigurierten Zeitzone der Journey basieren.
+* **F: Werden Profilattribute nach einem Warteknoten aktualisiert?** — Ja, in Journey mit dem Schritt „Zielgruppe lesen“ aktualisiert der Journey nach längerer Wartezeit die Profilattribute vom Unified Profile Service, sodass nachgelagerte Aktivitäten möglicherweise aktualisierte Werte sehen anstatt der ursprünglichen Zielgruppen-Momentaufnahme-Daten.
+* **F: Was ist der automatische Warteknoten?** - Eine 3-tägige Warteaktivität wird automatisch nach eingehenden Erlebnisaktivitäten (In-App, Code-basiert, Karte) eingefügt, um sicherzustellen, dass Profile lange genug auf der Journey bleiben, um die Nachricht zu sehen. Sie kann bei Bedarf entfernt oder neu konfiguriert werden.
+
++++

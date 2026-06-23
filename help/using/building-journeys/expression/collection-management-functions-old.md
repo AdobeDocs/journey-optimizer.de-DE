@@ -11,10 +11,10 @@ keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 100%
+source-wordcount: 1222
+ht-degree: 58%
 
 ---
 
@@ -233,8 +233,8 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **Die Funktion „at(`<index>`)“**
 
-Mit der Funktion **[!UICONTROL at]** können Sie anhand eines Index auf ein bestimmtes Element in einer Sammlung verweisen.
-Der Index „0“ ist der erste Index der Sammlung.
+Mit der Funktion **[!UICONTROL at]** können Sie anhand eines Index auf ein bestimmtes Element in einer Auflistung verweisen.
+Index 0 ist der erste Index der Sammlung.
 
 _`<listExpression>`.at(`<index>`)_
 
@@ -263,3 +263,52 @@ Dieser Ausdruck ruft den Namen des letzten Produkts in der Produktliste eines Co
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden die in der Journey-Ausdruckssprache verfügbaren Sammlungsverwaltungsfunktionen `all()`, `first()`, `last()` und `at()` erläutert. Beispiele werden dabei verwendet, wie Payloads von Push-Benachrichtigungs-Token und Erlebnisereignisdaten verwendet werden.
+
+**intents:**
+
+* Filtern Sie eine Sammlung mithilfe einer booleschen Bedingung mit `all(<condition>)`, um übereinstimmende Elemente abzurufen.
+* Zählen von Elementen in einer Sammlung mithilfe der `count()`-Funktion in Kombination mit `all()`
+* Abrufen des ersten oder letzten Elements einer gefilterten Sammlung mit `first()` oder `last()`
+* Zugreifen auf ein bestimmtes Element in einer Sammlung nach Index mithilfe von `at(<index>)`
+* Kombinieren Sie verschachtelte Sammlungsabfragen, um Produktnamen nach SKU oder nach Ereignistyp und Preisschwellenwert zu suchen.
+
+**Glossar:**
+
+* **all(condition)**: Sammlungsfunktion, die eine Liste filtert und Elemente zurückgibt, die mit dem gegebenen booleschen Ausdruck übereinstimmen *(produktspezifisch)*
+* **first(condition)**: Sammlungsfunktion, die das erste (neueste, für Erlebnisereignisse) Element zurückgibt, das der Bedingung entspricht *(produktspezifisch)*
+* **last(condition)**: Sammlungsfunktion, die das letzte (älteste, für Erlebnisereignisse) Element zurückgibt, das der Bedingung entspricht *(produktspezifisch)*
+* **at(index)**: Sammlungsfunktion, die das Element mit einem bestimmten nullbasierten *(produktspezifisch) zurückgibt*
+* **currentEventField**: Schleifenvariable, die bei der Iteration über Ereignisauflistungen in `all()`, `first()` oder *(produktspezifisch) verfügbar `last()` ist*
+* **currentDataPackField**: Schleifenvariable, die bei der Iteration über Datenquellensammlungen verfügbar ist *(produktspezifisch)*
+* **currentActionField**: Schleifenvariable, die bei der Iteration über Sammlungen von benutzerdefinierten Aktionsantworten verfügbar ist *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird unterstützt, wird jedoch nicht empfohlen. Erwägen Sie stattdessen berechnete Attribute oder Zielgruppensegmente
+* `currentEventField` ist nur für Ereignisauflistungen verfügbar, `currentDataPackField` für Datenquellenauflistungen, `currentActionField` für Sammlungen benutzerdefinierter Aktionsantworten
+* Die Funktion `all` ist nicht erforderlich, um Elemente einer Sammlung zu zählen - `count()` kann direkt auf das Sammlungsfeld angewendet werden
+* Erlebnisereignisse werden in umgekehrter chronologischer Reihenfolge abgerufen: `first()` gibt das neueste Ereignis `last()` das älteste zurück
+
+**Terminologie:**
+
+* Kanonischer Name: Sammlungsverwaltungsfunktionen — Akronym: none — Varianten: Sammlungsfunktionen, Abfragen-Sammlungsfunktionen
+* Synonyme: „all()“ = „Filterfunktion“; „first()“ = „Letzte Elementfunktion“ (für Erlebnisereignisse)
+* Nicht verwechseln: `first()` (aktuelles Erlebnisereignis) ≠ das erste Element nach Einfügereihenfolge
+
+**FAQ:**
+
+* **F: Was gibt `all()` zurück, wenn die Bedingung leer ist?** — Gibt alle Elemente in der Liste zurück, entsprechend keiner Filterung.
+* **F: Wie zähle ich die Anzahl der Push-Benachrichtigungs-Token in einer Sammlung?** — Verwenden Sie `count()` direkt im Token-Feldpfad, ohne dass `all()` erforderlich sind, z. B. `count(@event{...pushNotificationTokens.token})`.
+* **F: Wie erhalte ich das zweite Element einer Sammlung?** — Verwenden Sie `at(1)`, da Index 0 das erste Element ist.
+* **F: Warum gibt `first()` das letzte Erlebnisereignis zurück?** — Erlebnisereignisse werden in umgekehrter chronologischer Reihenfolge von Adobe Experience Platform abgerufen, sodass `first()` das oberste (neueste) Element auswählt.
+* **F: Wie kann ich überprüfen, ob ein Benutzer in den letzten 24 Stunden keine Kommunikation erhalten hat?** — Filtern Sie die Erlebnisereignissammlung mit `nowWithDelta(-1, "days")` als Zeitstempel als Untergrenze und verwenden Sie `count(...) == 0`.
+
++++

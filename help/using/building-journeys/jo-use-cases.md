@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 76%
+source-wordcount: 1523
+ht-degree: 52%
 
 ---
 
@@ -114,7 +114,7 @@ Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schritt
 </td>
 <td>
 <a href="message-to-subscribers-uc.md">
-<img alt="Senden einer Nachricht an Abonnenten" src="../assets/do-not-localize/start-quick.png">
+<img alt="Senden einer Nachricht an Abonnentinnen und Abonnenten" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
 <a href="message-to-subscribers-uc.md"><strong>Senden an Abonnierende</strong></a>
@@ -259,3 +259,40 @@ In den folgenden Blog-Beiträgen finden Sie weitere Anleitungen und Best Practic
 </div>
 </td>
 </tr></table>
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** Diese Seite ist eine kuratierte Bibliothek mit praktischen Journey-Anwendungsfällen - Erlebnisereignissen, Datensatzabfragen, Geschäftsszenarien, technischen Mustern, Video-Tutorials und Community-Blogposts -, die Anwendern helfen, Adobe Journey Optimizer optimal zu nutzen.
+
+**intents:**
+- Hier finden Sie praktische Anwendungsbeispiele für Geschäftsszenarien wie Multi-Channel-Messaging, Abonnentenkampagnen und E-Mail-Versand nur an Wochentagen
+- Suchen Sie technische Anwendungsfallmuster für benutzerdefinierte Aktionen, Durchsatzbeschränkungen und Entfernen von Profilen von einer Live-Journey.
+- Greifen Sie auf Video-Tutorials für gängige Journey-Muster zu, einschließlich Kunden-Onboarding, Warenkorbabbruch und Rückgewinnung
+- Abfragen von Adobe Journey Optimizer-Datensätzen (Schrittereignisse, Tracking-Ereignisse, Angebotsvorschläge) zum Erstellen benutzerdefinierter Analysen und Berichte
+- Verwenden Sie Suchmuster für Erlebnisereignisse, um Opt-outs, Häufigkeit und Echtzeit-Personalisierung zu verwalten
+
+**Glossar:**
+- **Erlebnisereignis**: Ein Datensatz mit Zeitstempel einer Kundeninteraktion (z. B. Kauf, Klick, Seitenansicht), der in Adobe Experience Platform gespeichert ist und zum Trigger oder zur Personalisierung von Journey-*(produktspezifisch) verwendet wird*
+- **Schrittereignis**: Ein automatisch generierter Datensatz, der jeden Schritt erfasst, den ein Profil auf einer Journey durchführt. Er wird für benutzerdefiniertes Reporting und Debugging *produktspezifisch) verwendet*
+- **Benutzerdefinierte Aktion**: Eine Journey-Aktivität, die eine externe API aufruft, um Daten an ein Drittanbietersystem zu senden oder von diesem zu empfangen *(produktspezifisch)*
+
+**Leitplanken:**
+- Jedes Anwendungsbeispiel enthält Empfehlungen, die auf spezifische Anforderungen zugeschnitten sein sollten. Sie sind Ausgangspunkte und keine präskriptiven Konfigurationen
+- Datensatzabfragen erfordern Zugriff auf den Abfrage-Service von Adobe Experience Platform
+- Video-Tutorials verweisen auf externe Lernressourcen in Experience League
+
+**Terminologie:**
+- Kanonischer Name: Anwendungsfälle — Akronym: none — Varianten: Journey Anwendungsfälle, Praxisbeispiele, Rezepte
+- Synonyme: „Business Use Case“ = „Marketing-Anwendungsfall“; „Technischer Anwendungsfall“ = „Entwickler-Anwendungsfall“
+
+**FAQ:**
+- **F: Wo fange ich an, wenn ich neu bei den Ein- und Ausstiegskriterien für Journey bin?** — Beginnen Sie mit dem umfassenden Handbuch zum Journey der Ein- und Ausstiegskriterien, das praktische Anwendungsfälle, Best Practices und schrittweise Konfigurationsanleitungen umfasst.
+- **F: Wie kann ich Journey-Schrittereignisse für benutzerdefinierte Berichte abfragen?** - Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um den Datensatz Journey-Schrittereignisse abzufragen. Beispielabfragen sind auf der Seite mit den Abfragebeispielen für verknüpfte Datensätze verfügbar.
+- **F: Wo finde ich einen Anwendungsfall für den Versand von E-Mails nur an Werktagen?** — Siehe die Seite mit dem Anwendungsfall für Wochentags-E-Mails, die auch als Community-Blogpost verfügbar ist.
+- **F: Wie kann ich Profile von einer Live-Journey entfernen?** — Verwenden Sie die Ausstiegskriterien für Profilattribute auf einer pausierten Journey, wie im technischen Anwendungsfall zum Entfernen von Profilen von einer Live-Journey beschrieben.
+
++++

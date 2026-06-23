@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 670
-ht-degree: 39%
+source-wordcount: 1152
+ht-degree: 22%
 
 ---
 
@@ -112,3 +112,44 @@ Konzentrieren Sie den Journey-Namen weiterhin auf den zugrunde liegenden Kunden-
 >[!TIP]
 >
 >Eine ausführliche Erläuterung dieses Ansatzes und seiner Vorteile in großem Maßstab finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Tags in Adobe Journey Optimizer hinzugefügt, gefiltert und verwaltet werden und warum Tag-Kategorien eine bessere Alternative zu komplexen Benennungskonventionen für die Organisation großer Journey-Listen sind.
+
+**intents:**
+* Hinzufügen von Tags zu einer Journey über das Feld Journey-Eigenschaften-Tags .
+* Filtern Sie die Journey-Liste nach einem oder mehreren Tags, um bestimmte Journey schnell zu finden
+* Bearbeiten von Tags in vorhandenen Journey mit beliebigem Status (Live, Entwurf usw.) über weitere Aktionen
+* Erstellen und Organisieren von Tag-Kategorien als Administrator, um konsistente Metadaten zu erzwingen
+* Ersetzen einer komplexen Journey-Namenskonvention durch einen strukturierten Tag-basierten Ansatz
+
+**Glossar:**
+* **Tags**: Beschriftungen, die an Journey angehängt werden, um sie zu klassifizieren und zu filtern; ignoriert die Groß-/Kleinschreibung und wird beibehalten, wenn eine Journey dupliziert oder versioniert wird *(produktspezifisch)*
+* **Tag-Kategorien**: Gruppierungen verwandter Tag-Werte, die von Admins unter Administration > Tags erstellt wurden und eine strukturierte Metadaten-Klassifizierung ermöglichen *(produktspezifisch)*
+* **Nicht kategorisiert**: Die integrierte Standardkategorie, der direkt in Journey erstellte Tags automatisch zugewiesen werden *(produktspezifisch)*
+
+**Leitplanken:**
+* Tags unterscheiden nicht zwischen Groß- und Kleinschreibung
+* In Journey definierte Tags werden automatisch der integrierten Kategorie „Nicht kategorisiert“ hinzugefügt, es sei denn, ein Administrator weist sie einer benannten Kategorie zu
+* Nur Administratoren können über das Menü Administration > Tags Tags Tags löschen und Tag-Kategorien verwalten
+* Tags bleiben erhalten, wenn eine Journey dupliziert oder eine neue Version erstellt wird
+
+**Terminologie:**
+* Kanonischer Name: Tags — Akronym: none — Varianten: Journey Tags, administrative Tags
+* Kanonischer Name: Tag categories — Akronym: none — Varianten: Tag-Gruppen
+* Verwechseln Sie nicht: „Tags“ (Journey-Klassifizierungskennzeichnungen) ≠ „Benennungskonventionen“ (Metadaten, die direkt in Journey-Namen kodiert sind)
+
+**FAQ:**
+* **F: Wie füge ich einem Journey ein Tag hinzu?** — Geben Sie in die Journey-Eigenschaften den Tag-Namen in das Feld Tags ein und wählen Sie ihn aus der Liste aus, oder klicken Sie auf Erstellen , um ein neues Tag hinzuzufügen.
+* **F: Kann ich einer Live-Journey Tags hinzufügen?** — Ja. Klicken Sie auf das Symbol Mehr Aktionen neben der Journey in der Liste und wählen Sie Tags bearbeiten aus, um unabhängig vom Status Tags auf einer Journey hinzuzufügen oder zu entfernen.
+* **F: Wird bei Tags zwischen Groß- und Kleinschreibung unterschieden?** — Nein. Bei Tags wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+* **F: Was passiert mit Tags, wenn ich eine Journey dupliziere oder eine neue Version erstelle?** — Tags werden in der Duplikat- oder neuen Version beibehalten.
+* **F: Wer kann Tags löschen oder Tag-Kategorien erstellen?** — Nur Administratoren können Tags löschen und Tag-Kategorien über das Menü Administration > Tags verwalten.
+* **F: Warum sollten Tag-Kategorien anstelle von Benennungskonventionen verwendet werden?** - Tag-Kategorien erzwingen Konsistenz durch eine kontrollierte Liste, ermöglichen sofortige mehrdimensionale Filterung, halten Journey-Namen kurz und Meilenstein-fokussiert und skalieren einfach durch das Hinzufügen neuer Kategorien ohne das Umschreiben von Benennungsregeln.
+
++++

@@ -11,10 +11,10 @@ keywords: Journey, Anwendungsfall
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 66%
+source-wordcount: 711
+ht-degree: 30%
 
 ---
 
@@ -55,3 +55,45 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 1. Vervollständigen Sie die Journey mit den Aktivitäten Ihrer Wahl.
 
 Nach dem Aufwärmen Ihrer IP können Sie diese Bedingung entfernen.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite führt Sie durch einen Anwendungsfall zum Journey-basierten IP-Warming, der das E-Mail-Versandvolumen mithilfe einer Profilbegrenzungsbedingung schrittweise erhöht, um die Reputation des Absenders zu schützen.
+
+**intents:**
+
+* Erstellen einer IP-Warming-Journey zur schrittweisen Erhöhung des E-Mail-Versandvolumens
+* Konfigurieren einer Profilbegrenzungsbedingung, um die Anzahl der Empfänger pro Versand zu begrenzen
+* Hinzufügen der Aktionsaktivität E-Mail zum nominalen Journey-Pfad
+* Bedingung für die Profilbegrenzung entfernen, sobald die IP-Erwärmung abgeschlossen ist
+
+**Glossar:**
+
+* **IP-Warming**: Der Prozess der schrittweisen Erhöhung des E-Mail-Versandvolumens von einer neuen IP-Adresse, um die Reputation des Absenders *produktspezifisch) herzustellen*
+* **Profilbegrenzung**: Ein Bedingungstyp in Journey Optimizer, der die maximale Anzahl von Profilen begrenzt, die einen bestimmten Journey-Pfad annehmen können *(produktspezifisch)*
+* **Nominaler Pfad**: Der primäre Zweig einer Journey, dem Profile folgen, wenn Bedingungen erfüllt sind *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Für die Aktivität Bedingung muss eine Bedingung für die Profilbegrenzung festgelegt werden, um das Versandvolumen während des IP-Warmens zu steuern.
+* Profile, die das obere Limit überschreiten, werden an den alternativen Pfad weitergeleitet.
+* Die Journey muss nach Abschluss des IP-Warmings neu erstellt oder geändert werden, um die Kappenbedingung zu entfernen.
+
+**Terminologie:**
+
+* Kanonischer Name: IP Warming — Akronym: n/a — Varianten: IP Warm-up, Sender Reputation Warm-up
+* Synonyme: „Profile cap“ = „Empfänger-Limit-Bedingung“
+* Verwechseln Sie nicht: „IP-Warming“ ≠ „E-Mail-Authentifizierung“ (SPF/DKIM/DMARC-Einrichtung ist separat)
+
+**FAQ:**
+
+* **F: Warum muss ich meine IP aufwärmen?** — Neue IP-Adressen haben keinen Versandverlauf, sodass Mailbox-Anbieter Nachrichten blockieren oder Spam-Ordner senden können, bis die Reputation hergestellt ist.
+* **F: Was passiert mit Profilen, die die Profilbegrenzung überschreiten?** — Sie folgen dem alternativen Pfad, der in der Aktivität Bedingung definiert ist.
+* **F: Wie kann ich die Obergrenze im Laufe der Zeit erhöhen?** — Bearbeiten Sie das Feld Limit in den Einstellungen der Aktivität Bedingung und erhöhen Sie es schrittweise auf die Gesamtzahl der Abonnenten.
+* **F: Wann kann ich die Bedingung für die Profilbegrenzung entfernen?** — Sobald Ihre IP über ausreichend Versandverlauf und Zustellbarkeitsmetriken verfügt, können Sie die Bedingung von der Journey entfernen.
+
++++

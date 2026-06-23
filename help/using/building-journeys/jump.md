@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 56%
+source-wordcount: 1982
+ht-degree: 38%
 
 ---
 
@@ -191,3 +191,53 @@ In den folgenden Fällen wird der Sprungschritt in Journey A als **fehlgeschlage
 * Die bestehende Ziel-Journey-Instanz wurde beendet, und die Ziel-Journey ist nicht wiedereintrittspflichtig.
 * Auf der Ziel-Journey wird eine Periode für den erneuten Eintritt konfiguriert. Selbst wenn der erneute Eintritt grundsätzlich zulässig ist, kann das Profil erst wieder eintreten, wenn der Zeitraum abgelaufen ist (der Sprung schlägt mit dem Status „Kein Eintritt für den Zeitraum“ fehl).
 * Die Ziel-Journey-Version kann nicht gefunden werden, wurde gelöscht, befindet sich in einem fertigen Zustand oder wurde gestoppt.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Sprungaktivität erläutert, die Profile von einer Journey zur anderen verschiebt, um komplexe Journey-Designs durch wiederverwendbare Sub-Journey-Muster zu vereinfachen.
+
+**intents:**
+
+* Verwenden Sie die Sprungaktivität, um Profile von einer Ursprungs-Journey auf eine Ziel-Journey zu übertragen
+* Zerlegen Sie eine komplexe Journey in kleinere, verwaltbare Unter-Journey, die durch Sprungaktivitäten verbunden sind.
+* Konfigurieren Sie die Sprungaktivität, indem Sie einen Ziel-Journey auswählen und Aktionsparameter zuordnen.
+* Profilverhalten bei Ausführung eines Sprungs verstehen (Profil ist in beiden Journey gleichzeitig aktiv)
+* Fehlerbehebung bei Fehlern in der Jump-Konfiguration und Laufzeitfehlern
+* Vermeiden Sie Schleifenmuster beim Verketten mehrerer Journey mit Sprungaktivitäten
+
+**Glossar:**
+
+* **Sprungaktivität** Eine Aktionsaktivität, die ein internes Ereignis an das erste Ereignis einer Ziel-Journey sendet und bewirkt, dass das Profil beginnt, durch diese Journey zu fließen. *(produktspezifisch)*
+* **Ursprungs-Journey**: Die Journey, die die Sprungaktivität enthält und die Übertragung eines Profils auf eine andere Journey initiiert. *(produktspezifisch)*
+* **Target-Journey**: Die Journey, die das Profil über den internen Ereignis-Trigger der Sprungaktivität erhält. *(produktspezifisch)*
+* **Stille Überspringen**: Das Verhalten, wenn ein Profil zum Zeitpunkt eines Sprungs bereits auf der Ziel-Journey aktiv ist - der Sprung wird fehlerfrei übersprungen und die Ursprungs-Journey wird normal fortgesetzt. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Sprungaktivität ist nur in Journey verfügbar, die einen Namespace verwenden. Ursprungs- und Ziel-Journey müssen denselben Namespace verwenden
+* Es kann nicht zu einer Journey gesprungen werden, die mit einem Zielgruppen-Qualifizierungsereignis oder „Zielgruppe lesen“ beginnt.
+* Sprungaktivität und Zielgruppen-Qualifizierungsereignis oder „Zielgruppe lesen“ können nicht auf derselben Journey verwendet werden
+* Schleifenmuster (zirkuläre Journey-Ketten) werden nicht unterstützt und von der Konfigurations-Benutzeroberfläche verhindert
+* Zur Laufzeit wird die neueste Live-Version der Ziel-Journey ausgelöst
+* Ein Profil kann immer nur einmal auf derselben Journey vorhanden sein. Wenn es bereits auf der Ziel-Journey aktiv ist, wird der Sprung übersprungen
+* Wenn die Ziel-Journey entworfen, geschlossen, gestoppt, gelöscht oder die erste Ereigniszuordnung beschädigt ist, führt der Sprung zu einem Konfigurationsfehler
+
+**Terminologie:**
+
+* Kanonischer Name: Sprungaktivität — Akronym: none — Varianten: Sprungaktion, Journey-Sprung
+* Synonyme: „origin Journey&quot; = „Quell-Journey&quot;; „target Journey&quot; = „Ziel-Journey&quot;
+* Verwechseln Sie nicht: „Stilles Überspringen“ ≠ „Laufzeitfehler“ - Ein stilles Überspringen tritt auf, wenn sich das Profil bereits auf der Ziel-Journey befindet (kein Fehler ausgelöst). Ein Laufzeitfehler tritt auf, wenn die Ziel-Journey nicht erreichbar ist oder nicht erneut eintritt (als fehlgeschlagene Aktion behandelt)
+
+**FAQ:**
+
+* **F: Was passiert mit einem Profil auf der Ursprungs-Journey nach einem Sprung?** — Das Profil durchläuft nach dem Sprungschritt alle verbleibenden Schritte auf der Ursprungs-Journey, während es gleichzeitig auf die Ziel-Journey einläuft; es ist in beiden Journey gleichzeitig aktiv.
+* **F: Kann ich zu einer „Zielgruppen-Journey lesen“ springen?** — Nein; Sie können nicht zu einer Journey springen, die mit einem „Zielgruppe lesen“- oder „Zielgruppen-Qualifizierungsereignis“ beginnt.
+* **F: Welche Trigger gibt es auf der Ziel-Journey, wenn ein Jump ausgeführt wird?** — Ein internes Ereignis wird durch die Sprungaktivität an das erste Ereignis der Ziel-Journey gesendet. Das Profil durchläuft dann von diesem ersten Ereignis an die Ziel-Journey.
+* **Q: Wie vermeide ich unendliche Schleifen bei der Verkettung von Journey mit Jump?** — Schleifenmuster werden von der Benutzeroberfläche für die Konfiguration von Sprungaktivitäten blockiert, die Ziel-Journey herausfiltert, die eine Kreiskette erstellen würden.
+* **F: Welche Version der Ziel-Journey wird durch einen Sprung ausgelöst?** — Die neueste Live-Version (oder Testmodus) der Ziel-Journey wird zur Laufzeit ausgelöst.
+
++++

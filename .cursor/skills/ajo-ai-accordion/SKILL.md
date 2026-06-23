@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: Die Adobe Journey Optimizer-Dokumentationsseiten werden um einen Akkordeon-Abschnitt des KI-Assistenten erweitert, der am Ende jeder Markdown-Datei angehängt wird. liest jede Seite, generiert automatisch relevante KI-Assistenten-Inhalte basierend auf dem Seitenthema und fügt sie als ausblendbares Akkordeon ein. Verwenden Sie diese Option, wenn Benutzende KI-Informationen zu AJO-Dokumenten hinzufügen, AJO-Markdown-Seiten mit KI-Inhalten anreichern oder eine Datei oder einen Ordner mit Markdown-Dateien mit KI-Akkordeon-Abschnitten verarbeiten möchten.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Nur Einträge einschließen, die auf der Seite vorhanden oder impliziert sind.
 ### Vollständige Akkordeon-Vorlage
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

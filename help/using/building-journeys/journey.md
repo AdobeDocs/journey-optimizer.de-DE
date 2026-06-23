@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 97%
+source-wordcount: 2207
+ht-degree: 72%
 
 ---
 
@@ -454,3 +454,50 @@ Richten Sie **[Journey-Warnhinweise](../reports/alerts.md)** ein, um Echtzeitben
 * **[Fehlerbehebung bei eingehende Aktivitäten](troubleshooting-inbound.md)** – Beheben von Eintritts- und Qualifizierungsproblemen
 
 **Sind Sie bereit, Ihre erste Journey zu erstellen?** [Jetzt loslegen →](journey-gs.md)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite ist der erste Schritt-Hub für Adobe Journey Optimizer-Journey und erklärt, was Journey sind, die vier Journey-Typen, den sechsstufigen Erstellungs-Workflow, reale Anwendungsfälle und Links zu erweiterten Funktionen.
+
+**intents:**
+
+* Wissen, was Journey sind und wie sie sich von Kampagnen und orchestrierten Kampagnen unterscheiden
+* Wählen Sie den richtigen Journey-Typ (Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung oder Geschäftsereignis) für einen Anwendungsfall aus
+* Folgen Sie dem sechsstufigen Workflow zur Erstellung von Journey: Planen, Entwerfen, Testen, Veröffentlichen, Überwachen, Optimieren
+* Testmodus oder Probelauf verwenden, um eine Journey vor der Live-Schaltung zu validieren
+* Veröffentlichen einer Journey und Überwachen der Leistung durch Berichte und Warnhinweise
+* Erkunden Sie erweiterte Funktionen wie Ausdrücke, Zeitzonen-Management, Kopieren in Sandbox und Durchsatzkontrolle
+
+**Glossar:**
+
+* **Journey**: Ein automatisiertes, mehrstufiges Kundenerlebnis, das personalisierte Interaktionen als Reaktion auf Kundenverhalten, Geschäftsereignisse oder geplante Kampagnen kanalübergreifend orchestriert. *(produktspezifisch)*
+* **Journey-Designer**: Die visuelle Drag-and-Drop-Arbeitsfläche in AJO, die zum Erstellen und Konfigurieren von Journey-Flüssen verwendet wird, ohne Code zu schreiben. *(produktspezifisch)*
+* **Testmodus**: Ein Journey-Validierungsmodus, der die Ausführung mit Testprofilen simuliert, um Probleme vor der Live-Schaltung zu erfassen. *(produktspezifisch)*
+* **Probelauf**: Ein Journey-Vorschaumodus, der die Ausführung simuliert, ohne die echten Profildaten zu beeinflussen oder Nachrichten zu senden. *(produktspezifisch)*
+* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows in AJO, die relationale Daten (Profile + Produkte/Geschäfte/Buchungen) verwenden und alle Profile zusammen mit exakten Zählungen vor dem Versand verarbeiten. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Live-Journey können nicht strukturell bearbeitet werden. Änderungen erfordern das Erstellen einer neuen Version.
+* Testmodus und Probelauf müssen vor der Veröffentlichung verwendet werden, um Probleme zu erkennen
+
+**Terminologie:**
+
+* Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, AJO-Journey
+* Synonyme: &quot;Journey designer“ = „Leinwand“ = &quot;Journey Leinwand“
+* Verwechseln Sie nicht: &quot;Journey&quot; ≠ „Campaign“ - Journey verwalten den individuellen Kundenstatus für verhaltensgesteuerte Erlebnisse in Echtzeit und in mehreren Schritten. -Kampagnen versenden Nachrichten im Batch an Zielgruppen nach einem Zeitplan oder über API-Trigger
+* Verwechseln Sie nicht: „Probelauf“ ≠ „Testmodus“ — Probelauf zeigt eine Vorschau der Ausführung an, ohne echte Daten zu berühren; der Testmodus simuliert das Journey mit tatsächlichen Testprofilen
+
+**FAQ:**
+
+* **F: Was ist der Unterschied zwischen einer Journey und einer Kampagne in Journey Optimizer?** - Journey bieten 1:1 Echtzeit-Orchestrierung, bei der jedes Profil mit seiner eigenen Geschwindigkeit und Bedingungslogik voranschreitet. Kampagnen liefern Nachrichten gleichzeitig an eine Zielgruppe in einem Zeitplan oder über einen API-Trigger. Orchestrierte Kampagnen sind Batch-Arbeitsflächen-Workflows für komplexe Segmentierungen mehrerer Entitäten.
+* **F: Kann ich eine Live-Journey bearbeiten?** — Eingeschränkte Elemente wie Name und Nachrichteninhalt können bearbeitet werden; strukturelle Änderungen erfordern die Erstellung einer neuen Journey-Version.
+* **Q: Was sind die Schritte, um eine Journey zu bauen?** - Der sechsstufige Workflow besteht aus: Planen, Entwerfen auf der Arbeitsfläche, Testen (Testmodus oder Probelauf), Veröffentlichen, Überwachen der Leistung und Optimieren/Iterieren.
+* **F: Wie validiere ich eine Journey, ohne echte Nachrichten zu senden?** — Verwenden Sie den Probelauf-Modus, der eine Vorschau der Journey-Ausführung liefert, ohne die echten Daten zu beeinflussen oder Nachrichten zu senden.
+* **F: Welchen Journey-Typ sollte ich für eine Begrüßungs-E-Mail verwenden, die durch ein Abonnement ausgelöst wird?** — Verwenden Sie eine unitäre Journey, die durch ein bestimmtes individuelles Ereignis ausgelöst wird, z. B. eine Abonnementanmeldung.
+
++++

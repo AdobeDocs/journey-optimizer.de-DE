@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 63%
+source-wordcount: 2993
+ht-degree: 48%
 
 ---
 
@@ -252,3 +252,51 @@ Wenn Diskrepanzen bestehen bleiben, [&#x200B; Sie sich an den Adobe-Support](../
 Wenn Tracking-URLs in gesendeten E-Mails leere Platzhalter wie `cid=em-acou-adob{}` enthalten, kann dies darauf hinweisen, dass ein Kontextfeld wie `context.system.source.actionId` nicht aufgelöst werden konnte. Dies geschieht in der Regel, wenn eine Journey geschlossen wurde und nach einer entsprechenden Produktänderung nicht erneut veröffentlicht wurde - nur erneut veröffentlichte Journey füllen diese Kontextfelder in Tracking-URLs korrekt aus.
 
 Um dies zu beheben, veröffentlichen Sie entweder die Journey erneut ([erstellen Sie eine neue Version und veröffentlichen Sie sie](publish-journey.md#journey-create-new-version)) oder entfernen Sie den Verweis auf das betroffene Kontextfeld aus den [URL-Tracking-Parametern](../email/url-tracking.md) in der Kanalkonfiguration oder im E-Mail-Inhalt.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite bietet eine umfassende Referenz zur Fehlerbehebung bei der Live-Journey-Ausführung in Adobe Journey Optimizer und behandelt die Ereignisbereitstellung, Fehler bei Profileinträgen, Übergangsprobleme beim Testmodus, verworfene-Ereignisse, doppelte Step-Ereignisprotokolle, Nachrichtenversand-Prüfungen und Diskrepanzen bei Dashboard-Metriken.
+
+**intents:**
+* Diagnostizieren Sie, warum Ereignisse keinen Journey-Eintrag auslösen, indem Sie die Payload-Struktur, die Kopfzeilen und die Qualifizierungsbedingungen überprüfen
+* Überprüfen, ob Profile in den Live- oder Testmodus-Journey eintreten und diesen durchlaufen
+* Beheben von Fehlern beim Übergang zum Testmodus, die durch zukünftige Startdaten oder falsch konfigurierte Identity-Namespaces verursacht wurden
+* Verstehen und Verarbeiten des `maxInstanceStackEventsReached` Verwerfen-Grundes für blockierte Journey-Instanzen
+* Identifizieren und korrektes Abfragen doppelter Journey-Schritt-Ereignisprotokolleinträge, die durch die automatische Skalierung im Backend verursacht werden
+* Untersuchen fehlender Nachrichten durch Überprüfen der Ergebnisse von Journey-Berichten und benutzerdefinierten Aktionsaufrufen
+* Beheben leerer Platzhalter für Tracking-URLs in E-Mails aus geschlossenen Journey
+
+**Glossar:**
+* **Journey-Schrittereignisse**: Ein Datensatz, in dem jeder Schritt protokolliert wird, den ein Profil innerhalb einer Journey ausführt. Wird zum Erstellen von Berichten und zum Debugging von *(produktspezifisch) verwendet*
+* **notApplyInitialEvent**: Ein Discard-Code, der angibt, dass ein Ereignis empfangen, aber gelöscht wurde, da die Qualifizierungsbedingung nicht erfüllt wurde *(produktspezifisch)*
+* **maxInstanceStackEventsReached**: Ein Verwerfen-Code, der das pro Profil geltende Journey-Instanzereignis-Stacklimit von 10 angibt, wurde überschritten *(produktspezifisch)*
+* **isValidTransition**: Eine Eigenschaft, die nur die Benutzeroberfläche enthält, um technische Details zu Journey. Ein Nullwert kann ein künftiges Startdatum oder eine beschädigte Knotenverbindung angeben, hat jedoch keinen Einfluss auf die Backend-*(produktspezifisch)*
+* **Qualifizierungsbedingung** Eine Regel, die für ein Ereignis definiert wurde, das erfüllt sein muss, damit das Ereignis eine Journey zum Trigger bringt. Ereignisse, die diese Bedingung nicht erfüllen, werden verworfen
+* **Neugewichtung**: Ein Backend-Vorgang zur automatischen Skalierung in AJO-Microservices, der doppelte Journey-Schritt-Ereignisprotokolleinträge mit unterschiedlichen `_id` erstellen kann
+
+**Leitplanken:**
+* Ereignisse, die außerhalb des aktiven Datums-/Zeitfensters der Journey gesendet werden, werden ohne Fehlermeldung im Hintergrund verworfen
+* Das Ereignisstapellimit pro Profil für Journey-Instanzen beträgt 10 Ereignisse. Wird dieses Limit überschritten, werden Ereignisse mit `maxInstanceStackEventsReached` verworfen
+* Doppelte Journey-Schritt-Ereigniseinträge mit unterschiedlichen `_id` werden erwartet und weisen nicht auf eine Duplizierung der Nachricht hin
+* Übersichtsmetriken des Dashboards umfassen nur Journey mit Traffic in den letzten 24 Stunden. Die Aktualisierung von Metriken kann bis zu 30 Minuten dauern
+* Geschlossene Journey, die nach einer Produktänderung nicht erneut veröffentlicht wurden, können leere Platzhalter in Tracking-URLs erzeugen
+
+**Terminologie:**
+* Kanonischer Name: Journey Step Events — Akronym: none — Varianten: Step Events, Journey Execution Logs
+* Kanonischer Name: Qualifizierungsbedingung — Akronym: none — Varianten: Ereignisqualifizierungsregel, Ereignisbedingung
+* Synonyme: „rebalancing“ = „automatische Skalierung“ (Backend-Vorgang, der doppelte Protokolleinträge verursacht)
+* Verwechseln Sie nicht: „Duplizierte `_id`&quot; ≠ „Duplizierte Protokolleinträge aus der Neuausrichtung“ — echte Duplikate verwenden dieselbe `_id`; Duplikate, die neu ausgeglichen werden, haben unterschiedliche `_id`
+
+**FAQ:**
+* **F: Warum lösen meine Ereignisse keine Journey aus, obwohl sie erfolgreich versendet werden?** — Überprüfen Sie, ob die Journey live oder im Testmodus ist, die Payload mit der Ereignisschemastruktur übereinstimmt, die Qualifizierungsbedingung erfüllt ist und die richtigen Kopfzeilen (`X-gw-ims-org-id`, `Content-type`) enthalten sind.
+* **F: Warum treten Testprofile in die Journey ein, ohne den ersten Schritt zu überwinden?** — Die häufigste Ursache ist ein in der Zukunft festgelegtes Journey-Startdatum. Ereignisse werden außerhalb des aktiven Datumsfensters im Hintergrund verworfen. Überprüfen Sie außerdem, ob das Testprofil-Flag und der Identity-Namespace übereinstimmen.
+* **Q: Was bedeutet `maxInstanceStackEventsReached`?** - Die Journey-Laufzeit hat das interne 10-Ereignis-Stack-Limit für eine bestimmte Profilinstanz erreicht, in der Regel, weil ein langwieriger Schritt die Verarbeitung blockiert. Verringern Sie lange Wartezeiten, deduplizieren Sie Upstream-Ereignisse oder teilen Sie das Szenario in mehrere Journey auf.
+* **F: Ich sehe doppelte Zeilen beim Journey von Schrittereignissen - stimmt etwas nicht?** — Nein. Es werden doppelte Einträge mit unterschiedlichen `_id` erwartet, die durch die automatische Skalierung im Backend entstehen. Es wird nur eine Nachricht gesendet. Überprüfen Sie mit dem `ajo_message_feedback_event_dataset`.
+* **F: Warum werden in E-Mails Tracking-URLs leere Platzhalter wie `cid=em-acou-adob{}` angezeigt?** — Die Journey wurde geschlossen und nach einer Produktänderung nicht erneut veröffentlicht. Kontextfelder können nicht aufgelöst werden. Veröffentlichen Sie die Journey erneut oder entfernen Sie den Verweis auf das betroffene Kontextfeld aus den URL-Tracking-Parametern.
+* **F: Warum zeigt das Dashboard „Übersicht“ andere Zahlen an als die Registerkarte „Durchsuchen“?** - Das Dashboard zählt nur Journey mit Traffic in den letzten 24 Stunden, die Aktualisierung von Metriken kann bis zu 30 Minuten dauern und Zugriffsberechtigungen können die Sichtbarkeit einschränken.
+
++++

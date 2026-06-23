@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1656
-ht-degree: 72%
+source-wordcount: 2279
+ht-degree: 52%
 
 ---
 
@@ -193,6 +193,51 @@ Die Versandzeitoptimierung kann unter folgenden Umständen nachts Push-Nachricht
 * wenn das Modell einen Versandzeitpunkt zur Untersuchung auswählt
 
 Um zu vermeiden, dass Push-Nachrichten nachts an Kundschaft gesendet werden, planen Sie den Versand von Batch-Push-Nachrichten für morgens oder den frühen Nachmittag und wählen Sie eine kürzere Dauer für die Versandzeitoptimierung aus (z. B. 9 Uhr als Versandzeit und eine maximale Wartezeit von 8 Stunden).
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie die Sendezeitoptimierung in Adobe Journey Optimizer konfiguriert und verwendet wird. Hierbei handelt es sich um eine KI-gestützte Funktion, die die beste Sendezeit für E-Mails oder Push-Benachrichtigungen an jeden Kontakt vorhersagt, um die Interaktion zu maximieren.
+
+**intents:**
+* Aktivieren der Sendezeitoptimierung für eine E-Mail- oder Push-Aktion auf einer Journey
+* Auswählen, ob für Öffnungen oder Clickthroughs in E-Mail-Nachrichten optimiert werden soll
+* Maximales Wartefenster für verzögerten Versand festlegen (Senden innerhalb der nächsten Sekunde)
+* Erfahren Sie, wie das KI-Modell mithilfe von Verhaltensdaten optimale Versandzeitpunkte vorhersagt
+* Ermitteln, ob die Sendezeitoptimierung für einen bestimmten Nachrichtentyp geeignet ist
+
+**Glossar:**
+* **Sendezeitoptimierung (STO)** Eine KI-gestützte Funktion, die den Nachrichtenversand an jedes Profil bis zur prognostizierten optimalen Interaktionsstunde innerhalb eines konfigurierten Zeitfensters verzögert *(produktspezifisch)*
+* **Journey-KI**: Adobes KI-Services für die Sendezeitoptimierung in Journey Optimizer *(produktspezifisch)*
+* **Versandzeit für die Exploration**: Eine zufällig ausgewählte Versandzeit (für 5 % der Sendungen verwendet), um verschiedene Zeiten zu testen und die Modellgenauigkeit zu verbessern *produktspezifisch)*
+* **Optimierter Versandzeitpunkt**: Ein modellvorhergesagter Versandzeitpunkt, der ausgewählt wird, um die Klick- oder Öffnungsraten zu maximieren (für 95 % der Sendungen verwendet) *(produktspezifisch)*
+* **Senden innerhalb der nächsten**: Die maximale Anzahl von Stunden (1-168), die das System wartet, bevor die Nachricht an ein bestimmtes Profil gesendet wird *(produktspezifisch)*
+
+**Leitplanken:**
+* Die Sendezeitoptimierung muss für das Unternehmen von Adobe aktiviert werden. Wenden Sie sich zur Aktivierung an die Adobe-Kundenunterstützung oder Ihren Adobe-Support-Mitarbeiter.
+* Die Sendezeitoptimierung gilt nur für E-Mail- und Push-Benachrichtigungskanäle in Journey. Sie ist nicht für Kampagnen oder benutzerdefinierte Aktionen verfügbar.
+* Das Unternehmen muss mindestens 30 Tage lang E-Mail- oder Push-Aktionen in Journey Optimizer verwendet haben, bevor die Sendezeitoptimierung aussagekräftige Ergebnisse liefert.
+* Verwenden Sie die Sendezeitoptimierung nicht für dringende oder zeitkritische Betriebsnachrichten (z. B. Bestellbestätigungen, Kennwortzurücksetzungen, Fluggatteränderungen).
+* Der maximale Wartezeitbereich beträgt 1-168 Stunden. Für optimale Ergebnisse wird ein Bereich von 6-24 Stunden empfohlen.
+* Modellbewertungen werden in Profilattributen unter `_experience.intelligentServices.journeyAI.sendTimeOptimization` gespeichert und sind nicht für Menschen lesbar.
+* Die Modelle werden zu Beginn wöchentlich trainiert, dann nach 16 Wochen monatlich neu trainiert und neu bewertet.
+
+**Terminologie:**
+* Kanonischer Name: Sendezeitoptimierung — Akronym: STO — Varianten: beste Sendezeit, Sendezeit-KI, intelligente Sendezeit
+* Synonyme: „Sendezeitoptimierung“ = „Optimaler Sendezeitpunkt“ = „KI-Sendezeit“
+* Verwechseln Sie nicht: „Versandzeit der Exploration“ ≠ „Optimierter Versandzeitpunkt“ (die Exploration ist zufällig für Modelltests; optimiert ist modellvorhergesagt für Interaktionen)
+
+**FAQ:**
+* **F: Welche Kanäle unterstützen die Sendezeitoptimierung?** — Nur E-Mail- und Push-Benachrichtigungskanäle in Journeys; Kampagnen und benutzerdefinierte Aktionen werden nicht unterstützt.
+* **F: Sollte ich Öffnungen oder Klicks auf E-Mails optimieren?** — Für die meisten E-Mails auf Klicks optimieren. Wählen Sie Öffnungen , wenn die Nachricht informativ ist und nicht dazu gedacht ist, eine bestimmte Aktion auszulösen.
+* **F: Wie lange muss das Unternehmen warten, bevor STO aktiviert wird?** - Es sind mindestens 30 Tage der E-Mail- oder Push-Nutzung in Journey Optimizer erforderlich, um ausreichende Verhaltensdaten zu erfassen. Die Ergebnisse verbessern sich bis zu 16 Wochen.
+* **F: Kann STO nachts Push-Benachrichtigungen senden?** — Ja, wenn das Verhalten eines Benutzers auf Nachtinteraktionen hindeutet oder wenn eine Versandzeit für die Exploration ausgewählt ist. Um dies zu vermeiden, verwenden Sie eine morgendliche Sendezeit mit einem kurzen maximalen Wartefenster.
+* **F: Was ist der erwartete Vorteil der Sendezeitoptimierung?** - Etwa 2-10 % höhere E-Mail-Klickrate oder Push-Öffnungsrate für alle optimierten Nachrichten, obwohl die Vorteile bei einzelnen Sendungen mit geringem Volumen möglicherweise nicht sichtbar sind.
 
 +++
 

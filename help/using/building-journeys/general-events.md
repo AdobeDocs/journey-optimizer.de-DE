@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 95%
+source-wordcount: 1253
+ht-degree: 51%
 
 ---
 
@@ -89,3 +89,44 @@ Der festgelegte Timeout gilt für alle Ereignisse, die hinter der **[!UICONTROL 
 * Wenn innerhalb des Timeouts kein Ereignis empfangen wird, gelangt der Kontakt in die Verzweigung für den Timeout desjenigen Ereignisses, bei dem der Timeout definiert wurde.
 
 ![Mehrere Ereignisse mit Timeout-Konfigurationen in der Journey](assets/event-timeout-group.png)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie allgemeine (unitäre und geschäftliche) Ereignisse in Journey verwenden können, um den Versand von Nachrichten auf individueller Ebene in Echtzeit zu Triggern, einschließlich der Konfiguration von Zeitüberschreitungen und Zeitüberschreitungspfaden für Ereignisse.
+
+**intents:**
+* Hinzufügen einer allgemeinen Ereignisaktivität zu einer Journey-Arbeitsfläche für den Echtzeit-Profileintrag eines Triggers
+* Maximale Wartezeit für ein Ereignis konfigurieren, um zu begrenzen, wie lange eine Journey auf ein Ereignis wartet
+* Richten Sie einen Pfad für die maximale Wartezeit ein, um Profile zu verarbeiten, bei denen nicht der Trigger des erwarteten Ereignisses rechtzeitig eintritt
+* Unterscheiden Sie zwischen unitären Ereignissen und Geschäftsereignissen und verstehen Sie, wann jedes automatisch hinzugefügt wird
+* Maximale Wartezeit bei Ereignissen mit Warteaktivitäten kombinieren, um die maximale Wartezeit bei mehreren Ereignissen zu steuern
+
+**Glossar:**
+* **Unitäres Ereignis**: Ein Ereignis, bei dem die Journey für jeweils eine Person in Echtzeit (*) Trigger wird*
+* **Geschäftsereignis**: Ein nicht profilbezogenes Ereignis, bei dem eine Journey für eine Zielgruppe von Profilen Trigger wird und automatisch die Aktivität „Zielgruppe lesen“ hinzugefügt wird *(produktspezifisch)*
+* **Maximale Wartezeit für Ereignis**: Eine konfigurierbare Dauer (bis zu 90 Tage), nach der die Journey nicht mehr auf ein bestimmtes Ereignis wartet und das Profil an einen Zeitüberschreitungspfad (*) weiterleitet*
+* **Zeitüberschreitungspfad**: Eine optionale Journey-Verzweigung, der Profile folgen, wenn das erwartete Ereignis nicht innerhalb des Zeitüberschreitungsfensters empfangen wird *(produktspezifisch)*
+
+**Leitplanken:**
+* Ereignisbeschriftung und -beschreibung sind die einzigen bearbeitbaren Felder für ein allgemeines Ereignis auf der Arbeitsfläche. Alle anderen Konfigurationen werden von einem technischen Anwender durchgeführt und können nicht von der Journey aus geändert werden
+* Maximale maximale Wartezeit für Ereignisse ist 90 Tage
+* Wenn mehrere Ereignisse auf eine Warteaktivität folgen, muss die Zeitüberschreitung für nur eines dieser Ereignisse konfiguriert werden. Die definierte Zeitüberschreitung gilt dann für alle Ereignisse nach der Wartezeit
+* Wenn kein Zeitüberschreitungspfad definiert ist, dient die Zeitüberschreitung als Warteaktivität. Profile, die das Ereignis nicht erhalten, verbleiben bis zum Ablauf der Zeitüberschreitung auf der Journey
+
+**Terminologie:**
+* Kanonischer Name: Allgemeines Ereignis — Akronym: none — Varianten: Unitäres Ereignis, benutzerspezifisches Ereignis
+* Synonyme: „Allgemeines Ereignis“ = „Unitäres Ereignis“ (im Kontext der Canvas-Aktivität)
+* Verwechseln Sie nicht: „Geschäftsereignis“ ≠ „Unitäres Ereignis“ - ein Geschäftsereignis richtet sich an eine Zielgruppe von Profilen, während ein unitäres Ereignis eine einzelne Person anspricht
+
+**FAQ:**
+* **F: Kann ich die Ereigniskonfiguration auf der Journey-Arbeitsfläche ändern?** - Nein. Nur Titel und Beschreibung können auf der Arbeitsfläche bearbeitet werden. Die vollständige Ereigniskonfiguration wird von einem technischen Anwender festgelegt und kann nicht von der Journey aus geändert werden.
+* **F: Was passiert, wenn vor Ablauf der maximalen Wartezeit kein Ereignis empfangen wird?** - Wenn ein Zeitüberschreitungspfad definiert ist, fließt das Profil in diesen Pfad. Wenn kein Zeitüberschreitungspfad festgelegt ist, verhält sich die Zeitüberschreitung wie eine Warteaktivität, und das Profil fährt nach der Zeitüberschreitung mit der Journey fort.
+* **F: Wie lange dauert die maximale Zeitüberschreitung bei einem Ereignis?** — 90 Tage.
+* **F: Wann sollte ich die Option Zeitüberschreitungspfad aktivieren?** — Aktivieren Sie sie immer, wenn Profile diese Verzweigung nach der maximalen Wartezeit verlassen sollen. Ohne Zeitüberschreitungspfad bleiben Profile auf der Journey und warten auf das Ereignis.
+* **F: Wie unterscheidet sich ein Geschäftsereignis von einem unitären Ereignis auf der Journey-Arbeitsfläche?** — Durch das Ablegen eines Geschäftsereignisses wird automatisch die Aktivität Zielgruppe lesen hinzugefügt, da Geschäftsereignisse auf mehrere Profile gleichzeitig und nicht auf eine einzelne Person abzielen.
+
++++

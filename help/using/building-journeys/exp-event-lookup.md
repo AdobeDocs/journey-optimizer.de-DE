@@ -18,10 +18,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 77%
+source-wordcount: 1717
+ht-degree: 50%
 
 ---
 
@@ -189,5 +189,52 @@ Alternative Ansätze und Best Practices für Erlebnisereignisse sind oben verfü
 +++ Was mache ich, wenn alternative Ansätze für meinen Anwendungsfall nicht funktionieren?
 
 Wenn Ihr Anwendungsfall nicht mit einem der oben aufgeführten alternativen Ansätze gelöst werden kann, wenden Sie sich bitte an den Adobe-Support.
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alternative Muster und Best Practices für die Verwendung von Erlebnisereignisdaten in Adobe Journey Optimizer-Journey beschrieben, da die direkte Suche nach Erlebnisereignissen im Journey-Ausdruckseditor nicht mehr unterstützt wird.
+
+**intents:**
+
+* Unterdrücken von Opt-out-Profilen mit der integrierten Einverständnisverwaltung anstelle von Erlebnisereignisausdrücken
+* Ausschließen von E-Mail-Adressen, die nicht zugestellt werden, mithilfe der automatischen Unterdrückungsliste von AJO
+* Erstellen einer generischen Unterdrückungslogik mithilfe von Batch-Zielgruppen mit ereignisbasierten Kriterien
+* Verhindern von Überkommunikation durch Anwendung von Frequenzlimitierungsregeln oder zeitbasierten Zielgruppenbedingungen
+* Personalisieren von Transaktionsabbrüchen oder Durchsuchen von Nachrichten mithilfe von AEP Data Distiller oder berechneten Attributen
+
+**Glossar:**
+
+* **Erlebnisereignis**: Ein unveränderlicher Datensatz mit Zeitstempel einer Kundenaktion oder eines Kundenverhaltens, der/das in Adobe Experience Platform gespeichert *(produktspezifisch)*
+* **Berechnetes Attribut**: Ein Attribut auf Profilebene, das aus der Aggregation oder Zusammenfassung von Erlebnisereignisdaten im Zeitverlauf abgeleitet wird und zur Verwendung in Journey-Ausdrücken verfügbar ist *(produktspezifisch)*
+* **Unterdrückungsliste**: AJOs integrierte Liste von E-Mail-Adressen, die aufgrund von Hardbounces oder Spam-Beschwerden automatisch von zukünftigen Sendungen ausgeschlossen werden *(produktspezifisch)*
+* **Frequenzlimitierung** Eine Geschäftsregel, die begrenzt, wie viele Nachrichten ein Profil innerhalb eines definierten Zeitfensters empfangen kann *(produktspezifisch)*
+* **Data Distiller**: Eine AEP-Funktion, mit der SQL-basierte Batch-Abfragen Ereignisdaten extrahieren und in profilaktivierte Datensätze umwandeln können *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Ab dem 8. Juli 2025 können neue Kundenorganisationen keine Ausdrücke mehr mit Erlebnisereignisattributen im Journey-Ausdruckseditor erstellen.
+* Ab dem 1. April 2026 verlieren Organisationen, die in den letzten 90 Tagen keine Erlebnisereignisattribute in Journey-Ausdrücken verwendet haben, den Zugriff auf diese Funktion.
+* Die direkte Suche nach Erlebnisereignissen in Journey-Bedingungen wird eingestellt. Zu den Alternativen gehören Batch-Zielgruppen, berechnete Attribute und AEP Data Distiller.
+* Funktionen, die von der Außerkraftsetzung NICHT betroffen sind: das Auslösen von Journey mit Ereignissen, das Überwachen von Ereignissen innerhalb eines Journey, das Verwenden von Journey-Kontextdaten aus Trigger-Ereignissen, das Konfigurieren von Ereignissen und das Erkennen von Reaktionsereignissen.
+
+**Terminologie:**
+
+* Kanonischer Name: Suche nach Erlebnisereignissen — Akronym: EE lookup — Varianten: Ausdrücke für Erlebnisereignisse, Suche nach Ereignisattributen
+* Synonyme: „Batch-Zielgruppe mit ereignisbasierter Logik“ = „ereignisbasiertes Segment“ als Unterdrückungs-/Einschlussmechanismus
+* Verwechseln Sie nicht: „Erlebnisereignissuche im Ausdruckseditor“ ≠ „Auslösen eines Journey mit einem Ereignis“ — das Auslösen von Journey mit Ereignissen wird NICHT eingestellt
+
+**FAQ:**
+
+* **F: Kann ich mit einem Erlebnisereignis weiterhin Journey-Trigger erstellen?** — Ja, das Auslösen von Journey mit unitären oder Geschäftsereignissen ist von dieser Änderung nicht betroffen.
+* **F: Was ist der empfohlene Ersatz für die Suche nach Erlebnisereignissen unter Journey-Bedingungen?** - Verwenden Sie Batch-Zielgruppen, die mit der ereignisbasierten AEP Segment Builder-Logik, berechneten Attributen oder AEP Data Distiller erstellt wurden, für komplexe Umwandlungen.
+* **F: Ist meine bestehende Organisation derzeit betroffen?** — Neue Organisationen sind ab dem 8. Juli 2025 betroffen. Bestehende Organisationen sind ab dem 1. April 2026 nur betroffen, wenn sie die Funktion in den letzten 90 Tagen nicht genutzt haben.
+* **F: Wie handhabe ich die Personalisierung bei Warenkorbabbruch ohne direkte Ereignissuche?** - Verwenden Sie AEP Data Distiller, um Ereignisdaten in einen profilaktivierten Datensatz zu extrahieren und zu schreiben, oder verwenden Sie berechnete Attribute, um den neuesten Abbruchsstatus im Profil zu erfassen.
+* **F: Welche Funktionen sind von dieser Einstellung NICHT betroffen?** — Das Auslösen von Journey durch Ereignisse, das Überwachen von Ereignissen innerhalb von Journeys, das Verwenden von Trigger-Ereigniskontextdaten in Ausdrücken, das Konfigurieren von Ereignissen und das Erkennen von Reaktionsereignissen (z. B. E-Mail-Öffnungen) sind nicht betroffen.
 
 +++

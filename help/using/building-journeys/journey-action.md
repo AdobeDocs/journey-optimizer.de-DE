@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 69%
+source-wordcount: 2428
+ht-degree: 52%
 
 ---
 
@@ -356,3 +356,47 @@ Statt der integrierten Nachrichtenfunktionen können Sie benutzerdefinierte Akti
 
    * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie mit der einheitlichen Aktionsaktivität auf der Journey-Arbeitsfläche integrierte Kanalaktionen (E-Mail, Push, SMS, In-App, Web, Inhaltskarte, codebasiertes Erlebnis) konfigurieren, Gruppen für mehrere eingehende Aktionen erstellen und Optimierungs- oder mehrsprachige Einstellungen anwenden können.
+
+**intents:**
+* Fügen Sie mithilfe der Aktionsaktivität eine integrierte Kanalaktion (E-Mail, Push, SMS, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis) zu einer Journey hinzu
+* Konfigurieren Sie eine Gruppe mit mehreren Aktionen, um mehrere eingehende Aktionen gleichzeitig von einem einzelnen Journey-Knoten bereitzustellen
+* Wenden Sie Regeln zur Frequenzlimitierung auf eine Aktion für ausgehende Kanäle an, um zu verhindern, dass Nachrichten müde werden
+* Nachrichteninhalt auf einer Live-Journey aktualisieren, ohne erneut zu veröffentlichen
+* Verbinden eines Messaging-Systems eines Drittanbieters mit einer Journey mithilfe benutzerdefinierter Aktionen
+* Aktivieren des Schnellversandmodus für dringende Push-Benachrichtigungen mit hohem Volumen
+
+**Glossar:**
+* **Aktionsaktivität**: Die einheitliche Journey-Arbeitsfläche-Aktivität, die als zentraler Einstiegspunkt für alle integrierten Kanalaktionen dient und einzelne veraltete Kanalaktivitäten ersetzt *(produktspezifisch)*
+* **Multi-Action**: Eine Konfiguration innerhalb eines einzelnen Aktionsaktivitätsknotens, mit der bis zu 10 eingehende Kanalaktionen gleichzeitig bereitgestellt werden können *(produktspezifisch)*
+* **Schnellversand-Modus**: Ein Add-on, das den sehr schnellen Versand von Push-Nachrichten mit hohem Volumen für zeitkritische Warnhinweise ermöglicht *produktspezifisch)*
+* **Knoten „Automatische Wartezeit**: Eine 3-tägige Warteaktivität wird automatisch nach jeder eingehenden Kanalaktion eingefügt, um Profilen Zeit zu geben, das Erlebnis anzuzeigen, bevor die Journey fortschreitet *(produktspezifisch)*
+* **Prioritätswert**: Ein Wert, der einer Journey-Aktion zugewiesen wird, um zu bestimmen, welches eingehende Erlebnis Vorrang hat, wenn mehrere Aktionen um dieselbe Kanalkonfiguration konkurrieren *(produktspezifisch)*
+
+**Leitplanken:**
+* Veraltete individuelle Kanalaktivitäten (E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) werden seit der Version vom März 2026 nicht mehr unterstützt. Bestehende Journey funktionieren weiterhin ohne Migration
+* Multi-Action ist nur für eingehende Kanäle verfügbar; ausgehende Kanäle wie E-Mail werden in Multi-Action-Gruppen nicht unterstützt
+* Eine Gruppe mit mehreren Aktionen unterstützt maximal 10 eingehende Aktionen
+* Auf einer Live-Journey können Personalisierungsattribute (Profilattribute und kontextuelle Daten) nicht geändert werden. Es können nur Nachrichteninhalte aktualisiert werden
+* In-App-Trigger können auf einer Live-Journey nicht geändert werden
+
+**Terminologie:**
+* Kanonischer Name: Aktionsaktivität — Akronym: none — Varianten: Kanalaktion, Nachrichtenaktivität, integrierte Kanalaktion
+* Synonyme: „Aktionsaktivität“ = „Kanalaktionsaktivität“
+* Verwechseln Sie nicht: „Aktionsaktivität“ ≠ „Benutzerdefinierte Aktion“ - die Aktionsaktivität verwendet integrierte native Kanäle, während eine benutzerdefinierte Aktion über die API mit einem Drittanbietersystem integriert wird
+
+**FAQ:**
+* **F: Welche Kanäle sind in der Aktionsaktivität verfügbar?** - E-Mail, Push, SMS/RCS/MMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarte.
+* **F: Kann ich an mehrere eingehende Endpunkte im selben Journey-Knoten senden?** — Ja, mit dem Aktionstyp „Multi“ können Sie bis zu 10 eingehende Aktionen (Code-basiertes Erlebnis, In-App, Inhaltskarte, Web) in einem einzigen Aktionsaktivitätsknoten hinzufügen.
+* **F: Was passiert mit Journey, die veraltete Kanalaktivitäten verwenden?** — Sie funktionieren weiterhin ohne Änderungen; es ist keine Migration erforderlich.
+* **F: Kann ich den E-Mail-Betreff einer Live-Journey ändern?** - Sie können den Nachrichteninhalt auf einer Live-Journey aktualisieren, aber Sie können die in diesem Inhalt verwendeten Personalisierungsattribute oder kontextuellen Daten nicht ändern.
+* **F: Wie wende ich eine Frequenzlimitierung auf eine Kanalaktion an?** - Verwenden Sie das Dropdown „Geschäftsregeln“ in der Aktionskonfiguration, um einen Regelsatz auszuwählen, der Begrenzungsregeln für den ausgewählten Kanal anwendet.
+
++++

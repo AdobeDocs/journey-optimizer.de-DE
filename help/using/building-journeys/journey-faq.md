@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 87%
+source-wordcount: 6198
+ht-degree: 77%
 
 ---
 
@@ -1005,3 +1005,53 @@ Detailliertere Informationen und Updates finden Sie in den folgenden Ressourcen:
 * [Handbücher zur Fehlerbehebung](troubleshooting.md)
 * [Anwendungsfälle für Journeys](jo-use-cases.md)
 * [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite enthält häufig gestellte Fragen zu Journey-Orchestrierungskonzepten, zum Erstellen von Journeys, zum Testen und Veröffentlichen, zur Ausführungsüberwachung, zu erweiterten Funktionen und zu Best Practices in Adobe Journey Optimizer.
+
+**intents:**
+* Machen Sie sich mit den vier Journey-Typen (unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis) und der Verwendung der einzelnen Typen vertraut
+* Entscheidung zwischen einer Journey und einer Kampagne für einen bestimmten Anwendungsfall
+* Konfigurieren Sie die Einstellungen für den erneuten Eintritt, um zu steuern, wie oft ein Profil auf dieselbe Journey zugreifen kann
+* Fehlerbehebung, warum ein Profil nicht eingegeben oder keine Nachrichten gesendet wurden
+* Anwenden von Journey-Begrenzungsregeln, um die Ermüdung von Nachrichten über mehrere Journey hinweg zu verhindern
+* Verwenden Sie Journey-Fragmente, um gängige Knotensequenzen in Journey wiederzuverwenden
+
+**Glossar:**
+* **Unitäres Journey**: Eine Journey löst jeweils ein Profil durch ein Echtzeit-Ereignis aus, z. B. einen Kauf oder eine *(produktspezifisch)*
+* **Zielgruppen-Journey lesen**: Ein Journey, der alle Profile in einer Batch-Zielgruppe gleichzeitig oder nach einem Zeitplan verarbeitet *produktspezifisch)*
+* **Zielgruppen-Qualifizierungs-Journey**: Eine Journey, die ausgelöst wird, wenn ein Profil in ein Streaming-Zielgruppensegment eintritt oder daraus austritt *(produktspezifisch)*
+* **Journey-Begrenzung**: Eine Konfiguration, die begrenzt, wie oft ein Profil innerhalb eines Zeitfensters in Journey eintreten kann oder wie viele Journey sich gleichzeitig in einem Profil befinden können *(produktspezifisch)*
+* **Journey-Fragment**: Ein wiederverwendbarer, statischer Satz von Journey-Knoten, die einmal erstellt und zur Entwurfszeit in mehrere Journey eingefügt wurden *(produktspezifisch)*
+* **Sendezeitoptimierung (STO)**: Eine KI-gesteuerte Funktion, die die optimale Sendezeit für jedes einzelne Profil vorhersagt, um die Interaktion zu maximieren *produktspezifisch)*
+* **Zusätzliche Kennung**: Eine zusätzliche Kennung, mit der ein Profil mehrmals dieselbe Journey für verschiedene Entitäten (z. B. separate Bestellungen) eingeben kann *(produktspezifisch)*
+
+**Leitplanken:**
+* Maximal 50 Aktivitäten pro Journey
+* Die maximale Journey-Dauer beträgt 91 Tage (globale Zeitüberschreitung)
+* Das Hochladen von Zielgruppen und die Komposition zusammengeführter Zielgruppen werden in Journey zur Zielgruppenqualifizierung nicht unterstützt
+* Reaktionsereignisse müssen sofort nach einer Kanalaktion platziert werden, ohne dass dazwischen eine Warteaktivität stattfindet
+* Sprungaktivitäten sind innerhalb eines Journey-Fragments nicht zulässig
+* Ein Journey-Fragment unterstützt maximal 20 Knoten. Eine Sandbox unterstützt maximal 200 aktive Fragmente
+* Bei Profilen, die sich bereits in der Zielgruppe befinden, kann sich die Qualifizierung von Streaming-Zielgruppen nach dem Journey um bis zu 10 Minuten verzögern
+
+**Terminologie:**
+* Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierung, Fluss
+* Synonyme: „Close to new entrances“ = „Anmutiger Stopp“; „Stopp“ = „sofortiger Stopp“
+* Verwechseln Sie nicht: &quot;Journey&quot; ≠ „Campaign“ - Journey unterstützen die mehrstufige ereignisgesteuerte Orchestrierung. Bei Kampagnen handelt es sich um einmalige oder geplante zielgruppenbasierte Sendungen
+* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Testprofile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+
+**FAQ:**
+* **F: Wie viele Aktivitäten kann eine Journey maximal aufnehmen?** — 50 Tätigkeiten; die Einfachheit der Journey verbessert die Wartbarkeit und Leistungsfähigkeit.
+* **F: Warum hat ein Profil nicht auf meine Journey zugegriffen?** — Häufige Ursachen sind der fehlende Empfang des auslösenden Ereignisses, nicht erfüllte Zielgruppenkriterien, Regeln für den erneuten Eintritt, die den erneuten Eintritt blockieren, das Rückgängigmachen der Veröffentlichung der Journey oder eine nicht übereinstimmende Namespace.
+* **F: Kann ich die Struktur einer Live-Journey ändern?** — Nein; strukturelle Änderungen erfordern die Erstellung einer neuen Journey-Version. Der Nachrichteninhalt kann ohne eine neue Version aktualisiert werden.
+* **F: Was ist der Unterschied zwischen Pause, Schließen neuer Eintritte und Stoppen?** — Durch das Anhalten wird das Journey vorübergehend ausgesetzt, während sich die Bordprofile befinden oder verworfen werden. Durch Schließen neuer Eintritte werden neue Einträge gestoppt, vorhandene Profile können jedoch beendet werden. Stopp beendet sofort alle Profile.
+* **F: Wann sollte ich Journey-Fragmente anstelle der Sprungaktivität verwenden?** - Verwenden Sie Fragmente, um die allgemeine Knotenlogik zur Entwurfszeit wiederzuverwenden (Kopieren/Einfügen-Verhalten). Verwenden Sie Springen , um Profile zur Laufzeit auf eine andere Live-Journey umzuleiten.
+* **F: Wie kann ich verhindern, dass zu viele Nachrichten an denselben Kunden gesendet werden?** — Wenden Sie Journey-Begrenzungsregeln (Eintrittsobergrenze oder Gleichzeitigkeitsbegrenzung) an und verwenden Sie Frequenzbegrenzungs-Geschäftsregeln für einzelne Kanalaktionen.
+
++++

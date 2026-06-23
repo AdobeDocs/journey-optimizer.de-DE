@@ -11,10 +11,10 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1507
-ht-degree: 3%
+source-wordcount: 2137
+ht-degree: 2%
 
 ---
 
@@ -150,5 +150,57 @@ Diese Schutzmaßnahmen gelten für **[!UICONTROL Simulation]**. Numerische Begre
 | Maximale Anzahl von Journey, die gleichzeitig in **[!UICONTROL Simulation]** in einer Sandbox ausgeführt werden können | 20 | Die Begrenzung wird von jeder **[!UICONTROL Simulation]**-Journey in dieser Sandbox gleichzeitig verwendet. |
 | Maximale Anzahl aktiver simulierter Benutzer in einer Sandbox | 2,000 | Maximale Anzahl an simulierten Benutzern, die gleichzeitig in der Sandbox vorhanden sein können. Adobe kann diese Grenze auf der Grundlage von Kunden-Feedback anpassen. |
 | Vorausfüllen des Ereignisses (nur Browser) | — | Sie können Payload-Felder für Ereignisse nur in der Browser-basierten Simulationsoberfläche vorab ausfüllen. Vorausgefüllte Werte bleiben in diesem Browser und werden nicht mit anderen Browsern, Geräten oder Sitzungen synchronisiert, sodass möglicherweise an jedem Ort, den Sie testen, andere Daten zum Vorbefüllen angezeigt werden. |
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Journey-Simulationsfunktion in Adobe Journey Optimizer vorgestellt und erläutert, wie sie sich vom Testmodus unterscheidet, welche Journey-Typen sie unterstützt, wie eine Simulation gestartet wird und welche Einschränkungen auf Knotenebene, funktionell und quantitativ vorliegen.
+
+**intents:**
+* Den Unterschied zwischen Simulations- und Testmodus für die Validierung von Journey verstehen
+* Starten einer Simulationssitzung für einen Batch-, Unitär- oder gemischten Journey-Typ
+* Identifizieren Sie, welche Journey-Knoten die Ausführung von Simulation blockieren oder einschränken
+* Bestimmen Sie, welche Funktionen während der Simulation nicht unterstützt werden (z. B. Einverständnis, Frequenzlimitierung, STOP).
+* Planen Sie quantitative Leitplanken ein, z. B. die maximale Anzahl simulierter Benutzer pro Sandbox
+* Entscheiden Sie je nach Testanforderungen, ob Sie die Schnellsimulation oder die manuelle Simulation verwenden möchten
+
+**Glossar:**
+* **Simulierte Benutzer**: Temporäre profilähnliche Entitäten, die für die Simulation erstellt wurden, ohne in Adobe Experience Platform *bestehen zu müssen (produktspezifisch)*
+* **Simulation**: Ein Journey-Status (neben Entwurf, Testmodus und Live), der zum Testen mit simulierten Benutzenden und nicht mit persistenten Testprofilen verwendet wird *(produktspezifisch)*
+* **Journey Agent**: Die KI-Komponente, die simulierte Benutzende, Ereigniswerte und Testeinstellungen während der Schnellsimulation und der KI-unterstützten manuellen Simulation generiert *(produktspezifisch)*
+* **Schnellsimulation**: Eine automatisierte End-to-End-Simulationsausführung, die Benutzer und Ereignisse mit minimaler manueller Eingabe generiert *produktspezifisch)*
+* **Manuelle Simulation**: Ein schrittweiser Simulationsmodus, bei dem Benutzer und Ereignisse einzeln erstellt und ausgelöst werden *(produktspezifisch)*
+
+**Leitplanken:**
+* Erfordert mindestens eine der Berechtigungen **Journey simulieren**, **Journey** oder **Journey genehmigen und veröffentlichen**
+* KI-gestützte Simulationsfunktionen erfordern die Berechtigung **Inhalt generieren** über die Funktion KI-Assistent
+* Es können maximal 20 simulierte Benutzende pro Trigger alle oder ausgewählte Ereignisse per Batch senden
+* Maximal 50 simulierte Benutzer pro KI-Generierungsanfrage
+* Maximal 100 eindeutige simulierte Benutzende pro einzelner Simulationsausführung
+* Es können maximal 20 Journey gleichzeitig in einer Sandbox ausgeführt werden
+* Maximal 2.000 aktive simulierte Benutzende in einer Sandbox auf einmal
+* Vom Geschäftsereignis ausgelöste Journey können nicht simuliert werden
+* Zusätzliche ID-Journey mit aktiviertem Mehrfachwiedereintritt können nicht simuliert werden
+* Einverständnisrichtlinien, Frequenzlimitierung, Opt-out, STO und Ruhezeiten werden während der Simulation nicht ausgewertet
+* Simulierte Benutzer dürfen keine echten Kundendaten enthalten (nicht DSGVO-konform)
+
+**Terminologie:**
+* Kanonischer Name: Simulation — Akronym: none — Varianten: Journey Simulation, Simulationsmodus
+* Kanonischer Name: Simulierte Benutzer — Akronym: none — Varianten: Testbenutzer (in Benutzeroberflächen-Beschriftungen)
+* Synonyme: „Simulation“ = „Simulationsmodus“; „Simulierte Benutzer“ = „Testbenutzer“ (nur UI-Kennzeichnung)
+* Verwechseln Sie nicht: „Simulation“ ≠ „Testmodus“ (Testmodus verwendet persistente AEP-Testprofile; Simulation verwendet temporäre simulierte Benutzende)
+
+**FAQ:**
+* **F: Welche Berechtigungen benötige ich, um Simulation zu verwenden?** — Sie benötigen mindestens eines der folgenden Elemente: Journey simulieren, Journey veröffentlichen oder Journey genehmigen und veröffentlichen. KI-Funktionen erfordern außerdem die Berechtigung zum Generieren von Inhalten aus der KI-Assistentenfunktion.
+* **Q: Wie unterscheidet sich die Simulation vom Testmodus?** — Simulation verwendet temporäre simulierte Benutzende, die ohne persistente Adobe Experience Platform-Profile direkt erstellt werden. Der Testmodus verwendet persistente Profile, die in AEP explizit als Testprofile gekennzeichnet sind.
+* **F: Kann ich eine Journey simulieren, die mit einem Geschäftsereignis beginnt?** — Nein. Durch ein Geschäftsereignis ausgelöste Journey können nicht in der Simulation ausgeführt werden.
+* **F: Wie viele simulierte Benutzer kann ich in einem einzelnen Simulationslauf testen?** - Bis zu 100 eindeutige simulierte Benutzer pro Durchgang; jede Aktion „Alle senden“ ist auf 20 Benutzer gleichzeitig begrenzt.
+* **F: Werden Einverständnisrichtlinien während der Simulation durchgesetzt?** — Nein. Die Auswertung von Einverständnisrichtlinien, Frequenzlimitierung, Opt-out-Verwaltung und ruhige Stunden werden während der Simulation nicht ausgewertet.
+* **F: Was passiert, wenn mein Journey während der KI-Generierung über mehr als 50 Pfade verfügt?** — Journey Agent wählt nach dem Zufallsprinzip Pfade aus, um maximal 50 simulierte Benutzende zu erzeugen.
 
 +++

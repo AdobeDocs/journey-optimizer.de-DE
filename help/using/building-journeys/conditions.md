@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1969
-ht-degree: 88%
+source-wordcount: 2629
+ht-degree: 66%
 
 ---
 
@@ -225,3 +225,49 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
    >Hinweis: Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
 
 ➡️ **In der Praxis:** Erfahren Sie, wie Sie die Zeit und die Wochentage verwenden können, um [E-Mails nur an Wochentagen zu senden](weekday-email-uc.md).
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie Bedingungen innerhalb der Aktivität „Optimieren“ in Journey Optimizer konfigurieren können. Dabei werden fünf Bedingungstypen abgedeckt: Daten-Source, Zeit, prozentuale Aufspaltung, Datum und Profilbegrenzung, die Profile basierend auf Regeln, Zeit oder Zielgruppenzugehörigkeit zu verschiedenen Journey-Pfaden weiterleiten.
+
+**intents:**
+* Fügen Sie einer Journey mithilfe der Aktivität Optimieren eine Bedingung hinzu und wählen Sie eine Bedingungsmethode aus
+* Erstellen Sie mehrere Verzweigungspfade und verwalten Sie deren Prioritätsreihenfolge auf der Journey-Arbeitsfläche
+* Konfigurieren einer Data Source-Bedingung mithilfe des Ausdruckseditors, um Profil- oder Ereignisattribute zu bewerten
+* Richten Sie eine Zeitbedingung ein, um Profile basierend auf der Stunde des Tages oder des Wochentags zu routen
+* Wenden Sie eine Profilobergrenze an, um die Anzahl der Profile zu begrenzen, die auf einem bestimmten Pfad nach unten geroutet werden
+* Verwenden einer Prüfung der Zielgruppenzugehörigkeit als Bedingung in einem Journey-Pfad
+
+**Glossar:**
+* **Aktivität optimieren**: Die aktuelle Journey-Aktivität, die die frühere Bedingungsaktivität ersetzt. Alle bedingten Verzweigungslogiken werden jetzt über die Dropdown-Liste „Methode“ *produktspezifisch) konfiguriert*
+* **Datenquellenbedingung**: Eine Bedingungsmethode, die Felder aus Datenquellen oder Journey-Ereignissen mithilfe des Ausdruckseditors auswertet *(produktspezifisch)*
+* **Prozentuale Aufspaltung**: Eine Bedingungsmethode, die Profile mithilfe eines statistischen Java-Zufallsmechanismus nach dem Zufallsprinzip *produktspezifisch) auf Pfade verteilt*
+* **Profilbegrenzung**: Eine Bedingungsmethode, die Profile an einen alternativen Pfad weiterleitet, sobald eine definierte maximale Anzahl auf dem nominalen Pfad erreicht ist *produktspezifisch)*
+* **Nominaler Pfad**: Der primäre Journey-Pfad, der mit einer Profilbegrenzungsbedingung verknüpft ist. Er hat immer Vorrang vor dem alternativen Pfad *(produktspezifisch)*
+
+**Leitplanken:**
+* Die Bedingungsauswertung schlägt für Profile mit mehr als zwei geräteübergreifenden Identitäten im Profilspeicher fehl
+* Schemafelder ohne aufgenommene Daten werden als null interpretiert; isEmpty() und isNull() werden für solche Felder als „true“ ausgewertet
+* Die Zeitzone wird auf Journey-Ebene definiert, nicht auf der Ebene einzelner Bedingungen
+* Die Option „Pfad für andere Fälle anzeigen“ ist in Bedingungen für die prozentuale Aufspaltung nicht verfügbar
+* Die Standardeinstellung für die Profilbegrenzung ist 1.000. Der Zähler wird bei Journey-Duplizierung oder der Erstellung einer neuen Version zurückgesetzt, jedoch nicht zwischen Wiederholungen
+* Bei Kappen über 10.000 injizieren Sie mindestens das 1,3-fache der Kappe; bei Kappen unter 10.000 injizieren Sie mindestens 1.000 plus die Kappe
+* Die Profilbegrenzung wird im Testmodus nicht angewendet. Im Testmodus wird die obere Verzweigung immer für die prozentuale Aufspaltung ausgewählt
+
+**Terminologie:**
+* Kanonischer Name: Bedingungen — Akronym: none — Varianten: Bedingungsaktivität, Bedingungsmethode, bedingte Verzweigung
+* Synonyme: „Aktivität optimieren (Bedingungsmethode)“ = „frühere Bedingungsaktivität“
+* Verwechseln Sie nicht: „Prozentuale Aufspaltung“ ≠ „Profilbegrenzung“ (prozentuale Aufspaltung verteilt alle Profile statistisch; Profilbegrenzung stoppt das Routing zum nominalen Pfad nach einem Zählschwellenwert)
+
+**FAQ:**
+* **F: Die Aktivität Bedingung ist von meiner Benutzeroberfläche verschwunden - was hat sie ersetzt?** — Die Aktivität Bedingung wurde durch die Aktivität Optimieren ersetzt. Wählen Sie aus der Dropdown-Liste Methode die Option „Bedingung“ aus, um dasselbe Verhalten zu erhalten. Vorhandene Journey mit Bedingungsaktivitäten funktionieren weiterhin und werden jetzt mit einem Optimierungssymbol angezeigt.
+* **F: Welcher Pfad wird verwendet, wenn mehrere Pfade für ein Profil geeignet sind?** - Nur der erste infrage kommende Pfad (der höchste auf der Arbeitsfläche) wird ausgeführt. Sie können die Priorität durch die vertikale Neuanordnung von Pfaden ändern.
+* **F: Warum wird meine Bedingung isEmpty() unerwartet als „true“ ausgewertet?** — Wenn das Schemafeld vorhanden ist, aber keine Daten dafür aufgenommen wurden, interpretiert Journey Optimizer es als null, wodurch isEmpty() und isNull() den Wert „true“ zurückgeben.
+* **F: Wird der Zähler für die Profilbegrenzung auf einer wiederkehrenden Journey zurückgesetzt?** — Nein, der Zähler wird nicht zwischen den Wiederholungen zurückgesetzt, sondern nur zurückgesetzt, wenn die Journey dupliziert oder eine neue Version erstellt wird.
+* **F: Kann ich eine Adobe Experience Platform-Zielgruppe als Bedingung verwenden?** - Ja, Aktivität „Optimieren“ ablegen, „Datenquellenbedingung“ auswählen, Pfad hinzufügen und die Zielgruppe aus dem Zielgruppenknoten in den Ausdruckseditor ziehen.
+
++++

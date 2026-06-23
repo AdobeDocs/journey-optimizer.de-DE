@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 43%
+source-wordcount: 1094
+ht-degree: 19%
 
 ---
 
@@ -90,3 +90,49 @@ Wählen Sie die Optimierungsmethode aus, die am besten zu Ihrem Anwendungsfall p
 * Möchten Sie testen und erfahren, welcher Pfad am besten funktioniert? → Gehen Sie zu [Pfadexperiment](path-experimentation.md)
 * Möchten Sie verschiedene Zielgruppen über bestimmte Pfade senden? → Gehe zu [Pfad-Targeting](path-targeting.md)
 * Möchten Sie eine bedingte Logik erstellen (if/then-Szenarien)? → Gehen Sie zu [Bedingungen](conditions.md)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Aktivität „Optimieren“ vorgestellt, die die frühere Bedingungsaktivität ersetzt. Damit können Benutzende mithilfe von Experimenten, Zielgruppenbestimmungsregeln oder Bedingungslogiken mehrere Journey-Pfade erstellen.
+
+**intents:**
+
+* Erfahren Sie, was die Aktivität „Optimieren“ tut und wie sie die frühere Aktivität „Bedingung“ ersetzt
+* Erstellen mehrerer Journey-Pfade mithilfe von Pfadexperimenten (A/B-Tests)
+* Definieren Sie Zielgruppenbestimmungsregeln, um bestimmte Zielgruppensegmente oder Profilattribute über separate Pfade zu routen
+* Anwenden von Bedingungslogik (if/then) mithilfe der Bedingungsmethode in der Aktivität „Optimieren“
+* Migrieren Sie vorhandene Journey, die die Aktivität Bedingung verwendet haben, in die neue Aktivität Optimieren .
+
+**Glossar:**
+
+* **Aktivität optimieren**: Die Journey-Arbeitsflächen-Aktivität, die die frühere Bedingungsaktivität ersetzt und die Erstellung mehrerer Pfade über Experimentieren, Targeting oder Bedingungen ermöglicht. *(produktspezifisch)*
+* **Journey-Pfad**: Eine Sequenz innerhalb eines Journey, die aus Kommunikationen, Wartezeiten, der Anzahl von Nachrichten oder einer beliebigen Kombination bestehen kann. Profile werden auf der Grundlage von in der Aktivität „Optimieren“ definierten Kriterien an einen Pfad weitergeleitet. *(produktspezifisch)*
+* **Pfadexperiment**: Eine Optimieren-Methode, die Profile nach dem Zufallsprinzip auf Pfade aufteilt, um zu bestimmen, welche am besten mit vordefinierten Erfolgsmetriken wie Konversionsrate oder Umsatz abschneidet. *(produktspezifisch)*
+* **Pfad-Targeting**: Eine Optimierungsmethode (derzeit eingeschränkt verfügbar), die Profile basierend auf Zielgruppensegmenten, Profilattributen oder kontextuellen Daten an Pfade weiterleitet. *(produktspezifisch)*
+* **Bedingungen**: Eine Optimize-Methode, die der vorherigen Bedingungsaktivität entspricht, das Erstellen bedingter Pfade basierend auf Datenquellen, Zeit, Datum, Prozentaufspaltungen oder Profilbegrenzungen. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Pfad-Targeting ist derzeit nur eingeschränkt verfügbar — Adobe-Support kontaktieren, um Zugang zu erhalten
+* Die vorherige Aktivität Bedingung wurde aus der Benutzeroberfläche entfernt. Bestehende Journey, die sie verwenden, funktionieren weiterhin und werden jetzt mit einem neuen Symbol als Aktivitäten optimieren unter Verwendung der Methode Bedingungen angezeigt
+* Benutzerdefinierte Kennzeichnungen, die auf früheren Bedingungsknoten festgelegt wurden, bleiben nach der Migration zu „Optimieren“ erhalten
+
+**Terminologie:**
+
+* Kanonischer Name: Aktivität optimieren — Akronym: none — Varianten: Journey-Pfadoptimierung, Knoten optimieren
+* Synonyme: „Aktivität optimieren (Bedingungsmethode)“ = „frühere Bedingungsaktivität“
+* Nicht verwechseln: „Pfadexperiment“ ≠ „Pfadzielgruppenbestimmung“ - Beim Pfadexperiment wird per zufälliger Aufteilung getestet, welcher Pfad am besten funktioniert. Beim Pfadzielgruppenbestimmung werden definierte Regeln verwendet, um bestimmte Zielgruppen zu bestimmten Pfaden zu leiten
+
+**FAQ:**
+
+* **F: Was ist mit der Aktivität Bedingung passiert?** — Sie wurde durch die Aktivität Optimieren ersetzt und aus der Benutzeroberfläche entfernt. Bestehende Journey, die Bedingungsaktivitäten verwendet haben, funktionieren weiterhin unverändert. Sie werden jetzt mit einem neuen Symbol als Optimierungsaktivitäten mithilfe der Bedingungsmethode angezeigt.
+* **F: Welche drei Methoden stehen in der Aktivität „Optimieren“ zur Verfügung?** — Pfadexperiment (zufällige A/B-Aufspaltung zur Ermittlung des Pfads mit der besten Leistung), Pfadzielgruppenbestimmung (regelbasiertes Routing nach Zielgruppen- oder Profilattributen, derzeit eingeschränkt verfügbar) und Bedingungen (wenn/dann Bedingungslogik, die der vorherigen Bedingungsaktivität entspricht).
+* **F: Wie unterscheidet sich das Pfadexperiment vom Pfad-Targeting?** — Durch Pfadexperimente werden Profile nach dem Zufallsprinzip aufgeteilt, um die Leistung des Pfads mit Erfolgsmetriken zu testen und zu vergleichen. Beim Pfad-Targeting werden bestimmte Zielgruppen oder Profiltypen auf der Grundlage definierter Kriterien durch bestimmte Pfade geleitet.
+* **F: Ist das Pfad-Targeting allgemein verfügbar?** — Nein, es ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+* **F: Was ist ein Journey-Pfad?** - Ein Pfad ist eine Sequenz innerhalb einer Journey, die eine Kombination aus Nachrichten, Wartezeiten und der Anzahl der Nachrichten enthalten kann. Profile werden anhand der Aktivitätskriterien „Optimieren“ ausgewertet und zum entsprechenden Pfad weitergeleitet.
+
++++

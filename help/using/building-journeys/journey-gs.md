@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1481
-ht-degree: 42%
+source-wordcount: 2097
+ht-degree: 30%
 
 ---
 
@@ -206,3 +206,46 @@ Nicht sicher, wo man anfangen soll? Im Folgenden finden Sie drei typische Szenar
 * **[Fehlerbehebung bei Journeys](troubleshooting.md)**: Hier finden Sie Lösungen für häufige Journey-Probleme und Best Practices für das Debugging.
 * **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}**: Sehen Sie sich detaillierte Anleitungsvideos zum Erstellen von Journeys und Best Practices an.
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite führt Sie durch die vier wichtigsten Schritte, um eine erste Journey in Adobe Journey Optimizer zu erstellen: Definieren eines Einstiegspunkts, Entwerfen der Arbeitsfläche, Testen mit Testmodus oder Probelauf und Veröffentlichung sowie Anleitungen zur Auswahl des richtigen Einstiegstyps.
+
+**intents:**
+* Erstellen Sie eine neue Journey und konfigurieren Sie ihre Eigenschaften im Menü Journey-Verwaltung .
+* Wählen Sie den richtigen Einstiegspunkt (Zielgruppe lesen, Zielgruppen-Qualifizierung, unitäres Ereignis oder Geschäftsereignis) für einen bestimmten Anwendungsfall aus
+* Entwerfen Sie eine mehrstufige Journey durch Ziehen und Ablegen von Ereignissen, Orchestrierungsaktivitäten und Kanalaktionen auf der Arbeitsfläche
+* Testen eines Journey im Testmodus mit synthetischen Testprofilen vor der Veröffentlichung
+* Führen Sie einen Probelauf aus, um die Zielgruppen-Zielgruppenbestimmung mit echten Produktionsdaten zu validieren, ohne die Kunden zu kontaktieren.
+* Veröffentlichen einer Journey, um sie live zu schalten und ihre Leistung mit Reporting-Tools zu überwachen
+
+**Glossar:**
+* **Zielgruppe lesen**: Eine Einstiegsaktivität, die alle Profile in einer Batch-Zielgruppe gleichzeitig oder nach einem Zeitplan verarbeitet *produktspezifisch)*
+* **Zielgruppen-**: Eine Eintrittsaktivität, die in Echtzeit ausgelöst wird, wenn ein Profil in eine Streaming-Zielgruppe eintritt oder diese verlässt *(produktspezifisch)*
+* **Unitäres Ereignis**: Ein Echtzeit-Trigger, der zu einem bestimmten Zeitpunkt in einen Journey eintritt, wenn eine bestimmte Aktion *(produktspezifisch)*
+* **Geschäftsereignis**: Ein Nicht-Profilereignis (z. B. Flugstornierung, Bestandsauffüllung), bei dem über einen automatischen Schritt „Zielgruppe lesen“ *produktspezifisch) ein Journey für mehrere Profile gleichzeitig Trigger wird*
+* **Testmodus**: Ein Validierungsmodus, der synthetische Testprofile verwendet, um die Journey-Ausführung zu simulieren, ohne die Live-*zu aktivieren (produktspezifisch)*
+* **Probelauf** Ein spezieller Veröffentlichungsmodus, der echte Produktionsdaten verwendet, um die Journey-Logik zu validieren, ohne tatsächliche Kunden zu kontaktieren oder Profile zu aktualisieren *(produktspezifisch)*
+
+**Leitplanken:**
+* Eine Journey kann nicht veröffentlicht werden, wenn sie Fehler enthält. Alle Fehler müssen zuerst behoben werden
+* Die Ereigniskonfiguration (für den ereignisbasierten Eintrag) muss von einem Datentechniker abgeschlossen werden, bevor die Journey erstellt werden kann
+* Journey-Leitplanken und -Einschränkungen sind separat dokumentiert und sollten vor dem Entwurf im großen Maßstab überprüft werden
+* Die Erstellung von Zielgruppen in Adobe Experience Platform ist eine Voraussetzung für zielgruppenbasierte Journeys
+
+**Terminologie:**
+* Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierungsfluss
+* Synonyme: „Testmodus“ = &quot;Journey-Test“; „Probelauf“ = „Probelauf-Modus“
+* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Profile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+
+**FAQ:**
+* **F: Was muss ich als Erstes tun, bevor ich eine ereignisgesteuerte Journey erstelle?** - Konfigurieren Sie das Ereignis mit einem Datentechniker, um den Trigger und die von ihm übertragenen Daten zu definieren. Referenzieren Sie dann das Ereignis als Journey-Einstiegspunkt.
+* **F: Welcher Einstiegspunkt wird für Neueinsteiger in Journey Optimizer empfohlen?** - Beginnen Sie mit einer zielgruppenbasierten Journey mit der Aktivität Zielgruppe lesen . Dies erfordert keine vorherige Ereigniskonfiguration und ist der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen.
+* **F: Kann ich meinen Journey testen, bevor er live geht?** — Ja. Verwenden Sie den Testmodus mit synthetischen Testprofilen, um die Journey zu durchlaufen, oder verwenden Sie Probelauf, um mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden.
+* **F: Was passiert, wenn mein Journey Fehler aufweist, wenn ich versuche, ihn zu veröffentlichen?** - Eine fehlerhafte Journey kann nicht veröffentlicht werden; alle Konfigurationsfehler müssen vor der Veröffentlichung behoben werden.
+* **F: Wie kann ich eine komplexe Journey mit vielen Schritten aufteilen?** — Verwenden Sie die Sprungaktivität, um kleinere Sub-Journey zu verbinden, wodurch die Komplexität reduziert wird und jede Sub-Journey einfacher unabhängig getestet werden kann.
+
++++

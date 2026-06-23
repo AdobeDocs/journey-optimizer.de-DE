@@ -11,10 +11,10 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2176
-ht-degree: 1%
+source-wordcount: 2859
+ht-degree: 0%
 
 ---
 
@@ -258,3 +258,51 @@ Bei **Warten**-Aktivitäten enthält das Protokoll zwei durationsbezogene Werte:
 * **Tatsächliche Dauer**: Die verstrichene Zeit, die der simulierte Benutzer auf der **Warten**-Aktivität verblieb. Dieser Wert wird auf der Registerkarte **[!UICONTROL Testeinstellungen]** festgelegt.
 
 Wenn Fehler im Protokoll angezeigt werden, verlassen Sie **Simulation**, wenden Sie die erforderlichen Änderungen an der Journey an und führen Sie **Simulation** erneut aus. Nach erfolgreicher Validierung veröffentlichen Sie die Journey. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite finden Sie eine schrittweise Anleitung für die Ausführung der Schnellsimulation und der manuellen Simulation in Adobe Journey Optimizer, einschließlich der Erstellung und Verwaltung simulierter Trigger, unitärer Benutzerereignisse, Überschreiben der Wartezeiten und Interpretieren des Ergebnisprotokolls.
+
+**intents:**
+* Führen Sie eine Schnellsimulation aus, um eine Journey End-to-End-Validierung mit minimaler manueller Eingabe durchzuführen
+* Einrichten der manuellen Simulation zur Steuerung der simulierten Benutzererstellung, der Ereignis-Payloads und von Warteüberschreibungen
+* Erstellen simulierter Benutzer über KI-Generierung, Inventarsuche, Formulareingabe oder JSON
+* Trigger-Einzelereignisse für simulierte Benutzende während einer aktiven Simulationssitzung
+* Überprüfen Sie das Ergebnisprotokoll, um Fehler zu identifizieren und Verzweigungen nach einem Simulationslauf aufzudecken
+* Simulationssitzung zurücksetzen oder schließen, um neu zu starten oder zu beenden
+
+**Glossar:**
+* **Schnellsimulation**: Ein automatisierter Simulationsmodus, der Benutzerinnen und Benutzer sowie Ereigniswerte mithilfe der Journey Agent generiert und die vollständige Journey mit minimalen manuellen Schritten ausführt *produktspezifisch)*
+* **Manuelle Simulation**: Ein Schritt-für-Schritt-Simulationsmodus, bei dem Benutzererstellung, Ereignis-Payloads und Timing *(produktspezifisch) gesteuert werden*
+* **Simulierte Benutzer**: Temporäre profilähnliche Entitäten, die in der Simulation verwendet werden und nicht in Adobe Experience Platform bestehen bleiben *(produktspezifisch)*
+* **Journey Agent**: Die KI-Komponente, die simulierte Benutzende und Ereignis-Payloads während der KI-unterstützten Simulation generiert *(produktspezifisch)*
+* **Testeinstellungen**: Die Registerkarte des Simulationsbedienfelds, auf der Wartezeiten und Ausführungsadressen (E-Mail, Telefon, Push-Token) für die Simulationsausführung überschrieben werden können *(produktspezifisch)*
+* **Ergebnisprotokoll**: Das Ausführungsprotokoll, auf das über die Registerkarte Ergebnisse zugegriffen werden kann und das Ergebnisse, Dauer und Fehler für jede simulierte *(produktspezifisch) anzeigt*
+
+**Leitplanken:**
+* Erfordert mindestens eine der Berechtigungen: Journey simulieren, Journey veröffentlichen oder Journey genehmigen und veröffentlichen
+* KI-Funktionen (Schnellsimulation, Generieren mit KI, Generieren von Ereigniswerten) erfordern die Berechtigung zum Generieren von Inhalten über die Funktion „KI-Assistent“
+* Bei ereignisgesteuerten Journey ist das Symbol Senden pro Benutzer nicht verfügbar. Der Eintrag wird über den Abschnitt Testereignisse ausgelöst
+* Überschreibungen der Wartezeit und Einstellungen der Ausführungsadresse werden nur angezeigt, wenn die Journey Warteaktivitäten oder Kanalaktivitäten enthält
+* Bei Fehlern im Ergebnisprotokoll muss Simulation verlassen, die Journey korrigiert und vor der Veröffentlichung erneut ausgeführt werden
+
+**Terminologie:**
+* Kanonischer Name: Schnelle Simulation — Akronym: none — Varianten: none
+* Kanonischer Name: Manuelle Simulation — Akronym: none — Varianten: none
+* Kanonischer Name: Simulierte Benutzer — Akronym: none — Varianten: Testbenutzer (Benutzeroberflächen-Kennzeichnung in der Liste der Testbenutzer)
+* Synonyme: „Alle senden“ = Trigger aller aufgelisteten simulierten Nutzer gleichzeitig in den Journey
+* Verwechseln Sie nicht: „Simulation zurücksetzen“ ≠ „Simulation schließen“ — Zurücksetzen löscht alle Daten und Einstellungen; Schließen beendet lediglich die aktuelle Sitzung
+
+**FAQ:**
+* **Q: Was ist der Unterschied zwischen Schnellsimulation und manueller Simulation?** — Die Schnellsimulation führt die gesamte Journey automatisch aus, wobei KI-generierte Anwender und Ereignisse verwendet werden. Die manuelle Simulation ermöglicht die schrittweise Erstellung von Anwendern und Ereignissen mit vollständiger Kontrolle über Payloads und Timing.
+* **F: Kann ich simulierte Benutzer in Simulationssitzungen wiederverwenden?** — Ja. Im Inventar gespeicherte Benutzer können in nachfolgenden Sitzungen über Inventar durchsuchen abgerufen werden.
+* **F: Wie kann ich die Dauer der Warteaktivität während der Simulation überschreiben?** - Öffnen Sie die Registerkarte Testeinstellungen und legen Sie eine kürzere Dauer fest, z. B. 10 Sekunden, damit simulierte Benutzende Warteknoten schnell durchlaufen.
+* **F: Wie kann ich ein unitäres Ereignis für einen bestimmten simulierten Trigger erstellen?** - Klicken Sie im Abschnitt Testereignisse auf das Bearbeitungssymbol neben dem Trigger, um die Ereignis-Payload zu konfigurieren, und klicken Sie dann auf das Symbol Senden in dieser Zeile nur an das Ereignis dieses Benutzers.
+* **F: Was bedeuten die Felder Definierte Dauer und Tatsächliche Dauer im Ergebnisprotokoll für Warteaktivitäten?** — Definierte Dauer ist die Live-Journey der konfigurierten Wartezeit. Die tatsächliche Dauer ist die überschriebene Testdauer, die der simulierte Benutzer tatsächlich auf dem Warteknoten verbracht hat.
+* **F: Was sollte ich tun, wenn im Ergebnisprotokoll Fehler auftreten?** — Simulation beenden, die erforderlichen Korrekturen auf die Journey anwenden, dann Simulation erneut ausführen, bis die Ausführung vor der Veröffentlichung keine Fehler mehr zeigt.
+
++++

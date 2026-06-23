@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 70%
+source-wordcount: 1779
+ht-degree: 50%
 
 ---
 
@@ -166,4 +166,50 @@ Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
 * [Verwaltung des Profileintritts](entry-management.md) – Konfigurieren Sie, wie Profile in Journeys eintreten
 * [Konfigurieren von Ausstiegskriterien](journey-properties.md#exit-criteria) – Richten Sie die automatische Entfernung von Profilen aus Journeys ein
 * [Pausieren von Journeys](journey-pause.md) – Halten Sie die Journey-Ausführung vorübergehend an
-* [Anhaltende Journey anhalten oder schließen](journey-pause.md#stop-close-paused) - Anhaltende Journey beenden, ohne sie zuerst fortzusetzen
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden die verschiedenen Arten des Endens einer Live-Journey erläutert - einschließlich der globalen 91-Tage-Zeitüberschreitung, des manuellen Schließens neuer Eintritte und des Not-Aus - sowie deren Auswirkungen auf laufende Profile.
+
+**intents:**
+
+* Schließen einer Live-Journey für neue Eintritte, während die aktuellen Profile sie abschließen können
+* Beenden Sie eine Journey sofort, um alle laufenden Profile anzuhalten
+* Verstehen Sie den Unterschied zwischen den Journey-Status „Geschlossen“, „Angehalten“ und „Abgeschlossen“
+* Bestimmen Sie anhand von Typ und Konfiguration, wann eine Journey als „abgeschlossen“ betrachtet wird.
+* Löschen einer Journey, sobald sie den Status Beendet erreicht hat
+
+**Glossar:**
+
+* **End-Tag**: Ein automatisch generierter, nicht entfernbarer Knoten, der während des Authorings am Ende jedes Journey-Pfads angezeigt wird. Seine Bezeichnung kann *(produktspezifisch) geändert werden*
+* **Für neue Eintritte schließen**: Eine manuelle Aktion, die verhindert, dass neue Profile auf eine Journey zugreifen, während bestehende Profile ihren Pfad abschließen können *(produktspezifisch)*
+* **Globales Journey-Timeout**: Die maximale Dauer von 91 Tagen, nach der eine Journey automatisch in den Status Beendet wechselt und alle Profildaten entfernt werden *(produktspezifisch)*
+* **Stoppstatus**: Ein Journey-Status, bei dem alle laufenden Profile sofort angehalten werden. Wird nur für Notfälle verwendet *produktspezifisch)*
+
+**Leitplanken:**
+
+* Geschlossene und gestoppte Journey können nicht neu gestartet oder gelöscht werden. Es kann nur eine neue Version oder ein Duplikat erstellt werden.
+* Nur Journey mit dem Status Beendet können gelöscht werden.
+* Zum Anhalten eines Journey ist die Berechtigung Journey verwalten erforderlich. Journey mit Inline-Kampagnen oder Messaging-Knoten benötigen außerdem die Berechtigung Kampagnen > Kampagnen veröffentlichen .
+* Nach der 91-tägigen globalen maximalen Wartezeit werden alle Profil-Journey-Daten entfernt und die verbleibenden Profile werden automatisch beendet.
+* Eine einmalige Journey mit dem Schritt „Zielgruppe lesen“ bleibt nach der Ausführung im Live-Status, sie muss manuell geschlossen werden oder wird nach 91 Tagen geschlossen.
+
+**Terminologie:**
+
+* Kanonischer Name: Für neue Eintritte schließen — Akronym: n/a — Varianten: Journey schließen, manuell schließen
+* Synonyme: „Angehalten“ Journey ≠ „Geschlossen“ Journey — stoppt alle Profile sofort; geschlossen blockiert nur neue Eintritte
+* Verwechseln Sie nicht: „End Tag“ ≠ „End Aktivität“ — das End Tag wird automatisch generiert und kann nicht entfernt werden; die End Aktivität ist ein platzierbarer Canvas Knoten
+
+**FAQ:**
+
+* **F: Was ist der Unterschied zwischen dem Schließen und Anhalten einer Journey?** — Durch Schließen werden neue Eintritte blockiert, vorhandene Profile können jedoch beendet werden. Durch Anhalten werden sofort alle Profile in ihrer Spur angehalten.
+* **F: Wann erreicht eine Journey mit dem Schritt „Zielgruppe lesen“ den Status „Beendet“?** — 91 Tage nach dem Ausführungsstart (nicht wiederkehrend), wenn das Enddatum erreicht wird (wiederkehrend mit Enddatum), oder 91 Tage nach dem Start (wiederkehrend ohne Enddatum).
+* **F: Kann ich eine geschlossene Journey löschen?** — Nein, nur fertige Journey können gelöscht werden.
+* **F: Was passiert mit Profilen, die sich noch auf einer Journey befinden, wenn die 91-Tage-Zeitüberschreitung eintritt?** — Sie werden zu diesem Zeitpunkt automatisch aus der Journey gelöscht.
+* **F: Benötige ich spezielle Berechtigungen, um eine Journey zu stoppen?** — Ja, die Berechtigung Journey verwalten ist erforderlich. Außerdem ist Kampagnen > Kampagnen veröffentlichen erforderlich, wenn die Journey Inline-Kampagnen oder Messaging-Knoten enthält.
+
++++

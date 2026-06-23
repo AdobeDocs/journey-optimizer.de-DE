@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 81%
+source-wordcount: 1085
+ht-degree: 33%
 
 ---
 
@@ -202,3 +202,46 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 1. Füllen Sie Attribute wie Journey Version Id, Node Id, Node Name und andere entsprechend Ihrem Anwendungsfall aus.
 
    ![Editor im erweiterten Modus für komplexe Feldzuordnung](assets/custom-action-aep-9.png)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** In diesem Anwendungsfall wird erläutert, wie eine benutzerdefinierte Aktion in Journey Optimizer konfiguriert wird, die Journey-Ereignisdaten mithilfe eines HTTP-API-Inlets und authentifizierter OAuth-Server-zu-Server-Aufrufe in Adobe Experience Platform schreibt.
+
+**intents:**
+- Einrichten eines Adobe Developer Console IO-Projekts mit OAuth-Server-zu-Server-Anmeldedaten für die AEP-API-Authentifizierung
+- Erstellen einer HTTP-API-Inlet-Quelle in Adobe Experience Platform zum Empfangen von Streaming-Journey-Ereignisdaten
+- Konfigurieren einer benutzerdefinierten Aktion in Journey Optimizer mit der richtigen URL, den richtigen Kopfzeilen und der richtigen Authentifizierung mit einem benutzerdefinierten Bearer-Token
+- Dynamische Zuordnung von Journey-Feldern (Journey-Versions-ID, Knoten-ID, Kunden-ID) als Variablen in der Payload der benutzerdefinierten Aktion
+- Verwenden der benutzerdefinierten Aktion auf einer Journey, um benutzerdefinierte Ereignisse in einen AEP-Datensatz zu schreiben
+
+**Glossar:**
+- **HTTP API Inlet**: Ein Adobe Experience Platform-Quell-Connector, der einen Streaming-Endpunkt für die Aufnahme von Daten über HTTP-POST-Anfragen erstellt *(produktspezifisch)*
+- **OAuth Server-zu-Server**: Ein Authentifizierungs-Berechtigungstyp in Adobe Developer Console, der Bearer-Token für Server-zu-Server-API-Aufrufe ohne Benutzerinteraktion generiert *(produktspezifisch)*
+- **Benutzerdefinierte Autorisierung**: Ein Authentifizierungstyp für benutzerdefinierte Aktionen in Journey Optimizer, der ein Bearer-Token von einem angegebenen Endpunkt abruft und für eine konfigurierte Dauer zwischenspeichert *produktspezifisch)*
+- **XDM-Entität**: Die Payload-Struktur der Daten, die dem Schema des Experience-Datenmodells entspricht und als Hauptteil beim Schreiben von Ereignissen in AEP über den HTTP-API-*(produktspezifisch) verwendet wird*
+- **cacheDuration**: Die Token-Cache-Einstellung in der benutzerdefinierten Autorisierungskonfiguration, die steuert, wie lange das abgerufene Bearer-Token wiederverwendet wird, bevor ein neues angefordert wird *(produktspezifisch)*
+
+**Leitplanken:**
+- Nach dem Erstellen des Adobe Developer Console-Projekts müssen Entwickler- und API-Zugriffssteuerungsberechtigungen explizit erteilt werden, bevor die Anmeldeinformationen verwendet werden können
+- Die HTTP-API-Inlet-Quelle muss mit aktivierter Authentifizierung erstellt werden. Die Verbindungsendpunkt-URL und Schema-Payload müssen kopiert und zur Verwendung in der Konfiguration der benutzerdefinierten Aktion gespeichert werden
+- Benutzerdefinierte Aktionskopfzeilen müssen Inhaltstyp, Zeichensatz und Sandbox-Name enthalten
+- Felder, die zur Laufzeit dynamisch ausgefüllt werden sollen, müssen in der Payload-Konfiguration der benutzerdefinierten Aktion von „Konstante“ in „Variable“ geändert werden
+
+**Terminologie:**
+- Kanonischer Name: Benutzerdefinierte Aktion — Akronym: none — Varianten: benutzerdefinierte Aktionskonfiguration, benutzerdefinierte Journey Optimizer-Aktion
+- Kanonischer Name: Adobe Experience Platform — Akronym: AEP — Varianten: Experience Platform, Plattform
+- Synonyme: „HTTP API Inlet“ = „Streaming-Endpunkt“ = „DCS-Sammlungsendpunkt“
+- Verwechseln Sie nicht: „OAuth Server-zu-Server“ ≠ „OAuth-Benutzerauthentifizierung“ (Server-zu-Server erfordert keine Benutzeranmeldung; es werden Client-Anmeldeinformationen verwendet)
+
+**FAQ:**
+- **F: Welche Art von Authentifizierung wird verwendet, um den AEP HTTP API Inlet von einer benutzerdefinierten Journey Optimizer-Aktion aus aufzurufen?** — Benutzerdefinierte Bearer-Token-Authentifizierung mit OAuth-Server-zu-Server-Client-Anmeldedaten, die vom Adobe IMS-Token-Endpunkt abgerufen wurden.
+- **F: Wo finde ich die Werte für client_id, client_secret, grant_type und scope?** - Klicken Sie im Abschnitt OAuth Server-zu-Server-Anmeldeinformationen Ihres Adobe Developer Console IO-Projekts auf „cURL-Befehl anzeigen“.
+- **F: Wie kann ich Journey-spezifische Felder (z. B. journeyVersionId, nodeId) in der Payload dynamisch machen?** — Ändern Sie die Feldkonfiguration im Payload-Setup für die benutzerdefinierte Aktion von „Konstante“ in „Variable“, sodass sie zur Laufzeit aus dem Journey-Kontext gefüllt werden.
+- **F: Welche Berechtigungen sind für das Adobe Developer Console-Projekt erforderlich?** — Die Entwickler- und API-Zugriffssteuerung muss nach der Erstellung des Projekts mit den richtigen Berechtigungen gewährt werden, wie in der Dokumentation zur AEP-API-Authentifizierung beschrieben.
+- **F: Welchen Zweck hat die Einstellung „cacheDuration“ in der Authentifizierungs-Payload?** — Sie steuert, wie lange das abgerufene Bearer-Token zwischengespeichert und wiederverwendet wird (28.000 Sekunden im Beispiel), bevor die benutzerdefinierte Aktion ein neues Token anfordert.
+
++++

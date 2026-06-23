@@ -11,10 +11,10 @@ keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
-ht-degree: 84%
+source-wordcount: 2902
+ht-degree: 68%
 
 ---
 
@@ -202,3 +202,52 @@ Gehen Sie folgendermaßen vor, wenn Sie auf anhaltende Fehler stoßen, die mit d
 
 * [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
 * [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite ist eine Referenzanleitung zu standardisierten Adobe Journey Optimizer-Fehlercodes, die nach Service-Präfix geordnet sind, die Ursache jedes Fehlers erklären und eine schrittweise Anleitung zur Behebung bieten.
+
+**intents:**
+
+* Ermitteln Sie mithilfe des Service-Präfixes im Fehlercode, welcher AJO-Service einen Fehler erzeugt hat.
+* Diagnose und Behebung von Push-/Transportfehlern (CJMPTS), die den Nachrichtenversand beeinträchtigen
+* Fehlerbehebung bei Journey-Laufzeitfehlern und API-Fehlern (CJMRT) während der Journey-Ausführung oder Ereignisverarbeitung
+* Beheben von Fehlern beim Verfassen von Nachrichten (CJMAS) beim Erstellen, Speichern oder Veröffentlichen von Nachrichten
+* Beheben von Kampagnenfehlern (CJMCMP) während der Aktivierung oder Genehmigung der Kampagne
+* Eskalieren persistenter Fehler an den Adobe-Support mit den richtigen Informationen
+
+**Glossar:**
+
+* **Service-Präfix**: Der alphanumerische Code am Anfang eines AJO-Fehlercodes, der angibt, welcher Service den Fehler verursacht hat (z. B. CJMRT = Journey Runtime) *(produktspezifisch)*
+* **HTTP-Status-Code**: Der Standardstatus-Code, der in einen AJO-Fehler-Code eingebettet ist (z. B. 400 = Ungültige Anfrage, 403 = Verboten, 422 = Nicht verarbeitbare Entität, 500 = Interner Server-Fehler)
+* **Anfrage-ID**: Eine eindeutige Kennung, die zu einem Fehler hinzugefügt wird, der bei der Eskalation an den Adobe Support *(produktspezifisch) erforderlich ist*
+* **CJMRT**: Journey-Laufzeitdienst-Präfix - Fehler bei der Journey-Ausführung und bei API-Vorgängen *(produktspezifisch)*
+* **CJMMAS**: Präfix des Nachrichtenerstellungs-Service — Fehler bei der Erstellung und Veröffentlichung von Nachrichten *(produktspezifisch)*
+* **CJMPTS**: Push-/Transport-Service-Präfix — Fehler bei Push-Benachrichtigung und Nachrichtentransport *(produktspezifisch)*
+
+**Leitplanken:**
+
+* E-Mail-Varianten müssen einen Ausschluss-/Abmelde-Link enthalten; er wird ausgelassen mit den Trigger CJMMAS-2001-200.
+* Zum Anhalten eines Journey ist die Berechtigung Journey verwalten erforderlich (relevant für CJMRT-Fehler, die Berechtigungen beinhalten).
+* Die DNS-Verbreitung für die Zuweisung von Subdomains kann bis zu 72 Stunden dauern (relevant für CJMRT-080608-400).
+* Suchschlüssel für Datensatzsuchaktivitäten müssen im erweiterten Modus definiert werden, nicht im einfachen Modus.
+
+**Terminologie:**
+
+* Kanonischer Name: Fehlercode — Akronym: n/a — Varianten: Fehlermeldung, Fehlerkennung
+* Synonyme: „service prefix“ = „error prefix“ = „Komponenten-ID“
+* Verwechseln Sie nicht: „400 Bad Request“ ≠ „422 Unverarbeitbare Entität“ — 400 zeigt eine fehlerhafte Eingabe an; 422 zeigt ein gültiges Format, aber ungültige Inhalte gemäß Schemaregeln an
+
+**FAQ:**
+
+* **F: Woher weiß ich, welcher AJO-Service einen Fehler verursacht hat?** — Lesen Sie das Service-Präfix zu Beginn des Fehler-Codes: CJMPTS (Push/Transport), CJMRT (Journey-Laufzeit), CJMMAS (Nachrichtenbearbeitung), CJMCMP (Kampagne), CJMTL (Transportschicht), CJMRPS (Reporting/Bereitstellung).
+* **F: Was sollte ich tun, wenn ich einen Fehler der 500-Serie erhalte?** — Wiederholen Sie den Vorgang nach einigen Minuten, überprüfen Sie Adobe Status auf Ausfälle und eskalieren Sie dann an Adobe-Support mit dem vollständigen Fehler-Code und der Anfrage-ID, wenn das Problem weiterhin besteht.
+* **F: Warum zeigt CJMMAS-2001-200 ein Fehlerbanner an, obwohl der Status „Erfolg“ lautet?** — In einer E-Mail-Variante fehlt ein erforderlicher Ausschluss-/Abmelde-Link. Fügen Sie ihn allen Varianten und Sprachversionen hinzu.
+* **F: Welche Informationen sollte ich sammeln, bevor ich mich an den Adobe-Support wende?** — Erfassen Sie den vollständigen Fehler-Code, die Anfrage-ID, Zeitstempel, Schritte zur Reproduktion und alle relevanten Konfigurationsdetails.
+* **F: Was verursacht CJMRT-030012-422?** — Ungültige Eingabedaten, z. B. Verweis auf eine nicht vorhandene Zielgruppe, ein Ereignis oder ein Attribut; Überprüfen, ob alle referenzierten Objekte vorhanden und aktiv sind.
+
++++

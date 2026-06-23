@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 89%
+source-wordcount: 2271
+ht-degree: 67%
 
 ---
 
@@ -174,3 +174,52 @@ Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und o
    ![Symbol „Kopieren“ im Konfigurationsbereich für Aktivitäten](assets/copy-paste2.png)
 1. Drücken Sie auf einer beliebigen Journey **Strg/Befehl + V**, um die Aktivitäten einzufügen, ohne sie mit einem bestehenden Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge platziert. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![Eingefügte Aktivitäten auf der Journey-Arbeitsfläche, die verbunden werden können](assets/copy-paste3.png)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird die Arbeitsfläche des Journey Optimizer Journey-Designers vorgestellt und erläutert, wie mehrstufige Journey erstellt werden, indem Ereignisse, Orchestrierungs- und Aktionsaktivitäten aus der Palette gezogen und abgelegt werden.
+
+**intents:**
+
+* Navigieren in der Benutzeroberfläche des Journey-Designers (Palette, Arbeitsfläche, Symbolleiste, Konfigurationsbereich für Aktivitäten)
+* Hinzufügen von Ereignissen, Orchestrierungsaktivitäten und Aktionsaktivitäten zu einer Journey-Arbeitsfläche
+* Konfigurieren eines alternativen Fallback-Pfads für Bedingungs- und Aktionsaktivitäten bei Zeitüberschreitung oder Fehler
+* Kopieren und Einfügen von Aktivitäten innerhalb derselben Journey oder über verschiedene Journey hinweg in derselben Instanz
+* Starten einer Journey mit einem Ereignis-Trigger oder einem Einstiegspunkt für „Zielgruppe lesen“
+
+**Glossar:**
+
+* **Palette**: Das Bedienfeld auf der linken Seite im Journey-Designer, in dem alle verfügbaren Ereignisse, Orchestrierungs- und Aktionsaktivitäten für das Ziehen und Ablegen auf die Arbeitsfläche aufgelistet sind *(produktspezifisch)*
+* **Canvas**: Der zentrale Designbereich des Journey-Designers, in dem Aktivitäten platziert, verbunden und konfiguriert werden *(produktspezifisch)*
+* **Konfigurationsbereich für die Aktivität**: Der rechte Bereich, der geöffnet wird, wenn eine Aktivität auf der Arbeitsfläche ausgewählt wird. Dieser Bereich wird zum Ausfüllen der Aktivitätseinstellungen verwendet *produktspezifisch)*
+* **Journey-Fragmente**: Wiederverwendbare Sätze vordefinierter Journey-Knoten, die direkt in die Arbeitsfläche eingefügt werden können, um zu vermeiden, dass gängige *(produktspezifisch) neu erstellt werden*
+* **Reaktionsereignis**: Eine Ereignisaktivität, die nach einer Nachricht platziert wird, um die Journey auf der Grundlage von Empfängerverfolgungsinteraktionen (Öffnen, Klicken) zu verzweigen *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Aktionen, Bedingungen, Warteaktivitäten und Reaktionsereignisse können nicht als erster Schritt in einer neuen Journey platziert werden.
+* Kopieren/Einfügen wird nur innerhalb derselben Instanz unterstützt, instanzübergreifendes Kopieren/Einfügen wird nicht unterstützt.
+* Sie können ein Ereignis nicht in eine Ziel-Journey kopieren, die einen anderen Namespace verwendet.
+* Eingefügte Aktivitäten aus einer anderen Sandbox verweisen möglicherweise auf Daten, die auf der Ziel-Journey nicht vorhanden sind.
+* Nur Ereignis- und Warteaktivitäten können parallel festgelegt werden. Andere Aktivitätstypen können nicht parallel ausgeführt werden.
+* Alternative Pfade (Zeitüberschreitung/Fehler-Fallback) sind nur für Bedingungs- und Aktionsaktivitäten verfügbar.
+
+**Terminologie:**
+
+* Kanonischer Name: Journey Designer — Akronym: none — Varianten: Journey Canvas, Orchestrierung Canvas
+* Synonyme: „Palette“ = „Aktivitäts-Bedienfeld“; „Arbeitsfläche“ = „Design-Bereich“
+* Verwechseln Sie nicht: „events“ (Trigger-Journey-Eintrag oder Verzweigung) ≠ „actions“ (was passiert mit dem Kunden, z. B. eine Nachricht senden)
+
+**FAQ:**
+
+* **F: Wie gelangen Profile auf eine Journey?** - Profile geben entweder einheitlich in Echtzeit ein, wenn ein konfiguriertes Ereignis empfangen wird, oder im Batch, wenn die Aktivität „Zielgruppe lesen“ die Journey Trigger.
+* **F: Kann ich mehrere Events zu einer Journey hinzufügen?** — Ja, Sie können mehrere Ereignisse hinzufügen, sofern sie alle denselben Namespace verwenden.
+* **F: Wie kann ich ein Fallback definieren, wenn eine Aktion fehlschlägt?** — Aktivieren Sie in den Aktivitätseigenschaften die Option „Alternativen Pfad im Falle einer Zeitüberschreitung oder eines Fehlers hinzufügen“, um nach der Aktivität einen Fallback-Pfad hinzuzufügen.
+* **F: Kann ich Aktivitäten von einer schreibgeschützten Journey kopieren?** — Ja, Sie können Aktivitäten von jeder Journey kopieren, unabhängig vom Status, aber Sie können nur innerhalb derselben Instanz einfügen.
+* **F: Was ist ein Journey Fragment?** - Ein wiederverwendbarer Satz vordefinierter Journey-Knoten (z. B. Eignungsprüfungen, Begrüßungssequenzen), die direkt in die Arbeitsfläche eingefügt werden können, um zu vermeiden, dass die allgemeine Logik von Grund auf neu erstellt wird.
+
++++

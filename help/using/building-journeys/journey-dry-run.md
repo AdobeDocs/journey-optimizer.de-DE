@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1413
-ht-degree: 68%
+source-wordcount: 1946
+ht-degree: 50%
 
 ---
 
@@ -214,3 +214,47 @@ Dry Run generiert **stepEvents**, die mit `inDryRun` und einem `dryRunID` gekenn
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird der Journey-Probelauf erläutert, ein spezieller Veröffentlichungsmodus, mit dem Anwender einen Journey mit echten Produktionsdaten testen können, ohne sich an Kunden zu wenden oder Profile zu ändern. Außerdem wird beschrieben, wie Probelauf-Schrittereignisse gestartet, überwacht, gestoppt und gefiltert werden.
+
+**intents:**
+* Aktivieren Sie den Probelauf-Modus auf einer Entwurfs-Journey, um die Reichweite der Zielgruppe und die Verzweigungslogik mit echten Produktionsdaten zu überprüfen
+* Überwachen von Journey-Ausführungsmetriken auf der Arbeitsfläche während eines Probelaufs
+* Beenden Sie einen Probelauf manuell und setzen Sie die Journey wieder in den Entwurfsstatus zurück.
+* Filtern Sie Schrittereignisse der Probelauf-Ausführung aus Berichtsabfragen mithilfe des `inDryRun`-Flags
+* Verstehen, welche Aktivitäten während eines Probelaufs deaktiviert oder simuliert werden
+
+**Glossar:**
+* **Probelauf** Ein spezieller Journey-Veröffentlichungsmodus, der das Journey mit echten Produktionsdaten ausführt, ohne Kommunikation zu senden oder Profilinformationen zu aktualisieren *(produktspezifisch)*
+* **stepEvent**: Ein automatisch generierter Datensatz, der jeden Schritt erfasst, den ein Profil auf einer Journey durchführt. Schrittereignisse für den Probelauf werden `inDryRun=true` und ein `dryRunID` *(produktspezifisch)*
+* **inDryRun-Flag**: Ein boolesches Feld für stepEvents, das für Dry-Run-Ausführungen und `null` für Live- oder Test-Journey-*(produktspezifisch) `true` ist*
+
+**Leitplanken:**
+* Im Probelauf-Modus können nur fehlerfreie Entwurfsmodi aktiviert werden.
+* Das Starten eines Probelaufs erfordert die Berechtigung **Journey veröffentlichen**; das Anhalten erfordert **Journey verwalten**
+* Probelauf-Journey werden nach 14 Tagen automatisch auf Entwurf zurückgesetzt
+* Profile, die während eines Probelaufs verarbeitet werden, werden auf Engageable Profiles und das Live Journey-Kontingent angerechnet
+* Kanalaktionsknoten (E-Mail, SMS, Push) und benutzerdefinierte Aktionen werden während des Probelaufs nicht ausgeführt
+* Sprungaktionen sind in Probelauf nicht aktiviert
+* Berichtsdaten sind nur verfügbar, wenn der Probelauf aktiv ist. Nach dem Stoppen sind die Daten nicht mehr zugänglich
+* Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
+
+**Terminologie:**
+* Kanonischer Name: Journey Dry Run — Akronym: none — Varianten: Dry Run-Modus, Dry Run-Veröffentlichungsmodus
+* Synonyme: „Dry Run“ = „Rauchtest“ (informell)
+* Verwechseln Sie nicht: „Probelauf“ ≠ „Testmodus“ - Probelauf verwendet echte Produktionsdaten und zählt für Kontingente; Testmodus verwendet synthetische Testprofile und nicht
+
+**FAQ:**
+* **F: Sendet Dry Run tatsächlich E-Mails oder Push-Benachrichtigungen an Kunden?** — Nein. Alle Kanalaktionsknoten und benutzerdefinierten Aktionen sind deaktiviert und werden nicht während eines Probelaufs ausgeführt.
+* **F: Wie lange dauert ein Probelauf, bevor er automatisch gestoppt wird?** — 14 Tage, nach denen die Journey automatisch wieder in den Entwurfsstatus übergeht.
+* **F: Wie schließe ich Dry-Run-Daten aus meinen Journey-Analytics-Abfragen aus?** — Filtern Sie Schrittereignisse heraus, bei denen `inDryRun` `true` ist. Schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist.
+* **F: Werden Profile bei einem Probelauf mit einem Limit gezählt?** — Ja. Profile werden auf Engageable Profiles und die Probelauf-Journey auf das Live-Journey-Kontingent angerechnet.
+* **F: Kann ich Warteaktivitäten und Aufrufe externer Datenquellen während eines Probelaufs aktivieren?** - Beide sind standardmäßig deaktiviert, Sie können sie jedoch beim Aktivieren des Probelaufs aktivieren oder deaktivieren.
+
++++

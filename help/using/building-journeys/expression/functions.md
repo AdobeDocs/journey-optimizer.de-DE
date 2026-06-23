@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 874
-ht-degree: 100%
+source-wordcount: 1339
+ht-degree: 65%
 
 ---
 
@@ -201,3 +201,51 @@ Nachdem Sie nun die verfügbaren Funktionen kennen, erkunden Sie Folgendes:
 * **[Ausdruckssyntax](generalities.md)**: Machen Sie sich mit den Syntaxregeln für das Schreiben von Journey-Ausdrücken vertraut
 * **[Operatoren](operators.md)**: Erkunden Sie Operatoren, die Sie mit Funktionen zum Erstellen von Logiken verwenden können.
 * **[Feldverweise](field-references.md)**: Finden Sie heraus, wie Sie in Ihren Ausdrücken auf Datenfelder verweisen
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite ist eine kategorisierte Referenz aller über 60 integrierten Funktionen, die im erweiterten Ausdruckseditor von Journey verfügbar sind und Aggregation, Konversion, Datum/Uhrzeit, Liste, Mathematik, Zeichenfolge und Adobe Experience Platform-Zielgruppenfunktionen abdecken.
+
+**intents:**
+
+* Identifizieren Sie die richtige Funktion für eine Aufgabe, indem Sie die kategorisierten Funktionstabellen durchsuchen
+* Umwandeln von Datentypen zwischen Zeichenfolge, Ganzzahl, Dezimalzahl, boolesch, Datum und Dauer mithilfe von Konversionsfunktionen
+* Durchführen einer datumsbasierten Filterung mit Funktionen wie `inLastDays`, `inNextHours` und `nowWithDelta`
+* Bearbeiten und validieren Sie Zeichenfolgenwerte mithilfe von Funktionen wie `contain`, `replace`, `split` und `trim`
+* Durchführen statistischer Berechnungen für Sammlungen mithilfe von Aggregationsfunktionen wie `count`, `avg`, `sum` und `distinctCount`
+* Überprüfen der Zielgruppenzugehörigkeit unter Journey-Bedingungen mithilfe der `inAudience`
+
+**Glossar:**
+
+* **Aggregationsfunktionen**: Funktionen, die einen einzelnen Wert (count, sum, average, min, max) aus einer Sammlung von Werten *produktspezifisch) berechnen*
+* **Konversionsfunktionen**: Funktionen, die einen Wert von einem Datentyp in einen anderen umwandeln (z. B. `toString`, `toDateTime`, `toDuration`) *(produktspezifisch)*
+* **Datumsfunktionen**: Funktionen zum Arbeiten mit Datums-, Zeit- und Zeitzonenwerten in Journey-Ausdrücken *(produktspezifisch)*
+* **Listenfunktionen**: Funktionen zum Filtern, Sortieren und Analysieren von Array-/Sammlungsdaten *produktspezifisch)*
+* **inAudience**: Eine Funktion, die prüft, ob ein Profil zu einem bestimmten Adobe Experience Platform-Zielgruppensegment gehört *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Funktionen folgen einer konsistenten Syntax: `functionName(param1, param2, ...)`
+* Eine Funktion kann über mehrere Signaturen (verschiedene Parametersätze) verfügen, um verschiedene Anwendungsfälle zu verarbeiten
+* Jede Funktion hat einen festen Rückgabetyp. Stellen Sie sicher, dass der Rückgabetyp mit dem übereinstimmt, was der Ausdruckskontext erwartet
+* Die im Journey-Ausdruckseditor verfügbaren Funktionen unterscheiden sich von denen im Personalisierungseditor
+
+**Terminologie:**
+
+* Kanonischer Name: Funktionen — Akronym: none — Varianten: Integrierte Funktionen, Ausdrucksfunktionen
+* Synonyme: „Aggregationsfunktionen“ = „Statistische Funktionen“; „Konversionsfunktionen“ = „Typengießfunktionen“
+* Nicht verwechseln: Journey von Ausdrucksfunktionen ≠ Personalisierungseditor-Funktionen (verschiedene Sets)
+
+**FAQ:**
+
+* **F: Wie viele Funktionen sind im Journey-Ausdruckseditor verfügbar?** - Über 60 Funktionen, die kategorieübergreifend sind, einschließlich Aggregation, Konversion, Datum, Liste, Mathematik, Zeichenfolge und Adobe Experience Platform.
+* **F: Wie kann ich überprüfen, ob ein Profil zu einer Zielgruppe in einer Journey-Bedingung gehört?** — Verwenden Sie die `inAudience`-Funktion mit der Zielgruppenkennung.
+* **F: Mit welcher Funktion kann ich den aktuellen Datums- und Uhrzeitversatz um eine bestimmte Anzahl von Tagen ermitteln?** - Verwenden Sie `nowWithDelta(N, "days")`, um einen Datum/Uhrzeit-Offset von der aktuellen Zeit abzurufen.
+* **F: Kann eine Funktion verschiedene Typen zurückgeben, je nachdem, wie sie aufgerufen wird?** — Eine Funktion weist pro Signatur einen bestimmten Rückgabetyp auf, aber ein einzelner Funktionsname kann mehrere Signaturen mit verschiedenen Parametersätzen und Rückgabetypen aufweisen.
+* **F: Was ist der Unterschied zwischen `count` und `countWithNull`?** — `count` zählt nur Elemente, die nicht gleich null sind; `countWithNull` zählt alle Elemente einschließlich NULL.
+
++++

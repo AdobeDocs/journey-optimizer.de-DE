@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 90%
+source-wordcount: 1134
+ht-degree: 47%
 
 ---
 
@@ -92,3 +92,46 @@ Wenn nach der Überprüfung dieser Elemente weiterhin Probleme auftreten, wenden
 >* [Journey-Probelauf](journey-dry-run.md)
 >* [Konfigurieren und Verfolgen der Journey-Metriken](success-metrics.md)
 >* [Benutzerdefinierte Journey-Berichte](../reports/sharing-overview.md)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie der in die Journey-Arbeitsfläche eingebettete Live-Bericht angezeigt und interpretiert wird. Dabei werden die wichtigsten Profilflussmetriken behandelt, die für veröffentlichte Journey und Journey im Dry-Run-Modus verfügbar sind.
+
+**intents:**
+* Anzeigen von Echtzeit-Journey-Leistungsmetriken direkt auf der Journey-Arbeitsfläche
+* Interpretieren der Anzahl der eingegebenen, beendeten, fehlgeschlagenen und verworfenen Profile für die Journey und jede Aktivität
+* Verstehen, warum Profile von einer Journey verworfen werden
+* Fehlerbehebung bei fehlenden oder unerwarteten Daten beim Journey von Live-Berichten
+* Überprüfen der erforderlichen Berechtigung für den Zugriff auf Journey-Live-Berichte
+
+**Glossar:**
+* **Live-Reporting**: Echtzeit-Metriken, die direkt auf der Journey-Arbeitsfläche angezeigt werden und die letzten 24 Stunden abdecken *(produktspezifisch)*
+* **Probelauf-Modus**: Ein Journey-Ausführungsmodus, der das Journey simuliert, ohne echte Nachrichten zu senden, in dem auch Live-Berichte verfügbar sind *(produktspezifisch)*
+* **Verworfene Profile**: Profile, die versucht haben, auf die Journey zuzugreifen, aber aufgrund von Qualifizierungskonflikten, Wiedereintrittsbeschränkungen oder Identitätsproblemen abgelehnt wurden *(produktspezifisch)*
+* **Ausgestiegen (erzwungenes Beenden)**: Profile, die vom Journey entfernt wurden, während er von einem Journey-Anwender angehalten wurde; immer Null im Dry-Run-Modus *(produktspezifisch)*
+
+**Leitplanken:**
+* Live-Berichtsdaten decken nur die letzten 24 Stunden ab.
+* Ereignisse werden im Abstand von mindestens zwei Minuten, in der Regel innerhalb von fünf Minuten, angezeigt.
+* Die Berechtigung Journey-Bericht anzeigen ist erforderlich, um Live-Berichtsdaten anzuzeigen.
+* Berichtsdaten sind nur für veröffentlichte Journey oder Journey im Probelauf-Modus verfügbar; Journey mit Entwurf generieren keine Daten.
+* Für Aktionsaktivitäten zeigt die eingegebene Metrik Profile an, die im Probelauf-Modus durchlaufen (nicht ausgeführt) werden.
+* Die Metrik „Beendet“ (forcierter Austritt) ist im Probelauf-Modus immer null.
+
+**Terminologie:**
+* Kanonischer Name: Live-Bericht (Journey-Arbeitsfläche) — Akronym: none — Varianten: Journey Live-Bericht, In-Arbeitsfläche-Reporting
+* Synonyme: „Eingetretene Profile“ = „Profile, die die Journey betreten haben“
+* Verwechseln Sie nicht: „Live-Bericht“ ≠ „Globaler Journey-Bericht“ (der Live-Bericht umfasst die letzten 24 Stunden auf der Arbeitsfläche; der globale Bericht deckt einen größeren historischen Zeitraum in der Reporting-Benutzeroberfläche ab)
+
+**FAQ:**
+* **F: Wie aktuell sind die im Live-Bericht angezeigten Daten?** — Ereignisse aus den letzten 24 Stunden werden mit einer Mindestanzeigeverzögerung von zwei Minuten, in der Regel innerhalb von fünf Minuten, angezeigt.
+* **F: Warum kann ich keine Daten in meinem Journey-Live-Bericht sehen?** — Vergewissern Sie sich, dass Sie über die Berechtigung Journey-Bericht anzeigen verfügen, dass die Journey veröffentlicht ist (nicht im Entwurf) und dass der Journey-Name mit dem Namen im Berichtsdatensatz übereinstimmt.
+* **F: Was führt dazu, dass Profile verworfen werden?** — Verwerfungen können auftreten, weil Verbenübereinstimmungen in der Zielgruppen-Qualifizierung nicht übereinstimmen, Richtlinienverletzungen bei wiederkehrenden oder ereignisgesteuerten Journey bei erneuten Eintritten verletzt werden oder weil bei Aktivitäten des Typs Zielgruppe lesen ein Identity-Namespace fehlt/nicht übereinstimmt.
+* **F: Ist der Live-Bericht im Dry-Run-Modus verfügbar?** — Ja. Live-Berichte sind sowohl für veröffentlichte Live-Journey als auch für Journey im Dry-Run-Modus verfügbar.
+* **F: Was bedeutet die eingegebene Metrik für Aktionsaktivitäten im Probelauf-Modus?** — Es zeigt Profile an, die die Aktivität durchlaufen, da Aktionen im Probelauf-Modus nicht tatsächlich ausgeführt werden.
+
++++

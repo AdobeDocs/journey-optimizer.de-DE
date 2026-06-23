@@ -11,10 +11,10 @@ keywords: Experimentieren, Experimentieren, Journey, Pfad, Optimierung, A/B-Test
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 68%
+source-wordcount: 1865
+ht-degree: 48%
 
 ---
 
@@ -213,3 +213,48 @@ Manuelles Skalieren der erfolgreichsten Abwandlung des Experiments:
    ![Skalieren der Behandlungsauswahl im Pfadexperiment](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Beachten Sie, dass die Skalierung der Abwandlung bis zu einer Stunde dauern kann. Nach Abschluss des manuellen Skalierungsprozess erhalten Sie eine Benachrichtigung.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird beschrieben, wie Sie Pfadexperimente in Adobe Journey Optimizer-Journey mit A/B- oder Multi-Armed-Bandit-Methoden konfigurieren und ausführen und wie Sie die erfolgreichste Variante automatisch oder manuell skalieren.
+
+**intents:**
+* Einrichten eines A/B- oder Multi-Armed-Bandit-Pfadexperiments in einer Journey
+* Definieren von Erfolgsmetriken zur Bewertung der Experimentleistung
+* Traffic gleichmäßig oder nach benutzerdefiniertem Prozentsatz zwischen Abwandlungspfaden zuweisen
+* Fügen Sie eine neutrale Gruppe hinzu, um einen Teil der Zielgruppe von allen Abwandlungen auszuschließen
+* Automatische Skalierung aktivieren, um die erfolgreichste Variante automatisch einzuführen
+* Skalieren Sie die erfolgreichste Variante nach Überprüfung der Experimentergebnisse manuell
+
+**Glossar:**
+* **Aktivität optimieren**: Eine Journey-Canvas-Aktivität, die verwendet wird, um Profile in verschiedene Pfade für Experimente oder Targeting *produktspezifisch) aufzuteilen*
+* **Abwandlung**: Eine einzelne Pfadvariante in einem Pfadexperiment (z. B. Abwandlung A, Abwandlung B) *(produktspezifisch)*
+* **Erfolgsmetrik**: Der KPI, der verwendet wird, um zu bewerten, welche Behandlung in einem Experiment am besten abschneidet *produktspezifisch)*
+* **Multi-Armed Bandit**: Ein Experimenttyp, bei dem die Traffic-Aufteilung basierend auf der primären Metrikergebnisverteilung automatisch alle 7 Tage angepasst wird *(produktspezifisch)*
+* **Gewinner skalieren**: Eine Funktion, mit der die erfolgreichste Variante entweder automatisch oder manuell (produktspezifisch) *der gesamten verbleibenden Zielgruppe bereitgestellt wird*
+* **Holdout-Gruppe**: Ein Segment der Zielgruppe, das von allen Experimentabwandlungen ausgeschlossen ist und als Kontrollgruppe verwendet wird *(produktspezifisch)*
+
+**Leitplanken:**
+* Skalieren Sie den Gewinner und die Gewinnerin nur für unitäre Journey (ereignisgesteuert und Zielgruppen-Qualifizierung). Sie ist nicht für Journey unter „Zielgruppe lesen“ verfügbar.
+* Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden, da die Journey sonst nicht veröffentlicht wird.
+* Nach der automatischen Skalierung ist die manuelle Skalierung nicht mehr verfügbar.
+* Durch manuelles Skalieren des Gewinners vor der geplanten automatischen Skalierung wird die automatische Skalierung abgebrochen.
+* Die Skalierung der Behandlung kann bis zu einer Stunde dauern.
+
+**Terminologie:**
+* Kanonischer Name: Path Experimentation — Akronym: none — Varianten: Journey Experimentation, A/B-Pfadtest
+* Synonyme: „Aktivität optimieren“ = „Experimentaktivität“ = „Aktivität in Pfadaufteilung“
+* Verwechseln Sie nicht: „A/B-Experiment“ ≠ „Mehrarmiger Bandit“ (A/B hat feste Traffic-Aufteilung; Mehrarmiger Bandit passt die Gewichte dynamisch alle 7 Tage an)
+
+**FAQ:**
+* **F: Was ist der Unterschied zwischen A/B-Experiment und Multi-Armed Bandit?** - Ein A/B-Experiment verwendet eine feste Traffic-Aufteilung, die zu Beginn definiert wurde, während Multi-Armed Bandit die Traffic-Gewichtung automatisch alle 7 Tage basierend auf der primären Metrikleistung anpasst.
+* **F: Kann ich den „Winner“ in einer „Zielgruppe lesen“-Journey skalieren?** — Nein; Skalieren Sie den Gewinner. Der Gewinner steht nur für Journey mit unitären (ereignisgesteuerten und Zielgruppen-Qualifizierungen) zur Verfügung.
+* **F: Was passiert, wenn zum Zeitpunkt der automatischen Skalierung kein Gewinner gefunden wird?** — Sie können ein Fallback konfigurieren: Fahren Sie entweder mit dem Experiment bis zum geplanten Ende fort oder skalieren Sie eine alternative Variante nach einer bestimmten Zeit.
+* **F: Wie wird der Traffic verteilt, wenn ich die Abwandlungsprozentsätze nicht manuell konfiguriere?** - Sie können den Umschalter Gleichmäßig verteilen aktivieren, um den Traffic gleichmäßig auf alle Abwandlungen zu verteilen.
+* **F: Kann ich nach der Veröffentlichung der Journey ein Pfadexperiment bearbeiten?** — Nach der Veröffentlichung wechselt die Journey in den schreibgeschützten Modus. Erstellen Sie eine neue Journey-Version, um Änderungen vorzunehmen.
+
++++

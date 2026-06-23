@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1506
-ht-degree: 94%
+source-wordcount: 2066
+ht-degree: 68%
 
 ---
 
@@ -192,4 +192,52 @@ Sie können auch eine oder mehrere **pausierte** Journeys fortsetzen. Um eine Gr
 >[!NOTE]
 >
 >Sie können bis zu 10 Journeys pro Vorgang pausieren/fortsetzen.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird beschrieben, wie Sie über das Journey Optimizer-Dashboard Journey durchsuchen, filtern, anzeigen (Liste und Kalender), duplizieren und Massenvorgänge für sie durchführen können.
+
+**intents:**
+
+* Durchsuchen und Durchsuchen von Journey über die Registerkarten Übersicht und Durchsuchen
+* Journey nach Status, Typ, Version, Tags, Erstellungsdatum oder Veröffentlichungsdatum filtern
+* Wechseln zwischen Listen- und Kalenderansicht, um Journey-Zeitpläne zu visualisieren
+* Hinzufügen und Verwalten externer Kalender durch Hochladen von CSV-Dateien
+* Eine vorhandene Journey duplizieren, um ihre Einstellungen wiederzuverwenden
+* Massenpause oder -fortsetzung - Gleichzeitiges Anhalten oder Fortsetzen mehrerer angehaltener Journey
+
+**Glossar:**
+
+* **Journey-Dashboard**: Die Hauptbenutzeroberfläche von Journey mit einer Registerkarte „Übersicht“, auf der Schlüsselmetriken angezeigt werden, und einer Registerkarte „Durchsuchen“, auf der alle Journey aufgeführt sind. *(produktspezifisch)*
+* **Verwerfungsrate**: Das Verhältnis der Profile, die nicht zum Eintritt in die Journey berechtigt sind (z. B. aufgrund falscher Namespace- oder Wiedereintrittsregeln), im Vergleich zur Gesamtzahl der Profile, die in den letzten 24 Stunden einen Eintrittsversuch unternommen haben. *(produktspezifisch)*
+* **Kalenderansicht der Journey**: Eine visuelle wöchentliche Kalenderdarstellung von Live- und geplanten Journey, auf die durch Klicken auf das Kalendersymbol in der Liste der Journey zugegriffen werden kann. *(produktspezifisch)*
+* **Bulk Pause**: Ein Vorgang, bei dem mehrere Live-Journey gleichzeitig (bis zu 10 pro Vorgang) über die Journey-Liste angehalten werden. *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Dashboard-Metriken werden alle 30 Minuten aktualisiert und nur, wenn neue Daten verfügbar sind. Sie decken nur die letzten 24 Stunden ab
+* Journey- und Journey-Entwürfe im Testmodus werden in der Kalenderansicht nicht angezeigt
+* Massenpause/Wiederaufnahme ist auf 10 Journey pro Vorgang beschränkt
+* Die Schaltfläche Fortsetzen ist nur aktiv, wenn angehaltene Journey ausgewählt sind. Die Schaltfläche Pause ist nur aktiv, wenn Live-Journey ausgewählt sind
+* Der Kalender zeigt Journey als Zeitspannen von 1 Stunde an, unabhängig von der tatsächlichen Versand- oder Abschlusszeit
+
+**Terminologie:**
+
+* Kanonischer Name: Journey Dashboard — Akronym: none — Varianten: Journey-Liste, Journey-Übersicht
+* Synonyme: „Tab durchsuchen“ = &quot;Journey Liste“
+* Verwechseln Sie nicht: „Verwerfungsrate“ ≠ „Fehlerrate“ — Verwerfungsrate zählt Profile, die nicht zum Eintreten berechtigt sind; Fehlerrate zählt Profile, die eingegeben, aber einen Verarbeitungsfehler festgestellt haben
+
+**FAQ:**
+
+* **F: Wo kann ich wichtige Journey-Leistungsmetriken auf einen Blick sehen?** - Auf der Registerkarte Überblick des Journey-Dashboards, die die in den letzten 24 Stunden verarbeiteten Profile, Live-Journey, Fehlerrate und Verwerfungsrate anzeigt.
+* **F: Wie finde ich Journey, die ein bestimmtes Ereignis oder eine bestimmte Aktion verwenden?** - Verwenden Sie die Aktivitätsfilter und Datenfilter in der Journey-Liste, um Journey anzuzeigen, die auf ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion verweisen.
+* **F: Kann ich mehrere Journey gleichzeitig anhalten?** — Ja. Wählen Sie mehrere Live-Journey in der Liste aus und klicken Sie auf die Schaltfläche Pause in der unteren Leiste. Pro Vorgang können bis zu 10 Journey angehalten werden.
+* **F: Wie füge ich dem Journey-Kalender externe Events hinzu?** - Klicken Sie auf das Kalendersymbol hinzufügen und ziehen Sie per Drag-and-Drop eine CSV-Datei mit den Spalten Ereignisname, Startdatum und Enddatum. Hochgeladene Ereignisse sind für alle Benutzer in der Organisation sichtbar.
+* **F: Warum zeigt der Kalender eine Journey als 1 Stunde an, obwohl sie länger läuft?** — Im Kalender werden alle Journey aus Gründen der visuellen Konsistenz als Zeiträume von 1 Stunde angezeigt. Dies spiegelt weder die tatsächliche Versand- noch die Abschlusszeit wider.
+
++++
 

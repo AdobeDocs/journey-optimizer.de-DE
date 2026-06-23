@@ -11,10 +11,10 @@ badge: label="Öffentliche Betaversion" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 661
-ht-degree: 10%
+source-wordcount: 1147
+ht-degree: 6%
 
 ---
 
@@ -95,3 +95,49 @@ Wenn eine **[!UICONTROL Warten]**-Aktivität ein benutzerdefiniertes Datum verwe
 
 * [Arbeiten mit dem erweiterten Ausdruckseditor](expressionadvanced.md) — Übersicht über die Benutzeroberfläche des Ausdruckseditors und die unterstützte Syntax.
 * [Erste Schritte mit dem KI-Assistenten in Journey Optimizer](../../content-management/gs-generative.md) - Allgemeine Leitlinien, Zugriffe und Einrichtung für Funktionen der generativen KI.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird der Ausdrucksassistent erläutert, eine KI-gestützte Funktion im erweiterten Ausdruckseditor von Journey, die gültige Journey-Ausdrücke aus einfachen Eingabeaufforderungen generiert.
+
+**intents:**
+
+* Erstellen eines Journey-Ausdrucks aus einer Beschreibung natürlicher Sprache mithilfe des Ausdrucksassistenten
+* Anwenden eines generierten Ausdrucks direkt auf den erweiterten Ausdruckseditor mit der Schaltfläche Anwenden
+* Verwenden Sie den Ausdrucksassistenten innerhalb der Aktivitäten Optimieren , Bedingungsaktivitäten und benutzerdefinierten Warteaktivitäten für ein Datum .
+* Geben Sie Beispielaufforderungen für ereignisbasierte Bedingungen und Ausdrücke für die `dateTimeOnly` Wartezeit an
+* Fehlerbehebung bei fehlgeschlagener Generierung durch Überprüfen von Eingabeaufforderungen zum Verweisen auf gültige Feldnamen und Datenquellen
+
+**Glossar:**
+
+* **Ausdrucksassistent**: Eine KI-gestützte generative Funktion, die in den erweiterten Ausdruckseditor von Journey eingebettet ist und Eingabeaufforderungen in gültige Journey-Ausdrücke konvertiert *(produktspezifisch)*
+* **Erweiterter Ausdruckseditor**: Die Journey Optimizer-Oberfläche zum Schreiben komplexer Ausdrücke in Bedingungen, Warteaktivitäten und Aktionsparameterzuordnung *(produktspezifisch)*
+* **dateTimeOnly**: Ein Datum-Uhrzeit-Ausdruckstyp ohne Zeitzone, der für benutzerdefinierte Datums-Warteaktivitäten erforderlich ist *(produktspezifisch)*
+* **Aktivität optimieren**: Eine Journey-Aktivität, die Verzweigungsbedingungen unterstützt, die über den erweiterten Ausdruckseditor konfiguriert werden können *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Der Ausdrucksassistent befindet sich derzeit in der **öffentlichen Betaversion** — Verfügbarkeit und Verhalten können sich ändern
+* Für diese Funktion gelten generative KI-Leitplanken und -Einschränkungen aus der Hauptdokumentation zum KI-Assistenten
+* Wenn der Assistent auf Felder verweist, die nicht in Ihren Datenquellen des Journey vorhanden sind, wird ein Fehler zurückgegeben - überarbeiten Sie die Eingabeaufforderung, um verfügbare Feldnamen zu verwenden
+* Die genaue Syntax der generierten Ausdrücke hängt von den Feldern und Aktivitäten ab, die in Ihrem jeweiligen Journey konfiguriert sind
+
+**Terminologie:**
+
+* Kanonischer Name: Expression Assistant — Akronym: none — Varianten: Expression AI, Journey Ausdrucksgenerator
+* Synonyme: „Expression Assistant“ = „KI-Ausdrucksgenerator“
+* Verwechseln Sie nicht: Ausdrucksassistent (KI-gestützter Generator) ≠ Erweiterter Ausdruckseditor (der manuelle Code-Editor selbst)
+
+**FAQ:**
+
+* **F: Wo ist der Ausdrucksassistent verfügbar?** — Er ist überall dort verfügbar, wo der erweiterte Ausdruckseditor von Journey geöffnet wird, einschließlich Bedingungsaktivitäten, Optimierungsaktivitäten und Warteaktivitäten mit einem benutzerdefinierten Datum.
+* **F: Was passiert, wenn der Assistent keinen gültigen Ausdruck erzeugen kann?** — Es wird eine Fehlermeldung angezeigt. Sie sollten Ihre Eingabeaufforderung überarbeiten, um Feldnamen und Datenquellen zu verwenden, die in Ihrer Journey-Konfiguration vorhanden sind.
+* **F: Wie füge ich einen generierten Ausdruck in den Editor ein?** — Klicken Sie im Assistentenbedienfeld auf **Anwenden**, um sie direkt an der aktuellen Cursorposition im erweiterten Ausdruckseditor einzufügen.
+* **F: Kann der Ausdrucksassistent `dateTimeOnly` Ausdrücke für Warteaktivitäten generieren?** — Ja. Wenn Sie z. B. „30 Tage ab jetzt um 22 Uhr nur als Datum und Uhrzeit“ eingeben, wird der entsprechende `dateTimeOnly`-Ausdruck generiert.
+* **F: Ist der Ausdrucksassistent allgemein verfügbar?** — Nein; es befindet sich derzeit in der öffentlichen Betaversion. Auf der Seite Journey Optimizer-Versionszyklus finden Sie Verfügbarkeitsaktualisierungen.
+
++++

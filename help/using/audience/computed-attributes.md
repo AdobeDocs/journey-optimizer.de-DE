@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 956
-ht-degree: 54%
+source-wordcount: 1012
+ht-degree: 51%
 
 ---
 
@@ -96,7 +96,11 @@ Da berechnete Attribute Profilattributfelder sind, die im Profilvereinigungssche
 
 ![](assets/computed-attributes-ajo.png)
 
-+++KI-Assistent - Seitenkontext
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
 
 - **TL;DR:** Erfahren Sie, wie Sie berechnete Attribute in Adobe Experience Platform erstellen und in Journey Optimizer für die Segmentierung, Personalisierung und das Journey nutzen können.
 

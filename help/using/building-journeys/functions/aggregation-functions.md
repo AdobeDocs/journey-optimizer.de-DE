@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 100%
+source-wordcount: 1105
+ht-degree: 65%
 
 ---
 
@@ -508,5 +508,45 @@ Gibt 21 zurück.
 `sum([10.5,null,8.1])`
 
 Gibt 18.6 zurück.
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alle in AJO-Journey-Ausdrücken verfügbaren Aggregationsfunktionen dokumentiert, die die Berechnung von Durchschnittswerten, Summen, Min-/Max-Werten, Zählungen und eindeutigen Zählungen im Vergleich zu Listen und Arrays umfassen.
+
+**intents:**
+* Berechnen des Durchschnitts einer Liste numerischer Werte mithilfe von `avg`
+* Summe numerischer Werte in einer Liste oder aus Ereignisfeldern mithilfe von `sum`
+* Suchen des minimalen oder maximalen Werts in einer Liste mithilfe von `min` oder `max`
+* Nicht-Null-, Nur-Null- oder alle Elemente in einer Liste mithilfe von `count`, `countOnlyNull` oder `countWithNull` zählen
+* Zählen unterschiedlicher Werte in einer Liste, mit oder ohne NULL, mithilfe von `distinctCount` oder `distinctCountWithNull`
+* Filtern von eindeutigen Objekten in einem listObject nach einem bestimmten Schlüsselattribut mithilfe von `distinctCount` mit einem Schlüsselparameter
+
+**Glossar:**
+* **listObject**: Eine Liste komplexer Objekte (Feldverweise); darf keine Null-Objekte enthalten *(produktspezifisch)*
+* **listAny**: Eine Liste eines beliebigen unterstützten Skalartyps (Zeichenfolge, Boolesch, Ganzzahl, Dezimalzahl, Dauer, DatumUhrzeit, DatumUhrzeitNur, DatumNur) *(produktspezifisch)*
+* **Nullwert**: Ein fehlendes oder nicht definiertes Element in einer Liste. Die meisten Aggregationsfunktionen ignorieren NULL, es sei denn, die Funktion verarbeitet sie explizit (z. B. `countOnlyNull`, `countWithNull`, `distinctCountWithNull`).
+
+**Leitplanken:**
+* `countOnlyNull`, `countWithNull` und `distinctCountWithNull` unterstützen nicht den Parametertyp `<listObject>`
+* `distinctCount` auf einem `listObject` muss die Liste ein Feldverweis sein, kein Inline-Literal
+* `count` auf einem `listObject` muss die Liste ein Feldverweis sein. Ein listObject darf keine Null-Objekte enthalten
+
+**Terminologie:**
+* Kanonischer Name: Aggregationsfunktionen — Akronym: none — Varianten: Aggregatfunktionen, Sammlungsfunktionen
+* Synonyme: „count“ = „count Elemente ungleich null“; „countWithNull“ = „count alle Elemente einschließlich NULL“
+* Verwechseln Sie nicht: „distinctCount“ (ignoriert NULL) ≠ „distinctCountWithNull“ (enthält NULL als eindeutigen Wert)
+
+**FAQ:**
+* **F: Enthält `avg` Nullwerte in ihre Berechnung?** — Nein, `avg` ignoriert Nullwerte automatisch.
+* **F: Was ist der Unterschied zwischen `count` und `countWithNull`?** — `count` schließt Nullwerte aus der Summe aus, während `countWithNull` jedes Element einschließlich Nullwerten zählt.
+* **F: Kann ich `countOnlyNull` für ein listObject verwenden?** — Nein, `<listObject>` wird von `countOnlyNull`, `countWithNull` oder `distinctCountWithNull` nicht unterstützt.
+* **F: Wie zähle ich verschiedene Objekte in einem Array basierend auf einem bestimmten Attribut?** — Verwenden Sie `distinctCount(@event{...}, "attributeName")` Angabe des Namens des Schlüsselattributs als zweiten Parameter.
+* **F: Was gibt `max` zurück, wenn die Liste NULL enthält?** — `max` ignoriert Nullwerte und gibt das Maximum unter den Elementen zurück, die nicht null sind.
 
 +++

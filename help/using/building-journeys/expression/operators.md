@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 100%
+source-wordcount: 1001
+ht-degree: 54%
 
 ---
 
@@ -496,3 +496,51 @@ Gibt einen _dateTime_-Wert (mit UTC-Zeitzone) eine Stunde später als die aktuel
 ```
 
 Gibt eine _Dauer_ PT2H zurück.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Diese Seite enthält eine vollständige Referenz der im erweiterten Ausdruckseditor von Journey verfügbaren Operatoren und behandelt logische (`and`, `or`, `not`), Vergleiche (`==`, `!=`, `>`, `>=`, `<`, `<=`,,,,,,,, `%`), arithmetische (`is numeric` `is integer` `is decimal`, `*`, `is null`, `is not null` `has null` `+` `-` `/`), Zeichenfolgenverkettung und arithmetische Datumsoperatoren.
+
+**intents:**
+
+* Kombinieren Sie boolesche Bedingungen mithilfe der logischen Operatoren `and`, `or` und `not`
+* Überprüfen, ob ein Feld- oder Ausdruckswert null oder nicht null ist, mithilfe von `is null`/`is not null`
+* Erkennen von Nullwerten innerhalb einer Liste mithilfe des `has null` Operators
+* Vergleichen Sie numerische, datetime- und datetimeonly-Werte mithilfe von `>`, `>=`, `<`, `<=`, `==` und `!=`
+* Ausführen von Berechnungen für numerische Werte mithilfe von `+`, `-`, `/`, `*` und `%`
+* Hinzufügen einer Dauer zu einem dateTime-, dateTimeOnly- oder duration-Wert mit dem `+` Operator
+
+**Glossar:**
+
+* **Unärer Operator** Ein Operator, der auf einen einzelnen Operanden angewendet wird. Kann links (z. B. `not`) oder rechts (z. B. `is null`) *(produktspezifisch) sein*
+* **Binärer Operator** Ein Operator, der zwischen zwei Operanden angewendet wird (z. B. `and`, `==`, `+`) *(produktspezifisch)*
+* **Hat null**: Ein unärer Operator auf der rechten Seite, der „true“ zurückgibt, wenn eine Liste mindestens ein Null-Element enthält *(produktspezifisch)*
+* **ist numerisch / ist Ganzzahl / ist Dezimalzahl**: Typprüfungsoperatoren, die einen booleschen Wert zurückgeben, basierend auf dem numerischen Untertyp des Ausdrucks *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Bei Verwendung der Multiplikation (`*`) müssen beide Operanden denselben numerischen Typ aufweisen (sowohl Ganzzahl als auch beide Dezimalzahlen). Beim Mischen wird ein Fehler verursacht
+* Bei Verwendung des `+` Operators für die Datumsarithmetik muss der Ausdruck in Klammern eingeschlossen werden, um Parsing-Fehler zu vermeiden
+* Vergleichsoperatoren (`>`, `>=`, `<`, `<=`) sind nur zwischen kompatiblen Typen gültig: „Datetime“ mit „Datetime“, „DatetimeOnly“ mit „DatetimeOnly“ oder „numerisch“ mit „numerisch“. Jede andere Kombination ist verboten
+* Eine leere Zeichenfolge `""` wird nicht als null betrachtet, `has null` für eine Liste mit `""` „false“ zurückgibt.
+* Die `==`- und `!=`-Operatoren führen keine Datentypsteuerung zwischen Operanden durch
+
+**Terminologie:**
+
+* Kanonischer Name: Operatoren — Akronym: none — Varianten: Ausdrucksoperatoren, Journey-Operatoren
+* Synonyme: `and` = „Logical AND“; `or` = „Logical OR“; `not` = „Logical NOT“; `%` = „modulo“
+* Verwechseln Sie nicht: `is null` (Ausdruck hat keinen ausgewerteten Wert) ≠ `== null` (keine gültige Syntax); `has null` (Liste enthält null) ≠ `is null` (Ausdruck selbst ist null)
+
+**FAQ:**
+
+* **F: Kann ich eine Ganzzahl direkt mit einer Dezimalzahl multiplizieren?** — Nein; beide Operanden von `*` müssen vom gleichen Typ sein. Verwenden Sie `3.0 * 4.0` (beide Dezimalzahlen) oder `3 * 4` (beide Ganzzahlen).
+* **F: Wie füge ich 15 Minuten zu einer Uhrzeit hinzu?** — `(toDateTime("...")) + (toDuration("PT15M"))` verwenden.
+* **F: Was ist der Unterschied zwischen `is null` und `has null`?** — `is null` prüft, ob ein einzelner Ausdruck keinen ausgewerteten Wert hat; `has null` prüft, ob eine Liste mindestens ein Null-Element enthält.
+* **F: Gibt `"" has null` „true“ zurück?** — Nein; eine leere Zeichenfolge wird nicht als null betrachtet, sodass das Ergebnis „false“ ist.
+* **F: Warum verursacht `3 * 4.0` einen Fehler?** — Der `*` Operator erfordert, dass beide Operanden vom gleichen numerischen Typ sind; das Mischen von Ganzzahl und Dezimalzahl ist nicht zulässig.
+
++++

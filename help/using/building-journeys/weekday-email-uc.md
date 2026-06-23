@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1109
-ht-degree: 87%
+source-wordcount: 1622
+ht-degree: 59%
 
 ---
 
@@ -215,3 +215,49 @@ Nach Abschluss der Tests:
 * [Datumsfunktionen](functions/date-functions.md): Vollständige Referenz für Datums- und Uhrzeitfunktionen
 * [Ausdruckseditor](expression/expressionadvanced.md): Erstellen komplexer Ausdrücke
 * [Best Practices für Journeys](journey-gs.md#best-practices): Empfohlene Ansätze für das Journey-Design
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite finden Sie einen Anwendungsfall, in dem Sie eine Journey schrittweise konfigurieren können, die E-Mails nur an Wochentagen sendet. Verwenden Sie dazu eine Wochentagsbedingung und benutzerdefinierte Warteformeln, um Wochenendeinträge bis Montag zu verzögern.
+
+**intents:**
+
+* Konfigurieren Sie eine Aktivität vom Typ Bedingung , um eine Journey je nach Wochentag (Samstag, Sonntag oder Wochentag) zu verzweigen.
+* Schreiben von benutzerdefinierten Warteausdrücken mithilfe von `toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))`, um Wochenendprofile bis Montag zu verzögern
+* Erstellen Sie eine Drei-Pfad-Journey, die alle Pfade in einer einzigen E-Mail-Aktion zusammenführt
+* Testen Sie die E-Mail-Logik nur für Wochentage mithilfe von Testprofilen mit verschiedenen simulierten Eintrittstagen.
+* Veröffentlichen und Überwachen einer Journey, die den E-Mail-Versand am Wochenende unterdrückt
+
+**Glossar:**
+
+* **Zeitbedingung**: Ein Bedingungs-Aktivitätstyp in Journey Optimizer, der Journey-Pfade basierend auf Datums-/Uhrzeitkriterien wie Wochentag *produktspezifisch) verzweigt*
+* **nowWithDelta**: Eine Ausdrucksfunktion, die den aktuellen Datums-/Uhrzeitversatz um eine angegebene Anzahl von Tagen oder anderen Einheiten zurückgibt *(produktspezifisch)*
+* **setHours**: Eine Ausdrucksfunktion, die eine bestimmte Stunde auf einen bestimmten Datums-/Uhrzeitwert *produktspezifisch) festlegt*
+* **toDateTimeOnly**: Eine Ausdrucksfunktion, die einen Wert in das für benutzerdefinierte Warteaktivitäten erforderliche `dateTimeOnly`-Format konvertiert *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Die für die Wochentagsauswertung verwendete Zeitzone ist die konfigurierte Zeitzone der Journey (festgelegt in den Journey-Eigenschaften) und nicht die Zeitzone der einzelnen Empfängerin bzw. des Empfängers.
+* Für diesen Anwendungsfall sind eine aktive E-Mail-Kanaloberfläche und eine Zielgruppe oder ein Ereignis zum Trigger der Journey erforderlich.
+* Grundlegendes zu Journey-Bedingungen und zum erweiterten Ausdruckseditor ist eine Voraussetzung.
+* Testen Sie die Journey vor der Veröffentlichung immer im Testmodus, um sicherzustellen, dass die Warteformeln die richtige Montag-Versandzeit ergeben.
+
+**Terminologie:**
+
+* Kanonischer Name: E-Mail-Planung am Wochentag — Akronym: Keine — Varianten: E-Mails nur am Wochentag, E-Mail-Versand während der Geschäftszeiten
+* Synonyme: „Saturday path“ / „Sunday path“ = „Weekend Paths“; „Other Cases Path“ = „Weekday Path“
+* Nicht verwechseln: Journey-Zeitzone (für die Wochentagsauswertung) ≠ lokale Zeitzone des Empfängers
+
+**FAQ:**
+
+* **F: Welche Formel verzögert einen Samstagseintrag bis Montag um 9 Uhr?** — `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))` auf dem Samstagspfad verwenden (2 Tage vorwärts landet am Montag).
+* **F: Welche Formel verzögert einen Sonntagseintrag bis Montag um 9 Uhr?** — `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` auf dem Sonntagspfad verwenden (1 Tag vorwärts landet am Montag).
+* **F: Welche Zeitzone wird bei der Auswertung der Wochentagsbedingung verwendet?** — Die in den Journey-Eigenschaften definierte konfigurierte Zeitzone der Journey ist nicht die lokale Zeitzone der Empfängerin oder des Empfängers.
+* **F: Benötigen Wochentagseinträge eine Warteaktivität?** — Nein, Profile, die montags bis freitags eintreten, gehen ohne Wartezeit direkt zur E-Mail-Aktionsaktivität über.
+* **F: Wie kann ich testen, ob die Wochenendeinträge korrekt in die Warteschlange gestellt sind?** — Erstellen Sie im Testmodus Testprofile mit simulierten Samstag- und Sonntagseingabezeiten und überprüfen Sie, ob sie dem richtigen bedingten Pfad folgen, und erhalten Sie die E-Mail am Montag zur konfigurierten Stunde.
+
++++

@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 4186
-ht-degree: 62%
+source-wordcount: 4990
+ht-degree: 52%
 
 ---
 
@@ -499,3 +499,61 @@ Dies sind separate Konzepte. Das globale Zeitlimit von **[Journey](#global_timeo
 * [Journey anhalten](journey-pause.md) - Anhalten und Fortsetzen von Journey mit Beendigungskriterien für Profilattribute
 * [Zeitzonenverwaltung](timezone-management.md) - Konfigurieren von Journey- und Profil-Zeitzonen
 * [Konfliktmanagement und Priorisierung](../conflict-prioritization/conflicts.md) - Identifizieren und Beheben von Konflikten in Journey und Kampagnen
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie alle globalen Einstellungen für eine Journey konfigurieren und verwalten können, einschließlich Eintrittsregeln, Zeitzonen, Start-/Enddaten, Zeitüberschreitungsverhalten, Ausstiegskriterien, Payload-Größe und Konfliktmanagement.
+
+**intents:**
+
+* Konfigurieren der Regeln für den Eintritt und erneuten Eintritt von Journey für Profile
+* Legen Sie Start- und Enddaten fest, um zu steuern, wann Profile eine Journey betreten oder verlassen können
+* Beendigungskriterien definieren, um Profile automatisch zu entfernen, wenn eine Geschäftsbedingung erfüllt ist
+* Verwalten des Zugriffs auf eine Journey mithilfe von Zugriffssteuerungsbeschriftungen auf Objektebene
+* Überwachen der Größe der Journey-Payload, um Veröffentlichungsfehler zu vermeiden
+* Konflikte lösen und Prioritätswerte für Journey und Kampagnen zuweisen
+
+**Glossar:**
+
+* **Journey-Eigenschaften**: Das Bedienfeld für globale Einstellungen (rechte Leiste), das Namen, Eintrittsregeln, Zeitzone, Daten, Zeitüberschreitung, Payload-Größe und Konfliktmanagement für eine Journey steuert. *(produktspezifisch)*
+* **Wartezeit bis zum erneuten Eintritt**: Die Mindestdauer, die ein Profil warten muss, bevor es erneut auf eine unitäre Journey zugreifen darf. Diese beträgt maximal 90 Tage. *(produktspezifisch)*
+* **Globales Journey-Timeout (TTL)**: Die maximale Dauer, während der ein Profil innerhalb einer Journey aktiv bleiben kann - derzeit 91 Tage. Danach wird das Profil beendet und seine Daten gelöscht. *(produktspezifisch)*
+* **Beendigungskriterien** Auf Journey-Ebene definierte Regeln, die automatisch Profile von einer Journey entfernen, wenn ein bestimmtes Ereignis eintritt oder eine Zielgruppenbedingung erfüllt ist. *(produktspezifisch)*
+* **Profilattribut-basierte Beendigungskriterien**: Ausstiegsregeln, die auf Profilattributen (z. B. Standort, Status) basieren, die bei Aktionsschritten ausgewertet werden und nur bearbeitet werden können, wenn ein Journey angehalten wird. *(produktspezifisch)*
+* **Zusammenführungsrichtlinie**: Der von Adobe Experience Platform verwendete Regelsatz zum Kombinieren von Profildaten aus mehreren Quellen; wird konsistent auf die gesamte Journey angewendet. *(produktspezifisch)*
+* **Konfliktmanagement**: Tools in Journey-Eigenschaften zum Zuweisen von Prioritätswerten, Anwenden von Regelsätzen und Identifizieren sich überschneidender Journey oder Kampagnen. *(produktspezifisch)*
+* **Journey-Payload-Größe**: Die aktuelle Größe der Payload der Journey-Definition im Vergleich zum konfigurierten Limit; überschreitet die Veröffentlichung der Limitblöcke. *(produktspezifisch)*
+* **OLAC (Object Level Access Control)**: Ein Berechtigungsmodell, das den Zugriff auf einzelne Journey mithilfe von Datennutzungskennzeichnungen einschränkt.
+
+**Leitplanken:**
+
+* Die maximale Wartezeit für den erneuten Eintritt beträgt 90 Tage.
+* Das globale Journey-Timeout beträgt 91 Tage. Nach diesem Zeitraum werden die Profildaten gelöscht und das Profil wird beendet
+* Das standardmäßige Limit für Journey-Payloads beträgt 4 MB. Wird es überschritten, wird die Veröffentlichung verhindert. Wenden Sie sich an die Adobe-Kundenunterstützung, um ein höheres Limit zu erhalten
+* Beendigungskriterien können nur im Entwurfsstatus konfiguriert werden (Ereignis-/Zielgruppentypen). Beendigungskriterien für Profilattribute können nur bearbeitet werden, wenn die Journey angehalten wird
+* Pro Journey ist nur eine Ausstiegskriterienregel für Profilattribute zulässig
+* Die Beendigungskriterien für Profilattribute werden nur bei Aktionsschritten, nicht global ausgewertet
+* Wenn eine Zielgruppen-Zusammenführungsrichtlinie aktualisiert wird, müssen alle aktiven Journey, die auf diese Zielgruppe verweisen, erneut veröffentlicht werden
+* Inkonsistente Zusammenführungsrichtlinien in einer Journey-Blockveröffentlichung; Inkonsistenzen in der Nachrichtenpersonalisierung lösen keinen Warnhinweis aus
+* Bei Live-Journey zeigt das Bedienfeld Eigenschaften nur das Veröffentlichungsdatum und den Herausgebernamen an
+
+**Terminologie:**
+
+* Kanonischer Name: Journey-Eigenschaften — Akronym: none — Varianten: Journey-Einstellungen, Journey-Konfigurationsfeld
+* Synonyme: „Global Journey timeout“ = „TTL“ = „Time-to-Live“
+* Verwechseln Sie nicht: „Globales Journey-Timeout (91 Tage)“ ≠ „Reporting-Fenster (ca. 91 Tage)“ - das Timeout begrenzt die individuelle Profildauer in einer Journey. Das Reporting-Fenster ist eine Anzeigebeschränkung der Benutzeroberfläche für Analysedaten
+
+**FAQ:**
+
+* **F: Wie lange kann ein Profil auf einer Journey bleiben?** — Maximal 91 Tage (das globale Journey-Timeout); nach diesem Zeitraum wird das Profil automatisch beendet und seine Daten gelöscht.
+* **F: Kann ich Journey-Eigenschaften bearbeiten, während die Journey live ist?** - Bei Live-Journey zeigt das Bedienfeld Eigenschaften nur das Veröffentlichungsdatum und den Herausgebernamen an. Strukturänderungen erfordern eine neue Version.
+* **F: Was passiert, wenn mehrere Beendigungskriterien konfiguriert sind?** — Sie werden bei jedem Schritt des Journey von oben nach unten mit ODER-Logik ausgewertet; ein Profil tritt aus, wenn ein beliebiges Kriterium erfüllt ist.
+* **F: Wie kann ich verhindern, dass ein Profil erneut auf eine Journey gelangt?** — Deaktivieren Sie die Option „Erneuten Eintritt erlauben“ in den Journey-Eigenschaften. Dies ist für einmalige Erlebnisse wie ein Geschenkangebot geeignet.
+* **F: Was ist der Unterschied zwischen Journey-Timeout und Enddatum?** - Das Enddatum stoppt alle neuen Einträge und beendet die aktiven Profile automatisch an diesem bestimmten Datum. Die 91-tägige globale Zeitüberschreitung gilt für jedes Profil ab dem Zeitpunkt, an dem es eintritt, unabhängig vom Enddatum der Journey.
+* **F: Wie wird die Zusammenführungsrichtlinie für eine Journey bestimmt?** — Hängt vom Journey-Typ ab: Journey zum Lesen von Zielgruppe und Zielgruppen-Qualifizierung verwenden die Zusammenführungsrichtlinie der Zielgruppe; Journey von Einzelereignissen verwenden die standardmäßige Zusammenführungsrichtlinie; Journey von Geschäftsereignissen verwenden die Zusammenführungsrichtlinie der Zielgruppe in der nachfolgenden Aktivität zum Lesen von Zielgruppen .
+
++++

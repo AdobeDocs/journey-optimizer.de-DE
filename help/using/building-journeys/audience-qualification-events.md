@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 62%
+source-wordcount: 2501
+ht-degree: 46%
 
 ---
 
@@ -247,3 +247,49 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie die Ereignisaktivität Zielgruppen-Qualifizierung in Journey Optimizer konfigurieren und verwenden können, um Trigger oder Profilerweiterungen auf einer Journey durchzuführen, wenn sie eine Adobe Experience Platform-Zielgruppe betreten oder verlassen.
+
+**intents:**
+* Konfigurieren einer Ereignisaktivität für die Zielgruppenqualifizierung, um den Eintrag &quot;Trigger-Journey&quot; bei Änderungen der Zielgruppenzugehörigkeit zu ändern
+* Wählen Sie das richtige Verhalten (Eintritt, Austritt oder beides) für eine Zielgruppen-Qualifizierungsaktivität aus.
+* Anwendung von Best Practices, um bei der Verwendung von Batch- oder Streaming-Zielgruppen eine Überlastung der Systeme zu vermeiden
+* Erfahren Sie, warum einige qualifizierte Profile möglicherweise nicht auf die Journey gelangen, und wie Sie dem entgegenwirken können
+* Verwenden der AudienceQualification-Knoten-Payload in nachgelagerten Bedingungen und Aktionen
+
+**Glossar:**
+* **Zielgruppen-Qualifizierungsereignis**: Eine Journey-Ereignisaktivität, die auf Profileintritte in oder -austritte aus einer Adobe Experience Platform-Zielgruppe und auf Triggers-Journey-Progression *produktspezifisch) wartet*
+* **Verhalten (Einstieg/Ausstieg)**: Die Einstellung, die steuert, ob die Journey auf Profile reagiert, die beitreten („Realisiert„), verlassen („Ausgetreten„) oder auf beide Status einer Zielgruppe *(produktspezifisch)*
+* **Streaming-Zielgruppe**: Eine Zielgruppe, die mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ kontinuierlich in Echtzeit ausgewertet wird. Empfohlen für Zielgruppen-Qualifizierungsaktivitäten *produktspezifisch)*
+* **Batch-Zielgruppe**: Eine Zielgruppe wird einmal täglich neu berechnet. Dies führt eine tägliche Spitze bei den Profileinträgen ein und erfordert ein zweistündiges Bereitschaftsfenster nach Abschluss des Segmentierungsauftrags *(produktspezifisch)*
+* **AudienceQualification-Knoten**: Der Kontextknoten, der im Ausdruckseditor nach einer Aktivität vom Typ Zielgruppenqualifizierung verfügbar ist und die letzte Qualifizierungszeit und den Status *produktspezifisch) verfügbar macht*
+* **Edge-zu-Hub-**: Der Prozess, durch den eine auf der Edge ausgewertete Streaming-Segmentzugehörigkeit mit dem Hub synchronisiert wird, bevor die Journey darauf reagieren kann. dauert in der Regel 15-30 Minuten *(produktspezifisch)*
+
+**Leitplanken:**
+* Nach der Veröffentlichung dauert es bis zu 10 Minuten, bis eine neue Journey zur Zielgruppenqualifizierung aktiv wird
+* Batch- oder Streaming-Zielgruppen, die Batch-aufgenommene Attribute verwenden, werden etwa 2 Stunden nach Abschluss des Segmentierungsauftrags bereit
+* Es können nur Audiences verwendet werden, die mit Segmentdefinitionen erstellt wurden. Kompositions-Workflows oder benutzerdefinierte Upload-Audiences werden nicht unterstützt
+* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Zielgruppen-Qualifizierung beginnen.
+* Für das Namespace-Feld sind nur personenbasierte Identity-Namespaces verfügbar. Namespaces von Lookup-Tabellen werden nicht unterstützt
+* Profile, die sich bereits vor dem Journey der Veröffentlichung in der Zielgruppe befunden haben, werden nicht rückwirkend auf die Journey übertragen
+* Die Edge-zu-Hub-Übertragung für Streaming-Segmente dauert in der Regel 15-30 Minuten
+
+**Terminologie:**
+* Kanonischer Name: Zielgruppen-Qualifizierungsereignis — Akronym: none — Varianten: Segmentqualifizierung, Zielgruppen-Qualifizierungsaktivität
+* Synonyme: „enter“ = „realized“ ; „exit“ = „exited“
+* Verwechseln Sie nicht: „Zielgruppen-Qualifizierung“ ≠ „Zielgruppe lesen“ (Zielgruppen-Qualifizierung reagiert auf Änderungen der Echtzeit-Mitgliedschaft; „Zielgruppe lesen“ verarbeitet alle Mitglieder zu einer geplanten Zeit)
+
+**FAQ:**
+* **F: Wann beginnt eine neu veröffentlichte Zielgruppen-Qualifizierungs-Journey mit der Verarbeitung von Einträgen?** — Nach der Veröffentlichung dauert es bis zu 10 Minuten, bis die Aktivität aktiv wird und beginnt, auf Profileintritte und -austritte zu warten.
+* **F: Warum geben Profile nicht meine Zielgruppen-Qualifizierungs-Journey ein?** — Häufige Ursachen sind: Profile befanden sich bereits vor der Veröffentlichung in der Zielgruppe, das 10-minütige Aktivierungsfenster ist nicht abgelaufen oder die Edge-zu-Hub-Propagierung (15-30 Minuten) für Streaming-Segmente wurde noch nicht abgeschlossen.
+* **F: Kann ich eine Batch-Zielgruppe in einer Aktivität vom Typ Zielgruppen-Qualifizierung verwenden?** — Ja, aber es wird nicht empfohlen. Batch-Zielgruppen generieren eine tägliche Einstiegsspitze und eignen sich nicht für Echtzeit-Anwendungsfälle. Verwenden Sie stattdessen die Aktivität „Zielgruppe lesen“ für Batch-Szenarien.
+* **F: Welche Daten sind in der AudienceQualification-Payload verfügbar?** — Die Payload enthält das Verhalten (Eintritt oder Austritt), den Zeitstempel der Qualifizierung und die Zielgruppen-ID.
+* **F: Kann ich Zielgruppen, die aus Kompositions-Workflows erstellt wurden, in einer Aktivität zur Zielgruppen-Qualifizierung verwenden?** — Nein, nur Zielgruppen, die mit Segmentdefinitionen erstellt wurden, werden in dieser Aktivität unterstützt.
+
++++

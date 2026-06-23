@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 91%
+source-wordcount: 1382
+ht-degree: 54%
 
 ---
 
@@ -251,3 +251,44 @@ In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendu
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
 * [Iteration über kontextuelle Daten](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Erfahren Sie, wie Sie mit Arrays in Journey-Ausdrücken arbeiten und in der Nachrichtenpersonalisierung benutzerdefinierte Aktionsantworten, Ereignisdaten und Datensatzsuchen durchlaufen.
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie einfache und Objektsammlungen dynamisch in benutzerdefinierte Aktionsparameter in Journey Optimizer übergeben können, einschließlich unterstützter Feldtypen, des Konfigurationsverfahrens und bekannter Einschränkungen bei verschachtelten Arrays.
+
+**intents:**
+* Konfigurieren einer benutzerdefinierten Aktion, um eine Sammlung (einfach oder Objekt) als dynamischen Parameter zu akzeptieren
+* Definieren von Array-Parametern als Variablen im erweiterten Ausdruckseditor beim Erstellen einer Journey
+* Anwenden von Filter- und Überschneidungsfunktionen zum Bearbeiten von Array-Daten im Ausdruckseditor
+* Verstehen und Arbeiten mit den Beschränkungen für verschachtelte Arrays bei Payloads für benutzerdefinierte Aktionsanfragen
+* Testen von Sammlungsparametern mit dem Code-Ansichtsmodus im Journey-Testmodus
+
+**Glossar:**
+* **Einfache Sammlung**: Eine Liste grundlegender Skalarwerte (Zeichenfolgen, Zahlen, boolesche Werte), die als benutzerdefinierter Aktionsparameter übergeben werden *(produktspezifisch)*
+* **Objektsammlung**: Eine Liste strukturierter Objekte mit jeweils mehreren Feldern, die als benutzerdefinierter Aktionsparameter übergeben werden *(produktspezifisch)*
+* **listObject**: Der Feldtyp, der in der Konfiguration benutzerdefinierter Aktionen verwendet wird, um ein Array von Objekten darzustellen *(produktspezifisch)*
+* **listAny**: Der Feldtyp, der für heterogene Arrays oder Arrays von Arrays verwendet wird, in denen Elemente gemischte Typen haben *(produktspezifisch)*
+* **Variable (vs. Konstante)**: Bei der Konfiguration von Aktionsparametern wird ein Feld, das auf „Variable“ festgelegt ist, zur Laufzeit dynamisch aus dem Journey-Kontext gefüllt, während eine „Konstante“ ein fester Wert ist, der zum Zeitpunkt der Konfiguration festgelegt ist *(produktspezifisch)*
+
+**Leitplanken:**
+* Verschachtelte Arrays in Anfrage-Payloads werden nur unterstützt, wenn sie eine feste Anzahl von Elementen enthalten (definiert als Konstanten). Dynamische verschachtelte Arrays werden nicht unterstützt
+* Der Code-Ansichtsmodus ist erforderlich, um Sammlungen im Testmodus zu testen. Die Code-Ansicht wird für Geschäftsereignisse nicht unterstützt, sodass in diesem Fall nur Sammlungen mit einem Element gesendet werden können
+* Im Payload-Beispiel, das zum Definieren von Sammlungsfeldern verwendet wird, muss mindestens ein Objekt vorhanden sein
+* Das erste Objekt des Payload-Beispiels definiert die Felder für die gesamte Sammlung
+
+**Terminologie:**
+* Kanonischer Name: Sammlung — Akronym: none — Varianten: Array, Liste, dynamische Sammlung
+* Synonyme: „simple collection“ = „Liste von Skalarwerten“ ; „Objektsammlung“ = „Array von Objekten“
+* Verwechseln Sie nicht: „listAny“ ≠ „listObject“ (listAny behandelt heterogene oder verschachtelte Arrays; listObject behandelt einheitliche Arrays von strukturierten Objekten)
+
+**FAQ:**
+* **F: Was ist der Unterschied zwischen einer einfachen Sammlung und einer Objektsammlung?** - Eine einfache Auflistung enthält grundlegende Skalarwerte (Zeichenfolgen, Zahlen, Boolesche Werte), während eine Objektsammlung strukturierte Objekte mit jeweils mehreren benannten Feldern enthält.
+* **F: Wie kann ich einen Sammlungsparameter zur Laufzeit dynamisch machen?** - Legen Sie im Abschnitt Aktionsparameter der benutzerdefinierten Aktion das Array-Feld auf „Variable“ fest. Alle darin enthaltenen Objektfelder werden dann automatisch auf Variablen festgelegt.
+* **F: Werden verschachtelte Arrays in Payloads für benutzerdefinierte Aktionsanfragen unterstützt?** — Nur teilweise. Verschachtelte Arrays mit einer festen, bekannten Anzahl von Elementen können als Konstanten definiert werden. Verschachtelte Arrays mit einer dynamischen Anzahl von Elementen werden in Anfrage-Payloads nicht unterstützt.
+* **F: Wie kann ich eine Sammlung im Journey-Testmodus testen?** — Verwenden Sie den Code-Ansichtsmodus in der Testschnittstelle. Beachten Sie, dass Geschäftsereignisse die Code-Ansicht nicht unterstützen, sodass nur Sammlungen mit einem Element in diesem Kontext getestet werden können.
+* **F: Welche Feldtypen werden für Sammlungen unterstützt?** — listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly und listObject werden alle unterstützt.
+
++++

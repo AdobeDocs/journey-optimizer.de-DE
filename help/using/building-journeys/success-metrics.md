@@ -28,10 +28,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 92%
+source-wordcount: 1153
+ht-degree: 49%
 
 ---
 
@@ -126,3 +126,48 @@ Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metriken 
 
    ![Dropdown-Liste „Erfolgsmetriken“ mit verfügbaren Ereignissen für das Tracking von Zielen](assets/success_metric_2.png)
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie Erfolgsmetriken für das Journey in Adobe Journey Optimizer konfigurieren und verfolgen können, indem Sie einer Journey einen KPI zuweisen und dessen Performance in Journey-Berichten überprüfen.
+
+**intents:**
+* Fügen Sie die erforderlichen AEP-Datensatzfeldgruppen (Commerce-Details, Web, Mobile) als Voraussetzung für das Journey von Metriken hinzu
+* Zuweisen einer Journey-Metrik (KPI) zu einer Journey während der Journey-Erstellung oder -Konfiguration
+* Verstehen, welche Metriken basierend auf den konfigurierten Datensatz-Feldergruppen verfügbar sind
+* Interpretieren von Attributionsmodellen für Journey-Metriken unter Journey Optimizer- und Customer Journey Analytics-Lizenzen
+* Erstellen benutzerdefinierter Erfolgsmetriken mithilfe einer Customer Journey Analytics-Lizenz
+* Nachverfolgen der Journey-Performance anhand des zugewiesenen KPI in Journey-Berichten
+
+**Glossar:**
+* **Journey-Metriken**: KPIs, die einem Journey zur Messung seiner Effektivität zugewiesen wurden. Diese werden in Journey-Berichten angezeigt *(produktspezifisch)*
+* **Letztkontakt-Attribution**: Das standardmäßige Attributionsmodell, das die letzte Interaktion vor einer Konversion gutschreibt
+* **Feldergruppe &quot;Commerce-Details**: Eine XDM-Feldergruppe, die Commerce-bezogene Metriken wie Käufe, Checkouts und Warenkorbereignisse ermöglicht
+* **Lookback-**: Der Zeitraum, über den die Attribution ausgewertet wird. Auf maximal 7 Tage festgelegt, nur mit Journey Optimizer-Lizenz
+
+**Leitplanken:**
+* Pro Journey ist nur eine Journey-Metrik zulässig
+* Datensatzfeldgruppen (Commerce-Details, Web, Mobile) müssen aus integrierten Optionen ausgewählt werden, nicht aus benutzerdefinierten Gruppen, und müssen unter „Konfiguration“ > „Berichte“ in Adobe Experience Platform hinzugefügt werden
+* Ohne konfigurierten Datensatz sind nur Klicks, Einzelklicks, Clickthrough-Rate und Öffnungsrate verfügbar
+* Das maximale Lookback-Fenster beträgt 7 Tage mit einer Journey Optimizer-Lizenz
+* Benutzerdefinierte Metriken und benutzerdefinierte Attributionseinstellungen erfordern eine Customer Journey Analytics-Lizenz.
+
+**Terminologie:**
+* Kanonischer Name: Journey Metriken — Akronym: none — Varianten: Erfolgsmetriken, Journey Erfolgsmetriken
+* Kanonischer Name: Clickthrough Rate — Akronym: CTR — Varianten: none
+* Kanonischer Name: Clickthrough Open Rate — Akronym: CTOR — Varianten: none
+* Synonyme: &quot;Journey-Metriken“ = „Erfolgsmetriken“ (synonym in der Benutzeroberfläche und Dokumentation verwendet)
+* Nicht verwechseln: &quot;Journey Optimizer-Lizenzzuordnung“ ≠ &quot;Customer Journey Analytics-Attribution“ - CJA-Lizenz ermöglicht benutzerdefinierte Attributionsmodelle und längere Lookback-Fenster
+
+**FAQ:**
+* **F: Wie viele Journey-Metriken kann ich einer einzelnen Journey zuweisen?** — Pro Journey ist nur eine Journey-Metrik zulässig.
+* **F: Welche Metriken sind verfügbar, wenn ich keinen Datensatz mit Feldergruppen konfiguriert habe?** — Nur Klicks, Einzelklicks, Clickthrough-Rate und Öffnungsrate sind ohne zusätzliche Feldergruppenkonfiguration verfügbar.
+* **F: Welche Feldergruppen benötige ich, um Kauf- und Commerce-Metriken zu aktivieren?** — Sie müssen die Feldergruppe Commerce-Details zu Ihrem Reporting-Datensatz in Adobe Experience Platform hinzufügen.
+* **F: Was ist das standardmäßige Attributionsmodell für Journey-Metriken?** — Last Touch, bei dem die letzte Interaktion vor der Konversion mit einem maximalen 7-tägigen Lookback-Fenster unter einer Journey Optimizer-Lizenz gutgeschrieben wird.
+* **F: Kann ich benutzerdefinierte Erfolgsmetriken erstellen?** — Ja, aber nur mit Customer Journey Analytics-Lizenz.
+* **F: Wo kann ich die Ergebnisse der Journey-Metriken nach der Veröffentlichung sehen?** — In der Tabelle KPIs und Journey-Statistiken des Journey-Berichts.
+
++++

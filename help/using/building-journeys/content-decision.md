@@ -27,10 +27,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 73%
+source-wordcount: 1913
+ht-degree: 49%
 
 ---
 
@@ -258,3 +258,48 @@ Für jede Inhaltsentscheidungsaktivität enthält das Schrittereignis Entscheidu
   }
 }
 ```
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie die Aktivität Inhaltsentscheidung in Journey Optimizer-Journey konfigurieren und verwenden können, um personalisierte Angebote über eine Entscheidungsrichtlinie abzurufen und sie mithilfe von Bedingungen und benutzerdefinierten Aktionen weiterzuleiten.
+
+**intents:**
+* Fügen Sie einer Journey die Aktivität Inhaltsentscheidung hinzu und konfigurieren Sie eine Entscheidungsrichtlinie
+* Auswählen und Sequenzieren von Entscheidungselementen und Auswahlstrategien innerhalb einer Entscheidungsrichtlinie
+* Verwenden Sie die Ausgabe für Inhaltsentscheidungen in einer Bedingung vom Typ Aktivität optimieren , um Profile basierend auf abgerufenen Angeboten zu verzweigen
+* Weiterleiten abgerufener Angebote an ein externes System mithilfe einer benutzerdefinierten Aktion
+* Überprüfen von Entscheidungsdaten in Journey-Schrittereignissen für Audit- und Fehlerbehebungszwecke
+
+**Glossar:**
+* **Inhaltsentscheidungsaktivität**: Eine Journey-Orchestrierungsaktivität, die eine Entscheidungsrichtlinie bewertet und die besten geeigneten Angebote für jedes *(produktspezifisch) abruft*
+* **Entscheidungsrichtlinie**: Eine Konfiguration, die angibt, welche Entscheidungselemente und Auswahlstrategien ausgewertet werden sollen und wie viele Elemente zurückgegeben werden *(produktspezifisch)*
+* **Auswahlstrategie**: Eine Bewertungs-Methode mit Rang, die innerhalb einer Entscheidungsrichtlinie verwendet wird, um zu bestimmen, welche Angebote geeignet sind und wie sie bewertet werden *(produktspezifisch)*
+* **Vorschlag**: Die Ausgabeeinheit einer Entscheidungsrichtlinienausführung, die die ausgewählten Elemente und den zugehörigen Umfang und die Rangfolgenmetadaten enthält *(produktspezifisch)*
+* **listSize**: Eine Ausdruckseditorfunktion, mit der die Anzahl der Elemente gezählt wird, die von einer Inhaltsentscheidung zurückgegeben werden, z. B. `listSize(@decision{Name.items})>0` *(produktspezifisch)*
+* **Angebotskatalogschema**: Das Schema, das die Attribute definiert, die für Entscheidungselemente verfügbar sind; zugänglich über den Kontextknoten im erweiterten Ausdruckseditor-Modus *(produktspezifisch)*
+
+**Leitplanken:**
+* Die Ausgabe einer Inhaltsentscheidungsaktivität kann nicht in nativen Kanalaktivitäten (E-Mail, Push, SMS usw.) verwendet werden
+* Die Ausgabe der Inhaltsentscheidung ist nur im erweiterten Modus des Ausdruckseditors verfügbar; im einfachen Modus ist sie nicht verfügbar
+* Entscheidungsberechtigungen sind erforderlich, um eine Entscheidungsrichtlinie zu erstellen
+* Es kann bis zu 48 Stunden dauern, bis Aktualisierungen der Einverständnisrichtlinien für Attribute wirksam werden, auf die in einer Entscheidungsrichtlinie verwiesen wird
+* Einverständnisrichtlinien sind nur für Organisationen mit dem Adobe Healthcare Shield- oder Privacy and Security Shield-Add-on verfügbar
+* Eingeschränkte Datennutzungskennzeichnungen (DULE) für Angebotsschemaattribute können zu Verstößen gegen Governance-Richtlinien führen.
+
+**Terminologie:**
+* Kanonischer Name: Inhaltsentscheidungsaktivität — Akronym: none — Varianten: Inhaltsentscheidungsknoten, Entscheidungsaktivität
+* Synonyme: „Entscheidungsrichtlinie“ = „Angebotsauswahlrichtlinie“ ; „Vorschlag“ = „Entscheidungsausgabe“
+* Verwechseln Sie nicht: „Inhaltsentscheidungsaktivität“ ≠ „native Kanalaktion“ (die Inhaltsentscheidung ruft Angebote ab, stellt sie aber nicht direkt bereit. Eine benutzerdefinierte Aktion oder Bedingung ist erforderlich, um auf die Ausgabe zu reagieren)
+
+**FAQ:**
+* **F: Kann ich die von einer Inhaltsentscheidungsaktivität zurückgegebenen Angebote direkt in einer E-Mail verwenden?** — Nein, die Ausgabe einer Inhaltsentscheidungsaktivität kann nicht in nativen Kanalaktivitäten verwendet werden. Sie müssen die Angebote an eine benutzerdefinierte Aktion übergeben, um sie an ein externes System zu senden.
+* **F: Wie kann ich überprüfen, ob Angebote für ein Profil zurückgegeben wurden?** - Verwenden Sie die listSize-Funktion im erweiterten Ausdruckseditor: `listSize(@decision{ContentdecisionName.items})>0`.
+* **F: Wo greife ich im Ausdruckseditor auf die Ausgabe der Inhaltsentscheidung zu?** — Wechseln Sie in den erweiterten Modus, erweitern Sie den Kontextknoten und navigieren Sie zu Ihrer Entscheidungsrichtlinie, um alle verfügbaren Schemaattribute für den Angebotskatalog anzuzeigen.
+* **F: Wie lange dauert es, bis eine Aktualisierung der Einverständnisrichtlinie auf eine Entscheidungsrichtlinie angewendet wird?** — Bis zu 48 Stunden nach Aktualisierung der Einverständniserklärung.
+* **F: Welche Entscheidungsdaten stehen beim Journey von Schrittereignissen zur Verfügung?** — Jedes Schrittereignis enthält exdRequestID, propositionEventType und ein Array von Vorschlägen, die jeweils eine ID, scopeDetails (Entscheidungsanbieter, Korrelations-ID, Entscheidungsrichtlinie) und ein items-Array mit ID-, Name-, Score- und itemSelection-Details enthalten.
+
++++

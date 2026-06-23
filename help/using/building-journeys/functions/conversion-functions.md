@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 85%
+source-wordcount: 1723
+ht-degree: 62%
 
 ---
 
@@ -215,13 +215,13 @@ Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone mit einem reinen Da
 
 `toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
-Gibt 2023-08-18T23:17:59.123Z zurück.
+Gibt „2023-08-18T23:17:59.123Z“ zurück
 
 Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
 
 `toDateTime(1560762190189)`
 
-Gibt 2019-06-17T09:03:10.189Z zurück
+Gibt „2019-06-17T09:03:10.189Z“ zurück
 
 Konvertiert einen Unix-Zeitstempel in Millisekunden in einen dateTime-Wert.
 
@@ -461,5 +461,49 @@ Gibt die Zeichenfolgendarstellung des angegebenen dateOnly-Feldes (XDM-Datumsfel
 `toString(toDuration(1520))`
 
 Gibt „PT1.52S“ zurück.
+
++++
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Auf dieser Seite werden alle Konversionsfunktionen in AJO-Journey-Ausdrücken dokumentiert und erläutert, wie Werte zwischen Typen wie Zeichenfolge, Ganzzahl, Dezimalzahl, Boolesch, Datum, Datum/Uhrzeit und Dauer transformiert werden.
+
+**intents:**
+* Konvertieren einer Zeichenfolge oder einer Epochenzahl in eine Zeitzonen-abhängige Datums-/Uhrzeitangabe mithilfe von `toDateTime`
+* Konvertieren einer Zeichenfolge oder einer Datetime in eine Datetime ohne Zeitzone mithilfe von `toDateTimeOnly`
+* Extrahieren eines reinen Datumswerts (Jahr-Monat-Tag) aus einer Zeichenfolge oder einem Datum/Uhrzeit-Wert mithilfe von `toDateOnly`
+* Wandeln Sie einen Wert mithilfe von `toInteger`, `toDecimal` oder `toBool` in eine Ganzzahl, eine Dezimalzahl oder einen booleschen Wert um
+* Serialisieren eines beliebigen Werts in seine Zeichenfolgendarstellung mithilfe von `toString`
+* Konvertieren einer Zeichenfolge oder einer Ganzzahl in eine Dauer mithilfe von `toDuration`
+
+**Glossar:**
+* **dateTime**: Ein Datetime-Wert, der Zeitzonen-Offset-Informationen *produktspezifisch) enthält*
+* **dateTimeOnly**: Ein Datetime-Wert ohne Zeitzoneninformationen *(produktspezifisch)*
+* **dateOnly**: Ein Datumswert, der einen Jahr-Monat-Tag ohne Zeitkomponente darstellt *(produktspezifisch)*
+* **duration**: Ein Zeitraum im ISO-8601-Format (z. B. PT10H) *produktspezifisch)*
+* **Epochenmillisekunden**: Unix-Zeitstempel, ausgedrückt in Millisekunden seit 1970-01-01T00:00:00Z
+
+**Leitplanken:**
+* Das Zeitzonenargument in `toDateTime` muss eine Zeichenfolgenkonstante sein. Feldverweise und dynamische Ausdrücke sind nicht zulässig
+* Zeichenfolgeneingaben für `toDateTime` und `toDateTimeOnly` müssen dem ISO-8601-Format entsprechen; falsch formatierte Zeichenfolgen geben null ohne Fehler zurück
+* `toDateTime` mit einer Epochenzahl erwartet Millisekunden. Multiplizieren Sie sekundenbasierte Zeitstempel mit 1000, bevor Sie den Test übergeben
+* `toBool` gibt `true` nur für die exakte `"true"` zurück; Zeichenfolgen wie `"1"`, `"yes"` oder `"TRUE"` geben `false` zurück
+
+**Terminologie:**
+* Kanonischer Name: Konversionsfunktionen — Akronym: none — Varianten: Typengießfunktionen, Typenkonversionsfunktionen
+* Synonyme: „toDateTime“ = „Konvertieren in datetime mit timezone“; „toDateTimeOnly“ = „Konvertieren in datetime ohne timezone“
+* Verwechseln Sie nicht: „toDateTime“ (Zeitzonen-fähig) ≠ „toDateTimeOnly“ (keine Zeitzone)
+* Verwechseln Sie nicht: „toDateOnly“ (nur Datum, keine Uhrzeit) ≠ „toDateTime“ (Datum und Uhrzeit mit Zeitzone)
+
+**FAQ:**
+* **F: Wann sollte ich `toDateTime` versus `toDateTimeOnly` verwenden?** — Verwenden Sie `toDateTime`, wenn Zeitzoneninformationen wichtig sind (z. B. Planung oder regionenübergreifende Vergleiche). Verwenden Sie `toDateTimeOnly`, wenn nur die lokale Datums-/Uhrzeitangabe relevant ist und die Zeitzone ignoriert werden kann.
+* **F: Warum gibt `toBool("TRUE")` „false“ zurück?** — `toBool` erkennt nur die exakte `"true"` in Kleinbuchstaben. Alle anderen Zeichenfolgenwerte, einschließlich `"TRUE"` oder `"yes"`, geben „false“ zurück.
+* **F: Wie konvertiere ich einen Unix-Zeitstempel in Sekunden in eine dateTime?** — Multiplizieren Sie den Sekundenwert mit 1000, um Millisekunden zu erhalten, und übergeben Sie ihn dann an `toDateTime`, z. B. `toDateTime(myField * 1000)`.
+* **F: Kann die Zeitzone in `toDateTime` aus einem Profilattribut gelesen werden?** — Nein, die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Feldverweise und -ausdrücke werden nicht unterstützt.
+* **F: Welches Format akzeptiert `toDuration` als Zeichenfolge?** — ISO-8601-Dauerformat, z. B. `"PT10H"` für 10 Stunden oder `"P1DT2H"` für 1 Tag und 2 Stunden.
 
 +++
