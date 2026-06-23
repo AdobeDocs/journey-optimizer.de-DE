@@ -11,26 +11,16 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 25%
+source-wordcount: 2080
+ht-degree: 23%
 
 ---
 
@@ -60,7 +50,7 @@ ht-degree: 25%
 
 **Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Benachrichtigungen zum Zurücksetzen des Kennworts und Personalisierung nach der Anmeldung.
 
-➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnentinnen und Abonnenten“](message-to-subscribers-uc.md)
+➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md) | [Erstellen einer unitären Ereignis-Journey](#build-unitary-event)
 
 >[!TAB Journeys des Typs „Zielgruppe lesen“]
 
@@ -70,7 +60,7 @@ ht-degree: 25%
 
 **Perfekt für:** monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen, wiederkehrende Interaktionsreihen und saisonale Marketing-Kampagnen.
 
-➡️ [Informationen zu „Zielgruppe lesen“](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md)
+➡️ [Erfahren Sie mehr über „Zielgruppe lesen](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md) | [Erstellen einer „Zielgruppe lesen“Journey](#build-read-audience)
 
 >[!TAB Journeys des Typs „Zielgruppenqualifizierung“]
 
@@ -80,7 +70,7 @@ ht-degree: 25%
 
 **Perfekt für:** Benachrichtigungen zu Upgrades der VIP-Stufe, Meldungen zu ersten Kauffeiern, Warnhinweise zu Abwanderungsrisiken und Übergänge in der Treueprogramm-Phase.
 
-➡️ [Informationen zur Zielgruppenqualifizierung](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md)
+➡️ [Erfahren Sie mehr über Zielgruppen](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md) | [Erstellen einer Journey zur Zielgruppen-Qualifizierung](#build-audience-qualification)
 
 >[!TAB Journeys des Typs „Geschäftsereignis“]
 
@@ -90,7 +80,7 @@ ht-degree: 25%
 
 **Perfekt für:** Warnungen bei geringem Bestand an interessierte Kunden, Flash-Verkaufsankündigungen, Benachrichtigungen bei Preisrückgängen und Warnhinweise für das Produkt-Back-in-Stock.
 
-➡️ [Informationen zu Geschäftsereignissen](../event/about-creating-business.md) | [Eintrittsverwaltung](entry-management.md)
+➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Einstiegsverwaltung](entry-management.md) | [Erstellen einer Geschäftsereignis-Journey](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +164,9 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie nun die Journey-Typen verstehen, können Sie Folgendes tun:
+In jeder Tabelle sind die Schritte „Konfigurieren-durch-Verwalten“ für diesen Journey-Typ aufgeführt.
+
+### Journey für unitäre Ereignisse {#build-unitary-event}
 
 * **[Erstellen Ihrer ersten Journey](journey-gs.md)**: Schrittweise Anleitung
 * **[Weitere Informationen über den Journey-Designer](using-the-journey-designer.md)**: Entwerfen Ihrer Journey-Arbeitsfläche
