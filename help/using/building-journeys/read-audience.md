@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 4752
+source-wordcount: 4780
 ht-degree: 46%
 
 ---
@@ -493,6 +493,6 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **F: Was bewirkt das inkrementelle Lesen beim ersten Durchlauf?** — Bei der ersten Ausführung treten alle Zielgruppenprofile ein. Bei nachfolgenden Ausführungen werden nur Profile verarbeitet, die der Zielgruppe seit der letzten Ausführung neu hinzugefügt wurden.
 * **F: Was passiert, wenn der Exportvorgang fehlschlägt?** — Das System versucht es alle 10 Minuten für bis zu 1 Stunde erneut. Fehler werden in Warnhinweisen gemeldet. Nach einer Stunde ohne Erfolg wird der Durchlauf als fehlgeschlagen betrachtet.
 * **F: Kann dasselbe Profil mehrmals auf eine Journey mit dem Titel „Zielgruppe lesen“ zugreifen?** — Ja, wenn eine zusätzliche Kennung konfiguriert ist, die sich zwischen den Einträgen unterscheidet, oder wenn Erneuten Eintritt bei Wiederholung erzwingen aktiviert ist. Ohne diese Elemente kann ein Profil nicht mehrmals gleichzeitig vorhanden sein.
-* **F: Wie lange bleibt eine einmalige Journey mit dem Titel „Zielgruppe lesen“ aktiv?** — Der Status wird 91 Tage nach der Ausführung in Beendet geändert (das globale Journey-Timeout).
+* **F: Wie lange bleibt eine einmalige Journey mit dem Titel „Zielgruppe lesen“ aktiv?** — Wird automatisch angehalten, wenn das letzte Profil beendet wird, es sei denn, die Journey enthält Warte-, Reaktions- oder ereignisausgelöste Übergänge. In diesem Fall gilt die globale Zeitüberschreitung von 91 Tagen. Sie bleibt standardmäßig erst nach 91 Tagen „Beendet“ live.
 
 +++

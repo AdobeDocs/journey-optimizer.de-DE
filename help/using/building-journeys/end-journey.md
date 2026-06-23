@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
-ht-degree: 50%
+source-wordcount: 1822
+ht-degree: 49%
 
 ---
 
@@ -196,7 +196,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Nur Journey mit dem Status Beendet können gelöscht werden.
 * Zum Anhalten eines Journey ist die Berechtigung Journey verwalten erforderlich. Journey mit Inline-Kampagnen oder Messaging-Knoten benötigen außerdem die Berechtigung Kampagnen > Kampagnen veröffentlichen .
 * Nach der 91-tägigen globalen maximalen Wartezeit werden alle Profil-Journey-Daten entfernt und die verbleibenden Profile werden automatisch beendet.
-* Eine einmalige Journey mit dem Schritt „Zielgruppe lesen“ bleibt nach der Ausführung im Live-Status, sie muss manuell geschlossen werden oder wird nach 91 Tagen geschlossen.
+* Ein nicht wiederkehrender Journey mit dem Schritt „Zielgruppe lesen“ ohne langwierige Warte-, Reaktions- oder ereignisausgelöste Knoten wechselt automatisch zu „Angehalten“, wenn das letzte Profil beendet wird. Journey mit diesen Knoten unterliegen weiterhin der globalen maximalen Wartezeit von 91 Tagen, es sei denn, sie werden manuell geschlossen.
 
 **Terminologie:**
 
@@ -207,7 +207,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **FAQ:**
 
 * **F: Was ist der Unterschied zwischen dem Schließen und Anhalten einer Journey?** — Durch Schließen werden neue Eintritte blockiert, vorhandene Profile können jedoch beendet werden. Durch Anhalten werden sofort alle Profile in ihrer Spur angehalten.
-* **F: Wann erreicht eine Journey mit dem Schritt „Zielgruppe lesen“ den Status „Beendet“?** — 91 Tage nach dem Ausführungsstart (nicht wiederkehrend), wenn das Enddatum erreicht wird (wiederkehrend mit Enddatum), oder 91 Tage nach dem Start (wiederkehrend ohne Enddatum).
+* **F: Wann erreicht eine Journey mit dem Schritt „Zielgruppe lesen“ den Status „Beendet“?** — Für einen nicht wiederkehrenden Journey mit dem Schritt „Zielgruppe lesen“: Er wird automatisch angehalten, wenn das letzte Profil beendet wird (oder nach 91 Tagen, wenn Warten, Reaktion oder Ereignisknoten Profile aktiv halten). Beendet wird erreicht, wenn eine geschlossene Journey die 91-tägige globale Zeitüberschreitung erreicht, oder gemäß den Regeln für wiederkehrendes Journey in der Tabelle für die fertige Definition.
 * **F: Kann ich eine geschlossene Journey löschen?** — Nein, nur fertige Journey können gelöscht werden.
 * **F: Was passiert mit Profilen, die sich noch auf einer Journey befinden, wenn die 91-Tage-Zeitüberschreitung eintritt?** — Sie werden zu diesem Zeitpunkt automatisch aus der Journey gelöscht.
 * **F: Benötige ich spezielle Berechtigungen, um eine Journey zu stoppen?** — Ja, die Berechtigung Journey verwalten ist erforderlich. Außerdem ist Kampagnen > Kampagnen veröffentlichen erforderlich, wenn die Journey Inline-Kampagnen oder Messaging-Knoten enthält.

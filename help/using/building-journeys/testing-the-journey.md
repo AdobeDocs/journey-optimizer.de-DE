@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 55%
+source-wordcount: 3075
+ht-degree: 53%
 
 ---
 
@@ -80,7 +80,7 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 
 * **Deaktivieren des Testmodus**: Wenn Sie den Testmodus deaktivieren, werden alle Profile entfernt, die sich derzeit in der Journey befinden oder zuvor in diese eingetreten sind, und das Reporting wird gelöscht.
 * **Flexible Reaktivierung**: Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
-* **Automatische Deaktivierung**: Journeys, die im Testmodus **eine Woche lang** inaktiv bleiben, werden automatisch auf den Entwurfsstatus zurückgesetzt, um die Leistung zu optimieren und eine überflüssige Ressourcenlast zu verhindern.
+* **Automatische Deaktivierung** - Journey, die im Testmodus über eine **Woche lang inaktiv bleiben** beenden den Testmodus automatisch und kehren zum Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren; nur die Testmodussitzung endet.
 * **Bearbeiten und Veröffentlichen**: Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
 ### Ausführung
@@ -278,7 +278,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Maximal 100 Testprofile pro einzelner Testsitzung
 * Ereignisse können nur über die Benutzeroberfläche des Testmodus ausgelöst werden. Das Auslösen externer APIs wird nicht unterstützt
 * Das benutzerdefinierte Hochladen von Zielgruppenattributen wird im Testmodus nicht unterstützt
-* Journey, die länger als eine Woche im Testmodus inaktiv sind, werden automatisch in den Entwurfsstatus zurückgesetzt
+* Die im Testmodus ausgelösten Ereignisse generieren echte Erlebnisereignisse, die auch Trigger für andere Journey verursachen können, die dasselbe Ereignis überwachen
+* Im Testmodus beträgt der Standardwert für Warteaktivitäten und die meisten Ereignis-Timeouts 10 Sekunden. Für Reaktionsereignis-Timeouts wird ein Standardwert von mindestens 40 Sekunden festgelegt
+* Automatische Deaktivierung - Journey, die länger als eine Woche im Testmodus inaktiv bleiben, beenden automatisch den Testmodus und kehren zum Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren; nur die Testmodussitzung endet.
 * Journey-Bearbeitungen werden blockiert, wenn der Testmodus aktiv ist, aber direkte Veröffentlichung ist erlaubt
 * Bei einer Aufspaltung wird immer die obere Verzweigung ausgewählt. Ordnen Sie die Verzweigungen neu an, um verschiedene Pfade zu testen
 * Maximale Wartezeit für Reaktionsereignis und Standardwartezeit sind 40 Sekunden

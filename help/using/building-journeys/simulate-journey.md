@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * KI-Funktionen (Schnellsimulation, Generieren mit KI, Generieren von Ereigniswerten) erfordern die Berechtigung zum Generieren von Inhalten über die Funktion „KI-Assistent“
 * Bei ereignisgesteuerten Journey ist das Symbol Senden pro Benutzer nicht verfügbar. Der Eintrag wird über den Abschnitt Testereignisse ausgelöst
 * Überschreibungen der Wartezeit und Einstellungen der Ausführungsadresse werden nur angezeigt, wenn die Journey Warteaktivitäten oder Kanalaktivitäten enthält
+* Testsendungen für Kanäle und benutzerdefinierte Aktionen oder externe Datenquellen können während der Simulation echte ausgehende Aufrufe ausführen; Nicht-Produktions-Kontaktpunkte verwenden und echte Kunden-PII in simulierten Benutzern vermeiden
 * Bei Fehlern im Ergebnisprotokoll muss Simulation verlassen, die Journey korrigiert und vor der Veröffentlichung erneut ausgeführt werden
 
 **Terminologie:**

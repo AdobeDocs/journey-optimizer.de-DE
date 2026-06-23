@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 34%
 
 ---
@@ -211,7 +211,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Terminologie:**
 * Kanonischer Name: Veröffentlichen Journey — Akronym: none — Varianten: Journey aktivieren, live gehen
 * Synonyme: „Publish“ = „Aktivieren“ = „Live schalten“
-* Verwechseln Sie nicht: &quot;Journey anhalten“ ≠ &quot;Journey schließen“ (Anhalten ist eine manuelle Aktion; „Geschlossen“ ist ein automatischer Status, der auf frühere Versionen angewendet wird, wenn eine neue Version veröffentlicht wird)
+* Nicht verwechseln: Stopp (Notfall-Stopp aller Profile) ≠ Schließen für neue Eintritte (manuelles, ordnungsgemäßes Schließen; vorhandene Profile schließen) ≠ Status Geschlossen (automatisch, wenn eine neue Version veröffentlicht wird, oder nach manuellem Schließen für neue Eintritte)
 
 **FAQ:**
 * **F: Kann ich eine Journey nach ihrer Veröffentlichung bearbeiten?** — Nur Beschriftungen, Beschreibungen und der Journey-Name können geändert werden. Um weitere Änderungen vorzunehmen, erstellen Sie eine neue Version der Journey.

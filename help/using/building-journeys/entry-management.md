@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1842
-ht-degree: 55%
+source-wordcount: 1875
+ht-degree: 54%
 
 ---
 
@@ -172,7 +172,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Glossar:**
 
 * **Erneuter Eintritt**: Ein Profil kann nach dem Verlassen derselben Journey erneut auf diese zugreifen. Konfigurierbar mit einer Wartezeit *(produktspezifisch)*
-* **Wartezeit bis zum erneuten Eintritt**: Die Mindestdauer, die vergehen muss, bevor ein Profil erneut auf eine Journey zugreifen kann. Der Standardwert ist 5 Minuten, der Maximalwert ist 91 Tage *(produktspezifisch)*
+* **Wartezeit bis zum erneuten Eintritt**: Die Mindestdauer, die vergehen muss, bevor ein Profil erneut auf eine Journey zugreifen kann. Der Standardwert ist 5 Minuten, der Maximalwert ist 90 Tage in den Journey-Eigenschaften *(produktspezifisch)*
 * **TPS (Transaktionen pro Sekunde)**: Die Durchsatzrate, mit der Profile in eine Journey-*eintreten oder dort verarbeitet werden können (produktspezifisch)*
 * **Unitäres Ereignis-Journey**: Ein Journey, das durch ein einzelnes Ereignis ausgelöst wird, das einem *zugeordnet ist (produktspezifisch)*
 * **Zielgruppen-Journey lesen**: Ein Journey, der einen Stapel von Profilen verarbeitet, die zu einer definierten Zielgruppe gehören, entweder einmal oder nach einem wiederkehrenden Zeitplan *(produktspezifisch)*
@@ -182,10 +182,10 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Leitplanken:**
 
 * Ein Profil kann nicht mehrmals zur gleichen Zeit auf derselben Journey in allen aktiven Versionen vorhanden sein.
-* Zielgruppen-Journey lesen: maximal 20.000 TPS auf Sandbox-Ebene.
-* Journey für Zielgruppenqualifizierung und unitäre Ereignisse: maximal 5.000 TPS, die auf Unternehmensebene freigegeben werden.
-* Geschäftsereignisse zählen zum 5.000-TPS-Kontingent; die nachfolgende Aktivität „Zielgruppe lesen“ folgt dem 20.000-TPS-Limit.
-* Die standardmäßige Wartezeit für den erneuten Eintritt beträgt 5 Minuten. Maximal 91 Tage (globale Zeitüberschreitung).
+* Journey der Zielgruppe lesen: höchstens 20.000 TPS (Kontingent auf Sandbox-Ebene; freigegeben für alle gleichzeitigen Journey der Zielgruppe lesen in derselben Sandbox)
+* Zielgruppen-Qualifizierungs- und Journey für unitäre Ereignisse: maximal 5.000 TPS (Kontingent auf Org-Ebene, die über alle Sandboxes in der Org hinweg gemeinsam genutzt werden)
+* Geschäftsereignisse zählen zum Kontingent auf der Ebene von 5.000 TPS auf Organisationsebene. Die nachfolgende Aktivität „Zielgruppe lesen“ hat dasselbe Kontingent auf der Ebene von 20.000 TPS auf Sandbox-Ebene
+* Die standardmäßige Wartezeit für den erneuten Eintritt beträgt 5 Minuten. Der konfigurierbare Höchstwert in den Journey-Eigenschaften beträgt 90 Tage.
 * Aktivitäten mit fester Wartezeit können zu Profilspitzen von mehr als 20.000 TPS führen und werden nicht empfohlen.
 * Die standardmäßige Begrenzung für benutzerdefinierte Aktionen beträgt 300.000 Aufrufe pro Minute.
 * Für Business-Journey werden Zielgruppendaten aus der ersten Ausführung eine Stunde lang wiederverwendet.
@@ -199,7 +199,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **FAQ:**
 
 * **F: Kann ein Profil zweimal gleichzeitig auf dieselbe Journey zugreifen?** — Nein, das System verwendet die Profilidentität als Schlüssel und verhindert, dass sich dasselbe Profil gleichzeitig an verschiedenen Stellen auf derselben Journey befindet.
-* **F: Was ist die standardmäßige Wartezeit bis zum erneuten Eintritt?** — 5 Minuten, konfigurierbar bis maximal 91 Tage.
+* **F: Was ist die standardmäßige Wartezeit bis zum erneuten Eintritt?** — 5 Minuten, konfigurierbar bis zu 90 Tage in Journey-Eigenschaften.
 * **F: Wie viele Profile pro Sekunde kann ein Journey-Prozess vom Typ „Zielgruppe lesen“ verarbeiten?** - Bis zu 20.000 TPS auf Sandbox-Ebene, obwohl dieses Maximum möglicherweise nicht erreicht werden kann, wenn mehrere Journeys gleichzeitig in derselben Sandbox ausgeführt werden.
 * **F: Was passiert mit dem Durchsatz nach einer Warteaktivität mit einer festen Zeit?** — Mehrere Profile können die Wartezeit gleichzeitig beenden und möglicherweise 20.000 TPS überschreiten. Es werden relative Warteaktivitäten empfohlen, um dies zu vermeiden.
 * **F: Kann ein Profil auf einer Business-Journey mehrmals gleichzeitig angezeigt werden?** — Ja, aber nur im Kontext verschiedener Geschäftsereignisse.

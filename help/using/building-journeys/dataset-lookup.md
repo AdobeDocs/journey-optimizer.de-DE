@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 48%
+source-wordcount: 1514
+ht-degree: 47%
 
 ---
 
@@ -264,7 +264,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Als Lookup-Schlüssel werden nur Zeichenfolgen oder Zeichenfolgenlisten unterstützt.
 * Der Lookup-Schlüssel muss im erweiterten Modus definiert werden. Die Verwendung des einfachen Modus führt dazu, dass die Aktivitätsausgabe nachgelagert nicht als Kontextattribut verfügbar ist.
 * Angereicherte Daten sind vorübergehend und nur während der Journey-Laufzeit und bei der Personalisierung ausgehender Aktivitäten verfügbar.
-* Für eine optimale Leistung werden bis zu 5 Lookup-Aktivitäten pro Journey und bis zu 20 Attribute pro Lookup empfohlen.
+* Um eine optimale Leistung zu erzielen, begrenzen Sie die Anzahl der Lookup-Aktivitäten auf 5 pro Journey (empfohlen). Die vom System erzwungene feste Grenze beträgt 10 Aktivitäten pro Journey. Es werden auch bis zu 20 Attribute pro Suche empfohlen.
 
 **Terminologie:**
 

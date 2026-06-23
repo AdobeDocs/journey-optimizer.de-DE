@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
-ht-degree: 67%
+source-wordcount: 3545
+ht-degree: 66%
 
 ---
 
@@ -321,8 +321,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Massenpause/Massenwiederaufnahme**: Die Möglichkeit, mehrere Live- oder pausierte Journey gleichzeitig über die Journey-Inventarliste anzuhalten oder fortzusetzen *(produktspezifisch)*
 
 **Leitplanken:**
-* Nur Benutzer mit der Berechtigung **Journey veröffentlichen** können Journey anhalten und fortsetzen
-* Eine Journey kann für maximal 14 Tage pausiert werden; danach wird sie automatisch wieder aufgenommen
+* Nur Benutzende mit der Berechtigung **Journey veröffentlichen** können Journey anhalten und fortsetzen. Um eine pausierte Journey anzuhalten, ist **Journey verwalten** erforderlich (und **Kampagnen > Kampagnen veröffentlichen** wenn Inline-Kampagnen oder Messaging-Knoten vorhanden sind)
+* Die Pausendauer kann zwischen 1 und 14 Tagen konfiguriert werden. Danach wird die Journey automatisch fortgesetzt
+* Die während der Pause gespeicherten Profile werden mit bis zu 5.000 TPS fortgesetzt. Die Journey bleibt so lange fortgesetzt, bis alle gespeicherten Profile wieder aufgenommen wurden
 * In allen angehaltenen Journey eines Unternehmens können maximal 10 Millionen Profile gespeichert werden. Überschüssige Profile werden automatisch verworfen
 * Pro Journey kann nur ein auf Profilattributen basierendes Beendigungskriterium festgelegt werden
 * Auf Profilattributen basierende Beendigungskriterien können nur erstellt, aktualisiert oder gelöscht werden, während die Journey angehalten wird
@@ -340,7 +341,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 
 **FAQ:**
 * **F: Was passiert mit Profilen, die sich bereits auf einer Journey befinden, wenn sie angehalten wird?** — Je nach der zum Zeitpunkt der Pause gewählten Option werden Profile entweder aufbewahrt (beim nächsten Aktionsknoten wartet) oder verworfen (beim nächsten Aktionsknoten vom Journey beendet).
-* **F: Wie lange kann eine Journey angehalten bleiben?** — höchstens 14 Tage; danach wird sie automatisch wieder aufgenommen.
+* **F: Wie lange kann eine Journey angehalten bleiben?** — zwischen 1 und 14 Tagen (zum Zeitpunkt der Pause ausgewählt); danach wird sie automatisch wieder aufgenommen.
 * **F: Kann ich bestimmte Profile ausschließen, während eine Journey angehalten wird?** — Ja. Wenden Sie ein auf Profilattributen basierendes Beendigungskriterium (eines pro Journey) an, während die Journey angehalten wird, um übereinstimmende Profile beim nächsten Aktionsknoten bei der Wiederaufnahme auszuschließen.
 * **F: Hält das Anhalten einer Journey In-App- oder Web-Nachrichten an, die bereits ausgelöst wurden?** — Nein; eingehende Nachrichten, die bereits vor der Pause ausgelöst wurden, werden weiterhin zugestellt. Um alle eingehenden Nachrichten zu stoppen, müssen Sie die Journey vollständig stoppen.
 * **F: Wie finde ich heraus, welche Profile während einer Pause verworfen wurden?** — Abfragen des `journey_step_events` Datensatzes in Adobe Experience Platform Query Service mithilfe der `PAUSED_JOURNEY_VERSION` oder `JOURNEY_IN_PAUSED_STATE` Ereignistypfilter mit der Journey-Versions-ID.

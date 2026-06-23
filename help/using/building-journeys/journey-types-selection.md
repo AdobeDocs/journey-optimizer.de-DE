@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 19%
 
 ---
@@ -219,6 +219,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Zielgruppen-Qualifizierungs- und Zielgruppen-Journey lesen können keine Sprungaktivität enthalten und auch nicht das Ziel einer Sprungaktivität von einer anderen Journey sein
 * Journey zur Zielgruppenqualifizierung erfordern eine vom Streaming ausgewertete Zielgruppe für die Echtzeiteingabe; Batch-ausgewertete Zielgruppen verursachen Einstiegsverzögerungen von bis zu 24 Stunden
 * Journey mit einer unitären Ereignis- und Zielgruppenqualifizierung verwenden auf Unternehmensebene ein Durchsatzlimit von 5.000 TPS. Unter Zielgruppen-Journey lesen werden bis zu 20.000 TPS pro Sandbox unterstützt
+* Simulation wird für die meisten Journey-Typen unterstützt, jedoch nicht für den Eintrag von Geschäftsereignissen. Siehe Simulationsbeschränkungen für Einschränkungen auf Knotenebene
 * Ein bereits auf einer Journey vorhandenes Profil kann nicht dieselbe Journey erneut aufrufen, unabhängig von der Konfiguration des erneuten Eintritts
 
 **Terminologie:**

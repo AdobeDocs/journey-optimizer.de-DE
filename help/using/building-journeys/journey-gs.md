@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2097
-ht-degree: 30%
+source-wordcount: 2143
+ht-degree: 29%
 
 ---
 
@@ -218,7 +218,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Erstellen Sie eine neue Journey und konfigurieren Sie ihre Eigenschaften im Menü Journey-Verwaltung .
 * Wählen Sie den richtigen Einstiegspunkt (Zielgruppe lesen, Zielgruppen-Qualifizierung, unitäres Ereignis oder Geschäftsereignis) für einen bestimmten Anwendungsfall aus
 * Entwerfen Sie eine mehrstufige Journey durch Ziehen und Ablegen von Ereignissen, Orchestrierungsaktivitäten und Kanalaktionen auf der Arbeitsfläche
-* Testen eines Journey im Testmodus mit synthetischen Testprofilen vor der Veröffentlichung
+* Testen eines Journey mithilfe der Simulation, des Testmodus mit persistenten AEP-Testprofilen oder Probelauf vor der Veröffentlichung
 * Führen Sie einen Probelauf aus, um die Zielgruppen-Zielgruppenbestimmung mit echten Produktionsdaten zu validieren, ohne die Kunden zu kontaktieren.
 * Veröffentlichen einer Journey, um sie live zu schalten und ihre Leistung mit Reporting-Tools zu überwachen
 
@@ -227,7 +227,8 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Zielgruppen-**: Eine Eintrittsaktivität, die in Echtzeit ausgelöst wird, wenn ein Profil in eine Streaming-Zielgruppe eintritt oder diese verlässt *(produktspezifisch)*
 * **Unitäres Ereignis**: Ein Echtzeit-Trigger, der zu einem bestimmten Zeitpunkt in einen Journey eintritt, wenn eine bestimmte Aktion *(produktspezifisch)*
 * **Geschäftsereignis**: Ein Nicht-Profilereignis (z. B. Flugstornierung, Bestandsauffüllung), bei dem über einen automatischen Schritt „Zielgruppe lesen“ *produktspezifisch) ein Journey für mehrere Profile gleichzeitig Trigger wird*
-* **Testmodus**: Ein Validierungsmodus, der synthetische Testprofile verwendet, um die Journey-Ausführung zu simulieren, ohne die Live-*zu aktivieren (produktspezifisch)*
+* **Testmodus**: Ein Validierungsmodus, der persistente Adobe Experience Platform-Testprofile (explizit als Testprofile gekennzeichnet) verwendet, um eine Entwurfs-Journey vor der Veröffentlichung zu durchlaufen *produktspezifisch)*
+* **Simulation**: Ein Validierungsmodus, der temporäre simulierte Benutzende verwendet, die dynamisch generiert werden. Simulierte Benutzende bleiben nicht in Adobe Experience Platform *(produktspezifisch) erhalten*
 * **Probelauf** Ein spezieller Veröffentlichungsmodus, der echte Produktionsdaten verwendet, um die Journey-Logik zu validieren, ohne tatsächliche Kunden zu kontaktieren oder Profile zu aktualisieren *(produktspezifisch)*
 
 **Leitplanken:**
@@ -239,12 +240,12 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Terminologie:**
 * Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierungsfluss
 * Synonyme: „Testmodus“ = &quot;Journey-Test“; „Probelauf“ = „Probelauf-Modus“
-* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Profile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+* Nicht verwechseln: „Simulation“ ≠ „Testmodus“ ≠ „Probelauf“ — Simulation verwendet temporäre simulierte Benutzende; Testmodus verwendet persistente AEP-Testprofile; Probelauf verwendet echte Produktionsdaten, ohne Kunden zu kontaktieren oder Profile zu aktualisieren
 
 **FAQ:**
 * **F: Was muss ich als Erstes tun, bevor ich eine ereignisgesteuerte Journey erstelle?** - Konfigurieren Sie das Ereignis mit einem Datentechniker, um den Trigger und die von ihm übertragenen Daten zu definieren. Referenzieren Sie dann das Ereignis als Journey-Einstiegspunkt.
 * **F: Welcher Einstiegspunkt wird für Neueinsteiger in Journey Optimizer empfohlen?** - Beginnen Sie mit einer zielgruppenbasierten Journey mit der Aktivität Zielgruppe lesen . Dies erfordert keine vorherige Ereigniskonfiguration und ist der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen.
-* **F: Kann ich meinen Journey testen, bevor er live geht?** — Ja. Verwenden Sie den Testmodus mit synthetischen Testprofilen, um die Journey zu durchlaufen, oder verwenden Sie Probelauf, um mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden.
+* **F: Kann ich meinen Journey testen, bevor er live geht?** — Ja. Verwenden Sie die Simulation mit temporären simulierten Benutzern, den Testmodus mit persistenten AEP-Testprofilen oder Probelauf, um mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden.
 * **F: Was passiert, wenn mein Journey Fehler aufweist, wenn ich versuche, ihn zu veröffentlichen?** - Eine fehlerhafte Journey kann nicht veröffentlicht werden; alle Konfigurationsfehler müssen vor der Veröffentlichung behoben werden.
 * **F: Wie kann ich eine komplexe Journey mit vielen Schritten aufteilen?** — Verwenden Sie die Sprungaktivität, um kleinere Sub-Journey zu verbinden, wodurch die Komplexität reduziert wird und jede Sub-Journey einfacher unabhängig getestet werden kann.
 

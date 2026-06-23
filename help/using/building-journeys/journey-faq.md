@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 77%
 
 ---
@@ -1044,7 +1044,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Kanonischer Name: Journey — Akronym: none — Varianten: Kunden-Journey, Orchestrierung, Fluss
 * Synonyme: „Close to new entrances“ = „Anmutiger Stopp“; „Stopp“ = „sofortiger Stopp“
 * Verwechseln Sie nicht: &quot;Journey&quot; ≠ „Campaign“ - Journey unterstützen die mehrstufige ereignisgesteuerte Orchestrierung. Bei Kampagnen handelt es sich um einmalige oder geplante zielgruppenbasierte Sendungen
-* Verwechseln Sie nicht: „Testmodus“ ≠ „Probelauf“ — der Testmodus verwendet synthetische Testprofile; der Probelauf verwendet echte Produktionsdaten, ohne mit Kunden in Kontakt zu treten
+* Nicht verwechseln: „Simulation“ ≠ „Testmodus“ ≠ „Probelauf“ — Simulation verwendet temporäre simulierte Benutzende; Testmodus verwendet persistente AEP-Testprofile; Probelauf verwendet echte Produktionsdaten, ohne Kunden zu kontaktieren oder Profile zu aktualisieren
 
 **FAQ:**
 * **F: Wie viele Aktivitäten kann eine Journey maximal aufnehmen?** — 50 Tätigkeiten; die Einfachheit der Journey verbessert die Wartbarkeit und Leistungsfähigkeit.

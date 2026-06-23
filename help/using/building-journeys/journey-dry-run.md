@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
-ht-degree: 50%
+source-wordcount: 2002
+ht-degree: 48%
 
 ---
 
@@ -238,17 +238,18 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **Leitplanken:**
 * Im Probelauf-Modus können nur fehlerfreie Entwurfsmodi aktiviert werden.
 * Das Starten eines Probelaufs erfordert die Berechtigung **Journey veröffentlichen**; das Anhalten erfordert **Journey verwalten**
-* Probelauf-Journey werden nach 14 Tagen automatisch auf Entwurf zurückgesetzt
+* Dry Run-Journey beenden den Dry Run-Modus automatisch und kehren nach 14 Tagen in den Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren, nur die Probelauf-Sitzung endet.
 * Profile, die während eines Probelaufs verarbeitet werden, werden auf Engageable Profiles und das Live Journey-Kontingent angerechnet
 * Kanalaktionsknoten (E-Mail, SMS, Push) und benutzerdefinierte Aktionen werden während des Probelaufs nicht ausgeführt
 * Sprungaktionen sind in Probelauf nicht aktiviert
+* Reaktionsknoten werden während des Probelaufs nicht ausgeführt. Profile werden erfolgreich beendet, mit Prioritätsregeln für parallele einheitliche und Reaktionszweige
 * Berichtsdaten sind nur verfügbar, wenn der Probelauf aktiv ist. Nach dem Stoppen sind die Daten nicht mehr zugänglich
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
 
 **Terminologie:**
 * Kanonischer Name: Journey Dry Run — Akronym: none — Varianten: Dry Run-Modus, Dry Run-Veröffentlichungsmodus
 * Synonyme: „Dry Run“ = „Rauchtest“ (informell)
-* Verwechseln Sie nicht: „Probelauf“ ≠ „Testmodus“ - Probelauf verwendet echte Produktionsdaten und zählt für Kontingente; Testmodus verwendet synthetische Testprofile und nicht
+* Verwechseln Sie nicht: „Probelauf“ ≠ „Testmodus“ ≠ „Simulation“ — Probelauf verwendet echte Produktionsdaten und zählt für aktivierbare Profile und das Live-Journey-Kontingent. Der Testmodus verwendet persistente AEP-Testprofile in einer Entwurfs-Journey. Die Simulation verwendet temporäre simulierte Benutzende, die nicht in AEP bestehen bleiben.
 
 **FAQ:**
 * **F: Sendet Dry Run tatsächlich E-Mails oder Push-Benachrichtigungen an Kunden?** — Nein. Alle Kanalaktionsknoten und benutzerdefinierten Aktionen sind deaktiviert und werden nicht während eines Probelaufs ausgeführt.
