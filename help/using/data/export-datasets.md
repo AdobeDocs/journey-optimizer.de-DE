@@ -27,10 +27,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
-ht-degree: 84%
+source-wordcount: 1228
+ht-degree: 79%
 
 ---
 
@@ -135,3 +135,9 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. |
 | Journeys | Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis |
+
+## Reporting-Datensätze und Payload-Metadatenzuordnung {#reporting-payload-metadata-mapping}
+
+Für benutzerdefinierte Berichte zu Code-basierten Erlebnis- und Entscheidungsantworten verwenden Sie **`scopeDetails.correlationID`** , um Interaktions- oder Feedback-Daten mit dem **AJO-Entitätsdatensatz** verbinden und Kampagnen-, Journey- und Nachrichtenmetadaten abzurufen. Verwenden Sie **`exdRequestID`**, um eine einzelne Entscheidungsanfrage mit Analytics-Ereignissen zu verknüpfen.
+
+Wenn `correlationID` fehlt (z. B. Holdout-Zielgruppen), verwenden Sie exportierte Datensätze und dokumentierte Join-Schlüssel, anstatt nicht dokumentierte Payload-Felder zu decodieren. [Beispiele für Entitätsdatensatzabfragen](datasets-query-examples.md#entity-dataset) zeigen, wie eine Verbindung zu `correlationID` hergestellt wird.
