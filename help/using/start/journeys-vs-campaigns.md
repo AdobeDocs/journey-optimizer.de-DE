@@ -27,10 +27,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
-ht-degree: 58%
+source-wordcount: 1904
+ht-degree: 55%
 
 ---
 
@@ -57,7 +57,7 @@ Dieses Handbuch hilft Ihnen bei der Auswahl anhand von Ausführungsstil, Datenan
 
 >[!TIP]
 >
->**Schnelle Faustregel:** muss sich jeder Kunde in seinem eigenen Tempo mit Echtzeit-Logik bewegen? Verwenden Sie **Journey**. Eine Nachricht nach einem Zeitplan an eine Zielgruppe senden? Verwenden Sie **Aktionskampagnen**. Wird von einem externen System über API ausgelöst? Verwenden Sie **API-ausgelöste Kampagnen**. Benötigen Sie Daten mit mehreren Entitäten, exakte Zählungen oder eine Batch-Arbeitsfläche? Verwenden Sie **Orchestrierte Kampagnen**.
+>**Schnelle Faustregel:** muss sich jeder Kunde in seinem eigenen Tempo mit Echtzeit-Logik bewegen? Verwenden Sie **Journey**. Eine Nachricht nach einem Zeitplan an eine Zielgruppe senden? Verwenden Sie **Aktionskampagnen**. Einzelne Nachricht von einem externen System über API auslösen? Verwenden Sie **API-ausgelöste Kampagnen** - oder eine **Unitäres Ereignis-Journey**, wenn Sie nach dem API-gesendeten Ereignis eine mehrstufige Orchestrierung benötigen. Benötigen Sie Daten mit mehreren Entitäten, exakte Zählungen oder eine Batch-Arbeitsfläche? Verwenden Sie **Orchestrierte Kampagnen**.
 
 ## Detaillierter Vergleich {#detailed-comparison}
 
@@ -99,10 +99,10 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 * Keine komplexe mehrstufige Logik erforderlich
 
 **Sofortige Nachricht durch ein externes System ausgelöst?**
-→ **API-ausgelöste Kampagnen verwenden**
-* Wird bei Bedarf über einen API-Aufruf ausgelöst
+→ **API-ausgelöste Kampagnen verwenden** (eine Nachricht) **oder eine unitäre Ereignis-Journey** (mehrstufige Orchestrierung)
+* Wird bei Bedarf über einen API-Aufruf ausgelöst: Kampagnen liefern eine Nachricht; unitäre Journey nehmen das Ereignis über eine [Experience Platform-Aufnahme auf &#x200B;](../event/additional-steps-to-send-events-to-journey.md) führen einen vollständigen Journey-Fluss aus
 * Payload-gesteuerte Personalisierung
-* Keine komplexe mehrstufige Logik erforderlich
+* Auswählen von Kampagnen, wenn keine mehrstufige Logik erforderlich ist
 
 **Komplexer Batch-Workflow mit erweiterter Segmentierung?**
 → **Verwenden von orchestrierten Kampagnen**
@@ -121,7 +121,8 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 | Erneutes Ansprechen inaktiver Benutzender auf Grundlage des Verhaltens | Journeys | Ausgelöst durch Zielgruppenqualifizierung, personalisierter Pfad |
 | Blitzverkauf ausgelöst durch Geschäftsereignis | Journeys (Geschäftsereignis) | Echtzeit-Trigger mit Auswirkung auf mehrere Kundinnen und Kunden |
 | Saisonale Promotion mit Produktkatalogintegration | Orchestrierte Kampagnen | Daten mit mehreren Entitäten, komplexe Segmentierung, genaue Anzahl |
-| Durch API ausgelöste Transaktionsnachricht | Durch API ausgelöste Kampagnen | Externe System-Trigger, sofortiger Versand |
+| API-ausgelöste Transaktionsnachricht (Einzelversand) | API-ausgelöste Kampagnen | Externer System-Trigger, sofortiger einmaliger Versand |
+| API-ausgelöster mehrstufiger Fluss | Journey (Unitäres Ereignis) | Externes System sendet unitäres Ereignis über API; Journey koordiniert die Folgeschritte |
 | Mehrstufiger Versand pro Buchung | Orchestrierte Kampagnen | Beziehungen mit mehreren Entitäten, eine Nachricht pro Buchung |
 
 ## Erläuterung der wichtigsten Unterschiede {#key-distinctions}
@@ -251,7 +252,7 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 | Warteaktivitäten | ✅ | ❌ | ❌ | ✅ |
 | Bedingte Verzweigung | ✅ | ❌ | ❌ | ✅ |
 | Geplante Ausführung | ✅ | ✅ | ✅ | ✅ |
-| API-Auslösung | ❌ | ❌ | ✅ | ❌ |
+| API-Auslösung | ✅ (Nur unitäres Ereignis - Ereignis, das über die API gesendet wird) | ❌ | ✅ | ❌ |
 | Daten mit mehreren Entitäten | ❌ | ❌ | ❌ | ✅ |
 | Genaue Anzahl vor dem Versand | ❌ | ❌ | ❌ | ✅ |
 | On-Demand-Segmentierung | ❌ | ❌ | ❌ | ✅ |
