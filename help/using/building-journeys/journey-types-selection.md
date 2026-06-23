@@ -11,26 +11,16 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 23%
+source-wordcount: 2270
+ht-degree: 19%
 
 ---
 
@@ -60,7 +50,7 @@ ht-degree: 23%
 
 **Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Benachrichtigungen zum Zurücksetzen des Kennworts und Personalisierung nach der Anmeldung.
 
-➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md) | [Erstellen einer unitären Ereignis-Journey](#build-unitary-event)
+➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md) | [Erstellen Sie Ihre erste Journey](journey-gs.md)
 
 >[!TAB Journeys des Typs „Zielgruppe lesen“]
 
@@ -70,7 +60,7 @@ ht-degree: 23%
 
 **Perfekt für:** monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen, wiederkehrende Interaktionsreihen und saisonale Marketing-Kampagnen.
 
-➡️ [Erfahren Sie mehr über „Zielgruppe lesen](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md) | [Erstellen einer „Zielgruppe lesen“Journey](#build-read-audience)
+➡️ [Erfahren Sie mehr über „Zielgruppe lesen](read-audience.md) | [Erste Schritte mit Zielgruppen](../audience/about-audiences.md) | [Erstellen Sie Ihre erste Journey](journey-gs.md)
 
 >[!TAB Journeys des Typs „Zielgruppenqualifizierung“]
 
@@ -80,7 +70,7 @@ ht-degree: 23%
 
 **Perfekt für:** Benachrichtigungen zu Upgrades der VIP-Stufe, Meldungen zu ersten Kauffeiern, Warnhinweise zu Abwanderungsrisiken und Übergänge in der Treueprogramm-Phase.
 
-➡️ [Erfahren Sie mehr über Zielgruppen](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md) | [Erstellen einer Journey zur Zielgruppen-Qualifizierung](#build-audience-qualification)
+➡️ [Erfahren Sie mehr über Zielgruppen-](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md) | [Erstellen Sie Ihre erste Journey](journey-gs.md)
 
 >[!TAB Journeys des Typs „Geschäftsereignis“]
 
@@ -90,7 +80,7 @@ ht-degree: 23%
 
 **Perfekt für:** Warnungen bei geringem Bestand an interessierte Kunden, Flash-Verkaufsankündigungen, Benachrichtigungen bei Preisrückgängen und Warnhinweise für das Produkt-Back-in-Stock.
 
-➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Einstiegsverwaltung](entry-management.md) | [Erstellen einer Geschäftsereignis-Journey](#build-business-event)
+➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Einstiegsverwaltung](entry-management.md) | [Erstellen Sie Ihre erste Journey](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -104,7 +94,7 @@ Verwenden Sie die nachstehende Tabelle, um Ihr Ziel dem richtigen Journey-Typ zu
 | Senden eines monatlichen Newsletters an Abonnentinnen und Abonnenten | Zielgruppe lesen | Geplante Batch-Kommunikation |
 | Benachrichtigen von Kundinnen und Kunden, wenn sie VIP-Status erreichen | Zielgruppenqualifizierung | Echtzeit-Antwort auf den Eintrag in die Streaming-Zielgruppe |
 | Benachrichtigen von Kundinnen und Kunden über niedrige Lagerbestände beobachteter Artikel | Geschäftsereignis | Geschäftsbedingung wirkt sich auf mehrere Kundinnen und Kunden aus |
-| Begrüßen neuer Benutzender der App | Unitäres Ereignis | Durch Anmeldungsereignis ausgelöst |
+| Begrüßen neuer Benutzender der App | Unitäres Ereignis oder Zielgruppen-Qualifizierung | Anmeldungsereignis (unitäres Ereignis) oder Eintritt in eine Streaming-Zielgruppe für neue Benutzer (Zielgruppen-Qualifizierung) |
 | Erneute Interaktion mit inaktiven Kunden (wiederkehrend, geplant) | Zielgruppe lesen | Wiederkehrende Batch-Ausführung für Inaktivitätszielgruppe |
 | Saisonale Promotion für Zielsegment | Zielgruppe lesen | Geplante Kampagne für Zielgruppe |
 | Ankündigung von Blitzverkauf | Geschäftsereignis | Geschäftsentscheidung wirkt sich auf mehrere Kundinnen und Kunden aus |
@@ -121,7 +111,7 @@ Verwenden Sie die nachstehende Tabelle, um Ihr Ziel dem richtigen Journey-Typ zu
 | **Geeignet für** | Transaktionsnachrichten, Verhaltensreaktionen | Marketing-Kampagnen, Newsletter, wiederkehrende Programme | Treueprogramme, Übergänge in Lebenszyklusphasen | Bestandsbenachrichtigungen, Promotions, Geschäftsbedingungen |
 | **Verwendung** | Sofortige Reaktion auf einzelne Aktionen sind erforderlich | Große Zielgruppensegmente sollen planmäßig angesprochen werden | Auf Änderungen des Kundenstatus in Echtzeit reagieren | Geschäftsereignisse wirken sich auf mehrere Kunden gleichzeitig aus |
 | **Beispiele** | Bestellbestätigung, Passwortzurücksetzung | Monatlicher Newsletter, saisonale Kampagne | VIP-Upgrade, Warnhinweis zum Abwanderungsrisiko | Geringer Lagerbestand, Blitzverkauf, Preissenkung |
-| **Erneuter Eintritt** | Konfigurierbar | Einmal pro Ausführung | Pro Qualifizierungsereignis konfigurierbar; ein bereits auf der Journey befindliches Profil kann nicht erneut auf dieselbe Version zugreifen | Mehrere Profile können von demselben Ereignis betroffen sein |
+| **Erneuter Eintritt** | Konfigurierbar | Standardmäßig einmal pro Ausführung; [Erneuten Eintritt bei Wiederholung erzwingen](read-audience.md#schedule) verfügbar bei geplanten Ausführungen | Pro Qualifizierungsereignis konfigurierbar; ein bereits auf der Journey befindliches Profil kann nicht erneut auf dieselbe Version zugreifen | Mehrere Profile können von demselben Ereignis betroffen sein |
 | **Maximaler Durchsatz** | 5.000 TPS (auf Organisationsebene mit Zielgruppen-Qualifizierung geteilt) | 20.000 TPS pro Sandbox | 5.000 TPS (auf Ebene der freigegebenen Organisation mit unitärem Ereignis) | Geschäftsereignis: 5.000 TPS; Audience-Schritt lesen: 20.000 TPS |
 | **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Zielgruppe [!DNL Adobe Experience Platform] | Streaming-Zielgruppe (erforderlich für Echtzeit-Eingabe); Batch-Zielgruppe unterstützt, Eingabe jedoch verzögert | Geschäftsereignisschema |
 
@@ -139,11 +129,11 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 | Warteaktivitäten | ✅ | ✅ | ✅ | ✅ |
 | Bedingungsaktivitäten | ✅ | ✅ | ✅ | ✅ |
 | Benutzerdefinierte Aktionen | ✅ | ✅ | ✅ | ✅ |
-| Aktivität „Zielgruppe lesen“ (innerhalb von Journey) | ✅ | ✅ | ✅ | ✅ |
+| Aktivität „Zielgruppe lesen“ (Journey-Eintrag) | ❌ | ✅ | ❌ | ✅ (automatischer Schritt nach dem Geschäftsereignis) |
 | Aktivität zur Zielgruppen-Qualifizierung (innerhalb von Journey) | ✅ | ✅ | ✅ | ✅ |
 | Aktivität „Springen“ | ✅ | ❌ | ❌ | ✅ |
 | **Profil-Management** | | | | |
-| Erneuter Profileintritt | ✅ Konfigurierbar | ❌ Einmal pro Ausführung | ✅ Konfigurierbar (Profil, das sich bereits auf Journey befindet, kann nicht erneut in dieselbe Version wechseln) | ✅ Pro Ereignis |
+| Erneuter Profileintritt | ✅ Konfigurierbar | Standardmäßig einmal pro Ausführung ❌ ([Erneuten Eintritt bei Wiederholung erzwingen](read-audience.md#schedule) bei geplanten Ausführungen) | ✅ Konfigurierbar (Profil, das sich bereits auf Journey befindet, kann nicht erneut in dieselbe Version wechseln) | ✅ Pro Ereignis |
 | Namespace-Konfiguration | ✅ Erforderlich | ✅ Optional | ✅ Erforderlich | ✅ Erforderlich |
 | Profilbegrenzung | ✅ | ✅ | ✅ | ✅ |
 | **Tests und Optimierung** | | | | |
@@ -160,7 +150,6 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 | Inhaltskarten | ✅ | ✅ | ✅ | ✅ |
 | **Erweiterte Funktionen** | | | | |
 | Inkrementelles Lesen | ❌ | ✅ | ❌ | ❌ |
-| Exportieren der Zielgruppe | ✅ | ✅ | ✅ | ✅ |
 | Zeitzonen-Management | ✅ | ✅ | ✅ | ✅ |
 | Reaktionsereignisse | ✅ | ✅ | ✅ | ✅ |
 | Externe Datenquellen | ✅ | ✅ | ✅ | ✅ |
@@ -171,17 +160,18 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 >[!NOTE]
 >
 >Einschränkungen bei Sprungaktivitäten: Eine Journey, die mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ beginnt, kann keine Sprungaktivität enthalten und auch nicht das Ziel einer Sprungaktivität von einer anderen Journey sein.
+>
+>Die Aktivität „Zielgruppe lesen“ als Journey-Eintrag ist nur in den Journey **Zielgruppe lesen** und **Geschäftsereignis** verfügbar und kann nicht zu den Journey für Unitäres Ereignis oder Zielgruppen-Qualifizierungseintrag hinzugefügt werden.
 
 ## Nächste Schritte {#next-steps}
 
-In jeder Tabelle sind die Schritte „Konfigurieren-durch-Verwalten“ für diesen Journey-Typ aufgeführt.
+Nachdem Sie nun einen Journey-Typ ausgewählt haben:
 
-### Journey für unitäre Ereignisse {#build-unitary-event}
-
-* **[Erstellen Ihrer ersten Journey](journey-gs.md)**: Schrittweise Anleitung
-* **[Weitere Informationen über den Journey-Designer](using-the-journey-designer.md)**: Entwerfen Ihrer Journey-Arbeitsfläche
-* **[Erkunden der Journey-Funktionen](journey.md#capabilities)**: Entdecken der erweiterten Funktionen
-* **[Anzeigen häufig gestellter Fragen zu Journeys](journey-faq.md)**: Antworten auf häufig gestellte Fragen
+* **[Erstellen Sie Ihre erste Journey](journey-gs.md)** — Schrittweise Anleitung von der Eingabe bis zur Veröffentlichung
+* **[Erfahren Sie mehr über den Journey-Designer](using-the-journey-designer.md)** — Entwerfen Sie Ihre Journey-Arbeitsfläche
+* **[Profileintritt in Journey](entry-management.md)** — Eintrittsregeln, Wiedereintritt und Durchsatz nach Typ
+* **[Erste Schritte mit Journey](journey.md)** — Überblick über Grundlagen und Funktionen
+* **[Häufig gestellte Fragen zu Journey Orchestration](journey-faq.md)** — Häufig gestellte Fragen beantwortet
 
 +++ KI-Wissensreferenz
 
@@ -214,7 +204,8 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 
 * Inkrementelles Lesen ist nur für die Journey-Gruppe „Zielgruppe lesen“ verfügbar, nicht für unitäre Journey, Zielgruppenqualifikationen oder Geschäftsereignisse
 * Pfadexperimente (A/B-Tests) werden für Geschäftsereignis-Journey nicht unterstützt
-* Der erneute Profileintritt in den Journey der Aktivität „Zielgruppe lesen“ ist auf einmal pro Ausführung beschränkt
+* Der erneute Profileintritt in den Journey der Aktivität „Zielgruppe lesen“ ist standardmäßig auf einmal pro Ausführung beschränkt. Verwenden Sie bei wiederholten Ausführungen die Option „Erneuten Eintritt bei Wiederholung erzwingen“, damit Profile bei der nächsten Ausführung erneut eintreten können
+* Die Aktivität „Zielgruppe lesen“ ist nur als Journey-Eintrag in den Journey-Einträgen „Zielgruppe lesen“ und „Geschäftsereignis“ verfügbar, nicht jedoch in den Journey-Einträgen „Unitäres Ereignis“ oder „Zielgruppen-Qualifizierung“
 * Zielgruppen-Qualifizierungs- und Zielgruppen-Journey lesen können keine Sprungaktivität enthalten und auch nicht das Ziel einer Sprungaktivität von einer anderen Journey sein
 * Journey zur Zielgruppenqualifizierung erfordern eine vom Streaming ausgewertete Zielgruppe für die Echtzeiteingabe; Batch-ausgewertete Zielgruppen verursachen Einstiegsverzögerungen von bis zu 24 Stunden
 * Journey mit einer unitären Ereignis- und Zielgruppenqualifizierung verwenden auf Unternehmensebene ein Durchsatzlimit von 5.000 TPS. Unter Zielgruppen-Journey lesen werden bis zu 20.000 TPS pro Sandbox unterstützt
@@ -236,7 +227,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **F: Kann ich A/B-Pfadexperimente auf einer Geschäftsereignis-Journey durchführen?** — Nein. Pfadexperimente werden für Geschäftsereignis-Journey nicht unterstützt.
 * **F: Was ist der Unterschied zwischen einer unitären Ereignis-Journey und einer Zielgruppen-Qualifizierungs-Journey?** — Ein unitäres Ereignis-Journey wird durch eine bestimmte Kundenaktion ausgelöst (z. B. Kauf). Eine Zielgruppen-Qualifizierungs-Journey wird Trigger, wenn ein Profil basierend auf der Bewertung von Streaming-Kriterien in ein Zielgruppensegment eintritt oder daraus austritt.
 * **F: Welche Journey-Typen unterstützen inkrementelles Lesen?** — Nur „Zielgruppen-Journey lesen“ unterstützt inkrementelles Lesen. Die anderen drei Journey-Typen nicht.
+* **F: Kann ich die Aktivität „Zielgruppe lesen“ zu einer unitären Ereignis-Journey hinzufügen?** — Nein. Die Aktivität „Zielgruppe lesen“ ist nur als Journey-Eintrag in den Journey-Dateien „Zielgruppe lesen“ und „Geschäftsereignis“ verfügbar.
 * **F: Kann ich eine Sprungaktivität in einer „Zielgruppe lesen“-Journey verwenden?** — Nein. Journey, die mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ beginnen, können keine Sprungaktivität enthalten und nicht das Ziel eines Sprungs von einer anderen Journey sein.
+* **F: Kann ich neue App-Benutzer mit einer Zielgruppen-Qualifizierungs-Journey willkommen heißen?** — Ja, wenn der Eintrag von einer Streaming-Zielgruppe gesteuert wird (z. B. wenn ein Profil einem Neubenutzersegment beitritt). Ein unitäres Anmeldungsereignis-Journey ist ebenfalls ein gängiges Muster.
 * **F: Die Journey „My Audience Qualification“ wird nicht in Echtzeit ausgelöst. Warum?** — Zielgruppen-Qualifizierungs-Journey erfordern eine vom Streaming ausgewertete Zielgruppe. Bei einer Batch-Auswertung der Zielgruppe (z. B. einer täglichen Momentaufnahme) wird die Eingabe bis zum nächsten Auswertungsfenster verzögert, was bis zu 24 Stunden dauern kann.
 * **F: Was ist der Durchsatzunterschied zwischen dem unitären Ereignis und den Journey-Werten unter „Zielgruppe lesen“?** — Journey von unitären Ereignissen haben auf Unternehmensebene ein TPS-Limit von 5.000 mit Journey für Zielgruppen-Qualifizierung gemeinsam. Journey von Zielgruppen unterstützen bis zu 20.000 TPS pro Sandbox, wodurch sie sich besser für groß angelegte Batch-Kampagnen eignen.
 
