@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` allein auf einer Linie schließt das Akkordeon
 - Leerzeile vor dem `+++` und nach dem `+++`
 
----
+&#x200B;---
 
 ## Workflow
 
@@ -66,7 +66,7 @@ Dieser Kommentar ermöglicht es zukünftigen Tools und Autoren zu erkennen, wann
 - Dateien übersprungen + Grund (hat bereits Akkordeon / leer / Indexseite)
 - Alle während Schritt 2 ausgelösten Validierungswarnungen
 
----
+&#x200B;---
 
 ## Regeln zur Inhaltserstellung
 
@@ -173,10 +173,10 @@ Antworten müssen dieselben Verb- und Substantivoptionen wie der Seitentext verw
 
 - **nicht** den Hauptteilinhalt neu schreiben oder zusammenfassen (er befindet sich bereits auf der Seite)
 - **keine** schrittweisen Anweisungen enthalten
-- Erfinden **** Inhalte, die von der Seite nicht unterstützt werden
+- Erfinden **&#x200B;**&#x200B;Inhalte, die von der Seite nicht unterstützt werden
 - Verwenden **nicht** folgenden ungenauen Begriffe, es sei denn, sie erscheinen wörtlich im Seitentext: „synthetisch“, „falsche Daten“, „ohne echte Daten“, „Zurücksetzen“, „Zurücksetzen“ (bei der Beschreibung von Produktzustandsübergängen)
 
----
+&#x200B;---
 
 ## Checkliste für die Validierung nach der Generierung
 
@@ -198,7 +198,7 @@ Diese Checkliste vor dem Anhängen für jedes Akkordeon ausführen. Markieren Si
 
 Wenn eine Überprüfung fehlschlägt, korrigieren Sie das Akkordeon, bevor Sie anhängen. Protokollieren Sie die Korrektur im Bericht zu Schritt 4.
 
----
+&#x200B;---
 
 ## Verantwortung synchronisieren
 
@@ -210,7 +210,7 @@ Das Akkordeon ist eine Ableitung des Seitentextes zu einem bestimmten Zeitpunkt.
 
 Der Synchronisationskommentar, der nach dem Akkordeon angehängt wird (`<!-- ai-accordion-version -->`), ist das Signal: Wenn sich der Dateiinhalt vor dem Akkordeon seit dem Schreiben dieses Hashs geändert hat, ist das Akkordeon ein Kandidat für eine Überprüfung.
 
----
+&#x200B;---
 
 ## Vollständige Vorlage
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## Anmerkungen
 
