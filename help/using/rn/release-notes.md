@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +359,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 <p>Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>Weitere Informationen finden Sie im <a href="../content-management/customizable-fragments.md#rich-text-visual">entsprechenden Handbuch</a>.</p>
-<p>Verfügbarkeitsdatum: Ende Juni 2026</p>
+<p>Verfügbarkeitsdatum: 19. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 
 * **Erweiterter Konverter von Bildern zu HTML** - Eine neue Version der Funktion „Konverter von Bildern zu HTML&quot; ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Erstellung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
 
-  Verfügbarkeitsdatum: 18. Juni 2026
+  Verfügbarkeitsdatum: Ende Juni 2026
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
@@ -402,6 +402,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 <td>
 <p>Journey Optimizer bietet jetzt eine Option, die HTML Ihrer E-Mail zu verkleinern, indem unnötige Leerzeichen, Kommentare und redundanter Code entfernt werden - ohne die Darstellung der E-Mail zu beeinflussen.</p>
 <p>Dies kann die Zustellbarkeit verbessern, indem Größenschwellen vermieden werden, die einige E-Mail-Anbieter zum Kennzeichnen oder Ablehnen von Nachrichten verwenden, und kann die Ladezeit für Empfänger verkürzen.</p>
+<p>Verfügbarkeitsdatum: Ende Juni 2026</p>
 </td>
 </tr>
 </tbody>
