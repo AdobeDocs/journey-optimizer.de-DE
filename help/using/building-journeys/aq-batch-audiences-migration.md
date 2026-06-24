@@ -10,8 +10,12 @@ level: Intermediate
 hide: true
 keywords: Zielgruppen-Qualifizierung, Batch-Zielgruppe, Einstellung, Migration, Zielgruppe lesen, Streaming-Zielgruppe
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
 workflow-type: tm+mt
 source-wordcount: 874
@@ -65,9 +69,9 @@ Wenn Sie eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwen
 
 * **Reaktion auf Öffnungen oder Klicks innerhalb derselben Journey** - Verwenden Sie den **[Reaktionsereignis](reaction-events.md)**-Knoten. Sie wurde entwickelt, um auf Öffnungen und Klicks auf Nachrichten zu reagieren, die innerhalb derselben Journey versendet werden, ohne dass eine separate Audience erforderlich ist. [Siehe ein End-to-End-Beispiel mit Reaktionsereignissen](journeys-uc.md#send-multi-channel-messages)
 
-* **Cross-Journey-Klick-Targeting** - Erstellen Sie aus Klick](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)Ereignissen eine [Streaming-Zielgruppe) und verwenden Sie stattdessen den Zielgruppen-Qualifizierungsknoten mit dieser Streaming-Zielgruppe.
+* **Cross-Journey-Klick-Targeting** - Erstellen Sie aus Klick[&#128279;](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer)Ereignissen eine Streaming-Zielgruppe) und verwenden Sie stattdessen den Zielgruppen-Qualifizierungsknoten mit dieser Streaming-Zielgruppe.
 
-* **Bounce-basierte Unterdrückung** - Verwenden Sie die native Unterdrückungsliste [ Journey Optimizer, ](../configuration/manage-suppression-list.md) das Bounce-Verhalten als Zielgruppenbedingung zu modellieren.
+* **Bounce-basierte Unterdrückung** - Verwenden Sie die native Unterdrückungsliste [&#x200B; Journey Optimizer, &#x200B;](../configuration/manage-suppression-list.md) das Bounce-Verhalten als Zielgruppenbedingung zu modellieren.
 
 * **Beliebige verbleibende Send/Open-Logik** — Wechseln Sie bei einer geplanten Ausführung auf eine **[Zielgruppe lesen](read-audience.md)**-Journey, um die Batch-Zielgruppe sicher zu verarbeiten.
 
