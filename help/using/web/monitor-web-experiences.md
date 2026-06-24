@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 90%
+source-wordcount: 366
+ht-degree: 79%
 
 ---
 
@@ -46,6 +46,11 @@ Sobald Ihr Web-Erlebnis live ist, können Sie auf der Registerkarte **[!UICONTRO
 Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Web-Berichten anzeigen. [Weitere Informationen](#use-click-tracing)
 
 ## Verwenden von Klick-Tracking {#use-click-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_click_tracking"
+>title="Verwenden von Klick-Tracking"
+>abstract="Klicks auf beliebige Elemente Ihrer Web-Seite verfolgen, um Benutzerinteraktionen zu überwachen. Wählen Sie ein Element aus, wählen **Klick-Tracking** aus dem Kontextmenü und fügen Sie eine aussagekräftige Bezeichnung hinzu. Die verfolgten Daten werden in Ihren Web-Berichten angezeigt, sodass Sie besser verstehen können, wie Benutzer mit Ihren Inhalten interagieren."
 
 Mit dem Web-Designer können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen.
 
