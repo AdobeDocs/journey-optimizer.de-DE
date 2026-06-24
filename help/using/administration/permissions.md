@@ -10,24 +10,16 @@ role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
 TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 96%
+source-wordcount: 1205
+ht-degree: 63%
 
 ---
 
@@ -151,3 +143,45 @@ So erstellen Sie die **[!UICONTROL Rolle]** **Journeys nur lesen**:
 Ihre **[!UICONTROL Rolle]** wurde nun erstellt und konfiguriert. Jetzt müssen Sie sie den Benutzenden zuweisen.
 
 Weitere Informationen zum Erstellen und Verwalten von Rollen sind in der [Adobe Admin Console-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=de){target="_blank"} verfügbar.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** Diese Seite führt Produkt- und Systemadministratoren durch die drei Rollenverwaltungsaufgaben im Berechtigungsprodukt: Zuweisen einer vorhandenen Rolle zu einem Benutzer, Bearbeiten der Berechtigungen einer Rolle und Erstellen einer neuen benutzerdefinierten Rolle mit bestimmten Berechtigungen und Sandboxes.
+
+**intents:**
+
+- Weisen Sie einem Benutzer in Journey Optimizer eine integrierte oder benutzerdefinierte Rolle zu
+- Bearbeiten der Berechtigungen einer vorhandenen Rolle (Hinzufügen oder Entfernen von Berechtigungen)
+- Erstellen einer neuen benutzerdefinierten Rolle mit bestimmten Berechtigungen und Sandbox-Zuweisungen
+- Verstehen, wer über die Berechtigung zur Rollen- und Berechtigungsverwaltung verfügt
+
+**Glossar:**
+
+- **Rolle**: Eine Sammlung von Benutzern mit denselben Berechtigungen und Sandboxes, die zum Verwalten des Zugriffs innerhalb einer Organisation verwendet werden *(produktspezifisch)*
+- **Produktberechtigungen**: Die Adobe CX Enterprise-Benutzeroberfläche (Zugriff über [!DNL Permissions]), in der Rollen, Berechtigungen und Sandboxes *(produktspezifisch) konfiguriert sind*
+- **Integrierte Rolle**: Eine bereits vorhandene Rolle mit einem definierten Berechtigungssatz, die sofort ohne benutzerdefinierte Konfiguration zugewiesen werden kann *(produktspezifisch)*
+
+**Leitplanken:**
+
+- Nur Produkt- oder Systemadministratoren können Rollen zuweisen, bearbeiten oder erstellen (harte Voraussetzung, wie in dem wichtigen Hinweis auf der Seite angegeben)
+- Änderungen an einer integrierten oder benutzerdefinierten Rolle wirken sich auf alle Benutzenden aus, die dieser Rolle zugewiesen sind (wie im wichtigen Hinweis auf der Seite angegeben)
+
+**Terminologie:**
+
+- Kanonischer Name: Produktberechtigungen — Varianten: Adobe-Berechtigungen, Benutzeroberfläche für Berechtigungen, Adobe CX Enterprise-Berechtigungen
+- Verwechseln Sie nicht: „Rolle zuweisen“ (Hinzufügen eines Benutzers zu einer vorhandenen Rolle) ≠ „Rolle erstellen“ (Erstellen einer neuen Rolle von Grund auf mit eigenen Berechtigungen und Sandboxes)
+- Verwechseln Sie nicht: „Bearbeiten einer vorhandenen Rolle“ (Ändern von Berechtigungen oder Sandboxes für eine vorhandene Rolle; wirkt sich auf alle zugewiesenen Benutzer aus) ≠ „Erstellen einer neuen Rolle“ (Erstellen einer neuen Rolle ohne Auswirkungen auf eine vorhandene Rolle oder deren Benutzer)
+
+**FAQ:**
+
+- **F: Wer kann Benutzenden in Journey Optimizer Rollen zuweisen?** — Nur Produkt- oder Systemadministratoren.
+- **F: Was passiert, wenn ich die Berechtigungen einer integrierten Rolle bearbeiten?** — Änderungen wirken sich auf alle Benutzenden aus, die derzeit dieser Rolle zugewiesen sind.
+- **F: Wohin gehe ich im Produkt, um Rollen zu verwalten?** — Navigieren Sie im Produkt Berechtigungen zur Registerkarte Rollen .
+- **F: Erhält der Benutzer nach Zuweisung einer Rolle eine Benachrichtigung?** — Ja; der Benutzer erhält automatisch eine E-Mail, die ihn zur Instanz weiterleitet.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

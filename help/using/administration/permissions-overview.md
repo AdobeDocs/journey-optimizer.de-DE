@@ -10,25 +10,16 @@ level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 85%
+source-wordcount: 873
+ht-degree: 40%
 
 ---
 
@@ -116,3 +107,48 @@ Da Sie nun über Kenntnisse zu den Konzepten der Zugriffssteuerung in **[!DNL Jo
 <p>
 </td>
 </tr></table>
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* Die **TL;DR:**-Zugriffssteuerung in Journey Optimizer basiert auf Rollen, Berechtigungen und Sandboxes, die über Adobe CX Enterprise-Berechtigungen verwaltet werden, und bietet zusätzliche Ebenen der objektbasierten Zugriffssteuerung (OLAC) und der attributbasierten Zugriffssteuerung (ABAC) für einen differenzierten Datenschutz.
+
+**intents:**
+
+* Machen Sie sich mit den fünf Konzepten der Kernzugriffssteuerung vertraut: Rollen, Berechtigungen, Sandboxes, objektbasierte Zugriffssteuerung und attributbasierte Zugriffssteuerung
+* Wissen, wer die Zugriffskontrolle konfigurieren kann (System- oder Produktadministrator)
+* Navigieren Sie zum rechten Dokumentationsabschnitt für jedes Thema zur Zugriffssteuerung
+* Planen einer Zugriffssteuerungsstrategie für die Organisation
+
+**Glossar:**
+
+* **Rollen**: Sammlungen von Benutzern, die dieselben Berechtigungen und Sandboxes nutzen; bereits vorhandene integrierte Rollen sind verfügbar, und benutzerdefinierte Rollen können *(produktspezifisch) erstellt werden*
+* **Berechtigungen**: Einzelrechte, die die den Rollen zugewiesenen Berechtigungen definieren, gruppiert unter Ressourcen wie Journey oder Angebote *(produktspezifisch)*
+* **Sandboxes**: Virtuelle Umgebungen, die die Journey Optimizer-Instanz in separate, isolierte virtuelle Arbeitsbereiche unterteilen; über Rollen in Berechtigungen zugewiesen *(produktspezifisch)*
+* **Objektbasierte Zugriffssteuerung**: Kennzeichnungen, die auf bestimmte Journey Optimizer-Objekte (Journey, Kampagnen, Angebote) angewendet werden, um den Zugriff auf autorisierte Benutzende zu beschränken *(produktspezifisch)*
+* **Attributbasierte Zugriffssteuerung**: Richtlinien zur Steuerung des Zugriffs auf Objekte oder Funktionen basierend auf Attributen wie Kennzeichnungen, die Schemafeldern oder Segmenten hinzugefügt werden *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Das Konfigurieren der Zugriffssteuerung erfordert System- oder Produktadministratorrechte (Voraussetzung)
+* Die Mindestrolle, die Berechtigungen erteilen oder entziehen kann, ist ein Produktadministrator (wie auf der Seite angegeben)
+
+**Terminologie:**
+
+* Kanonischer Name: Attributbasierte Zugriffssteuerung — Akronym: ABAC — Varianten: Attributbasierte Zugriffsverwaltung
+* Kanonischer Name: Objektbasierte Zugriffssteuerung — Akronym: OLAC — Varianten: Zugriffssteuerung auf Objektebene, objektbasierte Zugriffsverwaltung
+* Verwechseln Sie nicht: „Objektbasierte Zugriffssteuerung“ (beschränkt den Zugriff auf bestimmte AJO-Objekte wie Journey, Kampagnen und Angebote mithilfe von Kennzeichnungen) ≠ „Attributbasierte Zugriffssteuerung“ (beschränkt den Zugriff auf Datenattribute wie Schemafelder und Segmente basierend auf Kennzeichnungsrichtlinien)
+* Verwechseln Sie nicht: „Rollen“ (eine Sammlung von Benutzern mit freigegebenen Berechtigungen und Sandboxes) ≠ „Berechtigungen“ (die Einzelrechte, die unter Ressourcen gruppiert sind, die Rollen zugewiesen sind)
+
+**FAQ:**
+
+* **F: Wer kann die Zugriffssteuerung in Journey Optimizer konfigurieren?** — Benutzende mit Systemadministrator- oder Produktadministrator-Berechtigungen.
+* **F: Was ist die Mindestadministratorstufe, die erforderlich ist, um Berechtigungen zu erteilen oder zu entziehen?** — Produkt-Administrator.
+* **F: Werden Sandboxes unabhängig von Rollen verwaltet?** — Nein. Sandboxes werden über Rollen im Produkt „Berechtigungen“ zugewiesen.
+* **F: Wo wird die Zugriffssteuerung für Journey Optimizer verwaltet?** - Über Berechtigungen in Adobe CX Enterprise, die Benutzende über Rollen und Richtlinien mit Berechtigungen und Sandboxes verknüpfen.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->

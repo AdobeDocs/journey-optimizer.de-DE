@@ -10,26 +10,16 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 2137
-ht-degree: 95%
+source-wordcount: 2684
+ht-degree: 76%
 
 ---
 
@@ -240,6 +230,52 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 | Entscheidungs-Management | <ul><li>**[!DNL View decisions]**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li></ul> |
 | Journey Optimizer-Regeln | <ul> <li>**[!DNL View frequency rules]**: Schreibgeschützter Zugriff auf Häufigkeitsregeln.</li></ul> |
 | Orchestrierte Kampagnen | <ul><li>**[!DNL View orchestrated campaigns]**: Schreibgeschützter Zugriff auf orchestrierte Kampagnen.</li><li>**[!DNL View orchestrated campaigns report]**: Schreibgeschützter Zugriff auf Berichte zu orchestrierten Kampagnen.</li></ul> |
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Journey Optimizer wird mit integrierten Rollen ausgeliefert - vom Kampagnenadministrator bis zum orchestrierten Kampagnen-Viewer - die jeweils einen vorgefertigten Berechtigungssatz enthalten, sodass Admins Benutzenden schnell Zugriff gewähren können, der ihren Verantwortlichkeiten entspricht, ohne eine Rolle von Grund auf neu zu erstellen.
+
+**intents:**
+
+* Identifizieren Sie, welche integrierte Rolle am besten zu den Aufgabenbereichen eines Benutzers passt.
+* Verstehen, was jede integrierte Rolle tun kann und was nicht (einschließlich Veröffentlichungsberechtigungen)
+* Rollen in Journey-, Kampagnen- und orchestrierten Kampagnendomänen vergleichen
+* Zuweisen einer vorgefertigten Rolle anstelle der Erstellung einer benutzerdefinierten Rolle
+* verstehen, welche Rollen den Zugriff auf KI-Assistenten umfassen
+
+**Glossar:**
+
+* **Integrierte Rolle**: Ein vordefinierter Satz von Berechtigungen und Ressourcenrechten, die Benutzern ohne benutzerdefinierte Konfiguration zugewiesen werden können *(produktspezifisch)*
+* **Journey-Administrator**: Integrierte Rolle, die die Verwaltung und Veröffentlichung von Journey und Entscheidungs-Management ermöglicht, einschließlich Kanalkonfiguration und Data-Governance-Berechtigungen *(produktspezifisch)*
+* **Campaign-Administrator**: Integrierte Rolle, die die Verwaltung und Veröffentlichung von Kampagnen und das Entscheidungs-Management ermöglicht, einschließlich Kanalkonfigurationen *(produktspezifisch)*
+* **Entscheidungs-Manager**: Integrierte Rolle, die ausschließlich Zugriff auf das Menü Entscheidungs-Management bietet; kann Entscheidungen verwalten, anzeigen und veröffentlichen *(produktspezifisch)*
+* **Inhaltsbibliotheks-Manager**: Integrierte Rolle, die nur Zugriff auf das Menü Inhaltsvorlagen bietet; kein Zugriff auf Journey oder Kampagnen *(produktspezifisch)*
+* **Testmodus**: Ein Journey-Ausführungsmodus, auf den in den Berechtigungen Journey verwalten und Journey veröffentlichen verwiesen wird (Journey-Administrator kann Journey im Testmodus stoppen; Berechtigung zum Veröffentlichen von Journey umfasst das Starten des Testmodus) *(produktspezifisch)*
+* **Probelauf** Ein Journey-Ausführungsmodus, auf den in den Berechtigungen Journey verwalten und Journey veröffentlichen neben dem Testmodus verwiesen wird *(produktspezifisch)*
+
+**Terminologie:**
+
+* Kanonischer Name: Integrierte Rollen - Varianten: vordefinierte Rollen, vordefinierte Rollen, Produktprofile
+* Verwechseln Sie nicht: „Kampagnen-Genehmiger“ (kann Kampagnen genehmigen und veröffentlichen) ≠ „Kampagnen-Manager“ (kann Kampagnen erstellen und bearbeiten, aber nicht veröffentlichen)
+* Verwechseln Sie nicht: &quot;Journey-Genehmiger“ (kann Journey genehmigen und veröffentlichen) ≠ &quot;Journey-Manager“ (kann Journey erstellen und bearbeiten, aber nicht veröffentlichen)
+* Verwechseln Sie nicht: &quot;Journey-Viewer“ (Nur-Lese-Zugriff auf Journey und Entscheidungs-Management) ≠ „Kampagnen-Viewer“ (Nur-Lese-Zugriff auf Kampagnen und Entscheidungs-Management)
+* Verwechseln Sie nicht: „Administrator für orchestrierte Kampagnen“ (verwaltet orchestrierte Kampagnen, umfasst KI-Assistenten und Datenaufnahme/-verwaltung) ≠ „Kampagnenadministrator“ (verwaltet Standardkampagnen; umfasst keine Berechtigungen für orchestrierte Kampagnen)
+* Verwechseln Sie nicht: „Testmodus“ (referenziert als Journey-Ausführungsstatus, der über Journey verwalten / Publish-Journey angehalten oder gestartet werden kann) ≠ „Probelauf“ (ein separater Journey-Ausführungsmodus, der auch in diesen Berechtigungen referenziert wird)
+
+**FAQ:**
+
+* **F: Welche integrierten Rollen können Journey veröffentlichen?** — Journey-Administrator und Journey-Genehmiger können Journey veröffentlichen.
+* **F: Kann ein Journey-Manager Journey veröffentlichen?** — Nein; Journey-Manager kann Journey erstellen und bearbeiten, aber die Berechtigung Journey veröffentlichen ist in dieser Rolle nicht enthalten.
+* **F: Welche Rolle gewährt nur Zugriff auf das Menü des Entscheidungs-Managements?** — Entscheidungs-Manager.
+* **F: Welche Rolle bietet nur Zugriff auf Inhaltsvorlagen?** — Content Library Manager.
+* **F: Welche integrierten Rollen enthalten die Berechtigung KI-Assistenten aktivieren?** — Administrator der orchestrierten Kampagne, Genehmigende Person der orchestrierten Kampagne, Manager der orchestrierten Kampagne und Betrachtende der orchestrierten Kampagne.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: b9740765 -->
 
 
 

@@ -10,23 +10,15 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
-ht-degree: 94%
+source-wordcount: 1995
+ht-degree: 73%
 
 ---
 
@@ -199,7 +191,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Journey Optimizer-Rollen basieren auf Berechtigungen auf hoher Ebene, die jeweils die spezifischen API-Rechte auf niedriger Ebene enthalten, die Benutzende zum Lesen, Schreiben, Veröffentlichen oder Löschen von Ressourcen für Journey, Kampagnen, Entscheidungen, Kanalkonfigurationen und mehr benötigen.
+
+**intents:**
+
+* Verstehen der Unterscheidung zwischen Berechtigungen auf hoher und niedriger Ebene
+* Identifizieren Sie, welche Berechtigungen auf niedriger Ebene von jeder Berechtigung auf hoher Ebene gewährt werden
+* Konfigurieren Sie Rollen präzise für Journey, Kampagnen, Entscheidungs-Management, Kanalkonfigurationen und orchestrierte Kampagnen.
+* Gewähren des Zugriffs auf den KI-Assistenten für die Inhaltserstellung
+* Verstehen, was die Berechtigung Journey veröffentlichen im Vergleich zur Berechtigung Journey verwalten zulässt
+
+**Glossar:**
+
+* **Berechtigung auf hoher Ebene**: Eine spezifische Berechtigung, die einer Rolle zugewiesen ist (z. B. Journey verwalten, Journey veröffentlichen) und eine oder mehrere Berechtigungen auf niedriger Ebene *(produktspezifisch) umfasst*
+* **Berechtigung auf niedriger Ebene**: Eine granulare Berechtigung auf API-Ebene (z. B. Journey&#39;s.read, Journey&#39;s.write), die von einem *auf hoher Ebene abgeleitet und in diesen aufgenommen wurde (produktspezifisch)*
+* **Rolle**: Eine Sammlung von Benutzern, die innerhalb der Organisation dieselben Berechtigungen und Sandboxes nutzen *(produktspezifisch)*
+
+**Terminologie:**
+
+* Verwechseln Sie nicht: „Berechtigung auf hoher Ebene“ (spezifische Berechtigung, die einer Rolle zugewiesen werden kann) ≠ „Berechtigung auf niedriger Ebene“ (zugrunde liegendes granulares API-Recht, nicht direkt zuweisbar)
+* Verwechseln Sie nicht: &quot;Journey verwalten“ (ermöglicht Erstellen, Bearbeiten, Löschen, Stoppen - einschließlich Live-, Testmodus und Probelauf) ≠ &quot;Journey veröffentlichen“ (ermöglicht Veröffentlichung, Testmodus starten, Probelauf starten, anhalten und Journey fortsetzen)
+* Verwechseln Sie nicht: &quot;Journey, Datenquellen und Aktionen verwalten“ (vollständige CRUD für Ereignisse, Quellen, Aktionen) ≠ &quot;Journey, Datenquellen und Aktionen anzeigen“ (Nur-Lese-Zugriff auf diese Objekte)
+* Verwechseln Sie nicht: „Inhalt generieren“ (Zugriff auf den KI-Assistenten in Journey Optimizer) ≠ andere Journey- oder Kampagnenberechtigungen
+* Verwechseln Sie nicht: „Testmodus“ (referenziert in &quot;Journey veröffentlichen“ und &quot;Journey verwalten“ als Journey-Ausführungsmodus, der gestartet oder gestoppt werden kann) ≠ „Probelauf“ (ein separater Journey-Ausführungsmodus, auf den auch in diesen Berechtigungen verwiesen wird)
+
+**FAQ:**
+
+* **F: Erlaubt die Berechtigung Journey verwalten einer Benutzerin oder einem Benutzer, Journey zu veröffentlichen?** — Nein. Für das Veröffentlichen von Journey ist die separate Berechtigung Journey veröffentlichen auf hoher Ebene erforderlich.
+* **F: Was gewährt die Berechtigung zum Generieren von Inhalten?** — Zugang zum KI-Assistenten in Journey Optimizer.
+* **F: Kann ein Anwender Journey-Ereignisse ohne die Berechtigung &quot;Journey verwalten“ konfigurieren?** - Ja. &quot;Journey, Datenquellen und Aktionen verwalten“ ist eine separate Berechtigung auf hoher Ebene, die Ereignisse, Datenquellen und Aktionskonfigurationen abdeckt.
+* **F: Welche Berechtigungen auf niedriger Ebene sind im Bericht Journey anzeigen enthalten?** — Journey_report.read und messages_report.read sowie datasets.read, queries.read, queries.read, queries.write und queries.delete aus Adobe Experience Platform.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

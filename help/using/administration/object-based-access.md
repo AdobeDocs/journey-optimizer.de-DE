@@ -9,13 +9,12 @@ role: Admin, Developer
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Labels, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-feature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+feature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 93%
+source-wordcount: 1017
+ht-degree: 50%
 
 ---
 
@@ -105,3 +104,47 @@ So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Labels
 Auf dieses Objekt können nur Benutzende mit dem spezifischen **[!UICONTROL Label]** in ihren **[!UICONTROL Rollen]** zugreifen. Beispiel: Eine Benutzerin oder ein Benutzer mit dem Label „C1“ hat nur Zugriff auf Objekte mit dem Label „C1“ oder Objekte ohne Label.
 
 Weitere Informationen zur Zuweisung von **[!UICONTROL Labels]** zu einer **[!UICONTROL Rolle]** sind auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=de#manage-labels-for-a-role){target="_blank"} verfügbar.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* Mit der **TL;DR:** Zugriffssteuerung auf Objektebene (OLAC) können Sie Zugriffsbeschriftungen auf bestimmte Journey Optimizer-Objekte wie Journeys, Kampagnen und Angebote anwenden, sodass nur Benutzende, deren Rolle die entsprechende Beschriftung enthält, diese Objekte anzeigen oder mit ihnen interagieren können.
+
+**intents:**
+
+* Erstellen Sie eine benutzerdefinierte Zugriffsbeschriftung direkt in Journey Optimizer oder über das Produkt Zugriffsberechtigungen .
+* Zuweisen von Zugriffskennzeichnungen zu Journey Optimizer-Objekten (Journey, Kampagnen, Angebote usw.)
+* Schränken Sie sensible Inhalte auf autorisierte Benutzer ein
+* Erfahren Sie, welche Berechtigungen zum Erstellen und Zuweisen von Kennzeichnungen erforderlich sind
+
+**Glossar:**
+
+* **OLAC (Object Level Access Control)**: Eine Funktion zur Definition von Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl bestimmter Journey Optimizer-Objekte *produktspezifisch)*
+* **Label**: Ein auf ein Objekt angewendetes Tag, um es anhand der Nutzungsrichtlinie zu kategorisieren und den Zugriff basierend auf der Rollenmitgliedschaft *produktspezifisch) einzuschränken*
+* **Zugriff verwalten**: Die Schaltfläche oder Benutzeroberfläche, die in unterstützten Journey Optimizer-Objekten zum Erstellen und Zuweisen von Zugriffskennzeichnungen verfügbar ist *(produktspezifisch)*
+* **Core-Datennutzungskennzeichnungen**: Vordefinierte Kennzeichnungen, die von Adobe Experience Platform bereitgestellt werden, im Gegensatz zu benutzerdefinierten Kennzeichnungen, die von der Organisation erstellt werden *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Zum Erstellen von Kennzeichnungen ist die **Verwalten von**) erforderlich (Voraussetzung)
+* Zum Zuweisen von Kennzeichnungen ist eine **Verwalten**-Berechtigung für den Objekttyp erforderlich (z. B. Journey verwalten, Kampagnen verwalten oder Entscheidungen verwalten). Ohne diese ist die Schaltfläche **Zugriff verwalten** ausgegraut (Voraussetzung)
+* Unterstützte Objekte für OLAC-Kennzeichnungen: Journey, Kampagne, Vorlage, Fragment, Landingpage, Angebot, Statische Angebotssammlung, Angebotsentscheidung, Kanalkonfiguration, IP-Aufwärmplan
+
+**Terminologie:**
+
+* Kanonischer Name: Zugriffssteuerung auf Objektebene — Akronym: OLAC — Varianten: objektbasierte Zugriffssteuerung, objektbasierte Zugriffsverwaltung
+* Nicht verwechseln: OLAC (beschränkt den Zugriff auf bestimmte AJO-Objekte wie Journey und Kampagnen mithilfe von Kennzeichnungen) ≠ ABAC (attributbasiert, wendet Kennzeichnungsrichtlinien auf Schemafelder, Datensätze und Zielgruppen auf Plattformebene an)
+* Verwechseln Sie nicht: „Core-Datennutzungskennzeichnungen“ (vordefinierte Kennzeichnungen aus Adobe Experience Platform) ≠ „benutzerdefinierte Kennzeichnungen“ (von der Organisation erstellte Kennzeichnungen)
+
+**FAQ:**
+
+* **F: Kann ich eine Kennzeichnung direkt in Journey Optimizer erstellen, ohne zum Produkt „Berechtigungen“ zu wechseln?** — Ja. Verwenden Sie das Fenster Zugriff verwalten für ein beliebiges unterstütztes Objekt und klicken Sie auf Bezeichnung erstellen .
+* **F: Welche Objekttypen unterstützen OLAC-Kennzeichnungen?** - Journey, Kampagne, Vorlage, Fragment, Landingpage, Angebot, statische Angebotssammlung, Angebotsentscheidung, Kanalkonfiguration und IP-Aufwärmplan.
+* **F: Welche Berechtigung wird benötigt, um einer Journey einen Titel zuzuweisen?** — Berechtigung Journey verwalten; ohne die Berechtigung Verwalten ist die Schaltfläche Zugriff verwalten ausgegraut.
+* **F: Wenn ein Benutzer nur die C1-Kennzeichnung in seiner Rolle hat, auf welche Objekte kann er zugreifen?** — Nur mit C1 gekennzeichnete oder nicht gekennzeichnete Objekte.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 4e9b2577 -->
