@@ -9,27 +9,15 @@ level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 92%
+source-wordcount: 609
+ht-degree: 72%
 
 ---
 
@@ -76,6 +64,10 @@ In Adobe Experience Platform gibt es zwei Arten von Schemata:
   ➡️ [Weiter Informationen zum Verwalten von relationalen Schemata und Datensätzen](../orchestrated/gs-schemas.md)
 ➡️ [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
 
+>[!IMPORTANT]
+>
+>Die Aktivierung eines Schemas für das Echtzeit-Kundenprofil ist eine dauerhafte Entscheidung: Nach der Aktivierung kann das Schema nicht mehr deaktiviert oder gelöscht werden. Datensätze, die auf diesem Schema basieren, können separat deaktiviert oder gelöscht werden. Dadurch werden jedoch die zugehörigen Profildatensätze entfernt und die Segmentierungs- und Aktivierungs-Workflows können beeinträchtigt werden. Schließen Sie vor dem Aktivieren Ihre Identitätskonfiguration und die Feldergruppenauswahl ab. Detaillierte Anleitungen finden Sie unter [Profilaktivierungsplanung](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} und [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
+
 ## Anleitungsvideo{#video-schema}
 
 Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen sowie benutzerdefinierte Feldergruppen erstellen und konfigurieren.
@@ -88,5 +80,7 @@ Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen so
 >* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}
 >* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target="_blank"}
+>* [Planung der Profilaktivierung](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Erstellen eines Schemas mithilfe des Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=de){target="_blank"}
 >* [Definieren einer Beziehung zwischen zwei Schemata mithilfe des Schema-Editors](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=de){target="_blank"}
