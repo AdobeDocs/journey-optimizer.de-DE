@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die Seiten **Erste Schritte mit Datensätzen** und **Erste Schritte mit Schemata** wurden mit Anleitungen zur Aktivierung von Datensätzen und Schemata für das Echtzeit-Kundenprofil aktualisiert, einschließlich wichtiger Überlegungen, der Unterscheidung zwischen der Deaktivierung eines Datensatzes und seinem zugrunde liegenden Schema sowie Links zur Dokumentation zu Planung und Best Practices für Adobe Experience Platform. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md) und [Weitere Informationen zu Schemata](../data/get-started-schemas.md)
 
 * Ein neuer Onboarding **Hub „Erste Schritte mit Adobe Journey Optimizer** ist jetzt verfügbar. Neue Benutzer können ihren Pfad nach Rolle auswählen, Grundlagen erkunden oder zu den täglichen Bereichen springen, wenn sie bereits integriert sind - ohne wissen zu müssen, wo sie zuerst suchen müssen. [Weitere Informationen](../../rp_landing_pages/get-started-landing-page.md)
 

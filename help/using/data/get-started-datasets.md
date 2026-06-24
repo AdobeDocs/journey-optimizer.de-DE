@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Dat
 * Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
 
 * Ab Februar 2025 wird für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live-Schutzmechanismus (TTL) eingeführt. [Weitere Informationen](datasets-ttl.md)
+
+* Die Aktivierung eines Datensatzes für Profil hat dauerhafte Auswirkungen auf der Schemaebene. Planen Sie Ihren Schema- und Identitätsentwurf sorgfältig, bevor Sie ihn aktivieren. [Weitere Informationen](#profile-datasets)
 
 ## Zugriff auf Datensätze {#access}
 
@@ -118,6 +120,21 @@ In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schem
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
+## Aktivieren von Datensätzen für Profile {#profile-datasets}
+
+Wenn Sie einen Datensatz erstellen, können Sie ihn aktivieren, um einen Beitrag zum [Echtzeit-Kundenprofil“ &#x200B;](../audience/get-started-profiles.md). Dadurch können die darin enthaltenen Daten für die Segmentierung, Personalisierung und das Journey in [!DNL Journey Optimizer] verwendet werden.
+
+Beachten Sie vor dem Aktivieren Folgendes:
+
+* **Die Aktivierung des Schemas ist dauerhaft.** Sobald das einem Datensatz zugrunde liegende Schema für das Profil aktiviert wurde, kann dies nicht mehr rückgängig gemacht werden. Das Schema kann nicht mehr deaktiviert oder gelöscht werden. Nur der Datensatz selbst kann separat deaktiviert oder gelöscht werden.
+* **Die Deaktivierung eines Datensatzes hat Folgen.** Sie können einen Datensatz für das Profil unabhängig vom Schema deaktivieren oder löschen, dadurch werden jedoch die zugehörigen Profildatensätze entfernt und die Segmentierungs- und Aktivierungs-Workflows können unterbrochen werden.
+* **Planung der Konfiguration vor der Aktivierung.** Das Ändern von Identitätsfeldern und Feldergruppenauswahlen wird nach der Aktivierung des Profils schwieriger. Schließen Sie zuerst den Schemaentwurf ab.
+
+Ausführliche Anleitungen finden Sie in der Dokumentation zu Adobe Experience Platform:
+
+* [Planung der Profilaktivierung](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} - Checkliste vor der Aktivierung, die die Identitätskonfiguration, die Feldergruppenauswahl und die Validierung des Datensatzzwecks umfasst.
+* [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} - Anleitung zur Einstellung von profilaktivierten Schemata, einschließlich Umbenennungsstrategien.
+
 ## Data Governance
 
 Sie können in einem Datensatz die Registerkarte **Data Governance** durchsuchen, um Kennzeichnungen auf Datensatz- und Feldebene zu überprüfen. Mit Data Governance werden Daten entsprechend dem anzuwendenden Richtlinientyp kategorisiert.
@@ -140,3 +157,4 @@ Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden
 >* [Dokumentation zu Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}
 >* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
 >* [Best Practices für die Verwaltung von Daten im Rahmen von Lizenzberechtigungen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
