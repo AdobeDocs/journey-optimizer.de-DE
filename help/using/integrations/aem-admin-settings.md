@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +49,25 @@ So konfigurieren Sie Ihr Repository:
 
    ![](assets/aem-admin-settings-1.png)
 
-1. Wenn Sie **[!DNL Adobe Experience Manager Managed Services]** verwenden, geben Sie einen Repository-Hostnamen, der mit `adobecqms.net` endet, in das Feld **[!UICONTROL Benutzerdefinierte AMS-Repo-ID]** ein.
+1. Wählen Sie eine Konfigurationsmethode:
 
-   ![](assets/aem-admin-settings-6.png)
+   * Geben Sie für **[!DNL Adobe Experience Manager Managed Services]** Repository einen Repository-Hostnamen ein, der mit `adobecqms.net` im Feld **[!UICONTROL AMS-Repository-Hostname]** endet.
 
-1. Wenn Sie **[!DNL Adobe Experience as a Cloud Service]** verwenden, wählen Sie das zu konfigurierende Repository aus und klicken Sie auf **[!UICONTROL Weiter]**.
+     ![](assets/aem-admin-settings-6.png)
 
-   Darüber hinaus können Sie auf **[!UICONTROL Anzeigen]** klicken, um auf dieses Repository zuzugreifen.
+   * Wenn Sie **[!DNL Adobe Experience as a Cloud Service]** verwenden, wählen Sie das zu konfigurierende Repository aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
-   >[!IMPORTANT]
-   >
-   >Das Speichern einer neuen Konfiguration für dieselbe Organisation, Sandbox und dasselbe Repository **ersetzt** die Standardkonfiguration, d. h. **publish** Repository.
+     Darüber hinaus können Sie auf **[!UICONTROL Anzeigen]** klicken, um auf dieses Repository zuzugreifen.
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >Das Speichern einer neuen Konfiguration für dieselbe Organisation, Sandbox und dasselbe Repository **ersetzt** die Standardkonfiguration, d. h. **publish** Repository.
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. Geben Sie **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** ein.
 
-1. Wählen Sie Ihr Setup:
+1. Wählen Sie Ihr Setup aus der Dropdown-Liste unten aus:
 
    +++ Setup nur für Autor
 
@@ -74,6 +76,8 @@ So konfigurieren Sie Ihr Repository:
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ Einrichtung der Veröffentlichungsinstanz
 
