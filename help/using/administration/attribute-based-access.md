@@ -10,12 +10,21 @@ level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
 source-wordcount: 1644
@@ -51,7 +60,7 @@ Beachten Sie, dass der Zugriff auf **[!UICONTROL Rollen]**, **[!UICONTROL Richtl
 
 >[!IMPORTANT]
 >
->>Vor dem Verwalten von Berechtigungen für eine Rolle muss eine Richtlinie erstellt werden. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
+>&#x200B;>Vor dem Verwalten von Berechtigungen für eine Rolle muss eine Richtlinie erstellt werden. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de){target="_blank"} verfügbar.
 
 **[!UICONTROL Rollen]** sind eine Gruppe von Benutzenden, die innerhalb Ihrer Organisation dieselben Berechtigungen, Labels und Sandboxes verwenden. Alle Benutzenden, die einer **[!UICONTROL Rolle]** angehören, haben die Berechtigung für die Adobe-Anwendungen und -Dienste, die im Produkt enthalten sind. Eigene **[!UICONTROL Rollen]** können erstellt werden, wenn der Zugriff der Benutzenden auf bestimmte Funktionen oder Objekte in der Oberfläche präziser definiert werden soll.
 
