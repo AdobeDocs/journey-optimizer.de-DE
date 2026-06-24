@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 Nachdem Sie die Journey in **[!UICONTROL Simulation]** validiert haben, überprüfen Sie das **[!UICONTROL Ergebnisse]**-Protokoll. Wenn Fehler auftreten, lassen Sie **[!UICONTROL Simulation]**, wenden Sie die erforderlichen Änderungen auf die Journey an und führen Sie **[!UICONTROL Simulation]** erneut aus, bis der Durchlauf korrekt aussieht. Sie können dann die Journey veröffentlichen. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
 
 ## Auslösen Ihrer Ereignisse {#firing-events}
+
+>[!NOTE]
+>
+>In der Simulation ausgelöste Ereignisse werden in speziellen Datensätzen in Adobe Experience Platform gespeichert, die wie folgt beschriftet sind: ``JOtestmode - <schema of your event>``.
 
 Wenn Ihr Journey ein oder mehrere unitäre Ereignisse enthält, können Sie diese mit einem Trigger versehen, während die Simulation aktiv ist. Für Journey, die nicht mit einem Ereignis beginnen, aber eines beinhalten, wird dieser Abschnitt erst angezeigt, wenn ein simulierter Benutzer auf die Journey zugreift.
 
