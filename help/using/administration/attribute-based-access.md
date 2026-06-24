@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 96%
+source-wordcount: 1644
+ht-degree: 65%
 
 ---
 
@@ -181,3 +181,51 @@ Wenn die bzw. der Benutzende Y ohne Zugriff auf Objekte mit dem Label „C2“ a
 * Die bzw. der Benutzende Y kann den Ausdruck löschen.
 * Die bzw. der Benutzende Y kann die Journey nicht testen.
 * Die bzw. der Benutzende Y kann die Journey nicht veröffentlichen.
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+* **TL;DR:** Schützen Sie sensible Datenfelder in Journey Optimizer, indem Sie Governance-Kennzeichnungen auf Schemafelder anwenden und Rollen entsprechende Kennzeichnungen zuweisen, sodass nicht autorisierte Benutzende keine Journey anzeigen, bearbeiten, testen oder veröffentlichen können, die diese eingeschränkten Felder verwenden.
+
+**intents:**
+
+* Erstellen Sie eine Rolle und weisen Sie eine Governance-Kennzeichnung zu, um den Zugriff auf bestimmte Schemafelder zu beschränken
+* Anwenden einer Kennzeichnung auf ein Schemafeld in Adobe Experience Platform, um Zugriffsbeschränkungen zu erzwingen
+* Verwenden eines gekennzeichneten Schemafelds auf einer Journey Optimizer-Journey
+* Erfahren Sie, wie Benutzende ohne die erforderliche Kennzeichnung in Journey auf Zugriffsbeschränkungen zugreifen können
+* Verwalten von Rollen, Richtlinien und Produkten über die attributbasierte Zugriffssteuerungs-API
+
+**Glossar:**
+
+* **ABAC (Attribute-based Access Control, attributbasierte Zugriffssteuerung)**: Eine Funktion zur Definition von Berechtigungen zum Verwalten des Datenzugriffs für bestimmte Teams oder Benutzergruppen basierend auf Attributen wie Kennzeichnungen *(produktspezifisch)*
+* **Rolle**: Eine Gruppe von Benutzern mit denselben Berechtigungen, Kennzeichnungen und Sandboxes innerhalb einer Organisation *(produktspezifisch)*
+* **Label**: Eine Governance-Markierung (z. B. C2), die auf Schemafelder, Datensätze oder Zielgruppen angewendet wird, um zu steuern, welche Rollen auf sie zugreifen können *(produktspezifisch)*
+* **Policy**: Eine Konfiguration, die vor der Verwaltung von Berechtigungen für eine Rolle erstellt werden muss - Voraussetzung für ABAC *(produktspezifisch)*
+* **XDM-Schema**: Experience-Datenmodellschema, das zum Definieren der Datenstruktur in Adobe Experience Platform verwendet wird *(produktspezifisch)*
+
+**Leitplanken:**
+
+* Eine Richtlinie muss erstellt werden, bevor Berechtigungen für eine Rolle verwaltet werden können (Voraussetzung, wie im wichtigen Hinweis auf der Seite angegeben)
+* Eine falsche Verwendung von Kennzeichnungen kann den Zugriff für Personen- und Trigger-Richtlinienverletzungen unterbrechen (wie in der Warnung auf der Seite angegeben)
+* Benutzende ohne einer Kennzeichnung, die mit einem eingeschränkten Feld übereinstimmt, können den eingeschränkten Feldnamen nicht anzeigen, Ausdrücke bearbeiten, die im erweiterten Modus darauf verweisen, die Journey testen oder die Journey veröffentlichen
+
+**Terminologie:**
+
+* Kanonischer Name: Attributbasierte Zugriffssteuerung — Akronym: ABAC — Varianten: Attributbasierte Zugriffsverwaltung
+* Kanonischer Name: Experience-Datenmodell — Akronym: XDM — Varianten: XDM-Schema, XDM-Schemata
+* Synonyme: „Label“ = „Governance-Kennzeichnung“ = „Data Governance-Kennzeichnung“
+* Verwechseln Sie nicht: „Rolle“ (eine Benutzergruppe mit freigegebenen Berechtigungen und Beschriftungen) ≠ „Richtlinie“ (Regeln zur Durchsetzung des Datenzugriffs basierend auf Beschriftungen)
+* Verwechseln Sie nicht: ABAC (steuert den Zugriff auf Schemafelder, Datensätze und Zielgruppen über Kennzeichnungsrichtlinien auf Plattformebene) ≠ OLAC (steuert den Zugriff auf bestimmte Journey Optimizer-Objekte wie Journey und Kampagnen)
+
+**FAQ:**
+
+* **F: Können Kennzeichnungen zu integrierten Rollen hinzugefügt werden?** — Ja, Kennzeichnungen können sowohl benutzerdefinierten als auch integrierten Rollen hinzugefügt werden.
+* **F: Was geschieht mit einem Anwender, dem die Bezeichnung für ein eingeschränktes Feld auf einer Journey fehlt?** — Das Feld ist für sie nicht sichtbar; sie können keine Ausdrücke bearbeiten, die darauf verweisen, die Journey testen oder die Journey veröffentlichen.
+* **F: Können Kennzeichnungen auf andere Objekte als Schemafelder angewendet werden?** — Ja. Kennzeichnungen können auch auf Schemata, Datensätze und Zielgruppen angewendet werden.
+* **F: Gibt es eine API zum Verwalten von Rollen, Richtlinien und Produkten mit ABAC?** — Ja; auf Rollen, Richtlinien und Produkte kann über die attributbasierte Zugriffssteuerungs-API zugegriffen werden.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

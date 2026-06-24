@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 24%
+source-wordcount: 1757
+ht-degree: 17%
 
 ---
 
@@ -80,3 +80,47 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Übersetzungsdienst | **[!DNL Manage translation in house]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungen intern.</br>**[!DNL Manage translation projects]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsprojekten.</br> **[!DNL Manage translation reviews]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsüberprüfungen.</br>**[!DNL Manage translation settings]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungseinstellungen.</br>**[!DNL Manage translation tasks]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsaufgaben.</br>**[!DNL View translation in house]**: Nur-Lese-Zugriff für Übersetzungen intern.</br>**[!DNL View translation projects]**: Nur-Lese-Zugriff für Übersetzungsprojekte.</br>**[!DNL View translation reviews]**: Nur-Lese-Zugriff für Übersetzungsüberprüfungen.</br>**[!DNL View translation tasks]**: Nur-Lese-Zugriff für Übersetzungsaufgaben. |
 
 {style="table-layout:fixed"}
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** Diese Seite bietet eine umfassende Referenz für alle integrierten Berechtigungen in Journey Optimizer, gruppiert nach Funktionsbereich, sodass Admins genau identifizieren können, welche Rechte beim Erstellen oder Überprüfen einer Rolle einbezogen werden sollen.
+
+**intents:**
+
+- Suchen Sie alle verfügbaren Berechtigungen für einen bestimmten Funktionsbereich (Journey, Kampagnen, Entscheidungs-Management, KI-Assistent usw.)
+- Identifizieren Sie die richtige Berechtigung, die einer benutzerdefinierten oder integrierten Rolle hinzugefügt werden soll
+- Unterscheiden zwischen Verwalten und Anzeigen von Berechtigungen pro Ressource
+- Berechtigungen für KI-Assistenten, orchestrierte Kampagnen und Erlebnis-Decisioning finden
+- Identifizieren Sie, welche Berechtigungen Journey-Ausführungsmodi abdecken (Testmodus, Probelauf, Simulation)
+
+**Glossar:**
+
+- **Integrierte Berechtigungen**: Vordefinierte einheitliche Rechte, die einer Rolle zugewiesen werden können, um den Zugriff auf Funktionen und Objekte in Journey Optimizer zu steuern. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene *(produktspezifisch)*
+- **Funktion**: Ein Funktionsbereich, der zugehörige Berechtigungen (z. B. Journey, Kampagnen, Entscheidungs-Management, KI-Assistent) *produktspezifisch) gruppiert*
+- **Testmodus**: Ein Journey-Ausführungsmodus. Die Berechtigung zum Veröffentlichen von Journey umfasst die Möglichkeit, den Testmodus zu starten *(produktspezifisch)*
+- **Probelauf**: Ein Journey-Ausführungsmodus. Die Berechtigung zum Veröffentlichen von Journey umfasst die Möglichkeit, den Probelauf zu starten *produktspezifisch)*
+- **Simulation**: Eine separate Journey-Funktion. Die Berechtigung &quot;Journey simulieren“ deckt das Lesen, Erstellen und Bearbeiten von Simulation in Journey *(produktspezifisch)*
+
+**Terminologie:**
+
+- Kanonischer Name: Integrierte Berechtigungen - Varianten: Standardberechtigungen, vordefinierte Berechtigungen
+- Verwechseln Sie nicht: &quot;Journey verwalten“ (umfasst Stopp im Live-, Testmodus und Probelauf) ≠ &quot;Journey veröffentlichen“ (umfasst Veröffentlichen, Testmodus starten, Probelauf starten, Pausieren und Fortsetzen)
+- Verwechseln Sie nicht: &quot;Journey simulieren“ (Berechtigung zum Lesen, Erstellen und Bearbeiten von Simulationen in Journeys) ≠ „Inhalt simulieren“ (Zugriff auf die Option „Inhalt simulieren“ für die Nachrichtenvorschau und den Testversand)
+- Verwechseln Sie nicht: „Inhalt generieren“ (Zugriff auf KI-Assistenten in Journey Optimizer) ≠ „KI-Assistenten aktivieren“ (Aktivieren oder Zugreifen auf KI-gestützte Kampagnen- und Zielgruppenfunktionen)
+- Verwechseln Sie nicht: „Testmodus“ (Journey-Ausführungsmodus, gesteuert über die Berechtigung &quot;Journey veröffentlichen„) ≠ „Probelauf“ (separater Journey-Ausführungsmodus, auch gesteuert über die Berechtigung &quot;Journey veröffentlichen„) ≠ „Simulation“ (separate Funktion über die Berechtigung &quot;Journey simulieren„)
+- Verwechseln Sie nicht: „Entscheidungen verwalten“ (CRUD für Entscheidungsentitäten) ≠ „Experience Decisioning verwalten“ (CRUD für Experience Decisioning-Einstellungen und Entscheidungsrichtlinien)
+
+**FAQ:**
+
+- **F: Welche Berechtigung ist erforderlich, um den KI-Assistenten für die Inhaltserstellung zu verwenden?** — Generieren von Inhalten (unter der Funktion „KI-Assistent„).
+- **F: Mit welcher Berechtigung kann ein Benutzer die Unterdrückungsliste exportieren?** — Export-Unterdrückungsliste (unter Kanalkonfigurationen).
+- **F: Welche Berechtigung gewährt schreibgeschützten Zugriff auf Journey** — Journey anzeigen (unter der Funktion Journey).
+- **F: Welche Berechtigung wird benötigt, um orchestrierte Kampagnen zu veröffentlichen?** — Veröffentlichen orchestrierter Kampagnen (unter „Orchestrierte Kampagnen„). Diese Berechtigung ist auch erforderlich, um eine orchestrierte Kampagne mithilfe eines Signals Trigger.
+- **F: Was deckt die Berechtigung Journey simulieren ab?** — Lesen, Erstellen und Bearbeiten von Simulation in Journey.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

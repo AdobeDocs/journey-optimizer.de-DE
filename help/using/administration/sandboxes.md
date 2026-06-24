@@ -22,10 +22,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 74%
+source-wordcount: 919
+ht-degree: 37%
 
 ---
 
@@ -92,3 +92,46 @@ Für die Synchronisierung des Inhalts mit der richtigen Sandbox muss dieselbe Sy
 Erfahren Sie, was Sandboxes sind und wie Sie zwischen Entwicklungs- und Produktions-Sandboxes unterscheiden. Erfahren Sie, wie Sie Sandboxes erstellen, zurücksetzen und löschen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+
++++ KI-Wissensreferenz
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+- **TL;DR:** Sandboxes unterteilen Ihre Journey Optimizer-Instanz in isolierte virtuelle Arbeitsbereiche für Entwicklung, Tests und Produktion. Sie werden Benutzenden über Rollen im Produkt „Berechtigungen“ zugewiesen und der Inhaltszugriff wird über freigegebene Ordner in Admin Console konfiguriert.
+
+**intents:**
+
+- Wechseln zwischen Sandboxes in der Journey Optimizer-Benutzeroberfläche mithilfe des Sandbox-Switchers
+- Zuweisen von einer oder mehreren Sandboxes zu einer Rolle im Produkt „Berechtigungen“
+- Entfernen des Sandbox-Zugriffs aus einer Rolle
+- Konfigurieren des Inhaltszugriffs (freigegebene Ordner) für eine Sandbox
+- Verstehen, wie Sandboxes mit Rollen und Berechtigungen zusammenhängen
+
+**Glossar:**
+
+- **Sandbox**: Eine virtuelle Umgebung, die die Journey Optimizer-Instanz in separate, isolierte Arbeitsbereiche für Entwicklung, Tests oder Produktionsverwendung unterteilt *(produktspezifisch)*
+- **Sandbox-**: Das Steuerelement oben rechts in der Journey Optimizer-Benutzeroberfläche neben dem Organisationsnamen, das zum Wechseln zwischen Sandboxes verwendet wird *(produktspezifisch)*
+- **Freigegebener Ordner**: Ein Speicherordner, der in Admin Console für eine Sandbox konfiguriert ist, die den Inhaltszugriff ermöglicht. Der Name muss mit dem Sandbox-Namen übereinstimmen, damit der Inhalt korrekt synchronisiert wird *(produktspezifisch)*
+
+**Leitplanken:**
+
+- Die Sandbox-Verwaltung kann nur von einem Produkt- oder Systemadministrator durchgeführt werden (eine feste Voraussetzung, wie im wichtigen Hinweis auf der Seite angegeben)
+- Freigegebene Ordnernamen müssen derselben Syntax folgen wie der Sandbox-Name, damit die Inhalte mit der richtigen Sandbox synchronisiert werden (wie auf der Seite angegeben)
+
+**Terminologie:**
+
+- Verwechseln Sie nicht: „Verwenden einer Sandbox“ (Wechseln dazu über die Benutzeroberfläche mit dem Sandbox-Umschalter) ≠ „Zuweisen einer Sandbox“ (Hinzufügen einer Sandbox zu einer Rolle im Berechtigungsprodukt) ≠ „Erstellen einer Sandbox“ (erfolgt in Adobe Experience Platform, nicht in Journey Optimizer)
+- Synonyme: „sandbox“ = „virtuelle Umgebung“ im Kontext dieser Seite
+- Verwechseln Sie nicht: „Zuweisen von Sandboxes“ (Hinzufügen von Sandboxes zu einer Rolle in Berechtigungen) ≠ „Verwalten von Sandboxes“ (Erstellen, Zurücksetzen oder Löschen von Sandboxes - erfolgt in Adobe Experience Platform)
+
+**FAQ:**
+
+- **F: Wie kann ich in Journey Optimizer zwischen Sandboxes wechseln?** - Verwenden Sie den Sandbox-Umschalter oben rechts im Bildschirm neben dem Namen Ihrer Organisation. Klicken Sie auf die aktive Sandbox und wählen Sie eine andere Sandbox aus der Dropdown-Liste aus.
+- **F: Wer kann Sandboxes Rollen zuweisen?** — Nur Produkt- oder Systemadministratoren.
+- **F: Wie werden Sandboxes Benutzern zur Verfügung gestellt?** - Sandboxes werden über Rollen im Produkt „Berechtigungen“ zugewiesen.
+- **F: Welche Namenskonvention muss für freigegebene Ordner gelten?** — Der freigegebene Ordner muss denselben Namen wie die Sandbox haben, mit der er verknüpft ist (wenn die Sandbox z. B. „Entwicklung“ heißt, muss der freigegebene Ordner auch „Entwicklung“ genannt werden).
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 0a5ada9b -->
