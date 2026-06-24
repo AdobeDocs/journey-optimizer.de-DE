@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die **Nutzen von Designs in einem Fragment** wurde präzisiert, um explizit das 5-Design-Kompatibilitätslimit zu dokumentieren (einschließlich der Adobe-Standard-Design-Einschränkung) und zu erklären, dass das Einfügen von Fragmenten blockiert wird, wenn das E-Mail-Design nicht zu den mit Fragmenten verknüpften Designs gehört. [Weitere Informationen](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * Die Seiten **Erste Schritte mit Datensätzen** und **Erste Schritte mit Schemata** wurden mit Anleitungen zur Aktivierung von Datensätzen und Schemata für das Echtzeit-Kundenprofil aktualisiert, einschließlich wichtiger Überlegungen, der Unterscheidung zwischen der Deaktivierung eines Datensatzes und seinem zugrunde liegenden Schema sowie Links zur Dokumentation zu Planung und Best Practices für Adobe Experience Platform. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md) und [Weitere Informationen zu Schemata](../data/get-started-schemas.md)
 
@@ -695,7 +697,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)

@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
-ht-degree: 89%
+source-wordcount: 1798
+ht-degree: 95%
 
 ---
 
@@ -78,11 +78,11 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, marken
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* Wenn Sie benutzerdefinierte Web-Schriftarten (einschließlich Google-Schriftarten) in Ihren Designs verwenden, beachten Sie, dass viele E-Mail-Clients sie nicht unterstützen. Definieren Sie immer geeignete Ersatzschriftarten in Ihrem Design, um die Lesbarkeit für alle E-Mail-Clients sicherzustellen.
+* Wenn Sie benutzerdefinierte Web-Schriftarten (einschließlich Google-Schriftarten) in Ihren Themen verwenden, beachten Sie, dass viele E-Mail-Clients diese nicht unterstützen. Definieren Sie immer geeignete Ersatzschriftarten in Ihrem Thema, um die Lesbarkeit für alle E-Mail-Clients sicherzustellen.
 
-   * Gmail und Yahoo! Laden Sie keine externen Web-Schriftarten und greifen Sie auf die Systemschriftarten zurück, unabhängig von der in Ihrem HTML/CSS angegebenen Schriftfamilie.
+   * Gmail und Yahoo! laden keine externen Web-Schriftarten und greifen auf die Systemschriftarten zurück, unabhängig von der in Ihrem HTML/CSS angegebenen Schriftfamilie.
    * Die einzigen von Gmail unterstützten Google-Schriftarten sind Roboto und Google Sans.
-   * E-Mail-Clients *die* Webfonts unterstützen, sind unter anderem Apple Mail, iOS Mail, Android Mail, Thunderbird und Outlook für macOS.
+   * Zu den E-Mail-Clients, die Web-Schriftarten *unterstützen*, gehören unter anderem Apple Mail, iOS Mail, Android Mail, Thunderbird und Outlook für macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -132,7 +132,7 @@ Gehen Sie wie folgt vor, um ein Design zu definieren, das Sie in künftigen E-Ma
 
    >[!NOTE]
    >
-   >Beachten Sie bei der Auswahl benutzerdefinierter Web-Schriftarten, dass viele E-Mail-Clients wie Gmail und Yahoo! Externe Web-Schriftarten werden nicht unterstützt, sondern es wird auf die Systemschriftarten zurückgegriffen. Erwägen Sie die Verwendung von Ersatzschriftarten, um sicherzustellen, dass Ihr Inhalt auf allen E-Mail-Clients korrekt angezeigt wird. [Weitere Informationen](#themes-guardrails)
+   >Beachten Sie bei der Auswahl benutzerdefinierter Web-Schriftarten, dass viele E-Mail-Clients wie Gmail und Yahoo! externe Web-Schriftarten nicht unterstützen, sondern auf Systemschriftarten zurückgreifen. Erwägen Sie die Verwendung von Ersatzschriftarten, um sicherzustellen, dass Ihr Inhalt in allen E-Mail-Clients korrekt angezeigt wird. [Weitere Informationen](#themes-guardrails)
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Abstand]** ein einzelnes Element aus der Liste aus, um es mit dem richtigen Abstand zwischen den verschiedenen Komponenten einzufügen.
 
@@ -246,11 +246,15 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen:
 
 1. Sie können zwischen den Registerkarten **[!UICONTROL Adobe]** und **[!UICONTROL Meine Designs]** navigieren und bis zu fünf kompatible Designs (aus beiden Registerkarten) für Ihr Fragment auswählen.
 
+   >[!NOTE]
+   >
+   >Diese Beschränkung wird aus Kompatibilitäts- und Leistungsgründen durchgesetzt. Das **[!UICONTROL Adobe-Standarddesign]** kann nicht entfernt werden. Sie können daher bis zu vier zusätzliche benutzerdefinierte Designs auswählen.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden, stellen Sie sicher, dass Sie ein [Design anwenden](#apply-themes-email), das Sie für dieses Fragment definiert haben. Anderenfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
+   >Wenn Sie dieses Fragment in einem E-Mail-Inhalt verwenden, muss das E-Mail-Design eines der mit dem Fragment verknüpften Designs sein. Wenn das Design nicht übereinstimmt, wird das Einfügen des Fragments blockiert.
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
@@ -280,7 +284,7 @@ Mit [!DNL Journey Optimizer] können Sie eine Vorlage, die mit manuellen Formati
 
 1. Geben Sie einen Namen für Ihr Design ein.
 
-1. Nehmen Sie Ihre eigenen Anpassungen vor, wie Sie es tun, wenn Sie ein Design von Grund auf neu erstellen, z. B. eine Farbvariante hinzufügen, Schriftarten bearbeiten usw. [Erfahren Sie, wie](#create-and-edit-themes)
+1. Nehmen Sie Ihre eigenen Anpassungen vor, als würden Sie ein Thema von Grund auf neu erstellen, indem Sie z. B. eine Farbvariante hinzufügen, Schriftarten bearbeiten usw. [Weitere Informationen](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 
