@@ -2,12 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migrieren von Batch-Zielgruppen aus Zielgruppen-Qualifizierungs-Journey
-description: Erfahren Sie, wie Sie Journey migrieren, die Batch-Zielgruppen in einem Zielgruppen-Qualifizierungsknoten vor dem Erzwingungsdatum des 3. August 2026 verwenden.
+description: Erfahren Sie, wie Sie Journey migrieren, die Batch-Zielgruppen in einem Zielgruppen-Qualifizierungsknoten vor dem Erzwingungsdatum August 2026 verwenden.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: Zielgruppen-Qualifizierung, Batch-Zielgruppe, Einstellung, Migration, Zielgruppe lesen, Streaming-Zielgruppe
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
 product_v2:
@@ -16,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 869
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ ht-degree: 0%
 
 # Migrieren von Batch-Zielgruppen aus Zielgruppen-Qualifizierungs-Journey {#aq-batch-migration}
 
-Ab dem 3. August 2026 blockiert Journey Optimizer die Veröffentlichung für Journeys, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwenden. Identifizieren Sie Ihren Anwendungsfall unten und folgen Sie dem empfohlenen Migrationspfad.
+Ab August 2026 blockiert Journey Optimizer die Veröffentlichung für Journeys, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwenden. Identifizieren Sie Ihren Anwendungsfall unten und folgen Sie dem empfohlenen Migrationspfad.
 
 >[!CAUTION]
 >
->**Erzwingungsdatum: 3. August 2026.** Neue, entworfene und duplizierte Journey, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwenden, können nach diesem Datum nicht mehr veröffentlicht werden. Seit der Veröffentlichung vom Juni 2026 wird auf der Journey-Arbeitsfläche bereits eine Validierungswarnung angezeigt.
+>**Erzwingungsdatum: August 2026.** Neue, entworfene und duplizierte Journey, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwenden, können nach diesem Datum nicht mehr veröffentlicht werden. Seit der Veröffentlichung vom Juni 2026 wird auf der Journey-Arbeitsfläche bereits eine Validierungswarnung angezeigt.
 
 ## Gründe für diese Änderung {#why}
 
@@ -42,10 +41,10 @@ Die **[Audience lesen](read-audience.md)**-Aktivität ist das richtige Tool für
 
 ## Wie Ihre Journey betroffen sind {#impact}
 
-Eine Live-Journey, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwendet, wird nach dem 3. August 2026 weiterhin ausgeführt. Wenn Sie die Journey jedoch stoppen, duplizieren oder erneut veröffentlichen, wird sie blockiert, bis die Konfiguration aktualisiert wird.
+Eine Live-Journey, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwendet, wird nach August 2026 weiterhin ausgeführt. Wenn Sie die Journey jedoch stoppen, duplizieren oder erneut veröffentlichen, wird sie blockiert, bis die Konfiguration aktualisiert wird.
 
 
-| Journey-Status | Auswirkungen nach dem 3. August 2026 |
+| Journey-Status | Auswirkungen nach August 2026 |
 | --- | --- |
 | **Live-Journey** | Nicht betroffen. Vorhandene Live-Journey werden weiterhin ausgeführt. Kein automatisches Anhalten. |
 | **Neue Journey** | Veröffentlichungssperre, bis die Batch-Zielgruppe ersetzt wurde. |

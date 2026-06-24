@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 51%
+source-wordcount: 2552
+ht-degree: 50%
 
 ---
 
@@ -149,6 +149,10 @@ Die **[!UICONTROL Zielgruppen-]**) ermöglicht Personen, die sich für eine [!DN
 Die Empfangsgeschwindigkeit dieser Daten ist hoch. Messungen zeigen, dass pro Sekunde 10.000 Ereignisse empfangen werden. Planen Sie Eintrittsspitzen, vermeiden Sie sie nach Möglichkeit, und bereiten Sie Ihren Journey darauf vor. Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Batch-Zielgruppen {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**Hinweis zu veralteten Versionen - August 2026**: Ab **August 2026** blockiert Journey Optimizer die Veröffentlichung für alle Journey, die eine Batch-Zielgruppe in einem **Zielgruppen-Qualifizierungsknoten** verwenden. Bestehende Live-Journey sind davon nicht betroffen. Neue, entworfene und duplizierte Journey mit dieser Konfiguration müssen vor August 2026 aktualisiert werden. [Erfahren Sie, wie Sie Ihre Journey migrieren](aq-batch-audiences-migration.md)
 
 Bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe tritt zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auf. Die Größe der Spitze hängt davon ab, wie viele Personen die Zielgruppe jeden Tag betreten oder verlassen.
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
+source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
 workflow-type: tm+mt
-source-wordcount: 3525
+source-wordcount: 3606
 ht-degree: 26%
 
 ---
@@ -132,6 +132,9 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journeys
 </tbody>
 </table>
 
+
+* [!BADGE Einstellung]{type=Negative} **Batch-Zielgruppen im Zielgruppen-Qualifizierungsknoten nicht mehr unterstützt** - Ab **August 2026** blockiert Journey Optimizer die Veröffentlichung für alle Journey, die eine Batch-Zielgruppe in einem **Zielgruppen-Qualifizierungsknoten** verwenden. Auf der Journey-Arbeitsfläche wurde bereits eine Validierungswarnung angezeigt. Bestehende Live-Journey sind davon nicht betroffen. Neue, entworfene und duplizierte Journey, die diese Konfiguration enthalten, müssen vor August 2026 aktualisiert werden. Verwenden Sie eine Streaming-Zielgruppe im Knoten Zielgruppenqualifizierung oder wechseln Sie zu einer Aktivität **Zielgruppe lesen**. [Erfahren Sie, wie Sie Ihre Journey migrieren](../building-journeys/aq-batch-audiences-migration.md)
+
 * **Anhaltende Journey direkt anhalten** - Sie können eine Journey jetzt direkt aus dem Status **Angehalten“**. Zuvor musste eine angehaltene Journey erneut unter **Live** gespeichert werden, bevor sie angehalten werden konnte. [Weitere Informationen](../building-journeys/journey-pause.md#stop-close-paused)
 
   Verfügbarkeitsdatum: 18.-22. Juni 2026
@@ -154,7 +157,6 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journeys
 
   Verfügbarkeit: 18. Juni 2026. Diese Funktion wird in den nächsten Tagen schrittweise für alle Regionen eingeführt.
 
-<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
