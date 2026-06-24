@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 66%
@@ -106,6 +106,8 @@ Die **[!UICONTROL Kampagnenübersicht]** dient als Dashboard für die SMS-Leistu
 
 Die **[!UICONTROL Verfolgte Kennzeichnungen]**-Tabelle bietet einen umfassenden Überblick über die Link-Kennzeichnungen in Ihren SMS-Nachrichten, wobei die Kennzeichnungen hervorgehoben werden, die den höchsten Besucher-Traffic generieren. Mit dieser Funktion können Sie die beliebtesten Links identifizieren und priorisieren.
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ Weitere Informationen zu den Metriken „Labels für verfolgten Link“
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren SMS-Nachrichten.
@@ -119,6 +121,8 @@ Die **[!UICONTROL Verfolgte Kennzeichnungen]**-Tabelle bietet einen umfassenden 
 ## Nachverfolgte Link-URLs {#track-link-url-sms}
 
 Die Tabelle **[!UICONTROL Nachverfolgte Link-URLs]** bietet einen umfassenden Überblick über die URLs in Ihren SMS-Nachrichten, die den höchsten Besucher-Traffic anziehen. Auf diese Weise können Sie die beliebtesten Links identifizieren und priorisieren und Ihr Verständnis der Profilinteraktion mit bestimmten Inhalten in Ihren SMS-Nachrichten verbessern.
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ Weitere Informationen zu den Metriken „Nachverfolgte Link-URLs“
 
