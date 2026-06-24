@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Inhaltsfragmente, Administration, Repository, Authentifizierung, Autor, Veröffentlichung
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** und **[!DNL Adobe Experience Manager Managed Service]** integrieren, sodass Sie **Inhaltsfragmente“ in Journey und** verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration&rbrace; auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
+Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** und **[!DNL Adobe Experience Manager Managed Service]** integrieren, sodass Sie **Inhaltsfragmente“ in Journey und** verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration} auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
 
 ➡️ Wenn das Repository konfiguriert ist, fahren Sie mit [Arbeiten mit Experience Manager-Inhaltsfragmenten](../integrations/aem-fragments.md) für Authoring- und Auswahlaufgaben in Journey Optimizer fort.
 
@@ -38,6 +36,8 @@ Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cl
 > **[!UICONTROL AEM-Integration]** speichert Repository-Einstellungen **pro Sandbox**. Jede Sandbox behält ihre eigenen Integrationen bei und gilt nicht für alle Sandboxes.
 
 Journey Optimizer speichert eine Integration pro Organisation, Sandbox und Adobe Experience Manager-Repository. Wenn Sie eine neue Integration für dieselbe Kombination speichern, ersetzt sie die vorherigen Einstellungen, nur die neueste Konfiguration wird beibehalten.
+
+➡️ [Entdecken Sie diese Funktion für Adobe Experience Manager Managed Service im Video](#video)
 
 So konfigurieren Sie Ihr Repository:
 
@@ -109,3 +109,8 @@ So konfigurieren Sie Ihr Repository:
 
 Beim Speichern dieser Konfiguration speichert Journey Optimizer sie für dieses Repository in der aktuellen Sandbox. Sie können dieses Repository und seine Einstellungen dann verwenden, wenn Sie im Inhaltsratgeber-Selektor Inhalte **und**.
 
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Administratoren die Repository-Einstellungen für Adobe Experience Manager Managed Services in Journey Optimizer konfigurieren, damit Marketing-Experten Inhaltsfragmente in Journey und Kampagnen verwenden können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
