@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 606
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie Sie Ihren Nachrichteninhalt in Adobe Journey Optimizer mithilfe von Testprofilen oder Beispieleingabedaten in der Vorschau anzeigen und testen können, um Rendering, Personalisierung und Genauigkeit vor dem Versand zu überprüfen.
+**Auf dieser Seite:** Erfahren Sie, wie Sie Ihren Nachrichteninhalt in Adobe Journey Optimizer mithilfe von Testprofilen oder Beispieleingabedaten in der Vorschau anzeigen und testen können, um Rendering, Personalisierung und Genauigkeit vor dem Versand zu überprüfen.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +36,7 @@ Sobald der Inhalt der definiert wurde, können Sie ihn vor dem Senden der Nachri
 
 Darüber hinaus können Sie auch Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen bzw. Empfänger oder Abonnentinnen bzw. Abonnenten zum Testen und Validieren senden sowie ihr Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients überprüfen. Darüber hinaus können Sie allgemeine Aspekte der Inhaltsqualität wie Lesbarkeit und Effektivität bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](brands-score.md#validate-quality)
 
-Alle diese Aktionen können mithilfe der Schaltfläche **[!UICONTROL Inhalt simulieren]** ausgeführt werden, auf die über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- und Web-Kanäle zugegriffen werden kann. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mithilfe von Beispieleingabedaten zu testen. Um eine Vorschau mit Testprofilen anzuzeigen, einen Testversand durchzuführen oder das E-Mail-Rendering zu überprüfen, wählen **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus.
+Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt werden, auf die Sie über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über E-Mail- und Web-Designer für den E-Mail- bzw. Web-Kanal zugreifen können. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mithilfe von Beispieleingabedaten zu testen.Um eine Vorschau mit Testprofilen anzuzeigen, einen Testversand durchzuführen oder das E-Mail-Rendering zu überprüfen, wählen Sie **[!UICONTROL Inhalt simulieren (AEP-Profile)]** in der Dropdown-Liste aus.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -81,4 +80,4 @@ Journey Optimizer bietet zwei Erlebnisse zum Testen von Inhalten:
 
 Erfahren Sie, wie Sie mit Testprofilen das E-Mail-Rendering über Postfächer hinweg testen, personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430337?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

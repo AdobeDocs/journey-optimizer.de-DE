@@ -6,7 +6,7 @@ description: Wiederverwendbare Inhaltsfragmente
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Wiederverwendbare Inhaltsfragmente in Adobe Journey Optimizer helfen Ihnen, Zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in die Verwendung von Fragmenten
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Erstellung, Verwaltung und Wiederverwendung von vi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen wiederverwendbarer Fragmente
 
@@ -40,7 +40,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen wiederverwendbarer visuel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Speichern vorhandener Inhalte als Fragmente
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Inhalte direkt über den E-Mail-Designer oder den Personal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwenden anpassbarer Fragmente
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie bestimmte Felder in Fragmenten bearbeitbar machen können,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Inhaltsfragmenten
 

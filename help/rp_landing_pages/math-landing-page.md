@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-16-12
 hide: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '86'
+workflow-type: ht
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Der Abschnitt „Mathematik“ in Adobe Journey Optimizer ermöglicht es Ihnen, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „random“
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie mit der Funktion „random“ in Adobe Journey Optimizer Z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „round“
 

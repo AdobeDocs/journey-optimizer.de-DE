@@ -10,9 +10,9 @@ keywords: Testen, Validieren, Genehmigen, Genehmigung, Qualitätssicherung, QS, 
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2281'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Diese Landingpage hilft Ihnen dabei, den richtigen Testansatz auszuwählen, je n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vorschau, Testen und Validieren von Inhalten
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testen der Journey
 
@@ -56,7 +56,7 @@ Validieren Sie Ihre Journey vor der Veröffentlichung, indem Sie sie mit bestimm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Journey-Probelauf
 
@@ -66,7 +66,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoring und Fehlerbehebung
 
@@ -76,7 +76,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalisierungs-Playground
 
@@ -86,7 +86,7 @@ Experimentieren Sie mit Personalisierungsausdrücken in einer sicheren Umgebung.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Inhaltsexperimente und A/B-Tests
 
@@ -96,7 +96,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Testadressenlisten für Stakeholder-Monitoring
 
@@ -106,7 +106,7 @@ Schließen Sie automatisch die Adressen interner Stakeholder in Sendungen ein, u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Konflikterkennung
 
@@ -275,7 +275,7 @@ Befolgen Sie diese empfohlenen Best Practices, um die Effektivität Ihrer Testbe
 
 1. **Personalisierung gründlich validieren** – Testen Sie mit mehreren [Testprofilen](../using/content-management/test-profiles.md), die unterschiedliche Attributwerte aufweisen, um zu bestätigen, dass Personalisierungs-Token ordnungsgemäß gerendert werden und Fallback-Werte funktionieren. Verwenden Sie den [Personalisierungs-Playground](../using/personalization/personalize.md#playground), um mit Personalisierungsausdrücken zu experimentieren und Code mit Beispieldaten zu testen, bevor Sie diese in Ihren Kampagnen anwenden.
 
-1. **Testen von Inhaltsvarianten mit Beispieldaten** - Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) aus CSV- oder JSON-Dateien, manuelle Eingabe oder KI-automatische Generierung, um bis zu 30 Personalisierungsszenarien zu testen, ohne zahlreiche Testprofile zu erstellen.
+1. **Testen von Inhaltsvarianten mit Beispieldaten** – Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) aus CSV- oder JSON-Dateien, aus manuellen Eingaben oder aus der automatischen KI-Generierung, um bis zu 30 Personalisierungsszenarien zu testen, ohne zahlreiche Testprofile erstellen zu müssen.
 
 1. **Testadressenlisten für das Stakeholder-Monitoring verwenden** – Konfigurieren Sie [Testadressenlisten](../using/configuration/seed-lists.md), um automatisch interne Stakeholder einzubeziehen, die zum Zeitpunkt der Ausführung Kopien aller Sendungen zur Qualitätsüberwachung und Compliance-Prüfung erhalten (nur E-Mail-Kanal).
 
@@ -364,7 +364,7 @@ Machen Sie sich mit diesen wesentlichen Testkonzepten vertraut, um die Test- und
 
 **[Probelauf](../using/building-journeys/journey-dry-run.md)** – Analyse-Tool für die Journey-Ausführung, das Pfade verfolgt, ohne Nachrichten zu senden oder API-Aufrufe durchzuführen. Anwendungsfall: Validierung der Logik, ohne Ressourcen zu verbrauchen. [Informationen zum Probelauf](../using/building-journeys/journey-dry-run.md)
 
-**[Beispieleingabedaten](../using/test-approve/simulate-sample-input.md)** - CSV- oder JSON-Dateien, manuelle Eingabe oder automatische KI-Generierung zum Testen der Personalisierung. Unterstützt bis zu 30 Varianten. [Informationen zum Simulieren von Inhaltsvarianten](../using/test-approve/simulate-sample-input.md)
+**[Beispieleingabedaten](../using/test-approve/simulate-sample-input.md)** – CSV- oder JSON-Dateien, manuelle Eingabe oder automatische KI-Generierung zum Testen der Personalisierung. Unterstützt bis zu 30 Varianten. [Informationen zum Simulieren von Inhaltsvarianten](../using/test-approve/simulate-sample-input.md)
 
 **[Testadressenlisten](../using/configuration/seed-lists.md)** – E-Mail-Adressen interner Stakeholder, die automatisch in die tatsächlichen Sendungen einbezogen werden (keine Testsendungen). Nur E-Mail-Kanal. Anwendungsfall: Qualitätsüberwachung und Compliance. [Konfigurieren von Testadressenlisten](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Machen Sie sich mit diesen wesentlichen Testkonzepten vertraut, um die Test- und
 
 >[!TAB Grundlegende Handbücher]
 
-* [Inhaltsvarianten simulieren](../using/test-approve/simulate-sample-input.md) - Testen von bis zu 30 Personalisierungsszenarien mithilfe von CSV- oder JSON-Dateien, manueller Eingabe oder KI-Automatisierung.
+* [Simulieren von Inhaltsvarianten](../using/test-approve/simulate-sample-input.md) – Testen Sie bis zu 30 Personalisierungsszenarien mithilfe von CSV- oder JSON-Dateien, manueller Eingabe oder automatischer KI-Generierung.
 
 * [Erstellen von Testprofilen](../using/audience/creating-test-profiles.md) – Erstellen und verwalten Sie Testprofile, um Kundenszenarien zu simulieren. Erfahren Sie, wie Sie Profile für Testzwecke kennzeichnen, Attribute festlegen und Testsegmente organisieren.
 

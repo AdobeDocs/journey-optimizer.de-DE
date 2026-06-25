@@ -10,22 +10,15 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie der Briefpostkanal funktioniert, damit Sie die Extraktionsdateien generieren können, die Drittanbieter verwenden, um physische Post an Ihre Kunden zu senden.
+**Auf dieser Seite:** Erfahren Sie, wie der Direkt-Mail-Kanal funktioniert, damit Sie die Extraktionsdateien generieren können, die Drittanbieter verwenden, um physische Post an Ihre Kundinnen und Kunden zu senden.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +56,7 @@ Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
 * **[Erstellen von Direkt-Mail](create-direct-mail.md)** – Erfahren Sie, wie Sie Direkt-Mail-Sendungen erstellen und Extraktionsdateien für Offline-Kanäle konfigurieren.
 * **[Konfigurieren des Direkt-Mail-Kanals](direct-mail-configuration.md)** – Richten Sie Direkt-Mail-Oberflächen und Datei-Routing-Konfigurationen ein.
-* **[Batch Decisioning in Briefpost](../experience-decisioning/batch-decisioning-direct-mail.md)** - Verwenden Sie Decisioning, um Extraktionsdateien für Briefpost zu personalisieren oder um Entscheidungsdaten für nachgelagerte Systeme zu exportieren.
+* **[Batch-Entscheidungsfindung in Direkt-Mail](../experience-decisioning/batch-decisioning-direct-mail.md)** – Verwenden Sie die Entscheidungsfindung, um Extraktionsdateien für Direkt-Mail zu personalisieren oder um Entscheidungsdaten für nachgelagerte Systeme zu exportieren.
 * **[Testen und Senden von Direkt-Mail](test-send-direct-mail.md)** – Erfahren Sie, wie Sie Ihre Direkt-Mail-Sendungen testen, validieren und veröffentlichen.
 * **[Tutorials zu Direkt-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** – Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen von Direkt-Mail und Best Practices.
 
@@ -73,7 +66,7 @@ Erfahren Sie, wie Sie den Direkt-Mail-Kanal in Adobe Journey Optimizer nutzen, u
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 

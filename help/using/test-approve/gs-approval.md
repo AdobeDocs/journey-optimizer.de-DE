@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +22,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Ein eingebetteter Genehmigungsprozess sorgt dafür, dass Journey und Kampagnen während der Überprüfung gesperrt bleiben, sodass die richtigen Stakeholder abzeichnen, bevor etwas live geht, wobei jede Anfrage zentral verwaltet und verfolgt wird.
+**Auf dieser Seite:** Ein eingebetteter Genehmigungsprozess sorgt dafür, dass Journeys und Kampagnen während der Überprüfung gesperrt bleiben, sodass die richtigen Verantwortlichen ihre Zustimmung geben müssen, bevor etwas live geschaltet wird. Dabei werden alle Anfragen zentral verwaltet und nachverfolgt.
 
 >[!ENDSHADEBOX]
 
@@ -146,4 +141,4 @@ Nein. Anfragende Personen können nicht manuell auswählen, welche Benutzergrupp
 * **[Erstellen von Genehmigungsrichtlinien](approval-policies.md)** – Erfahren Sie, wie Sie Genehmigungsrichtlinien einrichten, um Überprüfungs-Workflows für Kampagnen und Journeys durchzusetzen.
 * **[Genehmigung von Anfragen](request-approval.md)** – Verstehen Sie, wie Sie Inhalte zur Genehmigung einreichen und den Genehmigungsstatus verfolgen.
 * **[Prüfen und Genehmigen von Anfragen](review-approve-request.md)** – Erfahren Sie, wie Sie als genehmigende Person Anfragen überprüfen, genehmigen oder ablehnen können.
-* **[Inhaltsvarianten simulieren](simulate-sample-input.md)** - Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten, automatischer KI-Generierung oder simulierten Benutzern zu testen. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
+* **[Simulieren von Inhaltsvarianten](simulate-sample-input.md)** – Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten, automatischer KI-Generierung oder simulierten Benutzenden zu testen. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen.
