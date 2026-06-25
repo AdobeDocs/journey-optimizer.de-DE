@@ -13,10 +13,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 80%
+source-wordcount: 539
+ht-degree: 72%
 
 ---
 
@@ -30,9 +30,12 @@ ht-degree: 80%
 
 Mit **[!UICONTROL Orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene entwerfen und bereitstellen und dabei die relationalen Schemafunktionen von Adobe Experience Platform nutzen. Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem XDM-Schema strukturiert.
 
-Obwohl die Segmentierung für **[!UICONTROL orchestrierte Kampagnen]** hauptsächlich auf relationalen Schemata erfolgt, erfolgt der tatsächliche Nachrichtenversand immer auf der Ebene **Profil**.
+**[!UICONTROL Orchestrierte Kampagnen]** unterstützen zwei Arten von Zielgruppendimensionen:
 
-Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Aspekte:
+* **Zielgruppendimension**: Die integrierte Standardeinstellung, die Empfängerinnen und Empfänger direkt mithilfe des Schemas **Profil** anspricht.
+* **Benutzerdefinierte Zielgruppendimension**: Richtet Empfänger über ein relationales Schema aus (z. B. `Recipients`, `Visitors`, `Customers`). Verwenden Sie dies, wenn Sie Nachrichten auf Entitätsebene senden müssen - z. B. pro Abonnement oder pro Vertrag - und nicht auf Profilebene.
+
+Beim Konfigurieren einer benutzerdefinierten Zielgruppendimension definieren Sie zwei wichtige Aspekte:
 
 * **Targetierbare Schemata**
 
