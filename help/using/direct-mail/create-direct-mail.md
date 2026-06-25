@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 72%
@@ -137,7 +137,7 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
 1. Klicken Sie im Konfigurationsbildschirm der Kampagne oder des Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Extraktionsdatei zu konfigurieren.
 
-1. Um Ihrer Briefpostnachricht Entscheidungsrichtlinien hinzuzufügen, wählen Sie eine Spalte im Abschnitt **[!UICONTROL Datenfelder]** aus und öffnen Sie den Personalisierungseditor mithilfe des ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]**, um eine Entscheidungsrichtlinie zu erstellen und einzufügen. Anschließend können Sie Entscheidungselementattribute als Spaltendaten in der Extraktionsdatei verwenden.
+1. Um Ihrer Briefpostnachricht Entscheidungsrichtlinien hinzuzufügen, wählen Sie eine Spalte im Abschnitt **[!UICONTROL Datenfelder]** aus und öffnen Sie den Personalisierungseditor mithilfe des ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]**, um eine Entscheidungsrichtlinie zu erstellen und einzufügen. Anschließend können Sie Entscheidungselementattribute als Spaltendaten in der Extraktionsdatei verwenden.
 
    >[!AVAILABILITY]
    >
