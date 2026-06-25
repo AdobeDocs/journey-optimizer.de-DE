@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 22%
@@ -51,7 +50,9 @@ Typische Verwendungszwecke:
 * **Nachrichten und Zielgruppen**: Ziehen Sie im nächsten Schritt nur neue Anmeldungen, neue Käufer oder andere Segmente vom Typ „Neu seit der letzten Ausführung“ (z. B. E-Mail, SMS) in den nächsten Schritt.
 * **Laufende Exporte**: Senden Sie nur neue oder aktualisierte Zeilen an Dateien für Berichte oder BI-Tools, ohne zu duplizieren, was Sie bereits exportiert haben.
 
-Wenn ein Durchlauf keine Zeilen zurückgibt, stoppt die orchestrierte Kampagne bei der **Inkrementellen Abfrage**. Aktivitäten nach der inkrementellen Abfrage werden erst ausgeführt, wenn Daten vorhanden sind und die Kampagne erneut ausgeführt wird.
+>[!IMPORTANT]
+>
+>Wenn ein Durchlauf keine Zeilen zurückgibt, stoppt die orchestrierte Kampagne bei der **Inkrementellen Abfrage**. Aktivitäten nach der inkrementellen Abfrage werden erst ausgeführt, wenn Daten vorhanden sind und die Kampagne erneut ausgeführt wird.
 
 ## Konfigurieren der Aktivität „Inkrementelle Abfrage“ {#incremental-query-configuration}
 
@@ -63,7 +64,7 @@ Legen Sie die Zielgruppendimension fest, erstellen Sie Ihre Abfrage und wählen 
 
    ![](../assets/incremental-query.png)
 
-1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder &#x200B;](../orchestrated-rule-builder.md).
+1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder ](../orchestrated-rule-builder.md).
 
    ![](../assets/incremental-query-2.png)
 
