@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
-ht-degree: 77%
+source-wordcount: 6214
+ht-degree: 76%
 
 ---
 
@@ -185,7 +185,7 @@ Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [das Erst
 
 Verwendung **unitärer Journeys**:
 
-* Sie müssen in Echtzeit auf individuelle Kundenaktionen reagieren (z. B. Kaufbestätigung, Warenkorbabbruch)
+* Sie müssen in Echtzeit auf individuelle Kundenaktionen reagieren (z. B. Warenkorbabbruch, Onboarding von neuen Mitgliedern)
 * Jede Kundin bzw. jeder Kunde sollte in ihrem bzw. seinem eigenen Tempo fortschreiten
 * Sie möchten basierend auf bestimmten Ereignissen auslösen
 
@@ -286,17 +286,17 @@ Erfahren Sie mehr über [Profilaktualisierungen](update-profiles.md).
 
 +++
 
-+++ Wie sende ich eine E-Mail, sobald jemand einen Kauf tätigt?
++++ Wie sende ich eine E-Mail, sobald ein Warenkorb aufgegeben wird?
 
 Erstellen Sie eine **unitäre, durch ein Ereignis ausgelöste Journey**:
 
-1. Konfigurieren Sie ein Ereignis des Typs „Kauf“ mit den Bestelldetails.
+1. Konfigurieren Sie ein Ereignis „Warenkorbabbruch“ mit den relevanten Warenkorbdetails.
 2. Fügen Sie das Ereignis als Eintrittspunkt für Ihre Journey hinzu.
 3. Legen Sie für sofort danach eine E-Mail-Aktion fest.
-4. Gestalten Sie Ihre Bestellbestätigungs-E-Mail mit personalisierten Bestelldetails.
-5. Veröffentlichen Sie die Journey.
+4. Gestalten einer E-Mail zur Warenkorbwiederherstellung mit personalisierten Produktdetails
+5. Veröffentlichen der Journey
 
-Die Journey wird bei Erhalt eines Kaufereignisses automatisch ausgelöst und die Bestätigungs-E-Mail wird in Echtzeit gesendet.
+Die Journey wird automatisch Trigger, sobald ein Warenkorbabbruchs-Ereignis empfangen wird, wodurch die Wiederherstellungs-E-Mail in Echtzeit gesendet wird.
 
 Erfahren Sie mehr über [Ereigniskonfiguration](../event/about-events.md) und [E-Mail-Aktionen](journey-action.md).
 
@@ -369,7 +369,7 @@ Erfahren Sie mehr über die [Zeitzonenverwaltung](timezone-management.md).
 
 **Best Practices für Wartezeiten**:
 
-* **Transaktionsnachrichten** (Auftragsbestätigungen): sofortiger Versand
+* **Ausgelöste Marketing-Nachrichten** (Wiederherstellung bei Warenkorbabbruch): Sofort senden
 * **Begrüßungsserie**: 1–3 Tage zwischen den E-Mails
 * **Schulungsinhalte**: 3–7 Tage zwischen den Nachrichten
 * **Werbekampagnen**: mindestens 7 Tage zwischen den Angeboten

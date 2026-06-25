@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 30%
@@ -92,7 +92,7 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 |---|---|---|
 | **[Zielgruppe lesen](read-audience.md)** | Sie möchten eine geplante oder wiederkehrende Nachricht an eine definierte Gruppe von Profilen (Newsletter, Werbeaktionen, Onboarding-Serien) senden. | Alle Profile einer Batch-Zielgruppe auf einmal oder nach einem Zeitplan. |
 | **[Zielgruppenqualifizierung](audience-qualification-events.md)** | Sie müssen in Echtzeit reagieren, wenn ein Profil in eine Audience eintritt oder diese verlässt (Upgrade der Treuestufe, Markierung für Abwanderungsrisiko). | Jeweils ein Profil, sobald es sich für eine Streaming-Zielgruppe qualifiziert. |
-| **Unitäres Ereignis** | Bei einer Profilaktion wird eine sofortige Antwort Trigger (Kaufbestätigung, Formularübermittlung, App-Anmeldung). | Jeweils ein Profil in Echtzeit. |
+| **Unitäres Ereignis** | Bei einer Profilaktion wird eine sofortige Antwort Trigger (Warenkorbabbruch, Formularübermittlung, App-Anmeldung). | Jeweils ein Profil in Echtzeit. |
 | **[Geschäftsereignis](../event/about-creating-business.md)** | Ein Ereignis, das kein Profil ist, wirkt sich auf mehrere Personen gleichzeitig aus (Flugannullierung, Bestandsauffüllung, Eilmeldung). | Alle mit dem Ereignis verknüpften Profile über einen automatischen Schritt „Zielgruppe lesen“. |
 
 Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:

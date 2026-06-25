@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2289
-ht-degree: 19%
+source-wordcount: 2295
+ht-degree: 18%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 19%
 
 **Unitäre Ereignis-Journey** werden einzeln ausgelöst, wenn eine bestimmte Aktion auftritt (Kauf, App-Anmeldung, Formularübermittlung). Die Profile treten jeweils in Echtzeit einzeln ein, was dies ideal für sofortige, verhaltensgesteuerte Antworten macht.
 
-**Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Benachrichtigungen zum Zurücksetzen des Kennworts und Personalisierung nach der Anmeldung.
+**Perfekt für:** Wiederherstellung bei Warenkorbabbruch, Onboarding von neuen Mitgliedern, Willkommens-E-Mails, wenn sich jemand anmeldet, und Personalisierung nach der Anmeldung.
 
 ➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md) | [Erstellen Sie Ihre erste Journey](journey-gs.md)
 
@@ -100,7 +100,7 @@ Verwenden Sie die nachstehende Tabelle, um Ihr Ziel dem richtigen Journey-Typ zu
 
 | Ihr Ziel | Empfohlener Journey-Typ | Warum |
 |-----------|--------------------------|-----|
-| Senden einer Bestellbestätigung nach Kauf | Unitäres Ereignis | Sofortige Reaktion auf einzelne Aktionen |
+| Wiederherstellen eines Transaktionsabbruchs | Unitäres Ereignis | Sofortige Reaktion auf individuelles Verhalten |
 | Senden eines monatlichen Newsletters an Abonnentinnen und Abonnenten | Zielgruppe lesen | Geplante Batch-Kommunikation |
 | Benachrichtigen von Kundinnen und Kunden, wenn sie VIP-Status erreichen | Zielgruppenqualifizierung | Echtzeit-Antwort auf den Eintrag in die Streaming-Zielgruppe |
 | Benachrichtigen von Kundinnen und Kunden über niedrige Lagerbestände beobachteter Artikel | Geschäftsereignis | Geschäftsbedingung wirkt sich auf mehrere Kundinnen und Kunden aus |
@@ -120,7 +120,7 @@ Verwenden Sie die nachstehende Tabelle, um Ihr Ziel dem richtigen Journey-Typ zu
 | **Quelle des Triggers** | Kundenaktion (Kauf, Klick, Anmeldung) | Zeitbasierter Plan | Ein- oder Ausstieg aus der Zielgruppenmitgliedschaft | Geschäftsbedingung (Aktie, Preis) |
 | **Geeignet für** | Transaktionsnachrichten, Verhaltensreaktionen | Marketing-Kampagnen, Newsletter, wiederkehrende Programme | Treueprogramme, Übergänge in Lebenszyklusphasen | Bestandsbenachrichtigungen, Promotions, Geschäftsbedingungen |
 | **Verwendung** | Sofortige Reaktion auf einzelne Aktionen sind erforderlich | Große Zielgruppensegmente sollen planmäßig angesprochen werden | Auf Änderungen des Kundenstatus in Echtzeit reagieren | Geschäftsereignisse wirken sich auf mehrere Kunden gleichzeitig aus |
-| **Beispiele** | Bestellbestätigung, Passwortzurücksetzung | Monatlicher Newsletter, saisonale Kampagne | VIP-Upgrade, Warnhinweis zum Abwanderungsrisiko | Geringer Lagerbestand, Blitzverkauf, Preissenkung |
+| **Beispiele** | Wiederherstellung bei Warenkorbabbruch, Onboarding neuer Mitglieder | Monatlicher Newsletter, saisonale Kampagne | VIP-Upgrade, Warnhinweis zum Abwanderungsrisiko | Geringer Lagerbestand, Blitzverkauf, Preissenkung |
 | **Erneuter Eintritt** | Konfigurierbar | Standardmäßig einmal pro Ausführung; [Erneuten Eintritt bei Wiederholung erzwingen](read-audience.md#schedule) verfügbar bei geplanten Ausführungen | Pro Qualifizierungsereignis konfigurierbar; ein bereits auf der Journey befindliches Profil kann nicht erneut auf dieselbe Version zugreifen | Mehrere Profile können von demselben Ereignis betroffen sein |
 | **Maximaler Durchsatz** | 5.000 TPS (auf Organisationsebene mit Zielgruppen-Qualifizierung geteilt) | 20.000 TPS pro Sandbox | 5.000 TPS (auf Ebene der freigegebenen Organisation mit unitärem Ereignis) | Geschäftsereignis: 5.000 TPS; Audience-Schritt lesen: 20.000 TPS |
 | **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Zielgruppe [!DNL Adobe Experience Platform] | Streaming-Zielgruppe (erforderlich für Echtzeit-Eingabe); Batch-Zielgruppe unterstützt, Eingabe jedoch verzögert | Geschäftsereignisschema |
@@ -234,7 +234,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **FAQ:**
 
 * **F: Welchen Journey-Typ sollte ich für einen monatlichen Newsletter verwenden?** - Verwenden Sie eine Journey mit dem Titel „Zielgruppe lesen“. Sie ist für die geplante Batch-Kommunikation mit allen Profilen in einem Zielgruppensegment gleichzeitig konzipiert.
-* **F: Welcher Journey-Typ verarbeitet eine Bestellbestätigung nach einem Kauf?** - Verwenden Sie eine unitäre Ereignis-Journey. Sie bietet eine sofortige Echtzeit-Antwort auf eine individuelle Kundenaktion.
+* **F: Welchen Journey-Typ sollte ich verwenden, um einen Transaktionsabbruch wiederherzustellen?** — Verwenden Sie eine unitäre Ereignis-Journey. Sie wird sofort bei Eintreten des Abbruchsereignisses Trigger und reagiert in Echtzeit auf das Verhalten des Kontakts.
 * **F: Kann ich A/B-Pfadexperimente auf einer Geschäftsereignis-Journey durchführen?** — Nein. Pfadexperimente werden für Geschäftsereignis-Journey nicht unterstützt.
 * **F: Was ist der Unterschied zwischen einer unitären Ereignis-Journey und einer Zielgruppen-Qualifizierungs-Journey?** — Ein unitäres Ereignis-Journey wird durch eine bestimmte Kundenaktion ausgelöst (z. B. Kauf). Eine Zielgruppen-Qualifizierungs-Journey wird Trigger, wenn ein Profil basierend auf der Bewertung von Streaming-Kriterien in ein Zielgruppensegment eintritt oder daraus austritt.
 * **F: Welche Journey-Typen unterstützen inkrementelles Lesen?** — Nur „Zielgruppen-Journey lesen“ unterstützt inkrementelles Lesen. Die anderen drei Journey-Typen nicht.

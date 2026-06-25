@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c70b128e07c801e729a1268600265e47d7240291
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: 2183
 ht-degree: 67%
 
 ---
@@ -86,7 +86,7 @@ Ein **Zielgruppen-Qualifizierungsereignis** wird ausgelöst, wenn ein Profil in 
 |---|---|---|
 | **Mit einem Profil verknüpft?** | Ja - ausgelöst durch die Aktion einer bestimmten Person. | Nein — ausgelöst durch ein externes Ereignis, das nicht an eine Person gebunden ist. |
 | **Eintrittsverhalten** | Ein Profil gelangt in Echtzeit auf die Journey. | Mehrere Profile treten über einen automatischen Schritt „Zielgruppe lesen“ ein. |
-| **Typische Anwendungsfälle** | Kaufbestätigung, Formularübermittlung, App-Anmeldung, Treuemeilenstein. | Flugstornierung, Warnhinweis bezüglich der Bestandsauffüllung, aktuelle Nachrichten, Wetterereignis. |
+| **Typische Anwendungsfälle** | Warenkorbabbruch, Wiederherstellung, Formularübermittlung, App-Anmeldung, Treuemeilenstein. | Flugstornierung, Warnhinweis bezüglich der Bestandsauffüllung, aktuelle Nachrichten, Wetterereignis. |
 | **Wie startet man die Journey** | Ereignisbasierter Eintrag - keine Zielgruppe erforderlich. | Geschäftsereignis + automatische Zielgruppe lesen (von Journey Optimizer hinzugefügt). |
 | **Mehrere pro Journey?** | Ja, Sie können mehrere unitäre Ereignisse über Journey-Schritte hinweg überwachen. | Nein - nur ein Geschäftsereignis pro Journey, platziert am Anfang. |
 | **Ereignis-ID-Typ** | Regelbasiert oder systemgeneriert. | Immer regelbasiert. |
