@@ -8,21 +8,15 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -85,7 +79,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
 +++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
-1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
+1. Klicken Sie auf das Symbol ![](assets/do-not-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
 1. Klicken Sie auf die **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
@@ -111,7 +105,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
    +++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalization-Editor
 
-   1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg)-Symbols im Feld Betreffzeile oder in einem beliebigen Feld im E-Mail-Textkörper, in dem Sie eine Personalisierung hinzufügen können.
+   1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-not-localize/editor-icon.svg)-Symbols im Feld Betreffzeile oder in einem beliebigen Feld im E-Mail-Textkörper, in dem Sie eine Personalisierung hinzufügen können.
 
    1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
@@ -123,7 +117,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
    1. Öffnen Sie die E-Mail-Designer und wählen Sie eine beliebige Komponente in der E-Mail-Struktur aus.
 
-   1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
+   1. Klicken Sie auf das Symbol ![](assets/do-not-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
    1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neue Richtlinie hinzufügen]**.
 
@@ -155,7 +149,7 @@ Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Pers
 
 +++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
 
-1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-not-localize/editor-icon.svg).
 1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +158,7 @@ Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Pers
 
 +++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
-1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
+1. Klicken Sie auf das Symbol ![](assets/do-not-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
 1. Klicken Sie auf die **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
@@ -178,7 +172,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 +++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
 
-1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-not-localize/editor-icon.svg).
 1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +181,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 +++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
-1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
+1. Klicken Sie auf das Symbol ![](assets/do-not-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
 1. Klicken Sie auf die **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
 
@@ -195,17 +189,17 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 >[!IMPORTANT]
 >
->Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"} anzeigen.
+>Für Erlebnis-Entscheidungsfindung mit Push-Benachrichtigungen ist eine bestimmte Version des Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"} anzeigen.
 
 +++
 
 >[!TAB Briefpost]
 
-Fügen Sie für Briefpost eine Entscheidungsrichtlinie aus der Konfiguration **Extraktionsdatei“**. [Erfahren Sie, wie Sie eine Briefpostnachricht &#x200B;](../direct-mail/create-direct-mail.md).
+Fügen Sie für Briefpost eine Entscheidungsrichtlinie aus der Konfiguration **Extraktionsdatei“**. [Erfahren Sie, wie Sie eine Briefpostnachricht ](../direct-mail/create-direct-mail.md).
 
 1. Wählen Sie **[!UICONTROL Abschnitt &quot;]**&quot; eine Spalte aus oder klicken Sie auf **[!UICONTROL Hinzufügen]** um eine Spalte zu erstellen.
 
-1. Öffnen Sie im Formatierungsbereich den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+1. Öffnen Sie im Formatierungsbereich den Personalisierungseditor mithilfe des ![](assets/do-not-localize/editor-icon.svg).
 
    ![](assets/decision-policy-dm-add.png)
 

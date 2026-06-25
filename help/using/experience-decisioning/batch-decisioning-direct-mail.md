@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: Batch-Entscheidung, Briefpost, Entscheidung
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Batch-Entscheidungen in Briefpost unterstützen zwei Hauptanwendungsfälle:
 1. **Entscheidungsrichtlinie hinzufügen**:
 
    1. Klicken Sie **[!UICONTROL Inhalt bearbeiten]**, um die Extraktionsdatei zu konfigurieren.
-   1. Fügen Sie der Extraktionsdatei eine Spalte hinzu und öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+   1. Fügen Sie der Extraktionsdatei eine Spalte hinzu und öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-not-localize/editor-icon.svg).
 
       ![](assets/decision-policy-dm-add.png)
 

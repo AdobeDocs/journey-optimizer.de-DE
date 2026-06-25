@@ -10,20 +10,13 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 72%
@@ -137,7 +130,7 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
 1. Klicken Sie im Konfigurationsbildschirm der Kampagne oder des Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Extraktionsdatei zu konfigurieren.
 
-1. Um Ihrer Briefpostnachricht Entscheidungsrichtlinien hinzuzufügen, wählen Sie eine Spalte im Abschnitt **[!UICONTROL Datenfelder]** aus und öffnen Sie den Personalisierungseditor mithilfe des ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]**, um eine Entscheidungsrichtlinie zu erstellen und einzufügen. Anschließend können Sie Entscheidungselementattribute als Spaltendaten in der Extraktionsdatei verwenden.
+1. Um Ihrer Briefpostnachricht Entscheidungsrichtlinien hinzuzufügen, wählen Sie eine Spalte im Abschnitt **[!UICONTROL Datenfelder]** aus und öffnen Sie den Personalisierungseditor mithilfe des ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]**, um eine Entscheidungsrichtlinie zu erstellen und einzufügen. Anschließend können Sie Entscheidungselementattribute als Spaltendaten in der Extraktionsdatei verwenden.
 
    >[!AVAILABILITY]
    >
