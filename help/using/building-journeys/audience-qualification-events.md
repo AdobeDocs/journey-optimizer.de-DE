@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: 2584
 ht-degree: 50%
 
 ---
@@ -114,6 +114,10 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und -ID im JSON-Format](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >Um die Auswertungsmethode einer Zielgruppe vor der Verwendung zu identifizieren, öffnen Sie das Menü **[!UICONTROL Zielgruppen]**, wählen Sie die Zielgruppe aus und aktivieren Sie das Feld **[!UICONTROL Auswertungsmethode]** - **Streaming**, **Batch** oder **Edge**. Sie können in dieser Aktivität auch **[!UICONTROL Spalte]** Auswertungsmethode“ zur Audience-Liste hinzufügen. Die Auswertungsmethode beeinflusst die Einstiegszeit und welche Best Practices zur Anwendung kommen - siehe [Batch-Zielgruppen](#batch-speed-segment-qualification) und [Streaming-Zielgruppen](#streamed-speed-segment-qualification).
+
 1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Zielgruppeneintritte, -ausstiege oder beides überwacht werden sollen.
 
    >[!NOTE]
@@ -172,9 +176,7 @@ Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https:
 
 >[!NOTE]
 >
->Der Propagierungszeitpunkt für die Streaming-Segmentzugehörigkeit hängt davon ab, wie die Zugehörigkeit bewertet wird und wo sie im Journey verwendet wird:
->
->* **Zielgruppen-Qualifizierungsknoten + Streaming-Segment:** Wenn sich ein Profil für ein Streaming-Segment auf der Edge qualifiziert, wird diese Zugehörigkeit von Edge zu Hub projiziert, bevor die Journey darauf reagieren kann. Diese Übertragung von Edge auf den Hub dauert in der Regel **15 bis 30 Minuten**. Wenn Profile nicht wie erwartet in eine Zielgruppen-Qualifizierungs-Journey eintreten, sollte dieses Übertragungsfenster berücksichtigt werden (durch Hinzufügen einer Warteaktivität, falls zutreffend), bevor weitere Untersuchungen durchgeführt werden. Bei Anwendungsfällen, für die eine Echtzeit-Eingabe erforderlich ist, sollten Sie stattdessen einen unitären Ereignis-Trigger in Betracht ziehen.
+>Wenn sich ein Profil für ein Streaming-Segment auf der Edge qualifiziert, wird diese Zugehörigkeit von Edge zum Hub projiziert, bevor die Journey darauf reagieren kann. Diese Übertragung von Edge auf den Hub dauert in der Regel **15 bis 30 Minuten**. Wenn Profile nicht wie erwartet in eine Zielgruppen-Qualifizierungs-Journey eintreten, sollte dieses Übertragungsfenster berücksichtigt werden (durch Hinzufügen einer Warteaktivität, falls zutreffend), bevor weitere Untersuchungen durchgeführt werden. Bei Anwendungsfällen, für die eine Echtzeit-Eingabe erforderlich ist, sollten Sie stattdessen einen unitären Ereignis-Trigger in Betracht ziehen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
