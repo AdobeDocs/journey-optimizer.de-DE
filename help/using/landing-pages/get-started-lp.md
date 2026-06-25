@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Landingpages wandeln einen Klick aus einer E-Mail, Anzeige oder Kampagne in ein dediziertes Web-Ziel um, an dem sich Kundinnen und Kunden anmelden oder abmelden, ihre Voreinstellungen verwalten und Profildaten freigeben - so können Sie einverstandene Zielgruppen erweitern und die Erstanbieter-Daten erfassen, die der Personalisierung dienen.
+**Auf dieser Seite:** Landingpages wandeln einen Klick aus einer E-Mail, Anzeige oder Kampagne in ein dediziertes Web-Ziel um, bei dem sich Kundinnen und Kunden anmelden oder abmelden können, ihre Voreinstellungen verwalten und Profildaten freigeben können – so können Sie Zielgruppen erweitern, die zugestimmt haben, und die für die Personalisierung erforderlichen First-Party-Daten erfassen.
 
 >[!ENDSHADEBOX]
 

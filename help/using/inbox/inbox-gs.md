@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie der Posteingangskanal Marketing-Nachrichten an einem beständigen Ort innerhalb Ihrer App oder Website speichert, damit Benutzer zum Lesen zurückkehren und sie nach Belieben bearbeiten können.
+**Auf dieser Seite:** Erfahren Sie, wie der Posteingangskanal Marketing-Nachrichten an einem festen Ort innerhalb Ihrer App oder Website speichert, damit Benutzende jederzeit darauf zurückgreifen, sie lesen und entsprechend darauf reagieren können.
 
 >[!ENDSHADEBOX]
 

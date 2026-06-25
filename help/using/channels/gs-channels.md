@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 722
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Die nativen Kanäle von Adobe Journey Optimizer ermöglichen es Ihnen, Kunden über Ausgangs- und Eingangserlebnisse hinweg zu erreichen - vergleichen Sie E-Mail, SMS, Push, Live-Aktivitäten, Briefpost, WhatsApp, LINE, In-App, Web, Code-basierte und Inhaltskarten, um zu sehen, wo jede Komponente in Journey und Kampagnen unterstützt wird.
+**Auf dieser Seite:** Die nativen Kanäle von Adobe Journey Optimizer bieten Ihnen die Möglichkeit, Kundinnen und Kunden über Ausgangssendungen und Eingangserlebnisse hinweg zu erreichen – vergleichen Sie E-Mail, SMS, Push-Benachrichtigungen, Live-Aktivitäten, Direkt-Mail, WhatsApp, LINE, In-App, Web, Code-basierte Nachrichten und Inhaltskarten, um zu sehen, wo jede Komponente in Journeys und Kampagnen unterstützt wird.
 
 >[!ENDSHADEBOX]
 

@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie der Workflow Geführte Kanaleinrichtung automatisch die Tag-Eigenschaften, Datenströme und Kanalkonfigurationen erstellt, die zum Einrichten von Mobile- und Webkanälen in Adobe Journey Optimizer erforderlich sind.
+**Auf dieser Seite:** Erfahren Sie, wie der Workflow „Anleitung zur Kanaleinrichtung“ automatisch die Tag-Eigenschaften, Datenströme und Kanalkonfigurationen erstellt, die zum Einrichten von Mobile- und Web-Kanälen in Adobe Journey Optimizer erforderlich sind.
 
 >[!ENDSHADEBOX]
 

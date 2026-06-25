@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 804
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, was Adobe Journey Optimizer ist, welche Kernfunktionen es gibt und welche konkreten Anwendungsfälle es gibt, damit Sie entscheiden können, wie es Ihren Kundeninteraktionszielen entspricht.
+**Auf dieser Seite:** Erfahren Sie, was Adobe Journey Optimizer ist, welche Kernfunktionen es gibt und lernen Sie konkrete Anwendungsfälle kennen, damit Sie entscheiden können, wie dies zu Ihren Kundeninteraktionszielen passt.
 
 >[!ENDSHADEBOX]
 

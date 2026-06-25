@@ -6,8 +6,8 @@ description: Verfassen von Web-Seiten
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Entdecken Sie, wie Sie Web-Erlebnisse mit den leistungsstarken Tools von Adobe J
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Bearbeiten von Inhalten mit dem Web-Designer
 
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie den nicht-visuellen Editor für Web-Änderungen verwenden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Web-Änderungen in Adobe Journey Optimizer
 
@@ -56,11 +56,11 @@ Erfahren Sie, wie Sie Web-Änderungen mithilfe des Bereichs „Änderungen“ ve
 
 Erfahren Sie, wie Sie die Web-Interaktion mithilfe von Berichten und Klick-Tracking überwachen, um die Leistung und Benutzerinteraktionen zu optimieren.
 
-[Erste Schritte mit der Überwachung von Web-Erlebnissen](../using/web/monitor-web-experiences.md)
+[Erste Schritte mit dem Monitoring von Web-Erlebnissen](../using/web/monitor-web-experiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erstellen von Single Page Applications in Adobe Journey Optimizer
 

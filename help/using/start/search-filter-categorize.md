@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Suchen und organisieren Sie Journey, Kampagnen und Assets schnell mit universeller Suche, Listenfiltern und Tags, damit Sie auch bei wachsenden Journey Optimizer-Projekten produktiv bleiben können.
+**Auf dieser Seite:** Suchen und organisieren Sie Journeys, Kampagnen und Assets schnell mit universeller Suche, Listenfiltern und Tags, damit Sie auch bei wachsenden Journey Optimizer-Projekten produktiv bleiben können.
 
 >[!ENDSHADEBOX]
 

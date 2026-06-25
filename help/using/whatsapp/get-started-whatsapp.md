@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 440
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie der WhatsApp-Kanal in Journey Optimizer funktioniert und welche Voraussetzungen und Einschränkungen er bietet, damit Sie entscheiden können, wie Sie Ihren Journey und Kampagnen WhatsApp hinzufügen.
+**Auf dieser Seite:** Erfahren Sie, wie der WhatsApp-Kanal in Journey Optimizer funktioniert und welche Voraussetzungen und Einschränkungen er aufweist, damit Sie entscheiden können, wie Sie Ihren Journeys und Kampagnen WhatsApp hinzufügen.
 
 >[!ENDSHADEBOX]
 

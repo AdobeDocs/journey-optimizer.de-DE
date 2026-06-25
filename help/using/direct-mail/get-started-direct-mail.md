@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie der Briefpostkanal funktioniert, damit Sie die Extraktionsdateien generieren können, die Drittanbieter verwenden, um physische Post an Ihre Kunden zu senden.
+**Auf dieser Seite:** Erfahren Sie, wie der Direkt-Mail-Kanal funktioniert, damit Sie die Extraktionsdateien generieren können, die Drittanbieter verwenden, um physische Post an Ihre Kundinnen und Kunden zu senden.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
 * **[Erstellen von Direkt-Mail](create-direct-mail.md)** – Erfahren Sie, wie Sie Direkt-Mail-Sendungen erstellen und Extraktionsdateien für Offline-Kanäle konfigurieren.
 * **[Konfigurieren des Direkt-Mail-Kanals](direct-mail-configuration.md)** – Richten Sie Direkt-Mail-Oberflächen und Datei-Routing-Konfigurationen ein.
-* **[Batch Decisioning in Briefpost](../experience-decisioning/batch-decisioning-direct-mail.md)** - Verwenden Sie Decisioning, um Extraktionsdateien für Briefpost zu personalisieren oder um Entscheidungsdaten für nachgelagerte Systeme zu exportieren.
+* **[Batch-Entscheidungsfindung in Direkt-Mail](../experience-decisioning/batch-decisioning-direct-mail.md)** – Verwenden Sie die Entscheidungsfindung, um Extraktionsdateien für Direkt-Mail zu personalisieren oder um Entscheidungsdaten für nachgelagerte Systeme zu exportieren.
 * **[Testen und Senden von Direkt-Mail](test-send-direct-mail.md)** – Erfahren Sie, wie Sie Ihre Direkt-Mail-Sendungen testen, validieren und veröffentlichen.
 * **[Tutorials zu Direkt-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** – Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen von Direkt-Mail und Best Practices.
 

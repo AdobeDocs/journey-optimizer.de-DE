@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Überprüfen Sie die Audit-Protokolle, die Benutzeraktionen für Journey Optimizer-Ressourcen aufzeichnen, sodass Sie die Sichtbarkeit erhöhen, Probleme beheben und die Einhaltung von Vorschriften und Richtlinien zur Datenverwaltung demonstrieren können.
+**Auf dieser Seite:** Überprüfen Sie die Auditprotokolle, die Benutzeraktionen für Journey Optimizer-Ressourcen aufzeichnen, um die Sichtbarkeit zu erhöhen, Probleme zu beheben und die Einhaltung von Vorschriften und Richtlinien zur Datenverwaltung nachzuweisen.
 
 >[!ENDSHADEBOX]
 

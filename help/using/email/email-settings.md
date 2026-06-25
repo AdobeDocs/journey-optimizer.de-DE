@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Sie die E-Mail-Einstellungen in einer Kanalkonfiguration definieren, einschließlich E-Mail-Typ, Subdomain, IP-Pool, Abmelde-Liste, Kopfzeilenparameter, BCC, Testadressenliste, weiteren Zustellversuchen, URL-Tracking und Ausführungsadresse.
+**Auf dieser Seite:** Erfahren Sie, wie Sie die E-Mail-Einstellungen in einer Kanalkonfiguration definieren, einschließlich E-Mail-Typ, Subdomain, IP-Pool, Listen-Abmeldung, Kopfzeilenparameter, BCC, Seed-Liste, weiteren Zustellversuchen, URL-Tracking und Ausführungsadresse.
 
 >[!ENDSHADEBOX]
 

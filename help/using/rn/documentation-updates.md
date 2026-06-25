@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
-## Juni 2026 {#june-2026}
+## Juni 2026 {#june-2026}
 
 * Die Seite **Hochdurchsatzmodus** wurde aktualisiert, um die erweiterte regionale Verfügbarkeit widerzuspiegeln: Die Funktion ist jetzt in allen Regionen außer der Schweiz für Organisationen verfügbar, die mit dem Add-on „Hochdurchsatz-Transaktionsnachrichten“ lizenziert sind. [Weitere Informationen](../campaigns/api-triggered-high-throughput.md)
 
@@ -50,17 +50,17 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation zur **`nowWithDelta()`Datumsfunktion** aktualisiert, um das Monatsendverhalten zu verdeutlichen: Wenn der Zielmonat weniger Tage als der aktuelle Tag des Monats hat, wird das Ergebnis auf den letzten gültigen Tag dieses Monats normalisiert. [Weitere Informationen](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* Die **„Erste Schritte mit der Zustellbarkeit** wurde mit einem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger** aktualisiert. Sie listet die wichtigsten Postfachanbieter auf, die keine Spam-Beschwerden pro Empfänger zurückgeben - Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online - und erklärt, warum für Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
+* Die Seite **Erste Schritte mit der Zustellbarkeit** wurde mit dem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger bzw. Empfängerin** aktualisiert. Darin sind die wichtigsten Postfachanbieter aufgeführt, die keine Spam-Beschwerden pro Empfänger bzw. Empfängerin zurückgeben – Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online –, und es wird erklärt, warum für Empfängerinnen und Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
 
-* **Experience Decisioning ist jetzt für den Briefpost-Kanal verfügbar.** Auf einer neuen Seite **Batch Decisioning in Briefpost** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Briefpost-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Briefpost** wurde als unterstützter Kanal zur gesamten Entscheidungsdokumentation hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **Erlebnis-Entscheidung ist jetzt für den Direkt-Mail-Kanal verfügbar.** Auf der neuen Seite **Batch-Entscheidungsfindung in Direkt-Mail** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Direkt-Mail-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsfindungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Direkt-Mail** wurde als unterstützter Kanal zur gesamten Dokumentation zur Entscheidungsfindung hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* Die Dokumentation zu **Journey Fragments** wird nicht mehr als Eingeschränkte Verfügbarkeit gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus Inhalten **[!UICONTROL Fragments]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-**, **Audit-** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journey** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
+* Die Dokumentation zu **Journey-Fragmenten** ist nicht mehr als „Eingeschränkte Verfügbarkeit“ gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus **[!UICONTROL Inhaltsfragmenten]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-Tools**, **Auditprotokollen** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journeys** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
 
-* Die **Externe Datenquellen** und **Benutzerdefinierte Aktion** wurde für die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob die `access_token` oder `id_token` als Authentifizierungsberechtigung verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` werden und Verweise auf die &quot;Azure Entra ID“ wurden in &quot;Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
+* Die Dokumentation zu **externen Datenquellen** und **benutzerdefinierten Aktionen** wurde im Hinblick auf die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob das oder das `access_token`&#x200B;`id_token`als Anmeldeinformationen verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatsbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` sein und Verweise auf „Azure Entra ID“ wurden zu „Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
-* Die **„Erste Schritte mit der**&quot; wurde mit einem Prozessdiagramm aktualisiert, das den gesamten Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
+* Die Seite **Erste Schritte mit der Entscheidungsfindung** wurde mit einem Prozessdiagramm aktualisiert, das den durchgängigen Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
 
-* In der **Absenderkopfzeilen**-Dokumentation wird nun klargestellt, dass **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt oder beide leer gelassen werden müssen, da sonst Journey und Kampagnen nicht veröffentlicht werden können. [Weitere Informationen](../email/header-parameters.md#sender-header)
+* In der Dokumentation zu **Absender-Headern** wird nun klargestellt, dass die Felder **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** beide festgelegt oder beide leer gelassen werden müssen. Andernfalls können Journeys und Kampagnen nicht veröffentlicht werden. [Weitere Informationen](../email/header-parameters.md#sender-header)
 
 ## Mai 2026 {#may-2026}
 

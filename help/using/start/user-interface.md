@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Finden Sie Ihren Weg in der Benutzeroberfläche von Adobe Journey Optimizer - Symbolleiste, Startseite und linke Navigation -, damit Sie schnell auf die benötigten Funktionen und Möglichkeiten zugreifen können.
+**Auf dieser Seite:** Machen Sie sich mit der Benutzeroberfläche von Adobe Journey Optimizer vertraut – der oberen Leiste, der Startseite und dem linken Navigationsbereich –, damit Sie schnell auf die benötigten Funktionen und Möglichkeiten zugreifen können.
 
 >[!ENDSHADEBOX]
 

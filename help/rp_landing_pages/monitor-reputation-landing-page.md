@@ -6,7 +6,7 @@ description: E-Mail-Adressen überwachen
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Das Verwalten des Status Ihrer E-Mail-Kampagnen beginnt mit dem Monitoring der E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten der Unterdrückungsliste
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die E-Mail-Zustellbarkeit durch die Verwaltung von Unterdr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von weiteren Zustellversuchen und Unterdrückungslisten
 
@@ -40,7 +40,7 @@ Verstehen und konfigurieren Sie Wiederholungsmechanismen für Softbounce-Fehler,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Konfigurieren der Zulassungsliste
 

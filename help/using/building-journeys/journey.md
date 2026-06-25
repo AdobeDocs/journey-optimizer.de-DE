@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie mehr über die Grundlagen der Journey in Adobe Journey Optimizer, einschließlich Journey-Typen, Design-Workflow, wichtige Funktionen und Best Practices zum Erstellen personalisierter Kundenerlebnisse.
+**Auf dieser Seite:** Erfahren Sie mehr über die Grundlagen von Journeys in Adobe Journey Optimizer, einschließlich Journey-Typen, Design-Workflow, wichtigen Funktionen und Best Practices zum Erstellen personalisierter Kundenerlebnisse.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Erstellen einer Journey"
->abstract="Die Drag-and-Drop-Arbeitsfläche orchestriert Nachrichten und Aktionen über mehrere Kanäle hinweg und nutzt dabei kontextuelle Daten und Zielgruppen-Targeting, um eine maximale Wirkung zu erzielen."
+>abstract="Die intuitive Drag-and-Drop-Arbeitsfläche orchestriert Nachrichten und Aktionen über mehrere Kanäle hinweg und nutzt dabei kontextuelle Daten und Zielgruppen-Targeting, um eine maximale Wirkung zu erzielen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Erstellen Ihrer ersten Journey"
 
 

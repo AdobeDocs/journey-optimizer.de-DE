@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie Sie E-Mail-Inhalte in der E-Mail-Designer gestalten, wie Sie sie von Grund auf neu erstellen, codieren oder importieren und welche Best Practices Sie bei der clientübergreifenden Darstellung Ihrer E-Mails anwenden können.
+**Auf dieser Seite:** Erfahren Sie, wie Sie Ihre E-Mail-Inhalte im E-Mail-Designer gestalten. Informieren Sie sich dazu über die wesentlichen Schritte, die erforderlich sind, um sie von Grund auf neu, aus Code oder importiertem HTML zu erstellen, und über die Best Practices, mit denen Ihre E-Mails in allen Clients einwandfrei dargestellt werden.
 
 >[!ENDSHADEBOX]
 

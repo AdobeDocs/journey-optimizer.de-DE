@@ -7,8 +7,8 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '174'
+workflow-type: ht
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Die geführte Kanaleinrichtung in Adobe Journey Optimizer vereinfacht das Konfig
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Einrichten von Mobile- und Web-Kanälen
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie Mobile- und Web-Kanäle mithilfe der geführten Kanaleinri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Ändern von Kanalkonfigurationen
 

@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Legacy" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Das Exportieren Ihres Angebotskatalogs in Adobe Journey Optimizer öffnet die T�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Handbuch zum Exportieren von Angebotskatalogen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Ihren Angebotskatalog als Datensatz nach Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Zugreifen auf den exportierten Angebotskatalog
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie den exportierten Angebotskatalog in Adobe Experience Platf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zum Datensatz für personalisierte Angebote
 
@@ -55,7 +55,7 @@ Erkunden Sie die Felder und das hierarchische Schema des Datensatzes für person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Überblick über den Entscheidungsdatensatz
 
@@ -65,7 +65,7 @@ Machen Sie sich mit der hierarchischen Struktur, den Felddefinitionen und Metada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Details des Platzierungsdatensatzes
 
@@ -75,7 +75,7 @@ Erfahren Sie mehr über die Felder, das Schema und die Metadaten des Platzierung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Dokumentation zum Datensatz für Fallback-Angebote
 

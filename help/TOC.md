@@ -729,7 +729,7 @@ ht-degree: 98%
          + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision-policy.md)
          + [Verwenden von Entscheidungsrichtlinien in Nachrichten](using/experience-decisioning/use-decision-policy.md)
          + [Nutzen von Fragmenten in Entscheidungsrichtlinien](using/experience-decisioning/fragments-decision-policies.md)
-         + [Batch-Entscheidung in Briefpost](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [Batch-Entscheidung in Direkt-Mail](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
       + [Anwendungsfall für die Entscheidungsfindung](using/experience-decisioning/experience-decisioning-uc.md)
       + Erfassen von Ereignisdaten {#experience-decisioning-collect-event-data}

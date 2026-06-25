@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Sie den Stil Ihrer E-Mail-Inhalte im Bereich E-Mail-Designer-Stile anpassen und Einstellungen wie Farben, Schriftarten, Rahmen, Ränder und Abstand auf den Textkörper, die Struktur oder Inhaltskomponenten anwenden können.
+**Auf dieser Seite:** Erfahren Sie, wie Sie den Stil Ihrer E-Mail-Inhalte im Bereich „E-Mail-Designer-Stile“ anpassen und Einstellungen wie Farben, Schriftarten, Rahmen, Ränder und Abstand auf den Textkörper, die Struktur oder Inhaltskomponenten anwenden können.
 
 >[!ENDSHADEBOX]
 

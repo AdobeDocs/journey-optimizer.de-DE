@@ -26,9 +26,9 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 278
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Entdecken Sie die Adobe Journey Optimizer- und Adobe Experience Platform-Tools zur Verwaltung von Datenanfragen, Auditprotokollen, Einverständnis und Governance-Richtlinien, damit Sie personenbezogene Daten verantwortungsvoll verarbeiten und Vorschriften wie die DSGVO einhalten können.
+**Auf dieser Seite:** Lernen Sie die Tools Adobe Journey Optimizer und Adobe Experience Platform zur Verwaltung von Datenanfragen, Auditprotokollen, Einverständniserklärungen und Governance-Richtlinien kennen, damit Sie verantwortungsbewusst mit personenbezogenen Daten umgehen und Vorschriften wie die DSGVO einhalten können.
 
 >[!ENDSHADEBOX]
 

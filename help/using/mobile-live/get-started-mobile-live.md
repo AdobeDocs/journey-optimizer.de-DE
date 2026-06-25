@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Live-Aktivitäten dauerhafte Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island bereitstellen, damit Sie die Benutzerinnen und Benutzer bei laufenden Ereignissen aktiv halten und die Konfiguration und API-ausgelösten Kampagnen planen können, die zum Senden mit Adobe Journey Optimizer erforderlich sind.
+**Auf dieser Seite:** Erfahren Sie, wie Live-Aktivitäten dauerhafte Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island bereitstellen, damit Sie die Benutzerinnen und Benutzer bei laufenden Ereignissen weiterhin einbinden und die erforderliche Konfiguration und durch APIs ausgelöste Kampagnen planen können, um diese mit Adobe Journey Optimizer zu versenden.
 
 >[!ENDSHADEBOX]
 

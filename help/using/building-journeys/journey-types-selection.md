@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
 workflow-type: tm+mt
-source-wordcount: 2295
+source-wordcount: 2299
 ht-degree: 18%
 
 ---
@@ -76,7 +76,11 @@ ht-degree: 18%
 
 **Verwendung:** Echtzeit-Reaktionen auf Änderungen der Zielgruppenzugehörigkeit
 
-**Journeys des Typs „Zielgruppenqualifizierung“** werden ausgelöst, wenn Profile sich für ein bestimmtes Zielgruppensegment qualifizieren (oder daraus aussteigen). Profile treten einzeln ein, wenn sie die Kriterien erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert. Für das Echtzeit-Einstiegsverhalten muss die Zielgruppe nur im nächsten Auswertungsfenster **Streaming-ausgewertet**; Trigger-Eintrag für Batch-ausgewertete Zielgruppen (bis zu 24 Stunden) erfolgen.
+**Journeys des Typs „Zielgruppenqualifizierung“** werden ausgelöst, wenn Profile sich für ein bestimmtes Zielgruppensegment qualifizieren (oder daraus aussteigen). Profile treten einzeln ein, wenn sie die Kriterien erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert. Verwenden Sie **Streaming-ausgewertete** Zielgruppen - dies sind die einzigen unterstützten Zielgruppentypen für diese Aktivität.
+
+>[!CAUTION]
+>
+>Ab **. August** können Journey, die eine Batch-Zielgruppe in einem Zielgruppen-Qualifizierungsknoten verwenden, nicht mehr veröffentlicht werden. [Erfahren Sie, wie Sie Ihre Journey migrieren](aq-batch-audiences-migration.md)
 
 **Perfekt für:** Benachrichtigungen zu Upgrades der VIP-Stufe, Meldungen zu ersten Kauffeiern, Warnhinweise zu Abwanderungsrisiken und Übergänge in der Treueprogramm-Phase.
 
@@ -123,7 +127,7 @@ Verwenden Sie die nachstehende Tabelle, um Ihr Ziel dem richtigen Journey-Typ zu
 | **Beispiele** | Wiederherstellung bei Warenkorbabbruch, Onboarding neuer Mitglieder | Monatlicher Newsletter, saisonale Kampagne | VIP-Upgrade, Warnhinweis zum Abwanderungsrisiko | Geringer Lagerbestand, Blitzverkauf, Preissenkung |
 | **Erneuter Eintritt** | Konfigurierbar | Standardmäßig einmal pro Ausführung; [Erneuten Eintritt bei Wiederholung erzwingen](read-audience.md#schedule) verfügbar bei geplanten Ausführungen | Pro Qualifizierungsereignis konfigurierbar; ein bereits auf der Journey befindliches Profil kann nicht erneut auf dieselbe Version zugreifen | Mehrere Profile können von demselben Ereignis betroffen sein |
 | **Maximaler Durchsatz** | 5.000 TPS (auf Organisationsebene mit Zielgruppen-Qualifizierung geteilt) | 20.000 TPS pro Sandbox | 5.000 TPS (auf Ebene der freigegebenen Organisation mit unitärem Ereignis) | Geschäftsereignis: 5.000 TPS; Audience-Schritt lesen: 20.000 TPS |
-| **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Zielgruppe [!DNL Adobe Experience Platform] | Streaming-Zielgruppe (erforderlich für Echtzeit-Eingabe); Batch-Zielgruppe unterstützt, Eingabe jedoch verzögert | Geschäftsereignisschema |
+| **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Zielgruppe [!DNL Adobe Experience Platform] | Streaming-Zielgruppe erforderlich. Batch-Zielgruppen ab August 2026 veraltet — [Jetzt migrieren](aq-batch-audiences-migration.md) | Geschäftsereignisschema |
 
 ## Funktionskompatibilität nach Journey-Typ {#feature-compatibility}
 
@@ -217,7 +221,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Der erneute Profileintritt in den Journey der Aktivität „Zielgruppe lesen“ ist standardmäßig auf einmal pro Ausführung beschränkt. Verwenden Sie bei wiederholten Ausführungen die Option „Erneuten Eintritt bei Wiederholung erzwingen“, damit Profile bei der nächsten Ausführung erneut eintreten können
 * Die Aktivität „Zielgruppe lesen“ ist nur als Journey-Eintrag in den Journey-Einträgen „Zielgruppe lesen“ und „Geschäftsereignis“ verfügbar, nicht jedoch in den Journey-Einträgen „Unitäres Ereignis“ oder „Zielgruppen-Qualifizierung“
 * Zielgruppen-Qualifizierungs- und Zielgruppen-Journey lesen können keine Sprungaktivität enthalten und auch nicht das Ziel einer Sprungaktivität von einer anderen Journey sein
-* Journey zur Zielgruppenqualifizierung erfordern eine vom Streaming ausgewertete Zielgruppe für die Echtzeiteingabe; Batch-ausgewertete Zielgruppen verursachen Einstiegsverzögerungen von bis zu 24 Stunden
+* Zielgruppen-Qualifizierungs-Journey erfordern eine vom Streaming ausgewertete Zielgruppe. Ab August 2026 können Batch-ausgewertete Zielgruppen nicht mehr in einem Zielgruppen-Qualifizierungsknoten verwendet werden - siehe [Migrationshandbuch](aq-batch-audiences-migration.md)
 * Journey mit einer unitären Ereignis- und Zielgruppenqualifizierung verwenden auf Unternehmensebene ein Durchsatzlimit von 5.000 TPS. Unter Zielgruppen-Journey lesen werden bis zu 20.000 TPS pro Sandbox unterstützt
 * Simulation wird für die meisten Journey-Typen unterstützt, jedoch nicht für den Eintrag von Geschäftsereignissen. Siehe Simulationsbeschränkungen für Einschränkungen auf Knotenebene
 * Ein bereits auf einer Journey vorhandenes Profil kann nicht dieselbe Journey erneut aufrufen, unabhängig von der Konfiguration des erneuten Eintritts
@@ -241,7 +245,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **F: Kann ich die Aktivität „Zielgruppe lesen“ zu einer unitären Ereignis-Journey hinzufügen?** — Nein. Die Aktivität „Zielgruppe lesen“ ist nur als Journey-Eintrag in den Journey-Dateien „Zielgruppe lesen“ und „Geschäftsereignis“ verfügbar.
 * **F: Kann ich eine Sprungaktivität in einer „Zielgruppe lesen“-Journey verwenden?** — Nein. Journey, die mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ beginnen, können keine Sprungaktivität enthalten und nicht das Ziel eines Sprungs von einer anderen Journey sein.
 * **F: Kann ich neue App-Benutzer mit einer Zielgruppen-Qualifizierungs-Journey willkommen heißen?** — Ja, wenn der Eintrag von einer Streaming-Zielgruppe gesteuert wird (z. B. wenn ein Profil einem Neubenutzersegment beitritt). Ein unitäres Anmeldungsereignis-Journey ist ebenfalls ein gängiges Muster.
-* **F: Die Journey „My Audience Qualification“ wird nicht in Echtzeit ausgelöst. Warum?** — Zielgruppen-Qualifizierungs-Journey erfordern eine vom Streaming ausgewertete Zielgruppe. Bei einer Batch-Auswertung der Zielgruppe (z. B. einer täglichen Momentaufnahme) wird die Eingabe bis zum nächsten Auswertungsfenster verzögert, was bis zu 24 Stunden dauern kann.
+* **F: Die Journey „My Audience Qualification“ wird nicht in Echtzeit ausgelöst. Warum?** — Zielgruppen-Qualifizierungs-Journey erfordern eine vom Streaming ausgewertete Zielgruppe. Die Verwendung einer Batch-ausgewerteten Zielgruppe ist veraltet und wird ab August 2026 blockiert. [Siehe Migrationshandbuch](aq-batch-audiences-migration.md)
 * **F: Was ist der Durchsatzunterschied zwischen dem unitären Ereignis und den Journey-Werten unter „Zielgruppe lesen“?** — Journey von unitären Ereignissen haben auf Unternehmensebene ein TPS-Limit von 5.000 mit Journey für Zielgruppen-Qualifizierung gemeinsam. Journey von Zielgruppen unterstützen bis zu 20.000 TPS pro Sandbox, wodurch sie sich besser für groß angelegte Batch-Kampagnen eignen.
 
 +++

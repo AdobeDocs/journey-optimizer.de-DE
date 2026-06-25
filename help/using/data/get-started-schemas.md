@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie Adobe Experience Platform-Standard- und relationale Schemata die Datenstruktur definieren, damit Sie Profile, Verhaltensereignisse und relationale Entitäten für die Personalisierung und die Orchestrierung von Kampagnen in Adobe Journey Optimizer modellieren können.
+**Auf dieser Seite:** Erfahren Sie, wie die Standard- und relationalen Schemata von Adobe Experience Platform die Struktur Ihrer Daten definieren, damit Sie Profile, Verhaltensereignisse und relationale Entitäten für die Personalisierung und orchestrierte Kampagnen in Adobe Journey Optimizer modellieren können.
 
 >[!ENDSHADEBOX]
 

@@ -26,9 +26,9 @@ topic_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 724
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, was Quell-Connectoren sind und wie sie Daten aus Ihrem CRM, Cloud-Speicher und Ihren Datenbanken in Adobe Journey Optimizer importieren, damit Sie personalisierte, datengesteuerte Kunden-Journey unterstützen können.
+**Auf dieser Seite:** Erfahren Sie, was Quell-Connectoren sind und wie sie Daten aus Ihrem CRM, Cloud-Speicherplatz und Ihren Datenbanken in Adobe Journey Optimizer importieren, damit Sie personalisierte, datengestützte Customer Journeys unterstützen können.
 
 >[!ENDSHADEBOX]
 

@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Schützen Sie vertrauliche Daten, indem Sie Governance-Richtlinien erstellen, die Kennzeichnungen mit Marketing-Aktionen verknüpfen, und sie dann auf Journey, Kampagnen und benutzerdefinierte Aktionen anwenden, sodass eingeschränkte Felder nicht extern freigegeben werden können.
+**Auf dieser Seite:** Schützen Sie vertrauliche Daten, indem Sie Governance-Richtlinien erstellen, die Labels mit Marketing-Aktionen verknüpfen, und sie dann auf Journeys, Kampagnen und benutzerdefinierte Aktionen anwenden, sodass eingeschränkte Felder nicht extern freigegeben werden können.
 
 >[!ENDSHADEBOX]
 

@@ -6,7 +6,7 @@ description: Landingpages
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Mit Landingpages in Adobe Journey Optimizer können Sie maßgeschneiderte, eigen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Landingpages
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen von Landingpages, ihre Funktionalität und die Integra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Veröffentlichen von Landingpages
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum effektiven Erstellen, Konfigurieren, Testen und Ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Landingpages
 
@@ -50,7 +50,7 @@ Greifen Sie auf Landingpages zu, organisieren Sie sie und führen Sie Aktionen w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gestalten von Inhalten für Landingpages
 
@@ -60,7 +60,7 @@ Erstellen Sie Landingpages und passen Sie sie mit Vorlagen, Formularen und erwei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Abonnementlisten
 
@@ -70,7 +70,7 @@ Richten Sie Abonnementlisten ein, um angemeldete Profile zu verwalten und zielge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Anwendungsfälle für Landingpages
 

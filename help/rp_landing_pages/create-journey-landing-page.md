@@ -8,7 +8,7 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Das Erstellen einer Journey in Adobe Journey Optimizer ermöglicht es Ihnen, per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen Ihrer ersten Customer Journey
 
@@ -31,7 +31,7 @@ Erfahren Sie in einer schrittweisen Anleitung, wie Sie Ihre erste Customer Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
@@ -41,7 +41,7 @@ Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entwerfen einer Journey
 
@@ -51,17 +51,17 @@ Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Testen der Journey
 
 Testen Sie Ihre Journeys mit simulierten Profilen und erkennen Sie Fehler, bevor Sie live gehen.
 
-[Journey testen](../using/building-journeys/testing-the-journey.md)
+[Journeys testen](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Testen von Journeys im Probelauf-Modus
 
@@ -71,13 +71,13 @@ Validieren Sie Ihre Journeys mit echten Produktionsdaten, ohne sich an Kundinnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Veröffentlichen einer Journey
 
 Erfahren Sie, wie Sie Ihre Journey veröffentlichen, Versionen verwalten und die Gültigkeit sicherstellen.
 
-[Journey veröffentlichen](../using/building-journeys/publish-journey.md)
+[Veröffentlichen Ihrer Journey](../using/building-journeys/publish-journey.md)
 :::
 
 ::::

@@ -6,8 +6,8 @@ description: Datenschutz
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen zum Erstellen und Verarbeiten von Daten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Auditprotokolle für Benutzeraktionen
 
@@ -50,7 +50,7 @@ Verfolgen und überwachen Sie Aktionen, die mit Adobe Journey Optimizer-Ressourc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Durchführen von Datenlebenszyklusvorgängen
 
@@ -70,7 +70,7 @@ Verwalten Sie die Vorlieben und Richtlinien der Empfängerinnen und Empfänger i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Data-Governance-Richtlinien
 

@@ -6,8 +6,8 @@ description: Entscheidungselemente verwalten
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
+workflow-type: ht
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Bei der Verwaltung von Entscheidungselementen in Adobe Journey Optimizer geht es
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des Elementkatalogs
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Elementkatalog in der Entscheidungsfunktion von Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Entscheidungselementen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Entscheidungselemente erstellen, konfigurieren und verwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwalten von Elementsammlungen
 

@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration des E-Mail-Kanals in Adobe Journey Optimizer, von der Zuweisung von Subdomains und der Erstellung von IP-Pools bis zur Einrichtung von Kanalkonfigurationen, Ausführungsfeldern und weiteren Zustellversuchen.
+**Auf dieser Seite:** Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration des E-Mail-Kanals in Adobe Journey Optimizer, von der Delegierung von Subdomains und der Erstellung von IP-Pools bis zur Einrichtung von Kanalkonfigurationen, Ausführungsfeldern und weiteren Zustellversuchen.
 
 >[!ENDSHADEBOX]
 

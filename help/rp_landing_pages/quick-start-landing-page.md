@@ -5,8 +5,8 @@ title: Rollen und Verantwortlichkeiten
 description: Rollen und Verantwortlichkeiten
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Der Erfolg von Adobe Journey Optimizer hängt von einem Team von Fachleuten ab, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Überblick der Rollen und Verantwortlichkeiten
 
@@ -30,17 +30,17 @@ Erfahren Sie mehr über die wichtigsten Rollen, Verantwortlichkeiten und Abhäng
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erste Schritte als Marketing-Fachkraft
 
-Eine schrittweise Anleitung für Marketing-Fachleute zum Erstellen von Zielgruppen, Hinzufügen von Personalisierung, Entwerfen von Journeys und Überwachen der Leistung.
+Eine schrittweise Anleitung für Marketing-Fachleute zum Erstellen von Zielgruppen, Hinzufügen von Personalisierung, Entwerfen von Journeys und Monitoring der Leistung.
 
 [Informationen für Marketing-Fachleute](../using/start/path/marketer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erste Schritte als Data Engineer
 
@@ -50,7 +50,7 @@ Detaillierte Anweisungen für Data Engineers zum Vorbereiten von Schemata und Da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erste Schritte als Systemadmin
 
