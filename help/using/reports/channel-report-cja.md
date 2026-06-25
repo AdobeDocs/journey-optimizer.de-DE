@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
-ht-degree: 55%
+source-wordcount: 1243
+ht-degree: 54%
 
 ---
 
@@ -126,6 +116,8 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 * **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 
+* **[!UICONTROL Geschätzte CTR]** (Clickthrough-Rate): Berechnet als geschätzte Klicks im Verhältnis zur Gesamtzahl der zugestellten Nachrichten.
+
 +++
 
 ## Kanäle {#channel}
@@ -150,6 +142,8 @@ Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung de
 
 * **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 
+* **[!UICONTROL Geschätzte CTR]** (Clickthrough-Rate): Berechnet als geschätzte Klicks im Verhältnis zur Gesamtzahl der zugestellten Nachrichten.
+
 +++
 
 ### Ausgehende Fehler
@@ -172,7 +166,7 @@ Die Tabelle **[!UICONTROL Journey-Begrenzung und -Konflikte]** bietet Einblicke 
 
 Die Spalte **[!UICONTROL Journey-Einträge nach Regelsatz]** zeigt die Anzahl der Profile an, die die Journey betreten haben. Es gibt drei Arten von Eingängen:
 
-* **&#x200B;**&#x200B;[!UICONTROL Kein Konflikt]&#x200B;**&#x200B;**: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
+* ****[!UICONTROL Kein Konflikt]****: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
 
 * **Höhere Priorität**: Das Profil ist auf die Journey gelangt, da es eine höhere Priorität hat als andere konkurrierende Journey. Obwohl ein Konflikt aufgetreten ist (das Profil hat sich für mehrere Journey qualifiziert), wurde diese Journey aufgrund ihres höheren Prioritätswerts ausgewählt.
 
