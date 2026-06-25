@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 90%
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
-## Juni 2026 {#june-2026}
+## Juni 2026 {#june-2026}
 
 * Die Seite **Hochdurchsatzmodus** wurde aktualisiert, um die erweiterte regionale Verfügbarkeit widerzuspiegeln: Die Funktion ist jetzt in allen Regionen außer der Schweiz für Organisationen verfügbar, die mit dem Add-on „Hochdurchsatz-Transaktionsnachrichten“ lizenziert sind. [Weitere Informationen](../campaigns/api-triggered-high-throughput.md)
 
@@ -50,17 +46,17 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation zur **`nowWithDelta()`Datumsfunktion** aktualisiert, um das Monatsendverhalten zu verdeutlichen: Wenn der Zielmonat weniger Tage als der aktuelle Tag des Monats hat, wird das Ergebnis auf den letzten gültigen Tag dieses Monats normalisiert. [Weitere Informationen](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* Die **„Erste Schritte mit der Zustellbarkeit** wurde mit einem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger** aktualisiert. Sie listet die wichtigsten Postfachanbieter auf, die keine Spam-Beschwerden pro Empfänger zurückgeben - Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online - und erklärt, warum für Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
+* Die Seite **Erste Schritte mit der Zustellbarkeit** wurde mit dem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger bzw. Empfängerin** aktualisiert. Darin sind die wichtigsten Postfachanbieter aufgeführt, die keine Spam-Beschwerden pro Empfänger bzw. Empfängerin zurückgeben – Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online –, und es wird erklärt, warum für Empfängerinnen und Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
 
-* **Experience Decisioning ist jetzt für den Briefpost-Kanal verfügbar.** Auf einer neuen Seite **Batch Decisioning in Briefpost** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Briefpost-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Briefpost** wurde als unterstützter Kanal zur gesamten Entscheidungsdokumentation hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **Erlebnis-Entscheidung ist jetzt für den Direkt-Mail-Kanal verfügbar.** Auf der neuen Seite **Batch-Entscheidungsfindung in Direkt-Mail** wird beschrieben, wie Sie die Decisioning-Engine verwenden, um Direkt-Mail-Extraktionsdateien zu personalisieren oder Profile und ihre Entscheidungsfindungsergebnisse zur Verwendung in nachgelagerten Systemen zu exportieren. **Direkt-Mail** wurde als unterstützter Kanal zur gesamten Dokumentation zur Entscheidungsfindung hinzugefügt (Erste Schritte, Erstellen einer Entscheidungsrichtlinie, Verwenden von Entscheidungsrichtlinien in Nachrichten, Erste Schritte mit Entscheidungsrichtlinien), einschließlich der Möglichkeit, mehrere Entscheidungselemente pro Profil über das Feld **[!UICONTROL Anzahl der Elemente]** zurückzugeben. [Weitere Informationen](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* Die Dokumentation zu **Journey Fragments** wird nicht mehr als Eingeschränkte Verfügbarkeit gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus Inhalten **[!UICONTROL Fragments]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-**, **Audit-** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journey** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
+* Die Dokumentation zu **Journey-Fragmenten** ist nicht mehr als „Eingeschränkte Verfügbarkeit“ gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus **[!UICONTROL Inhaltsfragmenten]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-Tools**, **Auditprotokollen** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journeys** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
 
-* Die **Externe Datenquellen** und **Benutzerdefinierte Aktion** wurde für die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob die `access_token` oder `id_token` als Authentifizierungsberechtigung verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` werden und Verweise auf die &quot;Azure Entra ID“ wurden in &quot;Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
+* Die Dokumentation zu **externen Datenquellen** und **benutzerdefinierten Aktionen** wurde im Hinblick auf die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob das oder das `access_token``id_token`als Anmeldeinformationen verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatsbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` sein und Verweise auf „Azure Entra ID“ wurden zu „Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
-* Die **„Erste Schritte mit der**&quot; wurde mit einem Prozessdiagramm aktualisiert, das den gesamten Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
+* Die Seite **Erste Schritte mit der Entscheidungsfindung** wurde mit einem Prozessdiagramm aktualisiert, das den durchgängigen Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
 
-* In der **Absenderkopfzeilen**-Dokumentation wird nun klargestellt, dass **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt oder beide leer gelassen werden müssen, da sonst Journey und Kampagnen nicht veröffentlicht werden können. [Weitere Informationen](../email/header-parameters.md#sender-header)
+* In der Dokumentation zu **Absender-Headern** wird nun klargestellt, dass die Felder **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** beide festgelegt oder beide leer gelassen werden müssen. Andernfalls können Journeys und Kampagnen nicht veröffentlicht werden. [Weitere Informationen](../email/header-parameters.md#sender-header)
 
 ## Mai 2026 {#may-2026}
 
@@ -677,7 +673,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -707,7 +703,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -782,7 +778,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -910,7 +906,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

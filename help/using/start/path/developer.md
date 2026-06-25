@@ -6,27 +6,11 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
 source-wordcount: 3456
@@ -312,7 +296,7 @@ Wenn Journey externe Systeme über benutzerdefinierte Aktionen oder Datenquellen
 | Erstellen und Verwalten von Inhaltsvorlagen und Fragmenten aus einer externen Pipeline | [Content-API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} ・ [Vorlagen](../../content-management/content-templates.md) ・ [Fragments](../../content-management/fragments.md) |
 | Abrufen und Filtern von Aktionskampagnen | [Kampagnen-API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Programmgesteuerte Vorschau von Kampagnen und Durchführen von Testsendungen | [Simulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| Datensätze validieren und Trigger der koordinierten Kampagnenausführung | [Datensatzvalidierung](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [Datensätze aktivieren](../../orchestrated/manual-schema.md) |
+| Datensätze validieren und Trigger der koordinierten Kampagnenausführung | [Datensatzvalidierung](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} ・ [Trigger ](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} ・ [Datensätze aktivieren](../../orchestrated/manual-schema.md) |
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
@@ -342,7 +326,7 @@ Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriffs- und Kanalko
 
 * Angeben von API-Spezifikationen für [benutzerdefinierte Aktionen](../../action/about-custom-action-configuration.md) die in Journey Optimizer konfiguriert werden
 * Erforderliche Berechtigungen und API-Anmeldedaten über [Adobe Developer Console anfordern](https://developer.adobe.com){target="_blank"}
-* Koordinieren Sie die Anforderungen an die Kanalkonfiguration - Push-Zertifikate für die Endpunkte {[&#128279;](../../push/push-configuration.md)}iOSund Android[Web-Push](../../push/push-configuration-web.md), [SMS-Webhook](../../mobile/mobile-webhook.md)
+* Koordinieren Sie die Anforderungen an die Kanalkonfiguration - Push-Zertifikate für die Endpunkte {](../../push/push-configuration.md)}iOSund Android[Web-Push](../../push/push-configuration-web.md), [SMS-Webhook](../../mobile/mobile-webhook.md)[
 * Ausrichtung der Sandbox-Strategie und der Testumgebungen vor der Ausführung des [Journey-Testmodus](../../building-journeys/testing-the-journey.md)
 
 >[!TAB Arbeiten mit Marketing-Fachleuten]
@@ -350,9 +334,9 @@ Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriffs- und Kanalko
 Zusammenarbeit mit [Marketern](marketer.md) beim Entwerfen und Testen von Journey. Marketer erstellen die Journey und Inhalte, die vollständig von den gesendeten Ereignissen und den Oberflächen abhängen, die Sie bereitstellen - je näher Sie einander abstimmen, desto schneller werden die Journey live geschaltet.
 
 * Überprüfen Sie gemeinsam die Journey-Designs in [Journey Optimizer](../../building-journeys/journey.md), um zu verstehen, welche Benutzerinteraktionen Trigger-Ereignisse auslösen müssen und welche Oberflächen personalisiert werden müssen
-* Implementieren des Trackings, damit Marketing-Experten [Content-Performance und Benutzerinteraktion) messen &#x200B;](../../reports/report-gs-cja.md)
+* Implementieren des Trackings, damit Marketing-Experten [Content-Performance und Benutzerinteraktion) messen ](../../reports/report-gs-cja.md)
 * Führen Sie [Journey Testmodus](../../building-journeys/testing-the-journey.md) zusammen mit Testprofilen aus, um den vollständigen Fluss End-to-End zu validieren.
-* Fehlerbehebung bei Problemen mit Nachrichtenversand, Personalisierung, Rendering oder [benutzerdefinierten &#x200B;](../../action/action.md))
+* Fehlerbehebung bei Problemen mit Nachrichtenversand, Personalisierung, Rendering oder [benutzerdefinierten ](../../action/action.md))
 
 >[!ENDTABS]
 
