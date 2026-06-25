@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 22%
+source-wordcount: 742
+ht-degree: 27%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem Lizenznutzungs-Dashboard von Adobe Journey Optimizer ansprechbare Profile überwachen und unerwartete Erhöhungen der Profilanzahl beheben können.
+**Auf dieser Seite** Erfahren Sie, wie Sie im Dashboard zur Adobe Journey Optimizer-Lizenznutzung navigieren und unerwartete Zunahmen bei der Anzahl der Engageable Profiles beheben können.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +42,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 >
 >* Bestimmte Metriken (z. B. Stunden berechnen, E-Mails) werden für Entwicklungs-Sandboxes nicht angezeigt, wie durch `N/A` in der Kontingentspalte angegeben. Im Dashboard werden nur Werte angezeigt, die nicht null sind. Wenn Metriken null oder nahe null sind, werden sie nicht ausgefüllt.
 
-
-[!DNL Adobe Journey Optimizer] können Sie im Dashboard die Anzahl der (**Profile)**.
-
-## Was ist ein kontaktierbares Profil? {#what-is-engageable-profile}
-
-Ein **Ansprechbares Profil** ist ein Datensatz mit Informationen, die eine Person darstellen, die im Profil-Service gespeichert ist und von Journey oder Kampagnen kontaktiert wurde.
-
-Wichtige Merkmale von Engageable Profiles:
-
-* **12-monatiges rollierendes Fenster**: Engagierbare Profile werden auf der Grundlage der Interaktion in den letzten 12 Monaten gezählt. Diese Metrik zeigt die Anzahl der eindeutigen Profile an, mit denen Sie versucht haben, unter Verwendung der Authoring-, Decisioning-, Bereitstellungs-, Experimentier- oder Orchestrierungsfunktionen von Journey Optimizer zu interagieren.
-
-* **Eindeutige Anzahl pro Sandbox**: Wenn ein Profil in mehrere Journey oder Kampagnen innerhalb einer Sandbox eintritt, wird es nur einmal als ein einziges kontaktierbares Profil für diese Sandbox gezählt.
-
-* **Basierend auf adressierbarer Zielgruppe**: Ansprechbare Profile werden aus Ihrer adressierbaren Zielgruppe berechnet. Die Anzahl stellt die Zielgruppe dar, die in den letzten 12 Monaten mit einer der Funktionen von Journey Optimizer an der Addressable Audience insgesamt beteiligt war.
-
-* **Metrikverhalten**: Die Anzahl der ansprechbaren Profile:
-   * Kann zunehmen, wenn neue Profile über Journey oder Kampagnen interagieren
-   * Kann nur verringert werden, wenn seit mehr als 12 Monaten keine Interaktion mit bestimmten Profilen stattfindet
-   * Kann reduziert werden, wenn pseudonyme Profile bekannten Profilen zugeordnet werden
+[!DNL Adobe Journey Optimizer] können Sie im Dashboard die Anzahl der **Engageable Profiles** - eindeutige Profile, die über Journey, Kampagnen oder Entscheidungen in einem rollierenden 12-Monats-Fenster aktiviert werden, überprüfen. Eine vollständige Erläuterung der Definition und Berechnung von Engageable Profilen finden Sie unter [Engageable Profile and License Usage](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >
@@ -116,7 +86,7 @@ Gehen Sie wie folgt vor, um dieses Problem zu beheben:
 4. **Verringern der adressierbaren Zielgruppengröße:**
 
    * Pseudonyme Profile löschen, falls erforderlich. Beachten Sie, dass diese Aktion sowohl Journey Optimizer als auch Real-Time Customer Data Platform betrifft.
-   * Weitere Informationen zum Ablauf [&#x200B; Daten pseudonymer Profile &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
+   * Weitere Informationen zum Ablauf [ Daten pseudonymer Profile ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
    * **Hinweis:** Ablauf von Daten pseudonymer Profile kann nicht über die Platform-Benutzeroberfläche oder APIs konfiguriert werden. Sie müssen sich an den Support wenden, um diese Funktion zu aktivieren.
 
 5. **Datensatzänderungen überwachen:**
