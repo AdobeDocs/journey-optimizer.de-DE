@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 53%
@@ -80,12 +80,6 @@ Hauptmerkmale:
 
 Überwachen Sie die Anzahl der aktivierbaren Profile Ihres Unternehmens jederzeit unter **[!UICONTROL Administration]** > **[!UICONTROL Lizenznutzung]**. Wenn Sie einen plötzlichen Anstieg in der Anzahl feststellen, finden Sie im Abschnitt [Fehlerbehebung](license-usage.md#troubleshooting-engageable-profiles) eine detaillierte Anleitung. [Erfahren Sie mehr über das Lizenznutzungs-Dashboard](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Erste Schritte mit Daten-Management in Journey Optimizer](../data/gs-data.md)
->* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
->* [Standardleitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard „Profile“
 
@@ -104,3 +98,12 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Erste Schritte mit Daten-Management in Journey Optimizer](../data/gs-data.md)
+>* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
+>* [Standardleitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home){target="_blank"}
