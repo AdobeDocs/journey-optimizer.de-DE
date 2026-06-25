@@ -50,7 +50,7 @@ Hier erhalten Sie eine schrittweise Anleitung zur Implementierung Client-seitige
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Entscheidungsfindung bei der Implementierung von Code-basierten Erlebnissen
 

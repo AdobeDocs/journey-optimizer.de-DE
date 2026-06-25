@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen aktivieren und in Kampagnen und Journeys effek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Nutzen von Anreicherungsattributen
 

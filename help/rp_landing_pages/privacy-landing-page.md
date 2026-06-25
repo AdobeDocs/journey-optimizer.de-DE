@@ -20,7 +20,7 @@ Mit den Datenschutz-Tools von Adobe Journey Optimizer können Sie vertrauliche K
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Überblick über die Datenschutzverwaltung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Datenschutz in Adobe Journey Optimizer und Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwalten von Datenschutzanfragen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aufgaben des Datenlebenszyklus, wie etwa das Aktualisieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Einverständnisverwaltung
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Genehmigungsprozess für Journeys und Kampagnen einric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten von Genehmigungsrichtlinien
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen, Konfigurieren und Verwalten von Genehmigun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Anfordern von Genehmigungen für Journeys und Kampagnen
 

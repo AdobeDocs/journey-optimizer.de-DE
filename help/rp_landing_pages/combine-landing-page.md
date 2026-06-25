@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Adobe Stock-Bilder für die Verwendung in E-Mail-Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=de)
 
 Bearbeiten Ihrer Assets mit Adobe Express
 

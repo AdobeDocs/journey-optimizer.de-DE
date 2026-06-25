@@ -50,7 +50,7 @@ Machen Sie sich mit den alten Schrittereignisfeldern vertraut, die in Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

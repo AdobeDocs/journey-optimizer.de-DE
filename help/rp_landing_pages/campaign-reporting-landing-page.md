@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie personalisierte Erlebnisse und KI-gesteuerte Entscheidungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Inhaltskarten-Kampagnenbericht
 
@@ -60,7 +60,7 @@ Bewerten Sie die Effizienz von Direkt-Mail-Kampagnen, indem Sie Versandstatus, F
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=de)
 
 Bericht zu einer E-Mail-Kampagne
 
