@@ -25,10 +25,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
-ht-degree: 32%
+source-wordcount: 1617
+ht-degree: 30%
 
 ---
 
@@ -63,7 +63,7 @@ Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. 
 |------|------------|
 | **Zielgruppe** | Eine Gruppe von Kundinnen und Kunden, die gemeinsame Merkmale oder Verhaltensweisen aufweisen, z. B. „Personen, die in den letzten 30 Tagen etwas gekauft haben“ oder „Mitglieder des Treueprogramms“. Zielgruppen werden verwendet, um bestimmte Kundensegmente anzusprechen. [Weitere Informationen](../audience/about-audiences.md) |
 | **Zielgruppenqualifizierung** | Der Prozess, der abläuft, wenn eine Kundin bzw. ein Kunde in eine Zielgruppe eintritt oder sie verlässt. Journey Optimizer kann Aktionen auslösen, wenn eine Person in eine Zielgruppe eintritt oder sie verlässt, um eine zeitnahe und relevante Kommunikation sicherzustellen. [Weitere Informationen](../building-journeys/audience-qualification-events.md) |
-| **Kontaktierbare Zielgruppe** | Die Anzahl der Kundenprofile, mit denen Sie sich basierend auf Ihrer Lizenzvereinbarung aktiv über Adobe Journey Optimizer in Verbindung setzen können. Dies bezieht sich in der Regel auf Profile, mit denen Sie innerhalb der letzten 12 Monate interagiert haben. |
+| **Ansprechbare Profile** | Die Unique-Customer-Profile, die über Journey-, Kampagnen- oder Entscheidungsaktivitäten in einem rollierenden 12-Monats-Fenster interagiert haben. Dies ist die Schlüssellizenzmetrik für Journey Optimizer: Jedes Profil wird einmal pro Sandbox gezählt, unabhängig davon, wie viele Journey oder Kampagnen es eingibt. Überwachen Sie die Anzahl unter **[!UICONTROL Administration]** > **[!UICONTROL Lizenznutzung]**. [Weitere Informationen](../audience/license-usage.md) |
 | **Testprofil** | Fiktive Profile, die zum Testen und zur Vorschau von Nachrichten verwendet werden, bevor sie an echte Kundschaft gesendet werden. Mit Testprofilen können Sie Personalisierung, Inhalte und Journey-Logik prüfen. [Weitere Informationen](../audience/creating-test-profiles.md) |
 
 ## Begriffe für Inhalt und Personalisierung {#content-terms}

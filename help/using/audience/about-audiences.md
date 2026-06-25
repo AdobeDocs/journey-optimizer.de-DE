@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 88%
+source-wordcount: 691
+ht-degree: 83%
 
 ---
 
@@ -99,6 +99,10 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 ## Ansprechen von Zielgruppen in Journeys und Kampagnen {#target-audiences}
 
 Sobald Ihre Zielgruppen bereit sind, können Sie sie beim Erstellen von Journeys oder Kampagnen auswählen, sodass Sie die richtigen Personen zur richtigen Zeit mit relevanten Nachrichten erreichen. [Weitere Informationen zur Zielgruppenaktivierung in Journey Optimizer](target-audiences.md).
+
+>[!NOTE]
+>
+>Profile, die über eine Zielgruppenaktivierung eingebunden wurden - unabhängig davon, ob es sich um eine Journey-, Kampagnen- oder Entscheidungsaktivität handelt - werden bei der Lizenzmetrik **Engageable Profiles** Ihres Unternehmens mitgezählt. Jedes Profil wird einmal pro Sandbox in einem rollierenden 12-Monats-Fenster gezählt. [Überwachen Sie die Anzahl der aktivierbaren Profile](license-usage.md)
 
 ## Anleitungsvideo {#video}
 

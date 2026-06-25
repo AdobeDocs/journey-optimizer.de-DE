@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 78%
+source-wordcount: 778
+ht-degree: 53%
 
 ---
 
@@ -59,6 +59,26 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 **Kundeninteraktion** - Verwenden Sie das Echtzeit-Kundenprofil, um kontextuelle, personalisierte Erlebnisse wie zielgerichtete Angebote und Nachrichten bereitzustellen. &#x200B;Kundeninteraktion über verschiedene Kanäle hinweg, einschließlich Marketing-Kampagnen, Kunden-Support und Transaktions-Updates. &#x200B;
 
 **Datenfreigabe**: Geben Sie Kundenprofile für führende Cloud-Speicheranbieter wie Amazon Web Services, Microsoft Azure und Google Cloud frei. Verwenden Sie freigegebene Profile für Berichte, Datenarchivierung oder tiefer gehende Analysen mit Business Intelligence Tools.
+
+## Interaktionsfähige Profile und Lizenznutzung {#engageable-profiles}
+
+Ein **Ansprechbares Profil** ist ein Datensatz mit Informationen, die eine Person darstellen, die im Profil-Service gespeichert ist und von Journey oder Kampagnen kontaktiert wurde. Dies ist die Schlüssellizenzmetrik für [!DNL Adobe Journey Optimizer].
+
+Hauptmerkmale:
+
+* **12-monatiges rollierendes Fenster**: Die Anzahl zeigt die eindeutigen Profile an, an die Sie in den letzten 12 Monaten mithilfe der Authoring-, Decisioning-, Bereitstellungs-, Experimentier- oder Orchestrierungsfunktionen von Journey Optimizer versucht haben zu interagieren.
+* **Einmal pro Sandbox gezählt**: Ein Profil, das innerhalb einer Sandbox in mehrere Journey oder Kampagnen eintritt, wird als ein einziges kontaktierbares Profil für diese Sandbox gezählt.
+* **Basierend auf Ihrer Addressable Audience**: Interaktionsfähige Profile werden aus Ihrer Addressable Audience berechnet. Die Anzahl stellt die Zielgruppe dar, die in den letzten 12 Monaten mit einer der Funktionen von Journey Optimizer an der Addressable Audience insgesamt beteiligt war.
+* **Metrikverhalten**: Die Anzahl der ansprechbaren Profile:
+   * Kann zunehmen, wenn neue Profile über Journey oder Kampagnen interagieren
+   * Kann nur verringert werden, wenn seit mehr als 12 Monaten keine Interaktion mit bestimmten Profilen stattfindet
+   * Kann reduziert werden, wenn pseudonyme Profile bekannten Profilen zugeordnet werden
+
+>[!TIP]
+>
+>Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit eingehenden Kanälen wie Web-, In-App- oder Code-basierten Erlebnissen anvisieren, sollten Sie eine TTL (Time-to-Live) für das automatische Löschen von Profilen festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen zu Leitplanken für eingehende Kanäle](../start/guardrails.md#profile-management-inbound)
+
+Überwachen Sie die Anzahl der aktivierbaren Profile Ihres Unternehmens jederzeit unter **[!UICONTROL Administration]** > **[!UICONTROL Lizenznutzung]**. Wenn Sie einen plötzlichen Anstieg in der Anzahl feststellen, finden Sie im Abschnitt [Fehlerbehebung](license-usage.md#troubleshooting-engageable-profiles) eine detaillierte Anleitung. [Erfahren Sie mehr über das Lizenznutzungs-Dashboard](license-usage.md)
 
 >[!MORELIKETHIS]
 >

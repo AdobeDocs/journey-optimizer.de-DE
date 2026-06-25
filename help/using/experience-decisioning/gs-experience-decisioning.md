@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 72%
+source-wordcount: 811
+ht-degree: 69%
 
 ---
 
@@ -111,6 +111,10 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, folgen Sie den Implementierungsschritten in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
+
+>[!NOTE]
+>
+>Profile, die eine Entscheidung über eine Journey oder Kampagne erhalten, zählen zur Lizenzmetrik **Engageable Profiles** Ihres Unternehmens sowie Profile, die über andere Journey Optimizer-Funktionen aktiviert wurden. [Überwachen Sie die Anzahl der aktivierbaren Profile](../audience/license-usage.md)
 
 ## Entscheidungsprozess {#process}
 

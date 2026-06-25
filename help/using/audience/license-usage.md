@@ -27,10 +27,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 22%
+source-wordcount: 742
+ht-degree: 27%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem Lizenznutzungs-Dashboard von Adobe Journey Optimizer ansprechbare Profile überwachen und unerwartete Erhöhungen der Profilanzahl beheben können.
+**Auf dieser Seite** Erfahren Sie, wie Sie im Dashboard zur Adobe Journey Optimizer-Lizenznutzung navigieren und unerwartete Zunahmen bei der Anzahl der Engageable Profiles beheben können.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +54,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 >
 >* Bestimmte Metriken (z. B. Stunden berechnen, E-Mails) werden für Entwicklungs-Sandboxes nicht angezeigt, wie durch `N/A` in der Kontingentspalte angegeben. Im Dashboard werden nur Werte angezeigt, die nicht null sind. Wenn Metriken null oder nahe null sind, werden sie nicht ausgefüllt.
 
-
-[!DNL Adobe Journey Optimizer] können Sie im Dashboard die Anzahl der (**Profile)**.
-
-## Was ist ein kontaktierbares Profil? {#what-is-engageable-profile}
-
-Ein **Ansprechbares Profil** ist ein Datensatz mit Informationen, die eine Person darstellen, die im Profil-Service gespeichert ist und von Journey oder Kampagnen kontaktiert wurde.
-
-Wichtige Merkmale von Engageable Profiles:
-
-* **12-monatiges rollierendes Fenster**: Engagierbare Profile werden auf der Grundlage der Interaktion in den letzten 12 Monaten gezählt. Diese Metrik zeigt die Anzahl der eindeutigen Profile an, mit denen Sie versucht haben, unter Verwendung der Authoring-, Decisioning-, Bereitstellungs-, Experimentier- oder Orchestrierungsfunktionen von Journey Optimizer zu interagieren.
-
-* **Eindeutige Anzahl pro Sandbox**: Wenn ein Profil in mehrere Journey oder Kampagnen innerhalb einer Sandbox eintritt, wird es nur einmal als ein einziges kontaktierbares Profil für diese Sandbox gezählt.
-
-* **Basierend auf adressierbarer Zielgruppe**: Ansprechbare Profile werden aus Ihrer adressierbaren Zielgruppe berechnet. Die Anzahl stellt die Zielgruppe dar, die in den letzten 12 Monaten mit einer der Funktionen von Journey Optimizer an der Addressable Audience insgesamt beteiligt war.
-
-* **Metrikverhalten**: Die Anzahl der ansprechbaren Profile:
-   * Kann zunehmen, wenn neue Profile über Journey oder Kampagnen interagieren
-   * Kann nur verringert werden, wenn seit mehr als 12 Monaten keine Interaktion mit bestimmten Profilen stattfindet
-   * Kann reduziert werden, wenn pseudonyme Profile bekannten Profilen zugeordnet werden
+[!DNL Adobe Journey Optimizer] können Sie im Dashboard die Anzahl der **Engageable Profiles** - eindeutige Profile, die über Journey, Kampagnen oder Entscheidungen in einem rollierenden 12-Monats-Fenster aktiviert werden, überprüfen. Eine vollständige Erläuterung der Definition und Berechnung von Engageable Profilen finden Sie unter [Engageable Profile and License Usage](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >

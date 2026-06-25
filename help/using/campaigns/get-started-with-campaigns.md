@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von K
 Stellen Sie vor der Arbeit mit Kampagnen sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 * **Zielgruppen** – Zielgruppen müssen in Adobe Experience Platform verfügbar sein, bevor Kampagnen erstellt werden. [Erste Schritte mit Zielgruppen →](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >Jedes Profil, an dem eine Kampagne teilnimmt, wird für die Lizenzmetrik **Engageable Profile** Ihrer Organisation gezählt (rollierendes 12-Monats-Fenster, einmal pro Sandbox gezählt). Die Aktivierung einer Kampagne für eine große oder neue Audience kann zu einem erheblichen Anstieg dieser Anzahl führen. [Überwachen Sie die Anzahl der aktivierbaren Profile](../audience/license-usage.md)
 
 * **Kanalkonfigurationen** – Kanalkonfigurationen (Voreinstellungen) müssen erstellt werden und für die Kanäle verfügbar sein, die Sie verwenden möchten. [Einrichten von Kanalkonfigurationen →](../configuration/channel-surfaces.md)
 

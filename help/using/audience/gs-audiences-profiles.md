@@ -14,10 +14,10 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 26%
+source-wordcount: 204
+ht-degree: 22%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 26%
 Mit Adobe Journey Optimizer können Marken Echtzeit-Kundenprofile und Zielgruppen erstellen und verwalten, um personalisierte Kundenerlebnisse bereitzustellen. &#x200B; Dieser Überblick bietet allgemeine Informationen zum Arbeiten mit Profilen und Audiences in Journey Optimizer. Ausführliche Informationen finden Sie in den Abschnitten zu Profilen und Zielgruppen.
 
 **Profile**
-Adobe Journey Optimizer bietet eine Reihe von Funktionen für die Arbeit mit Echtzeit-Kundenprofilen, mit denen Marken eine einheitliche 360-Grad-Ansicht ihrer Kunden erstellen können. &#x200B; wichtigsten Funktionen sind die Datenaufnahme in Echtzeit, die Erstellung von Identitätsdiagrammen und Tools für die Kundeninteraktion. [Erste Schritte mit Profilen](get-started-profiles.md)
+Adobe Journey Optimizer bietet eine Reihe von Funktionen für die Arbeit mit Echtzeit-Kundenprofilen, mit denen Marken eine einheitliche 360-Grad-Ansicht ihrer Kunden erstellen können. &#x200B; wichtigsten Funktionen sind die Datenaufnahme in Echtzeit, die Erstellung von Identitätsdiagrammen und Tools für die Kundeninteraktion. Die Anzahl der über Journey, Kampagnen oder Entscheidungen interagierenden Profile wird in Ihrer **Engageable Profiles** Lizenzmetrik angerechnet. [Erste Schritte mit Profilen](get-started-profiles.md) | [Überwachen der Lizenznutzung](license-usage.md)
 
 **Zielgruppen**
 Adobe Journey Optimizer bietet stabile Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um die Marketing-Maßnahmen zu verbessern. &#x200B;Zu den wichtigsten Funktionen gehören Zielgruppensegmentierung, Anreicherung, Verwaltung und Aktivierung sowie Governance- und Datenschutz-Tools. [Erste Schritte mit Zielgruppen](about-audiences.md)
