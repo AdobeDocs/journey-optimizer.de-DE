@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ In dieser Version werden die folgenden Funktionen und Verbesserungen bei Content
 </table>
 
 +++
+
+### Berichterstellung {#june-26-reporting}
+
+Die folgenden Verbesserungen wurden in dieser Version zum Reporting hinzugefügt.
+
+* **Neue geschätzte Klickmetriken für E-Mail-Reporting** - Um eine genauere Übersicht über die tatsächliche Kundeninteraktion zu erhalten, sind jetzt neue geschätzte Metriken in Journey-, Kampagnen- und Kanalberichten verfügbar.
+
+   * **Geschätzte CTR** (Clickthrough-Rate): Berechnet als geschätzte Klicks im Verhältnis zur Gesamtzahl der zugestellten Nachrichten.
+
+   * **Geschätzter CTOR** (Klick-zum-Öffnen-Rate): Berechnet als geschätzte Klicks relativ zur Gesamtzahl der geschätzten Öffnungen.
+
+  Verfügbarkeitsdatum: 25. Juni 2026
 
 ### Administration {#june-26-administration}
 

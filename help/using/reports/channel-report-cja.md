@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
-ht-degree: 55%
+source-wordcount: 1243
+ht-degree: 54%
 
 ---
 
@@ -126,6 +126,8 @@ Durch Anklicken des Namens einer in dieser Tabelle aufgeführten Kampagne könne
 
 * **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
 
+* **[!UICONTROL Geschätzte CTR]** (Clickthrough-Rate): Berechnet als geschätzte Klicks im Verhältnis zur Gesamtzahl der zugestellten Nachrichten.
+
 +++
 
 ## Kanäle {#channel}
@@ -149,6 +151,8 @@ Die Tabelle **[!UICONTROL Kanäle]** zeigt eine detaillierte Aufschlüsselung de
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren Nachrichten.
 
 * **[!UICONTROL Geschätzte Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihrer Nachricht, mit Ausnahme des identifizierten Traffics von Bots und Nicht-Menschen-Interaktionen (NHI).
+
+* **[!UICONTROL Geschätzte CTR]** (Clickthrough-Rate): Berechnet als geschätzte Klicks im Verhältnis zur Gesamtzahl der zugestellten Nachrichten.
 
 +++
 
