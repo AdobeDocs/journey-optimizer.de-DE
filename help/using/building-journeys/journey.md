@@ -114,7 +114,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 **Eintrittspunkte definieren**
 
@@ -124,7 +124,7 @@ Wählen Sie aus, wie Kundinnen und Kunden eintreten: über ein Ereignis, ein Zie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Nachrichten senden**
 
@@ -134,7 +134,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/RCS/MMS, In-App, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -144,7 +144,7 @@ Verzweigen Sie Ihre Journey basierend auf Profilattributen, Zielgruppenzugehöri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 **Daten verwenden**
 
@@ -154,7 +154,7 @@ Verwenden Sie kontextuelle Daten aus Ereignissen, [!DNL Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Externe Systeme anschließen**
 
@@ -164,7 +164,7 @@ Erstellen Sie benutzerdefinierte Aktionen, um Drittanbietersysteme für den Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -255,7 +255,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -265,7 +265,7 @@ Wenn sich eine Kundin oder ein Kunde für Ihren Service anmeldet, lösen Sie ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Versandzeitoptimierung**
 
@@ -275,7 +275,7 @@ Verwenden Sie KI, um E-Mails genau dann zu senden, wenn die Interaktionswahrsche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Steigern der Versandaktivität**
 
@@ -285,7 +285,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Targeting nach Wochentag**
 
@@ -295,7 +295,7 @@ Senden Sie unterschiedliche Inhalte basierend auf dem Wochentag, an dem Kundinne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Multi-Channel-Kampagnen**
 
@@ -305,7 +305,7 @@ Orchestrieren Sie nahtlose Erlebnisse über E-Mail, Push, SMS und Web-Kanäle hi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 **Alle Anwendungsfälle:**
 
@@ -323,7 +323,7 @@ Sobald Sie mit der Erstellung von Journeys vertrauter sind, können Sie diese le
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Erweiterte Ausdrücke**
 
@@ -333,7 +333,7 @@ Erstellen Sie dynamische Bedingungen und Personalisierungen mithilfe des Ausdruc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 **Zeitzonen**
 
@@ -343,7 +343,7 @@ Bedienen Sie globale Zielgruppen mit automatischer Zeitzonenanpassung und optima
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 **Testmodus und Probelauf**
 
@@ -353,7 +353,7 @@ Validieren Sie Journeys vor der Live-Schaltung mit Testprofilen und zeigen Sie d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 **In Sandbox kopieren**
 
@@ -363,7 +363,7 @@ Duplizieren Sie Journeys in Sandboxes, um Test- und Bereitstellungs-Workflows zu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 **Tags und Organisation**
 
@@ -373,7 +373,7 @@ Verwenden Sie Tags, um Journeys zu kategorisieren und zu filtern, damit Sie dies
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Durchsatzsteuerung**
 
