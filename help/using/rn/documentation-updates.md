@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Ein neuer Unterabschnitt **Pfadzuweisung beim erneuten Eintritt von Journey** wurde zur Dokumentation **Pfadexperiment** hinzugefügt. Dadurch wird klargestellt, dass die Pfadzuweisung für ein Profil über mehrere Eintritte in dieselbe Journey-Version hinweg persistent ist, jedoch nur innerhalb dieser Journey-Version. Zuweisungen werden zurückgesetzt, wenn eine neue Journey-Version veröffentlicht wird und jede Pfadexperimentieraktivität in einer Journey eine unabhängige zufällige Zuweisung anwendet. [Weitere Informationen](../building-journeys/path-experimentation.md#path-assignment)
 * Die Verweise auf **Adobe Experience Cloud** wurden in der [!DNL Journey Optimizer]-Dokumentation an die **[!DNL Adobe CX Enterprise]** Marke angepasst.
+
+* Die Dokumentation zur **`nowWithDelta()`Datumsfunktion** aktualisiert, um das Monatsendverhalten zu verdeutlichen: Wenn der Zielmonat weniger Tage als der aktuelle Tag des Monats hat, wird das Ergebnis auf den letzten gültigen Tag dieses Monats normalisiert. [Weitere Informationen](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * Die **„Erste Schritte mit der Zustellbarkeit** wurde mit einem neuen Unterabschnitt **Anbieter ohne FBL pro Empfänger** aktualisiert. Sie listet die wichtigsten Postfachanbieter auf, die keine Spam-Beschwerden pro Empfänger zurückgeben - Gmail/Google Workspace, Apple iCloud und Corporate Microsoft 365/Exchange Online - und erklärt, warum für Empfänger, die diese Services verwenden, das Fehlen eines Eintrags in der Unterdrückungsliste erwartet wird. [Weitere Informationen](../reports/deliverability.md#providers-no-fbl)
 
