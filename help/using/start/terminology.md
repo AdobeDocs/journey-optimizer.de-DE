@@ -8,12 +8,23 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
 source-wordcount: 1617
@@ -31,7 +42,7 @@ ht-degree: 30%
 
 In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei der Verwendung von Adobe Journey Optimizer vorkommen. Wenn Sie diese Konzepte verstehen, können Sie sicher auf der Plattform navigieren und effektiv mit Ihrem Team zusammenarbeiten.
 
-Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. **Entscheidungs- vs. Entscheidungs** Management oder **Inhaltskarten vs. In-App-Nachrichten** -, lesen Sie [Wenn Begriffe ähnlich ](#disambiguation) unten auf dieser Seite.
+Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. **Entscheidungs- vs. Entscheidungs** Management oder **Inhaltskarten vs. In-App-Nachrichten** -, lesen Sie [Wenn Begriffe ähnlich &#x200B;](#disambiguation) unten auf dieser Seite.
 
 >[!NOTE]
 >
@@ -154,5 +165,5 @@ Beide Kanäle liefern Nachrichten innerhalb einer Mobile App oder Web-Anwendung,
 * [Erste Schritte mit Entscheidungsfunktionen](../experience-decisioning/gs-decision.md) - Vergleichen Sie Entscheidungsfindung und Entscheidungs-Management nebeneinander und wählen Sie den richtigen Ansatz für Ihre Implementierung aus.
 * [Erste Schritte mit Journey](../building-journeys/journey.md) - Erfahren Sie, wie Sie ereignisgesteuerte, sequenzielle Kundenerlebnisse Schritt für Schritt erstellen.
 * [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md) - Verstehen Sie die drei Kampagnentypen (Aktion, API-ausgelöst, orchestriert) und wann jede verwendet werden sollte.
-* [Konfliktmanagement und ](../conflict-prioritization/gs-conflict-prioritization.md) - Erfahren Sie, wie Sie Regelsätze, Frequenzlimitierungen, Prioritätswerte und ruhige Stunden verwenden können, um Übernachrichten zu vermeiden.
+* [Konfliktmanagement und &#x200B;](../conflict-prioritization/gs-conflict-prioritization.md) - Erfahren Sie, wie Sie Regelsätze, Frequenzlimitierungen, Prioritätswerte und ruhige Stunden verwenden können, um Übernachrichten zu vermeiden.
 * [Erste Schritte mit Kommunikationskanälen](../channels/gs-channels.md) - Durchsuchen Sie alle verfügbaren Kanäle und sehen Sie sich deren Voraussetzungen und deren Konfiguration an.
