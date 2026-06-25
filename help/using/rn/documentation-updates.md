@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
-source-wordcount: 8915
+source-wordcount: 8952
 ht-degree: 90%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 90%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die Seite **Hochdurchsatzmodus** wurde aktualisiert, um die erweiterte regionale Verfügbarkeit widerzuspiegeln: Die Funktion ist jetzt in allen Regionen außer der Schweiz für Organisationen verfügbar, die mit dem Add-on „Hochdurchsatz-Transaktionsnachrichten“ lizenziert sind. [Weitere Informationen](../campaigns/api-triggered-high-throughput.md)
 
 * Ein neuer Abschnitt **Interaktionsfähige Profile und Lizenznutzung** wurde zur Seite **Erste Schritte mit Profilen** als zentrale Datenquelle für dieses Konzept hinzugefügt, mit zielgerichteten Verweisen, die über die Abschnitte Audiences, Kampagnen und Entscheidungen hinweg hinzugefügt wurden. [Weitere Informationen](../audience/get-started-profiles.md#engageable-profiles)
 
