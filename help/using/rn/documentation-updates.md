@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 8799
+source-wordcount: 8836
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die Dokumentation zur **Aufspaltung**-Aktivität wurde aktualisiert, um das Feld **[!UICONTROL Segment-Code]** zu dokumentieren, das in den Einstellungen für jede Teilmenge verfügbar ist. Dadurch können Sie jedem Zielgruppensegment zu Tracking- und Berichtszwecken eine eindeutige Kennung zuweisen. [Weitere Informationen](../orchestrated/activities/split.md)
 
 * Die Seite **Zielgruppendimension konfigurieren** wurde aktualisiert, um die beiden Zielgruppendimensionstypen zu dokumentieren, die in orchestrierten Kampagnen verfügbar sind: die integrierte **Zielgruppendimension** (keine Konfiguration erforderlich) und **benutzerdefinierte Zielgruppendimensionen** basierend auf relationalen Schemata. [Weitere Informationen](../orchestrated/target-dimension.md)
 
