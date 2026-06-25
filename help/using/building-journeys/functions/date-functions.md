@@ -19,10 +19,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
-ht-degree: 65%
+source-wordcount: 1384
+ht-degree: 60%
 
 ---
 
@@ -446,6 +446,12 @@ Gibt einen Datum/Uhrzeit-Wert zurück.
 
 Gibt einen Datum/Uhrzeit-Wert von vor genau 2 Stunden zurück.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+Wenn am 31.01.2026 ausgewertet, wird der Wert 2026-02-28T zurückgegeben…; wenn er am 31.05.2026 ausgewertet wird, wird der Wert 2026.06.30T zurückgegeben…
+
+`nowWithDelta()` verwendet die Kalendermonatsarithmetik. Wenn der Zielmonat weniger Tage als der aktuelle Tag des Monats hat, wird das Ergebnis auf den letzten gültigen Tag dieses Monats normalisiert. Die Funktion wird nicht auf den folgenden Monat übertragen.
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +617,6 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **F: Wie erhalte ich den aktuellen Zeitversatz um 2 Stunden in der Vergangenheit?** — `nowWithDelta(-2, "hours")` verwenden.
 * **F: Was unterscheidet `updateTimeZone` von `setHours`?** - `updateTimeZone` behält den Zeitpunkt bei, drückt ihn jedoch in einer anderen Zeitzone aus, während `setHours` die Stundenkomponente des Datetime-Werts tatsächlich ändert.
 * **F: Kann der Zeitzonenparameter in `nowWithDelta` ein Profilfeld sein?** — Nein, die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Feldverweise werden nicht unterstützt.
+* **F: Was passiert, wenn `nowWithDelta()` mit Monaten verwendet wird und das aktuelle Datum ein Monatsenddatum ist?** — Die Funktion verwendet die Kalendermonatsarithmetik und normalisiert das Ergebnis auf den letzten gültigen Tag des Zielmonats. Wenn Sie beispielsweise 1 Monat zum 31. Januar hinzufügen, wird der 28. Februar zurückgegeben (nicht der 3. März).
 
 +++
