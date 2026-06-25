@@ -137,4 +137,4 @@ Das folgende Diagramm fasst den Entscheidungsprozess von Anfang bis Ende zusamme
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
