@@ -78,7 +78,7 @@ In Adobe Experience Platform gibt es zwei Arten von Schemata:
 
 >[!IMPORTANT]
 >
->Die Aktivierung eines Schemas für das Echtzeit-Kundenprofil ist eine dauerhafte Entscheidung: Nach der Aktivierung kann das Schema nicht mehr deaktiviert oder gelöscht werden. Datensätze, die auf diesem Schema basieren, können separat deaktiviert oder gelöscht werden. Dadurch werden jedoch die zugehörigen Profildatensätze entfernt und die Segmentierungs- und Aktivierungs-Workflows können beeinträchtigt werden. Schließen Sie vor dem Aktivieren Ihre Identitätskonfiguration und die Feldergruppenauswahl ab. Detaillierte Anleitungen finden Sie unter [Profilaktivierungsplanung](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} und [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
+>Die Aktivierung eines Schemas für das Echtzeit-Kundenprofil ist eine dauerhafte Entscheidung: Nach der Aktivierung kann das Schema nicht mehr deaktiviert oder gelöscht werden. Datensätze, die auf diesem Schema basieren, können separat deaktiviert oder gelöscht werden. Dadurch werden jedoch die zugehörigen Profildatensätze entfernt und die Segmentierungs- und Aktivierungs-Workflows können beeinträchtigt werden. Schließen Sie vor dem Aktivieren Ihre Identitätskonfiguration und die Feldergruppenauswahl ab. Detaillierte Anleitungen finden Sie unter [Profilaktivierungsplanung](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} und [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
 
 ## Anleitungsvideo{#video-schema}
 
@@ -92,7 +92,7 @@ Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen so
 >* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}
 >* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target="_blank"}
->* [Planung der Profilaktivierung](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Planung der Profilaktivierung](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Verwalten von profilaktivierten Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Erstellen eines Schemas mithilfe des Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=de){target="_blank"}
 >* [Definieren einer Beziehung zwischen zwei Schemata mithilfe des Schema-Editors](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=de){target="_blank"}
