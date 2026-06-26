@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Inhaltsprüfung, HTML, CSS, Validierung, Rendering, Qualität
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 2%
 >id="ajo_email_content_check"
 >title="Validieren des E-Mail-Inhalts"
 >abstract="Inhaltsprüfungen erkennen vor dem Versand automatisch HTML- und CSS-Probleme in Ihrer E-Mail. Sie kennzeichnen nicht unterstützte Tags, leere divS und Größenbeschränkungen, die das Rendering in Gmail oder Microsoft Outlook unterbrechen können. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt, mit kontextuellen Details und Fehlerbehebungen mit einem Klick, sofern verfügbar."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 [!DNL Journey Optimizer] umfasst eine automatisierte technische Validierung direkt in der E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.
 
@@ -51,10 +56,8 @@ Wenn keine Probleme erkannt werden, wird im Fenster **Keine Probleme erkannt** a
 
 Je nach Problem können Sie mehr Kontext anzeigen, eine Fehlerbehebung mit einem Klick anwenden oder Ihre E-Mail speichern, um ein Prüfergebnis zu aktualisieren.
 
-* Klicken Sie bei einem festgestellten Problem auf die Schaltfläche **[!UICONTROL Details anzeigen]**, um mehr Kontext anzuzeigen. Klicken Sie auf **[!UICONTROL Details ausblenden]**, um sie zu reduzieren.
-  ![Inhaltsüberprüfungsbereich in der E-Mail-Designer mit Details](assets/content-check-details.png){width="80%"}
-* Ebenso können Sie auf die Schaltfläche **[!UICONTROL Fehlerbehebung anzeigen]** klicken und eine Fehlerbehebung mit einem Klick anwenden, sofern verfügbar. Wenn die Fehlerbehebung nicht automatisch angewendet werden kann, wird eine Meldung angezeigt, und Sie müssen das Problem manuell beheben.
-  ![Inhaltsüberprüfungsfenster in E-Mail-Designer mit der Schaltfläche „Fehlerbehebung anwenden“](assets/content-check-fix.png){width="80%"}
+* Klicken Sie bei einem festgestellten Problem auf die Schaltfläche **[!UICONTROL Details anzeigen]**, um mehr Kontext anzuzeigen. Klicken Sie auf **[!UICONTROL Details ausblenden]**, um sie zu reduzieren.  ![Inhaltsüberprüfungsbereich in der E-Mail-Designer mit Details](assets/content-check-details.png){width="80%"}
+* Ebenso können Sie auf die Schaltfläche **[!UICONTROL Fehlerbehebung anzeigen]** klicken und eine Fehlerbehebung mit einem Klick anwenden, sofern verfügbar. Wenn die Fehlerbehebung nicht automatisch angewendet werden kann, wird eine Meldung angezeigt, und Sie müssen das Problem manuell beheben.  ![Inhaltsüberprüfungsfenster in E-Mail-Designer mit der Schaltfläche „Fehlerbehebung anwenden“](assets/content-check-fix.png){width="80%"}
 
 ### Neuberechnung der Schecks {#recalculation}
 
