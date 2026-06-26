@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
 source-wordcount: 3695
 ht-degree: 84%
@@ -170,7 +170,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestr
 
 * **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Tokens konfiguriert, ohne dass ein Ausdruck erstellt werden muss. [Weitere Informationen](../orchestrated/add-personalization.md#enrichment-collections)
 
-  Verfügbarkeitsdatum: Ende Juni 2026
+  Verfügbarkeitsdatum: 26. Juni 2026
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
