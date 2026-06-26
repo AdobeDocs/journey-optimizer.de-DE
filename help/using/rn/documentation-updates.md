@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Neue **Journey-Typen: Wählen Sie die richtige aus** Die Seite ist jetzt verfügbar. Er vergleicht alle Journey-Einstiegspunkte - „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“, „Unitäres Ereignis“ und „Geschäftsereignis“ - mit Entscheidungshandbüchern und einer Funktionskompatibilitätsmatrix, um Sie bei der Auswahl des richtigen Typs für Ihren Anwendungsfall zu unterstützen. [Weitere Informationen](../building-journeys/journey-types-selection.md)
+
+* Eine neue Seite **Journey vs. Kampagnen** ist jetzt verfügbar. Er vergleicht Journey, Aktionskampagnen und API-ausgelöste Kampagnen im Ausführungsstil, Datenmodell und Anwendungsfall, einschließlich der Aktivierung eingehender Kanäle für Edge-Personalisierung mit niedriger Latenz, eingehenden Versand über mehrere Oberflächen und Anleitungen zur Verwendung orchestrierter Kampagnen (Ad-hoc-Zielgruppenkomposition, Federated Data). [Weitere Informationen](../start/journeys-vs-campaigns.md)
 
 * Die Seite **Hochdurchsatzmodus** wurde aktualisiert, um die erweiterte regionale Verfügbarkeit widerzuspiegeln: Die Funktion ist jetzt in allen Regionen außer der Schweiz für Organisationen verfügbar, die mit dem Add-on „Hochdurchsatz-Transaktionsnachrichten“ lizenziert sind. [Weitere Informationen](../campaigns/api-triggered-high-throughput.md)
 

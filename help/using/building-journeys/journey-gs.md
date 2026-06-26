@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
 workflow-type: tm+mt
-source-wordcount: 2143
+source-wordcount: 2159
 ht-degree: 30%
 
 ---
@@ -90,7 +90,7 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 
 | Einstiegspunkt | Verwenden, wenn… | Eingetretene Profile |
 |---|---|---|
-| **[Zielgruppe lesen](read-audience.md)** | Sie möchten eine geplante oder wiederkehrende Nachricht an eine definierte Gruppe von Profilen (Newsletter, Werbeaktionen, Onboarding-Serien) senden. | Alle Profile einer Batch-Zielgruppe auf einmal oder nach einem Zeitplan. |
+| **[Zielgruppe lesen](read-audience.md)** | Sie möchten eine geplante oder wiederkehrende Nachricht an eine definierte Gruppe von Profilen (Newsletter, Werbeaktionen, Onboarding-Serien) senden. | Alle Profile einer Batch-Zielgruppe auf einmal oder nach einem Zeitplan. [Erfahren Sie mehr über Zielgruppenexporte und Timing](https://experienceleague.adobe.com/de/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[Zielgruppenqualifizierung](audience-qualification-events.md)** | Sie müssen in Echtzeit reagieren, wenn ein Profil in eine Audience eintritt oder diese verlässt (Upgrade der Treuestufe, Markierung für Abwanderungsrisiko). | Jeweils ein Profil, sobald es sich für eine Streaming-Zielgruppe qualifiziert. |
 | **Unitäres Ereignis** | Bei einer Profilaktion wird eine sofortige Antwort Trigger (Warenkorbabbruch, Formularübermittlung, App-Anmeldung). | Jeweils ein Profil in Echtzeit. |
 | **[Geschäftsereignis](../event/about-creating-business.md)** | Ein Ereignis, das kein Profil ist, wirkt sich auf mehrere Personen gleichzeitig aus (Flugannullierung, Bestandsauffüllung, Eilmeldung). | Alle mit dem Ereignis verknüpften Profile über einen automatischen Schritt „Zielgruppe lesen“. |
