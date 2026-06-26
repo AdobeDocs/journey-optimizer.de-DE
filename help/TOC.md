@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3383'
 ht-degree: 98%
 
 ---
@@ -55,10 +55,12 @@ ht-degree: 98%
       + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + [Journeys im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[Journey und Kampagnen im Vergleich - 2](using/start/journeys-vs-campaigns-v2.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
    + {hide-from-toc}[Handbuch mit ersten Schritten für Journeys](using/building-journeys/journey-get-started.md)
    + [Journey-Typen: Wählen Sie den richtigen aus](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[Journey-Typen: Wählen Sie die richtige One-2](using/building-journeys/journey-types-selection-v2.md)
    + [Häufig gestellte Fragen zur Journey-Orchestrierung](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
