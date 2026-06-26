@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: 3695
+source-wordcount: 3714
 ht-degree: 84%
 
 ---
@@ -400,6 +400,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 <p>Journey Optimizer bietet jetzt eine automatisierte technische Validierung direkt im E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.</p>
 <p>Die Prüfungen umfassen nicht unterstützte Elemente wie <code>&lt;script&gt;</code>- und <code>&lt;base&gt;</code>-Tags, leere Divs, die das Layout in Microsoft Outlook beschädigen können, HTML-Meta-Aktualisierungs-Tags sowie CSS- oder HTML-Größenschwellenwerte, die in Gmail Rendering-Fehler verursachen.</p>
 <p>Ergebnisse werden direkt im Authoring-Panel als Fehler, Warnungen oder informative Hinweise angezeigt. Dort sind kontextuelle Details und Fehlerbehebungen mit einem Klick verfügbar, sodass Probleme gelöst werden können, ohne den Editor zu verlassen.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>Weitere Informationen finden Sie im <a href="../email/content-check.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 18. Juni 2026</p>
