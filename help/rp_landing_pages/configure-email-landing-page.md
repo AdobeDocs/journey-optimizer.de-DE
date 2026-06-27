@@ -30,7 +30,7 @@ Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Fu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren von E-Mail-Konfigurationseinstellungen
 
@@ -40,7 +40,7 @@ Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Konfigurieren der Listen-Abmeldung
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Funktion zur Listen-Abmeldung aktivieren, um für das 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Header-Parametern für E-Mails
 
@@ -70,7 +70,7 @@ Richten Sie URL-Tracking-Parameter ein, um die Effektivität von E-Mail-Kampagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Personalisierte Einstellungen der E-Mail-Konfiguration
 

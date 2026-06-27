@@ -60,7 +60,7 @@ Passen Sie Kampagneninhalte mithilfe von kontextuellen Daten an und personalisie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer durch API ausgelösten Kampagne
 
