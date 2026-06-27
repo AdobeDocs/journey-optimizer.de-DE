@@ -20,7 +20,7 @@ Bei der Ereigniskonfiguration in Adobe Journey Optimizer geht es um die Einricht
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Journey-Ereignissen
 
@@ -40,7 +40,7 @@ Folgen Sie einer schrittweisen Anleitung zum Konfigurieren von unitären Ereigni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erlebnisereignis-Schemata
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Adobe Analytics-Daten integrieren können, um Journeys zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Konfigurieren eines Geschäftsereignisses
 
@@ -70,7 +70,7 @@ Schrittweise Anleitungen zum Konfigurieren von Geschäftsereignissen, einschlie�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Senden von Ereignissen mithilfe von Streaming-APIs
 

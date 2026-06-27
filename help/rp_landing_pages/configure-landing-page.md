@@ -20,7 +20,7 @@ Im Abschnitt „Konfigurieren des Inhaltskartenkanals“ in Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Voraussetzungen für die Konfiguration von Inhaltskarten-Kanälen
 
@@ -30,7 +30,7 @@ Erfahren Sie, welche Konfigurationen und Einstellungen erforderlich sind, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Konfigurieren des Inhaltskarten-Kanals in Journey Optimizer
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um URI-Oberflächen zu definieren und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren der Unterstützung für Inhaltskarten im Mobile SDK
 
@@ -50,7 +50,7 @@ Aktivieren und passen Sie Inhaltskarten in Apps mithilfe von Adobe Experience Pl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren der Unterstützung für Inhaltskarten im Web SDK
 

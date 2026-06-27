@@ -20,7 +20,7 @@ KI-Modelle in Adobe Journey Optimizer helfen Ihnen, das richtige Angebot zum ric
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Erste Schritte mit KI-Modellen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Modelle mit automatischer Optimierung funktionieren, einschlie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Modelle zur personalisierten Optimierung
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Modelle zur personalisierten Optimierung Kundendaten nutzen, u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Schrittweise Anleitung: Erstellen von KI-Modellen
 

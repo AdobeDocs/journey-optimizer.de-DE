@@ -35,7 +35,7 @@ Erfahren Sie mehr über KI-Modelle in Adobe Journey Optimizer, ihre Typen, Funkt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Grundlegendes zu Modellen für die automatische Optimierung
 
