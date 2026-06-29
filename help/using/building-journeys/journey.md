@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 * **Journeys des Typs „Zielgruppen-Qualifizierung“**: Echtzeit-Reaktionen auf Änderungen bei der Zielgruppenzugehörigkeit (VIP-Upgrades, Rückgewinnung)
 * **Journeys des Typs „Geschäftsereignis“**: Geschäftsbedingungen, die mehrere Kundinnen und Kunden gleichzeitig betreffen (Inventar-Warnhinweise, Flash-Verkäufe)
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[Journey-Typen: Wählen Sie den richtigen aus](journey-types-selection.md)** - Detaillierter Vergleich, Entscheidungshandbuch und Funktionskompatibilitätsmatrix
+
 
 ## Erstellen mit dem Journey-Designer {#journey-designer}
 
@@ -413,14 +411,12 @@ Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ Welchen Journey-Typ sollte ich verwenden?
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+Verwenden Sie das [Entscheidungshandbuch](journey-types-selection.md#decision-guide) oder [Vergleichstabelle](journey-types-selection.md#journey-types-comparison), um je nach Trigger-Mechanismus und Anwendungsfall zwischen den Journey-Codes „Unitär“, „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ und „Geschäftsereignis“ zu wählen.
 
 +++
--->
+
 
 +++ Kann ich eine Live-Journey bearbeiten?
 
