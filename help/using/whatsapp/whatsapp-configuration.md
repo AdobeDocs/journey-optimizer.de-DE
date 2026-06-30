@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1377
 ht-degree: 87%
 
 ---
@@ -208,7 +208,7 @@ Nachdem Sie Ihren Webhook konfiguriert haben, können Sie Ihre WhatsApp-Konfigur
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Geben Sie die **[!UICONTROL Absendertelefonnummer]** ein, die Sie für Ihre Nachrichten verwenden möchten.
+1. Geben Sie die **[!UICONTROL Absendertelefonnummer]** ein, die Sie für Ihre Nachrichten verwenden möchten. Vor der Nummer darf kein &#39;+&#39;-Zeichen stehen, da dies die ordnungsgemäße Funktionsweise des Opt-out-Flusses verhindern kann.
 
 1. Verwenden Sie das **[!UICONTROL WhatsApp-Ausführungsfeld]**, um unter den Profilattributen die Telefonnummer auszuwählen, die Sie vorrangig verwenden möchten, wenn mehrere Nummern in der Datenbank verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
