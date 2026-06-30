@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Journey-Optimizer, Anwendungsfall, Entscheidungshandbuch, welche Funktion, Erste Schritte, Anwenderziele, Tutorials
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 31%
+source-wordcount: '3224'
+ht-degree: 30%
 
 ---
 
@@ -187,8 +187,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Neue Kunden begrüßen {#flow-welcome}
 
-**Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.
-**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
+**Sie werden Folgendes erstellen:** Eine automatisierte Begrüßungsreihe, die alle neuen Abonnenten begrüßt und inaktive abstößt.**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
 1. Bestätigen Sie[&#x200B; dass Ihre einheitlichen Profile und &#x200B;](../audience/get-started-profiles.md) das Registrierungsereignis erhalten.
 1. [Erstellen Sie Ihre erste &#x200B;](../building-journeys/journey-gs.md) und verwenden Sie das Registrierungsereignis als Eintrag.
@@ -199,8 +198,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Wiederherstellen von Transaktionsabbrüchen {#flow-cart}
 
-**Sie erstellen Folgendes:** Ein automatisierter Wiederherstellungsfluss, der Kunden an zurückgelassene Elemente erinnert.
-**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
+**Sie erstellen Folgendes:** Ein automatisierter Wiederherstellungsfluss, der Kunden an zurückgelassene Elemente erinnert.**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Ereignisausgelöster Journey
 
 1. Stellen Sie sicher, dass das Warenkorbabbruchs-Ereignis Journey Optimizer erreicht (wenden Sie sich bei Bedarf an Ihr [Daten-](../data/gs-data.md)).
 1. [Erstellen einer Journey](../building-journeys/journey-gs.md) ausgelöst durch das Abbruchereignis.
@@ -211,8 +209,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Senden von Transaktionsnachrichten {#flow-transactional}
 
-**Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.
-**Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** Kampagne, die von einem externen System ausgelöst wird
+**Sie erstellen:** On-Demand-Bestellungen, Versandbestätigungen oder Terminbestätigungen, die von einem externen System ausgelöst werden.**Am besten geeignet für:** Marketing-Experten und Entwickler ・ **Funktion:** Kampagne, die von einem externen System ausgelöst wird
 
 1. Überprüfen Sie, [&#x200B; Kampagnen, die von einem externen System ausgelöst &#x200B;](../campaigns/api-triggered-campaigns.md), funktionieren und welche Payload sie erwarten.
 1. Gestalten Sie die Nachrichtenvorlage und [&#x200B; Sie &#x200B;](../personalization/personalize.md) mit den Transaktionsdetails.
@@ -222,8 +219,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Starten einer Kampagne mit Inhaltstests {#flow-campaign}
 
-**Sie erstellen:** Eine geplante Promotion, die automatisch die Inhalte mit der besten Leistung auswählt.
-**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Geplante Kampagne + Inhaltsexperiment
+**Sie erstellen:** Eine geplante Promotion, die automatisch die Inhalte mit der besten Leistung auswählt.**Am besten geeignet für:** Marketingexperten ・ **Funktion:** Geplante Kampagne + Inhaltsexperiment
 
 1. [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md) und Definieren Ihrer Audience.
 1. Verwenden Sie [Inhaltserstellung](../content-management/gs-generative.md), um die Betreffzeile zu entwerfen und Varianten zu kopieren.
@@ -233,8 +229,7 @@ Jeder Starterfluss im Folgenden ist ein kurzer, ergebnisorientierter Satz von Sc
 
 ### Angebote pro Kunde personalisieren {#flow-offers}
 
-**Sie erstellen:** Eine Entscheidung, die jedem Kunden das beste Einzelangebot zeigt.
-**Am besten geeignet für:** Marketing-Experten ・ **Funktion:** Decisioning
+**Sie erstellen:** Eine Entscheidung, die jedem Kunden das beste Einzelangebot zeigt.**Am besten geeignet für:** Marketing-Experten ・ **Funktion:** Decisioning
 
 1. [Erste Schritte mit Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) und erstellen Sie Ihre Angebote und Eignungsregeln.
 1. Fügen Sie die Entscheidung einer [Journey](../building-journeys/journey-gs.md) oder Kampagnennachricht hinzu.
@@ -345,6 +340,8 @@ Durchsuchen kuratierter Videoinhalte nach Thema. Jede Registerkarte ist mit den 
 | Verhaltensgesteuert und in mehreren Schritten: Jeder Kunde bewegt sich in seinem eigenen Tempo | Journey |
 | Einfache geplante oder durch eine API ausgelöste Nachricht an eine Zielgruppe | Campaign |
 | Komplexer Batch-Workflow mit Segmentierung mehrerer Entitäten | Orchestrierte Kampagne |
+
+Einen detaillierten Vergleich mit einem Entscheidungsbaum und Funktionstabellen finden Sie unter [Journey vs. Kampagnen: Wählen Sie den richtigen Ansatz](journeys-vs-campaigns.md). Nachdem Sie sich für Journey entschieden haben, lesen Sie [Journey-Typen: Wählen Sie den richtigen aus](../building-journeys/journey-types-selection.md) um zwischen unitären Ereignissen, Journey zu „Zielgruppe lesen“, Zielgruppen-Qualifizierung und Geschäftsereignissen auszuwählen.
 
 ## Nicht sicher? {#not-sure}
 
