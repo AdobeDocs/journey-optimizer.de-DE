@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->Wenn Sie zum ersten Mal Nachrichten für Mobilgeräte erstellen, stellen Sie sicher, dass der Mobile-Nachrichtenkanal konfiguriert wurde. [Weitere Informationen](mobile-configuration.md)
-
 Verwenden Sie [!DNL Journey Optimizer], um Mobile-Nachrichten über drei Kanäle (**SMS**, **MMS** und **RCS**) von einem einzigen SMS-/MMS-/RCS-Editor aus an Ihre Kunden zu senden, in dem Sie Inhalte erstellen, personalisieren und in der Vorschau anzeigen können.
 
 * **SMS (Short Message Service)**: Versand von Nur-Text-Nachrichten mit bis zu 160 Zeichen, unterstützt auf allen Mobilgeräten.
 * **MMS (Multimedia Message Service)**: Reichern Sie Ihre Nachrichten mit Bildern, Videos, Audioclips und GIFs sowie bis zu 1.600 Textzeichen an. [Informationen zu MMS-Einschränkungen](../start/guardrails.md#sms-guardrails)
 * **RCS (Rich Communication Services)**:Deliver markenspezifischer, interaktiver Inhalt direkt in der nativen Messaging-App Ihrer Kunden, ohne dass ein zusätzlicher App-Download erforderlich ist.
+
+>[!IMPORTANT]
+>
+>Wenn Sie zum ersten Mal Nachrichten für Mobilgeräte erstellen, stellen Sie sicher, dass der Mobile-Nachrichtenkanal konfiguriert wurde. [Weitere Informationen](mobile-configuration.md)
 
 Mobile Nachrichten können in einer Journey oder in einer Kampagne mithilfe der Mobile-Nachrichtenaktion erstellt und gesendet werden:
 
