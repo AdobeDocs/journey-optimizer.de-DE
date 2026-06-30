@@ -115,7 +115,7 @@ Interagieren Sie App-Benutzer mit sitzungsinternen und persistenten mobilen Erle
 
 Personalisieren von Web-Erlebnissen ohne Bereitstellung von Code.
 
-**Enthält:**[Webkanal](../web/get-started-web.md) (visueller und nicht visueller Editor), [Code-basierte Kanäle](../code-based/get-started-code-based.md) für Web-Oberflächen
+**Enthält:**&#x200B;[Webkanal](../web/get-started-web.md) (visueller und nicht visueller Editor), [Code-basierte Kanäle](../code-based/get-started-code-based.md) für Web-Oberflächen
 
 **Typische Anwendungsfälle:** Homepage-Banner, Landingpage-Personalisierung, A/B-Tests, Headless Web-Personalisierung über API
 
@@ -176,7 +176,7 @@ Bestimmt durch Ihr Basisangebot.
 | [Batch-Kampagnen](../campaigns/get-started-with-campaigns.md) | ✓ | – | ✓ |
 | [Orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) _(nur E-Mail, SMS, Push, Briefpost)_ | ✓ | – | ✓ |
 | [Automated Journey](../building-journeys/journey-gs.md) | – | ✓ | ✓ |
-| [Echtzeit-Ereignis-Trigger ](../event/about-events.md) | – | ✓ | ✓ |
+| [Echtzeit-Ereignis-Trigger &#x200B;](../event/about-events.md) | – | ✓ | ✓ |
 
 ### Kanäle und erweiterte Funktionen {#channel-capabilities}
 
@@ -185,7 +185,7 @@ Die meisten Kanäle sind für alle drei Basisangebote verfügbar und erfordern d
 | Funktion | Verfügbarkeit | Add-on erforderlich |
 |-----------|-------------|----------------|
 | [E-Mail](../email/get-started-email.md) | Alle Basisangebote | Ausgehender Versand |
-| [Push-Benachrichtigungen ](../push/get-started-push.md) | Alle Basisangebote | Ausgehender Versand |
+| [Push-Benachrichtigungen &#x200B;](../push/get-started-push.md) | Alle Basisangebote | Ausgehender Versand |
 | [Briefpost](../direct-mail/get-started-direct-mail.md) | Alle Basisangebote | Ausgehender Versand |
 | [SMS/MMS](../mobile/get-started-mobile.md) | Basierend auf Ihrer lizenzierten Konfiguration | Basierend auf Ihrer lizenzierten Konfiguration |
 | [In-App-Messaging](../in-app/get-started-in-app.md) | Alle Basisangebote | Mobile |
