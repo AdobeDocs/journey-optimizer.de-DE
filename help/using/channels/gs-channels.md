@@ -7,24 +7,15 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -47,7 +38,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -57,7 +48,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -67,7 +58,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 iOS-Live-Aktivitäten
 
@@ -77,7 +68,7 @@ Stellen Sie andauernde Echtzeit-Updates direkt auf dem iPhone-Sperrbildschirm un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mobile-Nachrichten
 
@@ -87,17 +78,17 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
-Briefpostkampagnen
+Briefpost
 
 Erfahren Sie, wie Sie Briefpostkampagnen erstellen und verwalten, einschließlich des Exports von Extraktionsdateien für Drittanbieter und Compliance bezüglich des Benutzereinverständnisses.
 
-[Weitere Informationen zu Briefpostkampagnen](../../rp_landing_pages/direct-mail-landing-page.md)
+[Weitere Informationen zu Briefpost](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp-Messaging
 
@@ -107,7 +98,7 @@ Erfahren Sie, wie Sie WhatsApp-Messaging über die Cloud-API von Meta in persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE-Messaging
 
@@ -125,7 +116,7 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -135,7 +126,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -145,7 +136,7 @@ Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
@@ -155,7 +146,7 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
