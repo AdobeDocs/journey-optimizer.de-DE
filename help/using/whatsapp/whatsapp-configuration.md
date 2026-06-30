@@ -8,27 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b8df23d2-98a2-4406-86cc-2babe8728d36id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1377
 ht-degree: 87%
 
 ---
@@ -208,7 +196,7 @@ Nachdem Sie Ihren Webhook konfiguriert haben, können Sie Ihre WhatsApp-Konfigur
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Geben Sie die **[!UICONTROL Absendertelefonnummer]** ein, die Sie für Ihre Nachrichten verwenden möchten.
+1. Geben Sie die **[!UICONTROL Absendertelefonnummer]** ein, die Sie für Ihre Nachrichten verwenden möchten. Vor der Nummer darf kein &#39;+&#39;-Zeichen stehen, da dies die ordnungsgemäße Funktionsweise des Opt-out-Flusses verhindern kann.
 
 1. Verwenden Sie das **[!UICONTROL WhatsApp-Ausführungsfeld]**, um unter den Profilattributen die Telefonnummer auszuwählen, die Sie vorrangig verwenden möchten, wenn mehrere Nummern in der Datenbank verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -254,6 +242,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
