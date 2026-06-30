@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
-ht-degree: 29%
+source-wordcount: 2545
+ht-degree: 28%
 
 ---
 
@@ -88,26 +88,22 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 
 ### Schritt 1: Was ist Ihre Ausführungsanforderung?
 
-**Individuelle Reaktionen in Echtzeit auf das Kundenverhalten?**
-→ **Journey verwenden**
+**Individuelle Antworten in Echtzeit auf das Kundenverhalten?→** Journey verwenden **
 * Profile müssen sich in ihrem eigenen Tempo bewegen
 * Bedingte Logik basierend auf dem Verhalten
 * Echtzeitkontext ist entscheidend
 
-**Einfacher Nachrichtenversand an eine Zielgruppe zu einem geplanten Zeitpunkt?**
-→ **Verwenden von**
+**Einfacher Nachrichtenversand an eine Zielgruppe zu einem geplanten Zeitpunkt?→** Verwenden von **
 * Alle Profile erhalten die Nachricht gleichzeitig
 * Geplante oder wiederkehrende Sendungen
 * Keine komplexe mehrstufige Logik erforderlich
 
-**Sofortige Nachricht durch ein externes System ausgelöst?**
-→ **API-ausgelöste Kampagnen verwenden** (eine Nachricht) **oder eine unitäre Ereignis-Journey** (mehrstufige Orchestrierung)
+**Sofortige Nachricht durch ein externes System ausgelöst?→** API-ausgelöste Kampagnen verwenden **(eine Nachricht)** oder eine unitäre Ereignis-Journey **(mehrstufige Orchestrierung)
 * Wird bei Bedarf über einen API-Aufruf ausgelöst: Kampagnen liefern eine Nachricht; unitäre Journey nehmen das Ereignis über eine [Experience Platform-Aufnahme auf &#x200B;](../event/additional-steps-to-send-events-to-journey.md) führen einen vollständigen Journey-Fluss aus
 * Payload-gesteuerte Personalisierung
 * Auswählen von Kampagnen, wenn keine mehrstufige Logik erforderlich ist
 
-**Komplexer Batch-Workflow mit erweiterter Segmentierung, Daten aus mehreren Entitäten oder exakten Zählungen vor dem Versand?**
-→ **Verwenden orchestrierter Kampagnen** - siehe [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) für eine ausführliche Anleitung.
+**Komplexer Batch-Workflow mit erweiterter Segmentierung, Daten aus mehreren Entitäten oder exakten Zählungen vor dem Versand?→** Verwenden orchestrierter Kampagnen **- siehe [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) für eine ausführliche Anleitung.
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 Jede Person erlebt basierend auf ihren Aktionen ihre eigene Journey-Timeline.
 
-[Weitere Informationen über Journeys](../building-journeys/journey.md)
+[Erfahren Sie mehr über Journey](../building-journeys/journey.md) | [Journey-Typen: Wählen Sie den richtigen aus](../building-journeys/journey-types-selection.md)
 
 ### Kampagnen: Einfacher Batch-Versand oder ausgelöster Versand
 
@@ -292,11 +288,13 @@ Ja. In [!DNL Adobe Experience Platform] erstellte Audiences können in Journey-,
 Bereit, mit dem Erstellen zu beginnen? Informieren Sie sich in der ausführlichen Dokumentation zu Ihrem gewählten Ansatz:
 
 * **[Erste Schritte mit Journey](../building-journeys/journey.md)** - Journey-Typen, Designer und Workflow
+* **[Journey-Typen: Wählen Sie den richtigen aus](../building-journeys/journey-types-selection.md)** - Unitäres Ereignis, Zielgruppe lesen, Zielgruppen-Qualifizierung und Geschäftsereignis
 * **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** - Aktion und API-ausgelöste Kampagnen
 * **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** - Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten (separate Anleitung)
 
 >[!MORELIKETHIS]
 >
+>* [Journey-Typen: Wählen Sie den richtigen aus](../building-journeys/journey-types-selection.md)
 >* [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)
 >* [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)

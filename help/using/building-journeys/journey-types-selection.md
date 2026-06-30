@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
-ht-degree: 19%
+source-wordcount: 2296
+ht-degree: 18%
 
 ---
 
@@ -180,6 +180,7 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 
 Nachdem Sie nun einen Journey-Typ ausgewählt haben:
 
+* **[Journey vs. Kampagnen](../start/journeys-vs-campaigns.md)** - Nicht sicher, ob Journey oder Kampagnen das richtige Tool sind? Gehen Sie zuerst zur übergeordneten Entscheidung zurück.
 * **[Erstellen Sie Ihre erste Journey](journey-gs.md)** — Schrittweise Anleitung von der Eingabe bis zur Veröffentlichung
 * **[Erfahren Sie mehr über den Journey-Designer](using-the-journey-designer.md)** — Entwerfen Sie Ihre Journey-Arbeitsfläche
 * **[Profileintritt in Journey](entry-management.md)** — Eintrittsregeln, Wiedereintritt und Durchsatz nach Typ

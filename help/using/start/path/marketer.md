@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 ### Kampagnenorchestrierung
 
-* **Wählen des richtigen Ansatzes**: [Vergleichen Sie Journey-Typen](../../building-journeys/journey.md#journey-types) für verhaltensgesteuerte Erlebnisse in Echtzeit oder [Kampagnentypen](../../campaigns/get-started-with-campaigns.md#campaign-types) für geplante Batch-Kampagnen
+* **Den richtigen Ansatz wählen**: Siehe [Journey im Vergleich zu Kampagnen](../journeys-vs-campaigns.md) um zwischen Echtzeit-Orchestrierung und geplantem Versand zu entscheiden, dann [Journey-Typen: Wählen Sie den richtigen &#x200B;](../../building-journeys/journey-types-selection.md), um den richtigen Journey-Typ auszuwählen
 * **Definieren von klaren Kampagnenzielen**: Legen Sie Ziele fest, bevor Sie mehrstufige Workflows erstellen
 * **Starten mit Pilot-Zielgruppen**: Überprüfen Sie Anzahl und Segmentierungslogik vor der Skalierung
 * **Nutzen relationaler Daten**: Verwenden Sie die Segmentierung in mehrere Entitäten, um Kundendaten mit Konten, Käufen und Abonnements zu verbinden und so ein präzises Targeting zu ermöglichen

@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 85%
+source-wordcount: 831
+ht-degree: 83%
 
 ---
 
@@ -93,6 +93,8 @@ Journey Optimizer unterstützt eine breite Palette von Szenarien - von durch Ech
 
 Die für Ihr Ziel geeignete Funktion finden Sie in der Übersicht über [Journey Optimizer-Anwendungsfälle](ajo-use-case-guide.md). Durchsuchen Sie die [Journey-Anwendungsfallbibliothek nach durchgängigen, funktionierten Beispielen](../building-journeys/jo-use-cases.md).
 
+Sie sind sich nicht sicher, ob Sie Journey oder Kampagnen für Ihr Ziel verwenden sollen? Siehe [Journey vs. Kampagnen: Wählen Sie den richtigen Ansatz](journeys-vs-campaigns.md).
+
 
 ## Verfügbarkeit und Lizenzierung {#availability}
 
@@ -123,4 +125,5 @@ Journey Optimizer basiert nativ auf Adobe Experience Platform und verwendet dies
 | Integration von Journey Optimizer mit Adobe Experience Platform | [Grundlegendes zu Journey Optimizer](understanding-ajo.md) |
 | Erste Schritte für meine spezifische Rolle | [Rollen und Zuständigkeiten](quick-start.md) |
 | Erkunden von Anwendungsfällen | [Übersicht über Journey Optimizer-Anwendungsfälle](ajo-use-case-guide.md) |
+| Entscheidung zwischen Journey und Kampagnen | [Journeys im Vergleich zu Kampagnen](journeys-vs-campaigns.md) |
 | Siehe Schlüsselbegriffe | [Terminologie](terminology.md) |
