@@ -8,11 +8,25 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
 source-wordcount: 1737
@@ -34,7 +48,7 @@ Als **Marketing-Fachkraft** oder **Business Anwenderin bzw. -Anwender** entwerfe
 >
 >**Implementierungsreihenfolge:** [Administrator](administrator.md) → [Datentechniker](data-engineer.md) → [Entwickler](developer.md) → Sie befinden sich hier: **Marketer**
 >
->Bestätigen Sie[ dass die ](administrator.md) und [Datenkonfiguration](data-engineer.md) abgeschlossen sind, bevor Sie Journey erstellen.
+>Bestätigen Sie[&#x200B; dass die &#x200B;](administrator.md) und [Datenkonfiguration](data-engineer.md) abgeschlossen sind, bevor Sie Journey erstellen.
 
 ## Erste Schritte mit den Grundlagen
 
@@ -131,7 +145,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 ### Kampagnenorchestrierung
 
-* **Den richtigen Ansatz wählen**: Siehe [Journey im Vergleich zu Kampagnen](../journeys-vs-campaigns.md) um zwischen Echtzeit-Orchestrierung und geplantem Versand zu entscheiden, dann [Journey-Typen: Wählen Sie den richtigen ](../../building-journeys/journey-types-selection.md), um den richtigen Journey-Typ auszuwählen
+* **Den richtigen Ansatz wählen**: Siehe [Journey im Vergleich zu Kampagnen](../journeys-vs-campaigns.md) um zwischen Echtzeit-Orchestrierung und geplantem Versand zu entscheiden, dann [Journey-Typen: Wählen Sie den richtigen &#x200B;](../../building-journeys/journey-types-selection.md), um den richtigen Journey-Typ auszuwählen
 * **Definieren von klaren Kampagnenzielen**: Legen Sie Ziele fest, bevor Sie mehrstufige Workflows erstellen
 * **Starten mit Pilot-Zielgruppen**: Überprüfen Sie Anzahl und Segmentierungslogik vor der Skalierung
 * **Nutzen relationaler Daten**: Verwenden Sie die Segmentierung in mehrere Entitäten, um Kundendaten mit Konten, Käufen und Abonnements zu verbinden und so ein präzises Targeting zu ermöglichen
