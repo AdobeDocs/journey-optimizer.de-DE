@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 30%
@@ -117,13 +117,15 @@ Gehen Sie wie folgt vor, um eine mehrstufige Journey zu erstellen:
 
 1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Informationen zum Festlegen der Eigenschaften Ihrer Journey finden Sie auf [dieser Seite](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Welchen Journey-Typ sollte ich wählen?** Wenn Sie mit Journey Optimizer noch nicht vertraut sind, beginnen Sie mit einer zielgruppenbasierten Journey mit einer **[!UICONTROL Zielgruppe lesen]**-Aktivität. Dafür ist keine vorherige Ereigniskonfiguration erforderlich und der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen. Für ereignisgesteuerte Erlebnisse in Echtzeit (z. B. Reaktion auf einen Kauf oder eine Formularübermittlung) konfigurieren Sie zuerst ein Ereignis und verwenden Sie einen ereignisbasierten Eintrag. Bereit, tiefer zu gehen? [Entdecken Sie alle Journey-Typen und ihre Eingaberegeln](entry-management.md#types-of-journeys).
-
    ![Panel „Journey-Eigenschaften“ mit Einstellungen und Konfigurationsoptionen](assets/jo-properties.png)
 
 Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
+
+>[!TIP]
+>
+>**Welchen Journey-Typ sollte ich wählen?**
+>
+>Wenn Sie mit Journey Optimizer noch nicht vertraut sind, beginnen Sie mit einer zielgruppenbasierten Journey mit einer **[!UICONTROL Zielgruppe lesen]**-Aktivität. Dafür ist keine vorherige Ereigniskonfiguration erforderlich und der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen. Für ereignisgesteuerte Erlebnisse in Echtzeit (z. B. Reaktion auf einen Kauf oder eine Formularübermittlung) konfigurieren Sie zuerst ein Ereignis und verwenden Sie einen ereignisbasierten Eintrag. Bereit, tiefer zu gehen? [Entdecken Sie alle Journey-Typen und ihre Eingaberegeln](entry-management.md#types-of-journeys).
 
 ## Entwerfen der Journey {#jo-design}
 
