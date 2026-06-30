@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
 
-Briefpostkampagnen
+Briefpost
 
 Erfahren Sie, wie Sie Briefpostkampagnen erstellen und verwalten, einschließlich des Exports von Extraktionsdateien für Drittanbieter und Compliance bezüglich des Benutzereinverständnisses.
 
-[Weitere Informationen zu Briefpostkampagnen](../../rp_landing_pages/direct-mail-landing-page.md)
+[Weitere Informationen zu Briefpost](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -54,7 +54,7 @@ ht-degree: 98%
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
       + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
-      + [Journeys im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
+      + [Journey im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[Journey und Kampagnen im Vergleich - 2](using/start/journeys-vs-campaigns-v2.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)

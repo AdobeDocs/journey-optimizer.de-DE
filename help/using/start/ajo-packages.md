@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: Journey Optimizer, Paket, Lizenz, Kampagnen, Journey, Kanäle, Entscheidungsfindung, Outbound, Mobil, Web, modular, SMS, MMS, WhatsApp, Add-ons, Select, Prime, Ultimate, Legacy
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] verwendet ein modulares Verpackungsmodell. Beginnen Sie mit dem Basisangebot, das Ihrem primären Anwendungsfall entspricht, und fügen Sie dann die benötigten Kanäle und erweiterten Funktionen hinzu.
 
+Die Verfügbarkeit und die enthaltenen Funktionen hängen von Ihrer Vereinbarung, den ausgewählten Add-ons und der regionalen Verfügbarkeit ab. Wenden Sie sich an den Adobe-Support, um spezifische Informationen zu Ihrem Unternehmen zu erhalten.
+
 >[!TIP]
 >
 >**Nicht sicher, auf welchem Modell Sie sind?** Wenn Sie [!DNL Adobe Journey Optimizer] unter dem modularen Verpackungsmodell gekauft haben, gelten die auf dieser Seite beschriebenen Basisangebote und Add-ons für Sie. Wenn in Ihrem Vertrag **Select**, **Prime** oder **Ultimate** referenziert wird, verwenden Sie ein veraltetes Verpackungsmodell. Wenden Sie sich zur Bestätigung Ihrer aktuellen Berechtigungen an Ihren Adobe-Support-Mitarbeiter.
-
->[!NOTE]
->
->Die Verfügbarkeit und die enthaltenen Funktionen hängen von Ihrer Vereinbarung, den ausgewählten Add-ons und der regionalen Verfügbarkeit ab. Wenden Sie sich an den Adobe-Support, um spezifische Informationen zu Ihrem Unternehmen zu erhalten.
 
 ## Schnelle Antworten {#quick-answers}
 
@@ -77,13 +75,13 @@ Es stehen drei Basisangebote zur Verfügung. Jede Version entspricht einer ander
 
 | | Journey Optimizer - Kampagnen | JOURNEY OPTIMIZER - JOURNEY | Journey Optimizer - Kampagnen und Journey |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [Zielgruppenbasierte Batch-Orchestrierung](../campaigns/get-started-with-campaigns.md) | ✓ | Limited¹ | ✓ |
+| [Zielgruppenbasierte Batch-Orchestrierung](../campaigns/get-started-with-campaigns.md) | ✓ | Limited<sup>1</sup> | ✓ |
 | [Ereignisgesteuerte Orchestrierung in Echtzeit](../building-journeys/journey-gs.md) | – | ✓ | ✓ |
 | Transaktionsnachrichten (E-Mail, Push, SMS) | ✓ | ✓ | ✓ |
 | [Channel-Add-ons verfügbar](#channel-addons) | ✓ | ✓ | ✓ |
 | [Decisioning-Add-on verfügbar](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ In **Journey Optimizer - Journey** wird die zielgruppenbasierte Orchestrierung nur innerhalb von Journey-Anwendungsfällen unterstützt, nicht als eigenständige Batch-Kampagnen.
+<sup>1</sup> In **Journey Optimizer - Journey** wird die zielgruppenbasierte Orchestrierung nur innerhalb von Journey-Anwendungsfällen unterstützt, nicht als eigenständige Batch-Kampagnen.
 
 ## Schritt 2 - Fügen Sie die benötigten Kanäle hinzu {#channel-addons}
 
