@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: Integration, Anbieter, Drittanbieter
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 6%
 
 ---
@@ -1201,7 +1200,7 @@ Basishost hängt von der Region ab (z. B. `https://{{customername}}.module.slgnt
 
 >[!IMPORTANT]
 >
->Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/de/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
+>Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
 
 >[!BEGINSHADEBOX]
 
@@ -1209,9 +1208,7 @@ Adobe Target umfasst Recommendations- und Bereitstellungs-APIs für Server-seiti
 
 Typische Anwendungsfälle sind das Einfügen von Empfehlungen in von Ihnen in Journey Optimizer erstellte Erlebnisse und das Ausrichten von Schlüsseln am Profil- oder Experience Platform-Kontext.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ Erfahren Sie nach der Aktivierung der Integration, wie Sie [Integration in der Inhaltserstellung hinzufügen](integrations-personalization.md#apply-integration-personalization) und [Adobe Target-Daten in Nachrichtenvorlagen verwenden](integrations-personalization.md#use-adobe-target-in-templates).
 
 >[!ENDSHADEBOX]
 
@@ -1231,7 +1228,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1284,7 +1281,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
@@ -1687,7 +1684,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++Beispiele für Integrationsfelder
 
-Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [&#x200B; unterstützte Muster &#x200B;](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
+Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [ unterstützte Muster ](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
 
 | Feld | Wert |
 | --- | --- |
@@ -1771,7 +1768,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -2194,7 +2191,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |
