@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 68%
+source-wordcount: 2122
+ht-degree: 66%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 68%
 
 ## Journey-Dashboard {#dashboard-jo}
 
-Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** und **[!UICONTROL Durchsuchen]**.
+Klicken Sie im Menüabschnitt JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Drei dedizierte Registerkarten sind verfügbar: **[!UICONTROL Übersicht]** (Dashboard), **[!UICONTROL Durchsuchen]** (Liste und Kalender) und **[!UICONTROL Ordneransicht]** (Journey in Ordnern organisieren).
 
 ### Journey-Überblick
 
@@ -53,7 +53,7 @@ Auf der Registerkarte **[!UICONTROL Überblick]** wird ein Dashboard mit Schlüs
 
 ### Journey-Liste
 
-Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können nach Journeys suchen, Filter verwenden und für jedes Element grundlegende Aktionen ausführen. Sie können ein Element beispielsweise duplizieren oder löschen.
+Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhandenen Journeys angezeigt. Sie können für jedes Element nach Journey suchen, Filter verwenden und grundlegende Aktionen durchführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
 ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ So navigieren Sie in Ihrem Journey-Kalender:
 
    ![Kampagnenliste mit geöffnetem Informationsbereich](assets/journey-calendar-4.png)
 
+### Ordneransicht {#journeys-folders}
+
+Öffnen Sie die Ordneransicht des Journey mit dem **[!UICONTROL Ordner anzeigen]** auf der Journey-Liste oder verwenden Sie die Registerkarte **[!UICONTROL Ordneransicht]**. [Erfahren Sie mehr über die Arbeit mit Ordnern](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>Die Ordner für Journey sind nur begrenzt verfügbar. Den aktuellen Versionsstatus finden Sie im [Journey Optimizer-Versionszyklus](../rn/releases.md).
 
 ## Filtern von Journeys {#journey-filter}
 

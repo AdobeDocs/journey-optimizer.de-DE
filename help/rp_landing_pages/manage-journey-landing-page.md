@@ -5,10 +5,10 @@ title: Verwalten von Journeys
 description: Verwalten von Journeys
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 93%
 
 ---
 
@@ -20,17 +20,17 @@ Bei der Verwaltung Ihrer Journeys in Adobe Journey Optimizer geht es darum, Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Durchsuchen und Filtern von Journeys
 
-Erfahren Sie, wie Sie effektiv durch Journeys navigieren und sie filtern und verwalten können, einschließlich Journey-Dashboard-Metriken, Kalenderansichten und Duplizierungsprozessen.
+Erfahren Sie, wie Sie Journey in Ordnern navigieren, filtern, organisieren und Journey effektiv verwalten können, einschließlich Journey-Dashboard-Metriken, Kalenderansichten und Duplizierungsprozessen.
 
 [Journey-Management erkunden](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Eintritt von Profilen in Journeys
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Profile in Journeys eintreten, einschließlich Regeln für den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verwenden zusätzlicher Kennungen in Journeys
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie zusätzliche Kennungen für erweiterte Personalisierung un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Zeitzonen-Management
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie feste und profildefinierte Zeitzonen konfigurieren, um ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Versandzeitoptimierung
 
@@ -70,7 +70,7 @@ Maximieren Sie die Interaktion für E-Mail- und Push-Nachrichten, indem Sie mith
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Beenden der Journey
 
