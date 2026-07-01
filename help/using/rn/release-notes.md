@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 83%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -172,7 +172,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestr
 
   Verfügbarkeitsdatum: 26. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 <table>
 <thead>
@@ -219,7 +219,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zur Entsche
 
   Verfügbarkeitsdatum: 18. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 * **Dynamische Elementattribute** – Benutzerdefinierte Attribute von Entscheidungselementen können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketing-Fachleute weniger und flexiblere Entscheidungselemente verwalten können.
 
@@ -253,7 +253,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </table>
 
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 <table>
 <thead>
@@ -413,7 +413,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 
   Verfügbarkeitsdatum: 18. Juni 2026
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 <table>
 <thead>
@@ -547,7 +547,7 @@ In dieser Version wurden folgende Verbesserungen an Mobile Messaging vorgenommen
 
 * **Bericht „Geschätzte Klicks für SMS** - Eine neue Metrik „Geschätzte Klicks“ ist jetzt in Journey-, Kampagnen- und Kanalberichten für E-Mail und SMS verfügbar. Diese Metrik schließt identifizierten Bot-Traffic und Traffic aus nicht-menschlicher Interaktion (Non-Human Interaction, NHI) aus, um einen klareren Überblick über die echte Kundeninteraktion zu erhalten. Die bisherige Metrik „Klicks“ bleibt verfügbar und erfasst weiterhin die Gesamtzahl der Klicks.
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 * **LINE-Kanal – Authoring-Änderungen**: Die Benutzeroberfläche des LINE-Kanals wurde mit erweiterten Funktionen zur Nachrichtenerstellung aktualisiert. Diese Version bietet Unterstützung für **mehrere Nachrichtenformate** einschließlich Text, Bild, Imagemap, Carousel und Flex (JSON-Editor) sowie Gerätevorschau in Echtzeit. Benutzende können jetzt gruppierte Nachrichten mit bis zu fünf sortierten Nachrichten verwalten (mit den Steuerelementen „Hinzufügen“, „Entfernen“ und „Neu anordnen“) und den integrierten Personalisierungseditor für validierte, dynamische Nachrichten nutzen.
 
@@ -555,11 +555,9 @@ In dieser Version wurden folgende Verbesserungen an Mobile Messaging vorgenommen
 
 ### Verbesserungen der Benutzerfreundlichkeit {#june-26-usability}
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
+* **Ordner für Journey** - Sie können Ihre Journey jetzt in **Ordner** organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern. [Weitere Informationen](../building-journeys/journey-ui.md#journeys-folders)
 
-* **Ordner für Journeys und Kampagnen** – Sie können Ihre Journeys und Kampagnen jetzt in **Ordnern** organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
-
-+++
+  Verfügbarkeitsdatum: 30. Juni 2026
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
