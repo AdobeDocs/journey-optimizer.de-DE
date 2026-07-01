@@ -11,9 +11,9 @@ keywords: Integration, Anbieter, Drittanbieter
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 6%
 
 ---
@@ -1209,9 +1209,7 @@ Adobe Target umfasst Recommendations- und Bereitstellungs-APIs für Server-seiti
 
 Typische Anwendungsfälle sind das Einfügen von Empfehlungen in von Ihnen in Journey Optimizer erstellte Erlebnisse und das Ausrichten von Schlüsseln am Profil- oder Experience Platform-Kontext.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ Erfahren Sie nach der Aktivierung der Integration, wie Sie [Integration in der Inhaltserstellung hinzufügen](integrations-personalization.md#apply-integration-personalization) und [Adobe Target-Daten in Nachrichtenvorlagen verwenden](integrations-personalization.md#use-adobe-target-in-templates).
 
 >[!ENDSHADEBOX]
 
