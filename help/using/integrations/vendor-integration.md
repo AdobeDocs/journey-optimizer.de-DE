@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: Integration, Anbieter, Drittanbieter
 subfeature_v2: []
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
 source-wordcount: 10209
@@ -1684,7 +1685,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++Beispiele für Integrationsfelder
 
-Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [ unterstützte Muster ](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
+Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [&#x200B; unterstützte Muster &#x200B;](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
 
 | Feld | Wert |
 | --- | --- |
@@ -1768,7 +1769,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -2191,7 +2192,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |
