@@ -9,16 +9,16 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
-# SMS-Nutzungsbericht generieren {#sms-usage-report}
+# Generieren eines SMS-Nutzungsberichts {#sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="SMS-Nutzungsmetriken"
->abstract="Generieren von SMS-Nutzungsberichten zur Abstimmung des Nachrichtenvolumens mit der Rechnungsstellung des Anbieters. In den Berichten werden die Zahlen für Mobilgeräte (MT) und Mobilgeräte (MO) für jede Kurzwahlnummer oder Telefonnummer nach Tag aggregiert aufgeführt."
+>abstract="Generieren Sie SMS-Nutzungsberichte zur Abstimmung des Nachrichtenvolumens mit der Rechnungsstellung des Anbieters. In den Berichten werden die Zahlen der auf Mobilgeräten eingehenden (MT) und von Mobilgeräten ausgehenden (MO) Anrufe für jede Kurzwahlnummer oder Telefonnummer aufgeführt, aggregiert nach Tagen."
 
 >[!BEGINSHADEBOX]
 
@@ -43,12 +43,12 @@ Für diese Schritte ist die Berechtigung **[!UICONTROL SMS-Einstellungen verwalt
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="Berichtsname"
->abstract="Geben Sie einen Titel ein, der Ihnen hilft, diesen Bericht später in der Liste zu erkennen, z. B. in der Abrechnungsprüfung vom Mai 2026."
+>abstract="Geben Sie ein Label ein, das Ihnen dabei hilft, diesen Bericht später in der Liste zu erkennen, z. B. „Abrechnungsprüfung Mai 2026“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
->title="SMS-Anmeldeinformationen"
->abstract="Wählen Sie die Sinch-API-Anmeldedaten aus, deren Sende- und Empfangs-Traffic in diesem Bericht angezeigt werden soll. Um Anmeldeinformationen hinzuzufügen oder zu aktualisieren, gehen Sie zu **Administration** > **Kanäle** > **API-Anmeldeinformationen** und wählen Sie dann **SMS-Anbieter** > **Sinch MMS**."
+>title="SMS-Anmeldedaten"
+>abstract="Wählen Sie die Sinch API-Anmeldedaten aus, deren Sende- und Empfangs-Traffic in diesem Bericht angezeigt werden soll. Um Anmeldeinformationen hinzuzufügen oder zu aktualisieren, gehen Sie zu **Administration** > **Kanäle** > **API-Anmeldedaten** und wählen Sie dann **SMS-Anbieter** > **Sinch MMS** aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"

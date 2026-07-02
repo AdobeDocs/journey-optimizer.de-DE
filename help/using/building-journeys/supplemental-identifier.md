@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 35%
+source-wordcount: 2792
+ht-degree: 37%
 
 ---
 
@@ -33,13 +33,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Verwenden einer zusätzlichen Kennung"
->abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um es zu definieren, wählen Sie ein beliebiges Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) aus der Zielgruppe oder dem Ereignis aus, das als zusätzliche Kennung verwendet werden soll."
+>abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, wählen Sie ein beliebiges Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) aus der Zielgruppe oder dem Ereignis aus, das als zusätzliche Kennung verwendet werden soll."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Standardmäßig werden Journey im Kontext einer (Profil<b>ID) </b>. Das bedeutet, dass das Profil, solange es auf einer bestimmten Journey aktiv ist, nicht erneut auf eine andere Journey zugreifen kann. Um dies zu verhindern, können Sie mit Journey Optimizer <b> zusätzlich zur Profil-ID eine </b>zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Verschreibungs-ID.  
-      <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
+      <p>Standardmäßig werden Journeys im Kontext einer <b>Profilkennung</b> ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer zusätzlich zur Profilkennung eine <b>zusätzliche Kennung</b> in Ihren Ereignissen erfassen, z. B. eine Bestell-ID, Abonnement-ID oder Rezept-ID.  <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
       <p>Dadurch werden die Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.</p>
       <p>Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen.</p>
     </td>

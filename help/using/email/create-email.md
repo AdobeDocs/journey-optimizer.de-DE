@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -209,12 +209,12 @@ Es können zwei Arten von Warnhinweisen auftreten:
 >
 >Um die Journey bzw. Kampagne mithilfe der E-Mail testen oder aktivieren zu können, müssen Sie zunächst alle **Fehler-Warnungen** beheben.
 
-## Größe von E-Mail-HTML optimieren {#optimize-html-size}
+## Optimieren der HTML-Größe von E-Mails {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="Verringern der Größe von HTML"
->abstract="Aktivieren Sie diese Option, um Ihre E-Mail-HTML während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
+>title="HTML-Größe reduzieren"
+>abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
 
 Mit [!DNL Journey Optimizer] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
 

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 76%
+ht-degree: 84%
 
 ---
 
@@ -91,18 +91,18 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Veraltetes Fragment"
->abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Dies bedeutet, dass Sie nur Text eingeben können, wenn Sie dieses Fragment in E-Mails bearbeiten. Vollständige Formatierungsoptionen wie fett, kursiv, Hyperlinks und Zeilenumbrüche werden nicht unterstützt. Klicken Sie <b>Aktivieren</b>, um Rich-Text in bearbeitbaren Feldern zuzulassen, wenn das Fragment in einer E-Mail verwendet wird."
+>abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Dies bedeutet, Sie können nur reinen Text eingeben, wenn Sie dieses Fragment in E-Mails bearbeiten. Umfangreiche Formatierungsoptionen (wie fett, kursiv, Hyperlinks und Zeilenumbrüche) werden nicht unterstützt. Klicken Sie auf <b>Aktivieren</b>, um Rich Text in bearbeitbaren Feldern zuzulassen, wenn Sie das Fragment in einer E-Mail verwenden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Veraltetes Fragment"
->abstract="Dieses bearbeitbare Feld befindet sich im Nur-Text-Modus. Vollständige Formatierungsoptionen (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) sind erst verfügbar, nachdem das Fragment in den Rich-Text-Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>Aktivieren</b>, um Rich-Text in bearbeitbaren Feldern zu entsperren."
+>abstract="Dieses bearbeitbare Feld befindet sich im Nur-Text-Modus. Umfangreiche Formatierungsoptionen (zum Beispiel fett, kursiv, Hyperlinks, Zeilenumbrüche) sind erst verfügbar, nachdem das Fragment auf den Richt-Text-Modus aktualisiert wurde. Wechseln Sie zu den Einstellungen für den Fragmenttext und klicken Sie auf <b>Aktivieren</b>, um Rich Text in bearbeitbaren Feldern zu entsperren."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Veraltetes Fragment"
->abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Vollständige Formatierungsoptionen (fett, kursiv, Hyperlinks, Zeilenumbrüche usw.) sind erst verfügbar, nachdem das Fragment in den Rich-Text-Modus aktualisiert wurde. Um diesen Modus zu entsperren, öffnen Sie den Fragment-Editor und klicken Sie auf <b>Aktivieren</b>."
+>abstract="Bearbeitbare Felder in diesem Fragment sind nur im Textmodus verfügbar. Umfangreiche Formatierungsoptionen (zum Beispiel fett, kursiv, Hyperlinks, Zeilenumbrüche) sind erst verfügbar, nachdem das Fragment auf den Richt-Text-Modus aktualisiert wurde. Um diesen Modus zu entsperren, öffnen Sie den Fragment-Editor und klicken Sie auf <b>Aktivieren</b>."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Anpassen bearbeitbarer Felder in einem Fragment"
 
 Rich-Text <!--— including bold, italic, line breaks, and hyperlinks —-->wird jetzt nativ in anpassbaren visuellen Fragmenten unterstützt.

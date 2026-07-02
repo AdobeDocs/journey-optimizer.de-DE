@@ -12,17 +12,17 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Inhaltsprüfung in der E-Mail-Designer {#content-check}
+# Inhaltsprüfung im E-Mail-Designer {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Validieren des E-Mail-Inhalts"
->abstract="Inhaltsprüfungen erkennen vor dem Versand automatisch HTML- und CSS-Probleme in Ihrer E-Mail. Sie kennzeichnen nicht unterstützte Tags, leere divS und Größenbeschränkungen, die das Rendering in Gmail oder Microsoft Outlook unterbrechen können. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt, mit kontextuellen Details und Fehlerbehebungen mit einem Klick, sofern verfügbar."
+>title="Validieren Ihrer E-Mail-Inhalte"
+>abstract="Inhaltsprüfungen erkennen automatisch HTML- und CSS-Probleme in Ihrer E-Mail, bevor Sie diese absenden. Sie markieren nicht unterstützte Tags, leere Divs und Größenbeschränkungen, die das Rendern in Gmail oder Microsoft Outlook unterbrechen können. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt, mit kontextuellen Details und Fehlerbehebungen mit einem Klick, sofern verfügbar."
 
 >[!AVAILABILITY]
 >

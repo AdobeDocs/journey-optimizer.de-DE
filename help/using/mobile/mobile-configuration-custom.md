@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
 source-wordcount: 1198
-ht-degree: 68%
+ht-degree: 73%
 
 ---
 
@@ -75,12 +75,12 @@ Gehen Sie wie folgt vor, um Ihren benutzerdefinierten Anbieter zu konfigurieren:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="Kanaltyp"
->abstract="Optional. Klassifizieren Sie Nachrichten, die mit diesen benutzerdefinierten SMS-Provider-Anmeldedaten gesendet werden, z. B. SMS oder RCS. Journey Optimizer schreibt den Wert in XDM-Erlebnisereignisse, damit Sie einen Bericht erstellen und den Versand nach Kanal verfolgen können."
+>abstract="Optional. Klassifizieren Sie Nachrichten, die mit diesen benutzerdefinierten SMS-Provider-Anmeldedaten gesendet werden, z. B. SMS oder RCS. Journey Optimizer schreibt den Wert in XDM-Erlebnisereignisse, sodass Sie einen Bericht erstellen und den Versand nach Kanal verfolgen können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="Authentifizierung"
->abstract="Wenn diese Option aktiviert ist, werden nur über Adobe IMS authentifizierte Anfragen akzeptiert. Aufrufer müssen ein gültiges OAuth-Token enthalten, wenn sie Daten an diesen Endpunkt senden."
+>abstract="Wenn diese Option aktiviert ist, werden nur über Adobe IMS authentifizierte Anfragen akzeptiert. Aufrufende müssen ein gültiges OAuth-Token verwenden, wenn sie Daten an diesen Endpunkt senden."
 
 Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutzerdefinierten Provider zu senden, der von Adobe vorkonfiguriert nicht verfügbar ist (z. B. Sinch, Infobip, Twilio):
 
