@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 12%
 
 ---
@@ -137,9 +137,9 @@ Beim **[!UICONTROL Simulieren]** oder Senden führt Journey Optimizer Integratio
 
 ![](assets/uc-integrations-7.png)
 
-## Verwenden von Adobe Target-Daten in Vorlagen {#use-adobe-target-in-templates}
+## Verwenden von Adobe Target Recommendations in Ihren Inhalten {#use-adobe-target-in-templates}
 
-In diesem Abschnitt wird erläutert, wie Sie **Integrationen** in Adobe Journey Optimizer verwenden können, um Personalisierungsdaten zum Sendezeitpunkt aus **[!DNL Adobe Target]** abzurufen und sie in Nachrichtenvorlagen zu verwenden. Es wird davon ausgegangen, dass die Target-Bereitstellungs-API bereits als Integration konfiguriert wurde.
+In diesem Abschnitt wird erläutert, wie Sie **Integrationen** in Adobe Journey Optimizer verwenden können, um Personalisierungsdaten zum Sendezeitpunkt aus **[!DNL Adobe Target]** abzurufen und sie in Ihrem Nachrichteninhalt zu verwenden, unabhängig davon, ob dieser in einer Vorlage oder inline erstellt wurde. Es wird davon ausgegangen, dass die Target-Bereitstellungs-API bereits als Integration konfiguriert wurde.
 
 Konfigurationsschritte finden Sie unter [Arbeiten mit Integrationen](integrations.md) und im Beispiel [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations) .
 
