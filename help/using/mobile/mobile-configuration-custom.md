@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um eine Nachricht in Journey Optimizer mit einem benutz
 
    >[!IMPORTANT]
    >
-   >Konfigurieren Sie den SMS-Sendeendpunkt so, dass er der Adobe Experience Platform-Zertifikatskette vertraut, indem Sie das öffentliche Zertifikat von der [MTLS Public Certificate API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) herunterladen und dem Server-Trust Store hinzufügen (erwartete Client-KN: `ajo-sms.aep-mtls.adobe.com`). Andernfalls lässt Journey Optimizer das Client-Zertifikat aus und die SMS-Bereitstellung schlägt fehl.
+   >Konfigurieren Sie den SMS-Sendeendpunkt so, dass er der Adobe Experience Platform-Zertifikatskette vertraut, indem Sie das öffentliche Zertifikat von der [MTLS Public Certificate API](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) herunterladen und dem Server-Trust Store hinzufügen (erwartete Client-KN: `ajo-sms.aep-mtls.adobe.com`). Andernfalls lässt Journey Optimizer das Client-Zertifikat aus und die SMS-Bereitstellung schlägt fehl.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Neuen Parameter hinzufügen]**, um die HTTP-Header der Anfragenachricht anzugeben, die an den externen Service gesendet werden soll.
 
