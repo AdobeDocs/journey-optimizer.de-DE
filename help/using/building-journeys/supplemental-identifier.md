@@ -4,21 +4,14 @@ description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 35%
+source-wordcount: 2792
+ht-degree: 37%
 
 ---
 
@@ -33,13 +26,12 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Verwenden einer zusätzlichen Kennung"
->abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um es zu definieren, wählen Sie ein beliebiges Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) aus der Zielgruppe oder dem Ereignis aus, das als zusätzliche Kennung verwendet werden soll."
+>abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, wählen Sie ein beliebiges Nicht-Identitätsattribut (oder eine Nicht-Personen-Identität) aus der Zielgruppe oder dem Ereignis aus, das als zusätzliche Kennung verwendet werden soll."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Standardmäßig werden Journey im Kontext einer (Profil<b>ID) </b>. Das bedeutet, dass das Profil, solange es auf einer bestimmten Journey aktiv ist, nicht erneut auf eine andere Journey zugreifen kann. Um dies zu verhindern, können Sie mit Journey Optimizer <b> zusätzlich zur Profil-ID eine </b>zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Verschreibungs-ID.  
-      <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
+      <p>Standardmäßig werden Journeys im Kontext einer <b>Profilkennung</b> ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer zusätzlich zur Profilkennung eine <b>zusätzliche Kennung</b> in Ihren Ereignissen erfassen, z. B. eine Bestell-ID, Abonnement-ID oder Rezept-ID.  <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
       <p>Dadurch werden die Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.</p>
       <p>Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen.</p>
     </td>
@@ -138,8 +130,8 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
    Wenn Ihre CSV-Zielgruppe für [aus einer CSV-Datei importierte](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} mehrere Zeilen pro Profil-ID enthält, stellen Sie sicher, dass zuerst die Express-Aktivierung aktiviert ist. Weitere Informationen finden Sie [Zusätzliche Kennungen mit externen Zielgruppen](#external-audiences).
 
        >[!NOTE]
-       >
-       >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL Erweiterten Modus]** verwenden, um das Attribut auszuwählen.
+     >
+     >Stellen Sie sicher, dass Sie den Ausdruckseditor im **[!UICONTROL Erweiterten Modus]** verwenden, um das Attribut auszuwählen.
    
 >[!ENDTABS]
 
@@ -206,7 +198,7 @@ Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Informationen zum Schlich
 
 ## Zusätzliche Kennungen mit externen Zielgruppen {#external-audiences}
 
-Zusätzliche ID wird für externe Zielgruppen unterstützt, einschließlich Zielgruppen ([&#x200B; aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} und Zielgruppen, die mit [Federated Audience Composition](../audience/get-started-audience-orchestration.md) erstellt wurden. Beim Konfigurieren einer Journey, die aus einer CSV- oder Federated Audience Composition-Zielgruppe liest, können Sie jedes Nicht-Identitätsattribut in dieser Zielgruppe als zusätzliche ID festlegen. Journey Optimizer erstellt dann für jede eindeutige Profilkombination + zusätzliche ID-Kombination eine separate Journey-Instanz.
+Zusätzliche ID wird für externe Zielgruppen unterstützt, einschließlich Zielgruppen ([ aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} und Zielgruppen, die mit [Federated Audience Composition](../audience/get-started-audience-orchestration.md) erstellt wurden. Beim Konfigurieren einer Journey, die aus einer CSV- oder Federated Audience Composition-Zielgruppe liest, können Sie jedes Nicht-Identitätsattribut in dieser Zielgruppe als zusätzliche ID festlegen. Journey Optimizer erstellt dann für jede eindeutige Profilkombination + zusätzliche ID-Kombination eine separate Journey-Instanz.
 
 * Anwendungsfall 1: Eine Zeile pro eindeutigem Profil + zusätzliches ID-Paar
 
@@ -278,7 +270,7 @@ Anfragetext (`expressActivation: true` festgelegt):
 >
 >`expressActivation` Standardwert ist `false`. Sie muss zur Erstellungszeit der Zielgruppe festgelegt werden und kann nach der Erstellung nicht mehr geändert werden. Für alle Zielgruppenkomposition-Zielgruppen ist die Express-Aktivierung standardmäßig aktiviert und dieses Flag ist nicht erforderlich.
 
-Die vollständige Referenz finden [&#x200B; in der Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} Erstellen einer externen Zielgruppen-API .
+Die vollständige Referenz finden [ in der Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} Erstellen einer externen Zielgruppen-API .
 
 +++
 
@@ -331,7 +323,7 @@ Diese Beispiele zeigen, wie zusätzliche Kennungen mehrere verwandte Datensätze
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
 +++ KI-Wissensreferenz
 
