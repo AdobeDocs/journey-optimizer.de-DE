@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 95%
 
 ---
@@ -122,8 +122,6 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
 
 1. Beim Einrichten eines Experiments mit dem In-App- oder Web-Kanal und Auswählen der **[!UICONTROL eingehenden Klicks]**, **[!UICONTROL eindeutigen eingehenden Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Metriken zu individuellen Seitenansichten]** ermöglicht es Ihnen das Feld **[!UICONTROL Dimensionen]**, Klicks und Ansichten auf bestimmten Seiten genau nachzuverfolgen und zu überwachen.
 
-   ![](assets/content_experiment_20.png)
-
 1. Wenn Sie eine API-ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL A/B-Test]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
@@ -149,8 +147,6 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
    ![](assets/content_experiment_12.png)
 
 1. Sie können dann jeder **[!UICONTROL Abwandlung]** einen bestimmten Prozentsatz zuweisen oder einfach den Umschalter **[!UICONTROL Gleichmäßig verteilen]** aktivieren.
-
-   ![](assets/content_experiment_13.png)
 
 1. Die Aktivierung des Experiments mit automatischer Skalierung ermöglicht die automatische Einführung der erfolgreichsten Variante Ihres Experiments. [Weitere Informationen zur Skalierung der erfolgreichsten Variante](#scale-winner)
 
@@ -240,7 +236,7 @@ Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur be
 
 ## Richten Sie das Design Ihrer Abwandlungen ein {#treatment-experiment}
 
-1. Wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** Ihre Abwandlung B aus, um den Inhalt zu ändern.
+1. Wählen Sie auf der **[!UICONTROL Inhalt]** Ihre Abwandlung B aus, um den Inhalt zu ändern.
 
    Hier wird das Angebot nicht in der **[!UICONTROL Betreffzeile]** angegeben.
 
@@ -250,15 +246,14 @@ Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur be
 
    ![](assets/content_experiment_9.png)
 
-1. Nachdem Sie Ihre Abwandlungen entworfen haben, klicken Sie auf **[!UICONTROL Weitere Aktionen]**, um auf die Optionen für Ihre Abwandlungen zuzugreifen: **[!UICONTROL Umbenennen]**, **[!UICONTROL Duplizieren]** und **[!UICONTROL Löschen]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. Rufen Sie bei Bedarf das Menü **[!UICONTROL Experimenteinstellungen]** auf, um Ihre Abwandlungskonfigurationen zu ändern.
+1. Greifen Sie bei Bedarf auf der Registerkarte **[!UICONTROL Aktion]** auf das Menü **[!UICONTROL Experimenteinstellungen]** zu, um Ihre Abwandlungskonfigurationen zu ändern.
 
    ![](assets/content_experiment_19.png)
 
-1. Sobald der Nachrichteninhalt definiert wurde, verwenden Sie eine der Simulationsmethoden, um das Rendering Ihres Versands zu steuern und die Personalisierungseinstellungen zu überprüfen: Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen, oder klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus dem Dropdown-Menü aus, um eine Vorschau mit Testprofilen anzuzeigen. [Weitere Informationen](../content-management/preview-test.md)
+1. Sobald der Nachrichteninhalt definiert wurde, verwenden Sie eine der Simulationsmethoden, um das Rendering Ihres Versands zu steuern und die Personalisierungseinstellungen zu überprüfen:
+
+   * Klicken Sie **[!UICONTROL Inhalt simulieren]**, um Inhaltsvarianten mit Beispieleingabedaten oder automatischer KI-Generierung zu testen.
+   * Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um eine Vorschau mit Testprofilen anzuzeigen. [Weitere Informationen](../content-management/preview-test.md)
 
 Nach der Konfiguration Ihrer Experimente können Sie mit dem Bericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report-cja-experimentation.md)
 
