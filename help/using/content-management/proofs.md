@@ -8,10 +8,10 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
-ht-degree: 84%
+source-wordcount: 539
+ht-degree: 80%
 
 ---
 
@@ -29,6 +29,8 @@ Testsendungen können mit beiden Simulationsmethoden durchgeführt werden:
 
 * Klicken Sie **[!UICONTROL Inhalt simulieren]** und wählen Sie dann **[!UICONTROL Inhalt simulieren (AEP-Profile)]** aus der Dropdown-Liste aus, um einen Testversand mit Testprofilen durchzuführen.
 * Klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um Testsendungen für Inhaltsvarianten durchzuführen, die mit Beispieleingabedaten oder einer automatischen KI-Generierung erstellt wurden. [Informationen zum Simulieren von Inhaltsvarianten](../test-approve/simulate-sample-input.md#proofs)
+
+Für API-ausgelöste und (geplante) Aktionskampagnen können Sie Testsendungen auch programmgesteuert über die [Simulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} durchführen. Dies wird für orchestrierte Kampagnen nicht unterstützt.
 
 ## Wichtige Informationen {#must-read}
 
