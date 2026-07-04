@@ -45,7 +45,7 @@ Definieren und konfigurieren Sie mithilfe von Darstellungen, wo Angebote angezei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Hinzufügen von Einschränkungen zu Angeboten
 

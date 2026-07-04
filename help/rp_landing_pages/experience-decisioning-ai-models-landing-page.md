@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Arten, Zwecke und Schritte zum Erstellen und Verwend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Modelle für die automatische Optimierung
 

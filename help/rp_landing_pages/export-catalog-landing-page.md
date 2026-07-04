@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Ihren Angebotskatalog als Datensatz nach Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf den exportierten Angebotskatalog
 
