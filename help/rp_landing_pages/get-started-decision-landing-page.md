@@ -55,7 +55,7 @@ Erkunden Sie die Benutzeroberfläche und Funktionen der Angebotsbibliothek, um A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Wichtigste Schritte bei der Angebotserstellung und -verwaltung
 

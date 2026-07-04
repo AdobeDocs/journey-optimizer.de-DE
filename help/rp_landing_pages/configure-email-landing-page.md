@@ -20,7 +20,7 @@ Durch das Konfigurieren des E-Mail-Kanals in Adobe Journey Optimizer können Sie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte bei der E-Mail-Konfiguration
 
@@ -60,7 +60,7 @@ Passen Sie Absender- und Antwort-E-Mail-Adressen an, behandeln Sie Fehler und le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Konfigurieren des URL-Trackings für den E-Mail-Kanal
 

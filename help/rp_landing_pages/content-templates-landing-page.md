@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Erstellung und Verwaltung von Inhaltsvorlagen kenn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf und Verwalten von Vorlagen
 

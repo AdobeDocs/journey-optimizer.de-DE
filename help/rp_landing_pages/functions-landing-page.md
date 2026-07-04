@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Arrays und Listen mit Funktionen wie Zählen, Abrufen unte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 Bibliothek der Datums-/Uhrzeitfunktionen
 
