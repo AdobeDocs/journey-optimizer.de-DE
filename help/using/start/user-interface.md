@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +368,6 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >title="Header-Parameter"
 >abstract="In diesem Abschnitt können Sie zusätzliche benutzerdefinierte Header konfigurieren, die mit jeder Webhook-Anfrage gesendet werden sollen."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;AEM-Konfiguration – Hilfe"
->abstract="Weitere Informationen zum Erstellen und Verwalten einer Konfiguration"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="Instanzkonfiguration"
->abstract="Wählen Sie den entsprechenden Instanzkonfigurationstyp für Ihr Setup aus. </br>Setup nur für Autoreninstanz: Verwenden Sie Inhaltsfragmente aus der AEM-Autoreninstanz. Eine Konfiguration der Veröffentlichungsinstanz und Live-Aktualisierungen werden nicht unterstützt.</br>Setup der Veröffentlichungsinstanz: Konfigurieren Sie die Einstellungen der Veröffentlichungsinstanz. Aktivieren Sie optional „Token an Veröffentlichungsinstanz senden“, um Service-Anmeldeinformationen für die Authentifizierung bereitzustellen."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="Token an Veröffentlichungsinstanz senden"
->abstract="Wenn diese Option aktiviert ist, werden Service-Anmeldeinformationen gesendet, um Anfragen an die Veröffentlichungsinstanz zu authentifizieren. Geben Sie unten eine gültige JSON für Service-Anmeldeinformationen an."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="Einfügen einer JSON für Service-Anmeldeinformationen"
->abstract="Fügen Sie nach ihrer Erstellung die JSON mit den AEM-Service-Anmeldeinformationen ein, indem Sie die Dokumentation für öffentliche technische Konten konsultieren. Sie wird automatisch formatiert und validiert."
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="Benutzerdefinierte Domain"
->abstract="Optional. Geben Sie eine benutzerdefinierte Domain ifpublish-p16552-e147195.adobeaemcloud.comis an, die keine Inhalte für Ihre Organisation abrufen kann"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 

@@ -12,14 +12,40 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Konfigurieren des Adobe Experience Manager-Repository-Zugriffs {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Adobe Experience Manager-Konfiguration"
+>abstract="Verbinden Sie eine Sandbox mit einem Adobe Experience Manager-Repository, indem Sie Nur-Autoren- oder Veröffentlichungszugriff, benutzerdefinierte Domains und Authentifizierung festlegen, damit Marketing-Fachleute Adobe Experience Manager-Inhaltsfragmente in ihren Journey und Kampagnen verwenden können."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Instanzkonfiguration"
+>abstract="Wählen Sie den entsprechenden Instanzkonfigurationstyp für Ihr Setup aus. </br>Setup nur für Autoreninstanz: Verwenden Sie Inhaltsfragmente aus der AEM-Autoreninstanz. Eine Konfiguration der Veröffentlichungsinstanz und Live-Aktualisierungen werden nicht unterstützt.</br>Setup der Veröffentlichungsinstanz: Konfigurieren Sie die Einstellungen der Veröffentlichungsinstanz. Aktivieren Sie optional „Token an Veröffentlichungsinstanz senden“, um Service-Anmeldeinformationen für die Authentifizierung bereitzustellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Token an Veröffentlichungsinstanz senden"
+>abstract="Wenn diese Option aktiviert ist, werden Service-Anmeldeinformationen gesendet, um Anforderungen an die Veröffentlichungsinstanz zu authentifizieren. Geben Sie unten eine gültige JSON für Dienstanmeldeinformationen ein."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="Einfügen einer JSON für Service-Anmeldeinformationen"
+>abstract="Fügen Sie die JSON-Datei mit den Adobe Experience Manager-Dienstanmeldeinformationen ein. Sie wird automatisch formatiert und validiert."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Benutzerdefinierte Domain"
+>abstract="Optional. Geben Sie eine benutzerdefinierte Domain an, wenn „your-publish-instance.adobeaemcloud.com“ keine Inhalte für Ihre Organisation abrufen kann."
 
 >[!BEGINSHADEBOX]
 
