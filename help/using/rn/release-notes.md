@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
 workflow-type: tm+mt
-source-wordcount: 3602
-ht-degree: 84%
+source-wordcount: 3295
+ht-degree: 83%
 
 ---
 
@@ -47,6 +47,25 @@ ht-degree: 84%
 >[!NOTE]
 >
 >Die in diesen Versionshinweisen aufgeführten Funktionen umfassen ein **Verfügbarkeitsdatum**, das angibt, wann jede Änderung in Ihrer Umgebung verfügbar wird. Einträge in den Akkordeons **Demnächst verfügbar** werden in den kommenden Tagen oder Wochen erwartet. Informationen in diesen Abschnitten können Änderungen unterliegen.
+
+## Updates Juli &#39;26 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Dateibasiertes Targeting in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Orchestrierte Kampagnen unterstützen jetzt das Laden einer <strong>CSV- oder TXT-Datei</strong> direkt in die Kampagnen-Arbeitsfläche als Zielgruppe, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Zeilen, die bei der Validierung fehlschlagen, werden abgelehnt und protokolliert, bevor die Kampagne ausgeführt wird. Dadurch wird die Zielgruppe ohne manuelle Vorverarbeitung sauber gehalten. Dies eignet sich besonders für Ad-hoc-Sendungen oder Partnerlisten-Kampagnen, bei denen der Aufbau einer vollständigen Aufnahme-Pipeline nicht praktisch ist.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/activities/load-file.md">entsprechenden Handbuch</a>.</p>
+<p> Verfügbarkeitsdatum: 6. Juli 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versionshinweise Juni 2026 {#june-26-rn}
 
@@ -158,7 +177,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journeys
   Verfügbarkeit: 18. Juni 2026. Diese Funktion wird in den nächsten Tagen schrittweise für alle Regionen eingeführt.
 
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 * **Start- und Enddatum im Journey-Header** – Wenn Start- und/oder Enddatum in einer Live-Journey konfiguriert sind, werden sie jetzt im **Journey-Header** neben dem Live-Status-Badge angezeigt. Das angezeigte Label passt sich an, je nachdem, ob ein Datum bevorsteht oder bereits vergangen ist.
 
@@ -171,27 +190,6 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestr
 * **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Tokens konfiguriert, ohne dass ein Ausdruck erstellt werden muss. [Weitere Informationen](../orchestrated/add-personalization.md#enrichment-collections)
 
   Verfügbarkeitsdatum: 26. Juni 2026
-
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Dateibasiertes Targeting in koordinierten Kampagnen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Orchestrierte Kampagnen unterstützen jetzt das Laden einer <strong>CSV- oder TXT-Datei</strong> direkt in die Kampagnen-Arbeitsfläche als Zielgruppe, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Zeilen, die bei der Validierung fehlschlagen, werden abgelehnt und protokolliert, bevor die Kampagne ausgeführt wird. Dadurch wird die Zielgruppe ohne manuelle Vorverarbeitung sauber gehalten. Dies eignet sich besonders für Ad-hoc-Sendungen oder Partnerlisten-Kampagnen, bei denen der Aufbau einer vollständigen Aufnahme-Pipeline nicht praktisch ist.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p> Verfügbarkeitsdatum: 30. Juni 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Entscheidungsfindung {#june-26-decisioning}
 
@@ -219,14 +217,6 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zur Entsche
 
   Verfügbarkeitsdatum: 18. Juni 2026
 
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
-
-* **Dynamische Elementattribute** – Benutzerdefinierte Attribute von Entscheidungselementen können jetzt zur Versandzeit mithilfe von Profil-, Kontext- und Zielgruppendaten personalisiert werden. Dadurch entfällt die Notwendigkeit, doppelte Angebote für kleinere Inhaltsvarianten zu verwalten, sodass Marketing-Fachleute weniger und flexiblere Entscheidungselemente verwalten können.
-
-  Verfügbarkeitsdatum: Ende Juni 2026
-
-+++
-
 ### Content-Management {#june-26-content}
 
 In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content-Management hinzugefügt.
@@ -252,29 +242,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </tbody>
 </table>
 
-
 +++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulieren von Inhaltsvarianten – Generieren aktualisierter Erlebnisse und KI-Varianten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Für den Workflow <strong>Inhalt simulieren</strong> sind jetzt zwei Aktualisierungen verfügbar:</p>
-<ul>
-<li><strong>Neuer Standardpfad</strong> – Wenn Sie auf <strong>Inhalt simulieren</strong> klicken, wird jetzt standardmäßig das Erlebnis <strong>Inhaltsvarianten simulieren</strong> geöffnet. Auf einem einzigen Bildschirm können Sie Beispieleingaben manuell oder aus einer CSV-/JSON-Datei hinzufügen, simulierte Benutzende wiederverwenden, das Rendering in der Vorschau anzeigen und den Testversand durchführen. Um eine Vorschau mit Adobe Experience Platform-Testprofilen anzuzeigen, den Testversand mit Testprofildaten durchzuführen oder das Rendering des E-Mail-Posteingangs und Spam-Berichte zu überprüfen, klicken Sie auf <strong>Inhalt simulieren</strong> und wählen Sie dann <strong>Inhalt simulieren (AEP-Profile)</strong> aus der Dropdown-Liste aus.</li>
-<li><strong>KI-generierte Inhaltsvarianten</strong> – Klicken Sie im Erlebnis <strong>Inhaltsvarianten simulieren</strong> auf <strong>Generieren</strong>, um KI zum automatischen Erstellen von Inhaltsvarianten zu verwenden. Das System analysiert Ihre Nachricht, erkennt Personalisierungsfelder und bedingte Verzweigungen und gibt realistische Werte ein, sodass Sie das Rendering überprüfen können, ohne jede Variante von Hand erstellen zu müssen.</li>
-</ul>
-<p>Weitere Informationen finden Sie im <a href="../test-approve/simulate-sample-input.md">entsprechenden Handbuch</a>.</p>
-<p>Verfügbarkeitsdatum: Ende Juni 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -391,7 +359,7 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsprüfung in der E-Mail-Designer</strong><br/></th>
+<th><strong>Inhaltsprüfung im E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -412,27 +380,6 @@ In dieser Version wurden die folgenden Verbesserungen zum E-Mail-Kanal hinzugef�
 * **Verbesserter Bild-zu-HTML-Converter** – Eine neue Version der Funktion „Bild-zu-HTML-Converter“ ist jetzt verfügbar und bietet eine höhere Genauigkeit bei der HTML-Generierung. Diese Aktualisierung nutzt höherstufige LLM-Modelle, um eine präzisere und zuverlässigere HTML-Ausgabe aus Bildeingaben zu ermöglichen.
 
   Verfügbarkeitsdatum: 18. Juni 2026
-
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Dunkler Modus im E-Mail-Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der E-Mail-Designer enthält jetzt eine Bibliothek einsatzbereiter Layout-Module – beispielsweise Kopfzeilen, Produktkarten, Informationsblöcke und Fußzeilen –, die Sie per Drag-and-Drop direkt in Ihre E-Mail-Arbeitsfläche ziehen können.</p>
-<p>Jedes Modul ist mit bearbeitbaren Eigenschaften (Bild, Titel, Text, Schaltfläche, Links) vorkonfiguriert und kann über die WYSIWYG-Benutzeroberfläche vollständig angepasst werden. Dadurch wird die E-Mail-Erstellung beschleunigt, ohne dass Sie Strukturen von Grund auf neu erstellen müssen.</p>
-<p>Verfügbarkeitsdatum: Ende Juni 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Inhalte und Integrationen {#june-26-integration}
 
@@ -463,7 +410,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </tbody>
 </table>
 
-+++ Demnächst verfügbar - **Informationen unten können sich ändern.**
++++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
 
 <table>
 <thead>
