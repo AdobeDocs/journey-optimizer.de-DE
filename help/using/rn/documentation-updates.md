@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juni 2026 {#june-2026}
+
+* Die Seite **Überprüfen und Senden einer Briefpostnachricht** wurde aktualisiert, um den Zeitpunkt des Briefpost-Exports und das Batch-Verhalten zu verdeutlichen, einschließlich des festen 4-Stunden-UTC-Exportplans, warum mehrere Dateien an einem Tag generiert werden können, wenn **[!UICONTROL Profil aktualisieren]** in Journey ausgeführt wird, und Empfehlungen für Einzeldateiszenarien pro Tag. [Weitere Informationen](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * Neue **Journey-Typen: Wählen Sie die richtige aus** Die Seite ist jetzt verfügbar. Er vergleicht alle Journey-Einstiegspunkte - „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“, „Unitäres Ereignis“ und „Geschäftsereignis“ - mit Entscheidungshandbüchern und einer Funktionskompatibilitätsmatrix, um Sie bei der Auswahl des richtigen Typs für Ihren Anwendungsfall zu unterstützen. [Weitere Informationen](../building-journeys/journey-types-selection.md)
 
