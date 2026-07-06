@@ -10,25 +10,16 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 60%
+source-wordcount: 829
+ht-degree: 45%
 
 ---
 
@@ -44,7 +35,7 @@ Erfahren Sie, wie Sie eine Vorschau der Extraktionsdatei anzeigen, Ihre Briefpos
 
 ## Vorbereitung {#before-you-start}
 
-Bevor Sie eine Briefpostnachricht testen und senden, erstellen [&#x200B; die Nachricht und konfigurieren Sie die Extraktionsdatei](create-direct-mail.md). Stellen Sie sicher, dass Sie auch [Konfiguration des Briefpostkanals](direct-mail-configuration.md) abgeschlossen haben.
+Bevor Sie eine Briefpostnachricht testen und senden, erstellen [ die Nachricht und konfigurieren Sie die Extraktionsdatei](create-direct-mail.md). Stellen Sie sicher, dass Sie auch [Konfiguration des Briefpostkanals](direct-mail-configuration.md) abgeschlossen haben.
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
 
@@ -82,6 +73,29 @@ Wenn Ihre Briefpostkampagne fertig ist, konfigurieren Sie Ihre [Journey](../buil
 Nach dem Versand können Sie die Wirkung Ihrer Briefpostkampagne oder Ihres Journey in den Berichten messen. Weiterführende Informationen zum Briefpost-Reporting finden Sie in den folgenden Abschnitten:
 * [Direkt-Mail-Kampagnenbericht](../reports/campaign-global-report-cja-direct.md)
 * [Direkt-Mail-Journey-Bericht](../reports/journey-global-report-cja-direct.md)
+
+## Informationen zu Exportzeitplan und Dateigenerierung {#dm-export-timing}
+
+Briefpost-Exporte werden mit festen 4-Stunden-UTC-Zyklen ausgeführt: **02:01**, **06:01**, **10:01**, **14:01**, **18:01** und **22:01**.
+
+Profile werden in den *nächsten* Exportzyklus eingeschlossen, nachdem sie die Briefpost-Aktivität erreicht haben. Das bedeutet, dass die Erstellung von Dateien darauf basiert, wann die Profile beim Briefpostknoten eintreffen, und nicht darauf, wann die Kampagne oder der Journey zum ersten Mal aktiviert wurde.
+
+* **Warum Sie mehrere Dateien an einem Tag erhalten können** - Wenn Profile die Briefpost-Aktivität in verschiedenen 4-Stunden-Fenstern erreichen, generiert Journey Optimizer für jedes Fenster separate Exportdateien. Dieses Verhalten ist normal.
+
+  Beispiel:
+
+   * Profile, die vor **14:01** eintreffen, werden um **14:01** exportiert.
+   * Profile, die von **14:02** bis **18:01** ankommen, werden um **18:01** exportiert.
+
+  Dadurch werden Profile nicht dupliziert, sondern nach Ankunftsfenster in Batches zusammengefasst.
+
+* **Aktivitätszeitplan für Profil aktualisieren** - In Journey wird die Aktivität **[!UICONTROL Profil aktualisieren]** sofort zur Journey-Laufzeit ausgeführt, wenn ein Profil diese Aktivität erreicht. Er wartet nicht auf den Briefpost-Exportzyklus.
+
+* **Empfehlungen für Szenarien mit einer Datei pro Tag** - Wenn Sie eine Datei pro Tag benötigen, sollten Sie die folgenden Optionen in Betracht ziehen:
+
+   * **24-Stunden-Routing** Häufigkeit: Gewährleistet eine Datei pro Tag, führt jedoch zu einer Versandlatenz.
+   * **Bis Tageszeit warten** : Kann Profile am selben Exportfenster ausrichten, die Ergebnisse hängen jedoch vom Journey-Timing ab.
+   * **4-Stunden-Routing** Häufigkeit: Bietet die niedrigste Latenz, kann aber mehrere Dateien pro Tag generieren.
 
 ## Verwalten des Einverständnisses für Direkt-Mail {#dm-consent-management}
 
