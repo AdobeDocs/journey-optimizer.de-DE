@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 9155
-ht-degree: 92%
+source-wordcount: 9187
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juli 2026 {#july-2026}
+
+* Auf der Seite **Rangfolgeformeln für Journey-Schlichtungen** wurde ein Hinweis hinzugefügt, der angibt, dass Rangfolgeformeln nur für Organisationen verfügbar sind, die das Add-on-Angebot **Decisioning** erworben haben. [Weitere Informationen](../conflict-prioritization/journey-ranking-formulas.md)
 
 * Eine neue Seite **Dynamische**&quot; ist jetzt verfügbar. Er dokumentiert, wie mithilfe der dynamischen Fragmentauflösung [!DNL Journey Optimizer] ausgewählt werden kann, welches veröffentlichte Fragment zur Laufzeit in eine Nachricht eingefügt wird. Dies erfolgt auf der Grundlage von Profilattributen, Datensatzsuchen oder Kontextdaten, die zum Sendezeitpunkt übergeben werden. [Weitere Informationen](../content-management/dynamic-fragments.md)
 

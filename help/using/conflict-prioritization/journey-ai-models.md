@@ -11,14 +11,14 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 16%
 
 ---
 
-# Verwenden von KI-Modellen zum Sortieren von Journey {#journey-ai-models}
+# Verwenden von KI-Modellen zum Ranking von Journeys {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 >[!AVAILABILITY]
 >
 >Diese Funktion ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>
+>KI-Modelle sind nur für Organisationen verfügbar, die das Add-on **Decisioning** erworben haben.
 
 [!DNL Adobe Journey Optimizer] können Sie steuern, welche Journey ein Profil eingeben kann, wenn diese für mehr qualifiziert sind als das System zulässt. Hierfür können Sie mithilfe von [Regelsätzen](rule-sets.md) Begrenzungen für Journey-Einträge oder gleichzeitige Zugriffe definieren. Wenn ein Profil für mehr Journey geeignet ist, als die Obergrenze zulässt, bestimmt die jedem Journey zugewiesene Priorität, welche Journey ausgewählt werden.
 
