@@ -79,11 +79,11 @@ Gehen Sie wie folgt vor, um mit der Verwendung von [!DNL Adobe Journey Optimizer
    }
    ```
 
-1. Ähnlich wie bei anderen Personalisierungsfunktionen können Sie ein Snippet hinzufügen **[das ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}** ausblendet, um beim Abrufen von Erlebnissen nur bestimmte Teile der Seite auszublenden.
+1. Ähnlich wie bei anderen Personalisierungsfunktionen können Sie ein Snippet hinzufügen **[das &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}** ausblendet, um beim Abrufen von Erlebnissen nur bestimmte Teile der Seite auszublenden.
 
 ## Rendern von personalisiertem Inhalt {#rendering-personalized-content}
 
-Weitere Informationen zum Rendern personalisierter Inhalte finden ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} in der Dokumentation zu Adobe Experience Platform Web SDK .[
+Weitere Informationen zum Rendern personalisierter Inhalte finden [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} in der Dokumentation zu Adobe Experience Platform Web SDK .
 
 Adobe Journey Optimizer-Vorschläge für Web-Oberflächen werden ähnlich wie die Vorschläge für den `__view__` Entscheidungsumfang verarbeitet. Wenn `renderDecisions` Option im `sendEvent`-Befehl auf `true` festgelegt ist, werden diese automatisch von der Web-SDK gerendert.
 

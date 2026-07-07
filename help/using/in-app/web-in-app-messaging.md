@@ -172,7 +172,7 @@ In diesem Beispiel wird der Personalisierungsinhalt angezeigt, wenn ein Benutzer
 
 Sie können festlegen, dass In-App-Nachrichten Benutzern für eine bestimmte Anzahl von Malen oder jedes Mal, wenn sie eine Seite besuchen, über die `personalizationStorageEnabled` angezeigt werden.
 
-Legen [ in der Konfiguration ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}Web-SDK&quot; die Option &quot;`personalizationStorageEnabled`&quot; entsprechend Ihren Anforderungen fest:
+Legen [&#x200B; in der Konfiguration &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}Web-SDK&quot; die Option &quot;`personalizationStorageEnabled`&quot; entsprechend Ihren Anforderungen fest:
 
-* `personalizationStorageEnabled: true` Trigger die In-App-Nachricht mit der Häufigkeit, die Sie in Ihrer [Kampagne) ](create-in-app-web.md#configure-inapp).
+* `personalizationStorageEnabled: true` Trigger die In-App-Nachricht mit der Häufigkeit, die Sie in Ihrer [Kampagne) &#x200B;](create-in-app-web.md#configure-inapp).
 * `personalizationStorageEnabled: false` Trigger die In-App-Nachricht bei jedem Laden der Seite.
