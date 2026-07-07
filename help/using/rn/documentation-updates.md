@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
+source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
 workflow-type: tm+mt
-source-wordcount: 9109
+source-wordcount: 9155
 ht-degree: 92%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 92%
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
-## Juni 2026 {#june-2026}
+## Juli 2026 {#july-2026}
+
+* Eine neue Seite **Dynamische**&quot; ist jetzt verfügbar. Er dokumentiert, wie mithilfe der dynamischen Fragmentauflösung [!DNL Journey Optimizer] ausgewählt werden kann, welches veröffentlichte Fragment zur Laufzeit in eine Nachricht eingefügt wird. Dies erfolgt auf der Grundlage von Profilattributen, Datensatzsuchen oder Kontextdaten, die zum Sendezeitpunkt übergeben werden. [Weitere Informationen](../content-management/dynamic-fragments.md)
+
+## Juni 2026 {#june-2026}
 
 * Die Seite **Überprüfen und Senden einer Briefpostnachricht** wurde aktualisiert, um den Zeitpunkt des Briefpost-Exports und das Batch-Verhalten zu verdeutlichen, einschließlich des festen 4-Stunden-UTC-Exportplans, warum mehrere Dateien an einem Tag generiert werden können, wenn **[!UICONTROL Profil aktualisieren]** in Journey ausgeführt wird, und Empfehlungen für Einzeldateiszenarien pro Tag. [Weitere Informationen](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 

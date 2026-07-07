@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 82%
+source-wordcount: 439
+ht-degree: 78%
 
 ---
 
@@ -58,6 +58,7 @@ So nutzen Sie Fragmente am besten:
 
 * **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](create-fragments.md). Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Wiederverwenden eigener Fragmente:** Diese können beliebig oft in Ihren Inhalten verwendet werden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+* **Dynamische Fragmente verwenden** Lösen Sie auf der Grundlage von Profilattributen, Datensatzsuchen oder Kontextdaten auf, welches Fragment zur Laufzeit pro Empfänger eingefügt werden soll. [Erfahren Sie, wie Sie dynamische Fragmente verwenden](dynamic-fragments.md)
 
 
 >[!NOTE]

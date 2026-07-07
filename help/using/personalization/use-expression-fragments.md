@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
-ht-degree: 95%
+source-wordcount: 1402
+ht-degree: 92%
 
 ---
 
@@ -227,6 +227,12 @@ Gehen Sie wie folgt vor, um die Felder anzupassen:
    ![](../content-management/assets/fragment-expression-use.png)
 
 Ein Beispiel für das Hinzufügen von bearbeitbaren Feldern zu einem Ausdrucksfragment und zum Überschreiben ihrer Werte beim Erstellen einer E-Mail finden Sie in [diesem Abschnitt](../content-management/customizable-fragments.md#example).
+
+## Dynamische Fragmentauflösung verwenden {#dynamic-resolution}
+
+Anstatt eine Fragment-ID zur Entwurfszeit statisch einzubetten, können Sie die Fragment-ID zur Laufzeit pro Empfänger dynamisch auflösen. Dadurch können verschiedene Profile innerhalb derselben Kampagne oder Journey völlig unterschiedliche Inhaltsblöcke empfangen, die auf Profilattributen, Datensatzsuchen oder Kontextdaten basieren.
+
+[Erfahren Sie, wie Sie dynamische Fragmente verwenden](../content-management/dynamic-fragments.md)
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
