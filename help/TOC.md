@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3415'
+ht-degree: 97%
 
 ---
 
@@ -335,11 +335,13 @@ ht-degree: 98%
    + In-App-Kanal {#in-app}
       + [In-App-Kanal](/help/rp_landing_pages/in-app-landing-page.md)
       + [Erste Schritte mit In-App](using/in-app/get-started-in-app.md)
-      + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
       + [Erstellen einer Mobile-In-App-Nachricht](using/in-app/create-in-app.md)
       + [Erstellen einer Web-In-App-Nachricht](using/in-app/create-in-app-web.md)
       + [Gestalten der App-Inhalte](using/in-app/design-in-app.md)
       + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
+      + In-App-Kanal konfigurieren {#configure-inapp}
+         + [Konfiguration und Voraussetzungen des In-App-Kanals](using/in-app/inapp-configuration.md)
+         + [Konfigurieren von Web-In-App-Nachrichten in Web SDK](using/in-app/web-in-app-messaging.md)
    + Kanal für Push-Benachrichtigungen {#push}
       + [Kanal für Push-Benachrichtigungen](/help/rp_landing_pages/push-landing-page.md)
       + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
@@ -360,7 +362,7 @@ ht-degree: 98%
       + [Verwalten des Opt-outs von Mobilnachrichten](using/mobile/mobile-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/mobile/mobile-subdomains.md)
       + [Best Practices für Optimierung der SMS-Kosten](using/mobile/mobile-cost-optimization.md)
-      + [SMS-Nutzungsbericht generieren](using/mobile/sms-usage-report.md)
+      + [Generieren eines SMS-Nutzungsberichts](using/mobile/sms-usage-report.md)
       + Konfigurieren des mobilen Kanals {#configure-mobile}
          + [Erste Schritte bei der Konfiguration von Mobilnachrichten](using/mobile/mobile-configuration.md)
          + [Konfigurieren des Sinch-Anbieters](using/mobile/mobile-configuration-sinch.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [Verwenden des nicht visuellen Editors](using/web/web-non-visual-editor.md)
          + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
          + [Überwachen Ihrer Web-Erlebnisse](using/web/monitor-web-experiences.md)
+      + Single Page Applications und Web-SDK {#web-sdk}
          + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
+         + [Implementieren von Single Page Applications](using/web/web-spa-implementation.md)
+         + [Journey Optimizer mit Experience Platform Web SDK](using/web/web-sdk.md)
    + Code-basiertes Erlebnis {#code-based-experience}
       + [Code-basiertes Erlebnis](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
@@ -506,6 +511,7 @@ ht-degree: 98%
       + [Erstellen eines Fragments](using/content-management/create-fragments.md)
       + [Speichern des vorhandenen Inhalts als Fragment](using/content-management/save-fragments.md)
       + [Anpassbare Fragmente](using/content-management/customizable-fragments.md)
+      + [Dynamische Fragmente](using/content-management/dynamic-fragments.md)
       + [Verwalten von Fragmenten](using/content-management/manage-fragments.md)
       + {hide-from-toc}[Hinzufügen von kontextuellen Attributen zu veröffentlichten Fragmenten](using/content-management/manage-fragments-contextual-attributes.md)
    + Dynamische Inhalte {#dynamic}
