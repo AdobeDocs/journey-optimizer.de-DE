@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 79%
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch d
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
 >title="Verwenden von Klick-Tracking"
->abstract="Klicks auf beliebige Elemente Ihrer Web-Seite verfolgen, um Benutzerinteraktionen zu überwachen. Wählen Sie ein Element aus, wählen **Klick-Tracking** aus dem Kontextmenü und fügen Sie eine aussagekräftige Bezeichnung hinzu. Die verfolgten Daten werden in Ihren Web-Berichten angezeigt, sodass Sie besser verstehen können, wie Benutzer mit Ihren Inhalten interagieren."
+>abstract="Verfolgen Sie Klicks auf beliebige Elemente Ihrer Web-Seite, um Benutzerinteraktionen zu überwachen. Wählen Sie ein Element und anschließend im Kontextmenü die Option **Klick-Tracking-Element** aus. Fügen Sie ein aussagekräftiges Label hinzu. Die verfolgten Daten werden in Ihren Web-Berichten angezeigt, sodass Sie besser verstehen können, wie Benutzende mit Ihren Inhalten interagieren."
 
 Mit dem Web-Designer können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen.
 
