@@ -35,13 +35,13 @@ Beim Konfigurieren von Web-In-App-Nachrichten müssen Sie die folgende Anweisung
 default-src  blob:;
 ```
 
-Weitere Informationen zur Konfiguration eines CSP finden Sie unter [Datenerfassungsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}.
+Weitere Informationen zur Konfiguration eines CSP finden Sie unter [Datenerfassungsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=de){target="_blank"}.
 
 ## Konfigurieren von Web-In-App-Nachrichten mit der Tag-Erweiterung „Web SDK&quot; {#tag-extension}
 
 Auf der Seite [Konfiguration von Web SDK-Tag-Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=de){target="_blank"} erfahren Sie, wo Sie die unten beschriebenen Einstellungen finden.
 
-Nachdem Sie die Tag[Erweiterung &quot;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"}&quot; installiert haben, führen Sie die folgenden Schritte aus, um die Erweiterung für Web-In-App-Nachrichten zu konfigurieren.
+Nachdem Sie die Tag[Erweiterung &quot;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=de#install-the-web-sdk-tag-extension){target="_blank"}&quot; installiert haben, führen Sie die folgenden Schritte aus, um die Erweiterung für Web-In-App-Nachrichten zu konfigurieren.
 
 Aktivieren Sie im Abschnitt **[!UICONTROL Personalization]** die Option **[!UICONTROL Personalisierungsspeicher aktivieren]**. Mit dieser Option kann Web SDK verfolgen, welche Erlebnisse der Benutzer über Seitenladevorgänge hinweg gesehen hat.
 
