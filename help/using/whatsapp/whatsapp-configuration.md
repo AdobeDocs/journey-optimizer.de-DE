@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
+source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 87%
+source-wordcount: 1447
+ht-degree: 83%
 
 ---
 
@@ -135,6 +135,8 @@ Nachdem Ihre WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, kön
 >Eingehende WhatsApp-Nachrichten werden im Systemdatensatz _AJO-E-Mail_ Tracking-Datensatz erfasst. Ein Profil muss über mindestens eine von [!DNL Journey Optimizer] gesendete Nachricht verfügen, bevor eingehende Nachrichten in diesem Datensatz erfasst werden. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
 
 Webhooks fungieren als Kommunikationsbrücke zwischen der WhatsApp-Geschäftsplattform von Meta und Adobe Journey Optimizer und ermöglichen es Ihnen, Echtzeit-Benachrichtigungen über Nachrichtenereignisse und Benutzerinteraktionen zu erhalten.
+
+Beachten Sie, dass Meta pro WhatsApp-Geschäftskonto nur einen Webhook, eine Callback-URL und ein Verifizierungs-Token zulässt, selbst über mehrere Sandboxes oder WhatsApp-Anmeldeinformationen hinweg. **Feedback-Ereignisse** (gesendet, zugestellt, gelesen, Fehler, Schaltflächen-Klick) werden weiterhin in jeder Sandbox korrekt erfasst. **Eingehende Ereignisse** (Antworten, Opt-in-/Opt-out-/Hilfe-Keywords) werden nur in der einzelnen Sandbox empfangen, in der der Webhook registriert ist. Registrieren Sie ihn in Ihrer **Produktions-Sandbox**, um dort eingehende Ereignisse zu empfangen.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
