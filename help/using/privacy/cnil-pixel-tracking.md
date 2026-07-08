@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, Tracking, Pixel, E-Mail, Einverständnis, Opt-out, Datenschutz
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,10 @@ Adobe Journey Optimizer ermöglicht es Marketing-Experten, das Öffnungs-Trackin
 * **[!UICONTROL Geöffnete E-Mails]**: Steuert, ob das Öffnungs-Tracking-Pixel in der E-Mail enthalten ist. Standardmäßig ist diese Option aktiviert.
 * **[!UICONTROL Klick in E-Mail]**: Steuert, ob Link-Klicks verfolgt werden. Diese Option ist auch standardmäßig aktiviert.
 
-Um das Öffnungs-Tracking für eine bestimmte E-Mail zu deaktivieren, deaktivieren Sie die Option **[!UICONTROL E-Mail-Öffnungen]** beim Erstellen Ihrer Nachricht. Wenn diese Option deaktiviert ist, verhindert sie, dass offene Tracking-Daten für diesen Versand erfasst werden. Für Organisationen, die Nachrichten an französische Abonnenten senden, überprüfen Sie vor dem Erzwingungsdatum die Einstellungen für das Öffnungs-Tracking für alle aktiven Journey und Kampagnen.
+Um das Öffnungs-Tracking für eine bestimmte E-Mail zu deaktivieren, deaktivieren Sie die Option **[!UICONTROL E-Mail-Öffnungen]** beim Erstellen Ihrer Nachricht. Wenn diese Option deaktiviert ist, verhindert sie, dass offene Tracking-Daten für diesen Versand erfasst werden. Überprüfen Sie für bereichsinterne Organisationen die Einstellungen für das Öffnungs-Tracking für alle aktiven Journey und Kampagnen vor dem Erzwingungsdatum.
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [Erfahren Sie, wie Sie Ihre Nachrichten verfolgen können](../email/message-tracking.md)
@@ -149,8 +148,7 @@ Die Journey Optimizer-Unterdrückungs-REST-API bietet zusätzliche programmgeste
 [Informationen zum Verwalten der Unterdrückungsliste](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### Berichterstellung {#reporting}
