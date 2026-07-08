@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 89%
+source-wordcount: 981
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md
 
 In dieser Phase der Konfiguration wird die Arbeitsfläche „Orchestrierte Kampagne“ mit einem Start-Symbol angezeigt, das den Beginn Ihrer orchestrierten Kampagne darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
 
-Es wird eine Liste der Aktivitäten angezeigt, die zur Arbeitsfläche „Orchestrierte Kampagne“ hinzugefügt werden können. Welche Aktivitäten verfügbar sind, hängt von Ihrer Position innerhalb der Arbeitsfläche „Orchestrierte Kampagne“ ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihre orchestrierte Kampagne starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Pfad Ihrer orchestrierten Kampagne aufspalten oder eine Aktivität vom Typ **Warten** zum Verzögern der Ausführung der orchestrierten Kampagne festlegen. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Targeting-Aktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Prozess der orchestrierten Kampagne mit Flusskontrollaktivitäten organisieren.
+Es wird eine Liste der Aktivitäten angezeigt, die zur Arbeitsfläche „Orchestrierte Kampagne“ hinzugefügt werden können. Welche Aktivitäten verfügbar sind, hängt von Ihrer Position innerhalb der Arbeitsfläche „Orchestrierte Kampagne“ ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihre orchestrierte Kampagne starten, indem Sie beispielsweise eine Audience definieren (z. B. **Zielgruppe aufbauen**, **Zielgruppe lesen** oder **Datei laden**), den orchestrierten Kampagnenpfad aufteilen oder eine **Warten**-Aktivität festlegen, um die Ausführung der orchestrierten Kampagne zu verzögern. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Targeting-Aktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Prozess der orchestrierten Kampagne mit Flusskontrollaktivitäten organisieren.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 

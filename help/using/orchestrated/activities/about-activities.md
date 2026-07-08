@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 78%
+source-wordcount: 628
+ht-degree: 67%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 78%
 
 >[!ENDSHADEBOX]
 
-Aktivitäten orchestrierter Kampagnen sind in drei Kategorien unterteilt. Je nach Kontext können die verfügbaren Aktivitäten unterschiedlich sein.
-
-Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
+Orchestrierte Kampagnenaktivitäten werden in mehrere Kategorien unterteilt. Je nach Kontext können die verfügbaren Aktivitäten unterschiedlich sein. Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 * [Targeting-Aktivitäten](#targeting)
+* [Datenverwaltungsaktivitäten](#data-management)
 * [Kanalaktivitäten](#channel)
 * [Aktivitäten zur Flusssteuerung](#flow-control)
 
@@ -45,7 +44,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 ## Leitlinien und Einschränkungen {#activity-guardrails}
 
-* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten bei der Veröffentlichung (E-Mail, SMS, Push oder Briefpost). Zielgruppenbestimmungs- und Flusssteuerungsaktivitäten werden nicht auf diese Grenze angerechnet.
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten bei der Veröffentlichung (E-Mail, SMS, Push oder Briefpost). Zielgruppenbestimmungs-, Daten-Management- und Flusssteuerungsaktivitäten werden nicht auf diese Beschränkung angerechnet.
 
 * **Maximale Anzahl der** auf der Arbeitsfläche: Die Anzahl der Aktivitäten auf der Arbeitsfläche ist auf 500 begrenzt. Halten Sie Workflows aus Gründen der Wartbarkeit und Leistung in der Praxis unter 100 Aktivitäten.
 
@@ -66,6 +65,14 @@ Die verfügbaren Aktivitäten zur Zielgruppenbestimmung sind:
 * [Anreicherung](enrichment.md): Mit dieser Aktivität definieren Sie zusätzliche Daten, die in Ihrer orchestrierten Kampagne verarbeitet werden sollen. Mit dieser Aktivität können Sie die eingehende Transition nutzen und die Aktivität so konfigurieren, dass sie die ausgehende Transition mit zusätzlichen Daten ergänzt.
 * [Abstimmung](reconciliation.md): Mit dieser Aktivität definieren Sie die Verknüpfung zwischen den Journey Optimizer-Daten und den Daten in einer Arbeitstabelle, z. B. Daten, die aus einer externen Datei geladen wurden.
 * [Aufspaltung](split.md): Segmentieren Sie die eingehende Population in mehrere Teilmengen.
+
+## Datenverwaltungsaktivitäten {#data-management}
+
+Mithilfe dieser Aktivitäten können Sie mit Daten arbeiten, die in externen Dateien gespeichert sind, und diese für Zielgruppenbestimmungs-, Personalisierungs- oder nachgelagerte Aktivitäten auf der Arbeitsfläche verfügbar machen.
+
+Verfügbare Datenverwaltungsaktivitäten sind:
+
+* [Datei laden](load-file.md) (eingeschränkte Verfügbarkeit): Laden Sie eine CSV- oder TXT-Datei auf die Arbeitsfläche hoch und verwenden Sie sie, um die Kampagnenzielgruppe (dateibasiertes Targeting) zu definieren, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
 
 ## Kanalaktivitäten {#channel}
 

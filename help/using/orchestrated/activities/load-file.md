@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1697
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 Die Aktivität **[!UICONTROL Datei laden]** ist eine **[!UICONTROL Daten-Management]**-Aktivität. Verwenden Sie diese Option, um mit Profilen und Daten zu arbeiten, die in einer externen Datei gespeichert sind. Es unterstützt **dateibasiertes Targeting** in orchestrierten Kampagnen, wenn Ihre Empfängerliste von einem externen System stammt (z. B. einem CRM-Export oder einer Partnerdatei) und Sie eine Kampagne ausführen möchten, ohne zuvor eine vollständige Adobe Experience Platform-Aufnahme-Pipeline zu erstellen.
 
+Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Zeilen, die bei der Validierung fehlschlagen, werden abgelehnt und protokolliert, bevor die Kampagne ausgeführt wird. Dadurch wird die Zielgruppe ohne manuelle Vorverarbeitung sauber gehalten.
+
 >[!AVAILABILITY]
 >
->Die **Datei laden**-Aktivität ist für **Reihe von** in „Eingeschränkte Verfügbarkeit“ verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Informationen zu Verfügbarkeitsphasen finden Sie unter [Journey Optimizer-Versionszyklus](../../rn/releases.md).
->
->Die Aktivität ist derzeit nicht für die Verwendung mit **Healthcare Shield** verfügbar.
+>Die **Datei laden**-Aktivität ist derzeit nicht für die Verwendung mit **Healthcare Shield** verfügbar.
 
 ## Berechtigungen {#permissions}
 
