@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
 workflow-type: tm+mt
-source-wordcount: 9187
+source-wordcount: 9227
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juli 2026 {#july-2026}
+
+* Die Seiten **Modell für personalisierte Optimierung** wurden aktualisiert, um die neuesten Modellverbesserungen widerzuspiegeln, einschließlich der Funktionsweise des Ensemble-Modells, der Datensatzanforderungen, Anwendungsfälle, wichtiger Annahmen und des Kaltstart-Verhaltens. Weitere Informationen finden Sie in den [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) und [Offer Decisioning](../offers/ranking/personalized-optimization-model.md) Abschnitten.
 
 * Auf der Seite **Rangfolgeformeln für Journey-Schlichtungen** wurde ein Hinweis hinzugefügt, der angibt, dass Rangfolgeformeln nur für Organisationen verfügbar sind, die das Add-on-Angebot **Decisioning** erworben haben. [Weitere Informationen](../conflict-prioritization/journey-ranking-formulas.md)
 
