@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3295
-ht-degree: 83%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -242,69 +230,6 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </tbody>
 </table>
 
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Verbesserungen an Adobe Experience Manager-Inhaltsfragmenten in Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Diese Version bietet mehrere Verbesserungen, um <strong>Adobe Experience Manager-Inhaltsfragmente</strong> innerhalb von Journey Optimizer-Authoring-Workflows nutzbarer, besser kontrollierbar und produktionsbereiter zu machen:</p>
-<ul>
-<li>Journey Optimizer unterstützt jetzt das Abrufen von Inhaltsfragmenten aus mehreren Adobe Experience Manager-Konfigurationen, einschließlich der Autoren-, Veröffentlichungs- und authentifizierten Veröffentlichungsebene.</li>
-<li>Sobald ein Fragment ausgewählt wurde, wird sein Kontext in der gesamten Nachricht beibehalten, sodass Autorinnen und Autoren Fragmentfelder über Inhaltsblöcke hinweg wiederverwenden können, ohne die Auswahl erneut durchzuführen.</li>
-<li>In Journey Optimizer wurde eine neue spezielle Seite zur Auflistung von Inhaltsfragmenten eingeführt, um die Lebenszyklusverwaltung zu verbessern. Benutzende können nicht synchronisierte Fragmente identifizieren und manuelle Synchronisierungen auslösen, um auf dem neuesten Stand zu bleiben.</li>
-<li>Durch die Unterstützung von Gebietsschemata und Varianten können Marketing-Fachleute jetzt gezielter mit alternativen Versionen desselben Inhaltsfragments arbeiten.</li>
-<li>Sie haben nun die Flexibilität zu bestimmen, wie Adobe Journey Optimizer auf Ihre Adobe Experience Manager-Inhalte zugreift. Mit dieser Version wird die Möglichkeit eingeführt, das <strong>Quell-Repository</strong> für die in Ihren Journeys und Kampagnen verwendeten Inhaltsfragmente zu wechseln.</li>
-<li>Da die Funktion jetzt mit <b>Managed Services</b> kompatibel ist, können Sie Adobe Experience Manager-Inhaltsfragmente zwecks Personalisierung direkt in Journey Optimizer anzeigen, aufrufen und verwenden. Fügen Sie einfach die URL Ihres Adobe Experience Manager Managed Services-Repositorys in den Konfigurationseinstellungen als einmaliges Setup hinzu.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Integration des KI-Assistenten mit Adobe Experience Manager Asset Essentials</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der KI-Assistent ruft jetzt automatisch <b>markenkonforme Bilder</b> direkt aus Adobe Experience Manager Assets ab, wenn E-Mails, Web-Seiten und Push-Benachrichtigungen generiert werden. Dadurch entfällt die Notwendigkeit, die Assets manuell zu durchsuchen oder auf generische KI-Fallbacks zurückzugreifen, um sicherzustellen, dass jedes Bild absolut präzise und markenkonform ist.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>KI-Assistent für Verbesserungen bei der Inhaltsgenerierung</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Diese Version verbessert das Erlebnis bei der Generierung von Inhalten mit dem <strong>KI-Assistenten</strong> durch leistungsfähigere Bildbearbeitung, zuverlässigere Extraktion der Marke und Unterstützung der Authentizität von Inhalten im Bildfluss:</p>
-<ul>
-<li><strong>KI-Bildbearbeitung</strong> ist jetzt im Bildgenerierungsfluss verfügbar, einschließlich Unterstützung für Firefly-Drittanbietermodelle, sodass Sie Quellbilder verfeinern können, ohne den Assistenten zu verlassen.</li>
-<li><strong>Markensignalextraktion</strong> liefert qualitativ höherwertige Ergebnisse. Wenn für ausgewählte Seiten kein ausreichendes Signal vorhanden ist, werden durch verbesserte Fallbacks nun Farben, Typografie, Schreibrichtlinien und andere Markenattribute aufgefüllt.</li>
-<li><strong>Web-basierte Markenextraktion</strong> ist zuverlässiger. Die verbesserte Timeout-Verwaltung verhindert, dass langsame Seiten, Popups und Cookie-Banner die Extraktion blockieren.</li>
-<li><strong>Content Authenticity (CAI)</strong> wird jetzt im Bildfluss unterstützt. Diese Version behebt außerdem Probleme beim Hochladen von Referenzbildern und verbessert die Handhabung von Bildern ohne vorhandenes C2PA-Manifest.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 
 ### E-Mail-Kanal {#june-26-email}
 
@@ -410,18 +335,19 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </tbody>
 </table>
 
-+++ Demnächst verfügbar – **Die Informationen unten können sich ändern.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Integration des KI-Assistenten mit Adobe Experience Manager Asset Essentials</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent ruft jetzt automatisch <b>markenkonforme Bilder</b> direkt aus Adobe Experience Manager Assets ab, wenn E-Mails, Web-Seiten und Push-Benachrichtigungen generiert werden. Dadurch entfällt die Notwendigkeit, die Assets manuell zu durchsuchen oder auf generische KI-Fallbacks zurückzugreifen, um sicherzustellen, dass jedes Bild absolut präzise und markenkonform ist.</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -430,18 +356,18 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 <table>
 <thead>
 <tr>
-<th><strong>KI-Assistent für Verbesserungen bei der Inhaltsgenerierung</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Diese Version verbessert das Erlebnis bei der Generierung von Inhalten mit dem <strong>KI-Assistenten</strong> durch leistungsfähigere Bildbearbeitung, zuverlässigere Extraktion der Marke und Unterstützung der Authentizität von Inhalten im Bildfluss:</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li><strong>KI-Bildbearbeitung</strong> ist jetzt im Bildgenerierungsfluss verfügbar, einschließlich Unterstützung für Firefly-Drittanbietermodelle, sodass Sie Quellbilder verfeinern können, ohne den Assistenten zu verlassen.</li>
-<li><strong>Markensignalextraktion</strong> liefert qualitativ höherwertige Ergebnisse. Wenn für ausgewählte Seiten kein ausreichendes Signal vorhanden ist, werden durch verbesserte Fallbacks nun Farben, Typografie, Schreibrichtlinien und andere Markenattribute aufgefüllt.</li>
-<li><strong>Web-basierte Markenextraktion</strong> ist zuverlässiger. Die verbesserte Timeout-Verwaltung verhindert, dass langsame Seiten, Popups und Cookie-Banner die Extraktion blockieren.</li>
-<li><strong>Content Authenticity (CAI)</strong> wird jetzt im Bildfluss unterstützt. Diese Version behebt außerdem Probleme beim Hochladen von Referenzbildern und verbessert die Handhabung von Bildern ohne vorhandenes C2PA-Manifest.</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -449,6 +375,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </table>
 
 +++
+-->
 
 ### Berichterstellung {#june-26-reporting}
 

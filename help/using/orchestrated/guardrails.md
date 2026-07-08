@@ -6,20 +6,13 @@ description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrier
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 12%
 
 ---
@@ -88,13 +81,7 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * **Zusammengesetzte Primärschlüssel** - Die Unterstützung für zusammengesetzte Primärschlüssel mit Datei-Upload-Flüssen ist derzeit nicht verfügbar.
 
-## Einschränkungen bei Aktivitäten {#activities-limitations}
-
-* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Für dieses Limit zählen nur Kanalaktivitäten. Zielgruppenbestimmungs- und Flusssteuerungsaktivitäten werden nicht gezählt (z. B. Zielgruppe aufbauen, Warten, Aufspaltung, Anreicherung, Abstimmung, Verzweigung, Ende oder Test).
-
-  Wenn Sie das Limit beim Speichern oder Veröffentlichen überschreiten, schlägt der Vorgang fehl. Um innerhalb des Limits zu bleiben, reduzieren Sie die Anzahl der Kanalaktivitäten oder teilen Sie den Nachrichtenversand auf mehrere orchestrierte Kampagnen auf.
-
-* **Limit für Canvas** - Die Anzahl der Aktivitäten auf einer orchestrierten Kampagnen-Arbeitsfläche ist auf 500 begrenzt. Diese Beschränkung gilt für alle Aktivitätstypen auf der Arbeitsfläche. Dies ist vom Kanalaktivitätslimit, das bei der Veröffentlichung erzwungen wird, getrennt. Halten Sie Workflows aus Gründen der Wartbarkeit und Leistung in der Praxis unter 100 Aktivitäten.
+## Zielgruppen
 
 * **Nur Skalarattribute** - In Zielgruppendefinitionen werden nur Skalarattribute unterstützt. Zuordnungen und Arrays sind nicht zulässig.
 
@@ -108,9 +95,19 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * **Zielgruppenoptimierung** - Eine Optimierung wird dringend empfohlen, wenn Sie mit großen oder komplexen Zielgruppendefinitionen arbeiten, um die Leistung sicherzustellen.
 
-* **Gespeicherte Zielgruppen sind statisch** - Gespeicherte Zielgruppenaktivitäten sind statisch und spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
+* **Gespeicherte Zielgruppen**
+
+   * **Gespeicherte Zielgruppen sind statisch** - Gespeicherte Zielgruppenaktivitäten sind statisch und spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
 
 * **An gespeicherte Zielgruppe nicht anhängen** - Das Anfügen an eine Aktivität vom Typ „Gespeicherte Zielgruppe“ wird nicht unterstützt. Jede Änderung erfordert eine vollständige Überschreibung der Zielgruppe.
+
+## Einschränkungen bei Aktivitäten {#activities-limitations}
+
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Für dieses Limit zählen nur Kanalaktivitäten. Zielgruppenbestimmungs-, Daten-Management- und Flusssteuerungsaktivitäten werden nicht gezählt (z. B. Zielgruppe aufbauen, Datei laden, Warten, Aufspaltung, Anreicherung, Abstimmung, Verzweigung, Ende oder Test).
+
+  Wenn Sie das Limit beim Speichern oder Veröffentlichen überschreiten, schlägt der Vorgang fehl. Um innerhalb des Limits zu bleiben, reduzieren Sie die Anzahl der Kanalaktivitäten oder teilen Sie den Nachrichtenversand auf mehrere orchestrierte Kampagnen auf.
+
+* **Limit für Canvas** - Die Anzahl der Aktivitäten auf einer orchestrierten Kampagnen-Arbeitsfläche ist auf 500 begrenzt. Diese Beschränkung gilt für alle Aktivitätstypen auf der Arbeitsfläche. Dies ist vom Kanalaktivitätslimit, das bei der Veröffentlichung erzwungen wird, getrennt. Halten Sie Workflows aus Gründen der Wartbarkeit und Leistung in der Praxis unter 100 Aktivitäten.
 
 ## Kanalbeschränkungen
 
