@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
+source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
 workflow-type: tm+mt
-source-wordcount: 2698
-ht-degree: 79%
+source-wordcount: 2765
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 79%
 
 ## Updates Juli &#39;26 {#july-26-updates}
 
+### Neue Funktionen {#july-26-new-capabilities}
+
 <table>
 <thead>
 <tr>
@@ -66,6 +68,12 @@ ht-degree: 79%
 </tr>
 </tbody>
 </table>
+
+### Verbesserungen {#july-26-improvements}
+
+* **Neue Tools für AJO MCP-Server** - Der [!DNL Adobe Journey Optimizer] MCP-Server stellt jetzt fünf zusätzliche schreibgeschützte **Kanalkonfigurations-Tools** bereit, mit denen Sie Kanalkonfigurationen, unterstützende Ressourcen und Marketing-Aktionen direkt von Ihrem KI-Assistenten abfragen können. Sie können jetzt **Listenkanalkonfigurationen** (für alle AJO-Kanäle), **Kanalkonfiguration abrufen**, **Listenkonfigurationsressourcen**, **Konfigurationsressource abrufen** und **Marketing-Aktionen auflisten**. [Weitere Informationen](../integrations/ajo-mcp.md#mcp-tools)
+
+  Verfügbarkeitsdatum: 9. Juli 2026
 
 ## Versionshinweise Juni 2026 {#june-26-rn}
 

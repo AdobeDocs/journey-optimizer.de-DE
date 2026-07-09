@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um mit der Verwendung von [!DNL Adobe Journey Optimizer
 
 ## Rendern von personalisiertem Inhalt {#rendering-personalized-content}
 
-Weitere Informationen zum Rendern personalisierter Inhalte finden [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} in der Dokumentation zu Adobe Experience Platform Web SDK .
+Weitere Informationen zum Rendern personalisierter Inhalte finden [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=de){target="_blank"} in der Dokumentation zu Adobe Experience Platform Web SDK .
 
 Adobe Journey Optimizer-Vorschläge für Web-Oberflächen werden ähnlich wie die Vorschläge für den `__view__` Entscheidungsumfang verarbeitet. Wenn `renderDecisions` Option im `sendEvent`-Befehl auf `true` festgelegt ist, werden diese automatisch von der Web-SDK gerendert.
 
