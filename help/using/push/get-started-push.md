@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -57,6 +49,8 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 >[!NOTE]
 >
 >Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Gleichermaßen können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem oder in den Einstellungen des Webbrowsers ändern. Informationen zum Überprüfen des Push-Einverständnisstatus eines Profils im AEP-Profil-Viewer finden Sie unter [Überprüfen des Push-Opt-out-Status](../privacy/opt-out.md#push-opt-out-status).
+
+</br>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -94,3 +88,26 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 <p>
 </td>
 </tr></table>
+
+## Anwendungsszenarien
+
+Push-Benachrichtigungen funktionieren am besten, wenn Sie Benutzer schnell und direkt auf ihrem Gerät erreichen müssen, ohne sich darauf zu verlassen, dass sie sich in Ihrer App befinden oder ihren Posteingang überprüfen.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Zeitkritische Updates | Sofort bereitgestellt, auch wenn Benutzer Ihre App nicht aktiv verwenden | Flugverspätungswarnungen, Änderungen des Bestellstatus, aktuelle Nachrichten |
+| Rückgewinnung | Fordert Benutzer auf, nach einer gewissen Zeit der Inaktivität zu Ihrer App zurückzukehren | Warenkorbabbruch-Erinnerungen, Win-Back-Kampagnen |
+| Kostensenkung im Vergleich zu SMS | Im Gegensatz zu SMS fallen keine Gebühren pro Nachricht an | Werbe- oder Transaktionsbenachrichtigungen mit hohem Volumen |
+| Umfangreiche, interaktive Inhalte | Unterstützt Bilder, Aktionsschaltflächen und Deep-Links | Produktaktionen mit Tap-to-Buy-Buttons, Rich-Media-Vorschau |
+| Gerätenative Funktionen | Nutzt Funktionen auf Betriebssystemebene, die nicht für andere Kanäle verfügbar sind | Vibrationswarnungen, App-Icon-Badges, Geofenced-Location-Trigger |
+| Hohe Opt-in-Wahrscheinlichkeit | Benutzer werden aufgefordert, sich bereits bei der App-Installation oder dem ersten Start anzumelden | Onboarding-Flüsse, Interaktionskampagnen am ersten Tag |
+
+## Verwendung
+
+Push-Benachrichtigungen sind nicht für jede Nachricht geeignet. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Ihre Zielgruppe hat niedrige Push-Opt-in-Raten oder hat sich gegen Benachrichtigungen gewehrt, da die Nachricht sie möglicherweise nie erreicht
+* Die Nachricht erfordert lange Inhalte, die von E-Mails besser verarbeitet werden und eine detailliertere Formatierung ermöglichen
+* Der Inhalt ist sensibel oder privat und sollte nicht auf einem Sperrbildschirm sichtbar sein, auf dem ihn jemand in der Nähe des Geräts sehen könnte
+* Die meisten Ihrer Benutzer greifen auf Ihren Service über den Desktop und nicht über eine Mobile App zu, wo Push-Benachrichtigungen begrenzte oder gar keine Reichweite haben
+

@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,13 +46,33 @@ Mobile Nachrichten können in einer Journey oder in einer Kampagne mithilfe der 
 
 * Wählen Sie in **Kampagne**:Create Kampagne die Aktion Mobile Nachricht aus, definieren Sie die Grundeinstellungen und bearbeiten Sie dann den Nachrichteninhalt. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine durch API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create) erstellen können
 
+## Anwendungsszenarien {#use-cases}
+
+SMS, MMS und RCS funktionieren am besten, wenn Sie Benutzer zuverlässig erreichen müssen, unabhängig davon, ob sie Ihre App installiert haben oder eine Internetverbindung verfügbar ist.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Maximale Reichweite und Unmittelbarkeit | Keine App- oder Internetverbindung erforderlich, um die Nachricht zu erhalten | Benutzer ohne installierte Smartphone-App erreichen |
+| Sichtbarkeitsgarantie | Bei SMS liegen die Öffnungsraten bei über 90 % | OTP-Codes, Terminerinnerungen, Versandbenachrichtigungen |
+| Rich Content über MMS/RCS | Fügt Bilder, Videos und interaktive Elemente über den reinen Text hinaus hinzu | Markenaktionen, Produktkataloge |
+| Benutzer ohne App-Zugriff erreichen | Funktioniert für Empfänger, die Ihre App nicht installiert oder geöffnet haben | Rückgewinnung abgelaufener Mobile-App-Benutzer, Onboarding von Nicht-Mobile-App-Kunden |
+| CTAs mit hoher Dringlichkeit | Direkt an ein Gerät gesendet, das Benutzerinnen und Benutzer häufig überprüfen | Flash-Verkäufe, Warnhinweise zu Betrug, Service-Ausfällen |
+| Ebenenbildung mit anderen Kanälen | Ergänzt Push-, E-Mail- und In-App-Messaging für eine breitere Abdeckung | Multi-Channel-Journey mit SMS als Fallback-Kanal |
+
+## Verwendung {#when-not-to-use}
+
+SMS, MMS und RCS sind nicht immer die effizienteste oder am besten geeignete Wahl. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Die Kosten sind ein Problem bei hohen Versandvolumina, da SMS und MMS pro Nachricht berechnet werden und sich die Kosten pro Nachricht schnell skalieren
+* Der Inhalt ist lang oder komplex und besser für E-Mails geeignet, die eine umfassendere Formatierung und längere Texte unterstützen
+* Die Empfänger haben sich nicht explizit angemeldet, was in den meisten Regionen und Messaging-Vorschriften rechtliche und Compliance-Risiken birgt
 
 ## Wichtigste Funktionen {#key-features}
 
 | Funktion | Beschreibung |
 |---|---|
 | **Personalisierung** | Passen Sie Nachrichten mit Profilattributen, bedingten Inhalten und dynamischen Daten mit dem Personalisierungseditor an. [Weitere Informationen](../personalization/personalize.md) |
-| **Provider-Support** | Verbinden Sie sich über [&#x200B; API](mobile-configuration-sinch.md)Integration mit [Twilio](mobile-configuration-twilio.md), [Infobip](mobile-configuration-infobip.md) oder einem [benutzerdefinierten Anbieter](mobile-configuration-custom.md). |
+| **Provider-Support** | Verbinden Sie sich über [ API](mobile-configuration-sinch.md)Integration mit [Twilio](mobile-configuration-twilio.md), [Infobip](mobile-configuration-infobip.md) oder einem [benutzerdefinierten Anbieter](mobile-configuration-custom.md). |
 | **URL-Verkürzung** | Fügen Sie gekürzte, verfolgbare URLs hinzu, um die Interaktion zu überwachen. Subdomain-Konfiguration erforderlich. [Weitere Informationen](mobile-subdomains.md) |
 | **Opt-out-Verwaltung** | Integrierte Handhabung von Standard-Opt-out-Keywords (STOP, QUIT, CANCEL usw.) für Sinch und Infobip. [Weitere Informationen](mobile-opt-out.md) |
 | **Vorschau und Tests** | Validieren von Inhalten mit Testprofilen und Beispieldaten vor dem Senden. [Weitere Informationen](send-mobile-message.md) |
@@ -88,7 +101,7 @@ Für die Verwendung von RCS in Journey Optimizer sind folgende Voraussetzungen e
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
-Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen.
+Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen. Weitere Anwendungsfälle und Best Practices finden Sie in der [SMS/MMS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}RCS-Übersicht) im Mobile Learning Hub.
 
 +++Konfigurationshandbücher
 
@@ -154,7 +167,7 @@ Erfahren Sie, wie Sie SMS in Ihre Kunden-Journeys und -Kampagnen integrieren:
 
 **Ist das native RCS Messaging mit Twilio oder Infobip verfügbar?**
 
-Nein. Der native RCS-Designer in Journey Optimizer ist nicht verfügbar, wenn SMS-Drittanbieter wie Twilio oder Infobip verwendet werden. RCS-Nachrichten können jedoch über eine [benutzerdefinierte Provider-Integration) gesendet &#x200B;](mobile-configuration-custom.md).
+Nein. Der native RCS-Designer in Journey Optimizer ist nicht verfügbar, wenn SMS-Drittanbieter wie Twilio oder Infobip verwendet werden. RCS-Nachrichten können jedoch über eine [benutzerdefinierte Provider-Integration) gesendet ](mobile-configuration-custom.md).
 
 **Warum sollte man SMS zusammen mit RCS kaufen?**
 
@@ -186,7 +199,7 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -196,7 +209,7 @@ Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Opt
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
