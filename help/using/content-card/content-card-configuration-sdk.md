@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 93%
+source-wordcount: 558
+ht-degree: 91%
 
 ---
 
@@ -48,6 +48,8 @@ Beim ersten Laden der Seite wird der Standardzustand der Seite angezeigt. Wenn S
 >[!PREREQUISITES]
 >
 >Sie müssen node und npm installieren. [Weitere Informationen finden Sie in dieser Dokumentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>Um Disqualifikationsregeln mit Inhaltskarten zu verwenden, ist die Web SDK-Version 2.28.0 oder höher erforderlich.
 
 
 1. Richten Sie lokale SSL-Zertifikate für HTTPS ein. Diese Beispiele erfordern lokal signierte SSL-Zertifikate, um Inhalte über HTTPS bereitzustellen:
