@@ -11,27 +11,16 @@ keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
-ht-degree: 55%
+source-wordcount: 2316
+ht-degree: 54%
 
 ---
 
@@ -68,6 +57,8 @@ Die Optimierung des Versandzeitpunkts ist nur für die integrierten Aktionstypen
 >
 >* Die Funktion zur Optimierung der Versandzeit gilt nur für die Kanäle **E-Mail** und **Push-Benachrichtigung**.
 >
+>* Die Sendezeitoptimierung wird in den folgenden AEP Hub-Regionen unterstützt: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Dies sind die Regions-Codes für die Bereitstellung von Adobe. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, wenn Sie sich nicht sicher sind, welche Region Ihr Unternehmen verwendet.
+>
 
 ## Verwenden der Sendezeitoptimierung{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ Bevor Sie beginnen, überlegen Sie, welche Nachrichten gut passen, bevor Sie sie
 
    Um optimale Ergebnisse zu erzielen, optimieren Sie die meisten E-Mails für **Klicks**. Wählen Sie **Öffnungen**, wenn die Nachricht informativ ist und nicht dazu dient, eine bestimmte Aktion zu steuern.
 
-1. Legen Sie sowohl für E-Mail- als auch **[!UICONTROL -Nachrichten „Senden innerhalb der nächsten]**&quot; die maximale Anzahl von Stunden (1-168) fest, die das System vor dem Senden der Nachricht wartet.
+1. Legen Sie sowohl für E-Mail- als auch für **[!UICONTROL -Nachrichten „Senden innerhalb]**&quot; die maximale Anzahl von Stunden (2-100) fest, die das System vor dem Senden der Nachricht wartet.
 
    Um die besten Ergebnisse zu erzielen, wählen Sie einen Wert zwischen 6 und 24 Stunden. Ein niedrigerer Wert reduziert die Anzahl der verfügbaren Sendezeiten und kann die Vorteile der Sendezeitoptimierung einschränken. Ein höherer Wert kann bedeuten, dass die Nachricht zum Zeitpunkt des Versands veraltet oder weniger relevant ist.
 
@@ -216,14 +207,14 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Journey-KI**: Adobes KI-Services für die Sendezeitoptimierung in Journey Optimizer *(produktspezifisch)*
 * **Versandzeit für die Exploration**: Eine zufällig ausgewählte Versandzeit (für 5 % der Sendungen verwendet), um verschiedene Zeiten zu testen und die Modellgenauigkeit zu verbessern *produktspezifisch)*
 * **Optimierter Versandzeitpunkt**: Ein modellvorhergesagter Versandzeitpunkt, der ausgewählt wird, um die Klick- oder Öffnungsraten zu maximieren (für 95 % der Sendungen verwendet) *(produktspezifisch)*
-* **Senden innerhalb der nächsten**: Die maximale Anzahl von Stunden (1-168), die das System wartet, bevor die Nachricht an ein bestimmtes Profil gesendet wird *(produktspezifisch)*
+* **Senden innerhalb der nächsten**: Die maximale Anzahl von Stunden (2-100), die das System wartet, bevor die Nachricht an ein bestimmtes Profil gesendet wird *(produktspezifisch)*
 
 **Leitplanken:**
 * Die Sendezeitoptimierung muss für das Unternehmen von Adobe aktiviert werden. Wenden Sie sich zur Aktivierung an die Adobe-Kundenunterstützung oder Ihren Adobe-Support-Mitarbeiter.
 * Die Sendezeitoptimierung gilt nur für E-Mail- und Push-Benachrichtigungskanäle in Journey. Sie ist nicht für Kampagnen oder benutzerdefinierte Aktionen verfügbar.
 * Das Unternehmen muss mindestens 30 Tage lang E-Mail- oder Push-Aktionen in Journey Optimizer verwendet haben, bevor die Sendezeitoptimierung aussagekräftige Ergebnisse liefert.
 * Verwenden Sie die Sendezeitoptimierung nicht für dringende oder zeitkritische Betriebsnachrichten (z. B. Bestellbestätigungen, Kennwortzurücksetzungen, Fluggatteränderungen).
-* Der maximale Wartezeitbereich beträgt 1-168 Stunden. Für optimale Ergebnisse wird ein Bereich von 6-24 Stunden empfohlen.
+* Maximaler Wartezeitbereich ist 2-100 Stunden; empfohlener Bereich ist 6-24 Stunden für optimale Ergebnisse.
 * Modellbewertungen werden in Profilattributen unter `_experience.intelligentServices.journeyAI.sendTimeOptimization` gespeichert und sind nicht für Menschen lesbar.
 * Die Modelle werden zu Beginn wöchentlich trainiert, dann nach 16 Wochen monatlich neu trainiert und neu bewertet.
 
