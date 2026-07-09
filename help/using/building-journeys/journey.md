@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2325
-ht-degree: 70%
+source-wordcount: 2334
+ht-degree: 68%
 
 ---
 
@@ -207,7 +207,7 @@ Verwenden Sie den Journey-Designer, um Ihren Fluss zu erstellen:
 Testen Sie Ihren Journey immer gründlich, um Probleme zu beheben, bevor Ihre Kundinnen und Kunden diese bemerken:
 
 * Verwenden Sie **Testmodus**, um die Journey mit Testprofilen zu simulieren
-* Verwenden Sie **Probelauf**, um die Journey-Ausführung in der Vorschau anzuzeigen, ohne die echten Daten zu beeinflussen oder Nachrichten zu senden
+* Verwenden Sie **Probelauf**, um das Journey mit echten Produktionsdaten auszuführen, ohne Nachrichten zu senden oder Profile zu aktualisieren
 * Überprüfen Sie, ob alle Bedingungen, Nachrichten und Aktionen erwartungsgemäß funktionieren
 * Überprüfen Sie Timing, Datenflüsse und Personalisierung
 
@@ -345,7 +345,7 @@ Bedienen Sie globale Zielgruppen mit automatischer Zeitzonenanpassung und optima
 
 **Testmodus und Probelauf**
 
-Validieren Sie Journeys vor der Live-Schaltung mit Testprofilen und zeigen Sie die Ausführung in der Vorschau an, ohne echte Daten zu beeinträchtigen.
+Validieren Sie Journey mit Testprofilen, bevor Sie live gehen, und zeigen Sie eine Vorschau der Ausführung mit echten Produktionsdaten an, ohne Nachrichten zu senden oder Profile zu aktualisieren.
 
 [Verwenden von Probelauf](journey-dry-run.md)
 :::
