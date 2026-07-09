@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 47%
 
 ---
 
@@ -69,8 +69,29 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 </td>
 </tr></table>
 
+## Anwendungsszenarien
+
+Inhaltskarten funktionieren am besten, wenn eine Nachricht für Benutzende verfügbar bleiben soll, damit diese in ihrem eigenen Tempo handeln können, anstatt sie zu unterbrechen, wenn sie ankommt.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Persistente Sichtbarkeit | Karten verbleiben in der App oder auf der Website, bis der Benutzer sie schließt | Laufende Werbeaktionen, Feature-Highlights, die Benutzer erneut aufrufen können |
+| Nicht-intrusive Lieferung | Integriert sich in die Benutzeroberfläche, anstatt den Benutzer zu unterbrechen | Passive Aktualisierungen werden zusammen mit anderen Inhalten angezeigt |
+| Funktioniert ohne Push-Opt-in | In-App- oder Onsite-Bereitstellung, unabhängig von der Einwilligung in die Push-Benachrichtigung | Benutzer erreichen, die Push-Benachrichtigungen deaktiviert haben |
+| Visuell reichhaltiges Messaging | Unterstützt Medien- und call-to-action-Schaltflächen | Produkt-Spotlights mit Bildern und einem „Jetzt einkaufen“-Button |
+
+## Verwendung
+
+Inhaltskarten sind für Inhalte gedacht, die Benutzende in ihrem eigenen Tempo anzeigen können, sodass sie nicht für jedes Szenario geeignet sind. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Die Nachricht ist ein zeitkritischer Warnhinweis, da Benutzende die App oder Website möglicherweise nicht rechtzeitig öffnen, um die Karte zu sehen
+* Die Target-Benutzer sind inaktiv, da Inhaltskarten nur innerhalb der App oder Website angezeigt werden und inaktive Benutzer sie nie sehen werden
+* Der Inhalt ist sensibel oder erfordert eine sichere Handhabung, die eine persistente, sichtbare Karte nicht garantieren kann
+* Die Nachricht benötigt dringend eine call to action, z. B. einen Flash-Verkauf, bei dem eine Push-Benachrichtigung oder E-Mail schnellere Maßnahmen erforderlich machen würde
+
 ## Zusätzliche Ressourcen
 
 * **[Inhaltskarten in Landingpages](content-card-lp.md)** – Erfahren Sie, wie Sie Inhaltskarten in Landingpages implementieren, um die Interaktion zu verbessern.
 * **[Berichte zur Inhaltskarte](content-card-report.md)** – Verfolgen und analysieren Sie die Leistung der Inhaltskarte mit detaillierten Metriken und Erkenntnissen.
 * **[Tutorials zu Inhaltskarten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials zu den Funktionen und Best Practices von Inhaltskarten.
+

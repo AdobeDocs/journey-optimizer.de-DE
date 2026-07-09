@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +54,28 @@ Mit der Funktion **Code-basiertes Erlebnis** können Sie eingehende Erlebnisse m
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️ In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird ein End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
+
+## Anwendungsszenarien {#use-cases}
+
+Der Code-basierte Kanal funktioniert am besten, wenn Ihr Anwendungsfall über das hinausgeht, was ein visueller Editor unterstützen kann, und Sie über Entwicklungsressourcen verfügen, um die Implementierung zu erstellen und zu pflegen.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Tiefe Personalisierung | Unterstützt komplexe Logik und Echtzeitdaten, die über das hinausgehen, was visuelle Editoren bereitstellen | Personalization basierend auf Echtzeitinventar oder Benutzerkontext |
+| Integration mit externen Systemen | Inhalte können mit Daten aus externen Systemen erstellt werden | Wetterbasierte Angebote, inventargesteuerte Angebote in Echtzeit |
+| Erweiterte, mehrstufige bedingte Workflows | Nicht auf die vordefinierten Aktionen visueller Kanäle beschränkt | Mehrstufige Entscheidungslogik für alle Touchpoints |
+| Über Plattformgrenzen hinausgehen | Ermöglicht Entwicklern das Erstellen benutzerdefinierter interaktiver Elemente | Benutzerdefinierte UI-Komponenten werden von nativen Kanälen nicht unterstützt |
+| Verbesserte Kampagnenflexibilität | Inhalt und Logik werden durch Ihre eigene Implementierung definiert | Headless, API-basierte oder digitale Nicht-Browser-Eigenschaften |
+
+## Verwendung {#when-not-to-use}
+
+Der Code-basierte Kanal erfordert Entwicklungsaufwand, sodass er nicht für jedes Szenario die richtige Wahl ist. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Ihre Kampagne ist schnell oder einfach und kann mit einem Nicht-Code-Kanal wie Web oder In-App erstellt werden, ohne dass Entwicklungsaufwand erforderlich ist
+* Sie haben keine Entwicklerressourcen oder Testumgebung, um eine benutzerdefinierte Implementierung zu erstellen und zu validieren
+* Ihre Zeitleiste oder Ihr Budget ist für die benutzerdefinierte Entwicklung begrenzt, da Code-basierte Erlebnisse eine umfangreichere Vorausplanung erfordern
+* Standard-Messaging ist bereits für die integrierten Kanalfunktionen geeignet, sodass keine benutzerdefinierte Entwicklung erforderlich ist
+* Die langfristige Wartbarkeit von benutzerdefiniertem Code ist ein Problem, da Oberflächen und Implementierungen fortlaufende Unterstützung durch Entwickler benötigen
 
 ## Verwendung von Code-basierten anstelle von anderen Kanälen {#code-based-vs-other-channels}
 
@@ -133,4 +155,5 @@ Nachstehend finden Sie die wichtigsten Schritte zur Erstellung und Bereitstellun
 * **[Testen von Code-basierten Erlebnissen](test-code-based.md)** – Erfahren Sie, wie Sie Ihre Code-basierten Erlebnisse vor der Veröffentlichung in der Vorschau anzeigen und testen können.
 * **[Implementierungsbeispiele](code-based-implementation-samples.md)** – Erkunden Sie Code-Beispiele und Implementierungsmuster für verschiedene Anwendungsfälle.
 * **[Tutorials für Code-basierte Erlebnisse](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** – Erkunden Sie detaillierte Video-Tutorials zu Code-basierten Funktionen und Best Practices.
+
 

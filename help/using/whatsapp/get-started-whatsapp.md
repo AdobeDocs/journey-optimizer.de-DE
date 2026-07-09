@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 65%
 
 ---
 
@@ -42,6 +42,28 @@ Sie können jetzt direkt in Journey Optimizer WhatsApp-Nachrichten über das [Cl
 * In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie **WhatsApp** als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende WhatsApp-Nachricht zu erstellen. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine durch API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create) erstellen können
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## Anwendungsszenarien {#use-cases}
+
+WhatsApp funktioniert am besten, wenn Ihre Zielgruppe bereits die Plattform verwendet und Sie Rich-Content mit einer echten Zwei-Wege-Konversation kombinieren möchten.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Hohes globales Engagement | Häufig verwendete Messaging-Plattform mit starker Akzeptanz in vielen Regionen | Internationale Zielgruppen erreichen, die bereits auf WhatsApp aktiv sind |
+| Reichhaltige, interaktive Nachrichten | Unterstützt Bilder, Videos, Schaltflächen und schnelle Antworten | Produktkataloge, Terminbestätigungen mit Schnellantwortoptionen |
+| Zwei-Wege-Gesprächserlebnisse | Empfänger können im selben Thread antworten | Kundensupport-Gespräche, Fragen zur Bestellverfolgung |
+| Compliance und Vertrauen über offizielle API | Wird über die verifizierte Cloud-API von Meta mit Absenderverifizierung bereitgestellt | Markenverifizierte Kommunikation, die das Vertrauen der Empfänger stärkt |
+| Integration mit anderen Kanälen | Ebenenweise können Journey und Kampagnen neben anderen Kanälen verwendet werden | Multi-Channel-Journey, die WhatsApp als ergänzenden Touchpoint verwenden |
+
+## Verwendung {#when-not-to-use}
+
+WhatsApp hängt von der Akzeptanz der Zielgruppe und der expliziten Zustimmung ab, daher ist es nicht für jedes Szenario geeignet. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Ihre Zielgruppe verwendet WhatsApp nicht, da die Akzeptanz je nach Region und Demografie stark variiert
+* Die Empfängerinnen und Empfänger haben kein explizites Opt-in angegeben, was für die Messaging-Richtlinien von Meta erforderlich ist
+* Die Nachricht ist dringend und benötigt einen garantierten Versand, den SMS oder Push angesichts der Beschränkungen für die Versand- und Vorlagenüberprüfung von WhatsApp besser handhabt
+* Der Inhalt ist lang oder komplex und besser für E-Mails geeignet, was mehr Platz und eine umfassendere Formatierung bietet
+* Die Unterstützung von Gesprächen in Echtzeit ist auf Ihrer Seite nicht möglich, da bidirektionale WhatsApp-Threads die Erwartung einer zeitnahen Antwort wecken
 
 ## Voraussetzungen {#prereq}
 

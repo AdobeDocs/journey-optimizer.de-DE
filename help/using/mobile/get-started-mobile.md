@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,26 @@ Mobile Nachrichten können in einer Journey oder in einer Kampagne mithilfe der 
 
 * Wählen Sie in **Kampagne**:Create Kampagne die Aktion Mobile Nachricht aus, definieren Sie die Grundeinstellungen und bearbeiten Sie dann den Nachrichteninhalt. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine durch API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create) erstellen können
 
+## Anwendungsszenarien {#use-cases}
+
+SMS, MMS und RCS funktionieren am besten, wenn Sie Benutzer zuverlässig erreichen müssen, unabhängig davon, ob sie Ihre App installiert haben oder eine Internetverbindung verfügbar ist.
+
+| Vorteil | Warum | Beispielhafte Anwendungsfälle |
+| --- | --- | --- |
+| Maximale Reichweite und Unmittelbarkeit | Keine App- oder Internetverbindung erforderlich, um die Nachricht zu erhalten | Benutzer ohne installierte Smartphone-App erreichen |
+| Sichtbarkeitsgarantie | Bei SMS liegen die Öffnungsraten bei über 90 % | OTP-Codes, Terminerinnerungen, Versandbenachrichtigungen |
+| Rich Content über MMS/RCS | Fügt Bilder, Videos und interaktive Elemente über den reinen Text hinaus hinzu | Markenaktionen, Produktkataloge |
+| Benutzer ohne App-Zugriff erreichen | Funktioniert für Empfänger, die Ihre App nicht installiert oder geöffnet haben | Rückgewinnung abgelaufener Mobile-App-Benutzer, Onboarding von Nicht-Mobile-App-Kunden |
+| CTAs mit hoher Dringlichkeit | Direkt an ein Gerät gesendet, das Benutzerinnen und Benutzer häufig überprüfen | Flash-Verkäufe, Warnhinweise zu Betrug, Service-Ausfällen |
+| Ebenenbildung mit anderen Kanälen | Ergänzt Push-, E-Mail- und In-App-Messaging für eine breitere Abdeckung | Multi-Channel-Journey mit SMS als Fallback-Kanal |
+
+## Verwendung {#when-not-to-use}
+
+SMS, MMS und RCS sind nicht immer die effizienteste oder am besten geeignete Wahl. Betrachten Sie in den folgenden Situationen einen anderen Kanal:
+
+* Die Kosten sind ein Problem bei hohen Versandvolumina, da SMS und MMS pro Nachricht berechnet werden und sich die Kosten pro Nachricht schnell skalieren
+* Der Inhalt ist lang oder komplex und besser für E-Mails geeignet, die eine umfassendere Formatierung und längere Texte unterstützen
+* Die Empfänger haben sich nicht explizit angemeldet, was in den meisten Regionen und Messaging-Vorschriften rechtliche und Compliance-Risiken birgt
 
 ## Wichtigste Funktionen {#key-features}
 
@@ -88,7 +108,7 @@ Für die Verwendung von RCS in Journey Optimizer sind folgende Voraussetzungen e
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
-Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen.
+Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen. Weitere Anwendungsfälle und Best Practices finden Sie in der [SMS/MMS](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}RCS-Übersicht) im Mobile Learning Hub.
 
 +++Konfigurationshandbücher
 
