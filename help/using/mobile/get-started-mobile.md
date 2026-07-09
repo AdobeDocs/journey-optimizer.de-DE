@@ -9,12 +9,19 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c13ff12d-60f1-49cd-833a-d43359628223
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
 source-wordcount: 1314
@@ -72,7 +79,7 @@ SMS, MMS und RCS sind nicht immer die effizienteste oder am besten geeignete Wah
 | Funktion | Beschreibung |
 |---|---|
 | **Personalisierung** | Passen Sie Nachrichten mit Profilattributen, bedingten Inhalten und dynamischen Daten mit dem Personalisierungseditor an. [Weitere Informationen](../personalization/personalize.md) |
-| **Provider-Support** | Verbinden Sie sich über [ API](mobile-configuration-sinch.md)Integration mit [Twilio](mobile-configuration-twilio.md), [Infobip](mobile-configuration-infobip.md) oder einem [benutzerdefinierten Anbieter](mobile-configuration-custom.md). |
+| **Provider-Support** | Verbinden Sie sich über [&#x200B; API](mobile-configuration-sinch.md)Integration mit [Twilio](mobile-configuration-twilio.md), [Infobip](mobile-configuration-infobip.md) oder einem [benutzerdefinierten Anbieter](mobile-configuration-custom.md). |
 | **URL-Verkürzung** | Fügen Sie gekürzte, verfolgbare URLs hinzu, um die Interaktion zu überwachen. Subdomain-Konfiguration erforderlich. [Weitere Informationen](mobile-subdomains.md) |
 | **Opt-out-Verwaltung** | Integrierte Handhabung von Standard-Opt-out-Keywords (STOP, QUIT, CANCEL usw.) für Sinch und Infobip. [Weitere Informationen](mobile-opt-out.md) |
 | **Vorschau und Tests** | Validieren von Inhalten mit Testprofilen und Beispieldaten vor dem Senden. [Weitere Informationen](send-mobile-message.md) |
@@ -167,7 +174,7 @@ Erfahren Sie, wie Sie SMS in Ihre Kunden-Journeys und -Kampagnen integrieren:
 
 **Ist das native RCS Messaging mit Twilio oder Infobip verfügbar?**
 
-Nein. Der native RCS-Designer in Journey Optimizer ist nicht verfügbar, wenn SMS-Drittanbieter wie Twilio oder Infobip verwendet werden. RCS-Nachrichten können jedoch über eine [benutzerdefinierte Provider-Integration) gesendet ](mobile-configuration-custom.md).
+Nein. Der native RCS-Designer in Journey Optimizer ist nicht verfügbar, wenn SMS-Drittanbieter wie Twilio oder Infobip verwendet werden. RCS-Nachrichten können jedoch über eine [benutzerdefinierte Provider-Integration) gesendet &#x200B;](mobile-configuration-custom.md).
 
 **Warum sollte man SMS zusammen mit RCS kaufen?**
 
