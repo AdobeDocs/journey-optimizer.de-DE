@@ -9,15 +9,12 @@ role: User
 level: Intermediate
 keywords: Schübe, Batches, Zeitplan, Kampagne, Journey, Zustellbarkeit
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 813
-ht-degree: 2%
+source-wordcount: 966
+ht-degree: 1%
 
 ---
 
@@ -132,6 +129,19 @@ Mit dem Wave-Versand können Sie steuern, wann und wie viele Nachrichten gesende
 +++ Kann ich einzelnen Schüben unterschiedliche Segmente oder Kriterien zuweisen?
 
 Sie können nur die Größe und den Zeitpunkt von Wellen definieren. Die Empfängerauswahl ist für die gesamte Kampagne identisch. Sie können einzelnen Schüben keine unterschiedlichen Segmente oder Kriterien zuweisen.
+
++++
+
++++ Wird die Zielgruppe vor jeder Welle neu ausgewertet oder ist sie beim Kampagnenstart fixiert?
+
+Die Zielgruppe wird **einmal ausgewertet** wenn die Kampagne aktiviert wird. Zu diesem Zeitpunkt wird ein Schnappschuss der qualifizierten Profile erstellt und für alle Schübe verwendet. Die Zielgruppenzugehörigkeit wird nicht vor jeder folgenden Schübe neu bewertet.
+
+Allerdings werden **Profilattribute bei jedem Wellenvorgang gelesen,** bei der Kampagnenaktivierung. Das bedeutet, dass sich die Wellen über mehrere Tage erstrecken:
+
+* Personalization-Attribute (z. B. der Vorname oder die Treuestufe eines Profils) spiegeln den Profilstatus zum Zeitpunkt der Ausführung der Welle wider.
+* **Einverständnis- und Unterdrückungsprüfungen werden zum Sendezeitpunkt für jede Welle angewendet.** Wenn ein Profil sich zwischen zwei Schüben abmeldet, erhält es keine Nachrichten von den nachfolgenden Schüben.
+
+Zusammenfassung: *wer* wird im Voraus festgelegt, aber *die Daten, die zum Senden an diese Profile verwendet werden* spiegeln ihren aktuellen Status wider, wenn ihre Welle verarbeitet wird.
 
 +++
 
