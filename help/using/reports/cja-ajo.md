@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 79%
+source-wordcount: 601
+ht-degree: 74%
 
 ---
 
@@ -79,9 +79,12 @@ Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics]
 
 * **In [!DNL Journey Optimizer]-Berichten schließt die Metrik „Gesendet“ auch die Metrik „Erneut versuchen“ ein.**
 
-  **[!UICONTROL Wiederholungen]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass [!DNL Customer Journey Analytics] Metriken **[!UICONTROL Gesendet]** niedrigere Werte anzeigen als [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder **[!UICONTROL Bounces]** einbezogen.
-Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
+  **[!UICONTROL Erneute Zustellversuche]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass die Metriken **[!UICONTROL Gesendet]** von [!DNL Customer Journey Analytics] niedrigere Werte anzeigen als in [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder die **[!UICONTROL Bounces]**-Metrik einbezogen.Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
 
 * **Berichte werden aus einer unterschiedlichen Datenquelle bereitgestellt.**
 
   Dies kann zu Datenabweichungen von 1-2 % zwischen den Produkten führen.
+
+* **Der Berichtsverbindung wurde kürzlich ein Datensatz hinzugefügt.**
+
+  Die automatische historische Aufstockung für einen neu hinzugefügten Datensatz kann einige Tage dauern. Bis zum Abschluss werden historische Berichte für diesen Datensatz möglicherweise als unvollständig oder null angezeigt, obwohl neue Daten bereits korrekt einfließen. Beachten Sie, dass dies ein erwartetes Verhalten ist, kein Datenverlust.

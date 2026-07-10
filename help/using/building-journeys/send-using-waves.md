@@ -12,9 +12,9 @@ keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1554
+source-wordcount: 1707
 ht-degree: 1%
 
 ---
@@ -130,6 +130,19 @@ Mit dem Wave-Versand können Sie steuern, wann und wie viele Nachrichten gesende
 +++ Kann ich einzelnen Schüben unterschiedliche Segmente oder Kriterien zuweisen?
 
 Sie können nur die Größe und den Zeitpunkt von Wellen definieren. Die Journey wird von derselben Zielgruppe durchlaufen. Sie können den einzelnen Schüben keine unterschiedlichen Segmente oder Kriterien zuweisen.
+
++++
+
++++ Wird die Zielgruppe vor jedem Schub neu ausgewertet oder ist sie beim Start der Journey fixiert?
+
+Die Zielgruppe wird **einmal ausgewertet** wenn das Journey ausgelöst wird. Zu diesem Zeitpunkt wird ein Schnappschuss der qualifizierten Profile erstellt und für alle Schübe verwendet. Die Zielgruppenzugehörigkeit wird nicht vor jeder folgenden Schübe neu bewertet.
+
+Allerdings werden **Profilattribute beim jeweiligen Wellenvorgang gelesen** nicht beim Start des Journey. Das bedeutet, dass sich die Wellen über mehrere Tage erstrecken:
+
+* Personalization-Attribute (z. B. der Vorname oder die Treuestufe eines Profils) spiegeln den Profilstatus zum Zeitpunkt der Ausführung der Welle wider.
+* **Einverständnis- und Unterdrückungsprüfungen werden zum Sendezeitpunkt für jede Welle angewendet.** Wenn ein Profil sich zwischen zwei Schüben abmeldet, erhält es keine Nachrichten von den nachfolgenden Schüben.
+
+Zusammenfassend lässt sich sagen, *wer* im Journey enthalten ist, wird im Voraus festgelegt, aber *die Daten, die zum Senden an diese Profile verwendet werden* spiegeln ihren aktuellen Status wider, wenn ihre Welle verarbeitet wird.
 
 +++
 

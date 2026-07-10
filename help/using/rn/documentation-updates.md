@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juli 2026 {#july-2026}
+
+* Auf der Seite **PTR-Einträge bearbeiten** wurde eine Warnung hinzugefügt, die Kunden darüber informiert, dass beim Hinzufügen eines neuen Forward-DNS-Eintrags zu ihrer Plattform der Forward-DNS-Eintrag für die alte Subdomain erst entfernt werden darf, wenn die Verschiebung abgeschlossen ist, da sonst die Bearbeitung fehlschlägt. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* Die Seiten **Senden mithilfe von**) wurden aktualisiert, um das Verhalten bei der Neubewertung der Zielgruppe über mehrere Schübe hinweg zu verdeutlichen: Die Zielgruppenzugehörigkeit wird zum Zeitpunkt der Aktivierung (Momentaufnahme) festgelegt, aber Profilattribute und Einverständnis werden zum Zeitpunkt der Verarbeitung jeder Schübe ausgewertet. Das bedeutet, dass Ausstiegsoptionen zwischen mehreren Schüben respektiert werden. Weitere Informationen finden Sie in den häufig gestellten Fragen [&#128279;](../building-journeys/send-using-waves.md#faq) &lbrace;0[Journey](../campaigns/send-using-waves.md#faq) und Kampagnen.
+
+* Die **Data Governance** wurde aktualisiert, um klarzustellen, dass die Durchsetzung der DULE-Richtlinie nur für (**) Profilattributfelder**. Ereignisbasierte Felder (Kontextattribute wie das Journey von Ereignisfeldern) werden nicht unterstützt: Beschriftungen, die auf diese Felder in der Benutzeroberfläche angewendet werden, schränken die Datennutzung nicht ein. [Weitere Informationen](../action/action-privacy.md)
 
 * Die Dokumentation **Optimierung des Versandzeitpunkts** wurde aktualisiert und enthält jetzt das neue **[!UICONTROL Senden innerhalb]** nächsten von **2-100 Stunden** (zuvor 1-168) und unterstützte AEP Hub-Regionen für diese Funktion. [Weitere Informationen](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 

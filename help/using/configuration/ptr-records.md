@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 95%
+source-wordcount: 922
+ht-degree: 90%
 
 ---
 
@@ -117,11 +117,13 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Falls Sie die Nachricht „Bitte erstellen Sie zunächst ein Forward-DNS und versuchen Sie es dann erneut“ erhalten, führen Sie die folgenden Schritte aus:
+   * Überprüfen Sie beim DNS-Provider, ob der Forward-DNS-Eintrag erfolgreich erstellt wurde.
+   * Einträge im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
+
+   >[!WARNING]
    >
-   >Falls Sie die Nachricht „Bitte erstellen Sie zunächst ein Forward-DNS und versuchen Sie es dann erneut“ erhalten, führen Sie die folgenden Schritte aus:
-   >   * Überprüfen Sie beim DNS-Provider, ob der Forward-DNS-Eintrag erfolgreich erstellt wurde.
-   >   * Einträge im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
+   >Wenn Sie einen neuen Forward-DNS-Eintrag für die neue Subdomain auf Ihrer Hosting-Plattform hinzufügen, entfernen Sie den Forward-DNS-Eintrag für die alte Subdomain erst, wenn die Verschiebung abgeschlossen ist. Wenn Sie den alten Datensatz entfernen, bevor der Prozess abgeschlossen ist, schlägt die Bearbeitung des PTR-Eintrags fehl.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Beachten Sie, **[!UICONTROL die Felder]** IP) und **[!UICONTROL PTR-Eintrag]** nicht geändert werden können.
 
