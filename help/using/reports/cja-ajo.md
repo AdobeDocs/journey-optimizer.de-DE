@@ -9,25 +9,16 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 79%
+source-wordcount: 601
+ht-degree: 74%
 
 ---
 
@@ -69,7 +60,7 @@ Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können
 
 >[!NOTE]
 >
->Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** &#x200B;](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
+>Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** ](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
 
 Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics] verwenden, kann das zu Abweichungen in den Reporting-Daten führen, die durch Folgendes verursacht werden:
 
@@ -79,9 +70,12 @@ Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics]
 
 * **In [!DNL Journey Optimizer]-Berichten schließt die Metrik „Gesendet“ auch die Metrik „Erneut versuchen“ ein.**
 
-  **[!UICONTROL Wiederholungen]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass [!DNL Customer Journey Analytics] Metriken **[!UICONTROL Gesendet]** niedrigere Werte anzeigen als [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder **[!UICONTROL Bounces]** einbezogen.
-Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
+  **[!UICONTROL Erneute Zustellversuche]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass die Metriken **[!UICONTROL Gesendet]** von [!DNL Customer Journey Analytics] niedrigere Werte anzeigen als in [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder die **[!UICONTROL Bounces]**-Metrik einbezogen.Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
 
 * **Berichte werden aus einer unterschiedlichen Datenquelle bereitgestellt.**
 
   Dies kann zu Datenabweichungen von 1-2 % zwischen den Produkten führen.
+
+* **Der Berichtsverbindung wurde kürzlich ein Datensatz hinzugefügt.**
+
+  Die automatische historische Aufstockung für einen neu hinzugefügten Datensatz kann einige Tage dauern. Bis zum Abschluss werden historische Berichte für diesen Datensatz möglicherweise als unvollständig oder null angezeigt, obwohl neue Daten bereits korrekt einfließen. Beachten Sie, dass dies ein erwartetes Verhalten ist, kein Datenverlust.
