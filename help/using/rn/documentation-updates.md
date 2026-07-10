@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
 source-wordcount: 9416
@@ -25,7 +29,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Auf der Seite **PTR-Einträge bearbeiten** wurde eine Warnung hinzugefügt, die Kunden darüber informiert, dass beim Hinzufügen eines neuen Forward-DNS-Eintrags zu ihrer Plattform der Forward-DNS-Eintrag für die alte Subdomain erst entfernt werden darf, wenn die Verschiebung abgeschlossen ist, da sonst die Bearbeitung fehlschlägt. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* Die Seiten **Senden mithilfe von**) wurden aktualisiert, um das Verhalten bei der Neubewertung der Zielgruppe über mehrere Schübe hinweg zu verdeutlichen: Die Zielgruppenzugehörigkeit wird zum Zeitpunkt der Aktivierung (Momentaufnahme) festgelegt, aber Profilattribute und Einverständnis werden zum Zeitpunkt der Verarbeitung jeder Schübe ausgewertet. Das bedeutet, dass Ausstiegsoptionen zwischen mehreren Schüben respektiert werden. Weitere Informationen finden Sie in den häufig gestellten Fragen ](../building-journeys/send-using-waves.md#faq) {0[Journey](../campaigns/send-using-waves.md#faq) und Kampagnen.[
+* Die Seiten **Senden mithilfe von**) wurden aktualisiert, um das Verhalten bei der Neubewertung der Zielgruppe über mehrere Schübe hinweg zu verdeutlichen: Die Zielgruppenzugehörigkeit wird zum Zeitpunkt der Aktivierung (Momentaufnahme) festgelegt, aber Profilattribute und Einverständnis werden zum Zeitpunkt der Verarbeitung jeder Schübe ausgewertet. Das bedeutet, dass Ausstiegsoptionen zwischen mehreren Schüben respektiert werden. Weitere Informationen finden Sie in den häufig gestellten Fragen [&#128279;](../building-journeys/send-using-waves.md#faq) &lbrace;0[Journey](../campaigns/send-using-waves.md#faq) und Kampagnen.
 
 * Die **Data Governance** wurde aktualisiert, um klarzustellen, dass die Durchsetzung der DULE-Richtlinie nur für (**) Profilattributfelder**. Ereignisbasierte Felder (Kontextattribute wie das Journey von Ereignisfeldern) werden nicht unterstützt: Beschriftungen, die auf diese Felder in der Benutzeroberfläche angewendet werden, schränken die Datennutzung nicht ein. [Weitere Informationen](../action/action-privacy.md)
 
@@ -74,7 +78,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation zu **Journey-Fragmenten** ist nicht mehr als „Eingeschränkte Verfügbarkeit“ gekennzeichnet. Die Seite enthält jetzt einen Hinweis zum Unterscheiden von Journey-Fragmenten aus **[!UICONTROL Inhaltsfragmenten]** und **AEM-Inhaltsfragmenten** (von allen drei Seiten vernetzt) sowie Dokumente zur Unterstützung von **Sandbox-Tools**, **Auditprotokollen** und **Tagging**. Journey-Fragmente wurden auch zur Seite **Erste Schritte mit Journeys** hinzugefügt. [Weitere Informationen](../building-journeys/journey-fragments.md)
 
-* Die Dokumentation zu **externen Datenquellen** und **benutzerdefinierten Aktionen** wurde im Hinblick auf die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob das oder das `access_token``id_token`als Anmeldeinformationen verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatsbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` sein und Verweise auf „Azure Entra ID“ wurden zu „Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
+* Die Dokumentation zu **externen Datenquellen** und **benutzerdefinierten Aktionen** wurde im Hinblick auf die benutzerdefinierte Authentifizierung aktualisiert. Im Feld `tokenInResponse` können Sie jetzt angeben, ob das oder das `access_token`&#x200B;`id_token`als Anmeldeinformationen verwendet werden soll, wenn ein Endpunkt beide zurückgibt. Für die zertifikatsbasierte benutzerdefinierte Authentifizierung sind die Felder `subType` und `aud` jetzt obligatorisch, der Token-Endpunkt `method` muss `POST` sein und Verweise auf „Azure Entra ID“ wurden zu „Microsoft Entra ID“ korrigiert. [Weitere Informationen](../datasource/external-data-sources.md#certificate-credential)
 
 * Die Seite **Erste Schritte mit der Entscheidungsfindung** wurde mit einem Prozessdiagramm aktualisiert, das den durchgängigen Entscheidungs-Workflow zusammenfasst, von der Verwaltung von Entscheidungselementen und der Konfiguration von Auswahlstrategien bis zur Einbettung von Entscheidungsrichtlinien in eine Journey oder Kampagne. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md#process)
 
