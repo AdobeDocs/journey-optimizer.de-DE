@@ -22,10 +22,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
 workflow-type: tm+mt
-source-wordcount: 1160
-ht-degree: 93%
+source-wordcount: 1213
+ht-degree: 89%
 
 ---
 
@@ -61,6 +61,8 @@ Verbessern und optimieren Sie Ihre Inhalte für jeden Bildschirm oder Browser, i
 >Dynamic Media mit OpenAPI muss in Adobe Experience Manager as a Cloud Service aktiviert sein. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
 Die Dynamic Media-Integration mit Adobe Journey Optimizer ist sowohl für den [Scene7-Modus](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} von Dynamic Media als auch [mit OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} verfügbar.
+
+Für Dynamic Media Scene7-Assets fügt Journey Optimizer am Anfang der URL Standardmodifikatoren (`bfc=off&fmt=png-alpha`) hinzu. Wenn Ihre Vorgabe auch `fmt` oder `bfc` setzt, hat sie Vorrang, da Scene7 das letzte Vorkommen eines wiederholten Parameters verwendet. Um unerwartete Ergebnisse zu vermeiden, entfernen Sie `fmt`/`bfc` aus der Voreinstellung oder verschieben Sie sie vor die Standardmodifikatoren in der URL.
 
 <!--
 >[!AVAILABILITY]

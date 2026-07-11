@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 55%
+source-wordcount: 1883
+ht-degree: 53%
 
 ---
 
@@ -214,9 +214,13 @@ Es können zwei Arten von Warnhinweisen auftreten:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="HTML-Größe reduzieren"
->abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
+>abstract="Aktivieren Sie diese Option, um Ihre E-Mail-HTML während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen und Einzüge entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
 
-Mit [!DNL Journey Optimizer] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
+[!DNL Journey Optimizer] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen und Einzüge entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
+
+>[!NOTE]
+>
+>Das Entfernen nicht erforderlicher HTML-Kommentare ist ebenfalls Teil der Optimierung, aber diese Funktion wurde ab dem 10. Juli 2026 vorübergehend deaktiviert.
 
 * Vermeiden Sie **E-Mail-Clipping** - einige Clients wie Gmail kürzen Nachrichten, die größer als ~100 KB sind, und verhindern so, dass Empfänger den gesamten Inhalt anzeigen können.
 * Verbesserung **E-Mail** Ladezeit) im Posteingang des Empfängers.
