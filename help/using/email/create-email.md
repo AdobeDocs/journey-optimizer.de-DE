@@ -10,31 +10,16 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 55%
+source-wordcount: 1883
+ht-degree: 53%
 
 ---
 
@@ -114,7 +99,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -214,9 +199,13 @@ Es können zwei Arten von Warnhinweisen auftreten:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="HTML-Größe reduzieren"
->abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
+>abstract="Aktivieren Sie diese Option, um Ihre E-Mail-HTML während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen und Einzüge entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Beachten Sie, dass diese Option beim Arbeiten mit mehrsprachigen E-Mails standardmäßig für alle Gebietsschemata aktiviert ist."
 
-Mit [!DNL Journey Optimizer] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
+[!DNL Journey Optimizer] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen und Einzüge entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
+
+>[!NOTE]
+>
+>Das Entfernen nicht erforderlicher HTML-Kommentare ist ebenfalls Teil der Optimierung, aber diese Funktion wurde ab dem 10. Juli 2026 vorübergehend deaktiviert.
 
 * Vermeiden Sie **E-Mail-Clipping** - einige Clients wie Gmail kürzen Nachrichten, die größer als ~100 KB sind, und verhindern so, dass Empfänger den gesamten Inhalt anzeigen können.
 * Verbesserung **E-Mail** Ladezeit) im Posteingang des Empfängers.
@@ -292,7 +281,7 @@ Wenn Sie die Option [HTML-Größenoptimierung](#optimize-html-size) aktiviert ha
    >
    >Diese Einstellung ist unabhängig vom E-Mail-Editor - der Korrekturabzug spiegelt wider, was Sie im Korrekturabzug auswählen, unabhängig davon, ob die Option in der E-Mail selbst aktiviert oder deaktiviert ist.
 
-1. Wählen Sie die Testempfängerinnen und Testempfänger aus und klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]**. Weitere Informationen zum Testversand finden Sie [&#x200B; diesem Abschnitt](../content-management/proofs.md).
+1. Wählen Sie die Testempfängerinnen und Testempfänger aus und klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]**. Weitere Informationen zum Testversand finden Sie [ diesem Abschnitt](../content-management/proofs.md).
 1. Nach dem Versand klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Korrekturabzug anzeigen]**.
 1. Klicken Sie auf das Informationssymbol neben dem Status des Testversands. Die Optimierungsdetails werden in einem Popup-Fenster angezeigt, einschließlich der Originalgröße des HTMLS, der optimierten Größe des HTMLS und des Prozentsatzes der Größenreduzierung.
 
