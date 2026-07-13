@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 4%
 
 ---
@@ -29,8 +27,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden [Leitplanken und Einschränkungen](gs-generative.md#generative-guardrails).
-></br>
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
+
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, damit Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -41,7 +39,7 @@ ht-degree: 4%
 * **[!UICONTROL Personalization-Editor]** - überall dort, wo der Editor kanalübergreifend verfügbar ist (Betreffzeile, Hauptteil und andere Felder, die ihn öffnen). Dies ist der allgemeine Pfad zur KI-unterstützten Personalisierung. Informationen dazu, wo und wie der Editor geöffnet wird, finden Sie unter [Personalisierung hinzufügen](../personalization/personalization-build-expressions.md#where).
 * **E-Mail-Designer-Symbolleiste** - Wenn Sie E-Mails in der E-Mail-Designer verfassen, wählen Sie eine Komponente aus und verwenden Sie **[!UICONTROL Ausdruck hinzufügen]** in der kontextuellen Symbolleiste, um den Assistenten in einer Toolbox zu öffnen, ohne zuerst den vollständigen Editor zu öffnen. Dieser Einstiegspunkt ist außerhalb des E-Mail-Authorings nicht verfügbar. Siehe [Generieren aus der E-Mail-Designer](#generate-email-designer).
 
-Weitere Informationen zur Einrichtung und zu den Sprachen des KI-Assistenten finden Sie unter [Erste Schritte mit dem KI-Assistenten](gs-generative.md). Personalisierungskonzepte finden Sie unter [Erste Schritte mit der Personalisierung](../personalization/personalize.md). Informationen zu umgehenden Ideen finden Sie unter [Best Practices für KI-Eingabeaufforderungen](ai-assistant-prompting-guide.md).
+Weitere Informationen zur Einrichtung und zu den Sprachen des KI-Assistenten finden Sie unter [Erste Schritte mit dem KI-Assistenten](gs-generative.md). Personalisierungskonzepte finden Sie unter [Erste Schritte mit der Personalisierung](../personalization/personalize.md). Informationen zum Schreiben von Eingabeaufforderungen, die verwendbare Ausdrücke generieren, finden Sie unter [Effektive Eingabeaufforderungen für Personalisierungsausdrücke schreiben](#prompt-best-practices). Ideen für die Inhaltserstellung (Ton, Stil, Marke) finden Sie unter [Best Practices für die Inhaltserstellung](ai-assistant-prompting-guide.md).
 
 Je nach Kampagnen- oder Journey-Kontext kann der Assistent mit Daten arbeiten und erstellt den [!UICONTROL Personalization-Editor], der bereits bereitstellt - z. B. Profilattribute, Segmentzugehörigkeit, Hilfsfunktionen und zugehörige Personalisierungsquellen.
 
@@ -95,7 +93,7 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
 1. Um die Ausgabe in Ihrem Personalisierungsausdruck zu implementieren, klicken Sie auf **[!UICONTROL Anwenden]**. Die Assistentenausgabe wird an der Cursorposition im Personalisierungseditor eingefügt. Um stattdessen bereits vorhandenen Code zu ersetzen, wählen Sie diesen Code zuerst im Editor aus und verwenden Sie dann **[!UICONTROL Bearbeiten mit dem KI-Assistenten]** (siehe [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing)).
 
-   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![&#x200B; an der gewünschten &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
+   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![ an der gewünschten ](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
 
 ## Vorhandenen Code bearbeiten, korrigieren oder erklären {#edit-existing}
 
@@ -111,7 +109,7 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 
    ![](assets/ai-perso-edit.png)
 
-1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der **auf** Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
+1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der ]**auf**[!UICONTROL  Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
 
    ![](assets/ai-perso-fix.png)
 
@@ -123,7 +121,7 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 >
 >Dieser Abschnitt gilt nur, wenn Sie **E-Mail**-Inhalte in der E-Mail-Designer bearbeiten. Verwenden Sie für andere Kanäle den **[!UICONTROL Personalization-Editor]**.
 
-In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor &#x200B;] öffnen.
+In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor ] öffnen.
 
 1. Wählen Sie in der E-Mail-Designer die Komponente aus, die Sie personalisieren möchten, und klicken Sie an der Stelle, an der Sie den Ausdruck einfügen möchten.
 
@@ -145,3 +143,37 @@ In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personali
    * Verfeinern Sie den Ausdruck im vollständigen Editor - klicken Sie auf das Symbol ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg "Bearbeiten"), um den **[!UICONTROL Personalization-Editor zu]**.
 
 1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Einfügen]**, um den Ausdruck zu Ihrem Inhalt hinzuzufügen.
+
+## Effektive Eingabeaufforderungen für Personalisierungsausdrücke schreiben {#prompt-best-practices}
+
+Eingabeaufforderungen für Personalisierungsausdrücke unterscheiden sich von Eingabeaufforderungen zur Inhaltserstellung, die sich auf Ton, Stil und Marke konzentrieren. Da der Assistent eine Vorlagenlogik erstellt, die anhand von Profil- und kontextuellen Daten aufgelöst wird, sollte Ihre Eingabeaufforderung diese Logik genau beschreiben. Beginnen Sie mit dem Kundenerlebnis, das Sie bereitstellen möchten, und drücken Sie es dann in Begriffen aus, die der Assistent in einen Ausdruck übersetzen kann.
+
+Eine effektive Eingabeaufforderung definiert im Allgemeinen vier Elemente:
+
+* **Datenquelle** - das Profilattribut, die Kontextdaten, das Segment, das Angebot oder eine andere auszuwertende Ressource. Fügen Sie den genauen Feldpfad ein, wenn Sie ihn kennen, z. B. `profile.person.name.firstName`.
+* **Bedingung** - die anzuwendende Logik, z. B. ob ein Wert vorhanden ist oder einem bestimmten Kriterium entspricht.
+* **Ausgabe** - Was angezeigt wird, wenn die Bedingung erfüllt ist, einschließlich des erforderlichen Formats.
+* **Fallback** - Was angezeigt werden soll, wenn die Daten fehlen oder die Bedingung nicht erfüllt ist.
+
+Beispielsweise enthält eine Anfrage *das Verlängerungsdatum des Kunden zu übernehmen, ein Jahr hinzuzufügen, es als MM/TT/JJ zu formatieren und nichts anzuzeigen, wenn das Verlängerungsdatum fehlt* eine Datenquelle, eine Umwandlung, ein Ausgabeformat und einen Fallback - alles, was der Assistent benötigt, um einen verwendbaren Ausdruck zu erstellen.
+
+### Recommendations {#prompt-recommendations}
+
+Um die relevantesten Ergebnisse zu erhalten:
+
+* Halten Sie jede Eingabeaufforderung auf eine einzelne Personalisierungsregel ausgerichtet, anstatt mehrere nicht verwandte Regeln in einer Anfrage zu kombinieren.
+* Referenzieren Sie nur Felder, Fragmente, Angebote und Datensätze, die in Ihrer Umgebung vorhanden sind. Der Assistent arbeitet mit dem, was der Editor bereitstellt, und erstellt keine Datenquellen für Sie.
+* Beschreiben Sie das Fallback-Verhalten für optionale oder möglicherweise fehlende Daten, sodass der Ausdruck für jedes Profil ordnungsgemäß aufgelöst wird.
+* Geben Sie die erwartete Ausgabestruktur explizit an, wenn es von Bedeutung ist - z. B. müssen die Schlüssel, die eine Angebots-Payload als JSON zurückgeben muss.
+* Wenn Sie vorhandenen Code bearbeiten, geben Sie nur den relevanten Ausdruck als Kontext anstelle einer ganzen Nachricht an und verwenden Sie **[!UICONTROL Explain]**, um Code zu verstehen, bevor Sie eine **[!UICONTROL Fix]** oder eine andere Änderung anwenden.
+
+## Daten- und Setup-Anforderungen {#requirements}
+
+Der Assistent generiert Ausdrücke aus den Ressourcen, die der [!UICONTROL Personalization-Editor] bereits bereitstellt. Daher müssen die zugrunde liegenden Daten konfiguriert und verfügbar sein. Wenn eine Eingabeaufforderung keinen verwendbaren Ausdruck zurückgibt, bestätigen Sie Folgendes:
+
+* Das referenzierte Feld gehört zu einem Schema, das in Ihrer Umgebung aktiv ist.
+* Alle Fragmente, die Sie wiederverwenden möchten, werden veröffentlicht.
+* Jeder Datensatz, der für eine Suche verwendet wird, ist für Suchen aktiviert und
+* Ihre Anfrage bezieht sich auf die Vorlagenpersonalisierung und nicht auf eine andere Aufgabe.
+
+Wenn die Einrichtung korrekt ist, verfeinern Sie die Eingabeaufforderung, indem Sie Datenquelle, Bedingung, Ausgabe und Fallback präzisieren und dann erneut generieren.
