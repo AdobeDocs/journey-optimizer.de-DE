@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 52%
+source-wordcount: 1877
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Platzhalter für den Target-Abschnitt"
+>abstract="Im Abschnitt **[!UICONTROL Target]** wird die Zielgruppe des Versands für diese Kanalaktivität festgelegt. Verwenden Sie **[!UICONTROL Zielgruppendimension]** um auszuwählen, welche Zielgruppendimension für diesen Versand gilt. Wählen Sie dann **[!UICONTROL Eine Nachricht pro Profil]**, um eine einzelne Nachricht pro Person zu senden, oder **[!UICONTROL Eine Nachricht pro sekundärer Dimension]**, um eine Nachricht pro qualifizierter sekundärer Dimension zu senden - z. B. eine E-Mail pro Flug, wenn derselbe Reisende mehrere übereinstimmende Flüge hat."
 
 <!--
 UNUSED IDs in BJ
