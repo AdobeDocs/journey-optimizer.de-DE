@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: URL, Link, Personalisierung, Tracking, Kodierung, geschweifte Klammern
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 570
+ht-degree: 17%
 
 ---
 
@@ -34,7 +33,7 @@ Je nach den Profilattributen führen sie Empfänger zu bestimmten Seiten einer W
 
 Gehen Sie wie folgt vor, um eine URL zu personalisieren.
 
-1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [&#x200B; Sie mithilfe der kontextuellen Symbolleiste &#x200B;](message-tracking.md#insert-links)Link einfügen“.
+1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [ Sie mithilfe der kontextuellen Symbolleiste ](message-tracking.md#insert-links)Link einfügen“.
 
    >[!IMPORTANT]
    >
@@ -73,15 +72,21 @@ Journey Optimizer unterstützt auch die Personalisierung **gesamten** URL oder d
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->Um die vollständige oder Basis-URL-Personalisierung zu aktivieren, wenden Sie sich an Adobe und geben Sie Ihre Liste der zulässigen Domains an. Dies ist erforderlich, um unsichere Weiterleitungen zu verhindern.
+>* Um die vollständige oder Basis-URL-Personalisierung zu aktivieren, wenden Sie sich an Adobe und geben Sie Ihre Liste der zulässigen Domains an. Dies ist erforderlich, um unsichere Weiterleitungen zu verhindern.
+>
+>* Dynamisch generierte URLs - bei denen die gesamte URL oder Basis-Domain zum Versandzeitpunkt von einem Profilattribut aufgelöst wird - weisen eine bekannte Tracking-Einschränkung auf: Journey Optimizer kann Klicks für diese Links nicht zuverlässig verfolgen, und **Klickdaten werden möglicherweise nicht in Journey- oder Kampagnenberichten angezeigt**. Dies liegt daran, dass die Tracking-Umleitung zur Entwurfszeit angewendet wird, bevor die endgültige URL bekannt ist. Wenn der aufgelöste Wert je nach Empfänger unterschiedlich ist, wird die Umleitungskette unterbrochen und Klicks werden nicht aufgezeichnet. Darüber hinaus muss die aufgelöste URL mit `http` oder `https` für jeden Empfänger beginnen. Andernfalls wird das Tracking für diesen Link im Hintergrund übersprungen. Verwenden Sie einen der folgenden Ansätze, um ein zuverlässiges Klick-Tracking aufrechtzuerhalten:
+>
+>   * Verwenden Sie eine feste Basis-URL und hängen Sie nur personalisierte Parameter an (z. B. `https://www.example.com/page?uid={{profile.person.crmid}}`).
+>   
+>   * Erstellen Sie vorab eine personalisierte URL pro Empfänger, speichern Sie sie als Profilattribut und referenzieren Sie sie in Ihrem E-Mail-Inhalt.
 
 ## URL-Tracking-Parameter personalisieren {#personalize-url-tracking-parameters}
 
 [URL-Tracking](url-tracking.md) wird auf der Ebene der Kanalkonfiguration verwaltet und gilt für alle URLs, die im Nachrichteninhalt enthalten sind. Sie können auch URL-Tracking-Parameter für einen einzelnen Link in der E-Mail-Designer personalisieren. Auf diese Weise können Sie einen empfängerspezifischen Parameter an einen einzelnen Link anhängen (z. B. um eine Kennung an Ihre Web-Analyse-Tools zu übergeben).
 
-Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [&#x200B; gewünschte Profilattribut &#x200B;](../personalization/personalization-build-expressions.md).
+Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [ gewünschte Profilattribut ](../personalization/personalization-build-expressions.md).
 
 ![](assets/message-tracking-perso-parameter.png)
 
