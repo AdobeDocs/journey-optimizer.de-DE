@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration für einen benutzerdefiniert
 
 1. Wenn Sie in [!DNL Journey Optimizer] Subdomains für benutzerdefinierte Kanäle eingerichtet haben, können Sie eine delegierte Subdomain auswählen, die für das Tracking von Links verwendet wird, die in der Payload für diese Konfiguration vorhanden sind. [Erfahren Sie, wie Sie eine Subdomain delegieren](custom-channel-subdomains.md)
 
-1. Wenn der ausgewählte Kanal für die Endpunkt-URL [ Kopfzeilen oder Abfrageparameter (als ](create-custom-channel.md#endpoint-configuration) definiert) hat, ]**der Abschnitt**[!UICONTROL  Dynamische Parameter“ angezeigt.
+1. Wenn der ausgewählte Kanal für die Endpunkt-URL [&#x200B; Kopfzeilen oder Abfrageparameter (als &#x200B;](create-custom-channel.md#endpoint-configuration) definiert) hat, **der Abschnitt** Dynamische Parameter“ angezeigt.
 
    Geben Sie den Wert für jeden Parameter ein. Sie können den Personalisierungseditor verwenden, um dynamische Werte einzufügen (z. B. eine aus dem Profil gelöste Benutzerkennung). Auf diese Weise können Sie die Anfrage für jede Empfängerin und jeden Empfänger auf der Grundlage ihrer Profildaten anpassen.
 
