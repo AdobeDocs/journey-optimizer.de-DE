@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Auf jedem Journey in **[!UICONTROL Simulation]**, **[!UICONTROL Schnellsimulatio
 
    >[!NOTE]
    >
-   >Die vorausgefüllten Felder für die Ausführungs-E-Mail und die Telefonnummer stammen aus der E-Mail-Adresse und der Telefonnummer in Ihrem Adobe IMS-Benutzerprofil.
+   >Die vorausgefüllten Ausführungs-E-Mail- und Telefonfelder stammen aus Werten, die zuvor in der Journey-Simulation verwendet und in Ihrem Browser zwischengespeichert wurden.
 
    ![Schritt „Schnellsimulation - Werte aktualisieren“ mit den Feldern „Wartezeit überschreiben“ und „E-Mail-Adresse und Telefonnummer prüfen“](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
    >[!NOTE]
    >
-   >Die Felder E-Mail und Telefon sind aus Ihrem Adobe IMS-Benutzerprofil vorausgefüllt.
+   >Die Felder „E-Mail“ und „Telefon“ werden aus Werten vorausgefüllt, die zuvor in der Journey-Simulation verwendet wurden, und in Ihrem Browser zwischengespeichert.
 
    ![Dialogfeld „Simulierte Benutzer generieren“ mit den Feldern „Ausführungs-E-Mail“ und „Telefonnummer“ und „Generieren“](assets/simulate-generate.png)
 
