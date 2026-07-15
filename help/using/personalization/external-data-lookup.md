@@ -8,14 +8,12 @@ level: Experienced
 hide: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 97%
+source-wordcount: 2044
+ht-degree: 61%
 
 ---
 
@@ -236,3 +234,81 @@ Verwenden Sie das Menü „Kontextuelle Attribute“ > „Datenstrom“ > „Ere
 Derzeit nicht. Diese Funktion wird in Zukunft unterstützt.
 
 +++
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie eine Aktion für einen externen Endpunkt konfigurieren und den `externalDataLookup` Helper im Personalisierungseditor verwenden, um diese Daten zur Laufzeit dynamisch abzurufen und so Inhalte für eingehende Kanäle zu personalisieren.
+
+**Intents**
+
+* Konfigurieren einer Aktion, die einen externen Endpunkt definiert (URL, HTTP-Methode, Parameter, Anfrage-/Antwort-Schemas)
+* Fügen Sie den `externalDataLookup` Helper in einen Personalisierungsausdruck für eine eingehende Aktion ein.
+* Übergeben von Kopfzeilen-, Abfrage-, Payload- oder Pfadparametern der Variablen zum Zeitpunkt des Aufrufs an den externen Endpunkt
+* Zugreifen auf abgerufene Daten über den Ergebnisalias mithilfe von Personalisierungsausdrücken und Hilfsfunktionen
+* Zeitüberschreitungen und Fehler mit Fallback-Inhaltsmustern elegant handhaben
+* Fehlerbehebung bei Problemen mit externer Suche mithilfe von Adobe Experience Platform Assurance
+
+>[!TAB Glossar]
+
+* **externalDataLookup**: Eine Hilfsfunktion im Personalisierungseditor, die zum Zeitpunkt der Anfrage Daten dynamisch von einem konfigurierten externen Endpunkt abruft, um sie für die Personalisierung von Inhalten eingehender Kanäle zu verwenden. *(produktspezifisch)*
+* **Action**: Ein Konfigurationsobjekt in Journey Optimizer (Administration > Konfigurationen), das einen externen Endpunkt definiert - URL, HTTP-Methode, Header-/Abfrageparameter, POST-Hauptteilschema und Antwortschema. Erforderlich, bevor `externalDataLookup` verwendet wird. *(produktspezifisch)*
+* **Ergebnisvariable**: Ein beliebiger Alias, der im `externalDataLookup`-Aufruf zugewiesen wurde und verwendet wird, um in nachfolgenden Personalisierungsausdrücken auf alle Felder aus der abgerufenen Antwort zu verweisen.
+* **Eingehende Kanäle** Kanäle, in denen Inhalte bei Bedarf bereitgestellt werden, wenn ein Benutzer eine Oberfläche öffnet - Code-basiertes Erlebnis, Web, In-App-Nachricht. *(produktspezifisch)*
+* **AEP Edge Network**: Die Infrastruktur, die Personalisierungsanfragen empfängt und den Aufruf zur externen Datensuche zur Laufzeit an Trigger weiterleitet.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** externalDataLookup — Varianten: externe Datensuche, externe Datensuche, externe Datensuche, externe Datensuche
+* **Synonyme:** „externalDataLookup“ = „Externer Datensuchhilfe“
+* **Verwechseln Sie nicht:** `actionId` (ID der konfigurierten Aktion, die den externen Endpunkt identifiziert) ≠ `result` (Alias für die abgerufenen Antwortdaten) ≠ Parameternamen (Variablenwerte, die zum Aufrufzeitpunkt an den Endpunkt übergeben werden)
+* **Nicht verwechseln:** Verwendung von `externalDataLookup` in einer eingehenden Personalisierungsaktion (ruft Daten dynamisch zur Edge Network-Anfragezeit ab) ≠ Verwendung einer benutzerdefinierten Aktion in einer Journey-Aktivität (ruft Inhalte innerhalb eines Journey-Flusses ab)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Die Funktion ist nur in begrenztem Umfang verfügbar und nur für eine Reihe von Organisationen verfügbar.
+* Standard-Zeitüberschreitung für externe Endpunkt-Aufrufe: 300 ms (Standard; Adobe-Support kontaktieren, um diese Zeitüberschreitung für einen bestimmten Endpunkt zu erhöhen).
+* Das Durchsuchen von Antwortschemata wird im Personalisierungseditor nicht unterstützt. Journey Optimizer validiert keine Verweise auf JSON-Attribute aus der in Ausdrücken verwendeten Antwort.
+* Unterstützte Datentypen für Payload-Variablenparameter: `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* Variablenersetzung innerhalb `externalDataLookup` Helper-Parameter wird derzeit nicht unterstützt.
+* Dynamische URL-Pfade werden derzeit nicht unterstützt.
+* Authentifizierungsoptionen in der Aktionskonfiguration werden von `externalDataLookup` derzeit nicht unterstützt. Verwenden Sie Header-Felder für die API-Schlüsselbasierte oder Nur-Text-Autorisierung als Problemumgehung.
+* Änderungen an einer Aktionskonfiguration werden nicht in Live-Kampagnen oder Journey übernommen, die diese Aktion verwenden. Kopieren oder ändern Sie Live-Kampagnen/Journey, um die Änderungen anzuwenden.
+* Multi-Pass-Rendering wird unterstützt.
+* Journey Optimizer speichert derzeit keine Antworten auf externe Endpunkte zwischen.
+* Der externe Endpunkt muss in der Lage sein, mindestens so viel gleichzeitige Last und Durchsatz zu verarbeiten wie der eingehende Traffic, der für die jeweilige Oberfläche an AEP Edge Network gesendet wird.
+
+>[!TAB FAQs]
+
+**F: Was passiert, wenn beim externen Endpunkt eine Zeitüberschreitung auftritt oder ein Fehler zurückgegeben wird?**
+
+Die Ergebnisvariable ist leer. Attributverweise innerhalb des Ergebnisses werden als leer angezeigt und Array-Iterationen geben keine Elemente zurück. Verwenden Sie Fallback-Inhaltsmuster - z. B. `?: "none found"` für einzelne Attribute oder `{%#if result%}…{%else%}…{%/if%}` für ganze Inhaltsblöcke -, um diese Fälle elegant zu handhaben.
+
+**F: Wie übergebe ich ein kontextuelles Attribut aus der Anfrage als Parameter an eine externe Datensuche?**
+
+Verwenden Sie das Menü Kontextuelle Attribute > Datenstrom > Ereignis im Personalisierungseditor, um das Erlebnisereignisschema zu durchsuchen und das entsprechende Attribut als Parameterwert einzufügen, z. B.: `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`.
+
+**F: Werden in Journey Optimizer externe Endpunktantworten zwischengespeichert?**
+
+Derzeit nicht. Die Zwischenspeicherung wird in Zukunft unterstützt.
+
+**F: Wie kann ich Probleme mit externalDataLookup beheben?**
+
+Verwenden Sie Adobe Experience Platform Assurance. Starten Sie eine Assurance-Sitzung, initiieren Sie einen Journey Optimizer-Aufruf aus Ihrer Web- oder mobilen Implementierung und verwenden Sie die Edge Delivery-Ansicht, um den CustomActions-Block auf Zeitüberschreitungs- oder Fehlerdetails zu überprüfen.
+
+**F: Kann ich die Authentifizierung in der Aktionskonfiguration mit externalDataLookup verwenden?**
+
+Authentifizierungsoptionen in der Aktionskonfiguration werden derzeit nicht unterstützt. Geben Sie bei API-Schlüssel-basierter oder anderer Nur-Text-Autorisierung die Anmeldeinformationen in der Aktionskonfiguration als Header-Felder an.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->

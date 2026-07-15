@@ -10,24 +10,16 @@ level: Intermediate
 keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 TQID: https://experienceleague.adobe.com/TzGxWPRUHz4Hf-Acni4-LjNTpAYTjZBBt-GMxlNXQHM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 93%
+source-wordcount: 1086
+ht-degree: 48%
 
 ---
 
@@ -131,4 +123,66 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428526?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird ein Anwendungsfall für Push-Benachrichtigungen zum Bestellstatus vorgestellt, in dem drei Arten der Personalisierung - Profilfeld, Angebotsentscheidung und kontextuelle Journey-Daten - in einer einzigen Nachricht kombiniert werden.
+
+**Intents**
+
+* Erstellen einer Journey mit einem Bestellereignis und einer Push-Aktionsaktivität
+* Hinzufügen einer profilbasierten Personalisierung (Vorname des Kunden) zum Push-Titel
+* Hinzufügen einer kontextuellen Datenpersonalisierung (Bestellnummer, Artikelname, Bestellstatus) aus dem Journey-Ereignis
+* Hinzufügen der Personalisierung von Angebotsentscheidungen zum Push-Text
+* Testen der Journey im Testmodus und Veröffentlichen
+
+>[!TAB Glossar]
+
+* **Profilpersonalisierung**: Personalization basierend auf einem Profilfeld wie Vorname, auf das über `profile.*` zugegriffen wird. *(produktspezifisch)*
+* **Angebotsentscheidung**: Personalization auf der Grundlage von Entscheidungs-Management-Variablen; wird über das Menü Angebotsentscheidungen im Personalisierungseditor eingefügt. *(produktspezifisch)*
+* **Kontextuelle Personalisierung**: Personalization basierend auf Daten von der Journey - Ereignisfelder (z. B. Bestellnummer, Artikelname, Bestellstatus) und Journey-Eigenschaften (z. B. Journey-ID, Fehler). Nur verfügbar, wenn eine Journey kontextuelle Daten an die Nachricht übergeben hat. *(produktspezifisch)*
+* **Journey-Eigenschaften**: Technische Felder, die sich auf die Journey für ein bestimmtes Profil beziehen - wie z. B. die Journey-ID oder aufgetretene Fehler -, zugänglich unter Kontextuelle Attribute > Journey Orchestration. *(produktspezifisch)*
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Kontextuelle Personalisierung — Varianten: kontextbasierte Personalisierung, Journey-Kontext-Personalisierung
+* **Synonyme:** &quot;Journey Orchestration&quot; (Benutzeroberflächen-Beschriftung im Kontextattribut-Menü) = kontextuelle Journey-Datenquelle
+* **Nicht verwechseln:** Profilpersonalisierung (statische Profilfeldwerte, immer verfügbar) ≠ Kontextuelle Personalisierung (Journey-Ereignis- und -Eigenschaftsdaten, nur verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde) ≠ Personalisierung der Angebotsentscheidung (Entscheidungs-Management-Variablen)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Kontextuelle Attribute sind im Personalisierungseditor nur verfügbar, wenn eine Journey kontextuelle Daten an die Nachricht übergeben hat.
+* Der Testmodus funktioniert nur mit Testprofilen. Die in der Ereigniskonfiguration eingegebene Profilkennung muss einem vorhandenen Testprofil entsprechen.
+
+>[!TAB FAQs]
+
+**F: Welche drei Personalisierungstypen werden in diesem Anwendungsfall kombiniert?**
+
+Profilpersonalisierung (Vorname des Kunden aus `profile.*`), kontextuelle Datenpersonalisierung (Bestellnummer, Elementname und Bestellstatus aus dem Journey-Ereignis) und Personalisierung der Angebotsentscheidung (ein in den Textkörper eingefügtes Entscheidungs-Management-Angebot).
+
+**F: Woher kommen kontextuelle Attribute im Personalisierungseditor?**
+
+Kontextattribute stammen aus Ereignissen, die vor der Kanalaktionsaktivität im Journey platziert wurden, und aus technischen Journey-Eigenschaften. Sie werden im Personalisierungseditor unter Kontextuelle Attribute > Journey Orchestration > Ereignisse (Ereignisfelder) oder Journey-Eigenschaften (Journey-Metadaten) angezeigt.
+
+**F: Was sind die Voraussetzungen für diesen Anwendungsfall?**
+
+Ein Bestellereignis muss mit den Feldern Bestellnummer, Status und Artikelname konfiguriert werden und im Entscheidungs-Management muss eine Entscheidung vorhanden sein.
+
+**F: Wie kann ich die Push-Benachrichtigung in diesem Anwendungsfall testen?**
+
+Klicken Sie auf die Schaltfläche Test auf der Journey, klicken Sie dann auf &quot;Trigger eines Ereignisses“ und geben Sie die Ereigniswerte in das Fenster Ereigniskonfiguration ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss mit einem vorhandenen Testprofil übereinstimmen.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: ae5284c7 -->

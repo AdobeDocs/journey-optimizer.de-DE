@@ -10,24 +10,16 @@ level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 92%
+source-wordcount: 2174
+ht-degree: 60%
 
 ---
 
@@ -245,4 +237,79 @@ Sie können jedoch auch den Inhalt eines Ausdrucksfragments in den Editor einfü
 In diesem Fall ist die Vererbung aus dem ursprünglichen Fragment fehlerhaft. Der Inhalt des Fragments wird in den Editor kopiert und die Änderungen werden nicht mehr synchronisiert.
 
 Es wird zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Sie können es wie jedes andere Element in Ihrem Code bearbeiten.
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie Ausdrucksfragmente im Personalisierungseditor einfügen, anpassen und verwalten können - einschließlich impliziter Variablen, der Verwendung von Fragmenten in Schleifen, bearbeitbarer Felder, dynamischer Auflösung und Unterbrechungen der Vererbung.
+
+**Intents**
+
+* Einfügen eines Ausdrucksfragments aus dem Menü Fragmente und Grundlegendes zur automatischen Übertragung von Änderungen
+* Verwenden impliziter Variablen: Eingabevariablen (außerhalb des Fragments deklariert, innerhalb verwendet) und Ausgabevariablen (innerhalb des Fragments deklariert, im Nachrichteninhalt verwendet)
+* Verwenden von Ausdrucksfragmenten in Schleifen - Nutzen Sie globale Variablen für den Fragmentzugriff; verstehen Sie die Einschränkung bei der Übergabe von Variablen im Schleifenbereich als Parameter
+* Überschreiben bearbeitbarer Felder in einem anpassbaren Fragment mithilfe `<fieldId>="<value>"` Syntax
+* Dynamisches Auflösen von Fragment-IDs zur Laufzeit basierend auf Profilattributen, Datensatzsuchen oder Kontextdaten
+* Unterbrechen der Vererbung durch Einfügen des Fragmentinhalts direkt in den Editor
+
+>[!TAB Glossar]
+
+* **Ausdrucksfragment**: Eine wiederverwendbare Ausdruckskomponente für Personalisierung, auf die über Kampagnen und Journey hinweg von der ID verwiesen wird. Änderungen am Fragment werden automatisch auf alle darauf verweisenden Inhalte übertragen. *(produktspezifisch)*
+* **Implizite Variablen**: Variablen, die die Fragmentfunktionalität erweitern - Eingabevariablen (deklariert im Kampagnen-/Journey-Inhalt, genutzt innerhalb des Fragments) und Ausgabevariablen (deklariert innerhalb des Fragments, verfügbar im umgebenden Nachrichteninhalt). *(produktspezifisch)*
+* **Eingabevariable**: Eine Variable, die außerhalb des Fragments (im Kampagnen- oder Journey-Inhalt) deklariert wurde und auf die das Fragment intern verweisen und sie verwenden kann.
+* **Ausgabevariable**: Eine innerhalb eines Fragments deklarierte oder berechnete Variable, die für die Verwendung im umgebenden Nachrichteninhalt verfügbar wird, nachdem das Fragment aufgerufen wurde.
+* **Bearbeitbare Felder**: Fragmentvariablen, die bereitgestellt werden, damit der einfügende Benutzer Standardwerte mithilfe `<fieldId>="<value>"` Syntax überschreiben kann, ohne die Fragmentquelle zu bearbeiten. *(produktspezifisch)*
+* **Dynamische Fragmentauflösung**: Die Möglichkeit, zur Laufzeit eine Fragment-ID aufzulösen (basierend auf Profilattributen, Datensatzsuchen oder Kontextdaten), anstatt zur Entwurfszeit eine statische Fragment-ID einzubetten. *(produktspezifisch)*
+* **Vererbung unterbrechen**: Mit „Fragment einfügen“ im Kontextmenü wird der Inhalt des Fragments als eigenständiges Element in den Editor kopiert, das nicht mehr mit dem ursprünglichen Fragment synchronisiert wird. *(produktspezifisch)*
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Ausdrucksfragment — Varianten: Fragment, Ausdrucksfragment
+* **Synonyme:** „fragment ID“ = die Kennung, die verwendet wird, um das Fragment in Ausdrücken zu referenzieren
+* **Nicht verwechseln:** Einfügen eines Fragments nach ID (referenziert; Änderungen werden automatisch auf alle Inhalte übertragen) ≠ Unterbrechen der Vererbung/Einfügen des Fragments (Inhalt in den Editor kopiert; eigenständiges Element, nicht mehr mit Original verknüpft)
+* **Verwechseln Sie nicht** Eingabevariablen (deklariert außerhalb des Fragments, konsumiert innerhalb) ≠ Ausgabevariablen (deklariert innerhalb des Fragments, konsumiert außerhalb im umgebenden Nachrichteninhalt)
+* **Nicht verwechseln:** Entwurfsfragment (kann zum Inhalt hinzugefügt werden, blockiert jedoch die Journey-/Kampagnenveröffentlichung bis zur Genehmigung) ≠ Live-Fragment (vollständig veröffentlicht; sicher für aktive Journey und Kampagnen)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Pro Versand können maximal 30 Fragmente hinzugefügt werden.
+* Fragmente können nur bis zu einer Ebene verschachtelt werden.
+* Eine Journey oder Kampagne kann nicht aktiviert oder veröffentlicht werden, wenn sie ein Fragment mit dem Status Entwurf enthält. Entwurfsfragmente müssen vor der Veröffentlichung genehmigt werden.
+* Ausdrucksfragmente können keine Variablen mit Schleifenumfang (das aktuelle `{{#each}}` Iterationselement) als Parameter empfangen. Dies ist eine bekannte Einschränkung. Verwenden Sie globale Variablen oder Inline-Logik als Problemumgehung.
+* Wenn ein Fragment, das mehrere Zeilenumbrüche enthält, in SMS- oder Push-Inhalten verwendet wird, werden Zeilenumbrüche beibehalten. Testen Sie den Inhalt vor dem Senden.
+
+>[!TAB FAQs]
+
+**F: Wie viele Fragmente können in einem Versand hinzugefügt werden?**
+
+Bis zu 30 Fragmente.
+
+**F: Können Fragmente in anderen Fragmenten verschachtelt werden?**
+
+Ja, aber nur bis zu einer Verschachtelungsebene.
+
+**F: Was passiert, wenn ich ein Entwurfsfragment in einer Journey oder Kampagne verwende?**
+
+Sie können ein Entwurfsfragment zu Inhalten hinzufügen, die Journey oder Kampagne jedoch erst aktivieren oder veröffentlichen, wenn das Fragment genehmigt wurde und sich sein Status in Live ändert.
+
+**F: Kann ein Ausdrucksfragment das aktuelle Schleifenelement (z. B. `product` in `{{#each}}`) als Parameter empfangen?**
+
+Nein. Ausdrucksfragmente können keine Variablen im Schleifenbereich als Parameter empfangen. Verwenden Sie globale Variablen, die außerhalb der Schleife deklariert wurden (auf die das Fragment zugreifen kann), oder schließen Sie die Personalisierungslogik direkt in die Schleife ein, anstatt ein Fragment zu verwenden.
+
+**F: Was bedeutet eine Unterbrechung der Vererbung und wann sollte ich sie verwenden?**
+
+Eine Unterbrechung der Vererbung bedeutet, dass „Fragment einfügen“ aus dem Kontextmenü verwendet wird, um den Inhalt des Fragments direkt in den Editor zu kopieren. Der eingefügte Inhalt wird zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment synchronisiert wird - verwenden Sie diese Option, wenn Sie den Inhalt über das hinaus anpassen müssen, was bearbeitbare Felder zulassen, da Sie wissen, dass zukünftige Änderungen am ursprünglichen Fragment nicht an diese Kopie weitergegeben werden.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 64745ff0 -->
 

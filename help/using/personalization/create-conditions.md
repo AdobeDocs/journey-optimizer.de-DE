@@ -9,14 +9,12 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 89%
+source-wordcount: 1255
+ht-degree: 48%
 
 ---
 
@@ -110,3 +108,74 @@ Eine bedingte Regel kann jederzeit mithilfe der Schaltfläche mit den Auslassung
 ![](assets/conditions-open.png)
 
 In der Bibliothek gespeicherte bedingte Regeln können nicht geändert werden. Sie können sie jedoch verwenden, um neue Regeln zu erstellen. Öffnen Sie dazu die bedingte Regel, nehmen Sie die gewünschten Änderungen vor und speichern Sie sie dann in der Bibliothek. [Erfahren Sie, wie Sie eine Bedingung in der Bibliothek speichern](#save)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie aus Profilattributen, kontextuellen Ereignissen und Zielgruppen im Personalisierungseditor bedingte Regeln erstellen und diese zur Wiederverwendung im Nachrichteninhalt in der Bibliothek speichern können.
+
+**Intents**
+
+* Zugreifen auf den Builder für bedingte Regeln über den Personalisierungseditor oder die E-Mail-Designer
+* Erstellen Sie eine bedingte Regel durch Kombinieren von Profilattributen, Zielgruppenzugehörigkeit und kontextuellen Journey-Feldern
+* Hinzufügen einer bedingten Regel zu einer Nachricht, um dynamische Inhalte zu erstellen
+* Speichern einer bedingten Regel in der Bedingungsbibliothek zur Wiederverwendung in der gesamten Organisation
+* Bearbeiten oder Löschen einer gespeicherten bedingten Regel
+
+>[!TAB Glossar]
+
+* **Bedingte Regel** Ein Regelsatz, der basierend auf Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextuellen Ereignissen definiert, welche Inhalte in Nachrichten angezeigt werden sollen. *(produktspezifisch)*
+* **Bedingungsbibliothek**: Ein freigegebenes Repository innerhalb einer Organisation, in dem gespeicherte bedingte Regeln gespeichert und für alle Benutzer zugänglich sind. *(produktspezifisch)*
+* **Dynamischer Inhalt**: Nachrichteninhalt, dessen Anzeige durch bedingte Regeln geregelt wird. *(produktspezifisch)*
+* **Kontextuelle Felder**: Journey-spezifische Felder, die im Regel-Builder verfügbar sind, wenn eine Nachricht auf einer Journey verwendet wird. Regeln, die diese Felder verwenden, können nicht in der Bibliothek gespeichert werden.
+* **Individuelle XDM-Profile**: Profilattribute, die mit dem in Adobe Experience Platform definierten Schema des Experience-Datenmodells (XDM) verknüpft sind und als Regelkriterien verfügbar sind.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Bedingte Regel - Varianten: Bedingung, Bedingungen, Bedingte Inhaltsregel
+* **Synonyme:** „Bedingte Regel“ = „Bedingung“ (wie in der Benutzeroberfläche gekennzeichnet)
+* **Nicht verwechseln:** Registerkarte „Profil“ (enthält sowohl Zielgruppenattribute als auch Unterabschnitte für XDM-Kontaktprofile) ≠ Registerkarte „Zielgruppen“ (listet alle Zielgruppen auf, die aus Segmentdefinitionen im Segmentierungs-Service von AEP generiert wurden)
+* **Verwechseln Sie nicht** „Bedingung speichern“ (Speichern einer Regel in der freigegebenen Bibliothek) ≠ „Bedingung erstellen“ (Erstellen einer neuen Regel im Editor)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Bedingte Regeln, die kontextuelle Journey-Attribute nutzen, können nicht in der Bedingungsbibliothek gespeichert werden.
+* Nur Benutzer mit der Berechtigung **Bibliothekselemente verwalten** können bedingte Regeln in der Bibliothek speichern oder löschen.
+* Gespeicherte Bedingungen werden freigegeben und stehen allen Benutzenden in der Organisation zur Verfügung.
+* In der Bibliothek gespeicherte bedingte Regeln können nicht direkt geändert werden. Öffnen Sie die Regel, nehmen Sie die gewünschten Änderungen vor und speichern Sie sie in der Bibliothek.
+* Variantennamen dürfen nur alphanumerische Zeichen (A-Z, a-z, 0-9) verwenden. Sonderzeichen wie `<`, `>`, `=`, `{` `}` können dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
+
+>[!TAB FAQs]
+
+**F: Welche Kriterien kann ich verwenden, um eine bedingte Regel zu erstellen?**
+
+Profilattribute, Zielgruppenzugehörigkeit und kontextuelle Journey-Felder (wenn die Nachricht auf einer Journey verwendet wird).
+
+**F: Kann ich eine bedingte Regel speichern, die kontextuelle Journey-Attribute verwendet?**
+
+Nein. Bedingte Regeln, die kontextuelle Journey-Attribute nutzen, können nicht in der Bedingungsbibliothek gespeichert werden.
+
+**F: Wer kann bedingte Regeln in der Bibliothek speichern oder löschen?**
+
+Nur Benutzer mit der Berechtigung **Bibliothekselemente verwalten** können bedingte Regeln speichern oder löschen.
+
+**F: Kann ich eine bedingte Regel ändern, die bereits in der Bibliothek gespeichert ist?**
+
+In der Bibliothek gespeicherte bedingte Regeln können nicht direkt geändert werden. Sie können eine gespeicherte Regel öffnen, die gewünschten Änderungen vornehmen und sie in der Bibliothek speichern.
+
+**F: Gibt es Einschränkungen beim Benennen bedingter Inhalte?**
+
+Ja. Variantennamen dürfen nur alphanumerische Zeichen enthalten (A-Z, a-z, 0-9). Sonderzeichen wie `<`, `>`, `=`, `{` `}` können dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f375658d -->
