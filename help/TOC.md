@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -449,6 +449,18 @@ ht-degree: 97%
       + Konfigurieren des Kanals für Live-Aktivitäten {#configure}
          + [Konfigurieren einer Live-Aktivität in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
          + [Konfigurieren der SDK-Integration für Live-Aktivitäten](using/mobile-live/mobile-live-configuration-sdk.md)
+   + Benutzerdefinierte Kanäle {#custom-channel}
+      + {hide-from-toc}[Erste Schritte mit benutzerdefinierten Kanälen](using/custom-channel/get-started-custom-channel.md)
+      + Konfigurieren benutzerdefinierter Kanäle {#configure-custom-channel}
+         + {hide-from-toc}[Benutzerdefinierte Kanäle einrichten](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[Erstellen eines benutzerdefinierten Kanals](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[API-Anmeldeinformationen verwalten](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[Delegieren einer Subdomain](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[Erstellen einer Kanalkonfiguration](using/custom-channel/custom-channel-configuration.md)
+      + Erstellen benutzerdefinierter Kanalerlebnisse {#create-custom-channel-experiences}
+         + {hide-from-toc}[Erstellen eines benutzerdefinierten Kanalerlebnisses](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[Testen des benutzerdefinierten Kanalerlebnisses](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[Überwachen benutzerdefinierter Kanäle](using/custom-channel/monitor-custom-channel.md)
 + Content-Management {#content-management}
    + [Content-Management](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalisierung {#personalization}
