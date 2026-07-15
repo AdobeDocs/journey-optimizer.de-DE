@@ -44,7 +44,7 @@ Content here.
 - Registerkartennamen sind in Großbuchstaben geschrieben, kurz (1-3 Wörter)
 - Leerzeile vor `>[!BEGINTABS]` und nach `>[!ENDTABS]`
 
----
+&#x200B;---
 
 ## Workflow
 
@@ -96,7 +96,7 @@ Lesen Sie vor dem Anhängen den generierten Abschnitt erneut nach Anspruch. Dies
 
 **Korrekturregel:** Wenn eine Überprüfung fehlschlägt, korrigieren Sie den Inhalt **vor** Anfügen. Protokollieren Sie jede Korrektur im Bericht Schritt 5.
 
----
+&#x200B;---
 
 ### Schritt 4 — Abschnitt anhängen
 
@@ -114,7 +114,7 @@ Mit diesem Kommentar können zukünftige Tools und Writer erkennen, wann der Sei
 - Übersprungene Dateien + Grund (hat bereits einen Abschnitt / leere Seite / Index)
 - Alle während Schritt 2 ausgelösten Validierungswarnungen
 
----
+&#x200B;---
 
 ## Regeln zur Inhaltserstellung
 
@@ -226,10 +226,10 @@ Antworten müssen dieselben Verb- und Substantivoptionen wie der Seitentext verw
 
 - **nicht** den Hauptteilinhalt neu schreiben oder zusammenfassen (er befindet sich bereits auf der Seite)
 - **keine** schrittweisen Anweisungen enthalten
-- Erfinden **** Inhalte, die von der Seite nicht unterstützt werden
+- Erfinden **&#x200B;**&#x200B;Inhalte, die von der Seite nicht unterstützt werden
 - Verwenden **nicht** folgenden ungenauen Begriffe, es sei denn, sie erscheinen wörtlich im Seitentext: „synthetisch“, „falsche Daten“, „ohne echte Daten“, „Zurücksetzen“, „Zurücksetzen“ (bei der Beschreibung von Produktzustandsübergängen)
 
----
+&#x200B;---
 
 ## Checkliste für die Validierung nach der Generierung
 
@@ -252,7 +252,7 @@ Führen Sie diese Checkliste für jeden Abschnitt aus, bevor Sie anhängen. Mark
 
 Wenn eine Überprüfung fehlschlägt, korrigieren Sie den Abschnitt, bevor Sie anhängen. Protokollieren Sie die Korrektur im Bericht zu Schritt 4.
 
----
+&#x200B;---
 
 ## Verantwortung synchronisieren
 
@@ -265,7 +265,7 @@ Der Schnellverweisabschnitt ist eine Ableitung des Seitentextes zu einem bestimm
 
 Der Synchronisationskommentar, der nach dem Abschnitt (`<!-- ai-section-version -->`) angehängt wird, ist das Signal: Wenn sich der Dateiinhalt vor dem Abschnitt geändert hat, seit dieser Hash geschrieben wurde, ist der Abschnitt ein Kandidat für eine Überprüfung.
 
----
+&#x200B;---
 
 ## Vollständige Vorlage
 
