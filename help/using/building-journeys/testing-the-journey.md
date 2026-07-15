@@ -11,27 +11,16 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 54%
+source-wordcount: 3541
+ht-degree: 47%
 
 ---
 
@@ -82,12 +71,13 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 * **Flexible Reaktivierung**: Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * **Automatische Deaktivierung** - Journey, die im Testmodus über eine **Woche lang inaktiv bleiben** beenden den Testmodus automatisch und kehren zum Entwurfsstatus zurück. Es geht kein Journey-Inhalt verloren; nur die Testmodussitzung endet.
 * **Bearbeiten und Veröffentlichen**: Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
+* **Nachrichtenversand** - Im Testmodus werden Nachrichten an die tatsächlichen Posteingänge von Testprofilen gesendet, wobei dieselbe Versand-Pipeline wie die Produktion verwendet wird. Dies unterscheidet sich vom [Journey-Probelauf](journey-dry-run.md) der die Journey-Ausführung simuliert, ohne Nachrichten zu senden oder echte Kanalaktionen auszulösen. Keine der Methoden repliziert jeden Aspekt eines Live-Versands. Verwenden Sie eine Staging-Umgebung für die vollständige End-to-End-Validierung.
 
 ### Ausführung
 
-* **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
+* **Aufspaltungsverhalten** - Wenn die Journey eine Aufspaltung erreicht, wird die obere Verzweigung immer im Testmodus ausgewählt. Dies spiegelt nicht den statistisch ausgewählten Pfad während der Live-Ausführung wider. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
 * **Ereigniszeitplanung** - Wenn die Journey mehrere Ereignisse enthält, jedes Ereignis der Reihe nach mit einem Trigger versehen. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen. Das Profil wird dann an einen Zeitüberschreitungspfad gesendet. Bestätigen Sie immer, dass alle Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload im definierten Fenster senden.
-* **Aktives Datumsfenster** - Stellen Sie sicher, dass das konfigurierte Fenster [Start- und Enddatum/-](journey-properties.md#dates)) die aktuelle Zeit enthält, wenn Sie den Testmodus starten. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Aktives Datumsfenster** - Stellen Sie sicher, dass das konfigurierte Fenster [Start- und Enddatum/-](journey-properties.md#dates)) die aktuelle Zeit enthält, wenn Sie den Testmodus starten. Andernfalls werden ausgelöste Testereignisse mit der `DISPATCHER DISCARD #16 — unqualified on journey version enablements` der Protokollmeldung im Hintergrund verworfen. Um dies während des Tests zu umgehen, legen Sie das Journey-Startdatum vorübergehend auf einen Zeitpunkt vor dem aktuellen Zeitpunkt fest und stellen Sie es dann vor der Veröffentlichung wieder her. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
 * **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
 * **Freigegebene Infrastruktur**: Der Testmodus wird auf derselben Infrastruktur ausgeführt wie die Produktion. Bei hohem Traffic-Aufkommen kann es zu Verzögerungen beim E-Mail-Versand oder bei der Ereignisverarbeitung kommen. Prüfen Sie in diesem Fall die Plattform-Traffic-Dashboards oder wiederholen Sie Ihre Tests außerhalb der Spitzenzeiten.
@@ -149,6 +139,17 @@ So validieren Sie das Journey End-to-End:
 >* Die eingegebene Profilkennung wird in [!DNL Adobe Experience Platform] als Testprofil gekennzeichnet.
 >* Das konfigurierte Start- und Enddatum der Journey enthält die aktuelle Zeit. Außerhalb dieses Fensters ausgelöste Ereignisse werden im Hintergrund verworfen. [Weitere Informationen](troubleshooting-execution.md#troubleshooting-test-transitions).
 
+## Fehlerbehebung im Testmodus {#troubleshoot-test-mode}
+
+Verwenden Sie diese Tabelle, um häufige Fehler im Testmodus selbst zu diagnostizieren, bevor Sie ein Support-Ticket öffnen.
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+| --- | --- | --- |
+| Das Ereignis wurde erfolgreich gesendet, das Profil wird jedoch nie im Journey-Protokoll angezeigt | Namespace-Übereinstimmung in der Profilkennung - Der Namespace-Wert stimmt nicht mit dem im Ereignisschema definierten Namespace überein | Überprüfen Sie das Kennungsformat: `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` muss genau mit dem Ereignisschema übereinstimmen (Groß-/Kleinschreibung beachten). Siehe [Voraussetzungen](#trigger-events-prerequisites). |
+| Akzeptierte Ereignisse (200 Antworten), Journey-Trigger jedoch nicht; Protokoll `DISPATCHER DISCARD #16 — unqualified on journey version enablements` angezeigt | Das Startdatum des Journey wird in der Zukunft liegen. Testereignisse werden außerhalb des aktuellen Datumsfensters im Hintergrund verworfen | Stellen Sie das Startdatum der Journey vorübergehend auf einen Zeitpunkt vor der aktuellen Zeit ein. Stellen Sie sie vor der Veröffentlichung wieder her. Siehe [Journey-Daten](journey-properties.md#dates). |
+| Zielgruppe lesen Journey zeigt ein Batch-Segmentbewertungsprotokoll, aber keine Profileinträge an | Die Batch-Segmentauswertung wird getrennt von der jeweiligen Profileingabe protokolliert. Im Batch-Protokoll wird nicht bestätigt, dass Profile auf die Journey gelangt sind | Warten Sie, bis das Stapelverarbeitungsfenster abgeschlossen ist. Testen Sie für Echtzeit-Protokoll-Feedback mit einer unitären Ereignis-Journey. |
+| Testmodus kann nicht aktiviert werden; Fehler `ERR_MODEL_RULES_16` | Das Ereignis enthält keinen Identity-Namespace, der erforderlich ist, wenn die Journey eine Kanalaktion verwendet | Fügen Sie [ Ereigniskonfiguration einen ](../audience/get-started-identity.md)Identity-Namespace“ hinzu. |
+
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +165,12 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Erei
 Als Voraussetzung müssen Sie wissen, welche Profile in [!DNL Adobe Experience Platform] als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu.
 
 Das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
+
+Der **Profilkennung**-Wert muss exakt mit der im Ereignisschema gespeicherten Identität übereinstimmen. Das Format, das zum Verweisen auf eine Identität in der Ereignis-Payload verwendet wird, ist:
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+Ersetzen Sie `<NamespaceName>` durch den Namespace, der genau wie in Ihrem Ereignisschema definiert ist (z. B. `Email` oder `Phone`). Eine nicht übereinstimmende Namespaces verursacht eine **stille Ablage**: Das Ereignis wird akzeptiert und gibt eine Erfolgsantwort zurück, aber das Profil gelangt nie auf die Journey und es wird kein Fehler in der Benutzeroberfläche angezeigt. Wenn ein Profil nach dem Auslösen eines Ereignisses nicht in den Testprotokollen angezeigt wird, stellen Sie sicher, dass der Namespace in Ihrer **Profilkennung** mit dem Namespace des Ereignisschemas genau übereinstimmt.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -237,6 +244,10 @@ Die Anzahl der Kontakte (technisch als Instanzen bezeichnet), die sich derzeit a
 * _enrichedData_: die Daten, die die Journey abgerufen hat, falls sie Datenquellen verwendet hat.
 * _transitionHistory_: die Schritte, denen der betreffende Kontakt folgte. Bei Ereignissen wird die Payload angezeigt.
 * _actionExecutionErrors_: Informationen zu den aufgetretenen Fehlern.
+
+>[!NOTE]
+>
+>Das Testprotokoll zeigt nur Einträge für **unitäre Profileintrittsereignisse** an. Wenn Sie eine Journey mit dem Schritt „Zielgruppe lesen“ testen, ist das Batch-Segmentauswertungsprotokoll vom jeweiligen Profileintragsprotokoll getrennt. Ein ausgewertetes Batch-Segment bestätigt nicht, dass einzelne Profile die Journey-Schritte durchlaufen haben. Wenn nach dem Auslösen einer „Zielgruppe lesen“-Journey keine Profileinträge angezeigt werden, warten Sie, bis das Stapelverarbeitungsfenster abgeschlossen ist, bevor Sie Schlussfolgerungen ziehen.
 
 Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
 

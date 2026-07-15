@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 82%
+source-wordcount: 352
+ht-degree: 72%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 82%
 >abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten überprüfen, wie diese angezeigt werden."
 
 Testprofile sind zusätzliche Empfangende, die nicht den definierten Targeting-Kriterien entsprechen. [Informationen zum Erstellen von Testprofilen](../audience/creating-test-profiles.md)
+
+Stellen Sie vor der Auswahl von Testprofilen sicher, dass der Identity-Namespace, den Sie verwenden möchten, mit dem Namespace übereinstimmt, unter dem Ihre Testprofile in Adobe Experience Platform gespeichert sind (z. B **„E-Mail** oder **Telefon**). Eine Diskrepanz verhindert, dass Testprofile im Suchfeld korrekt aufgelöst werden.
 
 Bevor Sie Testprofile zum Testen Ihres Inhalts verwenden, müssen Sie sie zunächst auswählen. Gehen Sie dazu wie folgt vor:
 
