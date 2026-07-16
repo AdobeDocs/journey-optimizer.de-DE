@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 9%
 
 ---
 
@@ -64,15 +64,27 @@ Herausforderungen im Zusammenhang mit der Treue ergeben sich aus Adobe Experienc
 
 Wenden Sie sich an Ihren Adobe-Administrator, um das Journey Optimizer-Programm einzurichten, oder konfigurieren Sie die Belohnungserfüllung und Ereigniszuordnung im Menü **[!UICONTROL Treueprogramm-Admin]**. [Erfahren Sie, wie Sie Herausforderungen im Zusammenhang mit der Treue konfigurieren](loyalty-admin.md). Informationen zu REST-Endpunkten und zur Authentifizierung finden Sie in der [API-Referenz für Treueprogramm-Herausforderungen](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
+## Connectoren für Treue über Quellen {#loyalty-connectors-sources}
+
+Wenn Ihre Treueprogramm-Daten in einer externen Belohnungsplattform verwaltet werden, können Sie diese Daten mithilfe von **Sources**-Connectoren in Adobe Experience Platform aufnehmen und dann in den Herausforderungen im Zusammenhang mit dem Treueprogramm verwenden.
+
+Die in der Dokumentation zu Journey Optimizer aufgelisteten Connectoren für Treue und Prämien umfassen Folgendes:
+
+* **talon.one**
+* **Kapillar**
+* **Kobie**
+
+Informationen zum Connector-Onboarding und zur End-to-End-Einrichtung finden Sie unter [Erste Schritte mit Quell-Connectoren](../start/get-started-sources.md) und im [Experience Platform-Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"}.
+
 ## Adobe Experience Platform-Daten {#aep-data}
 
 ### Profilattribute {#profile-attributes}
 
-Herausforderungen für Zielgruppen, Personalisierung und Reporting: Verwenden Sie Profile in der **[!DNL XDM Individual Profile]**. Richten Sie die Identität [Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} die Sie für Herausforderungen im Zusammenhang mit der Treue verwenden, daran aus, wie Mitglieder in Ihren Profildaten identifiziert werden, und richten Sie sie an dem Namespace aus **[!UICONTROL der im Menü**&#x200B;[!UICONTROL &#x200B; Treueprogramm-Admin &#x200B;]&#x200B;**ausgewählt]**.
+Herausforderungen für Zielgruppen, Personalisierung und Reporting: Verwenden Sie Profile in der **[!DNL XDM Individual Profile]**. Richten Sie die Identität [Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} die Sie für Herausforderungen im Zusammenhang mit der Treue verwenden, daran aus, wie Mitglieder in Ihren Profildaten identifiziert werden, und richten Sie sie an dem Namespace aus **[!UICONTROL der im Menü**[!UICONTROL  Treueprogramm-Admin ]**ausgewählt]**.
 
-Verwenden Sie für Standardattribute vom Profil (Punkte, Ebene, Programm, Status und zugehörige Felder) die Schemafeldgruppe **[Treuedetails](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** von Experience Platform. Diese Feldergruppe definiert das `loyalty` und seine Eigenschaften (z. B. `points`, `tier`, `program` und `status`).
+Verwenden Sie für Standardattribute vom Profil (Punkte, Ebene, Programm, Status und zugehörige Felder) die Schemafeldgruppe **[Treuedetails](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** von Experience Platform. Diese Feldergruppe definiert das `loyalty` und seine Eigenschaften (z. B. `points`, `tier`, `program` und `status`).
 
-➡️ [Schemafeldgruppe Treuedetails](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Schemafeldgruppe Treuedetails](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Erlebnisereignisse {#experience-events}
 
