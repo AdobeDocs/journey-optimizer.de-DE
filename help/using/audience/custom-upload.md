@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 75%
+source-wordcount: 183
+ht-degree: 58%
 
 ---
 
@@ -40,13 +40,13 @@ Das Adobe Experience Platform-Zielgruppenportal ermöglicht den Import einer Zie
 
 Geben Sie während des benutzerdefinierten Upload-Prozesses das CSV-Attribut, das als Identität verwendet werden soll, sowie die Profilidentität an, der es zugeordnet ist. Dadurch wird eine Verknüpfung zwischen den Zielgruppendaten und dem Profil hergestellt. Wenn die CSV-Datei einen Identitätswert enthält, der nicht im Profil gefunden wird, wird ein neues Profil mit diesem Identitätswert erstellt.
 
->[!NOTE]
->
->Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur beim ersten Intervall abgerufen, da diese Zielgruppen fest sind.
-
 ![](assets/import-audience.png)
 
 Detaillierte Informationen zum Importieren von Zielgruppen finden Sie in der Dokumentation zum [-Service in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
+
+>[!NOTE]
+>
+>Für benutzerdefinierte Upload-Zielgruppen (CSV-Upload) und andere externe Zielgruppen wird **[!UICONTROL Inkrementelles Lesen]** derzeit nicht unterstützt. Bei jeder Wiederholung wird die **gesamte Zielgruppe** abgerufen, unabhängig von der Einstellung Inkrementelles Lesen .
 
 Mehr zum Hochladen von Zielgruppen im CSV-Format erfahren Sie in diesem Video:
 

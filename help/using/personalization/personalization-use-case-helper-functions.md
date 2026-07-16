@@ -23,10 +23,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 81%
+source-wordcount: 1712
+ht-degree: 61%
 
 ---
 
@@ -367,3 +367,65 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 Erfahren Sie, wie Sie Hilfsfunktionen verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Diese Seite führt Sie durch einen Anwendungsfall für den Warenkorbabbruch mithilfe von drei Hilfsfunktionen - `upperCase`, `each` und `if` -, um den Vornamen eines Kunden in Großbuchstaben anzuzeigen, Warenkorbartikel aufzulisten und eine produktspezifische Versandnotiz bedingt einzufügen.
+
+**Intents**
+
+* Erstellen Sie ein Journey-Ereignis, dessen Schema das `productListItems`-Array enthält.
+* Vornamen eines Kunden mithilfe von `{%= upperCase(profile.person.name.firstName) %}` in Großbuchstaben einfügen
+* Auflisten von Warenkorbelementen durch Iteration über `context.journey.events.event_ID.productListItems` mit `{{#each}}`
+* Anzeigen einer produktspezifischen Anmerkung unter Verwendung von `{%#if context.journey.events.\`event_ID\`.productListItems.name = „product_name“ %&rbrace;&grave;
+* Testen Sie die Journey im Testmodus mithilfe eines Testprofils mit Ereignis-Payload und veröffentlichen Sie dann
+
+>[!TAB Glossar]
+
+* **`upperCase`**: Eine PQL-Zeichenfolgenfunktion, die eine Zeichenfolge in Großbuchstaben konvertiert; aufgerufen mit `{%= upperCase(string) %}`. *(produktspezifisch)*
+* **`each`helper**: Ein Handlebars-Block-Helper (`{{#each array as |alias|}} ... {{/each}}`), der über ein Array wie `productListItems` iteriert. *(produktspezifisch)*
+* **`if`helper**: Ein bedingter Block-Helper (`{%#if condition%} ... {%else%} ... {%/if%}`), der Inhalte nur dann rendert, wenn die angegebene Bedingung erfüllt ist.
+* **`productListItems`**: Ein standardmäßiges XDM-Array, das den Inhalt des Warenkorbs mit Feldern wie `name`, `quantity` und `priceTotal` darstellt. *(produktspezifisch)*
+* **Testmodus**: Eine Journey-Funktion, mit der Testnachrichten an Testprofiladressen gesendet werden können, um das Journey- und Nachrichtenverhalten vor der Veröffentlichung zu überprüfen. *(produktspezifisch)*
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:E-Mail zum** Warenkorbabbruch — Varianten: Anwendungsfall zum Abbruch des Warenkorbs
+* **Nicht verwechseln:** `context.journey.events.event_ID.productListItems` (Array aus Ereignisquellen, Zugriff über kontextuelle Attribute) ≠ `profile.*` (Profilattribute, immer verfügbar)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Kontextuelle Attribute (einschließlich Journey-Ereignisdaten) sind im Personalisierungseditor erst verfügbar, nachdem die Nachricht in einer Journey platziert wurde, die das entsprechende Ereignis enthält.
+* Der Testmodus funktioniert nur mit Testprofilen.
+
+>[!TAB FAQs]
+
+**F: Welche Hilfsfunktionen werden in diesem Anwendungsfall verwendet?**
+
+Drittens: `upperCase` (rendert den Vornamen in Großbuchstaben), `each` (durchläuft das Warenkorbartikel-Array) und `if` (zeigt bedingt eine produktspezifische Versandnotiz an).
+
+**F: Woher stammen die Warenkorbartikeldaten im Personalisierungsausdruck?**
+
+Vom `productListItems`-Array des Journey-Ereignisses, Zugriff über kontextuelle Attribute unter `context.journey.events.event_ID.productListItems`.
+
+**F: Können kontextuelle Attribute verwendet werden, bevor die Nachricht auf einer Journey abgelegt wird?**
+
+Nein. Kontextuelle Attribute stehen im Personalisierungseditor erst zur Verfügung, nachdem die Nachricht auf einer Journey platziert wurde, die das entsprechende Ereignis enthält.
+
+**F: Wie kann ich die E-Mail mit Warenkorbdaten testen?**
+
+Aktivieren Sie den Umschalter **Test** auf der Journey, klicken Sie auf **Trigger eines Ereignisses** und geben Sie die Eingabewerte im Fenster Ereigniskonfiguration ein. Klicken Sie dann auf **Senden**. Die E-Mail wird an die Adresse des Testprofils gesendet.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->

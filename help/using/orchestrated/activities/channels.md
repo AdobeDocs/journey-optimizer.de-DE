@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
+source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: 1877
-ht-degree: 50%
+source-wordcount: 1972
+ht-degree: 48%
 
 ---
 
@@ -69,13 +69,19 @@ UNUSED IDs in BJ
 >title="Briefpost-Aktivität"
 >abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Kampagnen über Kanäle hinweg - E-Mail, SMS, Push-Benachrichtigungen und Briefpost - für Marketing- und Transaktionsnachrichten. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_custom"
+>title="Benutzerdefinierte Kanalaktivität"
+>abstract="Mit der Aktivität Benutzerdefinierter Kanal können Sie Nachrichten über Drittanbietersysteme oder benutzerdefinierte Integrationen innerhalb Ihrer orchestrierten Kampagne senden. Sie ermöglicht den Trigger von Versandprozessen, wie z. B. Partnerplattformen oder proprietären Messaging-Tools, indem Zielgruppendaten in ein externes System exportiert werden. Sie können benutzerdefinierte Kanalaktivitäten mit anderen Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um Cross-Channel-Kampagnen zu erstellen, die Kunden über native und benutzerdefinierte Touchpoints hinweg ansprechen."
+
+[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Kampagnen über verschiedene Kanäle hinweg - E-Mail, SMS, Push-Benachrichtigungen, Briefpost und benutzerdefinierte Kampagnen - für Marketing- und Transaktionsnachrichten. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
 
 Beispiel:
 
 * Senden Sie eine Begrüßungsserie per E-Mail, SMS, Push und Briefpost.
 * Senden Sie nach einem Kauf eine Folge-E-Mail.
 * Senden Sie personalisierte Geburtstagsgrüße per SMS.
+* Trigger einer Nachricht über einen benutzerdefinierten Kanal, wenn ein Kunde seinen Warenkorb verlässt.
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
 
@@ -180,7 +186,7 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Erstellen einer E-Mail</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>SMS erstellen</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Direkt-Mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Erstellen einer Briefpost</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Direkt-Mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Erstellen einer Briefpost</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="Benutzerdefinierter Kanal" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Erstellen einer benutzerdefinierten Aktion</strong></a></td>
 </tr></table>
 
 ### Hinzufügen von Personalisierung {#add-personalization}
@@ -238,6 +244,22 @@ Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 >[!IMPORTANT]
 >
 >Bei der Festlegung einer Versandrate beträgt der maximale Zeitrahmen, für den eine Campaign-Audience ausgeführt werden kann, 12 Stunden. Wenn die Versandrate auf einen Wert eingestellt ist, der es nicht ermöglicht, dass die Nachricht innerhalb des 12-Stunden-Zeitraums an alle Zielgruppen gesendet wird, werden die verbleibenden Profile aus der Kampagne ausgeschlossen. Die Anzahl dieser ausgeschlossenen Profile wird im Kampagnenbericht angezeigt.
+
+<!--
+## Example: cross-channel campaign with a custom channel {#example-custom}
+
+The following example shows an Orchestrated campaign that combines native and custom channels to re-engage lapsed customers.
+
+The campaign targets customers who have not made a purchase in the last 90 days:
+
+1. A **Build audience** activity filters profiles with no purchase in the last 90 days.
+1. A **Split** activity divides the audience into two groups:
+   * **Group A** — customers with a known email address receive a re-engagement email with a personalized discount offer.
+   * **Group B** — customers without an email address, or those who did not open the email after 3 days, are routed to a **Custom channel** activity that triggers a message through a third-party messaging platform (for example, a WhatsApp Business provider or an in-house notification system).
+1. Both branches converge on a **Wait** activity, then a follow-up **SMS** is sent to all profiles who still have not converted.
+
+This pattern lets you extend your campaign reach beyond native channels and engage customers on the platforms they are most active on, without requiring a separate campaign workflow.
+-->
 
 ## Nächste Schritte {#next}
 

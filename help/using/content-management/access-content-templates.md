@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
-ht-degree: 64%
+source-wordcount: 1018
+ht-degree: 54%
 
 ---
 
@@ -108,13 +108,26 @@ Verwenden Sie zum einfachen Navigieren in Ihren Inhaltsvorlagen Ordner, um die I
 
 ## Bearbeiten und Löschen von Inhaltsvorlagen {#edit}
 
-* Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und nehmen Sie die gewünschten Änderungen vor. Sie können auch die Eigenschaften der Inhaltsvorlage bearbeiten, indem Sie auf die Schaltfläche „Bearbeiten“ neben dem Namen der Vorlage klicken.
+Über die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben jeder Vorlage können Sie auf die folgenden Tastaturbefehle und Aktionen zugreifen:
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL Details bearbeiten]** - Namen, Beschreibung und Tags der Vorlage bearbeiten.
+* **[!UICONTROL Inhalt simulieren]** - Vorschau und Testen des Vorlageninhalts.
+* **[!UICONTROL Löschen]** - Löschen der Vorlage.
 
-* Um eine Vorlage zu löschen, klicken Sie neben der gewünschten Vorlage auf die Schaltfläche **[!UICONTROL Weitere Aktionen]** und wählen Sie **[!UICONTROL Löschen]** aus.
+Für E-Mail-Vorlagen stehen die folgenden zusätzlichen Tastaturbefehle zur Verfügung:
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL Betreffzeile bearbeiten]** - Aktualisieren Sie die Betreffzeile der E-Mail schnell.
+* **[!UICONTROL E-Mail-Text bearbeiten]** - Öffnen Sie Email Designer, um den Vorlageninhalt zu ändern.
+* **[!UICONTROL Korrekturabzug anzeigen]** - Zeigen Sie einen Korrekturabzug der E-Mail-Vorlage an.
+* **[!UICONTROL Testversand durchführen]** - Testversand der Vorlage an bestimmte Empfänger durchführen.
+* **[!UICONTROL Spam-Bericht]** - Analysieren Sie die Vorlage anhand von Spam-Filtern.
+* **[!UICONTROL E-Mail rendern]** - Vorschau, wie die E-Mail über verschiedene E-Mail-Clients hinweg gerendert wird.
+
+![](assets/content-template-quick-launch.png)
+
+Um den vollständigen Inhalt einer Vorlage zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und nehmen Sie die gewünschten Änderungen vor. Sie können auch die Eigenschaften der Inhaltsvorlage bearbeiten, indem Sie auf die Schaltfläche „Bearbeiten“ neben dem Namen der Vorlage klicken.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >

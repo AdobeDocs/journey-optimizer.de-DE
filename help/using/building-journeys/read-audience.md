@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 50%
+source-wordcount: 5162
+ht-degree: 46%
 
 ---
 
@@ -236,6 +236,14 @@ Standardmäßig sind Journeys so konfiguriert, dass sie nur einmal ausgeführt w
 
 Für wiederkehrende Journeys stehen spezifische Optionen zur Verfügung, mit denen Sie den Eintritt der Profile in die Journey verwalten können. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu den einzelnen Optionen zu erhalten.
 
+>[!NOTE]
+>
+>**Verwendung von Zielgruppen-Momentaufnahmen**
+>
+>Bei jeder Ausführung des Typs „Zielgruppe lesen“ wird die Zielgruppenzugehörigkeit verwendet, die zum Zeitpunkt der Ausführung verfügbar ist. Bei Batch-Zielgruppen liest [!DNL Journey Optimizer] aus der neuesten verfügbaren Momentaufnahme der Batch-Zielgruppe. Die Zielgruppe wird beim Start des Journey nicht in Echtzeit neu berechnet.
+>
+>Bei wiederkehrenden Journey verwendet jedes Vorkommen den Schnappschuss, der für dieses Vorkommen verfügbar ist. Wenn die Journey vor der Ausführung auf die neueste Batch-Zielgruppenbewertung warten soll, aktivieren Sie **[!UICONTROL Trigger nach der Batch-Zielgruppenbewertung]**.
+
 ![Wiederholungsoptionen für „Zielgruppe lesen“: Inkrementelles Lesen, erzwungener Wiedereintritt, nach Batch auslösen](assets/read-audience-options.png)
 
 +++**[!UICONTROL Inkrementelles Lesen]**
@@ -253,7 +261,9 @@ So minimieren Sie das Risiko fehlender Profile:
 
 >[!CAUTION]
 >
->Wenn Sie eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#about-segments) auf Ihrem Journey ansprechen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option auf einer wiederkehrenden Journey aktiviert ist. Diese Zielgruppen sind unveränderlich.
+>Für [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) (CSV-Upload) und andere externe Zielgruppen (z. B. Federated Audience Komposition) wird **[!UICONTROL Inkrementelles Lesen]** derzeit nicht funktional unterstützt. Bei jeder Wiederholung wird die **gesamte Zielgruppe** verarbeitet, unabhängig von der Einstellung Inkrementelles Lesen .
+>
+>Zum Steuern wiederkehrender Einträge verwenden Sie [Erneuten Eintritt bei Wiederholung erzwingen](#schedule).
 
 +++
 
@@ -264,6 +274,30 @@ Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei d
 Wenn Sie beispielsweise eine Wartezeit von 2 Tagen auf einer täglich wiederkehrenden Journey haben, werden Profile bei Aktivierung dieser Option zur nächsten Journey-Ausführung verschoben. Dies geschieht am darauffolgenden Tag, unabhängig davon, ob sie sich in der Zielgruppe der nächsten Ausführung befinden oder nicht.
 
 Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Intervalle sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+
++++
+
++++**Wie [!UICONTROL Inkrementelles Lesen] und [!UICONTROL Erneuten Eintritt bei Wiederholung erzwingen] zusammenarbeiten**
+
+Diese beiden Optionen steuern verschiedene Teile der Journey-Ausführung:
+
+* **[!UICONTROL Inkrementelles Lesen]** steuert **welche Profile aus der Zielgruppe** die nächste wiederkehrende Ausführung ausgewählt werden.
+* **[!UICONTROL Erneuten Eintritt bei Wiederholung erzwingen]** steuert **was mit Profilen passiert, die noch auf der Journey aktiv sind** wenn der nächste wiederkehrende Durchlauf beginnt.
+
+Anhand der folgenden Tabelle können Sie das kombinierte Verhalten bei der nächsten Ausführung verstehen.
+
+| [!UICONTROL Inkrementelles Lesen] | [!UICONTROL Bei wiederholter Ausführung erneuten Eintritt erzwingen] | Verhalten bei der nächsten Ausführung |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| AUS | AUS | [!DNL Journey Optimizer] liest die gesamte Zielgruppe für diesen Durchgang. Profile, die noch auf der Journey aktiv sind, werden nicht automatisch zurückgesetzt. |
+| Am | AUS | [!DNL Journey Optimizer] werden nur Profile gelesen, die der Zielgruppe seit der letzten Ausführung hinzugefügt wurden. Profile, die noch auf der Journey aktiv sind, werden nicht automatisch zurückgesetzt. |
+| AUS | Am | [!DNL Journey Optimizer] entfernt aktive Teilnehmer aus der aktuellen Journey-Ausführung, bevor die nächste Ausführung gestartet wird, und liest dann die gesamte Audience erneut. Dadurch können Profile bei dem neuen Vorkommen neu beginnen. |
+| Am | Am | [!DNL Journey Optimizer] entfernt aktive Teilnehmer aus der aktuellen Journey-Ausführung, bevor die nächste Ausführung gestartet wird, und liest nur Profile, die der Zielgruppe seit der letzten Ausführung hinzugefügt wurden. Erzwungener Wiedereintritt setzt die aktive Journey-Teilnahme zurück, aber das inkrementelle Lesen schränkt die Auswahl weiterhin auf neu hinzugefügte Zielgruppenmitglieder ein. |
+
+Mit anderen Worten: **[!UICONTROL Erneuten Eintritt bei Wiederholung erzwingen] deaktiviert nicht [!UICONTROL Inkrementelles Lesen]**. Wenn beide Optionen aktiviert sind, werden Profile aus ihrer aktiven Journey-Instanz entfernt, bevor das nächste Vorkommen beginnt. Beim nächsten Vorkommen werden jedoch immer noch nur die Zielgruppenmitglieder ausgewählt, die seit der letzten Ausführung als neu betrachtet wurden.
+
+>[!IMPORTANT]
+>
+>Ein Profil, das durch **[!UICONTROL Erneuten Eintritt bei Wiederholung erzwingen]** entfernt wurde, wird für das **[!UICONTROL inkrementelle Lesen]** nicht automatisch als neues Mitglied der Zielgruppe behandelt. Die Zielgruppenauswahl hängt weiterhin davon ab, ob das Profil der Zielgruppe seit der letzten Ausführung neu hinzugefügt wurde.
 
 +++
 

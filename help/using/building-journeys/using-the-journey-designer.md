@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 67%
+source-wordcount: 2469
+ht-degree: 66%
 
 ---
 
@@ -86,6 +86,21 @@ Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, 
 Abhängig vom Status der Journey können Sie mithilfe der verfügbaren Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Testmethode]**, **[!UICONTROL Zugriff verwalten]**, **[!UICONTROL Warnhinweise]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![Schaltflächen für Journey-Aktionen: „Veröffentlichen“, „Duplizieren“, „Löschen“, „Testmodus“, „Zugriff verwalten“, „Warnhinweise“](assets/journey41.png)
+
+## Neue Journey-Benutzeroberfläche {#canvas-capabilities}
+
+Eine **neue Benutzeroberfläche** ist für die Journey-Arbeitsfläche verfügbar, die speziell für Ihre komplexesten Anwendungsfälle entwickelt wurde:
+
+* **Performance** - Verarbeitet große Journey mit vielen Schritten und Verzweigungen effizient.
+* **Automatisches Layout** - Organisiert automatisch Aktivitäten, um die Lesbarkeit zu verbessern.
+* **Geführtes Authoring** - Bietet ein strukturiertes Authoring-Erlebnis, mit dem Sie mühelos und effizient Journey erstellen können.
+
+![](assets/journey-new-canvas.png)
+
+Um zum neuen Erlebnis zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Neues Erlebnis]** auf der Journey-Arbeitsfläche. Nach dem Wechsel wird diese Einstellung auf Journey-Ebene gespeichert, sodass die Journey bei nachfolgenden Besuchen standardmäßig in der neuen -Version geöffnet wird. Klicken Sie auf die Schaltfläche **[!UICONTROL Altes Erlebnis]**, um es wiederherzustellen.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Starten der Journey {#start-your-journey}
 
@@ -167,12 +182,12 @@ Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder i
 Im Folgenden werden die Schritte zum Kopieren/Einfügen von Aktivitäten beschrieben:
 
 1. Öffnen Sie eine Journey.
-1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg/Befehl** drücken. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
+1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg-/Befehlstaste** gedrückt halten. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
    ![Auswählen mehrerer Aktivitäten in Journey zum Kopieren](assets/copy-paste1.png)
-1. Drücken Sie **Strg/Befehl + C**.
-Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das **Kopieren**-Symbol verwenden.
+1. Drücken Sie **Strg/Befehl+C**.
+Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das Symbol **Kopieren** verwenden.
    ![Symbol „Kopieren“ im Konfigurationsbereich für Aktivitäten](assets/copy-paste2.png)
-1. Drücken Sie auf einer beliebigen Journey **Strg/Befehl + V**, um die Aktivitäten einzufügen, ohne sie mit einem bestehenden Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge platziert. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
+1. Drücken Sie in einer beliebigen Journey die **Strg-/Befehlstaste + V**, um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl+V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![Eingefügte Aktivitäten auf der Journey-Arbeitsfläche, die verbunden werden können](assets/copy-paste3.png)
 
 +++ KI-Wissensreferenz

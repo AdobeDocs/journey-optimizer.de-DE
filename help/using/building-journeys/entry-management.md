@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 54%
+source-wordcount: 2175
+ht-degree: 46%
 
 ---
 
@@ -115,6 +115,35 @@ Nach dem Zeitraum für den erneuten Eintritt können Profile erneut in die Journ
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### Erneuter Eintritt in alle Journey-Versionen {#reentrance-versions}
+
+Ein Profil kann nicht mehrmals gleichzeitig auf derselben Journey aktiv sein, auch nicht in allen aktiven Versionen dieser Journey.
+
+Die Einstellungen für den erneuten Eintritt sind für die aktuelle Journey-Version konfiguriert. [!DNL Journey Optimizer] wird aber auch überprüft, ob das Profil bereits in einer anderen aktiven Version derselben Journey aktiv ist. Wenn das Profil weiterhin eine frühere Version verwendet, wird ein neuer Eintrag blockiert, bis diese aktive Instanz beendet oder das Profil entfernt wird.
+
+Beim Veröffentlichen einer neuen Journey-Version werden In-Flight-Profile nicht auf die neue Version verschoben. Profile, die bereits in eine frühere Version eingetreten sind, bleiben in dieser Version, bis sie die Journey verlassen. Wenn sie später wieder berechtigt werden, geben sie die neueste Live-Version ein.
+
+**Beispiel**
+
+Um zu verstehen, wie die Versionsübergreifende Blockierung funktioniert, beachten Sie die folgende Sequenz:
+
+1. Version 1 einer Journey ist live und ein Profil tritt ein.
+1. Sie veröffentlichen Version 2 derselben Journey.
+1. Wenn das Profil weiterhin in Version 1 aktiv ist, kann es nicht gleichzeitig eine neue aktive Instanz in Version 2 starten.
+1. Nachdem das Profil die frühere Instanz beendet hat, kann es vorbehaltlich der Konfiguration des erneuten Eintritts der Journey erneut in die neueste Live-Version wechseln.
+
+>[!WARNING]
+>
+>**Warum sehe ich `exportedsegment_existinginstance`?**
+>
+>Wenn der `exportedsegment_existinginstance` angezeigt wird, bedeutet dies im Allgemeinen, dass das Profil bereits über eine aktive Instanz auf derselben Journey verfügt. Dies tritt häufig auf, wenn ein wiederkehrender oder wiederholter Eintrag versucht zu beginnen, während das Profil noch in einer anderen Instanz dieser Journey aktiv ist, einschließlich einer früheren aktiven Version.
+>
+>Wenn Sie diesen Fehler beheben, überprüfen Sie Folgendes:
+>
+>* Gibt an, ob das Profil in einer anderen aktiven Version der Journey noch aktiv ist.
+>* Ob eine frühere wiederkehrende Ausführung weiterhin aktiv ist.
+>* Ob das Journey-Design lange Wartezeiten oder andere Aktivitäten umfasst, die Profile über einen längeren Zeitraum aktiv halten.
 
 ## Geschäfts-Journeys {#entry-business}
 

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 174
-ht-degree: 85%
+source-wordcount: 505
+ht-degree: 30%
 
 ---
 
@@ -48,3 +48,53 @@ Bedingte Regeln können im E-Mail-Designer und im Personalisierungseditor verwen
 Erfahren Sie, wie Sie mit dem Builder für Bedingungsregeln dynamische Inhalte erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite werden dynamische Inhalte in Journey Optimizer vorgestellt - wie bedingte Regeln, die aus Profilattributen, kontextuellen Ereignissen und Audiences erstellt wurden, es Nachrichten ermöglichen, sich an die Profile anzupassen, die sie ansprechen.
+
+**Intents**
+
+* Erfahren Sie, was dynamischer Inhalt ist und wie er sich vom statischen Nachrichteninhalt unterscheidet
+* Identifizieren Sie die beiden Einstiegspunkte für dynamische Inhalte: den E-Mail-Designer und den Personalisierungseditor
+* Navigieren Sie zum entsprechenden Handbuch zum Erstellen bedingter Regeln oder zum Erstellen dynamischer Inhalte
+
+>[!TAB Glossar]
+
+* **Dynamischer Inhalt**: Nachrichteninhalt, der sich auf der Grundlage bedingter Regeln anpasst. Unterschiedlicher Inhalt wird verschiedenen Profilen angezeigt, je nachdem, ob definierte Bedingungen erfüllt sind. *(produktspezifisch)*
+* **Bedingte Regel**: Ein Satz von Kriterien - erstellt aus Profilattributen, kontextuellen Ereignissen oder Audiences - die bestimmen, welche Inhaltsvariante ein Profil erhält. *(produktspezifisch)*
+* **Visual Rule Builder**: Die interaktive Arbeitsfläche im Personalisierungseditor zum Erstellen und Speichern bedingter Regeln. *(produktspezifisch)*
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** dynamischer Inhalt — Varianten: Bedingter Inhalt, personalisierter Inhalt
+* **Synonyme:** „Bedingte Regeln“ = „Bedingungen“ (wie in der Benutzeroberfläche gekennzeichnet)
+* **Nicht verwechseln:** dynamischer Inhalt (Inhalt, der sich pro Profil basierend auf bedingten Regeln anpasst) ≠ statischer Inhalt (derselbe Inhalt wird allen Empfängerinnen und Empfängern unabhängig von den Bedingungen angezeigt)
+
+>[!TAB FAQs]
+
+**F: Welche Arten von Kriterien können bedingte Regeln verwenden?**
+
+Bedingte Regeln können aus Profilattributen, kontextuellen Ereignissen und der Zielgruppenzugehörigkeit erstellt werden.
+
+**F: Wo können bedingte Regeln verwendet werden, um dynamische Inhalte zu erstellen?**
+
+In der E-Mail-Designer (zum Erstellen von Komponentenvarianten) und im Personalisierungseditor (zum Umschließen von Ausdrucksblöcken mit Bedingungen). Beide Einstiegspunkte werden auf verknüpften Seiten behandelt.
+
+**F: Können bedingte Regeln in Journey und Kampagnen wiederverwendet werden?**
+
+Ja. Bedingte Regeln können zur weiteren Wiederverwendung in Journey und Kampagnen gespeichert werden.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 0f90f9b5 -->

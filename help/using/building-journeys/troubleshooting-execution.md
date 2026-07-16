@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
-ht-degree: 48%
+source-wordcount: 3051
+ht-degree: 44%
 
 ---
 
@@ -100,14 +100,14 @@ Wenn Testprofile im Testmodus in Ihrer Journey nicht vorankommen oder der visuel
 
 Wenn Testprofile in die Journey eintreten, aber nicht über den ursprünglichen Schritt hinausgehen, überprüfen Sie Folgendes:
 
-* **Journey-Startdatum** – Die häufigste Ursache ist, dass das Startdatum der Journey in der Zukunft liegt. Testprofile werden sofort verworfen, wenn die aktuelle Zeit außerhalb des konfigurierten Fensters [Start- und Enddatum/-zeit](journey-properties.md#dates) für die Journey liegt. Behebung:
+* **Journey-Startdatum** – Die häufigste Ursache ist, dass das Startdatum der Journey in der Zukunft liegt. Testprofile werden sofort verworfen, wenn die aktuelle Zeit außerhalb des konfigurierten Journey-Fensters [Start- und Enddatum/-](journey-properties.md#dates)) liegt und den folgenden Protokolleintrag erzeugt: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Behebung:
    * Stellen Sie sicher, dass das Startdatum der Journey nicht in der Zukunft liegt
    * Stellen Sie sicher, dass die aktuelle Uhrzeit in das aktive Datumsfenster der Journey fällt
-   * Aktualisieren Sie bei Bedarf die Journey-Eigenschaften, um das Startdatum anzupassen
+   * Falls erforderlich, legen Sie das Startdatum vorübergehend auf einen Zeitpunkt vor dem aktuellen Testzeitpunkt fest und stellen Sie ihn dann vor der Veröffentlichung wieder her
 
 * **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in [!DNL Adobe Experience Platform] korrekt als Testprofil gekennzeichnet ist. Weitere Informationen finden Sie unter [So erstellen Sie Testprofile](../audience/creating-test-profiles.md).
 
-* **Identity-Namespace** – Stellen Sie sicher, dass der in der Ereigniskonfiguration verwendete Identity-Namespace mit dem Namespace Ihres Testprofils übereinstimmt.
+* **Nicht übereinstimmende Identitäts-Namespaces** - Eine nicht übereinstimmende Namespace verursacht eine stille Ablage: Das Ereignis wird akzeptiert und gibt eine Erfolgsantwort zurück, aber das Profil gelangt nie auf die Journey und es wird kein Fehler in der Benutzeroberfläche angezeigt. Stellen Sie sicher, dass der Namespace in **Profilkennung** genau mit dem im Ereignisschema definierten Namespace übereinstimmt (unter Berücksichtigung von Groß-/Kleinschreibung). Weitere Informationen finden [&#x200B; unter „Ausdrucksformat &#x200B;](testing-the-journey.md#trigger-events-prerequisites) Profilkennung“.
 
 ### Null-Transitionsindikatoren
 
@@ -125,7 +125,7 @@ Wenn dauerhafte Probleme mit der Transition auftreten:
 
 >[!NOTE]
 >
->Beachten Sie, dass Ereignisse, die außerhalb des aktiven Datumsfensters der Journey gesendet werden, ohne Fehlermeldung im Hintergrund verworfen werden. Überprüfen Sie bei der Fehlerbehebung im Zusammenhang mit dem Fortschritt des Testprofils immer zuerst die Timing-Konfiguration Ihrer Journey.
+>Ereignisse, die außerhalb des aktiven Datumsfensters der Journey gesendet werden, werden mit dem `DISPATCHER DISCARD #16 — unqualified on journey version enablements` des Protokolleintrags und ohne Benutzeroberflächenfehler im Hintergrund verworfen. Überprüfen Sie bei der Fehlerbehebung im Zusammenhang mit dem Fortschritt des Testprofils immer zuerst die Timing-Konfiguration Ihrer Journey.
 
 ## Überprüfen, wie Personen durch die Journey navigieren {#checking-how-people-navigate-through-the-journey}
 

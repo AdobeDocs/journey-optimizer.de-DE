@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer unterstützt verschiedene Quelltypen, um eine Verbindung zu Ih
 * Salesforce
 * Salesforce Marketing Cloud
 
+**Treue und Prämien:**
+* Talon.one
+* kapillar
+* Kobie
+
 ➡️ Die vollständige Liste finden Sie im [Katalog für Experience Platform-Quellen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"}
 
 ## Voraussetzungen {#prerequisites}
@@ -138,7 +143,7 @@ Detaillierte Informationen zum Konfigurieren und Verwalten von Quellen finden Si
 Nachdem Sie nun wissen, was Quellen sind und warum sie wichtig sind:
 
 * Suchen Sie im [Quellenkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
-* Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=de){target="_blank"}
-* Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=de){target="_blank"}
+* Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home){target="_blank"}
+* Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home){target="_blank"}
 * Erfahren Sie, wie Sie [importierte Daten in Journeys verwenden](../building-journeys/journey-gs.md)
 * Lesen Sie den Überblick [Erste Schritte mit dem Daten-Management](../data/gs-data.md), um mehr darüber zu erfahren, wie Quellen in die vollständige Dateneinrichtung für Journey Optimizer passen.

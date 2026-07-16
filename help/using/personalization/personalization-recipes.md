@@ -1,5 +1,5 @@
 ---
-title: Personalization-Rezepte
+title: Personalisierungsrezepte
 description: Gängige Personalisierungsmuster und Beispiele aus der Praxis für Adobe Journey Optimizer
 feature: Personalization
 topic: Personalization
@@ -10,14 +10,14 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
 
-# Personalization-Rezepte {#personalization-recipes}
+# Personalisierungsrezepte {#personalization-recipes}
 
 >[!BEGINSHADEBOX]
 
@@ -297,4 +297,79 @@ Für boolesche Felder, die als Zeichenfolgen gespeichert werden:
 ```sql
 {%= toBool(profile.consents.email.val) = true %}
 ```
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite finden Sie 16 einsatzbereite Personalisierungsrezepte zum Kopieren und Einfügen, die Datumsangaben, Arrays, Zeichenfolgen, bedingte Logik und PQL-Edge-Fälle zur Verwendung in E-Mail-, SMS- und Push-Inhalten von Journey Optimizer abdecken.
+
+**Intents**
+
+* Kopieren Sie gebrauchsfertige Datums-/Uhrzeitmuster (aktuelles Datum, Countdown, Offset-Daten, Zeitanzeige, Wochenenderkennung)
+* Kopieren von Array- und Schleifenmustern (Listenelemente, Top-N-Elemente, bedingtes Rendering pro Element)
+* Formatierungsmuster für Zeichenfolgen kopieren (Zeichenfolgen bereinigen und wiederverwenden, JSON-Anführungszeichen, Datumskomponenten in Großbuchstaben)
+* Bedingte Logikmuster kopieren (mehrere Verzweigungen, wenn/Selbst/Sonst, null-sichere Attributanzeige)
+* Behandlung von PQL-Randfällen (getrennte Schlüssel, numerische Ereignis-IDs, Typzwang)
+
+>[!TAB Glossar]
+
+* **Personalization-Rezept**: Ein einsatzbereites Muster zum Kopieren und Einfügen für einen gängigen Personalisierungs-Anwendungsfall unter Verwendung der Personalisierungseditor-Syntax. *(produktspezifisch)*
+* **`formatDate`**: Eine Funktion, die ein Datum mithilfe eines angegebenen Formatmusters (z. B. `"MMMM dd, yyyy"`) in eine Zeichenfolge konvertiert.
+* **`dateDiff`**: Eine Funktion, die die numerische Differenz zwischen zwei Daten berechnet.
+* **`getCurrentZonedDateTime()`**: Eine Funktion, die das aktuelle Datum und die aktuelle Uhrzeit in einem Zeitzonen-fähigen Format zurückgibt.
+* **`topN`**: Eine PQL-Funktion, die ein Array nach einem angegebenen numerischen Feld in absteigender Reihenfolge sortiert und die Top-N-Elemente zurückgibt. Muss vor der Verwendung in einer Handlebars-Schleife über `{% let %}` zugewiesen werden.
+* **`{% let %}`**: Handlebars-Variablenzuordnungssyntax für die Speicherung berechneter Werte; erforderlich, wenn ein PQL-Funktionsergebnis in einem nachfolgenden Handlebars-Kontext referenziert werden muss.
+* **`replaceAll`**: Eine Zeichenfolgenfunktion, die alle Vorkommen eines Musters in einer Zeichenfolge ersetzt. Gibt eine neue Zeichenfolge zurück, ohne das Original zu ändern.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Personalisierungsrezept — Varianten: Muster, Vorlage, Beispiel, Kopieren-Einfügen-Muster
+* **Verwechseln Sie nicht:** `{%= ... %}` (PQL-Ausdruckssyntax - ausgewertet, gibt einen berechneten Wert zurück) ≠ `{{...}}` (Handlebars-Interpolation - rendert eine Variable oder einen Vorlagenausdruck)
+* **Verwechseln Sie nicht:** `{%#if%}` / `{%/if%}` (bedingte Journey Optimizer-Syntax, geschweifte Klammern in Prozent) ≠ `{{#if}}` / `{{/if}}` (bedingte Handlebars-Standardsyntax)
+* **Nicht verwechseln:** `topN(array, field, n)` (sortiert nach absteigendem Feld, gibt oben N zurück) ≠ `head(array)` (gibt nur das erste Element aus dem Array zurück)
+* **Verwechseln Sie nicht:** `dayOfWeek()` (wird im Nachrichteninhalt verwendet, um die Anzeige basierend auf dem Tag anzupassen) ≠ die Journey-Zeitbedingung „Wochentag“ (wird in der Aktivität &quot;Journey-Bedingung“ verwendet, um Profile anders zu leiten)
+* **Nicht verwechseln:** Datumsformatmuster `y` (Kalenderjahr — korrekt) ≠ `Y` (wöchentliches Jahr — kann zu unerwarteten Ergebnissen bei Jahresgrenzen führen)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* `{{#each}}` wird in der Aktivität &quot;Journey-Bedingung“ nicht unterstützt. Verwenden Sie die Sammlungsverwaltungsfunktionen zum Filtern von Arrays in Journey-Bedingungen.
+* Backtick-Escaping für getrennte Attributschlüssel wird nur innerhalb von PQL-Ausdrücken (`{%= ... %}`) unterstützt. Backticks werden in der einfachen Handlebars-Interpolation (`{{...}}`) nicht akzeptiert.
+* `topN` ist eine PQL-Funktion und muss einer `{% let %}`-Variablen zugewiesen werden, bevor sie als `{{#each}}`-Schleifenziel verwendet wird.
+* Deklarieren Sie bei Verwendung einer Schleifenvariablen innerhalb eines `{%#if%}`-Blocks einen benannten Schleifenalias (z. B. `as |order|`). `this.status` wird vom PQL-Auswerter in `{%#if%}` nicht aufgelöst.
+* Verwenden Sie `y` in `formatDate` für das Kalenderjahr. `Y` (wöchentliches Jahr) kann zu unerwarteten Werten am Jahresende führen.
+
+>[!TAB FAQs]
+
+**F: Was ist der Unterschied zwischen `{%= ... %}` und `{{...}}` bei der Personalisierung?**
+
+`{%= ... %}` ist die PQL-Ausdruckssyntax, die ausgewertet wird und einen berechneten Wert zurückgibt (Zahl, Zeichenfolge, Boolesch). `{{...}}` Handlebars-Interpolation wird eine Variable oder ein Vorlagenausdruck gerendert. Beide werden im Personalisierungsinhalt angezeigt, haben jedoch unterschiedliche Zwecke.
+
+**F: Wie verwende ich ein PQL-Funktionsergebnis in einer Handlebars-`{{#each}}`?**
+
+Weisen Sie das PQL-Funktionsergebnis mithilfe von `{% let variableName = pqlFunction(...) %}` einer Variablen zu und verwenden Sie dann `{{#each variableName}}`, um darüber zu iterieren.
+
+**F: Kann `{{#each}}` in einer Journey-Bedingungsaktivität verwendet werden?**
+
+Nein. `{{#each}}` ist nur im Inhalt der Nachrichtenpersonalisierung (E-Mail, SMS, Push) verfügbar. Verwenden Sie für die Array-Filterung unter Journey-Bedingungen die Funktionen zur Sammlungsverwaltung.
+
+**F: Wie verweise ich auf ein Feld, dessen Name einen Bindestrich enthält?**
+
+Schließen Sie den mit Bindestrich versehenen Schlüssel in Backticks in einem PQL-Ausdruck ein: ``{%= profile.events.`order-total` > 100 %}``. Backticks werden in der reinen Handlebars-Interpolation nicht unterstützt. Verwenden Sie bei Bedarf eine `{% let %}` Variable als Zwischenschritt.
+
+**F: Warum braucht `topN` `{% let %}` vor einer `{{#each}}` Schleife?**
+
+`topN` ist eine PQL-Funktion, die eine PQL-Liste zurückgibt. Wenn Sie das Ergebnis einer `{% let %}`-Variablen zuweisen, steht es im Handlebars-Kontext zur Verfügung, sodass es mit `{{#each}}` iteriert werden kann.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 20c7ee0f -->
 

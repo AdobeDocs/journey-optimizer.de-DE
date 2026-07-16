@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ Um die Konfigurationsoberfläche zu öffnen, wählen Sie im linken Navigationsbe
 >title="Globale Einstellungen"
 >abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Treue-Challenges, einschließlich des Identity-Namespace, anhand dessen Mitglieder über Ereignisse und Challenges hinweg identifiziert werden."
 
-Öffnen Sie die Registerkarte **[!UICONTROL Globale Einstellungen]** und wählen Sie den Adobe Experience Platform [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) für Herausforderungen im Zusammenhang mit Treue in der Dropdown-Liste **[!UICONTROL Namespace]** aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
+Öffnen Sie die Registerkarte **[!UICONTROL Globale Einstellungen]**, um globale Einstellungen für Herausforderungen im Zusammenhang mit dem Treueprogramm zu konfigurieren.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [Erfahren Sie, wie Sie mit Identity-Namespaces arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* Wählen Sie im Abschnitt **[!UICONTROL Organisationskonfiguration]** den Adobe Experience Platform-[Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) für Herausforderungen im Zusammenhang mit der Treue aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
+
+  ➡️ [Erfahren Sie, wie Sie mit Identity-Namespaces arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* Verwenden Sie den **[!UICONTROL Reporting]**, um die Prioritätsmetrik Ihres Unternehmens für das Dashboard „Treueprogramm-Insights“ festzulegen. Diese Einstellung bestimmt, welche Einblicke in Ihrem Feed hervorgehoben werden, sodass Sie sich auf die Metrik konzentrieren können, die für Ihr Unternehmen am wichtigsten ist.
+
+  Wählen Sie eine der folgenden KPI-Optionen:
+
+   * **[!UICONTROL Umsatz]** — Priorisieren von Insights in Bezug auf monetäre Transaktionen und die Verkaufsleistung
+   * **[!UICONTROL Interaktion]** - Priorisieren Sie Einblicke in Bezug auf die Mitgliederaktivität und -beteiligung
+   * **[!UICONTROL Einlösungen]** - Priorisieren Sie Insights in Bezug auf Belohnungseinlösungsraten und -aktivitäten
+   * **[!UICONTROL Konversionen]** - Priorisieren Sie Insights in Bezug auf Konversionsmetriken und den Abschluss des Ziels
+
+  Wenn Sie einen KPI auswählen, erhalten Einblicke, die sich auf diese Metrik beziehen, einen Scoring-Schub, der sie an die Spitze des Feeds bringt. Dies bedeutet, dass die relevantesten Einblicke für Ihren ausgewählten KPI zuerst angezeigt werden. Es werden keine Erkenntnisse ausgeblendet: Ihr vollständiger insight-Feed wird weiterhin angezeigt und nach Signifikanz sortiert, wobei Ihr ausgewählter KPI höher als andere Metriken priorisiert wird. Diese Einstellung wirkt sich nur darauf aus, wie Einblicke im Feed sortiert werden, und ändert nichts daran, wie Ihr Treueprogramm funktioniert oder wie Herausforderungen bewertet werden. Sie können Ihre KPI-Auswahl jederzeit ändern, und der insight-Feed priorisiert beim nächsten Aktualisierungszyklus neu, um Ihre neue Priorität widerzuspiegeln.
+
+  Weitere Informationen zu Einblicken aus dem Treueprogramm und zur Leistungsüberwachung finden Sie unter [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md).
 
 ## Prämienanbieter {#reward-providers}
 

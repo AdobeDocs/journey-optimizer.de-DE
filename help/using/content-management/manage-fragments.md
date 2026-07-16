@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 92%
+source-wordcount: 1607
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,16 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 * Verschieben Sie das Fragment in einen Ordner. [Weitere Informationen](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Schnellstart-Tastaturbefehle {#quick-launch-fragments}
+
+Über die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben jedem Fragment stehen auch die folgenden Schnellstart-Tastaturbefehle zur Verfügung:
+
+* **[!UICONTROL Bearbeiten]** - Öffnen Sie den Fragment-Editor direkt.
+* **[!UICONTROL Öffnen]** - Öffnen Sie die Fragmentdetails und den Bildschirm Vorschau .
+* **[!UICONTROL Entwurf verwerfen]** - Verwirft die aktuelle Entwurfsversion und kehrt zur zuletzt veröffentlichten Version zurück.
+
+![](assets/fragment-quick-launch.png)
 
 ### Massenaktionen {#bulk-actions-fragments}
 

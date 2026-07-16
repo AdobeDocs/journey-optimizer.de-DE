@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ Web SDK (`alloy.js`) ist eine einzelne JavaScript-Bibliothek, die das Patchwork 
 
 1. **Konfigurieren von Datenströmen**: Erstellen und konfigurieren Sie einen Datenstrom in [!DNL Adobe Experience Platform Data Collection], während Journey Optimizer aktiviert ist. Erfahren Sie mehr in der [Dokumentation zu Datenströmen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}.
 
-1. **Aktivieren von Web-Push-Benachrichtigungen** (optional): Web-Push-Benachrichtigungen sind nun allgemein verfügbar. Konfigurieren Sie die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements. [Erfahren Sie mehr zur Web-Push-Konfiguration](../../push/push-configuration-web.md).
+1. **Aktivieren von Web-Push-Benachrichtigungen** (optional): Web-Push-Benachrichtigungen sind nun allgemein verfügbar. Konfigurieren Sie die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements. [Erfahren Sie mehr zur Web-Push-Konfiguration](../../push/push-configuration-web.md).
 
 ### Implementieren von Code-basierten Erlebnissen (Web SDK)
 

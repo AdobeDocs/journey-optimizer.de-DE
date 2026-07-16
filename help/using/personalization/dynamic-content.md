@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 89%
+source-wordcount: 1262
+ht-degree: 50%
 
 ---
 
@@ -123,3 +123,67 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
 1. Um eine Variante zu löschen, klicken Sie auf das Symbol „Mehr Aktionen“ neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]** aus.
 
    ![](assets/conditions-delete.png)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie mit bedingten Regeln dynamische Inhalte zu Nachrichten hinzufügen können - entweder über Ausdruckstags im Personalisierungseditor oder als Inhaltskomponentenvarianten in der E-Mail-Designer.
+
+**Intents**
+
+* Hinzufügen dynamischer Inhalte zu Personalisierungsausdrücken mithilfe von bedingten `{%if%}`-/`{%/if%}`-Tags
+* Vorschau mehrerer dynamischer Inhaltsvarianten mithilfe einer Simulation
+* Aktivieren von bedingten Inhalten für eine E-Mail-Designer-Inhaltskomponente
+* Erstellen Sie mehrere Komponentenvarianten, von denen jede mit einer bedingten Regel verknüpft ist.
+* Standardvariante verwalten, die angezeigt wird, wenn zum Versandzeitpunkt keine Bedingungen erfüllt sind
+
+>[!TAB Glossar]
+
+* **Dynamischer Inhalt**: Nachrichteninhalt, der basierend auf bedingten Regeln variiert. Unterschiedlicher Inhalt wird angezeigt, je nachdem, ob definierte Bedingungen zum Sendezeitpunkt erfüllt sind. *(produktspezifisch)*
+* **Bedingter Inhalt**: Eine E-Mail-Designer-Funktion, die bedingte Regeln auf eine Inhaltskomponente anwendet und so mehrere Anzeigevarianten erstellt. *(produktspezifisch)*
+* **Standardvariante**: Der Inhalt, der für eine Komponente angezeigt wird, wenn keine der definierten bedingten Regeln beim Senden der Nachricht erfüllt ist. *(produktspezifisch)*
+* **`{%if%}`/ `{%/if%}` Tags**: Ausdruckssyntax des Personalization-Editors, die verwendet wird, um Inhaltsblöcke einzuschließen, die nur angezeigt werden, wenn eine bedingte Regel erfüllt ist.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** dynamischer Inhalt — Varianten: Bedingter Inhalt, personalisierter Inhalt
+* **Synonyme:** „Bedingter Inhalt“ (Beschriftung der E-Mail-Designer-Benutzeroberfläche) = „Dynamischer Inhalt“ (allgemeiner Begriff, der überall verwendet wird)
+* **Verwechseln Sie dies nicht:** Hinzufügen dynamischer Inhalte in Ausdrücken (mithilfe von `{%if%}`-Tags im Personalisierungseditor) ≠ Hinzufügen dynamischer Inhalte in E-Mails (Erstellen von Komponentenvarianten in der E-Mail-Designer - zwei verschiedene Workflows)
+* **Nicht verwechseln:** „Standardvariante“ (angezeigt, wenn keine bedingten Regeln erfüllt sind) ≠ eine benannte Variante (jede mit einer bestimmten bedingten Regel verknüpft)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Bedingte Inhaltsvarianten werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der sie angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
+* Bei der Simulation oder dem Rendern von Korrekturabzügen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Erwägen Sie, die Anzahl der Varianten zu reduzieren oder die bedingten Regeln zu vereinfachen, wenn Zeitüberschreitungen oder Fehler auftreten.
+* Wenn E-Mail-Designer nach dem Hinzufügen von bedingten Blöcken nicht ordnungsgemäß gerendert werden kann, überprüfen Sie, ob die Syntax jeder Bedingung korrekt ist und ob keine doppelten oder widersprüchlichen Anweisungen vorhanden sind.
+
+>[!TAB FAQs]
+
+**F: Was passiert, wenn keine der definierten Bedingungen beim Senden der Nachricht erfüllt ist?**
+
+Die Inhaltskomponente zeigt den Inhalt an, der in der Standardvariante definiert ist.
+
+**F: In welcher Reihenfolge werden bedingte Inhaltsvarianten bewertet?**
+
+Varianten werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der sie angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
+
+**F: Wo können dynamische Inhalte in Journey Optimizer hinzugefügt werden?**
+
+In allen Feldern, in denen die Personalisierung hinzugefügt werden kann - einschließlich Betreffzeilen, Links, Push-Benachrichtigungs-Inhalt und textabhängiger Angebotsdarstellungen - über den Personalisierungseditor und in E-Mail-Designer-Inhaltskomponenten über bedingte Varianten.
+
+**F: Was sollte ich tun, wenn die E-Mail-Designer nach dem Hinzufügen bedingter Blöcke nicht gerendert werden kann?**
+
+Stellen Sie sicher, dass die Syntax jeder Bedingung korrekt ist und dass keine doppelten oder widersprüchlichen Anweisungen vorhanden sind. Wenn die Probleme weiterhin bestehen, erstellen Sie die problematischen Abschnitte in einer neuen Vorlage neu und testen Sie jeden bedingten Block inkrementell.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: e6005d80 -->

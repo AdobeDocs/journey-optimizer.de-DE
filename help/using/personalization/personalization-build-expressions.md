@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 91%
+source-wordcount: 2328
+ht-degree: 62%
 
 ---
 
@@ -275,3 +275,77 @@ HTML: Inhalt<br/></td>
 </table>
 
 +++
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie mit dem Journey Optimizer-Personalisierungseditor Personalisierungsausdrücke aus Quellen auswählen, erstellen, anpassen und validieren können, darunter Profilattribute, Zielgruppen, Angebotsentscheidungen und Kontextattribute.
+
+**Intents**
+
+* Verstehen, wo Personalisierung in Journey Optimizer hinzugefügt werden kann (Nachrichten, E-Mail-Designer, URLs, E-Mail-Konfiguration, Angebote)
+* Auswählen der entsprechenden Personalisierungsquelle für einen Ausdruck
+* Hinzufügen von Attributen und Erstellen von Ausdrücken im Editor-Arbeitsbereich
+* Editor-Tools verwenden: Suchen/Ersetzen, Automatisch vervollständigen, Validieren, Pillen, Als Fragment speichern
+* Verwenden von Navigationsbereichsfunktionen: Hilfsfunktionen, Favoriten, Bedingungen, Fragmente
+* Ausdrücke überprüfen und häufige Fehler beheben
+
+>[!TAB Glossar]
+
+* **Personalization-Editor**: Das zentrale Benutzeroberflächen-Tool in Journey Optimizer zum Erstellen, Anpassen und Validieren von Personalisierungsausdrücken; verfügbar, wo immer Personalisierung definiert werden kann. *(produktspezifisch)*
+* **Personalization-Quellen**: Die für die Erstellung von Ausdrücken verfügbaren Datenkategorien - Profilattribute, Zielgruppenattribute, Zielgruppen, Angebotsentscheidungen und Kontextattribute.
+* **Kontextuelle Attribute**: Journey- oder kampagnenspezifische Daten (Ereignisse, Eigenschaften, benutzerdefinierte Aktionsantworten), die nur zur Personalisierung verfügbar sind, wenn eine Kanalaktion auf einer Journey oder Kampagne verwendet wird. *(produktspezifisch)*
+* **Pillen**: Ein Anzeigemodus des Personalisierungseditors, der lange Attributpfade als kompakte, klickbare Token rendert, um die Lesbarkeit zu verbessern. Nur für Profilattribute, kontextuelle Attribute und Dynamic Media verfügbar. *(produktspezifisch)*
+* **Automatisch vervollständigen**: Eine Editor-Funktion, die Code während der Eingabe automatisch vorschlägt und vervollständigt. Nur für HTML- und Textformate verfügbar, unterstützt nur Profil- und Kontextattribute. *(produktspezifisch)*
+* **Ausdrucksfragment**: Eine wiederverwendbare Ausdruckskomponente für Personalisierung, die in Kampagnen und Journey referenziert werden kann. *(produktspezifisch)*
+* **Fallback-Text**: Eine Standardzeichenfolge, die angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge für ein bestimmtes Profil leer ist, konfiguriert pro Attribut über „Einfügen mit Fallback-Text“.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Personalisierungseditor
+* **Nicht verwechseln:** Personalization-Editor (zum Erstellen von Inhaltsausdrücken in Nachrichten, E-Mails, Push-Benachrichtigungen und Angeboten - unterstützt sowohl Handlebars als auch die PQL-Syntax) ≠ Erweiterter Ausdruckseditor (der auf der Journey für Bedingungen zu Datenquellen und Ereignisinformationen, benutzerdefinierte Warteaktivitäten und Aktionsparameterzuordnung verwendet wird) bietet integrierte Funktionen und Operatoren, die sich von denen im Personalisierungseditor unterscheiden)
+* **Nicht verwechseln:** Profilattribute (XDM-Schemabasiert, in allen Kontexten verfügbar) ≠ Kontextuelle Attribute (Journey/kampagnenspezifisch, nur in diesem Kontext verfügbar) ≠ Zielattribute (nur orchestrierte Kampagnen)
+* **Nicht verwechseln:** Automatische Vervollständigung für HTML/Text (schlägt Personalisierungsattribut-Vervollständigungen vor) ≠ native HTML-Code-automatische Vervollständigung (der Editor-Standard, wenn der Umschalter deaktiviert ist)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Die automatische Vervollständigung ist nur für die Formate HTML und Text verfügbar. Sie unterstützt nur Profil- und Kontextattribute.
+* Der Pillenanzeigemodus ist nur für Profilattribute, kontextuelle Attribute und Dynamic Media verfügbar.
+* Die URL-Personalisierung ist nur für die Link-Typen „Externer Link“, „Abmelde-Link“ und „Opt-out-Link“ verfügbar.
+* Standardmäßig werden im Attributbereich nur ausgefüllte Attribute angezeigt. Deaktivieren Sie „Nur ausgefüllte Attribute anzeigen“, um alle Schemaattribute anzuzeigen.
+* Die Verwendung des Angebotsmodells darf nur Profilattribute enthalten. Nicht-Profilattribute in einer Entscheidung verursachen einen Validierungsfehler.
+
+>[!TAB FAQs]
+
+**F: Wo kann die Personalisierung in Journey Optimizer hinzugefügt werden?**
+
+In jedem Feld mit dem Symbol Personalisierung hinzufügen , einschließlich der Betreffzeile der E-Mail, der Felder für die Push-Benachrichtigung (Titel, Textkörper, benutzerdefinierter Ton, Abzeichen, benutzerdefinierte Daten), E-Mail-Designer-Textelemente, URLs (externer Link, Abmelde-Link, Opt-out), E-Mail-Konfigurations-Subdomains/Kopfzeilen/URL-Tracking-Parameter und Darstellungen des Angebotstyps.
+
+**F: Welche Personalisierungsquellen stehen zur Verfügung?**
+
+Profilattribute, Zielattribute (nur orchestrierte Kampagnen), Zielgruppen, Angebotsentscheidungen und Kontextattribute (Journey-/Kampagnenereignisse und benutzerdefinierte Aktionsantworten).
+
+**F: Wie wird ein Ausdruck validiert?**
+
+Die Validierung wird automatisch ausgeführt, wenn Sie auf Hinzufügen klicken, um den Editor zu schließen. Sie können sie auch manuell mit der Schaltfläche Validieren Trigger erstellen. Häufige Fehler sind: Pfad nicht gefunden (Feld nicht im Schema), Typ stimmt nicht überein (Zeichenfolge als Array wird durchlaufen), ungültige Handlebars-Syntax und ungültige Segmentdefinition.
+
+**F: Was bewirkt die Pillen-Option?**
+
+Dadurch werden lange Attributpfade als kompakte, anklickbare Token gerendert, was die Lesbarkeit im Editor verbessert. Nur für Profilattribute, kontextuelle Attribute und Dynamic Media verfügbar.
+
+**F: Warum sehe ich nur einige Attribute im Attributbereich?**
+
+Standardmäßig werden im Bereich nur ausgefüllte Attribute angezeigt. Wählen Sie das Einstellungssymbol über dem Suchfeld aus und deaktivieren Sie „Nur ausgefüllte Attribute anzeigen“, um alle Schemaattribute anzuzeigen.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 54973b31 -->

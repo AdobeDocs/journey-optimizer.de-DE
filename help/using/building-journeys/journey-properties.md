@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
 workflow-type: tm+mt
-source-wordcount: 4990
-ht-degree: 55%
+source-wordcount: 4991
+ht-degree: 56%
 
 ---
 
@@ -500,15 +500,21 @@ Dies sind separate Konzepte. Das globale Zeitlimit von **[Journey](#global_timeo
 * [Zeitzonenverwaltung](timezone-management.md) - Konfigurieren von Journey- und Profil-Zeitzonen
 * [Konfliktmanagement und Priorisierung](../conflict-prioritization/conflicts.md) - Identifizieren und Beheben von Konflikten in Journey und Kampagnen
 
-+++ KI-Wissensreferenz
+## Kurzübersicht {#quick-reference}
 
 Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
 
 Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
 
-* **TL;DR:** Auf dieser Seite wird erläutert, wie Sie alle globalen Einstellungen für eine Journey konfigurieren und verwalten können, einschließlich Eintrittsregeln, Zeitzonen, Start-/Enddaten, Zeitüberschreitungsverhalten, Ausstiegskriterien, Payload-Größe und Konfliktmanagement.
+>[!BEGINTABS]
 
-**intents:**
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird beschrieben, wie Sie alle globalen Einstellungen für eine Journey konfigurieren und verwalten, einschließlich Eintrittsregeln, Zeitzonen, Start-/Enddaten, Zeitüberschreitungsverhalten, Ausstiegskriterien, Payload-Größe und Konfliktmanagement.
+
+**Intents**
 
 * Konfigurieren der Regeln für den Eintritt und erneuten Eintritt von Journey für Profile
 * Legen Sie Start- und Enddaten fest, um zu steuern, wann Profile eine Journey betreten oder verlassen können
@@ -517,7 +523,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Überwachen der Größe der Journey-Payload, um Veröffentlichungsfehler zu vermeiden
 * Konflikte lösen und Prioritätswerte für Journey und Kampagnen zuweisen
 
-**Glossar:**
+>[!TAB Glossar]
 
 * **Journey-Eigenschaften**: Das Bedienfeld für globale Einstellungen (rechte Leiste), das Namen, Eintrittsregeln, Zeitzone, Daten, Zeitüberschreitung, Payload-Größe und Konfliktmanagement für eine Journey steuert. *(produktspezifisch)*
 * **Wartezeit bis zum erneuten Eintritt**: Die Mindestdauer, die ein Profil warten muss, bevor es erneut auf eine unitäre Journey zugreifen darf. Diese beträgt maximal 90 Tage. *(produktspezifisch)*
@@ -529,7 +535,13 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * **Journey-Payload-Größe**: Die aktuelle Größe der Payload der Journey-Definition im Vergleich zum konfigurierten Limit; überschreitet die Veröffentlichung der Limitblöcke. *(produktspezifisch)*
 * **OLAC (Object Level Access Control)**: Ein Berechtigungsmodell, das den Zugriff auf einzelne Journey mithilfe von Datennutzungskennzeichnungen einschränkt.
 
-**Leitplanken:**
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Journey-Eigenschaften — Akronym: none — Varianten: Journey-Einstellungen, Journey-Konfigurationsfeld
+* **Synonyme:** „Global Journey Timeout“ = „TTL“ = „Time-to-Live“
+* **Verwechseln Sie nicht** „Globales Journey-Timeout (91 Tage)“ ≠ „Reporting-Fenster (ca. 91 Tage)“ - das Timeout begrenzt die individuelle Profildauer in einer Journey. Das Reporting-Fenster ist ein UI-Anzeigelimit für Analysedaten
+
+>[!TAB Leitplanken und Einschränkungen]
 
 * Die maximale Wartezeit für den erneuten Eintritt beträgt 90 Tage.
 * Das globale Journey-Timeout beträgt 91 Tage. Nach diesem Zeitraum werden die Profildaten gelöscht und das Profil wird beendet
@@ -541,19 +553,30 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Inkonsistente Zusammenführungsrichtlinien in einer Journey-Blockveröffentlichung; Inkonsistenzen in der Nachrichtenpersonalisierung lösen keinen Warnhinweis aus
 * Bei Live-Journey zeigt das Bedienfeld Eigenschaften nur das Veröffentlichungsdatum und den Herausgebernamen an
 
-**Terminologie:**
+>[!TAB FAQs]
 
-* Kanonischer Name: Journey-Eigenschaften — Akronym: none — Varianten: Journey-Einstellungen, Journey-Konfigurationsfeld
-* Synonyme: „Global Journey timeout“ = „TTL“ = „Time-to-Live“
-* Verwechseln Sie nicht: „Globales Journey-Timeout (91 Tage)“ ≠ „Reporting-Fenster (ca. 91 Tage)“ - das Timeout begrenzt die individuelle Profildauer in einer Journey. Das Reporting-Fenster ist eine Anzeigebeschränkung der Benutzeroberfläche für Analysedaten
+**F: Wie lange kann ein Profil auf einer Journey bleiben?**
 
-**FAQ:**
+Maximal 91 Tage (das globale Journey-Timeout); nach diesem Zeitraum wird das Profil automatisch beendet und seine Daten gelöscht.
 
-* **F: Wie lange kann ein Profil auf einer Journey bleiben?** — Maximal 91 Tage (das globale Journey-Timeout); nach diesem Zeitraum wird das Profil automatisch beendet und seine Daten gelöscht.
-* **F: Kann ich Journey-Eigenschaften bearbeiten, während die Journey live ist?** - Bei Live-Journey zeigt das Bedienfeld Eigenschaften nur das Veröffentlichungsdatum und den Herausgebernamen an. Strukturänderungen erfordern eine neue Version.
-* **F: Was passiert, wenn mehrere Beendigungskriterien konfiguriert sind?** — Sie werden bei jedem Schritt des Journey von oben nach unten mit ODER-Logik ausgewertet; ein Profil tritt aus, wenn ein beliebiges Kriterium erfüllt ist.
-* **F: Wie kann ich verhindern, dass ein Profil erneut auf eine Journey gelangt?** — Deaktivieren Sie die Option „Erneuten Eintritt erlauben“ in den Journey-Eigenschaften. Dies ist für einmalige Erlebnisse wie ein Geschenkangebot geeignet.
-* **F: Was ist der Unterschied zwischen Journey-Timeout und Enddatum?** - Das Enddatum stoppt alle neuen Einträge und beendet die aktiven Profile automatisch an diesem bestimmten Datum. Die 91-tägige globale Zeitüberschreitung gilt für jedes Profil ab dem Zeitpunkt, an dem es eintritt, unabhängig vom Enddatum der Journey.
-* **F: Wie wird die Zusammenführungsrichtlinie für eine Journey bestimmt?** — Hängt vom Journey-Typ ab: Journey zum Lesen von Zielgruppe und Zielgruppen-Qualifizierung verwenden die Zusammenführungsrichtlinie der Zielgruppe; Journey von Einzelereignissen verwenden die standardmäßige Zusammenführungsrichtlinie; Journey von Geschäftsereignissen verwenden die Zusammenführungsrichtlinie der Zielgruppe in der nachfolgenden Aktivität zum Lesen von Zielgruppen .
+**F: Kann ich Journey-Eigenschaften bearbeiten, während die Journey live ist?**
 
-+++
+Bei Live-Journey zeigt das Bedienfeld Eigenschaften nur das Veröffentlichungsdatum und den Herausgebernamen an. Strukturänderungen erfordern eine neue Version.
+
+**F: Was passiert, wenn mehrere Beendigungskriterien konfiguriert sind?**
+
+Sie werden bei jedem Schritt des Journey von oben nach unten mit ODER-Logik ausgewertet. Ein Profil tritt aus, wenn ein beliebiges Kriterium erfüllt ist.
+
+**F: Wie kann ich verhindern, dass ein Profil erneut auf eine Journey gelangt?**
+
+Deaktivieren Sie die Option „Erneuten Eintritt erlauben“ in den Journey-Eigenschaften. Dies ist für einmalige Erlebnisse wie ein Geschenkangebot geeignet.
+
+**F: Was ist der Unterschied zwischen Journey-Timeout und Enddatum?**
+
+Das Enddatum stoppt alle neuen Einträge und beendet automatisch die aktiven Profile zu diesem bestimmten Datum. Die 91-tägige globale Zeitüberschreitung gilt für jedes Profil ab dem Zeitpunkt, an dem es eintritt, unabhängig vom Enddatum der Journey.
+
+**F: Wie wird die Zusammenführungsrichtlinie für eine Journey bestimmt?**
+
+Es hängt vom Journey-Typ ab: Journey zum Lesen von Zielgruppe und Zielgruppen-Qualifizierung verwenden die Zusammenführungsrichtlinie der Zielgruppe; Journey für Einzelereignisse verwenden die standardmäßige Zusammenführungsrichtlinie; Journey für Geschäftsereignisse verwenden die Zusammenführungsrichtlinie der Zielgruppe in der nachfolgenden Aktivität zum Lesen von Zielgruppen .
+
+>[!ENDTABS]

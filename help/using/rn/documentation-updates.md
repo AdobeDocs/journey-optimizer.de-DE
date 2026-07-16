@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Juli 2026 {#july-2026}
+
+* Die Seite **Inhaltsprüfung** wurde mit einem neuen Abschnitt **Informationen zur HTML- und CSS-Größe** aktualisiert, in dem erläutert wird, was in der Schätzung zur Bearbeitungszeit enthalten ist (HTML-Struktur, Inline-CSS, Personalisierungs-Token, Fragmente, bedingte Blöcke und Bildreferenzen), warum sich die Schätzung von der bereitgestellten Größe unterscheidet und was die Größenwarnungen für Autorinnen und Autoren bedeuten. [Weitere Informationen](../email/content-check.md#size-estimation)
+
+* Die Seite **Erstellen von IP-Aufwärmkampagnen** wurde aktualisiert, um klarzustellen, dass Zielgruppenbestimmungsregeln auf IP-Aufwärmkampagnen angewendet werden können, und um das Auswertungsverhalten zu dokumentieren: Die Zielgruppenzugehörigkeit wird bei der Ausführungsaktivierung (tägliche Batch-Segmentierung) festgelegt, während Profilattribute zur Ausführungszeit aus den zuletzt erfassten Batch-Daten gelesen werden. [Weitere Informationen](../configuration/ip-warmup-campaign.md)
+* Die Seite **Beenden eines Journey** wurde aktualisiert, um den automatischen Stopp-Zeitpunkt für nicht wiederkehrende Journey von „Zielgruppe lesen“ zu verdeutlichen: ein Sicherheitspuffer von ca. **96 Stunden (~4 Tage)** nach der geplanten Ausführung, während der die Journey im **Live**-Status verbleiben kann, bevor sie beim nächsten Scannerdurchgang auf **Angehalten** wechselt. Auf der Seite wird nun auch klargestellt, dass Wavebasierte Journey , einschließlich Anwendungsfällen für die Sendezeitoptimierung, von diesem automatischen Stopp ausgeschlossen sind und stattdessen dem standardmäßigen 91-Tage-Journey-Timeout folgen. [Weitere Informationen](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* Die Seiten **Benutzerdefinierter Upload** und **Zielgruppe lesen** wurden korrigiert, um das inkrementelle Leseverhalten für externe/benutzerdefinierte Zielgruppen (einschließlich CSV-Upload und Federated Audience Composition) zu verdeutlichen: Inkrementelles Lesen wird für diese Zielgruppentypen heute nicht funktional unterstützt, und die vollständige Zielgruppe wird bei jeder Wiederholung verarbeitet, unabhängig von der Einstellung Inkrementelles Lesen . Die Anleitung verknüpft nun Wiederholungskontrollen, einschließlich **Erneuten Eintritt bei Wiederholung erzwingen**. [Weitere Informationen über benutzerdefiniertes Hochladen](../audience/custom-upload.md) und [Weitere Informationen zum Lesen von Zielgruppen-Zeitplänen](../building-journeys/read-audience.md#schedule)
 
 * Auf der Seite **PTR-Einträge bearbeiten** wurde eine Warnung hinzugefügt, die Kunden darüber informiert, dass beim Hinzufügen eines neuen Forward-DNS-Eintrags zu ihrer Plattform der Forward-DNS-Eintrag für die alte Subdomain erst entfernt werden darf, wenn die Verschiebung abgeschlossen ist, da sonst die Bearbeitung fehlschlägt. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

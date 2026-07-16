@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
-ht-degree: 96%
+source-wordcount: 3893
+ht-degree: 77%
 
 ---
 
@@ -1071,3 +1071,80 @@ Verwenden Sie den [Journey-Testmodus](../building-journeys/testing-the-journey.m
 **Personalisierungs-Anwendungsfälle:** [E-Mail zu Warenkorbabbruch](personalization-use-case-helper-functions.md) | [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
 
 **Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../mobile/create-mobile-message.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite wird erläutert, wie Sie die Handlebars-`{{#each}}` verwenden, um Arrays aus kontextuellen Quellen - Ereignisse, benutzerdefinierte Aktionsantworten, Datensatzsuchen und technische Eigenschaften - in der Nachrichtenpersonalisierung zu durchlaufen, und wie Sie beim Konfigurieren von Journey-Aktivitäten mit Arrays in der Journey-Ausdruckssyntax arbeiten.
+
+**Intents**
+
+* Iteration über Ereignis-Array-Daten (z. B. Warenkorbelemente, Bestellelemente) in der Nachrichtenpersonalisierung mithilfe von `{{#each}}`
+* Iteration über Antwort-Arrays für benutzerdefinierte Aktionen (z. B. Produktempfehlungen) in Nachrichten
+* Iteration der Datensatz-Lookup-Ergebnisarrays in Nachrichten
+* Daten aus verschiedenen kontextuellen Quellen in einer einzigen personalisierten Nachricht kombinieren
+* Übergeben von Array-Werten an benutzerdefinierte Aktionsparameter mithilfe der Journey-Ausdruckssyntax
+* Verwenden von Arrays als Lookup-Schlüssel in Datensatz-Lookup-Aktivitäten
+* Wenden Sie Best Practices für leere Array-Fallbacks, Variablennamen, Leistung und den Umfang von Ausdrucksfragmenten an
+
+>[!TAB Glossar]
+
+* **Handlebars**: Eine Vorlagensprache, die in der Journey Optimizer-Nachrichtenpersonalisierung für die Iteration (`{{#each}}`) und das bedingte Rendering (`{{#if}}`) verwendet wird. *(produktspezifisch)*
+* **`{{#each}}`helper**: Handlebars-Syntax für die Iteration über ein Array. Bei jeder Iteration wird das aktuelle Element über eine benannte Variable (z. B. `|product|`) verfügbar gemacht. *(produktspezifisch)*
+* **Kontextuelle Daten**: Zum Zeitpunkt des Nachrichtenversands verfügbare Daten von Journey-Quellen - Ereignisse, benutzerdefinierte Aktionsantworten, Datensatzsuchen und technische Journey-Eigenschaften - im Gegensatz zu statischen Profilattributen. *(produktspezifisch)*
+* **`currentEventField`**: Ein Verweis, der in Journey-Ausdrücken (nicht in Handlebars) verwendet wird, um während von Filtern oder Zuordnungsvorgängen auf jedes Element in einem Ereignis-Array zu verweisen.
+* **`currentActionField`**: Wird in Journey-Ausdrücken verwendet, um auf jedes Element in einer Sammlung benutzerdefinierter Aktionsantworten zu verweisen.
+* **`currentDataPackField`**: Wird in Journey-Ausdrücken verwendet, um auf jedes Element in einer Datenquellensammlung zu verweisen.
+* **`serializeList`**: Eine Journey-Ausdrucksfunktion, die eine Liste von Werten in eine durch Trennzeichen getrennte Zeichenfolge (z. B. kommagetrennt) konvertiert, die als Abfrageparameter verwendet werden kann.
+* **Zusätzlicher Bezeichner**: Ein Bezeichner auf Journey-Ebene, der gleichzeitige Journey-Instanzen unterscheidet, die durch dasselbe Profil ausgelöst werden. Wird zum Filtern eines Arrays nach dem für die aktuelle Instanz relevanten Element verwendet.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Handlebars-Iteration — Varianten: `{{#each}}`-Schleife, jede Schleife, Array-Iteration
+* **Verwechseln Sie nicht:** Handlebars-`{{#each}}` (wird im Nachrichteninhalt für die Iteration und Anzeige verwendet) ≠ Journey-Ausdruckssyntax (wird in der Journey-Aktivitätskonfiguration verwendet - verwendet Funktionen wie `first`, `all`, `serializeList`)
+* **Verwechseln Sie nicht:** `currentEventField` (Journey-Ausdrücke über Ereignis-Arrays) ≠ `currentActionField` (Sammlungen benutzerdefinierter Aktionsantworten) ≠ `currentDataPackField` (Sammlungen von Datenquellen)
+* **Verwechseln Sie nicht:** `@index` / `@first` / `@last` (Handlebars-Sondervariablen, nur in `{{#each}}` Schleifen im Nachrichteninhalt verfügbar) ≠ `first` / `head` (Journey-Ausdrucksfunktionen zum Extrahieren einzelner Elemente, verwendet in der Journey-Aktivitätskonfiguration)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Journey können keine dynamischen Schleifen erstellen, bei denen ein Aktionsknoten mehrmals pro Array-Element ausgeführt wird - dies ist beabsichtigt, um Leistungsprobleme zu vermeiden. Übergeben Sie stattdessen das gesamte Array oder eine serialisierte Liste an eine einzelne benutzerdefinierte Aktion.
+* Ereignis-Payloads müssen unter insgesamt 50 KB bleiben.
+* Payloads für benutzerdefinierte Aktionsantworten sollten unter 100 KB liegen.
+* Begrenzen Sie die Anzahl der Datensatz-Lookup-Schlüssel und der zurückgegebenen Entitäten, um eine optimale Leistung zu erzielen.
+* Ausdrucksfragmente können keine Variablen im Schleifenbereich (z. B. das aktuelle `{{#each}}` Iterationselement) als Parameter empfangen. Dies ist eine bekannte Einschränkung. Verwenden Sie stattdessen globale Variablen oder Inline-Logik.
+* Numerische Ereignis-IDs müssen in Backticks in Ausdruckspfaden (z. B. `` context.journey.events.`1697323153`.fieldName ``) eingeschlossen sein. Ohne Backticks löst der PQL-Parser einen Syntaxfehler aus.
+
+>[!TAB FAQs]
+
+**F: Was ist der Unterschied zwischen Handlebars-Syntax und Journey-Ausdruckssyntax bei der Arbeit mit Arrays?**
+
+Handlebars `{{#each}}` wird im Nachrichteninhalt für die Iteration und Anzeige verwendet. Die Journey-Ausdruckssyntax - mithilfe von Funktionen wie `first`, `all` und `serializeList` - wird bei der Konfiguration von Journey-Aktivitäten verwendet (z. B. benutzerdefinierte Aktionsparameter, Bedingungen). Es handelt sich um verschiedene Syntaxen, die in verschiedenen Kontexten verwendet werden.
+
+**F: Kann ich einen Journey-Aktionsknoten so schleifen, dass er einmal pro Array-Element ausgeführt wird?**
+
+Nein. Journey können keine dynamischen Schleifen erstellen, die einen Aktionsknoten mehrmals pro Element ausführen. Übergeben Sie stattdessen das gesamte Array oder eine serialisierte Liste an eine einzelne benutzerdefinierte Aktion, die alle Elemente verarbeitet, oder verwenden Sie die externe Aggregation.
+
+**F: Kann ich das aktuelle Schleifenelement in einer `{{#each}}` Schleife an ein Ausdrucksfragment übergeben?**
+
+Nein. Ausdrucksfragmente können keine Variablen im Schleifenbereich als Parameter empfangen. Verwenden Sie globale Variablen, die außerhalb der Schleife definiert sind, oder schließen Sie die Personalisierungslogik direkt in die Schleife ein, anstatt ein Fragment zu verwenden.
+
+**F: Wie kann ich Fallback-Inhalte anzeigen, wenn ein Array leer ist?**
+
+Verwenden Sie die `{{else}}`-Klausel innerhalb des `{{#each}}`. Inhalte in `{{else}}` werden gerendert, wenn das Array keine Elemente enthält.
+
+**F: Was bedeuten `@index`, `@first` und `@last` in einer `{{#each}}` Schleife?**
+
+Hierbei handelt es sich um spezielle Handlebars-Variablen, die nur in `{{#each}}` Schleifen im Nachrichteninhalt verfügbar sind: `@index` ist der aktuelle Iterationsindex auf Basis von 0, `@first` für die erste Iteration und `@last` für die letzte Iteration.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->

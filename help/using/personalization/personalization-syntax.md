@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1325
-ht-degree: 47%
+source-wordcount: 1979
+ht-degree: 31%
 
 ---
 
@@ -320,3 +320,80 @@ Wenn ein XDM-Schemafeldname einen Bindestrich enthält (z. B. `order-total`), sc
 ```
 
 Gebrauchsfertige Ausdrücke, die Sie direkt in Ihren Inhalt kopieren können, finden Sie unter [Personalization-Rezepte](personalization-recipes.md).
+
+## Kurzübersicht {#quick-reference}
+
+Dieser Abschnitt enthält strukturiertes Wissen zur Unterstützung von Interpretation, Abrufen und Antworten auf Fragen zu diesem Thema.
+
+Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentation auf dieser Seite kombiniert werden. Keine der beiden Quellen ist für Einzelpersonen gedacht. Die Seite beschreibt die Funktion, während dieser Abschnitt zusätzlichen Kontext bietet, der dabei hilft, Begriffe, Absichten, Anwendbarkeit und Begrenzungen zu unterscheiden.
+
+>[!BEGINTABS]
+
+>[!TAB Übersicht]
+
+**TL;DR**
+
+Auf dieser Seite werden die Handlebars- und PQL-Personalisierungssyntaxen in Journey Optimizer erläutert - die allgemeinen Regeln, reservierten Schlüsselwörter, die Namespace-Struktur, das Typsystem und die Best Practices zur Vermeidung gängiger Laufzeitfehler.
+
+**Intents**
+
+* Verstehen, wann Handlebars (`{{...}}`) und PQL (`{%= ... %}`) verwendet werden sollten
+* Anwenden allgemeiner Syntaxregeln: reservierte Zeichen, Groß-/Kleinschreibung, HTML-Escaping, umgekehrte Schrägstriche
+* Reservierte Keywords und spezielle Attributschlüssel mit Escape-Zeichen (getrennte Namen, numerische Ereignis-IDs) korrekt darstellen
+* Anwenden von Typzwang beim Vergleichen oder Übergeben von Werten nicht übereinstimmender Typen
+* Referenzpersonalisierung aus den verfügbaren Namespaces: Profil, Zielgruppe, Angebote
+* Befolgen Sie die Best Practices, um die häufigsten Laufzeitfehler und Validierungsfehler zu vermeiden
+
+>[!TAB Glossar]
+
+* **Handlebars**: Die `{{...}}` Vorlagensyntax, die zum Rendern von Attributen, zum Durchlaufen von Arrays und zum Aufrufen von Block-Helfern verwendet wird. Die Ausgabe in HTML wird standardmäßig mit Escapezeichen versehen. *(produktspezifisch)*
+* **Profile Query Language (PQL)**: Die `{%= ... %}` Ausdruckssyntax, die zum Aufrufen integrierter Funktionen (z. B. `upperCase()`, `formatDate()`) und zum Auswerten bedingter Ausdrücke verwendet wird. *(produktspezifisch)*
+* **Triple-Stash (`{{{ }}}`)**: Eine Handlebars-Syntaxvariante, die Werte ohne HTML-Escape-Zeichen ausgibt. Dies ist nützlich, wenn der Wert selbst HTML-Zeichen enthält, die nicht codiert werden sollten.
+* **Reservierte Schlüsselwörter**: PQL-Kennungen (`next`, `last`, `this`), die nicht direkt als Feld- oder Variablennamen verwendet werden können; müssen in Backticks eingeschlossen werden, wenn ein Schemafeld einen dieser Namen verwendet.
+* **Typzwang** Die explizite Konvertierung eines Werts von einem Datentyp in einen anderen (z. B. Zeichenfolge → Zahl) mithilfe von Funktionen wie `stringToNumber()` oder `toBool()`, die vor dem Vergleich oder der Arithmetik in PQL erforderlich sind.
+* **Namespace**: Die Gruppierung der Personalisierungsdaten auf oberster Ebene - Profil, Zielgruppe, Angebote - jeweils mit eigener Pfadstruktur und eigenen Zugriffsregeln.
+* **Block helper**: Ein Handlebars-Helper, der durch `#` vor dem Helper-Namen und einem entsprechenden schließenden `/` identifiziert wird und für Blockkonstrukte wie `{{#each}}` verwendet wird.
+
+>[!TAB Terminologie]
+
+* **Kanonischer Name:** Handlebars — für die `{{...}}` Syntax; PQL — für die `{%= ... %}`
+* **Verwechseln Sie nicht:** `{{...}}` (Handlebars — rendert Variablen und Helper, mit HTML-Escape-Zeichen versehen) ≠ `{%= ... %}` (PQL — wertet Funktionen und Ausdrücke aus) ≠ `{%#if%}`/`{%/if%}` (bedingte Blocksyntax, geschweifte Klammern mit Prozentzeichen)
+* **Verwechseln Sie nicht:** `{{profile.person.name}}` (Single-Stash — Ausgabe mit HTML-Escape-Zeichen) ≠ `{{{profile.person.name}}}` (Triple-Stash — Ausgabe ohne Escape-Zeichen)
+* **Verwechseln Sie nicht:** reservierte Backtick-Maskierung für Keywords (gilt für `{{...}}` und `{%= ... %}`) ≠ Backtick-Maskierung für Bindestriche (wird nur innerhalb `{%= ... %}` PQL-Ausdrücke unterstützt, nicht in `{{...}}`)
+* **Verwechseln Sie nicht:** `=` (PQL-Gleichheitsoperator — korrekt) ≠ `==` (ungültiger PQL — verursacht einen Syntaxfehler)
+
+>[!TAB Leitplanken und Einschränkungen]
+
+* Die Variable `xEvent` ist in Personalisierungsausdrücken nicht verfügbar. Jeder Verweis auf `xEvent` führt zu Validierungsfehlern.
+* PQL-Funktionsaufrufe innerhalb `{{...}}` Handlebars-Blöcke schlagen fehl. Verwenden Sie stattdessen `{%= ... %}`.
+* Die bedingte Syntax `{% if %}` / `{% elseif %}` / `{% endif %}` wird nicht unterstützt. Verwenden Sie `{%#if%}` / `{%else if%}` / `{%/if%}`.
+* Backtick-Escaping für getrennte Feldnamen wird nur innerhalb von PQL-Ausdrücken (`{%= ... %}`) unterstützt. In `{{...}}` Handlebars-Interpolation schlägt die Backtick-Syntax fehl - aber auf mit Bindestrichen versehene Feldnamen kann weiterhin direkt verwiesen werden (z. B. `{{profile.my-custom-field}}`).
+* Reservierte Schlüsselwörter (`next`, `last`, `this`) müssen in Backticks eingeschlossen werden, wenn sie als Schemafeldnamen verwendet werden. Gilt für `{{...}}` und `{%= ... %}`.
+* Ein einfacher umgekehrter Schrägstrich `\` wird nicht als literales Funktionsargument unterstützt. Verwenden Sie einen doppelten umgekehrten Schrägstrich `\\`.
+* PQL ist stark typisiert. Nicht übereinstimmende Typen in Vergleichen oder Arithmetik erfordern eine explizite Konvertierung mithilfe von `stringToNumber()`, `toBool()` oder ähnlichen Zwangsfunktionen.
+
+>[!TAB FAQs]
+
+**F: Wann sollte ich `{{...}}` vs. `{%= ... %}` verwenden?**
+
+Verwenden Sie `{{...}}` (Handlebars), um Attributwerte zu rendern, Arrays zu durchlaufen und Block-Helper aufzurufen. Verwenden Sie `{%= ... %}` (PQL), um integrierte Funktionen wie `upperCase()` und `formatDate()` aufzurufen und bedingte Ausdrücke auszuwerten.
+
+**F: Wie gebe ich einen Wert ohne HTML-Codierung aus?**
+
+Verwenden Sie die Triple-Stash-`{{{ }}}` anstelle von `{{...}}`. Handlebars mit einer Klammer HTML-Escapes-Ausgabe (z. B. wird `&` zu `&amp;`); Triple-Stash-Bypässe mit Escaping.
+
+**F: Was ist der richtige Gleichheitsoperator in PQL?**
+
+Verwenden Sie einen einzigen `=` für Gleichheitsvergleiche in PQL. Die Verwendung von `==` ist ein Syntaxfehler.
+
+**F: Wie verweise ich auf ein Schemafeld, dessen Name ein reserviertes Schlüsselwort ist (z. B. `next`, `last`, `this`)?**
+
+Binden Sie ihn in Backticks ein: `{{profile.person.\`next\`.name&rbrace;&grave;. Dies gilt sowohl für Handlebars-Pfade als auch für PQL-Ausdrücke.
+
+**F: Kann ich PQL-Funktionen in `{{...}}` Handlebars-Blöcken aufrufen?**
+
+Nein. `{{...}}` löst nur Handlebars-Variablen und -Helfer auf. Eine PQL-Funktion in `{{...}}` verursacht den Fehler „Helper konnte nicht gefunden werden“. Verwenden Sie stattdessen `{%= functionName(...) %}` .
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 7fa07aa5 -->
