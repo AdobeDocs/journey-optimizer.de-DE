@@ -219,7 +219,7 @@ Ja. Bei Journey, die eine Aktivität **Zielgruppe lesen** mit einer geplanten Ze
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
 
 +++ KI-Wissensreferenz
 
