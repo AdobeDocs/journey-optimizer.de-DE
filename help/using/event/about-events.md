@@ -10,12 +10,24 @@ level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
 source-wordcount: 2407
@@ -172,7 +184,7 @@ Verwenden Sie diese Zusammenfassung, um Ihre Implementierung zu planen, bevor Si
 
 ## So erreichen Ereignisse Journey Optimizer {#data-cycle}
 
-Ereignisse müssen als POST-Aufrufe über [Adobe Experience Platform-Streaming-Aufnahme-APIs an [!DNL Journey Optimizer] gesendet ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de){target="_blank"}. Die Payload muss der XDM-Formatierung entsprechen und für das Ereignisschema muss **Echtzeit-Kundenprofil** aktiviert sein.
+Ereignisse müssen als POST-Aufrufe über [Adobe Experience Platform-Streaming-Aufnahme-APIs an [!DNL Journey Optimizer] gesendet &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de){target="_blank"}. Die Payload muss der XDM-Formatierung entsprechen und für das Ereignisschema muss **Echtzeit-Kundenprofil** aktiviert sein.
 
 Es werden sowohl authentifizierte als auch nicht authentifizierte Streaming-Modi unterstützt. Batch-aufgenommene Ereignisse und Ereignisse aus internen [!DNL Journey Optimizer]-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking und Ähnliches) können nicht zum Trigger von Journey verwendet werden. Verwenden Sie stattdessen eine Aktivität **Zielgruppe lesen** für diese Anwendungsfälle.
 
@@ -186,7 +198,7 @@ Adobe Journey Optimizer erzwingt für alle Sandboxes separate Durchsatzbeschrän
 
 Diese Beschränkungen gelten für alle Ereignisse, die in aktiven Journey verwendet werden, einschließlich **Live**, **Dry Run**, **Closed** und **Paused** Journey. Wenn ein Limit erreicht wird, werden neue Ereignisse mit 5.000 pro Sekunde in die Warteschlange gestellt und verarbeitet, bis die Warteschlange abgelaufen ist.
 
-Weitere Informationen zu Journey-Verarbeitungsraten und wie sich verschiedene Journey-Typen auf den Durchsatz auswirken, finden [ unterWeitere Informationen zu Journey-Verarbeitungsraten](../building-journeys/entry-management.md#journey-processing-rate).
+Weitere Informationen zu Journey-Verarbeitungsraten und wie sich verschiedene Journey-Typen auf den Durchsatz auswirken, finden [&#x200B; unterWeitere Informationen zu Journey-Verarbeitungsraten](../building-journeys/entry-management.md#journey-processing-rate).
 
 Die folgenden Ereignistypen werden für diese Kontingente gezählt:
 
