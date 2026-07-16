@@ -10,24 +10,16 @@ keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 1822
-ht-degree: 49%
+source-wordcount: 2155
+ht-degree: 41%
 
 ---
 
@@ -78,7 +70,7 @@ Wenn die Journey mehrere Pfade hat, empfehlen wir, für jedes Ende ein Label hin
 
 Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
-* Eine nicht wiederkehrende Journey Zielgruppe lesen **stoppt automatisch** sobald das letzte Profil die Journey beendet. [Weitere Informationen](#auto-stop-non-recurring)
+* Eine nicht wiederkehrende Journey „Zielgruppe lesen **stoppt nach** geplanten Ausführung automatisch nach einem Sicherheitspuffer. [Weitere Informationen](#auto-stop-non-recurring)
 * Nach dem letzten Vorkommen einer wiederkehrenden zielgruppenbasierten Journey.
 * Die Journey wird manuell über die Schaltfläche [**[!UICONTROL Für neue Eintritte schließen]**](#close-to-new-entrances) geschlossen.
 * Das globale Journey-Timeout von 91 Tagen wurde erreicht.
@@ -87,21 +79,24 @@ Nach dem **globalen Journey-Timeout von 91 Tagen** wird der Status der Journey 
 
 ### Automatischer Journey-Stopp für nicht wiederkehrende Zielgruppen {#auto-stop-non-recurring}
 
-Eine **nicht wiederkehrende Journey mit dem Schritt „Zielgruppe lesen** wechselt automatisch in den Status **[!UICONTROL Angehalten]**, sobald das letzte Profil die Journey verlässt. Dadurch wird das vorherige Verhalten eliminiert, bei dem nicht wiederkehrende Journey von „Zielgruppe lesen **bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit im Status „Live** blieben, obwohl keine Profile aktiv durch sie hindurch strömten.
+Eine **nicht wiederkehrende Journey mit dem** „Zielgruppe lesen“ wechselt nach der geplanten Ausführung ]**Sicherheitspuffer automatisch in den Status**[!UICONTROL  Angehalten“. Dadurch wird das vorherige Verhalten eliminiert, bei dem nicht wiederkehrende Journey von „Zielgruppe lesen **bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit im Status „Live** blieben, obwohl keine Profile aktiv durch sie hindurch strömten.
 
 **Funktionsweise:**
 
 1. Die Journey wird ausgeführt und alle Profile aus der Zielgruppe werden verarbeitet.
 1. Wenn jedes Profil das Ende der Journey erreicht, wird es normal beendet.
-1. Wenn das **letzte aktive Profil beendet wird** wechselt die Journey automatisch in den Status **[!UICONTROL Angehalten]**.
+1. Wenn das **letzte aktive Profil** beendet wird, tritt die Journey in eine Sicherheitspufferperiode ein und verbleibt im **[!UICONTROL -]**.
+1. Nach Ablauf des Sicherheitspuffers (ca. 96 Stunden nach der geplanten Laufzeit der Journey) wechselt die Journey beim nächsten ]**automatisch in den Status**[!UICONTROL  Angehalten“.
 
 Dieses Verhalten gilt nur für **nicht wiederkehrende Journey des Typs „Zielgruppe lesen**. Wiederkehrende Journey sind davon nicht betroffen.
 
->[!NOTE]
->
->* Dieses automatische Stopp-Verhalten gilt **nicht** für nicht wiederkehrende Journey, die Knoten enthalten, die Wartezeiten verursachen, wie **Warten**-Knoten (zeitgeberbasiert), **Reaktion**-Knoten (Warten auf Ereignisse wie E-Mail-Öffnungen oder -Klicks) oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen [91-tägigen globalen Zeitüberschreitung](../building-journeys/journey-properties.md#global_timeout).
->
->* Sie können eine nicht wiederkehrende Journey mit dem Schritt Zielgruppe lesen jederzeit manuell schließen, indem Sie die Option [**[!UICONTROL Für neue Eintritte schließen]**](#close-to-new-entrances) verwenden. Das automatische Stopp-Verhalten stellt lediglich sicher, dass die Journey automatisch stoppt, wenn sie nicht mehr benötigt wird, ohne dass ein manuelles Eingreifen erforderlich ist.
+* **Zeitpunkt des automatischen Stopps:** Der Sicherheitspuffer berücksichtigt zwei Fenster: ein **24-Stunden-Leerlauffenster** um alle Sendungen während des Fluges abzuschließen, und eine **72-Stunden-** (Ruhestunden können Sendungen um bis zu 72 Stunden zurückstellen und sind für den Scanner nicht sichtbar). Der Gesamtpuffer liegt ca. **96 Stunden (~4 Tage)** nach der geplanten Laufzeit der Journey. Die Journey verbleibt während **[!UICONTROL Zeitraums im]**-Status. Dieses Verhalten ist zu erwarten und weist nicht auf ein Problem hin.
+
+* **Wellenbasierte Journey sind ausgeschlossen:** Dieses automatische Stopp-Verhalten gilt nicht für wellenbasierte Journey, einschließlich Journey, die die Sendezeitoptimierung verwenden. Diese Journey bleiben über alle geplanten Schübe hinweg aktiv und werden nur bis zum standardmäßigen globalen [91-Tage-Timeout](../building-journeys/journey-properties.md#global_timeout) angehalten, es sei denn, sie werden manuell geschlossen oder gestoppt.
+
+* Dieses automatische Stopp-Verhalten gilt **nicht** für nicht wiederkehrende Journey, die Knoten enthalten, die Wartezeiten verursachen, wie **Warten**-Knoten (zeitgeberbasiert), **Reaktion**-Knoten (Warten auf Ereignisse wie E-Mail-Öffnungen oder -Klicks) oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen [91-tägigen globalen Zeitüberschreitung](../building-journeys/journey-properties.md#global_timeout).
+
+* Sie können eine nicht wiederkehrende Journey mit dem Schritt Zielgruppe lesen jederzeit manuell schließen, indem Sie die Option [**[!UICONTROL Für neue Eintritte schließen]**](#close-to-new-entrances) verwenden. Das automatische Stopp-Verhalten stellt lediglich sicher, dass die Journey automatisch stoppt, wenn sie nicht mehr benötigt wird, ohne dass ein manuelles Eingreifen erforderlich ist.
 
 ### Wann gilt eine Journey als „fertig“? {#journey-finished-definition}
 
@@ -109,7 +104,7 @@ Die Definition von „abgeschlossen“ hängt vom Journey-Typ ab:
 
 | Journey-Typ | Wiederkehrend? | Hat ein Enddatum? | Definition von „abgeschlossen“ |
 |--------------|------------|---------------|--------------------------|
-| Zielgruppe lesen | Nein | k. A. | Wenn das letzte Profil beendet wird (automatisches Anhalten) |
+| Zielgruppe lesen | Nein | k. A. | ~96 Stunden nach dem letzten Verlassen des Profils (automatischer Stopp-Puffer) |
 | Zielgruppe lesen | Ja | Nein | 91 Tage nach Beginn des letzten Vorkommens |
 | Zielgruppe lesen | Ja | Ja | Wenn das Enddatum erreicht ist |
 | Durch Ereignis ausgelöste Journey | k. A. | Ja | Wenn das Enddatum erreicht ist |
@@ -196,7 +191,7 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 * Nur Journey mit dem Status Beendet können gelöscht werden.
 * Zum Anhalten eines Journey ist die Berechtigung Journey verwalten erforderlich. Journey mit Inline-Kampagnen oder Messaging-Knoten benötigen außerdem die Berechtigung Kampagnen > Kampagnen veröffentlichen .
 * Nach der 91-tägigen globalen maximalen Wartezeit werden alle Profil-Journey-Daten entfernt und die verbleibenden Profile werden automatisch beendet.
-* Ein nicht wiederkehrender Journey mit dem Schritt „Zielgruppe lesen“ ohne langwierige Warte-, Reaktions- oder ereignisausgelöste Knoten wechselt automatisch zu „Angehalten“, wenn das letzte Profil beendet wird. Journey mit diesen Knoten unterliegen weiterhin der globalen maximalen Wartezeit von 91 Tagen, es sei denn, sie werden manuell geschlossen.
+* Ein nicht wiederkehrender Journey mit dem Schritt „Zielgruppe lesen“ ohne langwierige Wartezeiten, Reaktionen oder ereignisausgelöste Knoten wird automatisch ungefähr 96 Stunden (~4 Tage) nach dem letzten Profilende in „Angehalten“ überführt. Die Journey verbleibt während dieses Puffers im Live-Status. Schub-basierte Journey, einschließlich Anwendungsfälle für die Sendezeitoptimierung, sind von diesem automatischen Stopp ausgeschlossen und unterliegen weiterhin dem 91-tägigen globalen Timeout, es sei denn, sie werden manuell geschlossen oder gestoppt.
 
 **Terminologie:**
 
@@ -207,7 +202,9 @@ Zum vollständigen Verständnis sollten diese Informationen mit der Dokumentatio
 **FAQ:**
 
 * **F: Was ist der Unterschied zwischen dem Schließen und Anhalten einer Journey?** — Durch Schließen werden neue Eintritte blockiert, vorhandene Profile können jedoch beendet werden. Durch Anhalten werden sofort alle Profile in ihrer Spur angehalten.
-* **F: Wann erreicht eine Journey mit dem Schritt „Zielgruppe lesen“ den Status „Beendet“?** — Für einen nicht wiederkehrenden Journey mit dem Schritt „Zielgruppe lesen“: Er wird automatisch angehalten, wenn das letzte Profil beendet wird (oder nach 91 Tagen, wenn Warten, Reaktion oder Ereignisknoten Profile aktiv halten). Beendet wird erreicht, wenn eine geschlossene Journey die 91-tägige globale Zeitüberschreitung erreicht, oder gemäß den Regeln für wiederkehrendes Journey in der Tabelle für die fertige Definition.
+* **F: Warum bleibt eine nicht wiederkehrende Journey nach ihrer Ausführung mehrere Tage lang im Live-Status?** — Dies ist zu erwarten. Nach dem Verlassen des letzten Profils wendet AJO einen Sicherheitspuffer von ~96 Stunden (~4 Tage) an: 24 Stunden, um den Abschluss von Sendungen während des Fluges zu ermöglichen, plus 72 Stunden für Stundungen während der Ruhezeit. Die Journey-Überblendung wird beim nächsten Scanner beendet, nachdem der Puffer abgelaufen ist.
+* **F: Wird die Wellen-basierte Journey nach ~96 Stunden automatisch angehalten?** — Nein. Schub-basierte Journey, einschließlich Journey, die die Sendezeitoptimierung verwenden, sind von diesem automatischen Stopp ausgeschlossen, damit sie in allen geplanten Schüben aktiv bleiben können. Sie folgen dem standardmäßigen 91-Tage-Journey-Timeout, sofern sie nicht manuell geschlossen oder gestoppt werden.
+* **F: Wann erreicht eine Journey mit dem Schritt „Zielgruppe lesen“ den Status „Beendet“?** — Für eine nicht wiederkehrende Journey mit dem Schritt „Zielgruppe lesen“: Wird automatisch etwa 96 Stunden (~4 Tage) nach dem letzten Profilaustritt angehalten (Sicherheitspuffer: 24 Stunden Leerlauffenster + 72 Stunden Toleranz für Ruhezeit). Die Journey verbleibt während dieses Puffers im Live-Status. Wenn Warten-, Reaktions- oder Ereignisknoten Profile aktiv lassen, gilt stattdessen das standardmäßige globale 91-Tage-Timeout. Beendet wird erreicht, wenn eine geschlossene Journey die 91-tägige globale Zeitüberschreitung erreicht, oder gemäß den Regeln für wiederkehrendes Journey in der Tabelle für die fertige Definition.
 * **F: Kann ich eine geschlossene Journey löschen?** — Nein, nur fertige Journey können gelöscht werden.
 * **F: Was passiert mit Profilen, die sich noch auf einer Journey befinden, wenn die 91-Tage-Zeitüberschreitung eintritt?** — Sie werden zu diesem Zeitpunkt automatisch aus der Journey gelöscht.
 * **F: Benötige ich spezielle Berechtigungen, um eine Journey zu stoppen?** — Ja, die Berechtigung Journey verwalten ist erforderlich. Außerdem ist Kampagnen > Kampagnen veröffentlichen erforderlich, wenn die Journey Inline-Kampagnen oder Messaging-Knoten enthält.
