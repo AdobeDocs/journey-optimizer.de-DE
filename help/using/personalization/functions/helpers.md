@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 50%
+source-wordcount: 1188
+ht-degree: 51%
 
 ---
 
@@ -33,7 +32,7 @@ In diesem Beispiel wird der Wert `there` angezeigt, wenn das Attribut `firstName
 ## Bedingungen{#if-function}
 
 Der Helper `if` wird zum Definieren eines bedingten Blocks verwendet.
-Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
+Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargestellt, andernfalls wird er übersprungen.
 
 **Syntax**
 
@@ -42,8 +41,8 @@ Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block gerende
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Nach dem Helper `if` können Sie eine `else` eingeben, um einen Code-Block auszuführen, wenn die Bedingung „false“ ist.
-Die `elseif`-Anweisung gibt eine neue Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
+Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung „false“ zurückgibt.
+Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
 
 
 **Format**
@@ -136,9 +135,9 @@ Some edu specific content
 
 ## Jeweils{#each}
 
-Der `each` Helper wird verwendet, um die Elemente eines Arrays zu verarbeiten.
+Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
 Die Syntax des Helpers lautet `{{#each ArrayName}}` YourContent `{{/each}}`.
-Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` dargestellt werden.
+Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
 
 **Syntax**
 
@@ -311,9 +310,9 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 **Einschränkungen**
 
-Die Obergrenze für Schlüssel-Wert-Paare pro Aktion ist 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
-
-Metadaten werden nicht für Profile erfasst, die von der Aktion ausgeschlossen sind. Wenn ein Profil vom Erhalt einer Nachricht ausgeschlossen wird, wird für dieses Profil kein Metadateneintrag im Datensatz erstellt.
+* Pro Aktion können maximal 50 Schlüssel-Wert-Paare übergeben werden.
+* Die gesamte Metadaten-Payload ist auf 2 KB pro Aktion beschränkt. Wenn das Limit von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes Schlüssel-Wert-Paar kann abgeschnitten werden.
+* Metadaten werden nicht für Profile erfasst, die von der Aktion ausgeschlossen sind. Wenn ein Profil vom Erhalt einer Nachricht ausgeschlossen wird, wird für dieses Profil kein Metadateneintrag im Datensatz erstellt.
 
 **Beispiel**
 
