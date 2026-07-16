@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Inhaltsprüfung, HTML, CSS, Validierung, Rendering, Qualität
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="Validieren Ihrer E-Mail-Inhalte"
 >abstract="Inhaltsprüfungen erkennen automatisch HTML- und CSS-Probleme in Ihrer E-Mail, bevor Sie diese absenden. Sie markieren nicht unterstützte Tags, leere Divs und Größenbeschränkungen, die das Rendern in Gmail oder Microsoft Outlook unterbrechen können. Probleme werden als Fehler, Warnungen oder informative Hinweise angezeigt, mit kontextuellen Details und Fehlerbehebungen mit einem Klick, sofern verfügbar."
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 [!DNL Journey Optimizer] umfasst eine automatisierte technische Validierung direkt in der E-Mail-Designer, mit der Sie HTML- und CSS-Probleme vor dem Versand erfassen können.
 
@@ -56,8 +51,10 @@ Wenn keine Probleme erkannt werden, wird im Fenster **Keine Probleme erkannt** a
 
 Je nach Problem können Sie mehr Kontext anzeigen, eine Fehlerbehebung mit einem Klick anwenden oder Ihre E-Mail speichern, um ein Prüfergebnis zu aktualisieren.
 
-* Klicken Sie bei einem festgestellten Problem auf die Schaltfläche **[!UICONTROL Details anzeigen]**, um mehr Kontext anzuzeigen. Klicken Sie auf **[!UICONTROL Details ausblenden]**, um sie zu reduzieren.  ![Inhaltsüberprüfungsbereich in der E-Mail-Designer mit Details](assets/content-check-details.png){width="80%"}
-* Ebenso können Sie auf die Schaltfläche **[!UICONTROL Fehlerbehebung anzeigen]** klicken und eine Fehlerbehebung mit einem Klick anwenden, sofern verfügbar. Wenn die Fehlerbehebung nicht automatisch angewendet werden kann, wird eine Meldung angezeigt, und Sie müssen das Problem manuell beheben.  ![Inhaltsüberprüfungsfenster in E-Mail-Designer mit der Schaltfläche „Fehlerbehebung anwenden“](assets/content-check-fix.png){width="80%"}
+* Klicken Sie bei einem festgestellten Problem auf die Schaltfläche **[!UICONTROL Details anzeigen]**, um mehr Kontext anzuzeigen. Klicken Sie auf **[!UICONTROL Details ausblenden]**, um sie zu reduzieren.
+  ![Inhaltsüberprüfungsbereich in der E-Mail-Designer mit Details](assets/content-check-details.png){width="80%"}
+* Ebenso können Sie auf die Schaltfläche **[!UICONTROL Fehlerbehebung anzeigen]** klicken und eine Fehlerbehebung mit einem Klick anwenden, sofern verfügbar. Wenn die Fehlerbehebung nicht automatisch angewendet werden kann, wird eine Meldung angezeigt, und Sie müssen das Problem manuell beheben.
+  ![Inhaltsüberprüfungsfenster in E-Mail-Designer mit der Schaltfläche „Fehlerbehebung anwenden“](assets/content-check-fix.png){width="80%"}
 
 ### Neuberechnung der Schecks {#recalculation}
 
@@ -111,6 +108,26 @@ In den folgenden Tabellen sind alle möglichen Nachrichten und die jeweils empfo
 
 ## Über HTML und die CSS-Größe {#size-estimation}
 
-Die Werte für die HTML- und CSS-Größe **Schätzungen werden zum Zeitpunkt der Erstellung berechnet** und können von der tatsächlichen Empfängergröße abweichen, z. B. wenn Ihre E-Mail bedingte Blöcke verwendet (nur eine Verzweigung pro Empfänger wird gerendert) oder wenn die HTML-Minimierung zum Zeitpunkt des Versands aktiviert ist.
+Die in der E-Mail-Designer angezeigten HTML- und CSS **Größenwerte werden zum Zeitpunkt der Erstellung berechnet**. Sie spiegeln die vollständige gerenderte Payload so wider, wie sie im Editor zu diesem Zeitpunkt existiert, und umfassen:
 
-Größenwarnungen sind proaktive Signale, die Ihnen helfen, Inhalte vor dem Versand zu optimieren, und keine harten Blöcke.
+* **HTML-**: Alle Markups, Tags, Layout-Wrapper und Inline-Stile
+* **Inline-CSS** - E-Mail-Designer fügt Stile vor der Größenberechnung ein. Dies ist bei E-Mail-Clients standardmäßig der Fall, erhöht jedoch den Rohwert im Vergleich zu einem externen Stylesheet
+* **Textinhalt** - Alle Kopier- und Personalisierungs-Token, gezählt nach ihrer Platzhalterlänge (nicht nach ihrem aufgelösten Wert)
+* **Fragmente** - Alle referenzierten Fragmente werden inline erweitert, sodass jedes Fragment seine volle HTML/CSS-Gewichtung zur Gesamtgröße beiträgt.
+* **Bedingte Blöcke (andernfalls)** - **alle Verzweigungen** werden bei der Bearbeitung in die Größenschätzung einbezogen, da Bedingungen erst zum Versandzeitpunkt ausgewertet werden
+* **Bilder** - Es wird nur die Bildreferenz (src-URL) gezählt, nicht die Binärbilddaten selbst
+
+### Warum die Schätzung von der bereitgestellten Größe abweichen kann {#size-estimate-difference}
+
+Bei der angezeigten Größe handelt es sich um eine Schätzung der ungünstigsten Obergrenze, nicht um die genaue E-Mail, die ein Empfänger erhalten wird. Sie kann aus den folgenden Gründen abweichen:
+
+* **Bedingter Inhalt**: Zum Sendezeitpunkt wird nur die Verzweigung gerendert, die dem Empfängerprofil entspricht. Bei einer Vorlage mit 120 KB im Editor wird für die meisten Empfänger möglicherweise eine E-Mail mit 60 KB erstellt.
+* **Personalization-Token**: Platzhalter-Token werden nach ihrer rohen Token-Länge gezählt. Aufgelöste Werte sind normalerweise kürzer.
+* **HTML-**: Wenn die Option **[!UICONTROL Größe der HTML optimieren]** aktiviert ist, werden Leerzeichen, Kommentare und redundante Zeichen beim Versand entfernt, was die endgültige Payload verringert. [Weitere Informationen](create-email.md#optimize-html-size)
+
+### Was Größenwarnungen für Autoren bedeuten {#size-warnings}
+
+Größenwarnungen (z. B. HTML mit mehr als 100 KB) sind **proaktive Signale** die Ihnen helfen, Ihre E-Mail vor dem Versand zu optimieren - sie sind keine festen Blöcke und spiegeln nicht die genaue Größe wider, die Empfänger sehen werden. Sie dienen dazu, Folgendes zu vermeiden:
+
+* E-Mails werden von Gmail abgeschnitten, das Nachrichten auf etwa 102 KB von HTML abschneidet
+* Langsames Rendering auf Mobilgeräten oder bei Verbindungen mit geringer Bandbreite
