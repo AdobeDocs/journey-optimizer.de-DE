@@ -9,24 +9,15 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
 workflow-type: tm+mt
-source-wordcount: 4606
+source-wordcount: 4612
 ht-degree: 94%
 
 ---
@@ -171,7 +162,7 @@ Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgend
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu **5 Minuten** dauern, bis die erste Aktion in der Journey verarbeitet wird.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
-* Auf ein einzelnes Ereignis können maximal **25 %** Journey verwiesen werden. Wenn diese Grenze erreicht ist, wird die Veröffentlichung aller zusätzlichen Journey, die dieses Ereignis verwenden, blockiert.
+* Ein einzelnes Ereignis kann von maximal **25 % Journey** Personen gleichzeitig für alle Live- und geschlossenen Journey referenziert werden. Wenn diese Grenze erreicht ist, wird die Veröffentlichung aller zusätzlichen Journey, die dieses Ereignis verwenden, blockiert.
 * Ein einzelnes XDM-Schema kann durch maximal 100 **-Ereignisse** allen Live- und geschlossenen Journey-Schemata gleichzeitig referenziert werden. Wenn dieses Limit erreicht ist, werden alle Journey mit einem Ereignisknoten veröffentlicht, der auf dieses Schema verweist.
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig **5 Minuten** lang vorübergehend blockiert. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über den **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppenqualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
