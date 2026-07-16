@@ -30,7 +30,7 @@ Der **Channel Builder**-Abschnitt ist die zentrale Schnittstelle zum Definieren 
 
 >[!IMPORTANT]
 >
->Um auf den Channel Builder zugreifen, benutzerdefinierte Kanäle erstellen und verwalten zu können, benötigen Sie die Berechtigungen **Benutzerdefinierte Kanäle anzeigen** und **Benutzerdefinierte Kanäle verwalten** . <!--[Learn more](../administration/high-low-permissions.md)--> Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Berechtigungen &#x200B;](../administration/permissions.md).
+>Um auf den Channel Builder zugreifen, benutzerdefinierte Kanäle erstellen und verwalten zu können, benötigen Sie die Berechtigungen **Benutzerdefinierte Kanäle anzeigen** und **Benutzerdefinierte Kanäle verwalten** . <!--[Learn more](../administration/high-low-permissions.md)--> Erfahren Sie in ([ Abschnitt), wie Sie Berechtigungen ](../administration/permissions.md).
 
 ## Zugreifen auf und Verwalten von benutzerdefinierten Kanälen {#access-channel-builder}
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um auf **Channel Builder** zuzugreifen und Ihre benutze
 
 1. Sie können die benutzerdefinierten Kanäle nach Status (**Entwurf**, **Aktiv** oder **Archiviert**) filtern, von wem sie erstellt wurden, und nach Namen suchen.
 
-1. Um einen Kanal zu bearbeiten, klicken Sie im Inventar auf seinen Namen, nehmen Sie die Änderungen vor und speichern Sie. Für aktive Kanäle können nur bestimmte Felder bearbeitet werden ([&#x200B; Informationen](#test-activate).
+1. Um einen Kanal zu bearbeiten, klicken Sie im Inventar auf seinen Namen, nehmen Sie die Änderungen vor und speichern Sie. Für aktive Kanäle können nur bestimmte Felder bearbeitet werden ([ Informationen](#test-activate).
 
    >[!CAUTION]
    >
@@ -122,7 +122,8 @@ Sie müssen den Endpunkt konfigurieren. Dies ist die HTTP-URL Ihres externen Mes
 
    * **[!UICONTROL Drosselung aktivieren]** - Standardmäßig deaktiviert. Legen Sie die maximale Anzahl von Anfragen pro Sekunde fest (Standard: **5.000c**). Sobald das Limit erreicht ist, werden Anfragen in die Warteschlange gestellt und so bald wie möglich gesendet.
    * **[!UICONTROL Wiederholen aktivieren]** - Standardmäßig aktiviert. Legen Sie die maximale Wiederholungsanzahl (Standard: **3)** konfigurierbaren Bereich: 0-10) für fehlgeschlagene Anfragen fest. Dadurch wird verhindert, dass der Endpunkt während vorübergehender Fehler überlastet wird.
-   * **[!UICONTROL Zeitüberschreitung]** - Standard: **5.000 Millisekunden**. Legen Sie die maximale Zeit fest, die auf eine Antwort des Endpunkts gewartet werden soll, bevor die Anfrage als fehlgeschlagen eingestuft wird.     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL Zeitüberschreitung]** - Standard: **5.000 Millisekunden**. Legen Sie die maximale Zeit fest, die auf eine Antwort des Endpunkts gewartet werden soll, bevor die Anfrage als fehlgeschlagen eingestuft wird.
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## Authentifizierungseinstellungen {#authentication-settings}
 
