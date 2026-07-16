@@ -80,7 +80,7 @@ Informationen zum Connector-Onboarding und zur End-to-End-Einrichtung finden Sie
 
 ### Profilattribute {#profile-attributes}
 
-Herausforderungen für Zielgruppen, Personalisierung und Reporting: Verwenden Sie Profile in der **[!DNL XDM Individual Profile]**. Richten Sie die Identität [Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} die Sie für Herausforderungen im Zusammenhang mit der Treue verwenden, daran aus, wie Mitglieder in Ihren Profildaten identifiziert werden, und richten Sie sie an dem Namespace aus **[!UICONTROL der im Menü**[!UICONTROL  Treueprogramm-Admin ]**ausgewählt]**.
+Herausforderungen für Zielgruppen, Personalisierung und Reporting: Verwenden Sie Profile in der **[!DNL XDM Individual Profile]**. Richten Sie die Identität [Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} die Sie für Herausforderungen im Zusammenhang mit der Treue verwenden, daran aus, wie Mitglieder in Ihren Profildaten identifiziert werden, und richten Sie sie an dem Namespace aus **[!UICONTROL der im Menü**&#x200B;[!UICONTROL &#x200B; Treueprogramm-Admin &#x200B;]&#x200B;**ausgewählt]**.
 
 Verwenden Sie für Standardattribute vom Profil (Punkte, Ebene, Programm, Status und zugehörige Felder) die Schemafeldgruppe **[Treuedetails](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** von Experience Platform. Diese Feldergruppe definiert das `loyalty` und seine Eigenschaften (z. B. `points`, `tier`, `program` und `status`).
 
