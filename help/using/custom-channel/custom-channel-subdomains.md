@@ -35,7 +35,7 @@ ht-degree: 42%
 
 ## Erste Schritte mit benutzerdefinierten Kanal-Subdomains {#gs-custom-channel-subdomains}
 
-Um das Linktracking in Ihren benutzerdefinierten Kanalnachrichten zu aktivieren, müssen Sie die Subdomain einrichten, die Sie beim Erstellen [ benutzerdefinierten Kanalkonfiguration auswählen](custom-channel-configuration.md#subdomain-delegation).
+Um das Linktracking in Ihren benutzerdefinierten Kanalnachrichten zu aktivieren, müssen Sie die Subdomain einrichten, die Sie beim Erstellen [&#x200B; benutzerdefinierten Kanalkonfiguration auswählen](custom-channel-configuration.md#subdomain-delegation).
 
 Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
@@ -47,6 +47,7 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
+
 ## Verwenden einer vorhandenen Subdomain {#custom-channel-use-existing-subdomain}
 
 Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde.

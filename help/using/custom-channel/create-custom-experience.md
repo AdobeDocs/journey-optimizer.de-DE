@@ -71,7 +71,7 @@ So verwenden Sie einen benutzerdefinierten Kanal in einer Kampagne:
    * **[!UICONTROL Geplant - Marketing]** - Wird sofort oder an einem bestimmten Datum ausgeführt. Konzipiert für Marketing-Nachrichten, konfiguriert über die Benutzeroberfläche.
    * **[!UICONTROL API-ausgelöst - Marketing/Transaktion]** - Wird über einen API-Aufruf ausgeführt. Entwickelt für ereignisausgelöstes Messaging (z. B. Bestellbestätigungen oder Zurücksetzen von Passwörtern). [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
 
-1. Schließen Sie die Kampagneneinrichtung ab: Kampagneneigenschaften[ &quot;](../audience/about-audiences.md)&quot; und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Schließen Sie die Kampagneneinrichtung ab: Kampagneneigenschaften[&#x200B; &quot;](../audience/about-audiences.md)&quot; und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
 1. Wählen **[!UICONTROL im Abschnitt]** den benutzerdefinierten Kanal aus der Kanalauswahl aus. Alle benutzerdefinierten Kanäle, die in Ihrer Sandbox konfiguriert sind, werden neben nativen Kanälen angezeigt.
 

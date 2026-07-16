@@ -30,7 +30,7 @@ Der **Channel Builder**-Abschnitt ist die zentrale Schnittstelle zum Definieren 
 
 >[!IMPORTANT]
 >
->Um auf den Channel Builder zugreifen, benutzerdefinierte Kanäle erstellen und verwalten zu können, benötigen Sie die Berechtigungen **Benutzerdefinierte Kanäle anzeigen** und **Benutzerdefinierte Kanäle verwalten** . <!--[Learn more](../administration/high-low-permissions.md)--> Erfahren Sie in ([ Abschnitt), wie Sie Berechtigungen ](../administration/permissions.md).
+>Um auf den Channel Builder zugreifen, benutzerdefinierte Kanäle erstellen und verwalten zu können, benötigen Sie die Berechtigungen **Benutzerdefinierte Kanäle anzeigen** und **Benutzerdefinierte Kanäle verwalten** . <!--[Learn more](../administration/high-low-permissions.md)--> Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Berechtigungen &#x200B;](../administration/permissions.md).
 
 ## Zugreifen auf und Verwalten von benutzerdefinierten Kanälen {#access-channel-builder}
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um auf **Channel Builder** zuzugreifen und Ihre benutze
 
 1. Sie können die benutzerdefinierten Kanäle nach Status (**Entwurf**, **Aktiv** oder **Archiviert**) filtern, von wem sie erstellt wurden, und nach Namen suchen.
 
-1. Um einen Kanal zu bearbeiten, klicken Sie im Inventar auf seinen Namen, nehmen Sie die Änderungen vor und speichern Sie. Für aktive Kanäle können nur bestimmte Felder bearbeitet werden ([ Informationen](#test-activate).
+1. Um einen Kanal zu bearbeiten, klicken Sie im Inventar auf seinen Namen, nehmen Sie die Änderungen vor und speichern Sie. Für aktive Kanäle können nur bestimmte Felder bearbeitet werden ([&#x200B; Informationen](#test-activate).
 
    >[!CAUTION]
    >
