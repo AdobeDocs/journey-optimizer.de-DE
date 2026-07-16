@@ -10,27 +10,15 @@ keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 54%
+source-wordcount: 2175
+ht-degree: 46%
 
 ---
 
@@ -115,6 +103,35 @@ Nach dem Zeitraum für den erneuten Eintritt können Profile erneut in die Journ
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### Erneuter Eintritt in alle Journey-Versionen {#reentrance-versions}
+
+Ein Profil kann nicht mehrmals gleichzeitig auf derselben Journey aktiv sein, auch nicht in allen aktiven Versionen dieser Journey.
+
+Die Einstellungen für den erneuten Eintritt sind für die aktuelle Journey-Version konfiguriert. [!DNL Journey Optimizer] wird aber auch überprüft, ob das Profil bereits in einer anderen aktiven Version derselben Journey aktiv ist. Wenn das Profil weiterhin eine frühere Version verwendet, wird ein neuer Eintrag blockiert, bis diese aktive Instanz beendet oder das Profil entfernt wird.
+
+Beim Veröffentlichen einer neuen Journey-Version werden In-Flight-Profile nicht auf die neue Version verschoben. Profile, die bereits in eine frühere Version eingetreten sind, bleiben in dieser Version, bis sie die Journey verlassen. Wenn sie später wieder berechtigt werden, geben sie die neueste Live-Version ein.
+
+**Beispiel**
+
+Um zu verstehen, wie die Versionsübergreifende Blockierung funktioniert, beachten Sie die folgende Sequenz:
+
+1. Version 1 einer Journey ist live und ein Profil tritt ein.
+1. Sie veröffentlichen Version 2 derselben Journey.
+1. Wenn das Profil weiterhin in Version 1 aktiv ist, kann es nicht gleichzeitig eine neue aktive Instanz in Version 2 starten.
+1. Nachdem das Profil die frühere Instanz beendet hat, kann es vorbehaltlich der Konfiguration des erneuten Eintritts der Journey erneut in die neueste Live-Version wechseln.
+
+>[!WARNING]
+>
+>**Warum sehe ich `exportedsegment_existinginstance`?**
+>
+>Wenn der `exportedsegment_existinginstance` angezeigt wird, bedeutet dies im Allgemeinen, dass das Profil bereits über eine aktive Instanz auf derselben Journey verfügt. Dies tritt häufig auf, wenn ein wiederkehrender oder wiederholter Eintrag versucht zu beginnen, während das Profil noch in einer anderen Instanz dieser Journey aktiv ist, einschließlich einer früheren aktiven Version.
+>
+>Wenn Sie diesen Fehler beheben, überprüfen Sie Folgendes:
+>
+>* Gibt an, ob das Profil in einer anderen aktiven Version der Journey noch aktiv ist.
+>* Ob eine frühere wiederkehrende Ausführung weiterhin aktiv ist.
+>* Ob das Journey-Design lange Wartezeiten oder andere Aktivitäten umfasst, die Profile über einen längeren Zeitraum aktiv halten.
 
 ## Geschäfts-Journeys {#entry-business}
 
