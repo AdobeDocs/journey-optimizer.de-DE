@@ -192,7 +192,7 @@ In diesem Abschnitt können Sie verschiedene Gebietsschemata zur Verwaltung Ihre
 
    1. Greifen Sie in der Datenerfassung von Adobe Experience Platform auf die Tag-Eigenschaften zu.
 
-   1. Greifen Sie auf das Menü **[!UICONTROL Regeln]** zu und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform] [Datenerfassungsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. Greifen Sie auf das Menü **[!UICONTROL Regeln]** zu und erstellen Sie eine neue Regel. Ausführliche Informationen zum Erstellen von Regeln finden Sie in der [!DNL Adobe Experience Platform] [Datenerfassungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    1. Fügen Sie im Abschnitt **[!UICONTROL WENN]** der Regel ein Ereignis hinzu, das wie folgt konfiguriert wurde:
 

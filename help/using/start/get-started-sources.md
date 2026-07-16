@@ -143,7 +143,7 @@ Detaillierte Informationen zum Konfigurieren und Verwalten von Quellen finden Si
 Nachdem Sie nun wissen, was Quellen sind und warum sie wichtig sind:
 
 * Suchen Sie im [Quellenkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
-* Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
-* Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
+* Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home){target="_blank"}
+* Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home){target="_blank"}
 * Erfahren Sie, wie Sie [importierte Daten in Journeys verwenden](../building-journeys/journey-gs.md)
 * Lesen Sie den Überblick [Erste Schritte mit dem Daten-Management](../data/gs-data.md), um mehr darüber zu erfahren, wie Quellen in die vollständige Dateneinrichtung für Journey Optimizer passen.
