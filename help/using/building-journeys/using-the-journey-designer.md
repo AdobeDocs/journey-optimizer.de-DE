@@ -11,31 +11,16 @@ keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 67%
+source-wordcount: 2469
+ht-degree: 66%
 
 ---
 
@@ -86,6 +71,21 @@ Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, 
 Abhängig vom Status der Journey können Sie mithilfe der verfügbaren Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Testmethode]**, **[!UICONTROL Zugriff verwalten]**, **[!UICONTROL Warnhinweise]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![Schaltflächen für Journey-Aktionen: „Veröffentlichen“, „Duplizieren“, „Löschen“, „Testmodus“, „Zugriff verwalten“, „Warnhinweise“](assets/journey41.png)
+
+## Neue Journey-Benutzeroberfläche {#canvas-capabilities}
+
+Eine **neue Benutzeroberfläche** ist für die Journey-Arbeitsfläche verfügbar, die speziell für Ihre komplexesten Anwendungsfälle entwickelt wurde:
+
+* **Performance** - Verarbeitet große Journey mit vielen Schritten und Verzweigungen effizient.
+* **Automatisches Layout** - Organisiert automatisch Aktivitäten, um die Lesbarkeit zu verbessern.
+* **Geführtes Authoring** - Bietet ein strukturiertes Authoring-Erlebnis, mit dem Sie mühelos und effizient Journey erstellen können.
+
+![](assets/journey-new-canvas.png)
+
+Um zum neuen Erlebnis zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Neues Erlebnis]** auf der Journey-Arbeitsfläche. Nach dem Wechsel wird diese Einstellung auf Journey-Ebene gespeichert, sodass die Journey bei nachfolgenden Besuchen standardmäßig in der neuen -Version geöffnet wird. Klicken Sie auf die Schaltfläche **[!UICONTROL Altes Erlebnis]**, um es wiederherzustellen.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Starten der Journey {#start-your-journey}
 
@@ -167,12 +167,12 @@ Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder i
 Im Folgenden werden die Schritte zum Kopieren/Einfügen von Aktivitäten beschrieben:
 
 1. Öffnen Sie eine Journey.
-1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg/Befehl** drücken. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
+1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg-/Befehlstaste** gedrückt halten. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
    ![Auswählen mehrerer Aktivitäten in Journey zum Kopieren](assets/copy-paste1.png)
-1. Drücken Sie **Strg/Befehl + C**.
-Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das **Kopieren**-Symbol verwenden.
+1. Drücken Sie **Strg/Befehl+C**.
+Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das Symbol **Kopieren** verwenden.
    ![Symbol „Kopieren“ im Konfigurationsbereich für Aktivitäten](assets/copy-paste2.png)
-1. Drücken Sie auf einer beliebigen Journey **Strg/Befehl + V**, um die Aktivitäten einzufügen, ohne sie mit einem bestehenden Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge platziert. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
+1. Drücken Sie in einer beliebigen Journey die **Strg-/Befehlstaste + V**, um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl+V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![Eingefügte Aktivitäten auf der Journey-Arbeitsfläche, die verbunden werden können](assets/copy-paste3.png)
 
 +++ KI-Wissensreferenz

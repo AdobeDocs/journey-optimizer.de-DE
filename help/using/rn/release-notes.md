@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 709457e3a823c56785b4046dc2e5032a802f8b5c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
 workflow-type: tm+mt
-source-wordcount: 2884
-ht-degree: 78%
+source-wordcount: 3059
+ht-degree: 74%
 
 ---
 
@@ -95,6 +83,32 @@ ht-degree: 78%
 * **Neue Tools für AJO MCP-Server** - Der [!DNL Adobe Journey Optimizer] MCP-Server stellt jetzt fünf zusätzliche schreibgeschützte **Kanalkonfigurations-Tools** bereit, mit denen Sie Kanalkonfigurationen, unterstützende Ressourcen und Marketing-Aktionen direkt von Ihrem KI-Assistenten abfragen können. Sie können jetzt **Listenkanalkonfigurationen** (für alle AJO-Kanäle), **Kanalkonfiguration abrufen**, **Listenkonfigurationsressourcen**, **Konfigurationsressource abrufen** und **Marketing-Aktionen auflisten**. [Weitere Informationen](../integrations/ajo-mcp.md#mcp-tools)
 
   Verfügbarkeitsdatum: 9. Juli 2026
+
+
+### Verbesserungen der Benutzerfreundlichkeit {#july-26-usability}
+
+Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden im Juli 2026 veröffentlicht.
+
+#### Content-Management
+
+* **Schnellstartverknüpfungen im Fragmentbestand** - Sie können jetzt über die Schaltfläche „Weitere Aktionen“ schnell auf allgemeine Aktionen aus **[!UICONTROL Fragmentliste]**. Zu den verfügbaren Tastaturbefehlen gehören das Bearbeiten des Fragments, das Öffnen seiner Details und das Verwerfen der Entwurfsversion. [Weitere Informationen](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **Schnellstartverknüpfungen im Vorlagenbestand** - Die Schaltfläche **[!UICONTROL Mehr Aktionen]** in der Liste Inhaltsvorlagen bietet jetzt schnellen Zugriff auf allgemeine Aktionen: Bearbeiten von Vorlagendetails, Simulieren von Inhalten und Löschen einer Vorlage. Bei E-Mail-Vorlagen können Sie über zusätzliche Verknüpfungen die Betreffzeile und den E-Mail-Text bearbeiten, einen Testversand anzeigen oder senden, einen Spam-Bericht ausführen und die E-Mail rendern. [Weitere Informationen](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### Journeys
+
+Eine **neue Benutzeroberfläche** wurde für die Journey-Arbeitsfläche eingeführt und bietet eine verbesserte Leistung für große Journeys, ein automatisches Layout für bessere Lesbarkeit und ein geführtes Authoring-Erlebnis.
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+Um zur neuen Benutzeroberfläche zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Neues Erlebnis]**. Diese Einstellung wird auf der Journey-Ebene gespeichert, sodass die Journey standardmäßig in der neuen -Version wieder geöffnet wird. Klicken Sie auf „Altes Erlebnis **[!UICONTROL , um es]**. [Weitere Informationen](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Versionshinweise Juni 2026 {#june-26-rn}
 
