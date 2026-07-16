@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 12%
 
 ---
 
@@ -166,6 +166,10 @@ Konfigurieren Sie, wie Mitglieder sich anmelden, wann der Aufgabenfortschritt f�
 
    * **[!UICONTROL Häufigkeit, mit der die Aufgabe abgeschlossen werden kann]**: Wenn die Wiederholung aktiviert ist, geben Sie an, wie oft ein Mitglied die Herausforderung abschließen kann.
 
+* **[!UICONTROL Completion Requirements]** *(nur Standard-Challenges)*:
+
+   * **[!UICONTROL In einer einzigen Transaktion abschließen]**: Wenn diese Option aktiviert ist, müssen Kunden alle Aufgaben innerhalb einer einzigen Transaktion abschließen. Wenn diese Option deaktiviert ist, können Aufgaben über separate Transaktionen hinweg ausgeführt werden.
+
 ### Benutzerdefinierte Metadaten {#custom-metadata}
 
 Wählen Sie im Abschnitt **[!UICONTROL Benutzerdefinierte Metadaten]** die Option **[!UICONTROL Schlüssel/Wert-Paar hinzufügen]** aus, um benutzerdefinierte Metadaten hinzuzufügen. Verwenden Sie Metadaten für das Tracking oder die Integration mit externen Systemen.
@@ -278,28 +282,31 @@ So konfigurieren Sie, wann und wie Belohnungen bereitgestellt werden:
 
    +++
 
-Gestalten Sie nach der Konfiguration der Challenge-Struktur mit Aufgaben und Belohnungen die Inhaltskarten, um den Kunden die Challenge anzuzeigen.
+Nachdem Sie die Challenge-Struktur mit Aufgaben und Belohnungen konfiguriert haben, können Sie optional konfigurieren, wie die Challenge für Kunden dargestellt wird. Wenn Sie keine Challenge-Inhalte benötigen, überspringen Sie diesen Schritt und fahren Sie direkt mit [Konfigurieren von Messaging](#configure-messaging) fort.
 
-## Konfigurieren von Inhaltskarten {#configure-content-cards}
+## Konfigurieren von Challenge-Inhalten (optional) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Inhalt"
->abstract="Konfigurieren Sie die Inhaltskarte, die Ihre Challenge auf Kundengeräten darstellt und Informationen, Fortschritt und Prämien für die Challenge anzeigt. Geben Sie einen Namen für die Karte ein, wählen Sie eine Kanalkonfiguration aus, damit beim Versand die richtigen technischen Einstellungen verwendet werden (z. B. Header, Subdomain oder Apps), und wählen Sie dann „Inhalt bearbeiten“ aus, um das Kartenerlebnis zu entwerfen und zu personalisieren."
+>abstract="Konfigurieren Sie, wie Ihre Herausforderung an Orten dargestellt wird, an denen Mitglieder des Treueprogramms auf Herausforderungen zugreifen und ihren Fortschritt verfolgen. Verwenden Sie die Aktion „Hinzufügen“, um die Inhaltskarte auszuwählen, um ein kartenartiges Erlebnis anzuzeigen, oder das Code-basierte Erlebnis, um Inhalte über Ihre eigene benutzerdefinierte Implementierung bereitzustellen."
 
-Inhaltskarten stellen Ihre Herausforderung auf Kundengeräten visuell dar und zeigen Informationen zur Herausforderung, den Fortschritt und die Belohnungen an. [Weitere Informationen zu Inhaltskarten](../content-card/create-content-card.md).
+Die Registerkarte **[!UICONTROL Inhalt]** steuert, wie die Herausforderung an Orten dargestellt wird, an denen Mitglieder des Treueprogramms auf Herausforderungen zugreifen und ihren Fortschritt verfolgen.
 
-So konfigurieren Sie Inhaltskarten für Ihre Challenge:
+So konfigurieren Sie Challenge-Inhalte:
 
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** und geben Sie einen **[!UICONTROL Namen]** für die Inhaltskarte ein.
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** und klicken Sie auf **[!UICONTROL Aktion hinzufügen]**.
 
-1. Wählen Sie die **[!UICONTROL Kanalkonfiguration]**. Kanalkonfigurationen enthalten alle technischen Parameter zum Senden von Nachrichten, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen zu Kanalkonfigurationen](../configuration/channel-surfaces.md).
+1. Wählen Sie den Aktionstyp aus:
 
-1. Wählen Sie **[!UICONTROL Inhalt bearbeiten]** aus, um Ihre Inhaltskarte zu entwerfen. [Erfahren Sie, wie Sie Inhaltskarten entwerfen und personalisieren](../content-card/design-content-card.md).
+   * **[!UICONTROL Inhaltskarte]**: Zeigt die Herausforderung als kartenartiges Erlebnis auf Kundengeräten an. Wählen Sie eine **[!UICONTROL Kanalkonfiguration]** und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um die Karte zu entwerfen und zu personalisieren. [Weitere Informationen zu Inhaltskarten](../content-card/create-content-card.md).
+   * **[!UICONTROL Code-basiertes Erlebnis]**: Liefert Challenge-Inhalte über Ihre eigene benutzerdefinierte Implementierung mithilfe des Code-basierten Kanals von Journey Optimizer. Wählen Sie eine **[!UICONTROL Kanalkonfiguration]** und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** um den Inhalt zu definieren. [Erfahren Sie mehr über Code-basierte Erlebnisse](../code-based/create-code-based.md).
 
    ![](assets/challenge-create-content.png)
 
-Richten Sie nach der Konfiguration der Inhaltskarte Messaging ein, um Kunden während des gesamten Challenge-Lebenszyklus anzusprechen.
+   Sie können mehrere Aktionen hinzufügen, um die Herausforderung auf verschiedenen Oberflächen darzustellen.
+
+Richten Sie nach der Konfiguration des Inhalts Messaging ein, um Kunden während des gesamten Challenge-Lebenszyklus anzusprechen.
 
 ### Konfigurieren von Messaging {#configure-messaging}
 
