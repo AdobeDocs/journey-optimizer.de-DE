@@ -6,7 +6,7 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 'null'
+source-git-commit: aa6fdb91c641674aaf716ae4059fb1c48cbe96c3
 workflow-type: tm+mt
 source-wordcount: '3467'
 ht-degree: 96%
