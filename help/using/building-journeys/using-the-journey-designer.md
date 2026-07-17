@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
 source-wordcount: 2469
 ht-degree: 66%
@@ -99,7 +99,7 @@ Eine **neue Benutzeroberfläche** ist für die Journey-Arbeitsfläche verfügbar
 
 Um zum neuen Erlebnis zu wechseln, klicken Sie auf die Schaltfläche **[!UICONTROL Neues Erlebnis]** auf der Journey-Arbeitsfläche. Nach dem Wechsel wird diese Einstellung auf Journey-Ebene gespeichert, sodass die Journey bei nachfolgenden Besuchen standardmäßig in der neuen -Version geöffnet wird. Klicken Sie auf die Schaltfläche **[!UICONTROL Altes Erlebnis]**, um es wiederherzustellen.
 
-![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](assets/journey-new-experience-switch.png)
 
 
 ## Starten der Journey {#start-your-journey}
